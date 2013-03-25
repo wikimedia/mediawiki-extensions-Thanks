@@ -35,21 +35,24 @@ $4',
 );
 
 /** Message documentation (Message documentation)
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'thanks-desc' => '{{desc}}',
+	'thanks-desc' => '{{desc|name=Thanks|url=http://www.mediawiki.org/wiki/Extension:Thanks}}',
 	'thanks-thank' => 'Link to thank another user. This is a verb.',
-	'thanks-thanked' => 'Message that replaces the link to thank another user after they have been thanked ({{msg-mw|Echo-thank}})',
-	'thanks-error-undefined' => 'Error message that is displayed when the thank action fails',
+	'thanks-thanked' => 'Message that replaces the link to thank another user after they have been thanked (Echo-thank).',
+	'thanks-error-undefined' => 'Error message that is displayed when the thank action fails.
+{{Identical|Please try again}}',
 	'thanks-error-invalidrevision' => 'Error message that is displayed when the revision ID is not valid',
 	'thanks-error-ratelimited' => 'Error message that is displayed when user exceeds rate limit',
 	'thanks-thank-tooltip' => 'Tooltip that appears when a user hovers over the "thank" link',
 	'echo-pref-subscription-edit-thank' => 'Option for getting notifications when someone thanks the user for their edit.
 
 This is the conclusion of the sentence begun by the header: {{msg-mw|Prefs-echosubscriptions}}.',
-	'echo-category-title-edit-thank' => 'This is a short title for the notification category. Used as <code>$1</code> in {{msg-mw|Echo-dismiss-message}} and <code>$2</code> in {{msg-mw|Echo-email-batch-
-category-header}} and <code>$2</code> in {{msg-mw|Echo-email-batch-
-category-header}}.',
+	'echo-category-title-edit-thank' => 'This is a short title for the notification category.
+
+Used as <code>$1</code> in {{msg-mw|Echo-dismiss-message}} and as <code>$2</code> in {{msg-mw|Echo-email-batch-category-header}}
+{{Identical|Thanks}}',
 	'notification-thanks-diff-link' => "The text of a link to the user's edit.
 
 Used for <code>$2</code> in {{msg-mw|Notification-thanks}}. Should have capitalization appropriate for the middle of a sentence.",
@@ -154,9 +157,178 @@ $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|agradeceu}} a súa edición en "$2".',
 );
 
+/** Italian (italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'thanks-thank' => 'ringrazia',
+	'thanks-thanked' => 'ringraziato',
+	'thanks-error-invalidrevision' => 'ID versione non è valido.',
+	'thanks-thank-tooltip' => 'Invia una notifica di ringraziamento a questo utente',
+	'echo-pref-subscription-edit-thank' => 'Mi ringrazia per una mia modifica',
+	'echo-category-title-edit-thank' => 'Grazie',
+	'notification-thanks-diff-link' => 'la tua modifica',
+	'notification-thanks' => '[[User:$1|$1]] ti {{GENDER:$1|ha ringraziato}} per $2 su [[$3]].',
+	'notification-thanks-flyout' => '$1 ti {{GENDER:$1|ha ringraziato}} per $2 su $3.',
+	'notification-thanks-email-subject' => '$1 ti {{GENDER:$1|ha ringraziato}} per la tua modifica su {{SITENAME}}.',
+	'notification-thanks-email-body' => "L'utente $1 di {{SITENAME}} ti {{GENDER:$1|ha ringraziato}} per la tua modifica su $2.
+
+Vedi la tua modifica:
+
+$3
+
+$4",
+	'notification-thanks-email-batch-body' => '$1 ti {{GENDER:$1|ha ringraziato}} per la tua modifica su $2.',
+);
+
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'thanks-desc' => '履歴ページおよび差分ページに、感謝するリンクを追加する',
+	'thanks-thank' => '感謝',
+	'thanks-thanked' => '感謝しました',
+	'thanks-error-undefined' => '感謝の操作に失敗しました。もう一度やり直してください。',
+	'thanks-error-invalidrevision' => '版 ID が無効です。',
+	'thanks-error-ratelimited' => '速度制限を超えました。しばらくしてからもう一度やり直してください。',
+	'thanks-thank-tooltip' => 'この利用者に感謝の通知を送信する',
+	'echo-pref-subscription-edit-thank' => '自分の編集に誰かが感謝したとき',
+	'echo-category-title-edit-thank' => '感謝',
+	'notification-thanks-diff-link' => 'あなたの編集',
+	'notification-thanks' => '[[User:$1|$1]] が [[$3]] での$2に{{GENDER:$1|感謝しました}}',
+	'notification-thanks-flyout' => '$1 が $3 での$2に{{GENDER:$1|感謝しました}}',
+	'notification-thanks-email-subject' => '$1 が{{SITENAME}}でのあなたの編集に{{GENDER:$1|感謝しました}}',
+	'notification-thanks-email-body' => '{{SITENAME}}の利用者 $1 が $2 でのあなたの編集に{{GENDER:$1|感謝しました}}。
+
+あなたの編集はこちら:
+
+$3
+
+$4',
+	'notification-thanks-email-batch-body' => '$1 が $2 でのあなたの編集に{{GENDER:$1|感謝しました}}',
+);
+
+/** Macedonian (македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'thanks-desc' => 'Додава врски за заблагодарувања во историјата и прегледот на разликите',
+	'thanks-thank' => 'заблагодари се',
+	'thanks-thanked' => 'заблагодарено',
+	'thanks-error-undefined' => 'Заблагодарувањето не успеа. Обидете се повторно.',
+	'thanks-error-invalidrevision' => 'Ревизијата има неважечка назнака.',
+	'thanks-error-ratelimited' => 'Ја надминавте границата на заблагодарувања. Почекајте некое време, па обидете се подоцна',
+	'thanks-thank-tooltip' => 'Испратете му благодарност (во порака) на корисников',
+	'echo-pref-subscription-edit-thank' => 'Ќе ми се заблагодари за мое уредување',
+	'echo-category-title-edit-thank' => 'Благодарам',
+	'notification-thanks-diff-link' => 'вашето уредување',
+	'notification-thanks' => '[[User:$1|$1]] ви {{GENDER:$1|благодари}} за $2 на [[$3]].',
+	'notification-thanks-flyout' => '$1 ви {{GENDER:$1|благодари}} за $2 на $3.',
+	'notification-thanks-email-subject' => '$1 ви {{GENDER:$1|благодари}} за вашето уредување на {{SITENAME}}',
+	'notification-thanks-email-body' => 'Корисникот $1 на {{SITENAME}} {{GENDER:$1|ви благодари}} за вашето уредување на $2.
+
+Уредување можете да го погледате тука:
+
+$3
+
+$4',
+	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|Ви заблагодари}} за вашето уредување на $2.',
+);
+
 /** Dutch (Nederlands)
+ * @author Konovalov
  * @author SPQRobin
+ * @author Siebrand
  */
 $messages['nl'] = array(
+	'thanks-thank' => 'dank',
+	'thanks-thanked' => 'Bedankt',
+	'thanks-error-undefined' => 'Bedank actie mislukt. Probeer het alstublieft opnieuw.',
+	'thanks-error-ratelimited' => 'U hebt uw beoordelingslimiet overschreden. Wacht alstublieft enige tijd en probeer het opnieuw.',
+	'thanks-thank-tooltip' => 'Verstuur een bedankbericht naar deze gebruiker',
+	'echo-pref-subscription-edit-thank' => 'Bedankt u voor uw bewerking',
 	'echo-category-title-edit-thank' => 'Bedankt',
+	'notification-thanks-diff-link' => 'uw bewerking',
+	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|bedankte}} u voor uw bewerking op $2.',
+);
+
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Милан Јелисавчић
+ */
+$messages['sr-ec'] = array(
+	'thanks-thank' => 'захвали се',
+	'thanks-thank-tooltip' => 'Пошаљите захвалницу овом кориснику',
+	'echo-category-title-edit-thank' => 'Захвалнице',
+	'notification-thanks-diff-link' => 'вашој измени',
+	'notification-thanks' => '[[User:$1|$1]] вам се {{GENDER:$1|захваљује}} на $2 странице [[$3]].',
+);
+
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'thanks-desc' => 'Nagdaragdag ng mga kawing na pampasalamat sa pantanaw ng kasaysayan at ng pagkakaiba',
+	'thanks-thank' => 'pasalamatan',
+	'thanks-thanked' => 'napasalamatan na',
+	'thanks-error-undefined' => 'Nabigo ang galaw ng pagpapasalamat. Paki subukan ulit.',
+	'thanks-error-invalidrevision' => 'Hindi katanggap-tanggap ang ID ng rebisyon.',
+	'thanks-error-ratelimited' => 'Lumampas ka na sa iyong hangganang antas. Paki maghintay ng ilang panahon at sumubok ulit.',
+	'thanks-thank-tooltip' => 'Magpadala ng isang pabatid ng pasasalamat sa tagagamit na ito',
+	'echo-pref-subscription-edit-thank' => 'Pinasalamatan ako dahil sa aking pamamatnugot',
+	'echo-category-title-edit-thank' => 'Salamat',
+	'notification-thanks-diff-link' => 'ang binago mo',
+	'notification-thanks' => '{{GENDER:$1|Pinasalamatan}} ka ni [[User:$1|$1]] para sa $2 na naroon sa [[$3]].',
+	'notification-thanks-flyout' => '{{GENDER:$1|Pinasalamatan}} ka ni $1 para sa $2 na naroon sa $3.',
+	'notification-thanks-email-subject' => '{{GENDER:$1|Pinasalamatan}} ka ni $1 para sa iyong pamamatnugot doon sa {{SITENAME}}',
+	'notification-thanks-email-body' => 'Ang tagagamit ng {{SITENAME}} na si $1 ay {{GENDER:$1|nagpapasalamat}} sa iyo para sa pamamatnugot mo roon sa $2.
+
+Tanawin ang binago mo:
+
+$3
+
+$4',
+	'notification-thanks-email-batch-body' => '{{GENDER:$1|Pinasalamatan}} ka ni $1 para sa iyong binago roon sa $2.',
+);
+
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'thanks-desc' => 'Thêm liên kết cám ơn vào các trang lịch sử và khác biệt',
+	'thanks-thank' => 'cám ơn',
+	'thanks-thanked' => 'đã cám ơn',
+	'thanks-error-undefined' => 'Thất bại cám ơn. Xin vui lòng thử lại.',
+	'thanks-error-invalidrevision' => 'Số phiên bản không hợp lệ.',
+	'thanks-error-ratelimited' => 'Bạn đã vượt quá giới hạn tốc độ. Xin vui lòng thử lại lát nữa.',
+	'thanks-thank-tooltip' => 'Gửi thông báo cám ơn cho người dùng này',
+	'echo-pref-subscription-edit-thank' => 'Gửi lời cám ơn cho tôi vì một sửa đổi của tôi',
+	'echo-category-title-edit-thank' => 'Cám ơn',
+	'notification-thanks-diff-link' => 'sửa đổi của bạn',
+	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1}}cám ơn bạn vì $2 tại [[$3]].',
+	'notification-thanks-flyout' => '$1 {{GENDER:$1}}cám ơn bạn vì $2 tại $3.',
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1}}cám ơn bạn vì sửa đổi của bạn tại {{SITENAME}}',
+	'notification-thanks-email-body' => 'Người dùng $1 tại {{SITENAME}} {{GENDER:$1}}cám ơn bạn vì sửa đổi gần đây của bạn tại $2.
+
+Xem sửa đổi của bạn:
+
+$3
+
+$4',
+	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1}}cám ơn bạn vì sửa đổi của bạn tại $2.',
+);
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'thanks-desc' => '添加感谢链接到历史记录和差异查看',
+	'thanks-thank' => '感谢',
+	'thanks-thanked' => '已感谢',
+	'thanks-error-undefined' => '感谢操作失败。请再试一次。',
+	'thanks-error-invalidrevision' => '修订ID无效。',
+	'thanks-error-ratelimited' => '您已超过您的速率限制。请等一段时间再试。',
+	'thanks-thank-tooltip' => '发送一条感谢你通知给此用户',
+	'echo-pref-subscription-edit-thank' => '感谢我的编辑',
+	'echo-category-title-edit-thank' => '感谢',
+	'notification-thanks-diff-link' => '您的编辑',
 );
