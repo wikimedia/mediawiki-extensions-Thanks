@@ -75,6 +75,14 @@ Used for <code>$2</code> in {{msg-mw|Notification-thanks}}. Should have capitali
 * $2 the title of the page the user edited.',
 );
 
+/** Arabic (العربية)
+ * @author ترجمان05
+ */
+$messages['ar'] = array(
+	'thanks-thanked' => 'مشكور',
+	'echo-category-title-edit-thank' => 'شكرا',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
