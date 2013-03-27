@@ -36,11 +36,12 @@ $4',
 
 /** Message documentation (Message documentation)
  * @author Shirayuki
+ * @author Siebrand
  */
 $messages['qqq'] = array(
 	'thanks-desc' => '{{desc|name=Thanks|url=http://www.mediawiki.org/wiki/Extension:Thanks}}',
 	'thanks-thank' => 'Link to thank another user. This is a verb.',
-	'thanks-thanked' => 'Message that replaces the link to thank another user after they have been thanked (Echo-thank).',
+	'thanks-thanked' => 'Message that replaces the link to thank another user after they have been thanked (Echo-thank). This is short for "the user that created this revision has been thanked for it".',
 	'thanks-error-undefined' => 'Error message that is displayed when the thank action fails.
 {{Identical|Please try again}}',
 	'thanks-error-invalidrevision' => 'Error message that is displayed when the revision ID is not valid',
@@ -249,15 +250,27 @@ $4',
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'thanks-thank' => 'dank',
-	'thanks-thanked' => 'Bedankt',
-	'thanks-error-undefined' => 'Bedank actie mislukt. Probeer het alstublieft opnieuw.',
-	'thanks-error-ratelimited' => 'U hebt uw beoordelingslimiet overschreden. Wacht alstublieft enige tijd en probeer het opnieuw.',
-	'thanks-thank-tooltip' => 'Verstuur een bedankbericht naar deze gebruiker',
+	'thanks-desc' => 'Voegt "Bedankt"-koppelingen toe aan geschiedenis en verschillenweergaves',
+	'thanks-thank' => 'bedanken',
+	'thanks-thanked' => 'is bedankt',
+	'thanks-error-undefined' => 'Bedanken is mislukt. Probeer het opnieuw.',
+	'thanks-error-invalidrevision' => 'Het versienummer is niet geldig.',
+	'thanks-error-ratelimited' => 'U hebt uw limiet voor bedankjes overschreden. Wacht even en probeer het dan opnieuw.',
+	'thanks-thank-tooltip' => 'Deze gebruiker bedanken',
 	'echo-pref-subscription-edit-thank' => 'Bedankt u voor uw bewerking',
 	'echo-category-title-edit-thank' => 'Bedankt',
 	'notification-thanks-diff-link' => 'uw bewerking',
-	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|bedankte}} u voor uw bewerking op $2.',
+	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|heeft}} u bedankt voor $2 op [[$3]].',
+	'notification-thanks-flyout' => '$1 {{GENDER:$1|heeft}} u bedankt voor $2 op $3.',
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1|heeft}} u bedankt voor uw bewerking op  {{SITENAME}}',
+	'notification-thanks-email-body' => 'Gebruiker $1 van {{SITENAME}} {{GENDER:$1|heeft}} u bedankt voor uw bewerking aan$2.
+
+Bekijk uw bewerking:
+
+$3
+
+$4',
+	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|heeft}} u bedankt voor uw bewerking op $2.',
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
