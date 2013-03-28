@@ -340,6 +340,7 @@ $4',
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Yfdyh000
+ * @author Zhuyifei1999
  */
 $messages['zh-hans'] = array(
 	'thanks-desc' => '添加感谢链接到历史记录和差异查看',
@@ -352,4 +353,15 @@ $messages['zh-hans'] = array(
 	'echo-pref-subscription-edit-thank' => '感谢我的编辑',
 	'echo-category-title-edit-thank' => '感谢',
 	'notification-thanks-diff-link' => '您的编辑',
+	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|感谢}}你的$2在[[$3]].',
+	'notification-thanks-flyout' => '$1 {{GENDER:$1|感谢}} 您的$2在$3 。',
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1|感谢}} 您的编辑在{{SITENAME}}',
+	'notification-thanks-email-body' => '{{SITENAME}} 用户 $1  {{GENDER:$1| 感谢}} 您的编辑$2 。
+
+查看您的编辑：
+
+$3
+
+$4',
+	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|感谢}} 您的编辑在$2',
 );
