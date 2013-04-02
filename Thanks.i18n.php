@@ -284,6 +284,14 @@ $messages['sr-ec'] = array(
 	'notification-thanks' => '[[User:$1|$1]] вам се {{GENDER:$1|захваљује}} на $2 странице [[$3]].',
 );
 
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'thanks-error-undefined' => 'కృతజ్ఞతల చర్య విఫలమైంది. దయచేసి మళ్ళీ ప్రయత్నించండి.',
+	'notification-thanks-diff-link' => 'మీ మార్పు',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
