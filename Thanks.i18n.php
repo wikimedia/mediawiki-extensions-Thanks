@@ -84,6 +84,33 @@ $messages['ar'] = array(
 	'echo-category-title-edit-thank' => 'شكرا',
 );
 
+/** Czech (česky)
+ * @author Mormegil
+ */
+$messages['cs'] = array(
+	'thanks-desc' => 'Přidává do historie a zobrazení rozdílů odkazy pro poděkování',
+	'thanks-thank' => 'poděkovat',
+	'thanks-thanked' => 'poděkováno',
+	'thanks-error-undefined' => 'Poděkování se nezdařilo. Zkuste to prosím znovu.',
+	'thanks-error-invalidrevision' => 'ID revize je neplatné.',
+	'thanks-error-ratelimited' => 'Překročili jste rychlostní limit. Počkejte prosím chvíli a zkuste to znovu.',
+	'thanks-thank-tooltip' => 'Poslat tomuto uživateli poděkování',
+	'echo-pref-subscription-edit-thank' => '…mi někdo poděkuje za editaci',
+	'echo-category-title-edit-thank' => 'Poděkování',
+	'notification-thanks-diff-link' => 'vaši úpravu',
+	'notification-thanks' => '[[User:$1|$1]] vám {{GENDER:$1|poděkoval|poděkovala}} za $2 stránky [[$3]].',
+	'notification-thanks-flyout' => '$1 vám {{GENDER:$1|poděkoval|poděkovala}} za $2 stránky $3.',
+	'notification-thanks-email-subject' => '$1 vám {{GENDER:$1|poděkoval|poděkovala}} za vaši editaci na {{grammar:6sg|{{SITENAME}}}}',
+	'notification-thanks-email-body' => '{{GENDER:$1|Uživatel|Uživatelka}} $1 na {{grammar:6sg|{{SITENAME}}}} vám {{GENDER:$1|poděkoval|poděkovala}} za vaši úpravu stránky $2.
+
+Můžete si prohlédnout svou úpravu:
+
+$3
+
+$4',
+	'notification-thanks-email-batch-body' => '$1 vám {{GENDER:$1|poděkoval|poděkovala}} za vaši úpravu stránky $2.',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
