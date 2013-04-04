@@ -300,6 +300,20 @@ $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|heeft}} u bedankt voor uw bewerking op $2.',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'thanks-thank' => 'مننه',
+	'thanks-thanked' => 'منندوی شو',
+	'thanks-error-undefined' => 'د مننې چاره پاتې راغله. بيا مو هڅه وکړۍ.',
+	'thanks-error-invalidrevision' => 'د کره کتنې پېژند سم نه دی.',
+	'thanks-thank-tooltip' => 'دې کارن ته د مننې يو پيغام ورلېږل',
+	'echo-pref-subscription-edit-thank' => 'زه د سمون پخاطر زما منندوی شه',
+	'echo-category-title-edit-thank' => 'مننه',
+	'notification-thanks-diff-link' => 'ستاسې سمون',
+);
+
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Милан Јелисавчић
  */
