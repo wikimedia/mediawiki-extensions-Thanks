@@ -91,9 +91,9 @@ class ThanksHooks {
 	 * Add extension event to $wgEchoEnabledEvents
 	 * @param $wgEchoEnabledEvents array a list of enabled echo events
 	 * @param $wgEchoEventDetails array details for echo events
+	 * @return bool
 	 */
 	public static function onBeforeCreateEchoEvent( &$wgEchoNotifications, &$wgEchoNotificationCategories ) {
-
 		$wgEchoNotificationCategories['edit-thank'] = array(
 			'priority' => 3,
 		);
@@ -123,6 +123,7 @@ class ThanksHooks {
 	 * Add user to be notified on echo event
 	 * @param $event EchoEvent
 	 * @param $users array
+	 * @return bool
 	 */
 	public static function onEchoGetDefaultNotifiedUsers( $event, &$users ) {
 		switch ( $event->getType() ) {
