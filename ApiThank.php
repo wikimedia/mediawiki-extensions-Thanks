@@ -1,5 +1,10 @@
 <?php
-
+/**
+ * API module to send thanks notifications
+ *
+ * @ingroup API
+ * @ingroup Extensions
+ */
 class ApiThank extends ApiBase {
 	public function execute() {
 
@@ -67,7 +72,7 @@ class ApiThank extends ApiBase {
 	public function getParamDescription() {
 		return array(
 			'rev' => 'A revision ID for an edit that you want to thank someone for',
-			'token' => 'An edit token',
+			'token' => 'An edit token (to prevent CSRF abuse)',
 			'source' => "A short string describing the source of the request, for example, 'diff' or 'history'",
 		);
 	}
