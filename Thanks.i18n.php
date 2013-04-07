@@ -84,6 +84,14 @@ $messages['ar'] = array(
 	'echo-category-title-edit-thank' => 'شكرا',
 );
 
+/** Breton (brezhoneg)
+ * @author Y-M D
+ */
+$messages['br'] = array(
+	'thanks-thank' => 'trugarez',
+	'thanks-thanked' => 'trugarekaet',
+);
+
 /** Czech (česky)
  * @author Mormegil
  */
