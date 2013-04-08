@@ -20,6 +20,7 @@
 			$thankLink.remove();
 		} )
 		.fail( function( errorCode, details ) {
+			// TODO: use something besides alert for the error messages
 			switch( errorCode ) {
 				case 'invalidrevision':
 					alert( mw.msg( 'thanks-error-invalidrevision' ) );
