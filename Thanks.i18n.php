@@ -77,7 +77,7 @@ Used for <code>$2</code> in {{msg-mw|Notification-thanks}}. Should have capitali
 	'notification-thanks-email-batch-body' => 'E-mail notification. Parameters:
 * $1 is a username. Can be used for GENDER.
 * $2 the title of the page the user edited.',
-	'log-name-thanks' => 'Name of log that appears on Special:Log',
+	'log-name-thanks' => 'Name of log that appears on [[Special:Log]].',
 	'log-description-thanks' => 'Description of thanks log',
 	'logentry-thanks-thank' => 'Log entry that is created when a user thanks another user for an edit. Parameters:
 * $1 is a user link, for example "Jane Doe (Talk | contribs)"
@@ -153,11 +153,15 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|dankte}} dir für deine Bearbeitung auf $2.',
+	'log-name-thanks' => 'Dankes-Logbuch',
+	'log-description-thanks' => 'Dieses Logbuch protokolliert Danksagungen an andere Benutzer.',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|dankte}} $3',
 );
 
 /** French (français)
  * @author Boniface
  * @author Gomoko
+ * @author Metroitendo
  */
 $messages['fr'] = array(
 	'thanks-desc' => 'Ajoute des liens de remerciement aux vues historique et de différence',
@@ -181,6 +185,9 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '$1 vous {{GENDER:$1|a remercié}} pour votre modification sur $2.',
+	'log-name-thanks' => 'Entrée remerciements',
+	'log-description-thanks' => 'Ces entrées permettent de savoir quand un utilisateur en remercie un autre',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|remercie}} $3',
 );
 
 /** Galician (galego)
@@ -208,6 +215,9 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|agradeceu}} a súa edición en "$2".',
+	'log-name-thanks' => 'Rexistro de agradecementos',
+	'log-description-thanks' => 'Este rexistro leva conta dos agradecementos feitos aos usuarios',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|deu as grazas a}} $3',
 );
 
 /** Italian (italiano)
@@ -259,6 +269,7 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '$1 が $2 でのあなたの編集に{{GENDER:$1|感謝しました}}',
+	'log-name-thanks' => '感謝記録',
 );
 
 /** Macedonian (македонски)
