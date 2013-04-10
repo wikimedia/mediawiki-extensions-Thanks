@@ -44,6 +44,7 @@ $dir = __DIR__;
 $wgAutoloadClasses['ThanksHooks'] = $dir . '/Thanks.hooks.php';
 $wgAutoloadClasses['EchoThanksFormatter'] = $dir . '/ThanksFormatter.php';
 $wgAutoloadClasses['ApiThank'] = $dir . '/ApiThank.php';
+$wgAutoloadClasses['ThanksLogFormatter'] = $dir . '/ThanksLogFormatter.php';
 $wgExtensionMessagesFiles['Thanks'] = $dir . '/Thanks.i18n.php';
 
 // Register APIs
@@ -77,10 +78,17 @@ $wgResourceModules['ext.thanks'] = array(
 	'remoteExtPath' => 'Thanks/modules',
 );
 
+// Logging
+$wgLogTypes[] = 'thanks';
+$wgLogActionsHandlers['thanks/*'] = 'ThanksLogFormatter';
+
 /* Configuration */
 
 // Enable sending thanks to bots
 $wgThanksSendToBots = false;
+
+// Whether or not thanks should be logged in Special:Log
+$wgThanksLogging = true;
 
 // Set how many thanks can be sent per minute by a single user (default 10)
 $wgRateLimits += array(

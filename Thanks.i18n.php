@@ -32,6 +32,9 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|thanked}} you for your edit on $2.',
+	'log-name-thanks' => 'Thanks log',
+	'log-description-thanks' => 'These events track when users thank other users',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|thanked}} $3',
 );
 
 /** Message documentation (Message documentation)
@@ -74,6 +77,12 @@ Used for <code>$2</code> in {{msg-mw|Notification-thanks}}. Should have capitali
 	'notification-thanks-email-batch-body' => 'E-mail notification. Parameters:
 * $1 is a username. Can be used for GENDER.
 * $2 the title of the page the user edited.',
+	'log-name-thanks' => 'Name of log that appears on Special:Log',
+	'log-description-thanks' => 'Description of thanks log',
+	'logentry-thanks-thank' => 'Log entry that is created when a user thanks another user for an edit. Parameters:
+* $1 is a user link, for example "Jane Doe (Talk | contribs)"
+* $2 is a username. Can be used for GENDER.
+* $3 is a user link, for example "John Doe (Talk | contribs)',
 );
 
 /** Arabic (العربية)

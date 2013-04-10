@@ -7,6 +7,7 @@
  */
 class ApiThank extends ApiBase {
 	public function execute() {
+		global $wgThanksLogging;
 
 		if ( !class_exists( 'EchoNotifier' ) ) {
 			$this->dieUsage( 'Echo is not installed on this wiki', 'echonotinstalled' );
@@ -58,6 +59,14 @@ class ApiThank extends ApiBase {
 				) );
 				// Set success message
 				$result['success'] = '1';
+				// Log it if we're supposed to log it
+				if ( $wgThanksLogging ) {
+					$logEntry = new ManualLogEntry( 'thanks', 'thank' );
+					$logEntry->setPerformer( $agent );
+					$target = User::newFromId( $recipient )->getUserPage();
+					$logEntry->setTarget( $target );
+					$logid = $logEntry->insert();
+				}
 			}
 		}
 		$this->getResult()->addValue( null, 'result', $result );
