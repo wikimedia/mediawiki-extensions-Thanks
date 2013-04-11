@@ -35,7 +35,7 @@ class ThanksHooks {
 			}
 			if ( $recipientAllowed && !$recipient->isAnon() ) {
 				// Add 'thank' link
-				$tooltip = wfMessage( 'thanks-thank-tooltip' )->escaped();
+				$tooltip = wfMessage( 'thanks-thank-tooltip' )->text();
 				$thankLink = Html::element(
 					'a',
 					array(
