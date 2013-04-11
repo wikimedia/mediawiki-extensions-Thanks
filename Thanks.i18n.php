@@ -245,6 +245,7 @@ $4",
 );
 
 /** Japanese (日本語)
+ * @author Fryed-peach
  * @author Shirayuki
  */
 $messages['ja'] = array(
@@ -270,6 +271,7 @@ $3
 $4',
 	'notification-thanks-email-batch-body' => '$1 が $2 でのあなたの編集に{{GENDER:$1|感謝しました}}',
 	'log-name-thanks' => '感謝記録',
+	'logentry-thanks-thank' => '$1 が $3 に{{GENDER:$2|感謝しました}}',
 );
 
 /** Macedonian (македонски)
@@ -326,6 +328,13 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|heeft}} u bedankt voor uw bewerking op $2.',
+);
+
+/** Polish (polski)
+ * @author Ty221
+ */
+$messages['pl'] = array(
+	'log-name-thanks' => 'Log podziękowania',
 );
 
 /** Pashto (پښتو)
