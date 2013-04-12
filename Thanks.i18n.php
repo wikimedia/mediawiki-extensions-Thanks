@@ -158,6 +158,15 @@ $4',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|dankte}} $3',
 );
 
+/** Finnish (suomi)
+ * @author Silvonen
+ */
+$messages['fi'] = array(
+	'thanks-thank' => 'kiitä',
+	'thanks-thanked' => 'kiitetty',
+	'log-name-thanks' => 'Kiitosloki',
+);
+
 /** French (français)
  * @author Boniface
  * @author Gomoko
