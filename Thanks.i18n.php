@@ -93,6 +93,13 @@ $messages['ar'] = array(
 	'echo-category-title-edit-thank' => 'شكرا',
 );
 
+/** Bengali (বাংলা)
+ * @author Aftab1995
+ */
+$messages['bn'] = array(
+	'log-name-thanks' => 'ধন্যবাদ লগ',
+);
+
 /** Breton (brezhoneg)
  * @author Y-M D
  */
@@ -308,6 +315,9 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|Ви заблагодари}} за вашето уредување на $2.',
+	'log-name-thanks' => 'Дневник на благодарности',
+	'log-description-thanks' => 'Дневников ги следи благодарниците што си ги испраќаат корисниците',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|му се заблагодари на|ѝ се заблагодари на|се заблагодари на}} $3',
 );
 
 /** Dutch (Nederlands)
@@ -337,6 +347,9 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|heeft}} u bedankt voor uw bewerking op $2.',
+	'log-name-thanks' => 'Logboek voor bedankjes',
+	'log-description-thanks' => 'Deze gebeurtenissen zijn een overzicht van gebruikers die andere gebruikers bedanken.',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|heeft}} $3 bedankt',
 );
 
 /** Polish (polski)
@@ -431,6 +444,9 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1}}cám ơn bạn vì sửa đổi của bạn tại $2.',
+	'log-name-thanks' => 'Nhật trình cám ơn',
+	'log-description-thanks' => 'Các sự kiện này cho biết khi nào một người dùng cám ơn những người khác',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2}}đã cám ơn $3',
 );
 
 /** Simplified Chinese (中文（简体）‎)
