@@ -139,15 +139,15 @@ $4',
  * @author Metalhead64
  */
 $messages['de'] = array(
-	'thanks-desc' => 'Ergänzt Dankeslinks zur Versionsgeschichte und zu Versionsunterschiedsansichten',
+	'thanks-desc' => 'Ergänzt „Danke schön“-Links zur Versionsgeschichte und zu Versionsunterschieden',
 	'thanks-thank' => 'danken',
 	'thanks-thanked' => 'dankte',
-	'thanks-error-undefined' => 'Dankesaktion fehlgeschlagen. Bitte erneut versuchen.',
+	'thanks-error-undefined' => '„Danke schön“ fehlgeschlagen. Bitte erneut versuchen.',
 	'thanks-error-invalidrevision' => 'Die Versionskennung ist ungültig.',
-	'thanks-error-ratelimited' => 'Du hast deine Bewertungsgrenze überschritten. Bitte warte einige Zeit und versuche es erneut.',
-	'thanks-thank-tooltip' => 'Diesem Benutzer eine Dankesbenachrichtigung senden',
-	'echo-pref-subscription-edit-thank' => 'mir für meine Bearbeitung dankt',
-	'echo-category-title-edit-thank' => 'Dankes',
+	'thanks-error-ratelimited' => 'Du hast dein Aktionslimit überschritten. Bitte warte einige Zeit und versuche es erneut.',
+	'thanks-thank-tooltip' => 'Diesem Benutzer ein „Danke schön“ senden',
+	'echo-pref-subscription-edit-thank' => '„Danke schöns“ für meine Bearbeitung',
+	'echo-category-title-edit-thank' => 'Danke schön',
 	'notification-thanks-diff-link' => 'deine Bearbeitung',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|dankte}} dir für $2 auf [[$3]].',
 	'notification-thanks-flyout' => '$1 {{GENDER:$1|dankte}} dir für $2 auf $3.',
@@ -160,8 +160,8 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|dankte}} dir für deine Bearbeitung auf $2.',
-	'log-name-thanks' => 'Dankes-Logbuch',
-	'log-description-thanks' => 'Dieses Logbuch protokolliert Danksagungen an andere Benutzer.',
+	'log-name-thanks' => 'Dankeschön-Logbuch',
+	'log-description-thanks' => 'Dieses Logbuch protokolliert „Danke schöns“ an andere Benutzer.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|dankte}} $3',
 );
 
@@ -218,7 +218,7 @@ $messages['gl'] = array(
 	'thanks-error-ratelimited' => 'Superou o seu límite de velocidade. Agarde uns minutos e inténteo de novo.',
 	'thanks-thank-tooltip' => 'Envía unha notificación de agradecemento a este usuario',
 	'echo-pref-subscription-edit-thank' => 'Me agradeza unha edición feita por min',
-	'echo-category-title-edit-thank' => 'Grazas',
+	'echo-category-title-edit-thank' => 'Agradecemento',
 	'notification-thanks-diff-link' => 'a súa edición',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|agradeceu}} $2 en "[[$3]]".',
 	'notification-thanks-flyout' => '$1 {{GENDER:$1|agradeceu}} $2 en "$3".',
