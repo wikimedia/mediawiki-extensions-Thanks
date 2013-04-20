@@ -287,6 +287,7 @@ $3
 $4',
 	'notification-thanks-email-batch-body' => '$1 が $2 でのあなたの編集に{{GENDER:$1|感謝しました}}',
 	'log-name-thanks' => '感謝記録',
+	'log-description-thanks' => 'これらはいつ利用者が他の利用者に感謝を示したか記録したものです。',
 	'logentry-thanks-thank' => '$1 が $3 に{{GENDER:$2|感謝しました}}',
 );
 
