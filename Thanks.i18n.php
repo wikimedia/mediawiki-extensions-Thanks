@@ -321,6 +321,36 @@ $4',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|му се заблагодари на|ѝ се заблагодари на|се заблагодари на}} $3',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'thanks-desc' => 'Meletakkan pautan terima kasih pada paparan sejarah dan beza',
+	'thanks-thank' => 'berterima kasih',
+	'thanks-thanked' => 'menerima kasih',
+	'thanks-error-undefined' => 'Tindakan terima kasih gagal. Sila cuba lagi.',
+	'thanks-error-invalidrevision' => 'ID semakan tidak sah.',
+	'thanks-error-ratelimited' => 'Anda telah melampaui had kadar anda. Sila cuba seketika, kemudian cuba lagi.',
+	'thanks-thank-tooltip' => 'Hantar ucapan terima kasih kepada pengguna ini',
+	'echo-pref-subscription-edit-thank' => 'Berterima kasih pada saya atas suntingan saya',
+	'echo-category-title-edit-thank' => 'Terima kasih',
+	'notification-thanks-diff-link' => 'suntingan anda',
+	'notification-thanks' => '[[User:$1|$1]] telah {{GENDER:$1|berterima kasih}} kepada anda atas $2 di [[$3]].',
+	'notification-thanks-flyout' => '$1 telah {{GENDER:$1|berterima kasih}} kepada anda atas $2 di $3.',
+	'notification-thanks-email-subject' => '$1 telah {{GENDER:$1|berterima kasih}} kepada anda atas suntingan anda di {{SITENAME}}',
+	'notification-thanks-email-body' => 'Pengguna {{SITENAME}}, $1 telah {{GENDER:$1|berterima kasih}} kepada anda atas suntingan anda di $2.
+
+Lihat suntingan anda:
+
+$3
+
+$4',
+	'notification-thanks-email-batch-body' => '$1 telah {{GENDER:$1|berterima kasih}} kepada anda atas suntingan anda di $2.',
+	'log-name-thanks' => 'Log ucapan terima kasih',
+	'log-description-thanks' => 'Peristiwa-peristiwa ini merakam ucapan terima kasih sesama pengguna',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|berterima kasih}} kepada $3',
+);
+
 /** Dutch (Nederlands)
  * @author Konovalov
  * @author SPQRobin
