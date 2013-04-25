@@ -57,6 +57,8 @@ class ApiThank extends ApiBase {
 					),
 					'agent' => $agent,
 				) );
+				// Mark the thank in session to prevent duplicates (Bug 46690)
+				$agent->getRequest()->setSessionData( "thanks-thanked-{$rev->getId()}", true );
 				// Set success message
 				$result['success'] = '1';
 				// Log it if we're supposed to log it
