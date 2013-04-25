@@ -16,7 +16,7 @@
 			'token' : mw.user.tokens.values.editToken
 		} )
 		.done( function( data ) {
-			$thankLink.before( mw.msg( 'thanks-thanked' ) );
+			$thankLink.before( mw.message( 'thanks-thanked', mw.user ).escaped() );
 			$thankLink.remove();
 		} )
 		.fail( function( errorCode, details ) {

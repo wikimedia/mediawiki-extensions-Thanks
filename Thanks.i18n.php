@@ -13,7 +13,7 @@ $messages = array();
 $messages['en'] = array(
 	'thanks-desc' => 'Adds thank links to history and diff views',
 	'thanks-thank' => 'thank',
-	'thanks-thanked' => 'thanked',
+	'thanks-thanked' => '{{GENDER:$1|thanked}}',
 	'thanks-error-undefined' => 'Thank action failed. Please try again.',
 	'thanks-error-invalidrevision' => 'Revision ID is not valid.',
 	'thanks-error-ratelimited' => "You've exceeded your rate limit. Please wait some time and try again.",
@@ -44,7 +44,8 @@ $4',
 $messages['qqq'] = array(
 	'thanks-desc' => '{{desc|name=Thanks|url=http://www.mediawiki.org/wiki/Extension:Thanks}}',
 	'thanks-thank' => 'Link to thank another user. This is a verb.',
-	'thanks-thanked' => 'Message that replaces the link to thank another user after they have been thanked (Echo-thank). This is short for "the user that created this revision has been thanked for it".',
+	'thanks-thanked' => 'Message that replaces the link to thank another user after they have been thanked (Echo-thank). This is short for "You thanked the user for their edit.". Parameters:
+* $1 is the current user, for GENDER support.',
 	'thanks-error-undefined' => 'Error message that is displayed when the thank action fails.
 {{Identical|Please try again}}',
 	'thanks-error-invalidrevision' => 'Error message that is displayed when the revision ID is not valid',
