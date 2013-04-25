@@ -97,4 +97,4 @@ $wgRateLimits += array(
 
 // Set default user options
 $wgDefaultUserOptions['echo-subscriptions-web-edit-thank'] = true;
-$wgDefaultUserOptions['echo-subscriptions-email-edit-thank'] = true;
+$wgDefaultUserOptions['echo-subscriptions-email-edit-thank'] = false;
