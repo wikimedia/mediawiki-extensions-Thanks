@@ -22,7 +22,7 @@ $messages['en'] = array(
 	'echo-category-title-edit-thank' => 'Thanks',
 	'notification-thanks-diff-link' => 'your edit',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|thanked}} you for $2 on [[$3]].',
-	'notification-thanks-flyout' => '$1 {{GENDER:$1|thanked}} you for $2 on $3.',
+	'notification-thanks-flyout' => '<b>$1</b> {{GENDER:$1|thanked}} you for $2 on <b>$3</b>.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|thanked}} you for your edit on {{SITENAME}}',
 	'notification-thanks-email-body' => '{{SITENAME}} user $1 {{GENDER:$1|thanked}} you for your edit on $2.
 
