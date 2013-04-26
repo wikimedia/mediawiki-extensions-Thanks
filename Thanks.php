@@ -57,6 +57,7 @@ $wgHooks['PageHistoryBeforeList'][] = 'ThanksHooks::onPageHistoryBeforeList';
 $wgHooks['DiffViewHeader'][] = 'ThanksHooks::onDiffViewHeader';
 $wgHooks['BeforeCreateEchoEvent'][] = 'ThanksHooks::onBeforeCreateEchoEvent';
 $wgHooks['EchoGetDefaultNotifiedUsers'][] = 'ThanksHooks::onEchoGetDefaultNotifiedUsers';
+$wgHooks['AddNewAccount'][] = 'ThanksHooks::onAccountCreated';
 
 // Register modules
 $wgResourceModules['ext.thanks'] = array(
@@ -97,4 +98,5 @@ $wgRateLimits += array(
 
 // Set default user options
 $wgDefaultUserOptions['echo-subscriptions-web-edit-thank'] = true;
+// This is overriden for new users in ThanksHooks::onAccountCreated
 $wgDefaultUserOptions['echo-subscriptions-email-edit-thank'] = false;
