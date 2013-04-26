@@ -38,6 +38,7 @@ $4',
 );
 
 /** Message documentation (Message documentation)
+ * @author Raymond
  * @author Shirayuki
  * @author Siebrand
  */
@@ -115,7 +116,7 @@ $messages['br'] = array(
 $messages['cs'] = array(
 	'thanks-desc' => 'Přidává do historie a zobrazení rozdílů odkazy pro poděkování',
 	'thanks-thank' => 'poděkovat',
-	'thanks-thanked' => 'poděkováno',
+	'thanks-thanked' => 'poděkováno', # Fuzzy
 	'thanks-error-undefined' => 'Poděkování se nezdařilo. Zkuste to prosím znovu.',
 	'thanks-error-invalidrevision' => 'ID revize je neplatné.',
 	'thanks-error-ratelimited' => 'Překročili jste rychlostní limit. Počkejte prosím chvíli a zkuste to znovu.',
@@ -124,7 +125,7 @@ $messages['cs'] = array(
 	'echo-category-title-edit-thank' => 'Poděkování',
 	'notification-thanks-diff-link' => 'vaši úpravu',
 	'notification-thanks' => '[[User:$1|$1]] vám {{GENDER:$1|poděkoval|poděkovala}} za $2 stránky [[$3]].',
-	'notification-thanks-flyout' => '$1 vám {{GENDER:$1|poděkoval|poděkovala}} za $2 stránky $3.',
+	'notification-thanks-flyout' => '<b>$1</b> vám {{GENDER:$1|poděkoval|poděkovala}} za $2 stránky <b>$3</b>.',
 	'notification-thanks-email-subject' => '$1 vám {{GENDER:$1|poděkoval|poděkovala}} za vaši editaci na {{grammar:6sg|{{SITENAME}}}}',
 	'notification-thanks-email-body' => '{{GENDER:$1|Uživatel|Uživatelka}} $1 na {{grammar:6sg|{{SITENAME}}}} vám {{GENDER:$1|poděkoval|poděkovala}} za vaši úpravu stránky $2.
 
@@ -142,7 +143,7 @@ $4',
 $messages['de'] = array(
 	'thanks-desc' => 'Ergänzt „Danke schön“-Links zur Versionsgeschichte und zu Versionsunterschieden',
 	'thanks-thank' => 'danken',
-	'thanks-thanked' => 'dankte',
+	'thanks-thanked' => 'dankte', # Fuzzy
 	'thanks-error-undefined' => '„Danke schön“ fehlgeschlagen. Bitte erneut versuchen.',
 	'thanks-error-invalidrevision' => 'Die Versionskennung ist ungültig.',
 	'thanks-error-ratelimited' => 'Du hast dein Aktionslimit überschritten. Bitte warte einige Zeit und versuche es erneut.',
@@ -151,7 +152,7 @@ $messages['de'] = array(
 	'echo-category-title-edit-thank' => 'Danke schön',
 	'notification-thanks-diff-link' => 'deine Bearbeitung',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|dankte}} dir für $2 auf [[$3]].',
-	'notification-thanks-flyout' => '$1 {{GENDER:$1|dankte}} dir für $2 auf $3.',
+	'notification-thanks-flyout' => '<b>$1</b> {{GENDER:$1|dankte}} dir für $2 auf <b>$3</b>.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|dankte}} dir für deine Bearbeitung auf {{SITENAME}}',
 	'notification-thanks-email-body' => '{{GENDER:$1|Der {{SITENAME}}-Benutzer|Die {{SITENAME}}-Benutzerin}} $1 dankte dir für deine Bearbeitung auf $2.
 
@@ -183,7 +184,7 @@ $messages['fi'] = array(
 $messages['fr'] = array(
 	'thanks-desc' => 'Ajoute des liens de remerciement aux vues historique et de différence',
 	'thanks-thank' => 'merci',
-	'thanks-thanked' => 'remercié',
+	'thanks-thanked' => 'remercié', # Fuzzy
 	'thanks-error-undefined' => 'Échec de l’action de remerciement. Veuillez réessayer.',
 	'thanks-error-invalidrevision' => 'L’ID de révision n’est pas valide.',
 	'thanks-error-ratelimited' => 'Vous avez dépassé votre limite de débit. Veuillez attendre un peu et réessayer.',
@@ -192,7 +193,7 @@ $messages['fr'] = array(
 	'echo-category-title-edit-thank' => 'Merci',
 	'notification-thanks-diff-link' => 'votre modification',
 	'notification-thanks' => '[[User:$1|$1]] vous {{GENDER:$1|a remercié}} pour $2 sur [[$3]].',
-	'notification-thanks-flyout' => '$1 vous {{GENDER:$1|a remercié}} pour $2 sur $3.',
+	'notification-thanks-flyout' => '<b>$1</b> vous {{GENDER:$1|a remercié}} pour $2 sur <b>$3</b>.',
 	'notification-thanks-email-subject' => '$1 vous {{GENDER:$1|a remercié}} pour votre modification sur {{SITENAME}}',
 	'notification-thanks-email-body' => 'L’utilisateur $1 de {{SITENAME}} vous {{GENDER:$1|a remercié}} pour votre modification sur $2.
 
@@ -213,7 +214,7 @@ $4',
 $messages['gl'] = array(
 	'thanks-desc' => 'Engade ligazóns de agradecemento no historial e na vista de diferenzas',
 	'thanks-thank' => 'agradecer',
-	'thanks-thanked' => 'agradecido',
+	'thanks-thanked' => 'agradecido', # Fuzzy
 	'thanks-error-undefined' => 'Houbo un erro ao realizar o agradecemento. Inténteo de novo.',
 	'thanks-error-invalidrevision' => 'O ID da revisión non é válido.',
 	'thanks-error-ratelimited' => 'Superou o seu límite de velocidade. Agarde uns minutos e inténteo de novo.',
@@ -222,7 +223,7 @@ $messages['gl'] = array(
 	'echo-category-title-edit-thank' => 'Agradecemento',
 	'notification-thanks-diff-link' => 'a súa edición',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|agradeceu}} $2 en "[[$3]]".',
-	'notification-thanks-flyout' => '$1 {{GENDER:$1|agradeceu}} $2 en "$3".',
+	'notification-thanks-flyout' => '<b>$1</b> {{GENDER:$1|agradeceu}} $2 en "<b>$3</b>".',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|agradeceu}} a súa edición en {{SITENAME}}',
 	'notification-thanks-email-body' => '{{GENDER:$1|O editor|A editora}} $1 agradeceu a súa edición en "$2".
 
@@ -242,14 +243,14 @@ $4',
  */
 $messages['it'] = array(
 	'thanks-thank' => 'ringrazia',
-	'thanks-thanked' => 'ringraziato',
+	'thanks-thanked' => 'ringraziato', # Fuzzy
 	'thanks-error-invalidrevision' => 'ID versione non è valido.',
 	'thanks-thank-tooltip' => 'Invia una notifica di ringraziamento a questo utente',
 	'echo-pref-subscription-edit-thank' => 'Mi ringrazia per una mia modifica',
 	'echo-category-title-edit-thank' => 'Ringraziamenti',
 	'notification-thanks-diff-link' => 'la tua modifica',
 	'notification-thanks' => '[[User:$1|$1]] ti {{GENDER:$1|ha ringraziato}} per $2 su [[$3]].',
-	'notification-thanks-flyout' => '$1 ti {{GENDER:$1|ha ringraziato}} per $2 su $3.',
+	'notification-thanks-flyout' => '<b>$1</b> ti {{GENDER:$1|ha ringraziato}} per $2 su <b>$3</b>.',
 	'notification-thanks-email-subject' => '$1 ti {{GENDER:$1|ha ringraziato}} per la tua modifica su {{SITENAME}}.',
 	'notification-thanks-email-body' => "L'utente $1 di {{SITENAME}} ti {{GENDER:$1|ha ringraziato}} per la tua modifica su $2.
 
@@ -268,7 +269,7 @@ $4",
 $messages['ja'] = array(
 	'thanks-desc' => '履歴ページおよび差分ページに、感謝するリンクを追加する',
 	'thanks-thank' => '感謝',
-	'thanks-thanked' => '感謝しました',
+	'thanks-thanked' => '感謝しました', # Fuzzy
 	'thanks-error-undefined' => '感謝の操作に失敗しました。もう一度やり直してください。',
 	'thanks-error-invalidrevision' => '版 ID が無効です。',
 	'thanks-error-ratelimited' => '速度制限を超えました。しばらくしてからもう一度やり直してください。',
@@ -277,7 +278,7 @@ $messages['ja'] = array(
 	'echo-category-title-edit-thank' => '感謝',
 	'notification-thanks-diff-link' => 'あなたの編集',
 	'notification-thanks' => '[[User:$1|$1]] が [[$3]] での$2に{{GENDER:$1|感謝しました}}',
-	'notification-thanks-flyout' => '$1 が $3 での$2に{{GENDER:$1|感謝しました}}',
+	'notification-thanks-flyout' => '<b>$1</b> が <b>$3</b> での$2に{{GENDER:$1|感謝しました}}',
 	'notification-thanks-email-subject' => '$1 が{{SITENAME}}でのあなたの編集に{{GENDER:$1|感謝しました}}',
 	'notification-thanks-email-body' => '{{SITENAME}}の利用者 $1 が $2 でのあなたの編集に{{GENDER:$1|感謝しました}}。
 
@@ -298,7 +299,7 @@ $4',
 $messages['mk'] = array(
 	'thanks-desc' => 'Додава врски за заблагодарувања во историјата и прегледот на разликите',
 	'thanks-thank' => 'заблагодари се',
-	'thanks-thanked' => 'заблагодарено',
+	'thanks-thanked' => 'заблагодарено', # Fuzzy
 	'thanks-error-undefined' => 'Заблагодарувањето не успеа. Обидете се повторно.',
 	'thanks-error-invalidrevision' => 'Ревизијата има неважечка назнака.',
 	'thanks-error-ratelimited' => 'Ја надминавте границата на заблагодарувања. Почекајте некое време, па обидете се подоцна',
@@ -307,7 +308,7 @@ $messages['mk'] = array(
 	'echo-category-title-edit-thank' => 'Благодарам',
 	'notification-thanks-diff-link' => 'вашето уредување',
 	'notification-thanks' => '[[User:$1|$1]] ви {{GENDER:$1|благодари}} за $2 на [[$3]].',
-	'notification-thanks-flyout' => '$1 ви {{GENDER:$1|благодари}} за $2 на $3.',
+	'notification-thanks-flyout' => '<b>$1</b> ви {{GENDER:$1|благодари}} за $2 на <b>$3</b>.',
 	'notification-thanks-email-subject' => '$1 ви {{GENDER:$1|благодари}} за вашето уредување на {{SITENAME}}',
 	'notification-thanks-email-body' => 'Корисникот $1 на {{SITENAME}} {{GENDER:$1|ви благодари}} за вашето уредување на $2.
 
@@ -328,7 +329,7 @@ $4',
 $messages['ms'] = array(
 	'thanks-desc' => 'Meletakkan pautan terima kasih pada paparan sejarah dan beza',
 	'thanks-thank' => 'berterima kasih',
-	'thanks-thanked' => 'menerima kasih',
+	'thanks-thanked' => 'menerima kasih', # Fuzzy
 	'thanks-error-undefined' => 'Tindakan terima kasih gagal. Sila cuba lagi.',
 	'thanks-error-invalidrevision' => 'ID semakan tidak sah.',
 	'thanks-error-ratelimited' => 'Anda telah melampaui had kadar anda. Sila cuba seketika, kemudian cuba lagi.',
@@ -337,7 +338,7 @@ $messages['ms'] = array(
 	'echo-category-title-edit-thank' => 'Terima kasih',
 	'notification-thanks-diff-link' => 'suntingan anda',
 	'notification-thanks' => '[[User:$1|$1]] telah {{GENDER:$1|berterima kasih}} kepada anda atas $2 di [[$3]].',
-	'notification-thanks-flyout' => '$1 telah {{GENDER:$1|berterima kasih}} kepada anda atas $2 di $3.',
+	'notification-thanks-flyout' => '<b>$1</b> telah {{GENDER:$1|berterima kasih}} kepada anda atas $2 di <b>$3</b>.',
 	'notification-thanks-email-subject' => '$1 telah {{GENDER:$1|berterima kasih}} kepada anda atas suntingan anda di {{SITENAME}}',
 	'notification-thanks-email-body' => 'Pengguna {{SITENAME}}, $1 telah {{GENDER:$1|berterima kasih}} kepada anda atas suntingan anda di $2.
 
@@ -360,7 +361,7 @@ $4',
 $messages['nl'] = array(
 	'thanks-desc' => 'Voegt "Bedankt"-koppelingen toe aan geschiedenis en verschillenweergaves',
 	'thanks-thank' => 'bedanken',
-	'thanks-thanked' => 'is bedankt',
+	'thanks-thanked' => 'is bedankt', # Fuzzy
 	'thanks-error-undefined' => 'Bedanken is mislukt. Probeer het opnieuw.',
 	'thanks-error-invalidrevision' => 'Het versienummer is niet geldig.',
 	'thanks-error-ratelimited' => 'U hebt uw limiet voor bedankjes overschreden. Wacht even en probeer het dan opnieuw.',
@@ -369,7 +370,7 @@ $messages['nl'] = array(
 	'echo-category-title-edit-thank' => 'Bedankt',
 	'notification-thanks-diff-link' => 'uw bewerking',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|heeft}} u bedankt voor $2 op [[$3]].',
-	'notification-thanks-flyout' => '$1 {{GENDER:$1|heeft}} u bedankt voor $2 op $3.',
+	'notification-thanks-flyout' => '<b>$1</b> {{GENDER:$1|heeft}} u bedankt voor $2 op <b>$3</b>.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|heeft}} u bedankt voor uw bewerking op  {{SITENAME}}',
 	'notification-thanks-email-body' => 'Gebruiker $1 van {{SITENAME}} {{GENDER:$1|heeft}} u bedankt voor uw bewerking aan$2.
 
@@ -430,7 +431,7 @@ $messages['te'] = array(
 $messages['tl'] = array(
 	'thanks-desc' => 'Nagdaragdag ng mga kawing na pampasalamat sa pantanaw ng kasaysayan at ng pagkakaiba',
 	'thanks-thank' => 'pasalamatan',
-	'thanks-thanked' => 'napasalamatan na',
+	'thanks-thanked' => 'napasalamatan na', # Fuzzy
 	'thanks-error-undefined' => 'Nabigo ang galaw ng pagpapasalamat. Paki subukan ulit.',
 	'thanks-error-invalidrevision' => 'Hindi katanggap-tanggap ang ID ng rebisyon.',
 	'thanks-error-ratelimited' => 'Lumampas ka na sa iyong hangganang antas. Paki maghintay ng ilang panahon at sumubok ulit.',
@@ -439,7 +440,7 @@ $messages['tl'] = array(
 	'echo-category-title-edit-thank' => 'Salamat',
 	'notification-thanks-diff-link' => 'ang binago mo',
 	'notification-thanks' => '{{GENDER:$1|Pinasalamatan}} ka ni [[User:$1|$1]] para sa $2 na naroon sa [[$3]].',
-	'notification-thanks-flyout' => '{{GENDER:$1|Pinasalamatan}} ka ni $1 para sa $2 na naroon sa $3.',
+	'notification-thanks-flyout' => '{{GENDER:$1|Pinasalamatan}} ka ni <b>$1</b> para sa $2 na naroon sa <b>$3</b>.',
 	'notification-thanks-email-subject' => '{{GENDER:$1|Pinasalamatan}} ka ni $1 para sa iyong pamamatnugot doon sa {{SITENAME}}',
 	'notification-thanks-email-body' => 'Ang tagagamit ng {{SITENAME}} na si $1 ay {{GENDER:$1|nagpapasalamat}} sa iyo para sa pamamatnugot mo roon sa $2.
 
@@ -457,7 +458,7 @@ $4',
 $messages['vi'] = array(
 	'thanks-desc' => 'Thêm liên kết cám ơn vào các trang lịch sử và khác biệt',
 	'thanks-thank' => 'cám ơn',
-	'thanks-thanked' => 'đã cám ơn',
+	'thanks-thanked' => 'đã cám ơn', # Fuzzy
 	'thanks-error-undefined' => 'Thất bại cám ơn. Xin vui lòng thử lại.',
 	'thanks-error-invalidrevision' => 'Số phiên bản không hợp lệ.',
 	'thanks-error-ratelimited' => 'Bạn đã vượt quá giới hạn tốc độ. Xin vui lòng thử lại lát nữa.',
@@ -466,7 +467,7 @@ $messages['vi'] = array(
 	'echo-category-title-edit-thank' => 'Cám ơn',
 	'notification-thanks-diff-link' => 'sửa đổi của bạn',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1}}cám ơn bạn vì $2 tại [[$3]].',
-	'notification-thanks-flyout' => '$1 {{GENDER:$1}}cám ơn bạn vì $2 tại $3.',
+	'notification-thanks-flyout' => '<b>$1</b> {{GENDER:$1}}cám ơn bạn vì $2 tại <b>$3</b>.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1}}cám ơn bạn vì sửa đổi của bạn tại {{SITENAME}}',
 	'notification-thanks-email-body' => 'Người dùng $1 tại {{SITENAME}} {{GENDER:$1}}cám ơn bạn vì sửa đổi gần đây của bạn tại $2.
 
@@ -488,7 +489,7 @@ $4',
 $messages['zh-hans'] = array(
 	'thanks-desc' => '添加感谢链接到历史记录和差异查看',
 	'thanks-thank' => '感谢',
-	'thanks-thanked' => '已感谢',
+	'thanks-thanked' => '已感谢', # Fuzzy
 	'thanks-error-undefined' => '感谢操作失败。请再试一次。',
 	'thanks-error-invalidrevision' => '修订ID无效。',
 	'thanks-error-ratelimited' => '您已超过您的速率限制。请等一段时间再试。',
@@ -497,7 +498,7 @@ $messages['zh-hans'] = array(
 	'echo-category-title-edit-thank' => '感谢',
 	'notification-thanks-diff-link' => '您的编辑',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|感谢}}你的$2在[[$3]].',
-	'notification-thanks-flyout' => '$1 {{GENDER:$1|感谢}} 您的$2在$3 。',
+	'notification-thanks-flyout' => '<b>$1</b> {{GENDER:$1|感谢}} 您的$2在<b>$3</b> 。',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|感谢}} 您的编辑在{{SITENAME}}',
 	'notification-thanks-email-body' => '{{SITENAME}} 用户 $1  {{GENDER:$1| 感谢}} 您的编辑$2 。
 
