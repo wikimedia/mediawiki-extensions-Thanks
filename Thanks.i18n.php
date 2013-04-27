@@ -143,7 +143,7 @@ $4',
 $messages['de'] = array(
 	'thanks-desc' => 'Ergänzt „Danke schön“-Links zur Versionsgeschichte und zu Versionsunterschieden',
 	'thanks-thank' => 'danken',
-	'thanks-thanked' => 'dankte', # Fuzzy
+	'thanks-thanked' => '{{GENDER:$1|dankte}}',
 	'thanks-error-undefined' => '„Danke schön“ fehlgeschlagen. Bitte erneut versuchen.',
 	'thanks-error-invalidrevision' => 'Die Versionskennung ist ungültig.',
 	'thanks-error-ratelimited' => 'Du hast dein Aktionslimit überschritten. Bitte warte einige Zeit und versuche es erneut.',
@@ -238,6 +238,13 @@ $4',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|deu as grazas a}} $3',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'thanks-thanked' => '{{GENDER:$1|הודה|הודתה}}',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
@@ -269,7 +276,7 @@ $4",
 $messages['ja'] = array(
 	'thanks-desc' => '履歴ページおよび差分ページに、感謝するリンクを追加する',
 	'thanks-thank' => '感謝',
-	'thanks-thanked' => '感謝しました', # Fuzzy
+	'thanks-thanked' => '{{GENDER:$1|感謝しました}}',
 	'thanks-error-undefined' => '感謝の操作に失敗しました。もう一度やり直してください。',
 	'thanks-error-invalidrevision' => '版 ID が無効です。',
 	'thanks-error-ratelimited' => '速度制限を超えました。しばらくしてからもう一度やり直してください。',
@@ -299,7 +306,7 @@ $4',
 $messages['mk'] = array(
 	'thanks-desc' => 'Додава врски за заблагодарувања во историјата и прегледот на разликите',
 	'thanks-thank' => 'заблагодари се',
-	'thanks-thanked' => 'заблагодарено', # Fuzzy
+	'thanks-thanked' => '{{GENDER:$1|заблагодарено}}',
 	'thanks-error-undefined' => 'Заблагодарувањето не успеа. Обидете се повторно.',
 	'thanks-error-invalidrevision' => 'Ревизијата има неважечка назнака.',
 	'thanks-error-ratelimited' => 'Ја надминавте границата на заблагодарувања. Почекајте некое време, па обидете се подоцна',
@@ -450,6 +457,36 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '{{GENDER:$1|Pinasalamatan}} ka ni $1 para sa iyong binago roon sa $2.',
+);
+
+/** Ukrainian (українська)
+ * @author Base
+ * @author Ата
+ */
+$messages['uk'] = array(
+	'thanks-desc' => 'Додає посилання вдячності до переглядів історії та різниці версій',
+	'thanks-thank' => 'дякую',
+	'thanks-thanked' => '{{GENDER:$1|подякував|подякувала}}',
+	'thanks-error-undefined' => 'Не вдалось подякувати. Спробуйте знову.',
+	'thanks-error-invalidrevision' => 'Неправильний ідентифікатор версії.',
+	'thanks-error-ratelimited' => 'Ви перевищили свій ліміт частоти. Будь ласка, зачекайте деякий час, і спробуйте знову.',
+	'thanks-thank-tooltip' => 'Надіслати сповіщення вдячності до користувача',
+	'echo-pref-subscription-edit-thank' => 'Дякує мені за мої редагування',
+	'echo-category-title-edit-thank' => 'вдячність',
+	'notification-thanks-diff-link' => 'Ваше редагування',
+	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|подякував|подякувала}} Вам за $2 на [[$3]].',
+	'notification-thanks-flyout' => '<b>$1</b> {{GENDER:$1|подякував|подякувала}} Вам за $2 на <b>$3</b>.',
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1|подякував|подякувала}} Вам за Ваше редагування на {{SITENAME}}',
+	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|подякував|подякувала}} Вам за Ваше редагування на $2.',
+	'log-name-thanks' => 'Журнал вдячностей',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|подякував|подякувала}} $3',
+);
+
+/** Urdu (اردو)
+ * @author Noor2020
+ */
+$messages['ur'] = array(
+	'thanks-thanked' => '{{GENDER:$1|کا شکریہ ادا کیا}}',
 );
 
 /** Vietnamese (Tiếng Việt)
