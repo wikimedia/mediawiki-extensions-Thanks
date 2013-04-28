@@ -172,7 +172,7 @@ $4',
  */
 $messages['fi'] = array(
 	'thanks-thank' => 'kiitä',
-	'thanks-thanked' => 'kiitetty',
+	'thanks-thanked' => 'kiitetty', # Fuzzy
 	'log-name-thanks' => 'Kiitosloki',
 );
 
@@ -368,7 +368,7 @@ $4',
 $messages['nl'] = array(
 	'thanks-desc' => 'Voegt "Bedankt"-koppelingen toe aan geschiedenis en verschillenweergaves',
 	'thanks-thank' => 'bedanken',
-	'thanks-thanked' => 'is bedankt', # Fuzzy
+	'thanks-thanked' => '{{GENDER:$1|is bedankt}}',
 	'thanks-error-undefined' => 'Bedanken is mislukt. Probeer het opnieuw.',
 	'thanks-error-invalidrevision' => 'Het versienummer is niet geldig.',
 	'thanks-error-ratelimited' => 'U hebt uw limiet voor bedankjes overschreden. Wacht even en probeer het dan opnieuw.',
@@ -545,4 +545,12 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|感谢}} 您的编辑在$2',
+);
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Waihorace
+ */
+$messages['zh-hant'] = array(
+	'notification-thanks-diff-link' => '您的編輯',
+	'log-name-thanks' => '感謝日誌',
 );
