@@ -34,22 +34,41 @@ class ThanksHooks {
 				$recipientAllowed = !in_array( 'bot', $recipient->getGroups() );
 			}
 			if ( $recipientAllowed && !$recipient->isAnon() ) {
-				// Add 'thank' link
-				$tooltip = wfMessage( 'thanks-thank-tooltip' )->text();
-				$thankLink = Html::element(
-					'a',
-					array(
-						'class' => 'mw-thanks-thank-link',
-						'href' => '#',
-						'title' => $tooltip,
-						'data-revision-id' => $rev->getId(),
-					),
-					wfMessage( 'thanks-thank' )->plain()
-				);
-				$links[] = $thankLink;
+				$links[] = self::generateThankElement( $rev );
 			}
 		}
 		return true;
+	}
+
+	/**
+	 * Helper for self::insertThankLink
+	 * Creates either a thank link or thanked span based on users session
+	 * @param $rev Revision object to generate the thank element for
+	 */
+	protected static function generateThankElement( $rev ) {
+		global $wgUser;
+		// User has already thanked for revision
+		if ( $wgUser->getRequest()->getSessionData( "thanks-thanked-{$rev->getId()}" ) ) {
+			return Html::element(
+				'span',
+				array( 'class' => 'mw-thanks-thanked' ),
+				wfMessage( 'thanks-thanked', $wgUser )->parse()
+			);
+		}
+
+		// Add 'thank' link
+		$tooltip = wfMessage( 'thanks-thank-tooltip' )->text();
+
+		return Html::element(
+			'a',
+			array(
+				'class' => 'mw-thanks-thank-link',
+				'href' => '#',
+				'title' => $tooltip,
+				'data-revision-id' => $rev->getId(),
+			),
+			wfMessage( 'thanks-thank' )->plain()
+		);
 	}
 
 	/**
