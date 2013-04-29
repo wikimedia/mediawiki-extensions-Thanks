@@ -107,17 +107,18 @@ class ThanksHooks {
 	}
 
 	/**
-	 * Add extension event to $wgEchoEnabledEvents
-	 * @param $wgEchoEnabledEvents array a list of enabled echo events
-	 * @param $wgEchoEventDetails array details for echo events
-	 * @return bool
+	 * Add Thanks events to Echo
+	 *
+	 * @param $notifications array of Echo notifications
+	 * @param $notificationCategories array of Echo notification categories
+	 * @param $icons array of icon details
 	 */
-	public static function onBeforeCreateEchoEvent( &$wgEchoNotifications, &$wgEchoNotificationCategories ) {
-		$wgEchoNotificationCategories['edit-thank'] = array(
+	public static function onBeforeCreateEchoEvent( &$notifications, &$notificationCategories, &$icons ) {
+		$notificationCategories['edit-thank'] = array(
 			'priority' => 3,
 		);
 
-		$wgEchoNotifications['edit-thank'] = array(
+		$notifications['edit-thank'] = array(
 			'category' => 'edit-thank',
 			'group' => 'interactive',
 			'formatter-class' => 'EchoThanksFormatter',
