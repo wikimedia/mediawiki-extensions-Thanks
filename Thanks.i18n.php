@@ -214,7 +214,7 @@ $4',
 $messages['gl'] = array(
 	'thanks-desc' => 'Engade ligazóns de agradecemento no historial e na vista de diferenzas',
 	'thanks-thank' => 'agradecer',
-	'thanks-thanked' => 'agradecido', # Fuzzy
+	'thanks-thanked' => '{{GENDER:$1|agradecido|agradecida}}',
 	'thanks-error-undefined' => 'Houbo un erro ao realizar o agradecemento. Inténteo de novo.',
 	'thanks-error-invalidrevision' => 'O ID da revisión non é válido.',
 	'thanks-error-ratelimited' => 'Superou o seu límite de velocidade. Agarde uns minutos e inténteo de novo.',
