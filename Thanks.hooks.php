@@ -120,7 +120,7 @@ class ThanksHooks {
 
 		$notifications['edit-thank'] = array(
 			'category' => 'edit-thank',
-			'group' => 'interactive',
+			'group' => 'positive',
 			'formatter-class' => 'EchoThanksFormatter',
 			'title-message' => 'notification-thanks',
 			'title-params' => array( 'agent', 'difflink', 'title' ),
