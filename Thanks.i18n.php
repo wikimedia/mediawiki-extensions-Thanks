@@ -184,7 +184,7 @@ $messages['fi'] = array(
 $messages['fr'] = array(
 	'thanks-desc' => 'Ajoute des liens de remerciement aux vues historique et de différence',
 	'thanks-thank' => 'merci',
-	'thanks-thanked' => 'remercié', # Fuzzy
+	'thanks-thanked' => '{{GENDER:$1|remercié|remerciée}}',
 	'thanks-error-undefined' => 'Échec de l’action de remerciement. Veuillez réessayer.',
 	'thanks-error-invalidrevision' => 'L’ID de révision n’est pas valide.',
 	'thanks-error-ratelimited' => 'Vous avez dépassé votre limite de débit. Veuillez attendre un peu et réessayer.',
@@ -249,9 +249,12 @@ $messages['he'] = array(
  * @author Beta16
  */
 $messages['it'] = array(
+	'thanks-desc' => 'Aggiunge un collegamento per ringraziare nella cronologia e nelle differenze fra versioni',
 	'thanks-thank' => 'ringrazia',
-	'thanks-thanked' => 'ringraziato', # Fuzzy
+	'thanks-thanked' => '{{GENDER:$1|ringraziato|ringraziata|ringraziato/a}}',
+	'thanks-error-undefined' => 'Errore durante ringraziamento. Riprova ancora.',
 	'thanks-error-invalidrevision' => 'ID versione non è valido.',
+	'thanks-error-ratelimited' => "Hai superato il limite massimo di ringraziamenti. Aspetta un po' di tempo e riprova.",
 	'thanks-thank-tooltip' => 'Invia una notifica di ringraziamento a questo utente',
 	'echo-pref-subscription-edit-thank' => 'Mi ringrazia per una mia modifica',
 	'echo-category-title-edit-thank' => 'Ringraziamenti',
@@ -267,6 +270,9 @@ $3
 
 $4",
 	'notification-thanks-email-batch-body' => '$1 ti {{GENDER:$1|ha ringraziato}} per la tua modifica su $2.',
+	'log-name-thanks' => 'Ringraziamenti',
+	'log-description-thanks' => 'Questi eventi tracciano quando un utente ringrazia un altro utente',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|ha ringraziato}} $3',
 );
 
 /** Japanese (日本語)
