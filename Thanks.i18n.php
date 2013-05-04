@@ -419,6 +419,18 @@ $messages['ps'] = array(
 	'notification-thanks-diff-link' => 'ستاسې سمون',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'thanks-thank' => 'grazie',
+	'thanks-thanked' => '{{GENDER:$1|ringraziate}}',
+	'thanks-error-undefined' => 'Azione de ringraziamende fallite. Pe piacere pruéve arrete.',
+	'thanks-error-invalidrevision' => "ID d'a revisione non g'è valide.",
+	'echo-category-title-edit-thank' => 'Grazie!',
+	'notification-thanks-diff-link' => 'le cangiaminde tune',
+);
+
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Милан Јелисавчић
  */
