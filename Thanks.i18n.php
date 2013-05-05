@@ -167,6 +167,16 @@ $4',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|dankte}} $3',
 );
 
+/** Spanish (español)
+ * @author Fitoschido
+ */
+$messages['es'] = array(
+	'thanks-desc' => 'Añade enlaces para agradecer al historial y las vistas de diferencias',
+	'echo-category-title-edit-thank' => 'Gracias',
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1|agradeció}} tu edición en {{SITENAME}}',
+	'log-name-thanks' => 'Registro de agradecimientos',
+);
+
 /** Finnish (suomi)
  * @author Silvonen
  */
