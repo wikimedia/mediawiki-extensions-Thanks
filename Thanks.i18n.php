@@ -420,7 +420,7 @@ $messages['pl'] = array(
  */
 $messages['ps'] = array(
 	'thanks-thank' => 'مننه',
-	'thanks-thanked' => 'منندوی شو',
+	'thanks-thanked' => '{{GENDER:$1|منندوی شو}}',
 	'thanks-error-undefined' => 'د مننې چاره پاتې راغله. بيا مو هڅه وکړۍ.',
 	'thanks-error-invalidrevision' => 'د کره کتنې پېژند سم نه دی.',
 	'thanks-thank-tooltip' => 'دې کارن ته د مننې يو پيغام ورلېږل',
