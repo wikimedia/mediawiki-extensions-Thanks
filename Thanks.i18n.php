@@ -33,7 +33,7 @@ $3
 $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|thanked}} you for your edit on $2.',
 	'log-name-thanks' => 'Thanks log',
-	'log-description-thanks' => 'These events track when users thank other users',
+	'log-description-thanks' => 'Below is a list of users thanked by other users.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|thanked}} $3',
 );
 
