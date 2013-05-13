@@ -576,9 +576,16 @@ $4',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Simon Shek
  * @author Waihorace
  */
 $messages['zh-hant'] = array(
+	'thanks-thank' => '感謝',
+	'thanks-thanked' => '{{GENDER:$1|感謝}}',
+	'thanks-error-undefined' => '操作失敗。請再試一次。',
+	'thanks-error-invalidrevision' => '修訂ID無效。',
+	'echo-category-title-edit-thank' => '感謝',
 	'notification-thanks-diff-link' => '您的編輯',
 	'log-name-thanks' => '感謝日誌',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|感謝}} $3',
 );
