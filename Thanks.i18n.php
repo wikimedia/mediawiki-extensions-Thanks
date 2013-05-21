@@ -316,6 +316,15 @@ $4',
 	'logentry-thanks-thank' => '$1 が $3 に{{GENDER:$2|感謝しました}}',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'thanks-thank' => 'merci',
+	'thanks-error-invalidrevision' => 'Versiounsnummer (ID) ass net valabel.',
+	'echo-category-title-edit-thank' => 'Merci',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
