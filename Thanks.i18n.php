@@ -322,7 +322,12 @@ $4',
 $messages['lb'] = array(
 	'thanks-thank' => 'merci',
 	'thanks-error-invalidrevision' => 'Versiounsnummer (ID) ass net valabel.',
+	'thanks-thank-tooltip' => "Dësem Benotzer e 'Merci' sschécken",
+	'echo-pref-subscription-edit-thank' => "'Mercie' fir meng Ännerung",
 	'echo-category-title-edit-thank' => 'Merci',
+	'notification-thanks-diff-link' => 'Är Ännerung',
+	'log-name-thanks' => 'Logbuch vum Merci-soen',
+	'log-description-thanks' => "Dëst Logbuch protokolléiert wa Benotzer anere Benotzer 'Merci' soen",
 );
 
 /** Macedonian (македонски)
