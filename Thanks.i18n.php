@@ -327,7 +327,7 @@ $messages['lb'] = array(
 	'echo-category-title-edit-thank' => 'Merci',
 	'notification-thanks-diff-link' => 'Är Ännerung',
 	'log-name-thanks' => 'Logbuch vum Merci-soen',
-	'log-description-thanks' => "Dëst Logbuch protokolléiert wa Benotzer anere Benotzer 'Merci' soen",
+	'log-description-thanks' => "Dëst Logbuch protokolléiert wa Benotzer anere Benotzer 'Merci' soen", # Fuzzy
 );
 
 /** Macedonian (македонски)
