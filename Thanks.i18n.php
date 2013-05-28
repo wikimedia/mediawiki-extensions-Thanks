@@ -163,7 +163,7 @@ $3
 $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|dankte}} dir für deine Bearbeitung auf $2.',
 	'log-name-thanks' => 'Dankeschön-Logbuch',
-	'log-description-thanks' => 'Dieses Logbuch protokolliert „Danke schöns“ an andere Benutzer.',
+	'log-description-thanks' => 'Es folgt eine Liste von Benutzern, die anderen Benutzern dankten.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|dankte}} $3',
 );
 
@@ -312,7 +312,7 @@ $3
 $4',
 	'notification-thanks-email-batch-body' => '$1 が $2 でのあなたの編集に{{GENDER:$1|感謝しました}}',
 	'log-name-thanks' => '感謝記録',
-	'log-description-thanks' => 'これらはいつ利用者が他の利用者に感謝を示したか記録したものです。',
+	'log-description-thanks' => '以下に、他の利用者から感謝を示された利用者を列挙します。',
 	'logentry-thanks-thank' => '$1 が $3 に{{GENDER:$2|感謝しました}}',
 );
 
@@ -356,7 +356,7 @@ $3
 $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|Ви заблагодари}} за вашето уредување на $2.',
 	'log-name-thanks' => 'Дневник на благодарности',
-	'log-description-thanks' => 'Дневников ги следи благодарниците што си ги испраќаат корисниците',
+	'log-description-thanks' => 'Следи список на корисници на кои други им искажале благодарност.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|му се заблагодари на|ѝ се заблагодари на|се заблагодари на}} $3',
 );
 
@@ -418,7 +418,7 @@ $3
 $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|heeft}} u bedankt voor uw bewerking op $2.',
 	'log-name-thanks' => 'Logboek voor bedankjes',
-	'log-description-thanks' => 'Deze gebeurtenissen zijn een overzicht van gebruikers die andere gebruikers bedanken.',
+	'log-description-thanks' => 'Hieronder wordt een lijst weergegeven met gebruikers die door andere gebruikers zijn bedankt.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|heeft}} $3 bedankt',
 );
 
@@ -601,5 +601,6 @@ $messages['zh-hant'] = array(
 	'echo-category-title-edit-thank' => '感謝',
 	'notification-thanks-diff-link' => '您的編輯',
 	'log-name-thanks' => '感謝日誌',
+	'log-description-thanks' => '用戶鳴謝以下的用戶。',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|感謝}} $3',
 );
