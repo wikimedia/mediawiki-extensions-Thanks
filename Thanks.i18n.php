@@ -366,7 +366,7 @@ $4',
 $messages['ms'] = array(
 	'thanks-desc' => 'Meletakkan pautan terima kasih pada paparan sejarah dan beza',
 	'thanks-thank' => 'berterima kasih',
-	'thanks-thanked' => 'menerima kasih', # Fuzzy
+	'thanks-thanked' => '{{GENDER:$1|berterima kasih kepada}}',
 	'thanks-error-undefined' => 'Tindakan terima kasih gagal. Sila cuba lagi.',
 	'thanks-error-invalidrevision' => 'ID semakan tidak sah.',
 	'thanks-error-ratelimited' => 'Anda telah melampaui had kadar anda. Sila cuba seketika, kemudian cuba lagi.',
@@ -386,7 +386,7 @@ $3
 $4',
 	'notification-thanks-email-batch-body' => '$1 telah {{GENDER:$1|berterima kasih}} kepada anda atas suntingan anda di $2.',
 	'log-name-thanks' => 'Log ucapan terima kasih',
-	'log-description-thanks' => 'Peristiwa-peristiwa ini merakam ucapan terima kasih sesama pengguna',
+	'log-description-thanks' => 'Yang berikut adalah senarai pengguna yang menerima ucapan terima kasih daripada pengguna lain.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|berterima kasih}} kepada $3',
 );
 
