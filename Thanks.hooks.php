@@ -116,6 +116,7 @@ class ThanksHooks {
 	public static function onBeforeCreateEchoEvent( &$notifications, &$notificationCategories, &$icons ) {
 		$notificationCategories['edit-thank'] = array(
 			'priority' => 3,
+			'tooltip' => 'echo-pref-tooltip-edit-thank',
 		);
 
 		$notifications['edit-thank'] = array(

@@ -19,6 +19,7 @@ $messages['en'] = array(
 	'thanks-error-ratelimited' => "You've exceeded your rate limit. Please wait some time and try again.",
 	'thanks-thank-tooltip' => 'Send a thank you notification to this user',
 	'echo-pref-subscription-edit-thank' => 'Thanks me for my edit',
+	'echo-pref-tooltip-edit-thank' => 'Notify me when someone thanks me for an edit I made.',
 	'echo-category-title-edit-thank' => 'Thanks',
 	'notification-thanks-diff-link' => 'your edit',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|thanked}} you for $2 on [[$3]].',
@@ -55,6 +56,7 @@ $messages['qqq'] = array(
 	'echo-pref-subscription-edit-thank' => 'Option for getting notifications when someone thanks the user for their edit.
 
 This is the conclusion of the sentence begun by the header: {{msg-mw|Prefs-echosubscriptions}}.',
+	'echo-pref-tooltip-edit-thank' => 'This is a short description of the edit-thank notification category.',
 	'echo-category-title-edit-thank' => 'This is a short title for the notification category.
 
 Used as <code>$1</code> in {{msg-mw|Echo-dismiss-message}} and as <code>$2</code> in {{msg-mw|Echo-email-batch-category-header}}
