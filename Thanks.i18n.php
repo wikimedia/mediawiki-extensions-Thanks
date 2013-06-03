@@ -95,7 +95,7 @@ Used for <code>$2</code> in {{msg-mw|Notification-thanks}}. Should have capitali
  * @author ترجمان05
  */
 $messages['ar'] = array(
-	'thanks-thanked' => 'مشكور',
+	'thanks-thanked' => 'مشكور', # Fuzzy
 	'echo-category-title-edit-thank' => 'شكرا',
 );
 
@@ -141,7 +141,7 @@ $messages['bn'] = array(
  */
 $messages['br'] = array(
 	'thanks-thank' => 'trugarez',
-	'thanks-thanked' => 'trugarekaet',
+	'thanks-thanked' => 'trugarekaet', # Fuzzy
 );
 
 /** Czech (česky)
@@ -183,6 +183,7 @@ $messages['de'] = array(
 	'thanks-error-ratelimited' => 'Du hast dein Aktionslimit überschritten. Bitte warte einige Zeit und versuche es erneut.',
 	'thanks-thank-tooltip' => 'Diesem Benutzer ein „Danke schön“ senden',
 	'echo-pref-subscription-edit-thank' => '„Danke schöns“ für meine Bearbeitung',
+	'echo-pref-tooltip-edit-thank' => 'Benachrichtige mich, wenn mir jemand für eine Bearbeitung dankt, die ich gemacht habe.',
 	'echo-category-title-edit-thank' => 'Danke schön',
 	'notification-thanks-diff-link' => 'deine Bearbeitung',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|dankte}} dir für $2 auf [[$3]].',
@@ -379,31 +380,31 @@ $4",
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'thanks-desc' => '履歴ページおよび差分ページに、感謝するリンクを追加する',
+	'thanks-desc' => '履歴ページおよび差分ページに、感謝を示すリンクを追加する',
 	'thanks-thank' => '感謝',
-	'thanks-thanked' => '{{GENDER:$1|感謝しました}}',
+	'thanks-thanked' => '{{GENDER:$1|感謝を示しました}}',
 	'thanks-error-undefined' => '感謝の操作に失敗しました。もう一度やり直してください。',
 	'thanks-error-invalidrevision' => '版 ID が無効です。',
 	'thanks-error-ratelimited' => '速度制限を超えました。しばらくしてからもう一度やり直してください。',
 	'thanks-thank-tooltip' => 'この利用者に感謝の通知を送信する',
-	'echo-pref-subscription-edit-thank' => '自分の編集に誰かが感謝したとき',
+	'echo-pref-subscription-edit-thank' => '自分の編集に誰かが感謝を示したとき',
 	'echo-pref-tooltip-edit-thank' => '自分の編集に誰かが感謝を示したら通知する。',
 	'echo-category-title-edit-thank' => '感謝',
 	'notification-thanks-diff-link' => 'あなたの編集',
-	'notification-thanks' => '[[User:$1|$1]] が [[$3]] での$2に{{GENDER:$1|感謝しました}}',
-	'notification-thanks-flyout' => '[[User:$1|$1]] が <b>$3</b> での$2に{{GENDER:$1|感謝しました}}',
-	'notification-thanks-email-subject' => '$1 が{{SITENAME}}でのあなたの編集に{{GENDER:$1|感謝しました}}',
-	'notification-thanks-email-body' => '{{SITENAME}}の利用者 $1 が $2 でのあなたの編集に{{GENDER:$1|感謝しました}}。
+	'notification-thanks' => '[[User:$1|$1]] が [[$3]] での$2に{{GENDER:$1|感謝を示しました}}',
+	'notification-thanks-flyout' => '[[User:$1|$1]] が <b>$3</b> での$2に{{GENDER:$1|感謝を示しました}}',
+	'notification-thanks-email-subject' => '$1 が{{SITENAME}}でのあなたの編集に{{GENDER:$1|感謝を示しました}}',
+	'notification-thanks-email-body' => '{{SITENAME}}の利用者 $1 が $2 でのあなたの編集に{{GENDER:$1|感謝を示しました}}。
 
 あなたの編集はこちら:
 
 $3
 
 $4',
-	'notification-thanks-email-batch-body' => '$1 が $2 でのあなたの編集に{{GENDER:$1|感謝しました}}',
+	'notification-thanks-email-batch-body' => '$1 が $2 でのあなたの編集に{{GENDER:$1|感謝を示しました}}',
 	'log-name-thanks' => '感謝記録',
 	'log-description-thanks' => '以下に、他の利用者から感謝を示された利用者を列挙します。',
-	'logentry-thanks-thank' => '$1 が $3 に{{GENDER:$2|感謝しました}}',
+	'logentry-thanks-thank' => '$1 が $3 に{{GENDER:$2|感謝を示しました}}',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
