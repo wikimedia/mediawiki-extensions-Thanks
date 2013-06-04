@@ -48,8 +48,10 @@ $messages['qqq'] = array(
 	'thanks-desc' => '{{desc|name=Thanks|url=http://www.mediawiki.org/wiki/Extension:Thanks}}',
 	'thanks-thank' => '{{Doc-actionlink}}
 A link to thank another user. This appears next to messages such as {{msg-mw|editundo}} and {{msg-mw|rollbacklink}} and should be translated in a similar fashion.',
-	'thanks-thanked' => 'Message that replaces the link to thank another user after they have been thanked (Echo-thank). This is short for "You thanked the user for their edit.". Parameters:
-* $1 is the current user, for GENDER support.',
+	'thanks-thanked' => "This message immediately replaces the message {{msg-mw|Thanks-thank}} after it's pressed. It means that the thanking operation has been completed. It can be translated as \"''thanked''\" in \"You thanked the user\" or \"The user has just been ''thanked''\" - whatever is appropriate to your language.
+
+Parameters:
+* \$1 is the current user, for GENDER support.",
 	'thanks-error-undefined' => 'Error message that is displayed when the thank action fails.
 {{Identical|Please try again}}',
 	'thanks-error-invalidrevision' => 'Error message that is displayed when the revision ID is not valid',
@@ -111,6 +113,7 @@ $messages['ast'] = array(
 	'thanks-error-ratelimited' => 'Pasó la llende de repeticiones. Espere un tiempu y vuelva a intentalo.',
 	'thanks-thank-tooltip' => "Unvie una notificación d'agradecimientu a esti usuariu",
 	'echo-pref-subscription-edit-thank' => 'Agradecimientos pola mio edición',
+	'echo-pref-tooltip-edit-thank' => 'Avisame cuando alguién me de les gracies por una edición de mio.',
 	'echo-category-title-edit-thank' => 'Gracies',
 	'notification-thanks-diff-link' => 'la so edición',
 	'notification-thanks' => '[[User:$1|$1]] ta {{GENDER:$1|agradecíu|agradecida}} por $2 en [[$3]].',
@@ -144,6 +147,37 @@ $messages['br'] = array(
 	'thanks-thanked' => 'trugarekaet', # Fuzzy
 );
 
+/** Catalan (català)
+ * @author QuimGil
+ */
+$messages['ca'] = array(
+	'thanks-desc' => "Afegeix enllaços d'agraïment a les pàgines d'historial i diferències de revisions.",
+	'thanks-thank' => 'agraeix',
+	'thanks-thanked' => '{{GENDER:$1|agraït}}',
+	'thanks-error-undefined' => "L'agraïment ha fallat. Si us plau torneu a intentar-ho.",
+	'thanks-error-invalidrevision' => "L'identificador de revisió no és vàlid.",
+	'thanks-error-ratelimited' => "Heu excedit el límit d'agraïments. Si us plau espereu una mica abans de tornar-hi.",
+	'thanks-thank-tooltip' => "Envia una notificació d'agraïment a aquest usuari.",
+	'echo-pref-subscription-edit-thank' => "M'agraeix una edició",
+	'echo-pref-tooltip-edit-thank' => "Notifica'm quan algú agraeix una edició que he fet.",
+	'echo-category-title-edit-thank' => 'Gràcies',
+	'notification-thanks-diff-link' => 'la teva edició',
+	'notification-thanks' => "[[User:$1|$1]] t'{{GENDER:$1|agraeix}} per $2 a [[$3]].",
+	'notification-thanks-flyout' => "[[User:$1|$1]] t'{{GENDER:$1|agraeix}} per $2 a <b>$3</b>.",
+	'notification-thanks-email-subject' => "$1 t'{{GENDER:$1|agraeix}} per la teva edició a {{SITENAME}}",
+	'notification-thanks-email-body' => "$1 a {{SITENAME}} t'{{GENDER:$1|agraeix}} la teva edició en $2. 
+
+Mira la teva edició: 
+
+$3 
+
+$4",
+	'notification-thanks-email-batch-body' => "$1 t'{{GENDER:$1|agraeix}} per la teva edició a $2.",
+	'log-name-thanks' => "Registre d'agraïments",
+	'log-description-thanks' => "A continuació teniu una llista d'usuaris agraïts per part d'altres usuaris.",
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|ha agraït}} $3',
+);
+
 /** Czech (česky)
  * @author Mormegil
  */
@@ -172,12 +206,13 @@ $4',
 );
 
 /** German (Deutsch)
+ * @author MF-Warburg
  * @author Metalhead64
  */
 $messages['de'] = array(
 	'thanks-desc' => 'Ergänzt „Danke schön“-Links zur Versionsgeschichte und zu Versionsunterschieden',
 	'thanks-thank' => 'danken',
-	'thanks-thanked' => '{{GENDER:$1|dankte}}',
+	'thanks-thanked' => '{{GENDER:$1|bereits bedankt}}',
 	'thanks-error-undefined' => '„Danke schön“ fehlgeschlagen. Bitte erneut versuchen.',
 	'thanks-error-invalidrevision' => 'Die Versionskennung ist ungültig.',
 	'thanks-error-ratelimited' => 'Du hast dein Aktionslimit überschritten. Bitte warte einige Zeit und versuche es erneut.',
@@ -236,6 +271,7 @@ $messages['fr'] = array(
 	'thanks-error-ratelimited' => 'Vous avez dépassé votre limite de débit. Veuillez attendre un peu et réessayer.',
 	'thanks-thank-tooltip' => 'Envoyer une notification de remerciement à cet utilisateur',
 	'echo-pref-subscription-edit-thank' => 'Me remercier pour ma modification',
+	'echo-pref-tooltip-edit-thank' => 'Me prévenir quand quelqu’un me remercie pour une modification que j’ai faite.',
 	'echo-category-title-edit-thank' => 'Merci',
 	'notification-thanks-diff-link' => 'votre modification',
 	'notification-thanks' => '[[User:$1|$1]] vous {{GENDER:$1|a remercié}} pour $2 sur [[$3]].',
@@ -291,12 +327,13 @@ $4',
 $messages['he'] = array(
 	'thanks-desc' => 'הוספת קישורי "תודה" לדפי היסטוריה והשוואה',
 	'thanks-thank' => 'תודה',
-	'thanks-thanked' => '{{GENDER:$1|הודה|הודתה}}',
+	'thanks-thanked' => '{{GENDER:$1|הודֵיתָ|הודֵיתְ}}',
 	'thanks-error-undefined' => 'פעולת תודה נכשלה. נא לנסות שוב.',
 	'thanks-error-invalidrevision' => 'מזהה גרסה אינו תקין.',
 	'thanks-error-ratelimited' => 'עברת את מגבלת הקצב שלך. נא להמתין ולנסות שוב.',
 	'thanks-thank-tooltip' => 'שליחת הודעת תודה למשתמש הזה',
 	'echo-pref-subscription-edit-thank' => 'מודה לי על עריכה שלי',
+	'echo-pref-tooltip-edit-thank' => 'להודיע לי כשמישהו מודה לי על עריכה שעשיתי.',
 	'echo-category-title-edit-thank' => 'תודות',
 	'notification-thanks-diff-link' => 'עריכה שלך',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|הודה|הודתה}} לך על $2 בדף [[$3]].',
@@ -357,6 +394,7 @@ $messages['it'] = array(
 	'thanks-error-ratelimited' => "Hai superato il limite massimo di ringraziamenti. Aspetta un po' di tempo e riprova.",
 	'thanks-thank-tooltip' => 'Invia una notifica di ringraziamento a questo utente',
 	'echo-pref-subscription-edit-thank' => 'Mi ringrazia per una mia modifica',
+	'echo-pref-tooltip-edit-thank' => 'Avvisami quando qualcuno mi ringrazia per una modifica che ho fatto.',
 	'echo-category-title-edit-thank' => 'Ringraziamenti',
 	'notification-thanks-diff-link' => 'la tua modifica',
 	'notification-thanks' => '[[User:$1|$1]] ti {{GENDER:$1|ha ringraziato}} per $2 su [[$3]].',
@@ -371,7 +409,7 @@ $3
 $4",
 	'notification-thanks-email-batch-body' => '$1 ti {{GENDER:$1|ha ringraziato}} per la tua modifica su $2.',
 	'log-name-thanks' => 'Ringraziamenti',
-	'log-description-thanks' => 'Questi eventi tracciano quando un utente ringrazia un altro utente', # Fuzzy
+	'log-description-thanks' => 'Di seguito è riportato un elenco di utenti ringraziati da altri utenti.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|ha ringraziato}} $3',
 );
 
@@ -415,10 +453,11 @@ $messages['lb'] = array(
 	'thanks-error-invalidrevision' => 'Versiounsnummer (ID) ass net valabel.',
 	'thanks-thank-tooltip' => "Dësem Benotzer e 'Merci' sschécken",
 	'echo-pref-subscription-edit-thank' => "'Mercie' fir meng Ännerung",
+	'echo-pref-tooltip-edit-thank' => 'Mech Informéieren wann ee mir fir eng Ännerung déi ech gemaach hu Merci seet.',
 	'echo-category-title-edit-thank' => 'Merci',
 	'notification-thanks-diff-link' => 'Är Ännerung',
 	'log-name-thanks' => 'Logbuch vum Merci-soen',
-	'log-description-thanks' => "Dëst Logbuch protokolléiert wa Benotzer anere Benotzer 'Merci' soen", # Fuzzy
+	'log-description-thanks' => "Hei drënner ass eng Lëscht vu Benotzer déi anere Benotzer 'Merci' gesot hunn.",
 );
 
 /** Macedonian (македонски)
@@ -433,6 +472,7 @@ $messages['mk'] = array(
 	'thanks-error-ratelimited' => 'Ја надминавте границата на заблагодарувања. Почекајте некое време, па обидете се подоцна',
 	'thanks-thank-tooltip' => 'Испратете му благодарност (во порака) на корисников',
 	'echo-pref-subscription-edit-thank' => 'Ќе ми се заблагодари за мое уредување',
+	'echo-pref-tooltip-edit-thank' => 'Извести ме кога некој ќе ми заблагодари за напарвено уредување.',
 	'echo-category-title-edit-thank' => 'Благодарам',
 	'notification-thanks-diff-link' => 'вашето уредување',
 	'notification-thanks' => '[[User:$1|$1]] ви {{GENDER:$1|благодари}} за $2 на [[$3]].',
@@ -635,6 +675,7 @@ $messages['vi'] = array(
 	'thanks-error-ratelimited' => 'Bạn đã vượt quá giới hạn tốc độ. Xin vui lòng thử lại lát nữa.',
 	'thanks-thank-tooltip' => 'Gửi thông báo cám ơn cho người dùng này',
 	'echo-pref-subscription-edit-thank' => 'Gửi lời cám ơn cho tôi vì một sửa đổi của tôi',
+	'echo-pref-tooltip-edit-thank' => 'Báo cho tôi biết khi nào người ta gửi lời cám ơn về một sửa đổi của tôi.',
 	'echo-category-title-edit-thank' => 'Cám ơn',
 	'notification-thanks-diff-link' => 'sửa đổi của bạn',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1}}cám ơn bạn vì $2 tại [[$3]].',
