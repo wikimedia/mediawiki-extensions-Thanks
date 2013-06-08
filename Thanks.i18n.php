@@ -18,6 +18,7 @@ $messages['en'] = array(
 	'thanks-error-invalidrevision' => 'Revision ID is not valid.',
 	'thanks-error-ratelimited' => "You've exceeded your rate limit. Please wait some time and try again.",
 	'thanks-thank-tooltip' => 'Send a thank you notification to this user',
+	'thanks-confirmation' => 'Are you sure you want to {{GENDER:$1|thank}} $2 for this edit?',
 	'echo-pref-subscription-edit-thank' => 'Thanks me for my edit',
 	'echo-pref-tooltip-edit-thank' => 'Notify me when someone thanks me for an edit I made.',
 	'echo-category-title-edit-thank' => 'Thanks',
@@ -57,6 +58,9 @@ Parameters:
 	'thanks-error-invalidrevision' => 'Error message that is displayed when the revision ID is not valid',
 	'thanks-error-ratelimited' => 'Error message that is displayed when user exceeds rate limit',
 	'thanks-thank-tooltip' => 'Tooltip that appears when a user hovers over the "thank" link',
+	'thanks-confirmation' => 'A confirmation message to make sure the user actually wants to send thanks to another user. Parameters:
+* $1 is the user sending the thanks. Can be used for GENDER.
+* $2 is the username of the recipient. Cannot be used for GENDER.',
 	'echo-pref-subscription-edit-thank' => 'Option for getting notifications when someone thanks the user for their edit.
 
 This is the conclusion of the sentence begun by the header: {{msg-mw|Prefs-echosubscriptions}}.',
