@@ -134,8 +134,12 @@ $4",
 
 /** Bengali (বাংলা)
  * @author Aftab1995
+ * @author Bellayet
  */
 $messages['bn'] = array(
+	'thanks-thank' => 'ধন্যবাদ',
+	'thanks-thanked' => '{{GENDER:$1|ধন্যবাদ}}',
+	'thanks-error-undefined' => 'ধন্যবাদ পদক্ষেপ ব্যর্থ। অনুগ্রহ করে আবার চেষ্টা করুন।',
 	'log-name-thanks' => 'ধন্যবাদ লগ',
 );
 
@@ -176,6 +180,16 @@ $4",
 	'log-name-thanks' => "Registre d'agraïments",
 	'log-description-thanks' => "A continuació teniu una llista d'usuaris agraïts per part d'altres usuaris.",
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|ha agraït}} $3',
+);
+
+/** Sorani Kurdish (کوردی)
+ * @author Calak
+ */
+$messages['ckb'] = array(
+	'echo-pref-subscription-edit-thank' => 'بۆ دەستکارییەکم سپاسم بکە',
+	'echo-category-title-edit-thank' => 'سپاس',
+	'notification-thanks-diff-link' => 'دەستکارییەکەت',
+	'log-name-thanks' => 'لۆگی سپاس',
 );
 
 /** Czech (česky)
@@ -245,6 +259,38 @@ $messages['es'] = array(
 	'echo-category-title-edit-thank' => 'Gracias',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|agradeció}} tu edición en {{SITENAME}}',
 	'log-name-thanks' => 'Registro de agradecimientos',
+);
+
+/** Persian (فارسی)
+ * @author A.R.Rostamzade
+ * @author Ladsgroup
+ */
+$messages['fa'] = array(
+	'thanks-desc' => 'پیوند به تشکر را به تاریخچه و نمایش تفاوت‌ها می‌افزاید',
+	'thanks-thank' => 'تشکر',
+	'thanks-thanked' => '{{GENDER:$1|تشکر شد}}',
+	'thanks-error-undefined' => 'تشکر کردن موفق نبود، دوباره تلاش کنید',
+	'thanks-error-invalidrevision' => 'شماره تفاوت صحیح نیست',
+	'thanks-error-ratelimited' => 'شما از مقدار مجاز فراتر رفته‌اید. لطفا چند لحظه صبر کنید و دوباره امتحان کنید.',
+	'thanks-thank-tooltip' => 'یک پیام تشکر به اعلامیه‌های این کاربر بفرستید',
+	'echo-pref-subscription-edit-thank' => 'برای ویرایش هایم از من تشکر کن.',
+	'echo-pref-tooltip-edit-thank' => 'هنگامی که کسی برای ویرایشی که من انجام دادم از من تشکر کرد مرا مطلع کن.',
+	'echo-category-title-edit-thank' => 'تشکر',
+	'notification-thanks-diff-link' => 'ویرایش های شما',
+	'notification-thanks' => '[[User:$1|نام کاربری]] {{GENDER:$1|تشکر از شما}} برای ویرایشی که بر روی $2 انجام دادید[[$3]].',
+	'notification-thanks-flyout' => '[[User:$1|$1]] از شما برای $2 در <b>$3</b> تشکر کرده‌است.',
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1|تشکر شدید}} برای ویرایشی که بر روی صفحه ی {{SITENAME}} داشتید.',
+	'notification-thanks-email-body' => '{{SITENAME}} کاربر $1 {{GENDER:$1|تشکر شده}} از شما برای ویرایشتان بر $2.
+
+نمایش ویرایش های شما:
+
+$3
+
+$4',
+	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|تشکر شده}} برای ویرایش هایتان بر روی $2.',
+	'log-name-thanks' => 'ورودی تشکرها',
+	'log-description-thanks' => 'در زیر لیستی از کاربرانی که توسط کاربران دیگر از آن ها تشکر شده آمده است.',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|تشکر شده کرده است از}} $3',
 );
 
 /** Finnish (suomi)
@@ -583,6 +629,7 @@ $messages['roa-tara'] = array(
 	'thanks-thanked' => '{{GENDER:$1|ringraziate}}',
 	'thanks-error-undefined' => 'Azione de ringraziamende fallite. Pe piacere pruéve arrete.',
 	'thanks-error-invalidrevision' => "ID d'a revisione non g'è valide.",
+	'echo-pref-subscription-edit-thank' => 'Ringraziame pu cangiamende mije',
 	'echo-category-title-edit-thank' => 'Grazie!',
 	'notification-thanks-diff-link' => 'le cangiaminde tune',
 );
@@ -731,8 +778,10 @@ $messages['zh-hant'] = array(
 	'thanks-thanked' => '{{GENDER:$1|感謝}}',
 	'thanks-error-undefined' => '操作失敗。請再試一次。',
 	'thanks-error-invalidrevision' => '修訂ID無效。',
+	'echo-pref-tooltip-edit-thank' => '當有人感謝我所做的編輯，通知我。',
 	'echo-category-title-edit-thank' => '感謝',
-	'notification-thanks-diff-link' => '您的編輯',
+	'notification-thanks-diff-link' => '編輯',
+	'notification-thanks-flyout' => '[[User:$1|$1]]{{GENDER:$1|感謝}}你在<b>$3</b>的$2。',
 	'log-name-thanks' => '感謝日誌',
 	'log-description-thanks' => '用戶鳴謝以下的用戶。',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|感謝}} $3',
