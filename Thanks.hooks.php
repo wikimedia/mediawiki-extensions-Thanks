@@ -79,11 +79,14 @@ class ThanksHooks {
 	 * @return bool true in all cases
 	 */
 	public static function onPageHistoryBeforeList( &$page, $context ) {
+		global $wgThanksConfirmationRequired;
 		if ( class_exists( 'EchoNotifier' )
 			&& $context->getUser()->isLoggedIn()
 		) {
 			// Load the module for the thank links
 			$context->getOutput()->addModules( array( 'ext.thanks' ) );
+			$context->getOutput()->addJsConfigVars( 'thanks-confirmation-required',
+				$wgThanksConfirmationRequired );
 		}
 		return true;
 	}
@@ -97,11 +100,14 @@ class ThanksHooks {
 	 * @return bool true in all cases
 	 */
 	public static function onDiffViewHeader( $diff, $oldRev, $newRev ) {
+		global $wgThanksConfirmationRequired;
 		if ( class_exists( 'EchoNotifier' )
 			&& $diff->getUser()->isLoggedIn()
 		) {
 			// Load the module for the thank link
 			$diff->getOutput()->addModules( array( 'ext.thanks' ) );
+			$diff->getOutput()->addJsConfigVars( 'thanks-confirmation-required',
+				$wgThanksConfirmationRequired );
 		}
 		return true;
 	}

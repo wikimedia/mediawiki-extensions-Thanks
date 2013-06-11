@@ -1,6 +1,7 @@
 ( function ( $, mw ) {
 	'use strict';
 
+	// Keep track of which revisions the user has already thanked for
 	var thanked = {
 		maxHistory: 100,
 		load: function() {
@@ -38,17 +39,35 @@
 		} );
 	};
 
-	if ( $.isReady ) {
-		// This condition is required for soft-reloads
-		// to also trigger the reloadThankedState
-		reloadThankedState();
-	} else {
-		$( document ).ready( reloadThankedState );
-	}
-
-	$( 'a.mw-thanks-thank-link' ).click( function( e ) {
-		var source, $thankLink = $( this );
-		e.preventDefault();
+	var confirmThanks = function( $thankLink ) {
+		var recipient = $thankLink.parent().find( '.mw-userlink' ).text();
+		var $dialog = $( '<div>' ).msg( 'thanks-confirmation', mw.user, recipient );
+		$dialog.dialog( {
+			autoOpen: false,
+			width: 400,
+			modal: true,
+			resizable: false,
+			buttons: [
+				{
+					text: mw.msg( 'ok' ),
+					class: 'ui-button-green',
+					click: function() {
+						$( this ).dialog( "close" );
+						sendThanks( $thankLink );
+					}
+				},
+				{
+					text: mw.msg( 'cancel' ),
+					class: 'ui-button-red',
+					click: function() { $( this ).dialog( "close" ); }
+				}
+			]
+		} );
+		$dialog.dialog( 'open' );
+	};
+	
+	var sendThanks = function( $thankLink ) {
+		var source;
 		if ( mw.config.get( 'wgAction' ) === 'history' ) {
 			source = 'history';
 		} else {
@@ -78,6 +97,24 @@
 					alert( mw.msg( 'thanks-error-undefined' ) );
 			}
 		} );
+	};
+
+	if ( $.isReady ) {
+		// This condition is required for soft-reloads
+		// to also trigger the reloadThankedState
+		reloadThankedState();
+	} else {
+		$( document ).ready( reloadThankedState );
+	}
+
+	$( 'a.mw-thanks-thank-link' ).click( function( e ) {
+		var $thankLink = $( this );
+		e.preventDefault();
+		if ( mw.config.get( 'thanks-confirmation-required' ) ) {
+			confirmThanks( $thankLink );
+		} else {
+			sendThanks( $thankLink );
+		}
 	} );
 
 } )( jQuery, mediaWiki );

@@ -69,11 +69,15 @@ $wgResourceModules['ext.thanks'] = array(
 		'thanks-error-undefined',
 		'thanks-error-invalidrevision',
 		'thanks-error-ratelimited',
+		'thanks-confirmation',
+		'ok',
+		'cancel',
 	),
 	'dependencies' => array(
 		'mediawiki.jqueryMsg',
 		'mediawiki.api',
 		'user.tokens',
+		'jquery.ui.dialog',
 	),
 	'localBasePath' => $dir . '/modules',
 	'remoteExtPath' => 'Thanks/modules',
@@ -90,6 +94,9 @@ $wgThanksSendToBots = false;
 
 // Whether or not thanks should be logged in Special:Log
 $wgThanksLogging = true;
+
+// Whether or not confirmation is required for sending thanks
+$wgThanksConfirmationRequired = true;
 
 // Set how many thanks can be sent per minute by a single user (default 10)
 $wgRateLimits += array(
