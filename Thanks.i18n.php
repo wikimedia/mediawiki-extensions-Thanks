@@ -235,6 +235,7 @@ $messages['de'] = array(
 	'thanks-error-invalidrevision' => 'Die Versionskennung ist ungültig.',
 	'thanks-error-ratelimited' => 'Du hast dein Aktionslimit überschritten. Bitte warte einige Zeit und versuche es erneut.',
 	'thanks-thank-tooltip' => 'Diesem Benutzer ein „Danke schön“ senden',
+	'thanks-confirmation' => 'Möchtest du $2 wirklich für diese Bearbeitung {{GENDER:$1|danken}}?',
 	'echo-pref-subscription-edit-thank' => '„Danke schöns“ für meine Bearbeitung',
 	'echo-pref-tooltip-edit-thank' => 'Benachrichtige mich, wenn mir jemand für eine Bearbeitung dankt, die ich gemacht habe.',
 	'echo-category-title-edit-thank' => 'Danke schön',
@@ -320,6 +321,7 @@ $messages['fr'] = array(
 	'thanks-error-invalidrevision' => 'L’ID de révision n’est pas valide.',
 	'thanks-error-ratelimited' => 'Vous avez dépassé votre limite de débit. Veuillez attendre un peu et réessayer.',
 	'thanks-thank-tooltip' => 'Envoyer une notification de remerciement à cet utilisateur',
+	'thanks-confirmation' => 'Êtes-vous sûr de vouloir {{GENDER:$1|remercier}} $2 pour cette modification ?',
 	'echo-pref-subscription-edit-thank' => 'Me remercier pour ma modification',
 	'echo-pref-tooltip-edit-thank' => 'Me prévenir quand quelqu’un me remercie pour une modification que j’ai faite.',
 	'echo-category-title-edit-thank' => 'Merci',
@@ -340,6 +342,38 @@ $4',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|remercie}} $3',
 );
 
+/** Northern Frisian (Nordfriisk)
+ * @author Murma174
+ */
+$messages['frr'] = array(
+	'thanks-desc' => 'Saat en "soonk" tu a werjuunsferluup',
+	'thanks-thank' => 'soonke',
+	'thanks-thanked' => '{{GENDER:$1|besoonket}}',
+	'thanks-error-undefined' => '"Soonk" hää ei loket. Ferschük det man noch ans.',
+	'thanks-error-invalidrevision' => 'Det werjuun jaft at ei.',
+	'thanks-error-ratelimited' => 'Dü heest tuföl aktjuunen onernimen. Teew en uugenblak an ferschük det noch ans weder.',
+	'thanks-thank-tooltip' => 'Schüür didiar brüker en "soonk".',
+	'thanks-confirmation' => 'Wel dü $2 würelk {{GENDER:$1|en soonk schüür}} för didiar bidrach?',
+	'echo-pref-subscription-edit-thank' => '"Soonk" saien för man bidrach',
+	'echo-pref-tooltip-edit-thank' => 'Du mi bööd, wan mi hoker en "soonk" schüürt för man bidrach.',
+	'echo-category-title-edit-thank' => 'Föl soonk',
+	'notification-thanks-diff-link' => 'dan bidrach',
+	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|soonket}} di för $2 üüb [[$3]].',
+	'notification-thanks-flyout' => '[[User:$1|$1]] {{GENDER:$1|soonket}} di för $2 üüb <b>$3</b>.',
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1|soonket}} di för dan bidrach üüb {{SITENAME}}',
+	'notification-thanks-email-body' => '{{GENDER:$1|Di {{SITENAME}}-brüker|Det {{SITENAME}}-brükerin}} $1 soonket di för dan bidrach üüb $2.
+
+Dan bidrach uunluke:
+
+$3
+
+$4',
+	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|soonket}} di för dan bidrach üüb $2.',
+	'log-name-thanks' => 'Soonk-logbuk',
+	'log-description-thanks' => 'Oner stäänt en list faan brükern, diar faan ööder brükern soonk saad wurden as.',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|soonket}} $3',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
@@ -351,6 +385,7 @@ $messages['gl'] = array(
 	'thanks-error-invalidrevision' => 'O ID da revisión non é válido.',
 	'thanks-error-ratelimited' => 'Superou o seu límite de velocidade. Agarde uns minutos e inténteo de novo.',
 	'thanks-thank-tooltip' => 'Envía unha notificación de agradecemento a este usuario',
+	'thanks-confirmation' => 'Está {{GENDER:$1|seguro|segura}} de querer agradecer a $2 a súa edición?',
 	'echo-pref-subscription-edit-thank' => 'Me agradeza unha edición feita por min',
 	'echo-pref-tooltip-edit-thank' => 'Notificádeme cando alguén me agradeza unha edición feita por min.',
 	'echo-category-title-edit-thank' => 'Agradecemento',
@@ -443,6 +478,7 @@ $messages['it'] = array(
 	'thanks-error-invalidrevision' => 'ID versione non è valido.',
 	'thanks-error-ratelimited' => "Hai superato il limite massimo di ringraziamenti. Aspetta un po' di tempo e riprova.",
 	'thanks-thank-tooltip' => 'Invia una notifica di ringraziamento a questo utente',
+	'thanks-confirmation' => 'Sei sicuro di voler {{GENDER:$1|ringraziare}} $2 per questa modifica?',
 	'echo-pref-subscription-edit-thank' => 'Mi ringrazia per una mia modifica',
 	'echo-pref-tooltip-edit-thank' => 'Avvisami quando qualcuno mi ringrazia per una modifica che ho fatto.',
 	'echo-category-title-edit-thank' => 'Ringraziamenti',
@@ -475,6 +511,7 @@ $messages['ja'] = array(
 	'thanks-error-invalidrevision' => '版 ID が無効です。',
 	'thanks-error-ratelimited' => '速度制限を超えました。しばらくしてからもう一度やり直してください。',
 	'thanks-thank-tooltip' => 'この利用者に感謝の通知を送信する',
+	'thanks-confirmation' => '$2 のこの編集に対して本当に{{GENDER:$1|感謝を示しますか}}?',
 	'echo-pref-subscription-edit-thank' => '自分の編集に誰かが感謝を示したとき',
 	'echo-pref-tooltip-edit-thank' => '自分の編集に誰かが感謝を示したら通知する。',
 	'echo-category-title-edit-thank' => '感謝',
@@ -521,6 +558,7 @@ $messages['mk'] = array(
 	'thanks-error-invalidrevision' => 'Ревизијата има неважечка назнака.',
 	'thanks-error-ratelimited' => 'Ја надминавте границата на заблагодарувања. Почекајте некое време, па обидете се подоцна',
 	'thanks-thank-tooltip' => 'Испратете му благодарност (во порака) на корисников',
+	'thanks-confirmation' => 'Дали сте сигурни дека сакате да  {{GENDER:$1|му се заблагодарите|да ѝ се заблагодарите}} на $2 за уредувањево?',
 	'echo-pref-subscription-edit-thank' => 'Ќе ми се заблагодари за мое уредување',
 	'echo-pref-tooltip-edit-thank' => 'Извести ме кога некој ќе ми заблагодари за напарвено уредување.',
 	'echo-category-title-edit-thank' => 'Благодарам',
