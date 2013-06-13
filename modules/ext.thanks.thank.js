@@ -50,7 +50,7 @@
 			buttons: [
 				{
 					text: mw.msg( 'ok' ),
-					class: 'ui-button-green',
+					'class': 'ui-button-green',
 					click: function() {
 						$( this ).dialog( "close" );
 						sendThanks( $thankLink );
