@@ -58,7 +58,6 @@
 				},
 				{
 					text: mw.msg( 'cancel' ),
-					class: 'ui-button-red',
 					click: function() { $( this ).dialog( "close" ); }
 				}
 			]
