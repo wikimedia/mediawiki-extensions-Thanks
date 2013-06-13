@@ -116,6 +116,7 @@ $messages['ast'] = array(
 	'thanks-error-invalidrevision' => 'La ID de la revisión nun ye válida.',
 	'thanks-error-ratelimited' => 'Pasó la llende de repeticiones. Espere un tiempu y vuelva a intentalo.',
 	'thanks-thank-tooltip' => "Unvie una notificación d'agradecimientu a esti usuariu",
+	'thanks-confirmation' => '¿Ta {{GENDER:$1|seguru|segura}} de que quier agradecer a $2 la so edición?',
 	'echo-pref-subscription-edit-thank' => 'Agradecimientos pola mio edición',
 	'echo-pref-tooltip-edit-thank' => 'Avisame cuando alguién me de les gracies por una edición de mio.',
 	'echo-category-title-edit-thank' => 'Gracies',
