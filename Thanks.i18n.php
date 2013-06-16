@@ -764,6 +764,7 @@ $messages['vi'] = array(
 	'thanks-error-invalidrevision' => 'Số phiên bản không hợp lệ.',
 	'thanks-error-ratelimited' => 'Bạn đã vượt quá giới hạn tốc độ. Xin vui lòng thử lại lát nữa.',
 	'thanks-thank-tooltip' => 'Gửi thông báo cám ơn cho người dùng này',
+	'thanks-confirmation' => 'Bạn có chắc chắn muốn {{GENDER:$1}}gửi lời cám ơn cho $2 vì sửa đổi này?',
 	'echo-pref-subscription-edit-thank' => 'Gửi lời cám ơn cho tôi vì một sửa đổi của tôi',
 	'echo-pref-tooltip-edit-thank' => 'Báo cho tôi biết khi nào người ta gửi lời cám ơn về một sửa đổi của tôi.',
 	'echo-category-title-edit-thank' => 'Cám ơn',
