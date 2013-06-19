@@ -126,13 +126,15 @@ class ThanksHooks {
 		);
 
 		$notifications['edit-thank'] = array(
+			'primary-link' => array( 'message' => 'notification-link-text-respond-to-user', 'destination' => 'agent' ),
+			'secondary-link' => array( 'message' => 'notification-link-text-view-edit', 'destination' => 'diff' ),
 			'category' => 'edit-thank',
 			'group' => 'positive',
 			'formatter-class' => 'EchoThanksFormatter',
 			'title-message' => 'notification-thanks',
 			'title-params' => array( 'agent', 'difflink', 'title' ),
-			'flyout-message' => 'notification-thanks-flyout',
-			'flyout-params' => array( 'agent', 'difflink', 'title' ),
+			'flyout-message' => 'notification-thanks-flyout2',
+			'flyout-params' => array( 'agent', 'title' ),
 			'payload' => array( 'summary' ),
 			'email-subject-message' => 'notification-thanks-email-subject',
 			'email-subject-params' => array( 'agent' ),

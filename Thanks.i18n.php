@@ -24,7 +24,7 @@ $messages['en'] = array(
 	'echo-category-title-edit-thank' => 'Thanks',
 	'notification-thanks-diff-link' => 'your edit',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|thanked}} you for $2 on [[$3]].',
-	'notification-thanks-flyout' => '[[User:$1|$1]] {{GENDER:$1|thanked}} you for $2 on <b>$3</b>.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|thanked}} you for your edit on $2.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|thanked}} you for your edit on {{SITENAME}}',
 	'notification-thanks-email-body' => '{{SITENAME}} user $1 {{GENDER:$1|thanked}} you for your edit on $2.
 
@@ -34,6 +34,7 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|thanked}} you for your edit on $2.',
+	'notification-link-text-respond-to-user' => 'Respond to user',
 	'log-name-thanks' => 'Thanks log',
 	'log-description-thanks' => 'Below is a list of users thanked by other users.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|thanked}} $3',
@@ -78,10 +79,9 @@ Used for <code>$2</code> in {{msg-mw|Notification-thanks}}. Should have capitali
 * $1 is the username of the person who edited, plain text. Can be used for GENDER.
 * $2 is a link to the user's edit. The text of the link is {{msg-mw|Notification-thanks-diff-link}}.
 * $3 is the title of the page the user edited.",
-	'notification-thanks-flyout' => "Format for displaying notifications in the flyout when a user is thanked for their edit. Parameters:
+	'notification-thanks-flyout2' => "Format for displaying notifications in the flyout when a user is thanked for their edit. Parameters:
 * $1 is the username of the person who edited, plain text. Can be used for GENDER.
-* $2 is a link to the user's edit. The text of the link is {{msg-mw|Notification-thanks-diff-link}}.
-* $3 is the title of the page the user edited.",
+* $2 is the title of the page the user edited.",
 	'notification-thanks-email-subject' => 'E-mail subject',
 	'notification-thanks-email-body' => "E-mail notification. Parameters:
 * $1 is a username. Can be used for GENDER.
@@ -91,6 +91,7 @@ Used for <code>$2</code> in {{msg-mw|Notification-thanks}}. Should have capitali
 	'notification-thanks-email-batch-body' => 'E-mail notification. Parameters:
 * $1 is a username. Can be used for GENDER.
 * $2 the title of the page the user edited.',
+	'notification-link-text-respond-to-user' => 'Label for button that links to a user page.',
 	'log-name-thanks' => 'Name of log that appears on [[Special:Log]].',
 	'log-description-thanks' => 'Description of thanks log',
 	'logentry-thanks-thank' => 'Log entry that is created when a user thanks another user for an edit. Parameters:
@@ -134,6 +135,7 @@ $3
 
 $4",
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|agradeció}} la so edición en $2.',
+
 	'log-name-thanks' => "Rexistru d'agradecimientos",
 	'log-description-thanks' => "Mas abaxo ta la llista d'usuarios a los qu'otros usuarios dieron les gracies.",
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|dio les gracies a}} $3',
