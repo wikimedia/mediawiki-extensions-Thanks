@@ -58,9 +58,11 @@ Parameters:
 	'thanks-error-invalidrevision' => 'Error message that is displayed when the revision ID is not valid',
 	'thanks-error-ratelimited' => 'Error message that is displayed when user exceeds rate limit',
 	'thanks-thank-tooltip' => 'Tooltip that appears when a user hovers over the "thank" link',
-	'thanks-confirmation' => 'A confirmation message to make sure the user actually wants to send thanks to another user. Parameters:
-* $1 is the user sending the thanks. Can be used for GENDER.
-* $2 is the username of the recipient. Cannot be used for GENDER.',
+	'thanks-confirmation' => 'A confirmation message to make sure the user actually wants to send thanks to another user.
+
+Parameters:
+* $1 - the user sending the thanks. Can be used for GENDER.
+* $2 - the username of the recipient. Can NOT be used for GENDER.',
 	'echo-pref-subscription-edit-thank' => 'Option for getting notifications when someone thanks the user for their edit.
 
 This is the conclusion of the sentence begun by the header: {{msg-mw|Prefs-echosubscriptions}}.',
@@ -591,7 +593,9 @@ $messages['ms'] = array(
 	'thanks-error-invalidrevision' => 'ID semakan tidak sah.',
 	'thanks-error-ratelimited' => 'Anda telah melampaui had kadar anda. Sila cuba seketika, kemudian cuba lagi.',
 	'thanks-thank-tooltip' => 'Hantar ucapan terima kasih kepada pengguna ini',
+	'thanks-confirmation' => 'Adakah anda betul-betul ingin {{GENDER:$1|berterima kasih}} kepada $2 atas suntingan ini?',
 	'echo-pref-subscription-edit-thank' => 'Berterima kasih pada saya atas suntingan saya',
+	'echo-pref-tooltip-edit-thank' => 'Beritahu saya apabila seseorang berterima kasih kepada saya atas suntingan saya.',
 	'echo-category-title-edit-thank' => 'Terima kasih',
 	'notification-thanks-diff-link' => 'suntingan anda',
 	'notification-thanks' => '[[User:$1|$1]] telah {{GENDER:$1|berterima kasih}} kepada anda atas $2 di [[$3]].',
