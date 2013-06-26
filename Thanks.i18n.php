@@ -26,13 +26,6 @@ $messages['en'] = array(
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|thanked}} you for $2 on [[$3]].',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|thanked}} you for your edit on $2.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|thanked}} you for your edit on {{SITENAME}}',
-	'notification-thanks-email-body' => '{{SITENAME}} user $1 {{GENDER:$1|thanked}} you for your edit on $2.
-
-View your edit:
-
-$3
-
-$4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|thanked}} you for your edit on $2.',
 	'notification-link-text-respond-to-user' => 'Respond to user',
 	'log-name-thanks' => 'Thanks log',
@@ -83,11 +76,6 @@ Used for <code>$2</code> in {{msg-mw|Notification-thanks}}. Should have capitali
 * $1 is the username of the person who edited, plain text. Can be used for GENDER.
 * $2 is the title of the page the user edited.',
 	'notification-thanks-email-subject' => 'E-mail subject',
-	'notification-thanks-email-body' => "E-mail notification. Parameters:
-* $1 is a username. Can be used for GENDER.
-* $2 the title of the page the user edited.
-* $3 is a link to the user's edit.
-* $4 is the e-mail footer, {{msg-mw|echo-email-footer-default}}",
 	'notification-thanks-email-batch-body' => 'E-mail notification. Parameters:
 * $1 is a username. Can be used for GENDER.
 * $2 the title of the page the user edited.',
