@@ -539,6 +539,7 @@ $4',
  * @author Robby
  */
 $messages['lb'] = array(
+	'thanks-desc' => "Setzt 'Merci'Linken bäi den Historique a bäi Versiounsënnerscheeder derbäi",
 	'thanks-thank' => 'merci',
 	'thanks-error-invalidrevision' => 'Versiounsnummer (ID) ass net valabel.',
 	'thanks-thank-tooltip' => "Dësem Benotzer e 'Merci' sschécken",
