@@ -134,7 +134,11 @@ class ThanksHooks {
 			'email-body-params' => array( 'agent', 'title', 'difflink', 'email-footer' ),
 			'email-body-batch-message' => 'notification-thanks-email-batch-body',
 			'email-body-batch-params' => array( 'agent', 'title' ),
-			'icon' => 'gratitude',
+			'icon' => 'thanks',
+		);
+
+		$icons['thanks'] = array(
+			'path' => 'Thanks/ThankYou.png',
 		);
 
 		return true;
