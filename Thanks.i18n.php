@@ -79,9 +79,9 @@ Used for <code>$2</code> in {{msg-mw|Notification-thanks}}. Should have capitali
 * $1 is the username of the person who edited, plain text. Can be used for GENDER.
 * $2 is a link to the user's edit. The text of the link is {{msg-mw|Notification-thanks-diff-link}}.
 * $3 is the title of the page the user edited.",
-	'notification-thanks-flyout2' => "Format for displaying notifications in the flyout when a user is thanked for their edit. Parameters:
+	'notification-thanks-flyout2' => 'Format for displaying notifications in the flyout when a user is thanked for their edit. Parameters:
 * $1 is the username of the person who edited, plain text. Can be used for GENDER.
-* $2 is the title of the page the user edited.",
+* $2 is the title of the page the user edited.',
 	'notification-thanks-email-subject' => 'E-mail subject',
 	'notification-thanks-email-body' => "E-mail notification. Parameters:
 * $1 is a username. Can be used for GENDER.
@@ -602,7 +602,6 @@ $messages['ms'] = array(
 	'echo-category-title-edit-thank' => 'Terima kasih',
 	'notification-thanks-diff-link' => 'suntingan anda',
 	'notification-thanks' => '[[User:$1|$1]] telah {{GENDER:$1|berterima kasih}} kepada anda atas $2 di [[$3]].',
-	'notification-thanks-flyout' => '[[User:$1|$1]] telah {{GENDER:$1|berterima kasih}} kepada anda atas $2 di <b>$3</b>.',
 	'notification-thanks-email-subject' => '$1 telah {{GENDER:$1|berterima kasih}} kepada anda atas suntingan anda di {{SITENAME}}',
 	'notification-thanks-email-body' => 'Pengguna {{SITENAME}}, $1 telah {{GENDER:$1|berterima kasih}} kepada anda atas suntingan anda di $2.
 
