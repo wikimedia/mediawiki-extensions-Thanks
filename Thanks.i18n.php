@@ -125,7 +125,7 @@ $messages['ast'] = array(
 	'echo-category-title-edit-thank' => 'Gracies',
 	'notification-thanks-diff-link' => 'la so edición',
 	'notification-thanks' => '[[User:$1|$1]] ta {{GENDER:$1|agradecíu|agradecida}} por $2 en [[$3]].',
-	'notification-thanks-flyout' => '[[User:$1|$1]] ta {{GENDER:$1|agradecíu|agradecida}} por $2 en <b>$3</b>.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|agradeció}} la so edición de $2.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|agradeció}} la so edición en {{SITENAME}}',
 	'notification-thanks-email-body' => "{{GENDER:$1|L'usuariu|La usuaria}} $1 agradeció la so edición en $2.
 
@@ -135,7 +135,7 @@ $3
 
 $4",
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|agradeció}} la so edición en $2.',
-
+	'notification-link-text-respond-to-user' => 'Contestar al usuariu',
 	'log-name-thanks' => "Rexistru d'agradecimientos",
 	'log-description-thanks' => "Mas abaxo ta la llista d'usuarios a los qu'otros usuarios dieron les gracies.",
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|dio les gracies a}} $3',
@@ -246,7 +246,7 @@ $messages['de'] = array(
 	'echo-category-title-edit-thank' => 'Danke schön',
 	'notification-thanks-diff-link' => 'deine Bearbeitung',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|dankte}} dir für $2 auf [[$3]].',
-	'notification-thanks-flyout' => '[[User:$1|$1]] {{GENDER:$1|dankte}} dir für $2 auf <b>$3</b>.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|dankte}} dir für deine Bearbeitung auf „$2“.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|dankte}} dir für deine Bearbeitung auf {{SITENAME}}',
 	'notification-thanks-email-body' => '{{GENDER:$1|Der {{SITENAME}}-Benutzer|Die {{SITENAME}}-Benutzerin}} $1 dankte dir für deine Bearbeitung auf $2.
 
@@ -256,6 +256,7 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|dankte}} dir für deine Bearbeitung auf $2.',
+	'notification-link-text-respond-to-user' => 'Antwort an Benutzer',
 	'log-name-thanks' => 'Dankeschön-Logbuch',
 	'log-description-thanks' => 'Es folgt eine Liste von Benutzern, die anderen Benutzern dankten.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|dankte}} $3',
@@ -332,7 +333,7 @@ $messages['fr'] = array(
 	'echo-category-title-edit-thank' => 'Merci',
 	'notification-thanks-diff-link' => 'votre modification',
 	'notification-thanks' => '[[User:$1|$1]] vous {{GENDER:$1|a remercié}} pour $2 sur [[$3]].',
-	'notification-thanks-flyout' => '[[User:$1|$1]] vous {{GENDER:$1|a remercié}} pour $2 sur <b>$3</b>.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] vous {{GENDER:$1|a remercié}} pour votre modification sur $2.',
 	'notification-thanks-email-subject' => '$1 vous {{GENDER:$1|a remercié}} pour votre modification sur {{SITENAME}}',
 	'notification-thanks-email-body' => 'L’utilisateur $1 de {{SITENAME}} vous {{GENDER:$1|a remercié}} pour votre modification sur $2.
 
@@ -342,6 +343,7 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '$1 vous {{GENDER:$1|a remercié}} pour votre modification sur $2.',
+	'notification-link-text-respond-to-user' => 'Répondre à l’utilisateur',
 	'log-name-thanks' => 'Entrée remerciements',
 	'log-description-thanks' => "Ci-dessous se trouve une liste d'utilisateurs qui ont été remerciés par d'autres.",
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|remercie}} $3',
@@ -489,7 +491,7 @@ $messages['it'] = array(
 	'echo-category-title-edit-thank' => 'Ringraziamenti',
 	'notification-thanks-diff-link' => 'la tua modifica',
 	'notification-thanks' => '[[User:$1|$1]] ti {{GENDER:$1|ha ringraziato}} per $2 su [[$3]].',
-	'notification-thanks-flyout' => '[[User:$1|$1]] ti {{GENDER:$1|ha ringraziato}} per $2 su <b>$3</b>.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] ti {{GENDER:$1|ha ringraziato}} per la tua modifica su $2.',
 	'notification-thanks-email-subject' => '$1 ti {{GENDER:$1|ha ringraziato}} per la tua modifica su {{SITENAME}}.',
 	'notification-thanks-email-body' => "L'utente $1 di {{SITENAME}} ti {{GENDER:$1|ha ringraziato}} per la tua modifica su $2.
 
@@ -499,6 +501,7 @@ $3
 
 $4",
 	'notification-thanks-email-batch-body' => '$1 ti {{GENDER:$1|ha ringraziato}} per la tua modifica su $2.',
+	'notification-link-text-respond-to-user' => "Rispondi all'utente",
 	'log-name-thanks' => 'Ringraziamenti',
 	'log-description-thanks' => 'Di seguito è riportato un elenco di utenti ringraziati da altri utenti.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|ha ringraziato}} $3',
@@ -522,7 +525,7 @@ $messages['ja'] = array(
 	'echo-category-title-edit-thank' => '感謝',
 	'notification-thanks-diff-link' => 'あなたの編集',
 	'notification-thanks' => '[[User:$1|$1]] が [[$3]] での$2に{{GENDER:$1|感謝を示しました}}',
-	'notification-thanks-flyout' => '[[User:$1|$1]] が <b>$3</b> での$2に{{GENDER:$1|感謝を示しました}}',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] が $2 でのあなたの編集に{{GENDER:$1|感謝を示しました}}。',
 	'notification-thanks-email-subject' => '$1 が{{SITENAME}}でのあなたの編集に{{GENDER:$1|感謝を示しました}}',
 	'notification-thanks-email-body' => '{{SITENAME}}の利用者 $1 が $2 でのあなたの編集に{{GENDER:$1|感謝を示しました}}。
 
@@ -532,6 +535,7 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '$1 が $2 でのあなたの編集に{{GENDER:$1|感謝を示しました}}',
+	'notification-link-text-respond-to-user' => '利用者に返信',
 	'log-name-thanks' => '感謝記録',
 	'log-description-thanks' => '以下に、他の利用者から感謝を示された利用者を列挙します。',
 	'logentry-thanks-thank' => '$1 が $3 に{{GENDER:$2|感謝を示しました}}',
@@ -570,7 +574,7 @@ $messages['mk'] = array(
 	'echo-category-title-edit-thank' => 'Благодарам',
 	'notification-thanks-diff-link' => 'вашето уредување',
 	'notification-thanks' => '[[User:$1|$1]] ви {{GENDER:$1|благодари}} за $2 на [[$3]].',
-	'notification-thanks-flyout' => '[[User:$1|$1]] ви {{GENDER:$1|благодари}} за $2 на <b>$3</b>.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|Ви заблагодари}} за вашето уредување на $2.',
 	'notification-thanks-email-subject' => '$1 ви {{GENDER:$1|благодари}} за вашето уредување на {{SITENAME}}',
 	'notification-thanks-email-body' => 'Корисникот $1 на {{SITENAME}} {{GENDER:$1|ви благодари}} за вашето уредување на $2.
 
@@ -580,6 +584,7 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|Ви заблагодари}} за вашето уредување на $2.',
+	'notification-link-text-respond-to-user' => 'Одговори му на корисникот',
 	'log-name-thanks' => 'Дневник на благодарности',
 	'log-description-thanks' => 'Следи список на корисници на кои други им искажале благодарност.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|му се заблагодари на|ѝ се заблагодари на|се заблагодари на}} $3',
