@@ -398,7 +398,7 @@ $messages['gl'] = array(
 	'echo-category-title-edit-thank' => 'Agradecemento',
 	'notification-thanks-diff-link' => 'a súa edición',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|agradeceu}} $2 en "[[$3]]".',
-	'notification-thanks-flyout' => '[[User:$1|$1]] {{GENDER:$1|agradeceu}} $2 en "<b>$3</b>".',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|agradeceu}} a súa edición en "$2".',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|agradeceu}} a súa edición en {{SITENAME}}',
 	'notification-thanks-email-body' => '{{GENDER:$1|O editor|A editora}} $1 agradeceu a súa edición en "$2".
 
@@ -408,6 +408,7 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|agradeceu}} a súa edición en "$2".',
+	'notification-link-text-respond-to-user' => 'Responder ao usuario',
 	'log-name-thanks' => 'Rexistro de agradecementos',
 	'log-description-thanks' => 'A continuación hai unha lista dos usuarios que recibiron agradecementos doutros usuarios.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|deu as grazas a}} $3',
@@ -442,6 +443,14 @@ $4',
 	'log-name-thanks' => 'יומן תודות',
 	'log-description-thanks' => 'להלן רשימת משתמשים שאנשים אחרים הודו להם.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|הודה|הודתה}} ל{{GRAMMAR:תחילית|$3}}',
+);
+
+/** Indonesian (Bahasa Indonesia)
+ * @author Iwan Novirion
+ */
+$messages['id'] = array(
+	'notification-thanks-flyout2' => '[[User:$1|$1]] mengucapkan {{GENDER:$1|terima kasih}} atas suntingan Anda pada $2.',
+	'notification-link-text-respond-to-user' => 'Beri tanggapan',
 );
 
 /** Iloko (Ilokano)
@@ -607,6 +616,7 @@ $messages['ms'] = array(
 	'echo-category-title-edit-thank' => 'Terima kasih',
 	'notification-thanks-diff-link' => 'suntingan anda',
 	'notification-thanks' => '[[User:$1|$1]] telah {{GENDER:$1|berterima kasih}} kepada anda atas $2 di [[$3]].',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|berterima kasih}} kepada anda kerana menyunting $2.',
 	'notification-thanks-email-subject' => '$1 telah {{GENDER:$1|berterima kasih}} kepada anda atas suntingan anda di {{SITENAME}}',
 	'notification-thanks-email-body' => 'Pengguna {{SITENAME}}, $1 telah {{GENDER:$1|berterima kasih}} kepada anda atas suntingan anda di $2.
 
@@ -616,6 +626,7 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '$1 telah {{GENDER:$1|berterima kasih}} kepada anda atas suntingan anda di $2.',
+	'notification-link-text-respond-to-user' => 'Balas pengguna',
 	'log-name-thanks' => 'Log ucapan terima kasih',
 	'log-description-thanks' => 'Yang berikut adalah senarai pengguna yang menerima ucapan terima kasih daripada pengguna lain.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|berterima kasih}} kepada $3',
