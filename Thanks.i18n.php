@@ -665,6 +665,23 @@ $4',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|heeft}} $3 bedankt',
 );
 
+/** Punjabi (ਪੰਜਾਬੀ)
+ * @author Babanwalia
+ */
+$messages['pa'] = array(
+	'thanks-thank' => 'ਮਿਹਰਬਾਨੀ',
+	'thanks-thanked' => '{{GENDER:$1|ਧੰਨਵਾਦ ਕੀਤਾ ਗਿਆ}}',
+	'thanks-error-undefined' => 'ਮਿਹਰਬਾਨੀ ਕਾਰਜ ਫੇਲ੍ਹ ਹੋਇਆ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।',
+	'thanks-thank-tooltip' => 'ਇਸ ਵਰਤੋਂਕਾਰ ਨੂੰ ਇੱਕ ਮਿਹਰਬਾਨੀ ਸੂਚਨਾ ਭੇਜੋ',
+	'echo-pref-subscription-edit-thank' => 'ਮੇਰੀਆਂ ਸੋਧਾਂ ਦਾ ਧੰਨਵਾਦ ਕਰਦਾ ਹੈ',
+	'echo-pref-tooltip-edit-thank' => 'ਜਦੋਂ ਕੋਈ ਮੇਰੀ ਸੋਧ ਦਾ ਧੰਨਵਾਦ ਕਰਦਾ ਹੈ ਤਾਂ ਮੈਨੂੰ ਇਤਲਾਹ ਦਿਓ',
+	'echo-category-title-edit-thank' => 'ਮਿਹਰਬਾਨੀ',
+	'notification-thanks-diff-link' => 'ਤੁਹਾਡੀ ਸੋਧ',
+	'notification-link-text-respond-to-user' => 'ਵਰਤੋਂਕਾਰ ਨੂੰ ਜੁਆਬ ਦਿਓ',
+	'log-name-thanks' => 'ਮਿਹਰਬਾਨੀਆਂ ਦਾ ਇੰਦਰਾਜ',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|ਧੰਨਵਾਦ ਕੀਤਾ ਗਿਆ}} $3',
+);
+
 /** Polish (polski)
  * @author Ty221
  */
