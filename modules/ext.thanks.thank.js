@@ -41,6 +41,9 @@
 
 	var confirmThanks = function( $thankLink ) {
 		var recipient = $thankLink.parent().find( '.mw-userlink' ).text();
+		if ( recipient === '' ) { // for Diff view
+			recipient = $thankLink.parents( '.diff-ntitle' ).find( '.mw-userlink' ).text();
+		}
 		var $dialog = $( '<div>' ).msg( 'thanks-confirmation', mw.user, recipient );
 		$dialog.dialog( {
 			autoOpen: false,
