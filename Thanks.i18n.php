@@ -562,6 +562,8 @@ $messages['lb'] = array(
 	'echo-pref-tooltip-edit-thank' => 'Mech Informéieren wann ee mir fir eng Ännerung déi ech gemaach hu Merci seet.',
 	'echo-category-title-edit-thank' => 'Merci',
 	'notification-thanks-diff-link' => 'Är Ännerung',
+	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|seet}} Iech merci fir Är Ännerung op $2.',
+	'notification-link-text-respond-to-user' => 'Dem Benotzer äntwerten',
 	'log-name-thanks' => 'Logbuch vum Merci-soen',
 	'log-description-thanks' => "Hei drënner ass eng Lëscht vu Benotzer déi anere Benotzer 'Merci' gesot hunn.",
 );
