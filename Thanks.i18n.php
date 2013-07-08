@@ -811,7 +811,7 @@ $messages['vi'] = array(
 	'echo-category-title-edit-thank' => 'Cám ơn',
 	'notification-thanks-diff-link' => 'sửa đổi của bạn',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1}}cám ơn bạn vì $2 tại [[$3]].',
-	'notification-thanks-flyout' => '[[User:$1|$1]] {{GENDER:$1}}cám ơn bạn vì $2 tại <b>$3</b>.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1}}cám ơn bạn vì sửa đổi của bạn tại $2.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1}}cám ơn bạn vì sửa đổi của bạn tại {{SITENAME}}',
 	'notification-thanks-email-body' => 'Người dùng $1 tại {{SITENAME}} {{GENDER:$1}}cám ơn bạn vì sửa đổi gần đây của bạn tại $2.
 
@@ -821,6 +821,7 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1}}cám ơn bạn vì sửa đổi của bạn tại $2.',
+	'notification-link-text-respond-to-user' => 'Trả lời cho người dùng',
 	'log-name-thanks' => 'Nhật trình cám ơn',
 	'log-description-thanks' => 'Dưới đây có danh sách những người dùng được người khác gửi lời cám ơn.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2}}đã cám ơn $3',
