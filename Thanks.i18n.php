@@ -366,7 +366,7 @@ $messages['frr'] = array(
 	'echo-category-title-edit-thank' => 'Föl soonk',
 	'notification-thanks-diff-link' => 'dan bidrach',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|soonket}} di för $2 üüb [[$3]].',
-	'notification-thanks-flyout' => '[[User:$1|$1]] {{GENDER:$1|soonket}} di för $2 üüb <b>$3</b>.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|soonket}} di för dan bidrach üüb $2.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|soonket}} di för dan bidrach üüb {{SITENAME}}',
 	'notification-thanks-email-body' => '{{GENDER:$1|Di {{SITENAME}}-brüker|Det {{SITENAME}}-brükerin}} $1 soonket di för dan bidrach üüb $2.
 
@@ -376,6 +376,7 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|soonket}} di för dan bidrach üüb $2.',
+	'notification-link-text-respond-to-user' => 'Di brüker swaare',
 	'log-name-thanks' => 'Soonk-logbuk',
 	'log-description-thanks' => 'Oner stäänt en list faan brükern, diar faan ööder brükern soonk saad wurden as.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|soonket}} $3',
@@ -548,6 +549,13 @@ $4',
 	'log-name-thanks' => '感謝記録',
 	'log-description-thanks' => '以下に、他の利用者から感謝を示された利用者を列挙します。',
 	'logentry-thanks-thank' => '$1 が $3 に{{GENDER:$2|感謝を示しました}}',
+);
+
+/** Kirghiz (Кыргызча)
+ * @author Викиней
+ */
+$messages['ky'] = array(
+	'notification-thanks-diff-link' => 'сиздин оңдооңуз',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
