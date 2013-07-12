@@ -717,13 +717,33 @@ $messages['ps'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'thanks-desc' => "Aggiunge le collegaminde de rengraziamende sus a le viste d'u cunde e de le differenze",
 	'thanks-thank' => 'grazie',
 	'thanks-thanked' => '{{GENDER:$1|ringraziate}}',
 	'thanks-error-undefined' => 'Azione de ringraziamende fallite. Pe piacere pruéve arrete.',
 	'thanks-error-invalidrevision' => "ID d'a revisione non g'è valide.",
+	'thanks-error-ratelimited' => "Tu è sbunnate le limite de valutazione tune. Pe piacere aspitte 'nu picche e pruève arrete.",
+	'thanks-thank-tooltip' => "Manne 'na notifiche de rengraziamende a stu utende",
+	'thanks-confirmation' => 'Sì secure ca vuè ccu {{GENDER:$1|rengrazie}} $2 pe stu cangiamende?',
 	'echo-pref-subscription-edit-thank' => 'Ringraziame pu cangiamende mije',
+	'echo-pref-tooltip-edit-thank' => "Notificame quanne quacchedune me ringrazie pe 'nu cangiamende ca agghie fatte.",
 	'echo-category-title-edit-thank' => 'Grazie!',
 	'notification-thanks-diff-link' => 'le cangiaminde tune',
+	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|te rengrazie}} pe $2 sus a [[$3]].',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|te rengrazie}} pu cangiamende tune sus a $2.',
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1|te rengrazie}} pu cangiamende tune sus a {{SITENAME}}',
+	'notification-thanks-email-body' => "L'utende de {{SITENAME}} $1 {{GENDER:$1|te rengrazie}} pu cangiamende tune sus a $2.
+
+'Ndruche 'u cangiamende tune:
+
+$3
+
+$4",
+	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|te rengrazie}} pu cangiamende tune sus a $2.',
+	'notification-link-text-respond-to-user' => "Respunne a l'utende",
+	'log-name-thanks' => 'Archivije de le rengraziaminde',
+	'log-description-thanks' => "Sotte stè 'n'elenghe de utinde ca onne rengraziate otre utinde.",
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|ave ringraziate}} $3',
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
