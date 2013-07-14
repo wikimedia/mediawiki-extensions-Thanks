@@ -693,10 +693,22 @@ $messages['pa'] = array(
 );
 
 /** Polish (polski)
+ * @author Chrumps
  * @author Ty221
  */
 $messages['pl'] = array(
+	'thanks-thanked' => '{{GENDER:$1|podziękował|podziękowała}}',
+	'thanks-error-undefined' => 'Operacja podziękowania nie powiodła się. Proszę spróbować ponownie.',
+	'thanks-confirmation' => 'Czy na pewno chcesz {{GENDER:$1|podziękować}} $2 za tę edycję?',
+	'echo-pref-tooltip-edit-thank' => 'Powiadamiaj mnie, gdy ktoś podziękuje mi za edycję, którą wykonałem.',
+	'echo-category-title-edit-thank' => 'Dzięki',
+	'notification-thanks-diff-link' => 'Twoja edycja',
+	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|podziękował|podziękowała}} Ci za $2 na stronie [[$3]].',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|podziękował|podziękowała}} Ci za edycję na stronie $2.',
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1|podziękował|podziękowała}} Ci za edycję na {{SITENAME}}',
+	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|podziękował|podziękowała}} Ci za edycję na stronie $2.',
 	'log-name-thanks' => 'Log podziękowania',
+	'log-description-thanks' => 'Poniżej znajduje się lista użytkowników, którym podziękowali inni użytkownicy.',
 );
 
 /** Pashto (پښتو)
