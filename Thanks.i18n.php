@@ -660,7 +660,6 @@ $messages['nl'] = array(
 	'echo-category-title-edit-thank' => 'Bedankt',
 	'notification-thanks-diff-link' => 'uw bewerking',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|heeft}} u bedankt voor $2 op [[$3]].',
-	'notification-thanks-flyout' => '[[User:$1|$1]] {{GENDER:$1|heeft}} u bedankt voor $2 op <b>$3</b>.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|heeft}} u bedankt voor uw bewerking op  {{SITENAME}}',
 	'notification-thanks-email-body' => 'Gebruiker $1 van {{SITENAME}} {{GENDER:$1|heeft}} u bedankt voor uw bewerking aan$2.
 
@@ -670,6 +669,7 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|heeft}} u bedankt voor uw bewerking op $2.',
+	'notification-link-text-respond-to-user' => 'Gebruiker beantwoorden',
 	'log-name-thanks' => 'Logboek voor bedankjes',
 	'log-description-thanks' => 'Hieronder wordt een lijst weergegeven met gebruikers die door andere gebruikers zijn bedankt.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|heeft}} $3 bedankt',
