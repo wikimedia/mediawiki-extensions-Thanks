@@ -570,6 +570,7 @@ $messages['lb'] = array(
 	'notification-link-text-respond-to-user' => 'Dem Benotzer äntwerten',
 	'log-name-thanks' => 'Logbuch vum Merci-soen',
 	'log-description-thanks' => "Hei drënner ass eng Lëscht vu Benotzer déi anere Benotzer 'Merci' gesot hunn.",
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|huet dem}} $3 Merci gesot',
 );
 
 /** Macedonian (македонски)
