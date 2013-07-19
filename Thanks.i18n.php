@@ -691,6 +691,7 @@ $messages['pa'] = array(
 
 /** Polish (polski)
  * @author Chrumps
+ * @author Matma Rex
  * @author Ty221
  */
 $messages['pl'] = array(
@@ -700,7 +701,7 @@ $messages['pl'] = array(
 	'thanks-thank-tooltip' => 'Wyślij zawiadomienie z podziękowaniami do tego użytkownika',
 	'thanks-confirmation' => 'Czy na pewno chcesz {{GENDER:$1|podziękować}} $2 za tę edycję?',
 	'echo-pref-tooltip-edit-thank' => 'Powiadamiaj mnie, gdy ktoś podziękuje mi za edycję, którą wykonałem.',
-	'echo-category-title-edit-thank' => 'Dzięki',
+	'echo-category-title-edit-thank' => 'Podziękowania',
 	'notification-thanks-diff-link' => 'Twoja edycja',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|podziękował|podziękowała}} Ci za $2 na stronie [[:$3]].',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|podziękował|podziękowała}} Ci za edycję na stronie $2.',
