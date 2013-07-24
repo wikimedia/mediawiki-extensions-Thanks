@@ -774,6 +774,9 @@ $messages['sr-ec'] = array(
  * @author Jopparn
  */
 $messages['sv'] = array(
+	'thanks-thank' => 'tack',
+	'thanks-thanked' => '{{GENDER:$1|tackade}}',
+	'echo-pref-subscription-edit-thank' => 'Tacka mig för mina redigeringar',
 	'notification-link-text-respond-to-user' => 'Svar till användare',
 	'log-description-thanks' => 'Nedan är en lista med användare som fått tack från andra användare.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|tackade}} $3',
