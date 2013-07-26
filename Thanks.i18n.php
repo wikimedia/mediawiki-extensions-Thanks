@@ -424,11 +424,13 @@ $messages['he'] = array(
 	'thanks-error-invalidrevision' => 'מזהה גרסה אינו תקין.',
 	'thanks-error-ratelimited' => 'עברת את מגבלת הקצב שלך. נא להמתין ולנסות שוב.',
 	'thanks-thank-tooltip' => 'שליחת הודעת תודה למשתמש הזה',
+	'thanks-confirmation' => 'האם {{GENDER:$1|אתה|את}} באמת רוצה להודות ל{{GRAMMAR:תחילית|$2}} על העריכה הזאת?',
 	'echo-pref-subscription-edit-thank' => 'מודה לי על עריכה שלי',
 	'echo-pref-tooltip-edit-thank' => 'להודיע לי כשמישהו מודה לי על עריכה שעשיתי.',
 	'echo-category-title-edit-thank' => 'תודות',
 	'notification-thanks-diff-link' => 'עריכה שלך',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|הודה|הודתה}} לך על $2 בדף [[:$3]].',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|הודה|הודתה}} לך על עריכתך בדף $2.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|הודה|הודתה}} לך על עריכה שלך באתר {{SITENAME}}',
 	'notification-thanks-email-body' => '{{GENDER:$1|משתמש|משתמשת}} אתר {{SITENAME}} $1 {{GENDER:$1|הודה|הודתה}} לך על עריכה שלך בדף $2.
 
@@ -438,6 +440,7 @@ $3
 
 $4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|הודה|הודתה}} לך על עריכה שלך בדף $2.',
+	'notification-link-text-respond-to-user' => 'להשיב',
 	'log-name-thanks' => 'יומן תודות',
 	'log-description-thanks' => 'להלן רשימת משתמשים שאנשים אחרים הודו להם.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|הודה|הודתה}} ל{{GRAMMAR:תחילית|$3}}',
