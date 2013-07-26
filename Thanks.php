@@ -86,6 +86,7 @@ $wgResourceModules['ext.thanks'] = array(
 // Logging
 $wgLogTypes[] = 'thanks';
 $wgLogActionsHandlers['thanks/*'] = 'ThanksLogFormatter';
+$wgFilterLogTypes['thanks'] = true;
 
 /* Configuration */
 
