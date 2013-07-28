@@ -149,7 +149,14 @@ $messages['bn'] = array(
 	'thanks-thank' => 'ধন্যবাদ',
 	'thanks-thanked' => '{{GENDER:$1|ধন্যবাদ}}',
 	'thanks-error-undefined' => 'ধন্যবাদ পদক্ষেপ ব্যর্থ। অনুগ্রহ করে আবার চেষ্টা করুন।',
+	'echo-pref-subscription-edit-thank' => 'আমার সম্পাদনার জন্য আমার ধন্যবাদসমূহ',
+	'echo-pref-tooltip-edit-thank' => 'আমার কোনো সম্পাদনার জন্য কেউ আমাকে ধন্যবাদ দিলে তা আমাকে জানাও',
+	'echo-category-title-edit-thank' => 'ধন্যবাদসমূহ',
+	'notification-thanks-diff-link' => 'আপনার সম্পাদনা',
+	'notification-link-text-respond-to-user' => 'ব্যবহারকারীর প্রতিক্রিয়া',
 	'log-name-thanks' => 'ধন্যবাদ লগ',
+	'log-description-thanks' => 'নিচে ব্যবহারকারীদের একটি তালিকা রয়েছে যারা অন্য ব্যবহারকারী হতে ধন্যবাদ পেয়েছেন।',
+	'logentry-thanks-thank' => '$1 $3কে {{GENDER:$2|ধন্যবাদ জানিয়েছেন}}',
 );
 
 /** Breton (brezhoneg)
