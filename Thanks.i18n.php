@@ -557,6 +557,39 @@ $4',
 	'logentry-thanks-thank' => '$1 が $3 に{{GENDER:$2|感謝を示しました}}',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'thanks-desc' => '역사와 차이 보기에 감사 링크를 추가합니다',
+	'thanks-thank' => '감사',
+	'thanks-thanked' => '{{GENDER:$1|감사합니다}}',
+	'thanks-error-undefined' => '감사 작업을 실패했습니다. 다시 시도하세요.',
+	'thanks-error-invalidrevision' => '판 ID가 올바르지 않습니다.',
+	'thanks-error-ratelimited' => '속도 제한을 초과했습니다. 잠시 기다리고 나서 다시 시도하세요.',
+	'thanks-thank-tooltip' => '이 사용자에게 감사하는 알림을 보냅니다',
+	'thanks-confirmation' => '이 편집에 대해 $2님에게 {{GENDER:$1|감사}}하겠습니까?',
+	'echo-pref-subscription-edit-thank' => '내 편집에 대해 다른 사용자가 감사합니다',
+	'echo-pref-tooltip-edit-thank' => '내 편집에 대해 누군가가 감사할 때 내게 알립니다.',
+	'echo-category-title-edit-thank' => '감사',
+	'notification-thanks-diff-link' => '내 편집',
+	'notification-thanks' => '[[User:$1|$1]]님이 [[:$3]]에 대한 $2에 {{GENDER:$1|감사했습니다}}.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]]님이 $2에 대한 내 편집에 {{GENDER:$1|감사했습니다}}.',
+	'notification-thanks-email-subject' => '$1님이 {{SITENAME}}에 대한 내 편집에 {{GENDER:$1|감새했습니다}}',
+	'notification-thanks-email-body' => '{{SITENAME}}의 $1님이 $2에 대한 내 편집에 {{GENDER:$1|감사했습니다}}.
+
+내 편집 보기:
+
+$3
+
+$4',
+	'notification-thanks-email-batch-body' => '$1님이 $2에 대한 내 편집에 {{GENDER:$1|감사했습니다}}.',
+	'notification-link-text-respond-to-user' => '사용자에게 답장',
+	'log-name-thanks' => '감사 기록',
+	'log-description-thanks' => '아래에는 다른 사용자가 감사한 사용자의 목록입니다.',
+	'logentry-thanks-thank' => '$1 사용자가 $3님을 {{GENDER:$2|감사했습니다}}',
+);
+
 /** Kirghiz (Кыргызча)
  * @author Викиней
  */
@@ -662,11 +695,13 @@ $messages['nl'] = array(
 	'thanks-error-invalidrevision' => 'Het versienummer is niet geldig.',
 	'thanks-error-ratelimited' => 'U hebt uw limiet voor bedankjes overschreden. Wacht even en probeer het dan opnieuw.',
 	'thanks-thank-tooltip' => 'Deze gebruiker bedanken',
+	'thanks-confirmation' => 'Weet u zeker dat u $2 wilt {{GENDER:$1|bedanken}} voor deze bewerking?',
 	'echo-pref-subscription-edit-thank' => 'Bedankt u voor uw bewerking',
 	'echo-pref-tooltip-edit-thank' => 'U een melding zenden als iemand u bedankt voor een bewerking die u hebt gemaakt.',
 	'echo-category-title-edit-thank' => 'Bedankt',
 	'notification-thanks-diff-link' => 'uw bewerking',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|heeft}} u bedankt voor $2 op [[:$3]].',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|heeft}} u bedankt voor uw bewerking aan $2.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|heeft}} u bedankt voor uw bewerking op  {{SITENAME}}',
 	'notification-thanks-email-body' => 'Gebruiker $1 van {{SITENAME}} {{GENDER:$1|heeft}} u bedankt voor uw bewerking aan$2.
 
