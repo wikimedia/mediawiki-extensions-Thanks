@@ -575,7 +575,7 @@ $messages['ko'] = array(
 	'notification-thanks-diff-link' => '내 편집',
 	'notification-thanks' => '[[User:$1|$1]]님이 [[:$3]]에 대한 $2에 {{GENDER:$1|감사했습니다}}.',
 	'notification-thanks-flyout2' => '[[User:$1|$1]]님이 $2에 대한 내 편집에 {{GENDER:$1|감사했습니다}}.',
-	'notification-thanks-email-subject' => '$1님이 {{SITENAME}}에 대한 내 편집에 {{GENDER:$1|감새했습니다}}',
+	'notification-thanks-email-subject' => '$1님이 {{SITENAME}}에 대한 내 편집에 {{GENDER:$1|감사했습니다}}',
 	'notification-thanks-email-body' => '{{SITENAME}}의 $1님이 $2에 대한 내 편집에 {{GENDER:$1|감사했습니다}}.
 
 내 편집 보기:
@@ -683,6 +683,7 @@ $4',
 );
 
 /** Dutch (Nederlands)
+ * @author Hansmuller
  * @author Konovalov
  * @author SPQRobin
  * @author Siebrand
@@ -701,7 +702,7 @@ $messages['nl'] = array(
 	'echo-category-title-edit-thank' => 'Bedankt',
 	'notification-thanks-diff-link' => 'uw bewerking',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|heeft}} u bedankt voor $2 op [[:$3]].',
-	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|heeft}} u bedankt voor uw bewerking aan $2.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|heeft}} u bedankt voor uw bewerking van $2.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|heeft}} u bedankt voor uw bewerking op  {{SITENAME}}',
 	'notification-thanks-email-body' => 'Gebruiker $1 van {{SITENAME}} {{GENDER:$1|heeft}} u bedankt voor uw bewerking aan$2.
 
