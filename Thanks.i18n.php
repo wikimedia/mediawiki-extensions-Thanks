@@ -925,13 +925,14 @@ $4',
 );
 
 /** Simplified Chinese (中文（简体）‎)
+ * @author Qiyue2001
  * @author Yfdyh000
  * @author Zhuyifei1999
  */
 $messages['zh-hans'] = array(
 	'thanks-desc' => '添加感谢链接到历史记录和差异查看',
 	'thanks-thank' => '感谢',
-	'thanks-thanked' => '已感谢', # Fuzzy
+	'thanks-thanked' => '{{GENDER:$1|已感谢}}',
 	'thanks-error-undefined' => '感谢操作失败。请再试一次。',
 	'thanks-error-invalidrevision' => '修订ID无效。',
 	'thanks-error-ratelimited' => '您已超过您的速率限制。请等一段时间再试。',
