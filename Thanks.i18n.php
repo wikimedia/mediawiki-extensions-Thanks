@@ -817,10 +817,11 @@ $messages['sr-ec'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Ainali
  * @author Jopparn
  */
 $messages['sv'] = array(
-	'thanks-thank' => 'tack',
+	'thanks-thank' => 'tacka',
 	'thanks-thanked' => '{{GENDER:$1|tackade}}',
 	'echo-pref-subscription-edit-thank' => 'Tacka mig för mina redigeringar',
 	'notification-link-text-respond-to-user' => 'Svar till användare',
