@@ -807,12 +807,34 @@ $messages['sr-ec'] = array(
 /** Swedish (svenska)
  * @author Ainali
  * @author Jopparn
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
+	'thanks-desc' => 'Lägger till tacklänkar till historiker och skillnadsjämförelser',
 	'thanks-thank' => 'tacka',
 	'thanks-thanked' => '{{GENDER:$1|tackade}}',
-	'echo-pref-subscription-edit-thank' => 'Tacka mig för mina redigeringar',
+	'thanks-error-undefined' => 'Tackåtgärden misslyckades. Var god försök igen.',
+	'thanks-error-invalidrevision' => 'Versions-ID är inte giltigt.',
+	'thanks-error-ratelimited' => 'Du har överskridit din frekvensgräns. Var god vänta en stund och försök igen',
+	'thanks-thank-tooltip' => 'Skicka ett tackmeddelande till denna användare',
+	'thanks-confirmation' => 'Är du säker på att du vill {{GENDER:$1|tacka}} $2 för denna redigering?',
+	'echo-pref-subscription-edit-thank' => 'Tackar mig för min redigering',
+	'echo-pref-tooltip-edit-thank' => 'Meddela mig när någon tackar mig för en redigering jag har gjort.',
+	'echo-category-title-edit-thank' => 'Tack',
+	'notification-thanks-diff-link' => 'din redigering',
+	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|tackade}} dig för $2 på [[:$3]].',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|tackade}} dig för din redigering på $2.',
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1|tackade}} dig för din redigering på {{SITENAME}}',
+	'notification-thanks-email-body' => 'Användaren $1 på {{SITENAME}} {{GENDER:$1|tackade}} dig för din redigering på $2.
+
+Visa din redigering:
+
+$3
+
+$4',
+	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|tackade}} dig för din redigering på $2.',
 	'notification-link-text-respond-to-user' => 'Svar till användare',
+	'log-name-thanks' => 'Tacklogg',
 	'log-description-thanks' => 'Nedan är en lista med användare som fått tack från andra användare.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|tackade}} $3',
 );
