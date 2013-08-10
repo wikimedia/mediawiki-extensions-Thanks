@@ -138,8 +138,6 @@ class ThanksHooks {
 			'payload' => array( 'summary' ),
 			'email-subject-message' => 'notification-thanks-email-subject',
 			'email-subject-params' => array( 'agent' ),
-			'email-body-message' => 'notification-thanks-email-body',
-			'email-body-params' => array( 'agent', 'title', 'difflink', 'email-footer' ),
 			'email-body-batch-message' => 'notification-thanks-email-batch-body',
 			'email-body-batch-params' => array( 'agent', 'title' ),
 			'icon' => 'thanks',
