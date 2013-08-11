@@ -825,13 +825,6 @@ $messages['sv'] = array(
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|tackade}} dig för $2 på [[:$3]].',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|tackade}} dig för din redigering på $2.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|tackade}} dig för din redigering på {{SITENAME}}',
-	'notification-thanks-email-body' => 'Användaren $1 på {{SITENAME}} {{GENDER:$1|tackade}} dig för din redigering på $2.
-
-Visa din redigering:
-
-$3
-
-$4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|tackade}} dig för din redigering på $2.',
 	'notification-link-text-respond-to-user' => 'Svar till användare',
 	'log-name-thanks' => 'Tacklogg',
@@ -953,13 +946,6 @@ $messages['zh-hans'] = array(
 	'notification-thanks-diff-link' => '您的编辑',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|感谢}}你的$2在[[:$3]].',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|感谢}} 您的编辑在{{SITENAME}}',
-	'notification-thanks-email-body' => '{{SITENAME}} 用户 $1  {{GENDER:$1| 感谢}} 您的编辑$2 。
-
-查看您的编辑：
-
-$3
-
-$4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|感谢}} 您的编辑在$2',
 );
 
