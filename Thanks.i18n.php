@@ -867,6 +867,7 @@ $4',
 );
 
 /** Ukrainian (українська)
+ * @author Andriykopanytsia
  * @author Base
  * @author Ата
  */
@@ -878,13 +879,18 @@ $messages['uk'] = array(
 	'thanks-error-invalidrevision' => 'Неправильний ідентифікатор версії.',
 	'thanks-error-ratelimited' => 'Ви перевищили свій ліміт частоти. Будь ласка, зачекайте деякий час, і спробуйте знову.',
 	'thanks-thank-tooltip' => 'Надіслати сповіщення вдячності до користувача',
+	'thanks-confirmation' => 'Ви справді хочете {{GENDER:$1|подякувати}} $2 за цю зміну?',
 	'echo-pref-subscription-edit-thank' => 'Дякує мені за мої редагування',
+	'echo-pref-tooltip-edit-thank' => 'Повідомляти, коли хтось дякує мені за редагування, зроблені мною.',
 	'echo-category-title-edit-thank' => 'вдячність',
 	'notification-thanks-diff-link' => 'Ваше редагування',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|подякував|подякувала}} Вам за $2 на [[:$3]].',
+	'notification-thanks-flyout2' => '[[User:$1|$1]]  {{GENDER:$1|подякував|подякувала}} Вам за Ваше редагування на $2.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|подякував|подякувала}} Вам за Ваше редагування на {{SITENAME}}',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|подякував|подякувала}} Вам за Ваше редагування на $2.',
+	'notification-link-text-respond-to-user' => 'Відгукнутися на користувача',
 	'log-name-thanks' => 'Журнал вдячностей',
+	'log-description-thanks' => 'Нижче наведено перелік користувачів, які подякували іншими користувачами.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|подякував|подякувала}} $3',
 );
 
