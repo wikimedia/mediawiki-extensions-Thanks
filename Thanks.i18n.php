@@ -17,7 +17,7 @@ $messages['en'] = array(
 	'thanks-error-undefined' => 'Thank action failed. Please try again.',
 	'thanks-error-invalidrevision' => 'Revision ID is not valid.',
 	'thanks-error-ratelimited' => "You've exceeded your rate limit. Please wait some time and try again.",
-	'thanks-thank-tooltip' => 'Send a thank you notification to this user',
+	'thanks-thank-tooltip' => '{{GENDER:$1|Send}} a thank you notification to this {{GENDER:$2|user}}',
 	'thanks-confirmation' => 'Are you sure you want to {{GENDER:$1|thank}} $2 for this edit?',
 	'echo-pref-subscription-edit-thank' => 'Thanks me for my edit',
 	'echo-pref-tooltip-edit-thank' => 'Notify me when someone thanks me for an edit I made.',
@@ -30,7 +30,7 @@ $messages['en'] = array(
 	'notification-link-text-respond-to-user' => 'Respond to user',
 	'log-name-thanks' => 'Thanks log',
 	'log-description-thanks' => 'Below is a list of users thanked by other users.',
-	'logentry-thanks-thank' => '$1 {{GENDER:$2|thanked}} $3',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|thanked}} {{GENDER:$4|$3}}',
 );
 
 /** Message documentation (Message documentation)
@@ -51,7 +51,9 @@ Parameters:
 {{Identical|Please try again}}',
 	'thanks-error-invalidrevision' => 'Error message that is displayed when the revision ID is not valid',
 	'thanks-error-ratelimited' => 'Error message that is displayed when user exceeds rate limit',
-	'thanks-thank-tooltip' => 'Tooltip that appears when a user hovers over the "thank" link',
+	'thanks-thank-tooltip' => 'Tooltip that appears when a user hovers over the "thank" link.  Parameters
+* $1 - The user sending the thanks.  Can be used for GENDER support.
+* $2 - The user receiving the thanks.  Can be used for GENDER support',
 	'thanks-confirmation' => 'A confirmation message to make sure the user actually wants to send thanks to another user.
 
 Parameters:
@@ -85,7 +87,8 @@ Used for <code>$2</code> in {{msg-mw|Notification-thanks}}. Should have capitali
 	'logentry-thanks-thank' => 'Log entry that is created when a user thanks another user for an edit. Parameters:
 * $1 is a user link, for example "Jane Doe (Talk | contribs)"
 * $2 is a username. Can be used for GENDER.
-* $3 is a user link, for example "John Doe (Talk | contribs)',
+* $3 is a user link, for example "John Doe (Talk | contribs)
+* $4 is the username of the recipient. Can be used for GENDER.',
 );
 
 /** Arabic (العربية)

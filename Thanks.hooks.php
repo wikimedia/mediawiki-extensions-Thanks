@@ -34,7 +34,7 @@ class ThanksHooks {
 				$recipientAllowed = !in_array( 'bot', $recipient->getGroups() );
 			}
 			if ( $recipientAllowed && !$recipient->isAnon() ) {
-				$links[] = self::generateThankElement( $rev );
+				$links[] = self::generateThankElement( $rev, $recipient );
 			}
 		}
 		return true;
@@ -44,8 +44,9 @@ class ThanksHooks {
 	 * Helper for self::insertThankLink
 	 * Creates either a thank link or thanked span based on users session
 	 * @param $rev Revision object to generate the thank element for
+	 * @param $recipient User the user who receives thanks notification
 	 */
-	protected static function generateThankElement( $rev ) {
+	protected static function generateThankElement( $rev, $recipient ) {
 		global $wgUser;
 		// User has already thanked for revision
 		if ( $wgUser->getRequest()->getSessionData( "thanks-thanked-{$rev->getId()}" ) ) {
@@ -57,7 +58,9 @@ class ThanksHooks {
 		}
 
 		// Add 'thank' link
-		$tooltip = wfMessage( 'thanks-thank-tooltip' )->text();
+		$tooltip = wfMessage( 'thanks-thank-tooltip' )
+				->params( $wgUser->getName(), $recipient->getName() )
+				->text();
 
 		return Html::element(
 			'a',

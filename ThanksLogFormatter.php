@@ -9,6 +9,7 @@ class ThanksLogFormatter extends LogFormatter {
 		// actually a user, not a page.
 		$recipient = User::newFromName( $this->entry->getTarget()->getText(), false );
 		$params[2] = Message::rawParam( $this->makeUserLink( $recipient ) );
+		$params[3] = $recipient->getName();
 		return $params;
 	}
 	
