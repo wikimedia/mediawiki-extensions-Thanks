@@ -71,15 +71,16 @@ Used as <code>$1</code> in {{msg-mw|Echo-dismiss-message}} and as <code>$2</code
 
 Used for <code>$2</code> in {{msg-mw|Notification-thanks}}. Should have capitalization appropriate for the middle of a sentence.",
 	'notification-thanks' => "Format for displaying notifications when a user is thanked for their edit. Parameters:
-* $1 is the username of the person who edited, plain text. Can be used for GENDER.
+* $1 is the username of the person sending the thanks, as plain text. Can be used for GENDER.
 * $2 is a link to the user's edit. The text of the link is {{msg-mw|Notification-thanks-diff-link}}.
 * $3 is the title of the page the user edited.",
 	'notification-thanks-flyout2' => 'Format for displaying notifications in the flyout when a user is thanked for their edit. Parameters:
-* $1 is the username of the person who edited, plain text. Can be used for GENDER.
+* $1 is the username of the person sending the thanks, as plain text. Can be used for GENDER.
 * $2 is the title of the page the user edited.',
-	'notification-thanks-email-subject' => 'E-mail subject',
+	'notification-thanks-email-subject' => 'E-mail subject. Parameters:
+* $1 is the username of the person sending the thanks, as plain text. Can be used for GENDER.',
 	'notification-thanks-email-batch-body' => 'E-mail notification. Parameters:
-* $1 is a username. Can be used for GENDER.
+* $1 is the username of the person sending the thanks, as plain text. Can be used for GENDER.
 * $2 the title of the page the user edited.',
 	'notification-link-text-respond-to-user' => 'Label for button that links to a user page.',
 	'log-name-thanks' => 'Name of log that appears on [[Special:Log]].',
