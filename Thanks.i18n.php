@@ -169,24 +169,20 @@ $messages['ca'] = array(
 	'thanks-error-undefined' => "L'agraïment ha fallat. Si us plau torneu a intentar-ho.",
 	'thanks-error-invalidrevision' => "L'identificador de revisió no és vàlid.",
 	'thanks-error-ratelimited' => "Heu excedit el límit d'agraïments. Si us plau espereu una mica abans de tornar-hi.",
-	'thanks-thank-tooltip' => "Envia una notificació d'agraïment a aquest usuari.",
+	'thanks-thank-tooltip' => "{{GENDER:$1|Envia}} una notificació d'agraïment a {{GENDER:$2|aquest usuari|aquesta usuària}}.",
+	'thanks-confirmation' => 'Segur que vols {{GENDER:$1|agrair}} $2 per aquesta edició?',
 	'echo-pref-subscription-edit-thank' => "M'agraeix una edició",
 	'echo-pref-tooltip-edit-thank' => "Notifica'm quan algú agraeix una edició que he fet.",
 	'echo-category-title-edit-thank' => 'Gràcies',
 	'notification-thanks-diff-link' => 'la teva edició',
 	'notification-thanks' => "[[User:$1|$1]] t'{{GENDER:$1|agraeix}} per $2 a [[:$3]].",
+	'notification-thanks-flyout2' => "[[User:$1|$1]] t'{{GENDER:$1|ha agraït}} la teva edició en $2.",
 	'notification-thanks-email-subject' => "$1 t'{{GENDER:$1|agraeix}} per la teva edició a {{SITENAME}}",
-	'notification-thanks-email-body' => "$1 a {{SITENAME}} t'{{GENDER:$1|agraeix}} la teva edició en $2. 
-
-Mira la teva edició: 
-
-$3 
-
-$4",
 	'notification-thanks-email-batch-body' => "$1 t'{{GENDER:$1|agraeix}} per la teva edició a $2.",
+	'notification-link-text-respond-to-user' => "Respondre a l'usuari",
 	'log-name-thanks' => "Registre d'agraïments",
 	'log-description-thanks' => "A continuació teniu una llista d'usuaris agraïts per part d'altres usuaris.",
-	'logentry-thanks-thank' => '$1 {{GENDER:$2|ha agraït}} $3',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|ha agraït}} {{GENDER:$4|$3}}',
 );
 
 /** Sorani Kurdish (کوردی)
@@ -767,6 +763,7 @@ $messages['pl'] = array(
 	'thanks-thank' => 'podziękuj',
 	'thanks-thanked' => '{{GENDER:$1|podziękowałeś|podziękowałaś}}',
 	'thanks-error-undefined' => 'Operacja podziękowania nie powiodła się. Proszę spróbować ponownie.',
+	'thanks-error-invalidrevision' => 'Nieprawidłowy identyfikator wersji.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Wyślij}} podziękowanie do {{GENDER:$2|tego użytkownika|tej użytkowniczki}}',
 	'thanks-confirmation' => 'Czy na pewno chcesz {{GENDER:$1|podziękować}} $2 za tę edycję?',
 	'echo-pref-subscription-edit-thank' => 'podziękuje mi za edycję, którą wykonałem',
