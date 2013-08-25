@@ -161,6 +161,7 @@ $messages['br'] = array(
 
 /** Catalan (català)
  * @author QuimGil
+ * @author Vriullop
  */
 $messages['ca'] = array(
 	'thanks-desc' => "Afegeix enllaços d'agraïment a les pàgines d'historial i diferències de revisions.",
@@ -170,8 +171,8 @@ $messages['ca'] = array(
 	'thanks-error-invalidrevision' => "L'identificador de revisió no és vàlid.",
 	'thanks-error-ratelimited' => "Heu excedit el límit d'agraïments. Si us plau espereu una mica abans de tornar-hi.",
 	'thanks-thank-tooltip' => "{{GENDER:$1|Envia}} una notificació d'agraïment a {{GENDER:$2|aquest usuari|aquesta usuària}}.",
-	'thanks-confirmation' => 'Segur que vols {{GENDER:$1|agrair}} $2 per aquesta edició?',
-	'echo-pref-subscription-edit-thank' => "M'agraeix una edició",
+	'thanks-confirmation' => 'Segur que voleu {{GENDER:$1|agrair}} $2 per aquesta edició?',
+	'echo-pref-subscription-edit-thank' => 'Agrair-me la meva edició',
 	'echo-pref-tooltip-edit-thank' => "Notifica'm quan algú agraeix una edició que he fet.",
 	'echo-category-title-edit-thank' => 'Gràcies',
 	'notification-thanks-diff-link' => 'la teva edició',
@@ -500,23 +501,20 @@ $messages['ilo'] = array(
 	'thanks-error-undefined' => 'Napaay ti tignay a panagyaman. Pangngaasi a padasen manen.',
 	'thanks-error-invalidrevision' => 'Saan nga umiso to ID ti panagbaliw.',
 	'thanks-error-ratelimited' => 'Nalabesamon ti patingga ti gatadmo. Pangngaasi nga agurayka bassit ken padasem manen.',
-	'thanks-thank-tooltip' => 'Agipatulod ti pakaammo a panagyaman iti daytoy nga agar-aramat',
+	'thanks-thank-tooltip' => '{{GENDER:$1|Agipatulod}} ti pakaammo a panagyaman iti daytoy nga {{GENDER:$2|agar-aramat}}',
+	'thanks-confirmation' => 'Siguradoka kadi a kayatmo ti {{GENDER:$1|agyaman}} kenni $2 para iti daytoy nga inurnos?',
 	'echo-pref-subscription-edit-thank' => 'Pagyamanennak para iti inurnosko',
+	'echo-pref-tooltip-edit-thank' => 'Pakaammuannak no adda agyaman kaniak para iti maysa nga inaramidko nga inurnos.',
 	'echo-category-title-edit-thank' => 'Agyamanak',
 	'notification-thanks-diff-link' => 'ti inurnosmo',
 	'notification-thanks' => 'Ni [[User:$1|$1]] ket {{GENDER:$1|agyaman}} kenka para iti $2 iti [[:$3]].',
+	'notification-thanks-flyout2' => 'Ni [[User:$1|$1]] ket {{GENDER:$1|nagyaman}} kenka para iti inurnosmo iti $2.',
 	'notification-thanks-email-subject' => 'Ni $1 ket {{GENDER:$1|agyaman}} kenka para it inurnosmo idiay {{SITENAME}}',
-	'notification-thanks-email-body' => 'Ti agar-aramat ti {{SITENAME}} a ni $1 ket {{GENDER:$1|agyaman}} kenka para iti inurnosmo idiay $2.
-
-Kitaem ti inurnosmo:
-
-$3
-
-$4',
 	'notification-thanks-email-batch-body' => 'Ni $1 ket {{GENDER:$1|agyaman}} kenka para iti inurnosmo idiay $2.',
+	'notification-link-text-respond-to-user' => 'Sumungbat iti agar-aramat',
 	'log-name-thanks' => 'Listaan kadagiti panagyaman',
 	'log-description-thanks' => 'Dita baba ket listaan dagiti agar-aramat a nayamanan babaen dagiti dadduma nga agar-aramat.',
-	'logentry-thanks-thank' => 'Ni $1 ket {{GENDER:$2|nagyaman}} kenni $3',
+	'logentry-thanks-thank' => 'Ni $1 ket {{GENDER:$2|nagyaman}} kenni {{GENDER:$4|$3}}',
 );
 
 /** Italian (italiano)
