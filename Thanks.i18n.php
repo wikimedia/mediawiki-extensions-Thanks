@@ -732,6 +732,13 @@ $4',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|heeft}} $3 bedankt',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|a mercejat}} {{GENDER:$4|$3}}',
+);
+
 /** Punjabi (ਪੰਜਾਬੀ)
  * @author Babanwalia
  */
@@ -969,7 +976,7 @@ $messages['uk'] = array(
 	'thanks-error-undefined' => 'Не вдалось подякувати. Спробуйте знову.',
 	'thanks-error-invalidrevision' => 'Неправильний ідентифікатор версії.',
 	'thanks-error-ratelimited' => 'Ви перевищили свій ліміт частоти. Будь ласка, зачекайте деякий час, і спробуйте знову.',
-	'thanks-thank-tooltip' => 'Надіслати сповіщення вдячності до користувача', # Fuzzy
+	'thanks-thank-tooltip' => '{{GENDER:$1|Надіслати}} сповіщення вдячності {{GENDER:$2|цьому користувачу|цій користувачці}}',
 	'thanks-confirmation' => 'Ви справді хочете {{GENDER:$1|подякувати}} $2 за цю зміну?',
 	'echo-pref-subscription-edit-thank' => 'Дякує мені за мої редагування',
 	'echo-pref-tooltip-edit-thank' => 'Повідомляти, коли хтось дякує мені за редагування, зроблені мною.',
@@ -982,7 +989,7 @@ $messages['uk'] = array(
 	'notification-link-text-respond-to-user' => 'Відгукнутися на користувача',
 	'log-name-thanks' => 'Журнал вдячностей',
 	'log-description-thanks' => 'Нижче наведено перелік користувачів, які подякували іншими користувачами.',
-	'logentry-thanks-thank' => '$1 {{GENDER:$2|подякував|подякувала}} $3', # Fuzzy
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|подякував|подякувала}} {{GENDER:$4|користувачу|користувачці}} $3',
 );
 
 /** Urdu (اردو)
@@ -1023,6 +1030,13 @@ $4',
 	'log-name-thanks' => 'Nhật trình cám ơn',
 	'log-description-thanks' => 'Dưới đây có danh sách những người dùng được người khác gửi lời cám ơn.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2}}đã cám ơn $3',
+);
+
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|האט געדאנקט}} {{GENDER:$4|$3}}',
 );
 
 /** Simplified Chinese (中文（简体）‎)
