@@ -159,6 +159,15 @@ $messages['br'] = array(
 	'thanks-thanked' => 'trugarekaet', # Fuzzy
 );
 
+/** Bosnian (bosanski)
+ * @author DzWiki
+ */
+$messages['bs'] = array(
+	'thanks-thank' => 'zahvali se',
+	'notification-thanks-diff-link' => 'vašoj izmjeni',
+	'notification-thanks' => '[[User:$1|$1]] vam se {{GENDER:$1|zajvaljuje}} na $2 stranice [[:$3]].',
+);
+
 /** Catalan (català)
  * @author QuimGil
  * @author Vriullop
@@ -464,7 +473,7 @@ $messages['he'] = array(
 	'notification-link-text-respond-to-user' => 'להשיב',
 	'log-name-thanks' => 'יומן תודות',
 	'log-description-thanks' => 'להלן רשימת משתמשים שאנשים אחרים הודו להם.',
-	'logentry-thanks-thank' => '$1 {{GENDER:$2|הודה|הודתה}} ל{{GRAMMAR:תחילית|$3}}', # Fuzzy
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|הודה|הודתה}} ל{{GRAMMAR:תחילית|{{GENDER:$4|$3}}}}',
 );
 
 /** Hungarian (magyar)
@@ -764,20 +773,21 @@ $messages['pa'] = array(
  * @author WTM
  */
 $messages['pl'] = array(
-	'thanks-desc' => 'Dodaje do historii i różnicy pomiędzy wersjami link umożliwiający podziękowanie',
+	'thanks-desc' => 'Dodaje do stron historii i różnicy pomiędzy wersjami link umożliwiający podziękowanie',
 	'thanks-thank' => 'podziękuj',
 	'thanks-thanked' => '{{GENDER:$1|podziękowałeś|podziękowałaś}}',
 	'thanks-error-undefined' => 'Operacja podziękowania nie powiodła się. Proszę spróbować ponownie.',
 	'thanks-error-invalidrevision' => 'Nieprawidłowy identyfikator wersji.',
+	'thanks-error-ratelimited' => 'Przekroczono limit podziękowań. Poczekaj chwilę i spróbuj ponownie.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Wyślij}} podziękowanie do {{GENDER:$2|tego użytkownika|tej użytkowniczki}}',
 	'thanks-confirmation' => 'Czy na pewno chcesz {{GENDER:$1|podziękować}} $2 za tę edycję?',
 	'echo-pref-subscription-edit-thank' => 'podziękuje mi za edycję, którą wykonałem',
 	'echo-pref-tooltip-edit-thank' => 'Powiadom mnie, kiedy ktoś podziękuje mi za edycję, którą wykonałem.',
 	'echo-category-title-edit-thank' => 'Podziękowania',
-	'notification-thanks-diff-link' => 'Twoja edycja',
+	'notification-thanks-diff-link' => 'edycję',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|podziękował|podziękowała}} Ci za $2 na stronie [[:$3]].',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|podziękował|podziękowała}} Ci za edycję na stronie $2.',
-	'notification-thanks-email-subject' => '$1 {{GENDER:$1|podziękował|podziękowała}} Ci za edycję na {{SITENAME}}',
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1|podziękował|podziękowała}} Ci za edycję w {{GRAMMAR:MS.lp|{{SITENAME}}}}',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|podziękował|podziękowała}} Ci za edycję na stronie $2.',
 	'notification-link-text-respond-to-user' => 'Odpowiedz',
 	'log-name-thanks' => 'Rejestr podziękowań',
@@ -804,12 +814,13 @@ $messages['ps'] = array(
  * @author Helder.wiki
  * @author OTAVIO1981
  * @author Oona
+ * @author Opraco
  * @author Vitorvicentevalente
  */
 $messages['pt'] = array(
 	'thanks-desc' => 'Adiciona ligações para agradecimentos quando na página do histórico ou em diffs',
 	'thanks-thank' => 'agradecer',
-	'thanks-thanked' => '{{GENDER:$1|Agradecimento enviado}}',
+	'thanks-thanked' => 'agradecimento enviado', # Fuzzy
 	'thanks-error-undefined' => 'Acção de agradecimento falhou. Por favor, tente novamente.',
 	'thanks-error-invalidrevision' => 'O ID de revisão não é válido.',
 	'thanks-error-ratelimited' => 'Excedeu o limite de velocidade. Por favor, espere algum tempo e tente novamente.',
@@ -833,12 +844,13 @@ $messages['pt'] = array(
  * @author Dianakc
  * @author HenriqueCrang
  * @author OTAVIO1981
+ * @author Opraco
  * @author Teles
  */
 $messages['pt-br'] = array(
 	'thanks-desc' => 'Adiciona link de agradecimento as páginas de histórico e de diferença entre edições',
 	'thanks-thank' => 'agradecer',
-	'thanks-thanked' => '{{GENDER:$1|Agradecido|Agradecida}}',
+	'thanks-thanked' => '{{GENDER:$1|agradecido|agradecida}}',
 	'thanks-error-undefined' => 'O agradecer falhou. Por favor tente de novo.',
 	'thanks-error-invalidrevision' => 'ID de revisão inválido.',
 	'thanks-error-ratelimited' => 'Você excedeu seu limite. Por favor aguarde um pouco e tente novamente.',
