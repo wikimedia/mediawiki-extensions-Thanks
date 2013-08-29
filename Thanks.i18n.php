@@ -161,11 +161,29 @@ $messages['br'] = array(
 
 /** Bosnian (bosanski)
  * @author DzWiki
+ * @author Edinwiki
  */
 $messages['bs'] = array(
+	'thanks-desc' => 'Dodaje mogućnost zahvaljivanja u pregledu historije i pregledu razlike između izmjena',
 	'thanks-thank' => 'zahvali se',
+	'thanks-thanked' => '{{GENDER:$1|zahvalio se|zahvalila se}}',
+	'thanks-error-undefined' => 'Nije bilo moguće zahvaliti se. Pokušajte ponovo.',
+	'thanks-error-invalidrevision' => 'Revizioni ID nije validan.',
+	'thanks-error-ratelimited' => 'Prekoračili ste vaše ograničenje za ocijenjivanje. Sačekajte jedno vrijeme i zatim pokušajte ponovo.',
+	'thanks-thank-tooltip' => '{{GENDER:$1|Pošalji}} zahvalnicu {{GENDER:$2|ovom korisniku|оvoj korisnici}}',
+	'thanks-confirmation' => 'Da li ste sigurni da se hoćete {{GENDER:$1|zahvaliti}} korisniku $2 za ovu izmjenu?',
+	'echo-pref-subscription-edit-thank' => 'Neko mi se zahvali za moju izmjenu',
+	'echo-pref-tooltip-edit-thank' => 'Obavijesti me ako mi se neko zahvali za moju izmjenu.',
+	'echo-category-title-edit-thank' => 'Hvala',
 	'notification-thanks-diff-link' => 'vašoj izmjeni',
 	'notification-thanks' => '[[User:$1|$1]] vam se {{GENDER:$1|zajvaljuje}} na $2 stranice [[:$3]].',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] vam se {{GENDER:$1|zahvaljuje}} na vašoj izmjeni na stranici $2.',
+	'notification-thanks-email-subject' => '$1 vam se {{GENDER:$1|zahvaljuje}} na vašoj izmjeni na {{SITENAME}}',
+	'notification-thanks-email-batch-body' => '$1 vam se {{GENDER:$1|zahvaljuje}} na vašoj izmjeni na stranici $2.',
+	'notification-link-text-respond-to-user' => 'Odgovori korisniku',
+	'log-name-thanks' => 'Zapis zahvalnica',
+	'log-description-thanks' => 'Ispod se nalazi spisak korisnika kojima su se drugi korisnici zahvalili.',
+	'logentry-thanks-thank' => '$1 se {{GENDER:$2|zahvaljuje}} korisniku {{GENDER:$4|$3}}',
 );
 
 /** Catalan (català)
@@ -426,7 +444,7 @@ $messages['gl'] = array(
 	'thanks-error-undefined' => 'Houbo un erro ao realizar o agradecemento. Inténteo de novo.',
 	'thanks-error-invalidrevision' => 'O ID da revisión non é válido.',
 	'thanks-error-ratelimited' => 'Superou o seu límite de velocidade. Agarde uns minutos e inténteo de novo.',
-	'thanks-thank-tooltip' => 'Envía unha notificación de agradecemento a este usuario',
+	'thanks-thank-tooltip' => '{{GENDER:$1|Envía}} unha notificación de agradecemento a {{GENDER:$2|este usuario|esta usuaria}}',
 	'thanks-confirmation' => 'Está {{GENDER:$1|seguro|segura}} de querer agradecer a $2 a súa edición?',
 	'echo-pref-subscription-edit-thank' => 'Me agradeza unha edición feita por min',
 	'echo-pref-tooltip-edit-thank' => 'Notificádeme cando alguén me agradeza unha edición feita por min.',
@@ -435,18 +453,11 @@ $messages['gl'] = array(
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|agradeceu}} $2 en "[[:$3]]".',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|agradeceu}} a súa edición en "$2".',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|agradeceu}} a súa edición en {{SITENAME}}',
-	'notification-thanks-email-body' => '{{GENDER:$1|O editor|A editora}} $1 agradeceu a súa edición en "$2".
-
-Ollar a súa edición:
-
-$3
-
-$4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|agradeceu}} a súa edición en "$2".',
 	'notification-link-text-respond-to-user' => 'Responder ao usuario',
 	'log-name-thanks' => 'Rexistro de agradecementos',
 	'log-description-thanks' => 'A continuación hai unha lista dos usuarios que recibiron agradecementos doutros usuarios.',
-	'logentry-thanks-thank' => '$1 {{GENDER:$2|deu as grazas a}} $3',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|deu as grazas a}} {{GENDER:$4|$3}}',
 );
 
 /** Hebrew (עברית)
@@ -745,6 +756,12 @@ $4',
  * @author Cedric31
  */
 $messages['oc'] = array(
+	'thanks-desc' => 'Apond de ligams de mercejament a las vistas istoric e de diferéncia',
+	'thanks-thank' => 'mercé',
+	'thanks-thanked' => '{{GENDER:$1|mercejat|mercejada}}',
+	'echo-category-title-edit-thank' => 'Mercé',
+	'notification-thanks-diff-link' => 'vòstra modificacion',
+	'log-name-thanks' => 'Entrada mercejaments',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|a mercejat}} {{GENDER:$4|$3}}',
 );
 
@@ -904,14 +921,27 @@ $4",
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Milicevic01
  * @author Милан Јелисавчић
  */
 $messages['sr-ec'] = array(
+	'thanks-desc' => 'Додаје могућност захваљивања у прегледу историје и прегледу разлика између измена',
 	'thanks-thank' => 'захвали се',
-	'thanks-thank-tooltip' => 'Пошаљите захвалницу овом кориснику',
+	'thanks-thanked' => '{{GENDER:$1|захвалио се|захвалила се}}',
+	'thanks-error-undefined' => 'Захваљивање није успело. Покушајте поново.',
+	'thanks-thank-tooltip' => '{{GENDER:$1|Пошаљите}} захвалницу {{GENDER:$2|овом кориснику|овој корисници}}',
+	'thanks-confirmation' => 'Да ли сте сигурни да желите да се {{GENDER:$1|захвалите}} кориснику $2 за ову измену?',
+	'echo-pref-tooltip-edit-thank' => 'Обавести ме када ми се неко захвали за измену коју сам начинио.',
 	'echo-category-title-edit-thank' => 'Захвалнице',
 	'notification-thanks-diff-link' => 'вашој измени',
 	'notification-thanks' => '[[User:$1|$1]] вам се {{GENDER:$1|захваљује}} на $2 странице [[:$3]].',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] вам се {{GENDER:$1|захваљује}} за вашу измену на страници $2.',
+	'notification-thanks-email-subject' => '$1 вам се {{GENDER:$1|захваљује}} за вашу измену на {{SITENAME}}',
+	'notification-thanks-email-batch-body' => '$1 вам се {{GENDER:$1|захваљује}} за вашу измену на страници $2.',
+	'notification-link-text-respond-to-user' => 'Одговори кориснику',
+	'log-name-thanks' => 'Дневник захвалница',
+	'log-description-thanks' => 'Испод се налази списак корисника којима су се други корисници захвалили.',
+	'logentry-thanks-thank' => '$1 се {{GENDER:$2|захваљује}} кориснику {{GENDER:$4|$3}}',
 );
 
 /** Swedish (svenska)
