@@ -716,6 +716,32 @@ $4',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|berterima kasih}} kepada $3',
 );
 
+/** Norwegian Bokmål (norsk bokmål)
+ * @author Jeblad
+ */
+$messages['nb'] = array(
+	'thanks-desc' => 'Legg til takkelenker på historikk og endringer',
+	'thanks-thank' => 'takk',
+	'thanks-thanked' => '{{GENDER:$1|takket}}',
+	'thanks-error-undefined' => 'Takkehandling feilet. Forsøk igjen.',
+	'thanks-error-invalidrevision' => 'Revisions IDen er ikke gyldig.',
+	'thanks-error-ratelimited' => 'Du har overskredet din rate begrensing. Vent litt og prøv igjen.',
+	'thanks-thank-tooltip' => '{{GENDER:$1|Send}} en takkemelding til denne {{GENDER:$2|brukeren}}',
+	'thanks-confirmation' => 'Er du sikker på at du ønsker å {{GENDER:$1|takke}} $2 for denne redigeringen?',
+	'echo-pref-subscription-edit-thank' => 'Takk meg for min redigering',
+	'echo-pref-tooltip-edit-thank' => 'Varsle meg når noen takker meg for en redgering jeg har gjort.',
+	'echo-category-title-edit-thank' => 'Takk',
+	'notification-thanks-diff-link' => 'din redigering',
+	'notification-thanks' => '[[Bruker:$1|$1]] {{GENDER:$1|takket}} deg for $2 på [[:$3]].', # Fuzzy
+	'notification-thanks-flyout2' => '[[Bruker:$1|$1]] {{GENDER:$1|takket}} deg for din redigering på $2.', # Fuzzy
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1|takket}} deg for din redigering på {{SITENAME}}',
+	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|takket}} deg for din redigering på $2.',
+	'notification-link-text-respond-to-user' => 'Svar til bruker',
+	'log-name-thanks' => 'Takkelogg',
+	'log-description-thanks' => 'Under er en liste av brukere som er takket av andre brukere.',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|takket}} {{GENDER:$4|$3}}',
+);
+
 /** Dutch (Nederlands)
  * @author Hansmuller
  * @author Konovalov
