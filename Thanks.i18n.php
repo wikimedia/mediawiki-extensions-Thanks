@@ -284,8 +284,8 @@ $messages['es'] = array(
 	'thanks-desc' => 'Añade enlaces para agradecer al historial y las vistas de diferencias',
 	'thanks-thank' => 'agradecer',
 	'thanks-thanked' => '{{GENDER:$1|agradeció}}',
-	'thanks-error-undefined' => 'Acción de agradecimiento fallida. Por favor intente de nuevo.',
-	'thanks-error-invalidrevision' => 'ID de revisión no válido.',
+	'thanks-error-undefined' => 'Falló la acción de agradecimiento. Inténtalo de nuevo.',
+	'thanks-error-invalidrevision' => 'El id. de revisión no es válido.',
 	'thanks-error-ratelimited' => 'Has excedido tu límite. Por favor espera un tiempo e intenta de nuevo.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Enviar}} una notificación de agradecimiento a {{GENDER:$2|este|esta|este}} {{GENDER:$2|usuario|usuaria|usuario}}',
 	'thanks-confirmation' => 'Estás segur{{GENDER:$1|o|a|o}} que quieres agradecer a $2 por ésta edición?',
@@ -372,6 +372,7 @@ $messages['fi'] = array(
 );
 
 /** French (français)
+ * @author Arkanosis
  * @author Automatik
  * @author Boniface
  * @author Gomoko
@@ -380,7 +381,7 @@ $messages['fi'] = array(
  */
 $messages['fr'] = array(
 	'thanks-desc' => 'Ajoute des liens de remerciement aux vues historique et de différence',
-	'thanks-thank' => 'merci',
+	'thanks-thank' => 'remercier',
 	'thanks-thanked' => '{{GENDER:$1|remercié|remerciée}}',
 	'thanks-error-undefined' => 'Échec de l’action de remerciement. Veuillez réessayer.',
 	'thanks-error-invalidrevision' => 'L’ID de révision n’est pas valide.',
