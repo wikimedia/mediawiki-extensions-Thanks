@@ -947,6 +947,32 @@ $4",
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|ave ringraziate}} $3',
 );
 
+/** Russian (русский)
+ * @author Kaganer
+ */
+$messages['ru'] = array(
+	'thanks-desc' => 'Добавляет благодарственные ссылки на историю и сравнение версий',
+	'thanks-thank' => 'спасибо',
+	'thanks-thanked' => '{{GENDER:$1|поблагодарил|поблагодарила}}',
+	'thanks-error-undefined' => 'Попытка поблагодарить не удалась. Попробуйте снова.',
+	'thanks-error-invalidrevision' => 'Некорректный номер версии.',
+	'thanks-error-ratelimited' => 'Вы превысили ограничение скорости выполненния таких действий. Пожалуйста, подождите некоторое время и попробуйте снова.',
+	'thanks-thank-tooltip' => '{{GENDER:$1|Отправить}} {{GENDER:$2|этому участнику|этой участнице}} благодарственное сообщение',
+	'thanks-confirmation' => 'Вы уверены, что хотите поблагодарить {{GENDER:$1|участника|участницу}} $2 за эту правку?',
+	'echo-pref-subscription-edit-thank' => 'Спасибо мне за мою правку',
+	'echo-pref-tooltip-edit-thank' => 'Сообщать мне, когда кто-то благодарит меня за сделаную мной правку.',
+	'echo-category-title-edit-thank' => 'Спасибо',
+	'notification-thanks-diff-link' => 'вашу правку',
+	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|поблагодарил|поблагодарила}} вас за $2 на странице «[[:$3]]».',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|поблагодарил|поблагодарила}} вас за вашу правку на странице «$2».',
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1|поблагодарил|поблагодарила}} вас за вашу правку на сайте «{{SITENAME}}».',
+	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|поблагодарил|поблагодарила}} вас за вашу правку на странице «$2».',
+	'notification-link-text-respond-to-user' => 'Ответить участнику',
+	'log-name-thanks' => 'Журнал благодарностей',
+	'log-description-thanks' => 'Ниже находится список участников, получивших благодарности от других участников.',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|поблагодарил|поблагодарила}} {{GENDER:$4|участника|участницу}} $3',
+);
+
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Milicevic01
  * @author Милан Јелисавчић
@@ -958,7 +984,7 @@ $messages['sr-ec'] = array(
 	'thanks-error-undefined' => 'Захваљивање није успело. Покушајте поново.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Пошаљите}} захвалницу {{GENDER:$2|овом кориснику|овој корисници}}',
 	'thanks-confirmation' => 'Да ли сте сигурни да желите да се {{GENDER:$1|захвалите}} кориснику $2 за ову измену?',
-	'echo-pref-tooltip-edit-thank' => 'Обавести ме када ми се неко захвали за измену коју сам начинио.',
+	'echo-pref-tooltip-edit-thank' => 'Обавештава вас када вам се неко захвали за измену коју сте начинили.',
 	'echo-category-title-edit-thank' => 'Захвалнице',
 	'notification-thanks-diff-link' => 'вашој измени',
 	'notification-thanks' => '[[User:$1|$1]] вам се {{GENDER:$1|захваљује}} на $2 странице [[:$3]].',
@@ -996,7 +1022,7 @@ $messages['sv'] = array(
 	'notification-link-text-respond-to-user' => 'Svara användare',
 	'log-name-thanks' => 'Tacklogg',
 	'log-description-thanks' => 'Nedan är en lista med användare som fått tack från andra användare.',
-	'logentry-thanks-thank' => '$1 {{GENDER:$2|tackade}} $3', # Fuzzy
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|tackade}} {{GENDER:$4|$3}}',
 );
 
 /** Telugu (తెలుగు)
