@@ -397,7 +397,7 @@ $messages['fr'] = array(
 	'notification-thanks-email-subject' => '$1 vous {{GENDER:$1|a remercié}} pour votre modification sur {{SITENAME}}',
 	'notification-thanks-email-batch-body' => '$1 vous {{GENDER:$1|a remercié}} pour votre modification sur $2.',
 	'notification-link-text-respond-to-user' => 'Répondre à l’utilisateur',
-	'log-name-thanks' => 'Entrée remerciements',
+	'log-name-thanks' => 'Journal des remerciements',
 	'log-description-thanks' => "Ci-dessous se trouve une liste d'utilisateurs qui ont été remerciés par d'autres.",
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|a remercié}} {{GENDER:$4|$3}}',
 );
@@ -912,6 +912,32 @@ $messages['pt-br'] = array(
 	'log-name-thanks' => 'Registro de agradecimentos',
 	'log-description-thanks' => 'Abaixo está uma lista de usuários que receberam agradecimentos de outros usuários.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|agradeceu}} {{GENDER:$4|$3}}',
+);
+
+/** Romanian (română)
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'thanks-desc' => 'Adaugă legături pentru mulțumiri în istoric și în caseta „Diferență între versiuni”',
+	'thanks-thank' => 'mulțumire',
+	'thanks-thanked' => '{{GENDER:$1|a mulțumit}}',
+	'thanks-error-undefined' => 'Încercarea de a mulțumi a eșuat. Încercați din nou.',
+	'thanks-error-invalidrevision' => 'Codul versiunii nu este valid.',
+	'thanks-error-ratelimited' => 'V-ați depășit limita de evaluare. Așteptați un timp și reîncercați.',
+	'thanks-thank-tooltip' => '{{GENDER:$1|A trimis}} o notificare de mulțumire {{GENDER:$2|acestui utilizator|acestei utilizatoare}}',
+	'thanks-confirmation' => 'Sunteți {{GENDER:$1|sigur|sigură}} că doriți {{GENDER:$1|să mulțumiți}} utilizatorului $2 pentru această modificare?',
+	'echo-pref-subscription-edit-thank' => 'Mi se mulțumește pentru modificarea mea',
+	'echo-pref-tooltip-edit-thank' => 'Notifică-mă când cineva îmi mulțumește pentru o modificare pe care am efectuat-o.',
+	'echo-category-title-edit-thank' => 'Mulțumiri',
+	'notification-thanks-diff-link' => 'modificarea dumneavoastră',
+	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|v-a mulțumit}} pentru $2 asupra paginii [[:$3]].',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|v-a mulțumit}} pentru modificarea dumnevoastră asupra paginii $2.',
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1|v-a mulțumit}} pentru modificarea dumneavoastră de la {{SITENAME}}',
+	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|v-a mulțumit}} pentru modificarea dumneavoastră asupra paginii $2.',
+	'notification-link-text-respond-to-user' => 'Răspuns către utilizator',
+	'log-name-thanks' => 'Jurnal mulțumiri',
+	'log-description-thanks' => 'Mai jos se află o listă a utilizatorilor cărora li s-a mulțumit de către alți utilizatori.',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|i-a mulțumit}} {{GENDER:$4|utilizatorului $3|utilizatoarei $3}}',
 );
 
 /** tarandíne (tarandíne)
