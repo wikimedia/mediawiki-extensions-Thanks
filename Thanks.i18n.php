@@ -174,7 +174,7 @@ $messages['bs'] = array(
 	'thanks-confirmation' => 'Da li ste sigurni da se hoćete {{GENDER:$1|zahvaliti}} korisniku $2 za ovu izmjenu?',
 	'echo-pref-subscription-edit-thank' => 'Neko mi se zahvali za moju izmjenu',
 	'echo-pref-tooltip-edit-thank' => 'Obavijesti me ako mi se neko zahvali za moju izmjenu.',
-	'echo-category-title-edit-thank' => 'Hvala',
+	'echo-category-title-edit-thank' => 'Zahvale',
 	'notification-thanks-diff-link' => 'vašoj izmjeni',
 	'notification-thanks' => '[[User:$1|$1]] vam se {{GENDER:$1|zajvaljuje}} na $2 stranice [[:$3]].',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] vam se {{GENDER:$1|zahvaljuje}} na vašoj izmjeni na stranici $2.',
@@ -1130,7 +1130,7 @@ $messages['vi'] = array(
 	'thanks-error-undefined' => 'Thất bại cám ơn. Xin vui lòng thử lại.',
 	'thanks-error-invalidrevision' => 'Số phiên bản không hợp lệ.',
 	'thanks-error-ratelimited' => 'Bạn đã vượt quá giới hạn tốc độ. Xin vui lòng thử lại lát nữa.',
-	'thanks-thank-tooltip' => 'Gửi thông báo cám ơn cho người dùng này',
+	'thanks-thank-tooltip' => '{{GENDER:$1}}Gửi thông báo cám ơn cho {{GENDER:$2}}người dùng này',
 	'thanks-confirmation' => 'Bạn có chắc chắn muốn {{GENDER:$1}}gửi lời cám ơn cho $2 vì sửa đổi này?',
 	'echo-pref-subscription-edit-thank' => 'Gửi lời cám ơn cho tôi vì một sửa đổi của tôi',
 	'echo-pref-tooltip-edit-thank' => 'Báo cho tôi biết khi nào người ta gửi lời cám ơn về một sửa đổi của tôi.',
@@ -1139,18 +1139,11 @@ $messages['vi'] = array(
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1}}cám ơn bạn vì $2 tại [[:$3]].',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1}}cám ơn bạn vì sửa đổi của bạn tại $2.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1}}cám ơn bạn vì sửa đổi của bạn tại {{SITENAME}}',
-	'notification-thanks-email-body' => 'Người dùng $1 tại {{SITENAME}} {{GENDER:$1}}cám ơn bạn vì sửa đổi gần đây của bạn tại $2.
-
-Xem sửa đổi của bạn:
-
-$3
-
-$4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1}}cám ơn bạn vì sửa đổi của bạn tại $2.',
 	'notification-link-text-respond-to-user' => 'Trả lời cho người dùng',
 	'log-name-thanks' => 'Nhật trình cám ơn',
 	'log-description-thanks' => 'Dưới đây có danh sách những người dùng được người khác gửi lời cám ơn.',
-	'logentry-thanks-thank' => '$1 {{GENDER:$2}}đã cám ơn $3',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2}}đã cám ơn {{GENDER:$4}}$3',
 );
 
 /** Yiddish (ייִדיש)
