@@ -31,7 +31,6 @@ $messages['en'] = array(
 	'log-name-thanks' => 'Thanks log',
 	'log-description-thanks' => 'Below is a list of users thanked by other users.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|thanked}} {{GENDER:$4|$3}}',
-	'log-show-hide-thanks' => '$1 thanks log',
 );
 
 /** Message documentation (Message documentation)
@@ -91,8 +90,6 @@ Used for <code>$2</code> in {{msg-mw|Notification-thanks}}. Should have capitali
 * $2 is a username. Can be used for GENDER.
 * $3 is a user link, for example "John Doe (Talk | contribs)
 * $4 is the username of the recipient. Can be used for GENDER.',
-	'log-show-hide-thanks' => 'Shown on Special:Log as a link to show/hide thanks log entries. (Hidden by default)
-* $1 is one of {{msg-mw|show}} or {{msg-mw|hide}}',
 );
 
 /** Arabic (العربية)
