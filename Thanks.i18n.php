@@ -91,8 +91,9 @@ Used for <code>$2</code> in {{msg-mw|Notification-thanks}}. Should have capitali
 * $2 is a username. Can be used for GENDER.
 * $3 is a user link, for example "John Doe (Talk | contribs)
 * $4 is the username of the recipient. Can be used for GENDER.',
-	'log-show-hide-thanks' => 'Shown on Special:Log as a link to show/hide thanks log entries. (Hidden by default)
-* $1 is one of {{msg-mw|show}} or {{msg-mw|hide}}',
+	'log-show-hide-thanks' => 'Shown on [[Special:Log]] as a link to show/hide thanks log entries. (Hidden by default)
+* $1 - one of {{msg-mw|Show}} or {{msg-mw|Hide}}
+{{Related|Log-show-hide}}',
 );
 
 /** Arabic (العربية)
@@ -220,10 +221,27 @@ $messages['ca'] = array(
  * @author Calak
  */
 $messages['ckb'] = array(
+	'thanks-desc' => 'بەستەرەکانی سپاس بە مێژوو و نیشاندانی جیاوزاییەکان زیاد دەکا',
+	'thanks-thank' => 'سپاس',
+	'thanks-thanked' => '{{GENDER:$1|سپاس کرا}}',
+	'thanks-error-undefined' => 'سپاسکردن سەرکەوتوو نەبوو. تکایە دیسان ھەوڵ بدەوە.',
+	'thanks-error-invalidrevision' => 'پێداچوونەوەی پێناسە نادروستە.',
+	'thanks-error-ratelimited' => 'تۆ زیاتر لە سنووری خێرایی چووی. تکایە ھەندێک ڕاوەستە و دیسان ھەوڵ بدەوە.',
+	'thanks-thank-tooltip' => 'ئاگادارییەکی سپاس بۆ ئەم {{GENDER:$2|بەکارھێنەرە}} {{GENDER:$1|بنێرە}}',
+	'thanks-confirmation' => 'دڵنیای دەتەوەێ سپاسی $2 {{GENDER:$1|بکەی}} بۆ ئەم دەستکارییە؟',
 	'echo-pref-subscription-edit-thank' => 'بۆ دەستکارییەکم سپاسم بکە',
+	'echo-pref-tooltip-edit-thank' => 'کاتێک یەکێک بۆ دەستکارییەکی من کردوومە سپاسم دەکا، ئاگادارم بکە.',
 	'echo-category-title-edit-thank' => 'سپاس',
 	'notification-thanks-diff-link' => 'دەستکارییەکەت',
+	'notification-thanks' => '[[User:$1|$1]] سپاسی {{GENDER:$1|کردی}} بۆ $2 لە [[:$3]]دا.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] سپاسی {{GENDER:$1|کردی}} بۆ دەستکارییەکەت لە $2دا.',
+	'notification-thanks-email-subject' => '$1 سپاسی {{GENDER:$1|کردی}} بۆ دەستکارییەکەت لە {{SITENAME}}دا.',
+	'notification-thanks-email-batch-body' => '$1 سپاسی {{GENDER:$1|کردی}} بۆ دەستکارییەکەت لە $2دا.',
+	'notification-link-text-respond-to-user' => 'وەڵام بۆ بەکارھێنەر',
 	'log-name-thanks' => 'لۆگی سپاس',
+	'log-description-thanks' => 'ژێرەوە پێرستێکی لەو بەکارھێنەرانەن کە لە لایەن بەکارھێنەرانی ترەوە سپاسیان لێ کراوە.',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|سپاس کرد}} لە {{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => 'لۆگی سپاس $1',
 );
 
 /** Czech (česky)
@@ -232,24 +250,25 @@ $messages['ckb'] = array(
 $messages['cs'] = array(
 	'thanks-desc' => 'Přidává do historie a zobrazení rozdílů odkazy pro poděkování',
 	'thanks-thank' => 'poděkovat',
-	'thanks-thanked' => 'poděkováno', # Fuzzy
+	'thanks-thanked' => '{{GENDER:$1|poděkováno}}',
 	'thanks-error-undefined' => 'Poděkování se nezdařilo. Zkuste to prosím znovu.',
 	'thanks-error-invalidrevision' => 'ID revize je neplatné.',
 	'thanks-error-ratelimited' => 'Překročili jste rychlostní limit. Počkejte prosím chvíli a zkuste to znovu.',
-	'thanks-thank-tooltip' => 'Poslat tomuto uživateli poděkování',
+	'thanks-thank-tooltip' => '{{GENDER:$1|Poslat}} {{GENDER:$2|tomuto uživateli|této uživatelce}} poděkování',
+	'thanks-confirmation' => 'Jste si {{GENDER:$1|jist|jista|jisti}}, že chcete za tuto editaci uživateli $2 poděkovat?',
 	'echo-pref-subscription-edit-thank' => '…mi někdo poděkuje za editaci',
+	'echo-pref-tooltip-edit-thank' => 'Upozorněte mě, když mi někdo poděkuje za editaci.',
 	'echo-category-title-edit-thank' => 'poděkování',
 	'notification-thanks-diff-link' => 'vaši úpravu',
 	'notification-thanks' => '[[User:$1|$1]] vám {{GENDER:$1|poděkoval|poděkovala}} za $2 stránky [[:$3]].',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] vám {{GENDER:$1|poděkoval|poděkovala}} za editaci stránky $2.',
 	'notification-thanks-email-subject' => '$1 vám {{GENDER:$1|poděkoval|poděkovala}} za vaši editaci na {{grammar:6sg|{{SITENAME}}}}',
-	'notification-thanks-email-body' => '{{GENDER:$1|Uživatel|Uživatelka}} $1 na {{grammar:6sg|{{SITENAME}}}} vám {{GENDER:$1|poděkoval|poděkovala}} za vaši úpravu stránky $2.
-
-Můžete si prohlédnout svou úpravu:
-
-$3
-
-$4',
 	'notification-thanks-email-batch-body' => '$1 vám {{GENDER:$1|poděkoval|poděkovala}} za vaši úpravu stránky $2.',
+	'notification-link-text-respond-to-user' => 'Odpovědět uživateli',
+	'log-name-thanks' => 'Kniha poděkování',
+	'log-description-thanks' => 'Níže je seznam uživatelů, kterým ostatní uživatelé poděkovali.',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|poděkoval|poděkovala}} {{GENDER:$4|uživateli|uživatelce}} $3',
+	'log-show-hide-thanks' => '$1 knihu poděkování',
 );
 
 /** German (Deutsch)
@@ -416,7 +435,7 @@ $messages['frr'] = array(
 	'thanks-error-undefined' => '"Soonk" hää ei loket. Ferschük det man noch ans.',
 	'thanks-error-invalidrevision' => 'Det werjuun jaft at ei.',
 	'thanks-error-ratelimited' => 'Dü heest tuföl aktjuunen onernimen. Teew en uugenblak an ferschük det noch ans weder.',
-	'thanks-thank-tooltip' => 'Schüür didiar brüker en "soonk".',
+	'thanks-thank-tooltip' => '{{Gender:$1|Schüür}} {{Gender:$2|didiar brüker}} en "soonk".',
 	'thanks-confirmation' => 'Wel dü $2 würelk {{GENDER:$1|en soonk schüür}} för didiar bidrach?',
 	'echo-pref-subscription-edit-thank' => '"Soonk" saien för man bidrach',
 	'echo-pref-tooltip-edit-thank' => 'Du mi bööd, wan mi hoker en "soonk" schüürt för man bidrach.',
@@ -425,18 +444,12 @@ $messages['frr'] = array(
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|soonket}} di för $2 üüb [[:$3]].',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|soonket}} di för dan bidrach üüb $2.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|soonket}} di för dan bidrach üüb {{SITENAME}}',
-	'notification-thanks-email-body' => '{{GENDER:$1|Di {{SITENAME}}-brüker|Det {{SITENAME}}-brükerin}} $1 soonket di för dan bidrach üüb $2.
-
-Dan bidrach uunluke:
-
-$3
-
-$4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|soonket}} di för dan bidrach üüb $2.',
 	'notification-link-text-respond-to-user' => 'Di brüker swaare',
 	'log-name-thanks' => 'Soonk-logbuk',
 	'log-description-thanks' => 'Oner stäänt en list faan brükern, diar faan ööder brükern soonk saad wurden as.',
-	'logentry-thanks-thank' => '$1 {{GENDER:$2|soonket}} $3',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|besoonket}} ham bi {{Gender:$4|$3}}',
+	'log-show-hide-thanks' => 'Föl-soonk-logbuk $1',
 );
 
 /** Galician (galego)
@@ -463,6 +476,7 @@ $messages['gl'] = array(
 	'log-name-thanks' => 'Rexistro de agradecementos',
 	'log-description-thanks' => 'A continuación hai unha lista dos usuarios que recibiron agradecementos doutros usuarios.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|deu as grazas a}} {{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => '$1 o rexistro de agradecementos',
 );
 
 /** Hebrew (עברית)
@@ -552,7 +566,7 @@ $messages['it'] = array(
 	'thanks-error-undefined' => 'Errore durante ringraziamento. Riprova ancora.',
 	'thanks-error-invalidrevision' => 'ID versione non è valido.',
 	'thanks-error-ratelimited' => "Hai superato il limite massimo di ringraziamenti. Aspetta un po' di tempo e riprova.",
-	'thanks-thank-tooltip' => 'Invia una notifica di ringraziamento a questo utente',
+	'thanks-thank-tooltip' => '{{GENDER:$1|Invia}} una notifica di ringraziamento a {{GENDER:$2|questo|questa}} utente',
 	'thanks-confirmation' => 'Sei sicuro di voler {{GENDER:$1|ringraziare}} $2 per questa modifica?',
 	'echo-pref-subscription-edit-thank' => 'Mi ringrazia per una mia modifica',
 	'echo-pref-tooltip-edit-thank' => 'Avvisami quando qualcuno mi ringrazia per una modifica che ho fatto.',
@@ -561,18 +575,12 @@ $messages['it'] = array(
 	'notification-thanks' => '[[User:$1|$1]] ti {{GENDER:$1|ha ringraziato}} per $2 su [[:$3]].',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] ti {{GENDER:$1|ha ringraziato}} per la tua modifica su $2.',
 	'notification-thanks-email-subject' => '$1 ti {{GENDER:$1|ha ringraziato}} per la tua modifica su {{SITENAME}}.',
-	'notification-thanks-email-body' => "L'utente $1 di {{SITENAME}} ti {{GENDER:$1|ha ringraziato}} per la tua modifica su $2.
-
-Vedi la tua modifica:
-
-$3
-
-$4",
 	'notification-thanks-email-batch-body' => '$1 ti {{GENDER:$1|ha ringraziato}} per la tua modifica su $2.',
 	'notification-link-text-respond-to-user' => "Rispondi all'utente",
 	'log-name-thanks' => 'Ringraziamenti',
 	'log-description-thanks' => 'Di seguito è riportato un elenco di utenti ringraziati da altri utenti.',
-	'logentry-thanks-thank' => '$1 {{GENDER:$2|ha ringraziato}} $3',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|ha ringraziato}} {{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => '$1 registro dei ringraziamenti',
 );
 
 /** Japanese (日本語)
@@ -600,6 +608,7 @@ $messages['ja'] = array(
 	'log-name-thanks' => '感謝記録',
 	'log-description-thanks' => '以下に、他の利用者から感謝を示された利用者を列挙します。',
 	'logentry-thanks-thank' => '$1 が {{GENDER:$4|$3}} に{{GENDER:$2|感謝を示しました}}',
+	'log-show-hide-thanks' => '感謝記録を$1',
 );
 
 /** Korean (한국어)
@@ -627,6 +636,7 @@ $messages['ko'] = array(
 	'log-name-thanks' => '감사 기록',
 	'log-description-thanks' => '아래에는 다른 사용자가 감사한 사용자의 목록입니다.',
 	'logentry-thanks-thank' => '$1 사용자가 {{GENDER:$4|$3}}님에게 {{GENDER:$2|감사했습니다}}',
+	'log-show-hide-thanks' => '감사 기록을 $1',
 );
 
 /** Kirghiz (Кыргызча)
@@ -680,6 +690,7 @@ $messages['mk'] = array(
 	'log-name-thanks' => 'Дневник на благодарности',
 	'log-description-thanks' => 'Следи список на корисници на кои други им искажале благодарност.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|му се заблагодари на|ѝ се заблагодари на|се заблагодари на}} {{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => '$1 го дневникот на благодарења',
 );
 
 /** Marathi (मराठी)
