@@ -386,11 +386,12 @@ $4',
 );
 
 /** Finnish (suomi)
+ * @author Samoasambia
  * @author Silvonen
  */
 $messages['fi'] = array(
 	'thanks-thank' => 'kiitä',
-	'thanks-thanked' => 'kiitetty', # Fuzzy
+	'thanks-thanked' => '{{GENDER:$1|kiittetty}}',
 	'log-name-thanks' => 'Kiitosloki',
 );
 
@@ -399,6 +400,7 @@ $messages['fi'] = array(
  * @author Automatik
  * @author Boniface
  * @author Gomoko
+ * @author Jean-Frédéric
  * @author Ltrlg
  * @author Metroitendo
  */
@@ -423,6 +425,7 @@ $messages['fr'] = array(
 	'log-name-thanks' => 'Journal des remerciements',
 	'log-description-thanks' => "Ci-dessous se trouve une liste d'utilisateurs qui ont été remerciés par d'autres.",
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|a remercié}} {{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => '$1 le journal des remerciements',
 );
 
 /** Northern Frisian (Nordfriisk)
