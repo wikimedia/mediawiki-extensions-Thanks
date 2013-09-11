@@ -856,6 +856,7 @@ $messages['pl'] = array(
 	'log-name-thanks' => 'Rejestr podziękowań',
 	'log-description-thanks' => 'Poniżej znajduje się lista użytkowników, którym podziękowali inni użytkownicy.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|podziękował|podziękowała}} {{GENDER:$4|użytkownikowi|użytkowniczce}} $3',
+	'log-show-hide-thanks' => '$1 rejestr podziękowań',
 );
 
 /** Pashto (پښتو)
@@ -1048,7 +1049,7 @@ $messages['sv'] = array(
 	'thanks-error-undefined' => 'Tackåtgärden misslyckades. Var god försök igen.',
 	'thanks-error-invalidrevision' => 'Versions-ID är inte giltigt.',
 	'thanks-error-ratelimited' => 'Du har överskridit din frekvensgräns. Var god vänta en stund och försök igen',
-	'thanks-thank-tooltip' => 'Skicka ett tackmeddelande till denna användare', # Fuzzy
+	'thanks-thank-tooltip' => '{{GENDER:$1|Skicka}} ett tackmeddelande till denna {{GENDER:$2|användare}}',
 	'thanks-confirmation' => 'Är du säker på att du vill {{GENDER:$1|tacka}} $2 för denna redigering?',
 	'echo-pref-subscription-edit-thank' => 'Tackar mig för min redigering',
 	'echo-pref-tooltip-edit-thank' => 'Meddela mig när någon tackar mig för en redigering jag har gjort.',
@@ -1062,6 +1063,7 @@ $messages['sv'] = array(
 	'log-name-thanks' => 'Tacklogg',
 	'log-description-thanks' => 'Nedan är en lista med användare som fått tack från andra användare.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|tackade}} {{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => '$1 tacklogga',
 );
 
 /** Telugu (తెలుగు)
