@@ -557,6 +557,7 @@ $messages['ilo'] = array(
 	'log-name-thanks' => 'Listaan kadagiti panagyaman',
 	'log-description-thanks' => 'Dita baba ket listaan dagiti agar-aramat a nayamanan babaen dagiti dadduma nga agar-aramat.',
 	'logentry-thanks-thank' => 'Ni $1 ket {{GENDER:$2|nagyaman}} kenni {{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => '$1 ti listaan dagiti panagyaman',
 );
 
 /** Italian (italiano)
@@ -958,6 +959,7 @@ $messages['ro'] = array(
 	'log-name-thanks' => 'Jurnal mulțumiri',
 	'log-description-thanks' => 'Mai jos se află o listă a utilizatorilor cărora li s-a mulțumit de către alți utilizatori.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|i-a mulțumit}} {{GENDER:$4|utilizatorului $3|utilizatoarei $3}}',
+	'log-show-hide-thanks' => '$1 jurnalul de mulțumiri',
 );
 
 /** tarandíne (tarandíne)
