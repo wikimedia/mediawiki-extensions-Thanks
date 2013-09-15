@@ -738,6 +738,7 @@ $4',
 );
 
 /** Norwegian Bokmål (norsk bokmål)
+ * @author Danmichaelo
  * @author Jeblad
  */
 $messages['nb'] = array(
@@ -753,14 +754,15 @@ $messages['nb'] = array(
 	'echo-pref-tooltip-edit-thank' => 'Varsle meg når noen takker meg for en redgering jeg har gjort.',
 	'echo-category-title-edit-thank' => 'Takk',
 	'notification-thanks-diff-link' => 'din redigering',
-	'notification-thanks' => '[[Bruker:$1|$1]] {{GENDER:$1|takket}} deg for $2 på [[:$3]].', # Fuzzy
-	'notification-thanks-flyout2' => '[[Bruker:$1|$1]] {{GENDER:$1|takket}} deg for din redigering på $2.', # Fuzzy
+	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|takket}} deg for $2 på [[:$3]].',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|takket}} deg for din redigering på $2.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|takket}} deg for din redigering på {{SITENAME}}',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|takket}} deg for din redigering på $2.',
 	'notification-link-text-respond-to-user' => 'Svar til bruker',
 	'log-name-thanks' => 'Takkelogg',
 	'log-description-thanks' => 'Under er en liste av brukere som er takket av andre brukere.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|takket}} {{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => '$1 takkelogg',
 );
 
 /** Dutch (Nederlands)
@@ -1149,9 +1151,9 @@ $messages['vi'] = array(
 	'thanks-error-invalidrevision' => 'Số phiên bản không hợp lệ.',
 	'thanks-error-ratelimited' => 'Bạn đã vượt quá giới hạn tốc độ. Xin vui lòng thử lại lát nữa.',
 	'thanks-thank-tooltip' => '{{GENDER:$1}}Gửi thông báo cám ơn cho {{GENDER:$2}}người dùng này',
-	'thanks-confirmation' => 'Bạn có chắc chắn muốn {{GENDER:$1}}gửi lời cám ơn cho $2 vì sửa đổi này?',
-	'echo-pref-subscription-edit-thank' => 'Gửi lời cám ơn cho tôi vì một sửa đổi của tôi',
-	'echo-pref-tooltip-edit-thank' => 'Báo cho tôi biết khi nào người ta gửi lời cám ơn về một sửa đổi của tôi.',
+	'thanks-confirmation' => 'Bạn có chắc chắn muốn {{GENDER:$1}}cám ơn $2 vì sửa đổi này?',
+	'echo-pref-subscription-edit-thank' => 'Cám ơn tôi vì một sửa đổi của tôi',
+	'echo-pref-tooltip-edit-thank' => 'Báo cho tôi biết khi nào người ta cám ơn tôi về một sửa đổi của tôi.',
 	'echo-category-title-edit-thank' => 'Cám ơn',
 	'notification-thanks-diff-link' => 'sửa đổi của bạn',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1}}cám ơn bạn vì $2 tại [[:$3]].',
@@ -1160,8 +1162,9 @@ $messages['vi'] = array(
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1}}cám ơn bạn vì sửa đổi của bạn tại $2.',
 	'notification-link-text-respond-to-user' => 'Trả lời cho người dùng',
 	'log-name-thanks' => 'Nhật trình cám ơn',
-	'log-description-thanks' => 'Dưới đây có danh sách những người dùng được người khác gửi lời cám ơn.',
+	'log-description-thanks' => 'Dưới đây có danh sách những người dùng được người khác cám ơn.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2}}đã cám ơn {{GENDER:$4}}$3',
+	'log-show-hide-thanks' => '$1 nhật trình cám ơn',
 );
 
 /** Yiddish (ייִדיש)
