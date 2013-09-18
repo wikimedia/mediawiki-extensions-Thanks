@@ -271,6 +271,33 @@ $messages['cs'] = array(
 	'log-show-hide-thanks' => '$1 knihu poděkování',
 );
 
+/** Danish (dansk)
+ * @author Palnatoke
+ */
+$messages['da'] = array(
+	'thanks-desc' => 'Tilføjer takke-links til historik og forskelsvisninger',
+	'thanks-thank' => 'tak',
+	'thanks-thanked' => '{{GENDER:$1|takkede}}',
+	'thanks-error-undefined' => 'Takke-handlingen mislykkedes. Prøv venligst igen.',
+	'thanks-error-invalidrevision' => 'Versions-ID er ikke gyldigt.',
+	'thanks-error-ratelimited' => 'Du har overskredet din frekvensgrænse. Vent et stykke tid og prøv igen.',
+	'thanks-thank-tooltip' => '{{GENDER:$1|Send}} en takkemeddelelse til denne  {{GENDER:$2| bruger}}',
+	'thanks-confirmation' => 'Er du sikker på at du vil  {{GENDER:$1| takke}}  $2  for denne edit?',
+	'echo-pref-subscription-edit-thank' => 'Takker mig for min redigering',
+	'echo-pref-tooltip-edit-thank' => 'Giv mig besked, når nogen takker mig for en redigering jeg har lavet.',
+	'echo-category-title-edit-thank' => 'Tak!',
+	'notification-thanks-diff-link' => 'din redigering',
+	'notification-thanks' => '[[User:$1|$1]]  {{GENDER:$1| takkede}} dig for $2 på [[:$3]].',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|takkede}} dig for din redigering på $2.',
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1|takkede}} dig for din redigering på {{SITENAME}}',
+	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|takkede}} dig for din redigering på $2.',
+	'notification-link-text-respond-to-user' => 'Svar til bruger',
+	'log-name-thanks' => 'Takke-log',
+	'log-description-thanks' => 'Nedenfor er en liste over brugere, som er blevet takket af andre brugere.',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|takkede}} {{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => '$1 takke-log',
+);
+
 /** German (Deutsch)
  * @author MF-Warburg
  * @author Metalhead64
@@ -302,28 +329,30 @@ $messages['de'] = array(
 /** Spanish (español)
  * @author Fitoschido
  * @author Hahc21
+ * @author PoLuX124
  */
 $messages['es'] = array(
-	'thanks-desc' => 'Añade enlaces para agradecer al historial y las vistas de diferencias',
+	'thanks-desc' => 'Añade enlaces para agradecer desde el historial y las diferencias entre ediciones',
 	'thanks-thank' => 'agradecer',
 	'thanks-thanked' => '{{GENDER:$1|agradeció}}',
-	'thanks-error-undefined' => 'Falló la acción de agradecimiento. Inténtalo de nuevo.',
+	'thanks-error-undefined' => 'La acción de agradecimiento falló. Por favor, inténtalo de nuevo.',
 	'thanks-error-invalidrevision' => 'El id. de revisión no es válido.',
-	'thanks-error-ratelimited' => 'Has excedido tu límite. Por favor espera un tiempo e intenta de nuevo.',
+	'thanks-error-ratelimited' => 'Has excedido tu límite. Por favor, espera un tiempo e intenta de nuevo.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Enviar}} una notificación de agradecimiento a {{GENDER:$2|este|esta|este}} {{GENDER:$2|usuario|usuaria|usuario}}',
-	'thanks-confirmation' => 'Estás segur{{GENDER:$1|o|a|o}} que quieres agradecer a $2 por ésta edición?',
-	'echo-pref-subscription-edit-thank' => 'Agradacerme por mi edición',
-	'echo-pref-tooltip-edit-thank' => 'Notificarme cuando alguién me agradezca pur una edición que haya realizado.',
+	'thanks-confirmation' => '¿Estás segur{{GENDER:$1|o|a|o}} de que quieres agradecer a $2 por esta edición?',
+	'echo-pref-subscription-edit-thank' => 'Agradecerme por mi edición',
+	'echo-pref-tooltip-edit-thank' => 'Notificarme cuando alguien me agradezca por una edición que haya realizado.',
 	'echo-category-title-edit-thank' => 'Gracias',
 	'notification-thanks-diff-link' => 'tu edición',
-	'notification-thanks' => '[[Usuario:$1|$1]] te ha agradecido por $2 en [[:$3]].', # Fuzzy
-	'notification-thanks-flyout2' => '[[Usuario:$1|$1]] te ha agradecido por tu edición en $2.', # Fuzzy
+	'notification-thanks' => '[[User:$1|$1]] te ha agradecido por $2 en [[:$3]].',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] te ha agradecido por tu edición en $2.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|agradeció}} tu edición en {{SITENAME}}',
 	'notification-thanks-email-batch-body' => '$1 te ha agradecido por tu edición en $2.',
 	'notification-link-text-respond-to-user' => 'Responder al usuario',
 	'log-name-thanks' => 'Registro de agradecimientos',
 	'log-description-thanks' => 'A continuación, una lista de usuarios que han sido agradecidos por otros usuarios.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|agradeció}} a {{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => '$1 registro de agradecimientos',
 );
 
 /** Estonian (eesti)
@@ -365,24 +394,21 @@ $messages['fa'] = array(
 	'thanks-error-undefined' => 'تشکر کردن موفق نبود، دوباره تلاش کنید',
 	'thanks-error-invalidrevision' => 'شماره تفاوت صحیح نیست',
 	'thanks-error-ratelimited' => 'شما از مقدار مجاز فراتر رفته‌اید. لطفا چند لحظه صبر کنید و دوباره امتحان کنید.',
-	'thanks-thank-tooltip' => 'یک پیام تشکر به اعلامیه‌های این کاربر بفرستید',
+	'thanks-thank-tooltip' => 'یک پیام تشکر به اعلامیه‌های این {{GENDER:$2|کاربر}} {{GENDER:$1|بفرستید}}',
+	'thanks-confirmation' => 'مطمئنید که قصد {{GENDER:$1| تشکر}}  از ویرایش $2  را دارید؟',
 	'echo-pref-subscription-edit-thank' => 'برای ویرایش هایم از من تشکر کن.',
 	'echo-pref-tooltip-edit-thank' => 'هنگامی که کسی برای ویرایشی که من انجام دادم از من تشکر کرد مرا مطلع کن.',
 	'echo-category-title-edit-thank' => 'تشکر',
 	'notification-thanks-diff-link' => 'ویرایش های شما',
 	'notification-thanks' => '[[User:$1|$1]] به $2 {{GENDER:$1|شما}} در [[:$3]] تشکر کرده‌است.',
-	'notification-thanks-email-subject' => '$1 {{GENDER:$1|تشکر شدید}} برای ویرایشی که بر روی صفحه ی {{SITENAME}} داشتید.',
-	'notification-thanks-email-body' => '{{SITENAME}} کاربر $1 {{GENDER:$1|تشکر شده}} از شما برای ویرایشتان بر $2.
-
-نمایش ویرایش های شما:
-
-$3
-
-$4',
-	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|تشکر شده}} برای ویرایش هایتان بر روی $2.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] از شما به خاطر ویرایش‌هایتان بر روی  $2 {{GENDER:$1|تشکر کرد.}}',
+	'notification-thanks-email-subject' => '$1 از شما برای ویرایشی که بر روی صفحهٔ {{SITENAME}} داشتید {{GENDER:$1|تشکر کرد}}.',
+	'notification-thanks-email-batch-body' => '$1 از شما به خاطر ویرایش‌هایتان بر روی $2 {{GENDER:$1|تشکر کرد}}.',
+	'notification-link-text-respond-to-user' => 'پاسخ به کاربر',
 	'log-name-thanks' => 'ورودی تشکرها',
 	'log-description-thanks' => 'در زیر لیستی از کاربرانی که توسط کاربران دیگر از آن ها تشکر شده آمده است.',
-	'logentry-thanks-thank' => '$1 {{GENDER:$2|تشکر شده کرده است از}} $3',
+	'logentry-thanks-thank' => '$1  از {{GENDER:$4|$3}} {{GENDER:$2|تشکر کرد}}',
+	'log-show-hide-thanks' => 'سیاههٔ تشکر $1',
 );
 
 /** Finnish (suomi)
@@ -484,6 +510,7 @@ $messages['gl'] = array(
 
 /** Hebrew (עברית)
  * @author Amire80
+ * @author Guycn1
  * @author Rotemliss
  */
 $messages['he'] = array(
@@ -507,6 +534,7 @@ $messages['he'] = array(
 	'log-name-thanks' => 'יומן תודות',
 	'log-description-thanks' => 'להלן רשימת משתמשים שאנשים אחרים הודו להם.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|הודה|הודתה}} ל{{GRAMMAR:תחילית|{{GENDER:$4|$3}}}}',
+	'log-show-hide-thanks' => '$1 יומן תודות',
 );
 
 /** Hungarian (magyar)
@@ -1072,10 +1100,22 @@ $messages['sv'] = array(
 
 /** Telugu (తెలుగు)
  * @author Veeven
+ * @author Visdaviva
  */
 $messages['te'] = array(
+	'thanks-thank' => 'కృతజ్ఞత తెలుపు',
+	'thanks-thanked' => '{{GENDER:$1|అభినందించారు}}',
 	'thanks-error-undefined' => 'కృతజ్ఞతల చర్య విఫలమైంది. దయచేసి మళ్ళీ ప్రయత్నించండి.',
+	'thanks-error-invalidrevision' => 'కూర్పుల ID చెల్లదు',
+	'echo-pref-subscription-edit-thank' => 'నా మార్పుకు ధన్యవాదాలు',
+	'echo-pref-tooltip-edit-thank' => 'నేను చేసిన మార్పుకు ఎవరైనా ధన్యవాదాలు చెపితే నాకు తెలియజేయి',
+	'echo-category-title-edit-thank' => 'ధన్యవాదాలు',
 	'notification-thanks-diff-link' => 'మీ మార్పు',
+	'notification-thanks' => '[[User:$1|$1]] ఇక్కడ [[:$3]] మీరు $2 కు {{GENDER:$1|కృతజ్ఞతించారు}}.',
+	'notification-link-text-respond-to-user' => 'వాడుకరికి ప్రతిస్పందించండి',
+	'log-name-thanks' => 'ధన్యవాదాల చిట్టా',
+	'log-description-thanks' => 'క్రింది వాడుకరులు ఇతర వాడుకరుల నుండి ధన్యవాదాలు పొందారు.',
+	'log-show-hide-thanks' => '$1 ధన్యవాదాల చిట్టా',
 );
 
 /** Tagalog (Tagalog)
