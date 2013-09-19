@@ -386,29 +386,30 @@ $messages['et'] = array(
  * @author A.R.Rostamzade
  * @author Ladsgroup
  * @author Reza1615
+ * @author درفش کاویانی
  */
 $messages['fa'] = array(
-	'thanks-desc' => 'پیوند به تشکر را به تاریخچه و نمایش تفاوت‌ها می‌افزاید',
-	'thanks-thank' => 'تشکر',
-	'thanks-thanked' => '{{GENDER:$1|تشکر شد}}',
-	'thanks-error-undefined' => 'تشکر کردن موفق نبود، دوباره تلاش کنید',
-	'thanks-error-invalidrevision' => 'شماره تفاوت صحیح نیست',
-	'thanks-error-ratelimited' => 'شما از مقدار مجاز فراتر رفته‌اید. لطفا چند لحظه صبر کنید و دوباره امتحان کنید.',
-	'thanks-thank-tooltip' => 'یک پیام تشکر به اعلامیه‌های این {{GENDER:$2|کاربر}} {{GENDER:$1|بفرستید}}',
-	'thanks-confirmation' => 'مطمئنید که قصد {{GENDER:$1| تشکر}}  از ویرایش $2  را دارید؟',
-	'echo-pref-subscription-edit-thank' => 'برای ویرایش هایم از من تشکر کن.',
-	'echo-pref-tooltip-edit-thank' => 'هنگامی که کسی برای ویرایشی که من انجام دادم از من تشکر کرد مرا مطلع کن.',
-	'echo-category-title-edit-thank' => 'تشکر',
-	'notification-thanks-diff-link' => 'ویرایش های شما',
-	'notification-thanks' => '[[User:$1|$1]] به $2 {{GENDER:$1|شما}} در [[:$3]] تشکر کرده‌است.',
-	'notification-thanks-flyout2' => '[[User:$1|$1]] از شما به خاطر ویرایش‌هایتان بر روی  $2 {{GENDER:$1|تشکر کرد.}}',
-	'notification-thanks-email-subject' => '$1 از شما برای ویرایشی که بر روی صفحهٔ {{SITENAME}} داشتید {{GENDER:$1|تشکر کرد}}.',
-	'notification-thanks-email-batch-body' => '$1 از شما به خاطر ویرایش‌هایتان بر روی $2 {{GENDER:$1|تشکر کرد}}.',
+	'thanks-desc' => 'پیوند به سپاس را به تاریخچه و نمایش تفاوت‌ها می‌افزاید',
+	'thanks-thank' => 'سپاس',
+	'thanks-thanked' => '{{GENDER:$1|سپاسگزاری شد}}',
+	'thanks-error-undefined' => 'سپاسگزاری موفق نبود، دوباره تلاش کنید',
+	'thanks-error-invalidrevision' => 'شمارهٔ تفاوت صحیح نیست',
+	'thanks-error-ratelimited' => 'شما از مقدار مجاز فراتر رفته‌اید. لطفاً چند لحظه صبر کنید و دوباره امتحان کنید.',
+	'thanks-thank-tooltip' => 'یک پیام سپاس به آگاه‌سازی‌های این {{GENDER:$2|کاربر}} {{GENDER:$1|بفرستید}}',
+	'thanks-confirmation' => 'مطمئنید که قصد {{GENDER:$1|سپاسگزاری}}  از ویرایش $2  را دارید؟',
+	'echo-pref-subscription-edit-thank' => 'برای ویرایش‌هایم از من سپاسگزاری کن.',
+	'echo-pref-tooltip-edit-thank' => 'هنگامی که کسی برای ویرایشی که من انجام دادم از من سپاس‌گزاری کرد، مرا آگاه کن.',
+	'echo-category-title-edit-thank' => 'سپاس',
+	'notification-thanks-diff-link' => 'ویرایش‌های شما',
+	'notification-thanks' => '[[User:$1|$1]] از $2 {{GENDER:$1|شما}} در [[:$3]] سپاس‌گزاری کرده‌است.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] از شما به خاطر ویرایش‌هایتان بر روی  $2 {{GENDER:$1|سپاس‌گزاری کرد.}}',
+	'notification-thanks-email-subject' => '$1 از شما برای ویرایشی که بر روی صفحهٔ {{SITENAME}} داشتید {{GENDER:$1|سپاس‌گزاری کرد}}.',
+	'notification-thanks-email-batch-body' => '$1 از شما به خاطر ویرایش‌هایتان بر روی $2 {{GENDER:$1|سپاس‌گزاری کرد}}.',
 	'notification-link-text-respond-to-user' => 'پاسخ به کاربر',
-	'log-name-thanks' => 'ورودی تشکرها',
-	'log-description-thanks' => 'در زیر لیستی از کاربرانی که توسط کاربران دیگر از آن ها تشکر شده آمده است.',
-	'logentry-thanks-thank' => '$1  از {{GENDER:$4|$3}} {{GENDER:$2|تشکر کرد}}',
-	'log-show-hide-thanks' => 'سیاههٔ تشکر $1',
+	'log-name-thanks' => 'ورودی سپاس‌ها',
+	'log-description-thanks' => 'در زیر، فهرستی از کاربرانی که توسط کاربران دیگر از آن‌ها تسپاس‌گزاری‌شده آمده است.',
+	'logentry-thanks-thank' => '$1  از {{GENDER:$4|$3}} {{GENDER:$2|سپاس‌گزاری کرد}}',
+	'log-show-hide-thanks' => 'سیاههٔ سپاس $1',
 );
 
 /** Finnish (suomi)
@@ -1043,6 +1044,33 @@ $messages['ru'] = array(
 	'log-name-thanks' => 'Журнал благодарностей',
 	'log-description-thanks' => 'Ниже находится список участников, получивших благодарности от других участников.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|поблагодарил|поблагодарила}} {{GENDER:$4|участника|участницу}} $3',
+);
+
+/** Slovenian (slovenščina)
+ * @author Eleassar
+ */
+$messages['sl'] = array(
+	'thanks-desc' => 'K prikazom zgodovine in razlik doda povezavo za zahvalo.',
+	'thanks-thank' => 'zahvala',
+	'thanks-thanked' => '{{GENDER:$1|zahvala je objavljena}}',
+	'thanks-error-undefined' => 'Zahvala ni uspela. Prosimo, poskusite znova.',
+	'thanks-error-invalidrevision' => 'ID-številka redakcije ni veljavna.',
+	'thanks-error-ratelimited' => 'Presegli ste omejitev hitrosti. Prosimo, počakajte nekaj časa in nato poskusite znova.',
+	'thanks-thank-tooltip' => '{{GENDER:$1|Pošljite}} {{GENDER:$2|temu uporabniku|tej uporabnici}} zahvalo',
+	'thanks-confirmation' => 'Ali se uporabniku $2 resnično želite zahvaliti za to urejanje?', # Fuzzy
+	'echo-pref-subscription-edit-thank' => 'Se mi zahvali za urejanje',
+	'echo-pref-tooltip-edit-thank' => 'Obvesti me, kadar se mi kdo zahvali za katero od mojih urejanj.',
+	'echo-category-title-edit-thank' => 'Zahvala',
+	'notification-thanks-diff-link' => 'vaše urejanje',
+	'notification-thanks' => '[[User:$1|$1]] se vam je {{GENDER:$1|zahvalil|zahvalila}} za $2 strani »[[:$3]]«.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] se vam je {{GENDER:$1|zahvalil|zahvalila}} za urejanje strani »$2«.',
+	'notification-thanks-email-subject' => '$1 se vam je {{GENDER:$1|zahvalil|zahvalila}} za urejanje {{GRAMMAR:rodilnik|{{SITENAME}}}}',
+	'notification-thanks-email-batch-body' => '$1 se vam je {{GENDER:$1|zahvalil|zahvalila}} za urejanje strani »$2«.',
+	'notification-link-text-respond-to-user' => 'Odgovor uporabniku',
+	'log-name-thanks' => 'Dnevnik zahval',
+	'log-description-thanks' => 'Prikazan je dnevnik uporabnikov, ki se jim je kdo zahvalil.',
+	'logentry-thanks-thank' => '$1 se je {{GENDER:$2|zahvalil|zahvalila}} {{GENDER:$4|uporabniku|uporabnici}} {{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => '$1 dnevnik zahval',
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
