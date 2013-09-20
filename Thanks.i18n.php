@@ -389,27 +389,27 @@ $messages['et'] = array(
  * @author درفش کاویانی
  */
 $messages['fa'] = array(
-	'thanks-desc' => 'پیوند به سپاس را به تاریخچه و نمایش تفاوت‌ها می‌افزاید',
-	'thanks-thank' => 'سپاس',
-	'thanks-thanked' => '{{GENDER:$1|سپاسگزاری شد}}',
-	'thanks-error-undefined' => 'سپاسگزاری موفق نبود، دوباره تلاش کنید',
+	'thanks-desc' => 'گزینهٔ «پسندیدن» را به تاریخچه و نمایش تفاوت‌ها می‌افزاید.',
+	'thanks-thank' => 'پسندیدم',
+	'thanks-thanked' => '{{GENDER:$1|پسندیده شد}}',
+	'thanks-error-undefined' => 'پسندیدن ناموفق بود، دوباره تلاش کنید',
 	'thanks-error-invalidrevision' => 'شمارهٔ تفاوت صحیح نیست',
 	'thanks-error-ratelimited' => 'شما از مقدار مجاز فراتر رفته‌اید. لطفاً چند لحظه صبر کنید و دوباره امتحان کنید.',
-	'thanks-thank-tooltip' => 'یک پیام سپاس به آگاه‌سازی‌های این {{GENDER:$2|کاربر}} {{GENDER:$1|بفرستید}}',
-	'thanks-confirmation' => 'مطمئنید که قصد {{GENDER:$1|سپاسگزاری}}  از ویرایش $2  را دارید؟',
+	'thanks-thank-tooltip' => 'یک پیام پسند به آگاه‌سازی‌های این {{GENDER:$2|کاربر}} {{GENDER:$1|بفرستید}}',
+	'thanks-confirmation' => 'مطمئنید که قصد {{GENDER:$1|پسندیدن}} ویرایش $2  را دارید؟',
 	'echo-pref-subscription-edit-thank' => 'برای ویرایش‌هایم از من سپاسگزاری کن.',
-	'echo-pref-tooltip-edit-thank' => 'هنگامی که کسی برای ویرایشی که من انجام دادم از من سپاس‌گزاری کرد، مرا آگاه کن.',
-	'echo-category-title-edit-thank' => 'سپاس',
+	'echo-pref-tooltip-edit-thank' => 'هنگامی که کسی ویرایش مرا پسندید، مرا آگاه کن.',
+	'echo-category-title-edit-thank' => 'پسندیدم',
 	'notification-thanks-diff-link' => 'ویرایش‌های شما',
-	'notification-thanks' => '[[User:$1|$1]] از $2 {{GENDER:$1|شما}} در [[:$3]] سپاس‌گزاری کرده‌است.',
-	'notification-thanks-flyout2' => '[[User:$1|$1]] از شما به خاطر ویرایش‌هایتان بر روی  $2 {{GENDER:$1|سپاس‌گزاری کرد.}}',
-	'notification-thanks-email-subject' => '$1 از شما برای ویرایشی که بر روی صفحهٔ {{SITENAME}} داشتید {{GENDER:$1|سپاس‌گزاری کرد}}.',
-	'notification-thanks-email-batch-body' => '$1 از شما به خاطر ویرایش‌هایتان بر روی $2 {{GENDER:$1|سپاس‌گزاری کرد}}.',
+	'notification-thanks' => '[[User:$1|$1]] $2 {{GENDER:$1|شما}} در [[:$3]] را پسندیده است.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] ویرایش‌های شما بر روی  $2 را {{GENDER:$1|پسندیده است.}}',
+	'notification-thanks-email-subject' => '$1 ویرایش شما بر روی صفحهٔ {{SITENAME}} را {{GENDER:$1|پسندیده است}}.',
+	'notification-thanks-email-batch-body' => '$1 ویرایش‌های شما بر روی $2 را {{GENDER:$1|پسندیده است}}.',
 	'notification-link-text-respond-to-user' => 'پاسخ به کاربر',
-	'log-name-thanks' => 'ورودی سپاس‌ها',
-	'log-description-thanks' => 'در زیر، فهرستی از کاربرانی که توسط کاربران دیگر از آن‌ها تسپاس‌گزاری‌شده آمده است.',
-	'logentry-thanks-thank' => '$1  از {{GENDER:$4|$3}} {{GENDER:$2|سپاس‌گزاری کرد}}',
-	'log-show-hide-thanks' => 'سیاههٔ سپاس $1',
+	'log-name-thanks' => 'ورودی پسندها',
+	'log-description-thanks' => 'در زیر، فهرستی از کاربرانی که توسط کاربران دیگر از آن‌ها سپاس‌گزاری‌شده آمده است.',
+	'logentry-thanks-thank' => '$1  {{GENDER:$4|$3}} را {{GENDER:$2|پسندید.}}',
+	'log-show-hide-thanks' => 'سیاههٔ پسندها $1',
 );
 
 /** Finnish (suomi)
@@ -540,8 +540,11 @@ $messages['he'] = array(
 
 /** Hungarian (magyar)
  * @author Samat
+ * @author Southparkfan
  */
 $messages['hu'] = array(
+	'thanks-desc' => 'Voegt bedank links toe aan geschiedenis en verschillen',
+	'thanks-thank' => 'bedanken',
 	'thanks-error-undefined' => 'A megköszönés sikertelen. Kérlek, próbáld meg újra!',
 	'thanks-error-invalidrevision' => 'A lapváltozat azonosítója érvénytelen.',
 	'thanks-confirmation' => 'Biztos, hogy {{GENDER:$1|meg akarod köszönni}} $2 szerkesztését?',
@@ -552,6 +555,7 @@ $messages['hu'] = array(
 	'notification-link-text-respond-to-user' => 'Válaszolok a szerkesztőnek.',
 	'log-name-thanks' => 'Köszönési napló',
 	'log-description-thanks' => 'Az alábbi szerkesztők köszönetet mondtak egy másik szerkesztőnek.',
+	'log-show-hide-thanks' => '$1 bedankjes logboek',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -799,6 +803,7 @@ $messages['nb'] = array(
  * @author Konovalov
  * @author SPQRobin
  * @author Siebrand
+ * @author Southparkfan
  */
 $messages['nl'] = array(
 	'thanks-desc' => 'Voegt "Bedankt"-koppelingen toe aan geschiedenis en verschillenweergaves',
@@ -807,7 +812,7 @@ $messages['nl'] = array(
 	'thanks-error-undefined' => 'Bedanken is mislukt. Probeer het opnieuw.',
 	'thanks-error-invalidrevision' => 'Het versienummer is niet geldig.',
 	'thanks-error-ratelimited' => 'U hebt uw limiet voor bedankjes overschreden. Wacht even en probeer het dan opnieuw.',
-	'thanks-thank-tooltip' => 'Deze gebruiker bedanken',
+	'thanks-thank-tooltip' => 'Deze gebruiker bedanken', # Fuzzy
 	'thanks-confirmation' => 'Weet u zeker dat u $2 wilt {{GENDER:$1|bedanken}} voor deze bewerking?',
 	'echo-pref-subscription-edit-thank' => 'Bedankt u voor uw bewerking',
 	'echo-pref-tooltip-edit-thank' => 'U een melding zenden als iemand u bedankt voor een bewerking die u hebt gemaakt.',
@@ -816,18 +821,12 @@ $messages['nl'] = array(
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|heeft}} u bedankt voor $2 op [[:$3]].',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|heeft}} u bedankt voor uw bewerking van $2.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|heeft}} u bedankt voor uw bewerking op  {{SITENAME}}',
-	'notification-thanks-email-body' => 'Gebruiker $1 van {{SITENAME}} {{GENDER:$1|heeft}} u bedankt voor uw bewerking aan$2.
-
-Bekijk uw bewerking:
-
-$3
-
-$4',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|heeft}} u bedankt voor uw bewerking op $2.',
 	'notification-link-text-respond-to-user' => 'Gebruiker antwoorden',
 	'log-name-thanks' => 'Logboek voor bedankjes',
 	'log-description-thanks' => 'Hieronder wordt een lijst weergegeven met gebruikers die door andere gebruikers zijn bedankt.',
-	'logentry-thanks-thank' => '$1 {{GENDER:$2|heeft}} $3 bedankt',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|heeft}} {{GENDER:$4|$3}} bedankt',
+	'log-show-hide-thanks' => '$1 bedankjes logboek',
 );
 
 /** Occitan (occitan)
