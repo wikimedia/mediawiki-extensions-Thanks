@@ -384,32 +384,33 @@ $messages['et'] = array(
 
 /** Persian (فارسی)
  * @author A.R.Rostamzade
+ * @author Dalba
  * @author Ladsgroup
  * @author Reza1615
  * @author درفش کاویانی
  */
 $messages['fa'] = array(
-	'thanks-desc' => 'گزینهٔ «پسندیدن» را به تاریخچه و نمایش تفاوت‌ها می‌افزاید.',
-	'thanks-thank' => 'پسندیدم',
-	'thanks-thanked' => '{{GENDER:$1|پسندیده شد}}',
-	'thanks-error-undefined' => 'پسندیدن ناموفق بود، دوباره تلاش کنید',
+	'thanks-desc' => 'گزینهٔ «سپاس‌گزاری» را به تاریخچه و نمایش تفاوت‌ها می‌افزاید.',
+	'thanks-thank' => 'سپاس‌گزاری',
+	'thanks-thanked' => '{{GENDER:$1|سپاس‌گزاری انجام شد}}',
+	'thanks-error-undefined' => 'سپاس‌گزاری نافرجام ماند. دوباره تلاش کنید.',
 	'thanks-error-invalidrevision' => 'شمارهٔ تفاوت صحیح نیست',
 	'thanks-error-ratelimited' => 'شما از مقدار مجاز فراتر رفته‌اید. لطفاً چند لحظه صبر کنید و دوباره امتحان کنید.',
-	'thanks-thank-tooltip' => 'یک پیام پسند به آگاه‌سازی‌های این {{GENDER:$2|کاربر}} {{GENDER:$1|بفرستید}}',
-	'thanks-confirmation' => 'مطمئنید که قصد {{GENDER:$1|پسندیدن}} ویرایش $2  را دارید؟',
+	'thanks-thank-tooltip' => 'یک پیام سپاس‌گزاری به این {{GENDER:$2|کاربر}} {{GENDER:$1|بفرستید}}',
+	'thanks-confirmation' => 'مطمئنید که قصد {{GENDER:$1|سپاس‌گزاری}} از این ویرایش $2  را دارید؟',
 	'echo-pref-subscription-edit-thank' => 'برای ویرایش‌هایم از من سپاسگزاری کن.',
-	'echo-pref-tooltip-edit-thank' => 'هنگامی که کسی ویرایش مرا پسندید، مرا آگاه کن.',
-	'echo-category-title-edit-thank' => 'پسندیدم',
+	'echo-pref-tooltip-edit-thank' => 'هنگامی که کسی از ویرایش‌های من سپاس‌گزاری می‌کند، مرا آگاه کن.',
+	'echo-category-title-edit-thank' => 'سپاس‌گزاری‌ها',
 	'notification-thanks-diff-link' => 'ویرایش‌های شما',
-	'notification-thanks' => '[[User:$1|$1]] $2 {{GENDER:$1|شما}} در [[:$3]] را پسندیده است.',
-	'notification-thanks-flyout2' => '[[User:$1|$1]] ویرایش‌های شما بر روی  $2 را {{GENDER:$1|پسندیده است.}}',
-	'notification-thanks-email-subject' => '$1 ویرایش شما بر روی صفحهٔ {{SITENAME}} را {{GENDER:$1|پسندیده است}}.',
-	'notification-thanks-email-batch-body' => '$1 ویرایش‌های شما بر روی $2 را {{GENDER:$1|پسندیده است}}.',
+	'notification-thanks' => '[[User:$1|$1]] از شما بخاطر $2 در [[:$3]] {{GENDER:$1|سپاس‌گزاری کرد}}.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] از ویرایش شما در $2 {{GENDER:$1|سپاس‌گزاری کرد}}.',
+	'notification-thanks-email-subject' => '$1 از ویرایش شما در {{SITENAME}} {{GENDER:$1|سپاس‌گزاری کرد}}',
+	'notification-thanks-email-batch-body' => '$1 از ویرایش شما در $2 {{GENDER:$1|سپاس‌گزاری کرد}}.',
 	'notification-link-text-respond-to-user' => 'پاسخ به کاربر',
-	'log-name-thanks' => 'ورودی پسندها',
+	'log-name-thanks' => 'سیاههٔ سپاس‌گزاری‌ها',
 	'log-description-thanks' => 'در زیر، فهرستی از کاربرانی که توسط کاربران دیگر از آن‌ها سپاس‌گزاری‌شده آمده است.',
-	'logentry-thanks-thank' => '$1  {{GENDER:$4|$3}} را {{GENDER:$2|پسندید.}}',
-	'log-show-hide-thanks' => 'سیاههٔ پسندها $1',
+	'logentry-thanks-thank' => '{{GENDER:$2|سپاس‌گزاری}} $1 از {{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => '$1 سیاههٔ سپاس‌گزاری‌ها',
 );
 
 /** Finnish (suomi)
@@ -541,21 +542,30 @@ $messages['he'] = array(
 /** Hungarian (magyar)
  * @author Samat
  * @author Southparkfan
+ * @author Teemeah
  */
 $messages['hu'] = array(
-	'thanks-desc' => 'Voegt bedank links toe aan geschiedenis en verschillen',
-	'thanks-thank' => 'bedanken',
+	'thanks-desc' => 'Köszönőlinket helyez el a laptörténetben és a diffváltozatokban',
+	'thanks-thank' => 'köszönet',
+	'thanks-thanked' => '{{GENDER:$1|Megköszönve}}',
 	'thanks-error-undefined' => 'A megköszönés sikertelen. Kérlek, próbáld meg újra!',
 	'thanks-error-invalidrevision' => 'A lapváltozat azonosítója érvénytelen.',
+	'thanks-error-ratelimited' => 'Túllépted a meghatározott limitet. Kérlek várj egy kicsit és próbáld újra.',
+	'thanks-thank-tooltip' => '{{GENDER:$1|Küldj}} köszönetet ennek a {{GENDER:$2|szerkesztőnek}}',
 	'thanks-confirmation' => 'Biztos, hogy {{GENDER:$1|meg akarod köszönni}} $2 szerkesztését?',
+	'echo-pref-subscription-edit-thank' => 'Megköszöni a szerkesztésem',
 	'echo-pref-tooltip-edit-thank' => 'Értesítést kérek, ha valaki megköszöni egy szerkesztésemet.',
 	'echo-category-title-edit-thank' => 'köszönet',
 	'notification-thanks-diff-link' => 'a szerkesztésed',
+	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|megköszönte}} a $2 szerkesztésed a(z) [[:$3]] szócikkben.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|megköszönte}} a szerkesztésed a(z) $2 szócikkben.',
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1|megköszönte}} a(z) {{SITENAME}} oldalon tett szerkesztésedet.',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|megköszönte}} a(z) $2 lapon tett szerkesztésedet.',
 	'notification-link-text-respond-to-user' => 'Válaszolok a szerkesztőnek.',
 	'log-name-thanks' => 'Köszönési napló',
 	'log-description-thanks' => 'Az alábbi szerkesztők köszönetet mondtak egy másik szerkesztőnek.',
-	'log-show-hide-thanks' => '$1 bedankjes logboek',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|köszönetet mondott}} {{GENDER:$4|$3}} szerkesztőnek.',
+	'log-show-hide-thanks' => 'Köszönetnapló $1',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -646,6 +656,33 @@ $messages['ja'] = array(
 	'log-description-thanks' => '以下に、他の利用者から感謝を示された利用者を列挙します。',
 	'logentry-thanks-thank' => '$1 が {{GENDER:$4|$3}} に{{GENDER:$2|感謝を示しました}}',
 	'log-show-hide-thanks' => '感謝記録を$1',
+);
+
+/** Kazakh (Cyrillic script) (қазақша (кирил)‎)
+ * @author Arystanbek
+ */
+$messages['kk-cyrl'] = array(
+	'thanks-desc' => 'Тарих және нұсқалар айырмасында <<рахмет>> сілтемелерін қосу',
+	'thanks-thank' => 'рахмет',
+	'thanks-thanked' => '{{GENDER:$1|рахмет айтты}}',
+	'thanks-error-undefined' => 'Рахмет айту әрекеті орындалмады. Тағы қайталап көріңіз.',
+	'thanks-error-invalidrevision' => 'ID нұсқа жарамсыз.',
+	'thanks-error-ratelimited' => 'Сіз шекті жылдамдықтан асырдыңыз. Біраз уақыт күте тұрып қайталап көріңіз.',
+	'thanks-thank-tooltip' => 'Бұл {{GENDER:$2|қатысушыға}} рахмет айту хабарландыруын {{GENDER:$1|жіберу}}',
+	'thanks-confirmation' => 'Сіз бұл өңдеме үшін $2 деген қатысушыға {{GENDER:$1|рахмет}} айтқыңыз келе ме?',
+	'echo-pref-subscription-edit-thank' => 'Менің өңдемем үшін маған рахмет айту',
+	'echo-pref-tooltip-edit-thank' => 'Мен жасаған өңдеме үшін кейбіреу рахмет айтқанда маған хабарландыр.',
+	'echo-category-title-edit-thank' => 'Рахмет',
+	'notification-thanks-diff-link' => 'сіздің өңдемеңізге',
+	'notification-thanks' => '[[User:$1|$1]] [[:$3]] бетіндегі $2  {{GENDER:$1|рахметін}} білдірді.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] $2 бетіндегі өңдемеңізге {{GENDER:$1|рахметін}} білдірді.',
+	'notification-thanks-email-subject' => '$1 {{SITENAME}} сайтындағы өңдемеңіз үшін сізге {{GENDER:$1|рахметін}} білдірді.',
+	'notification-thanks-email-batch-body' => '$1 $2 бетіндегі өңдемеңіз үшін сізге {{GENDER:$1|рахметін}} білдірді.',
+	'notification-link-text-respond-to-user' => 'Қатысушыға жауап қайтару',
+	'log-name-thanks' => 'Рахмет айту журналы',
+	'log-description-thanks' => 'Төменде басқа қатысушылардан рахмет айтылған қатысушылар тізімі берілген.',
+	'logentry-thanks-thank' => '$1 {{GENDER:$4|$3}} деген қатысушыға {{GENDER:$2|рахметін}} білдірді.',
+	'log-show-hide-thanks' => 'рахметін білдіру журналы $1',
 );
 
 /** Korean (한국어)
