@@ -335,7 +335,7 @@ $messages['es'] = array(
 	'thanks-desc' => 'Añade enlaces para agradecer desde el historial y las diferencias entre ediciones',
 	'thanks-thank' => 'agradecer',
 	'thanks-thanked' => '{{GENDER:$1|agradeció}}',
-	'thanks-error-undefined' => 'La acción de agradecimiento falló. Por favor, inténtalo de nuevo.',
+	'thanks-error-undefined' => 'La acción de agradecimiento falló. Inténtalo de nuevo.',
 	'thanks-error-invalidrevision' => 'El id. de revisión no es válido.',
 	'thanks-error-ratelimited' => 'Has excedido tu límite. Por favor, espera un tiempo e intenta de nuevo.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Enviar}} una notificación de agradecimiento a {{GENDER:$2|este|esta|este}} {{GENDER:$2|usuario|usuaria|usuario}}',
@@ -683,6 +683,16 @@ $messages['kk-cyrl'] = array(
 	'log-description-thanks' => 'Төменде басқа қатысушылардан рахмет айтылған қатысушылар тізімі берілген.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$4|$3}} деген қатысушыға {{GENDER:$2|рахметін}} білдірді.',
 	'log-show-hide-thanks' => 'рахметін білдіру журналы $1',
+);
+
+/** Kannada (ಕನ್ನಡ)
+ * @author Pavanaja
+ */
+$messages['kn'] = array(
+	'thanks-thank' => 'ಧನ್ಯವಾದ ಹೇಳಿ',
+	'thanks-error-undefined' => 'ಧನ್ಯವಾದ ಪ್ರಕ್ರಿಯ ನಡೆಯಲಿಲ್ಲ. ಪುನಃ ಪ್ರಯತ್ನಿಸಿ',
+	'echo-category-title-edit-thank' => 'ಧನ್ಯವಾದಗಳು',
+	'notification-thanks-diff-link' => 'ನಿಮ್ಮ ಸಂಪಾದನೆ',
 );
 
 /** Korean (한국어)
