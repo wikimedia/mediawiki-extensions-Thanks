@@ -401,7 +401,7 @@ $messages['fa'] = array(
 	'echo-pref-subscription-edit-thank' => 'برای ویرایش‌هایم از من سپاسگزاری کن.',
 	'echo-pref-tooltip-edit-thank' => 'هنگامی که کسی از ویرایش‌های من سپاس‌گزاری می‌کند، مرا آگاه کن.',
 	'echo-category-title-edit-thank' => 'سپاس‌گزاری‌ها',
-	'notification-thanks-diff-link' => 'ویرایش‌های شما',
+	'notification-thanks-diff-link' => 'ویرایشتان',
 	'notification-thanks' => '[[User:$1|$1]] از شما بخاطر $2 در [[:$3]] {{GENDER:$1|سپاس‌گزاری کرد}}.',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] از ویرایش شما در $2 {{GENDER:$1|سپاس‌گزاری کرد}}.',
 	'notification-thanks-email-subject' => '$1 از ویرایش شما در {{SITENAME}} {{GENDER:$1|سپاس‌گزاری کرد}}',
@@ -1141,6 +1141,7 @@ $messages['sr-ec'] = array(
 	'log-name-thanks' => 'Дневник захвалница',
 	'log-description-thanks' => 'Испод се налази списак корисника којима су се други корисници захвалили.',
 	'logentry-thanks-thank' => '$1 се {{GENDER:$2|захваљује}} кориснику {{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => '$1 дневник захваљивања',
 );
 
 /** Swedish (svenska)
@@ -1289,6 +1290,7 @@ $messages['yi'] = array(
 );
 
 /** Simplified Chinese (中文（简体）‎)
+ * @author Fantasticfears
  * @author Hzy980512
  * @author Qiyue2001
  * @author Yfdyh000
@@ -1301,7 +1303,7 @@ $messages['zh-hans'] = array(
 	'thanks-error-undefined' => '感谢操作失败。请再试一次。',
 	'thanks-error-invalidrevision' => '修订ID无效。',
 	'thanks-error-ratelimited' => '您已超过您的速率限制。请等一段时间再试。',
-	'thanks-thank-tooltip' => '发送一条感谢你通知给此用户', # Fuzzy
+	'thanks-thank-tooltip' => '{{GENDER:$1|发送}}一条感谢你通知给此{{GENDER:$2|用户}}',
 	'thanks-confirmation' => '您确定要{{GENDER:$1|感谢}}因此编辑感谢$2吗？',
 	'echo-pref-subscription-edit-thank' => '感谢我的编辑',
 	'echo-pref-tooltip-edit-thank' => '别人因我的编辑感谢我时通知我。',
@@ -1314,7 +1316,8 @@ $messages['zh-hans'] = array(
 	'notification-link-text-respond-to-user' => '回应用户',
 	'log-name-thanks' => '感谢日志',
 	'log-description-thanks' => '下面列出了被其他用户感谢的用户。',
-	'logentry-thanks-thank' => '$1{{GENDER:$2|感谢了}}$3', # Fuzzy
+	'logentry-thanks-thank' => '$1{{GENDER:$2|感谢了}}{{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => '$1感谢日志',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
