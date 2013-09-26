@@ -58,6 +58,7 @@ $wgHooks['DiffViewHeader'][] = 'ThanksHooks::onDiffViewHeader';
 $wgHooks['BeforeCreateEchoEvent'][] = 'ThanksHooks::onBeforeCreateEchoEvent';
 $wgHooks['EchoGetDefaultNotifiedUsers'][] = 'ThanksHooks::onEchoGetDefaultNotifiedUsers';
 $wgHooks['AddNewAccount'][] = 'ThanksHooks::onAccountCreated';
+$wgHooks['BeforeSpecialMobileDiffDisplay'][] = 'ThanksHooks::onBeforeSpecialMobileDiffDisplay';
 
 // Register modules
 $wgResourceModules['ext.thanks'] = array(
@@ -79,6 +80,25 @@ $wgResourceModules['ext.thanks'] = array(
 		'user.tokens',
 		'jquery.ui.dialog',
 	),
+	'localBasePath' => $dir . '/modules',
+	'remoteExtPath' => 'Thanks/modules',
+);
+$wgResourceModules['ext.thanks.mobilediff'] = array(
+	'dependencies' => array(
+		'mobile.mobilediff.scripts',
+	),
+	'scripts' => array(
+		'ext.thanks.mobilediff.js',
+	),
+	'messages' => array(
+		'thanks-button-thank',
+		'thanks-button-thanked',
+		'thanks-error-invalidrevision',
+		'thanks-error-ratelimited',
+		'thanks-error-undefined',
+		'thanks-thanked-notice',
+	),
+	'targets' => array( 'desktop', 'mobile' ),
 	'localBasePath' => $dir . '/modules',
 	'remoteExtPath' => 'Thanks/modules',
 );

@@ -188,4 +188,22 @@ class ThanksHooks {
 		$user->saveSettings();
 		return true;
 	}
+
+	/**
+	 * Add thanks button to SpecialMobileDiff page
+	 * @param &$output OutputPage object
+	 * @param $ctx MobileContext object
+	 * @return bool true in all cases
+	 */
+	public static function onBeforeSpecialMobileDiffDisplay( &$output, $ctx ) {
+		// If the Echo and MobileFrontend extensions are installed and the user is
+		// logged in, show a 'Thank' link.
+		if ( class_exists( 'EchoNotifier' )
+			&& class_exists( 'SpecialMobileDiff' )
+			&& $output->getUser()->isLoggedIn()
+		) {
+			$output->addModules( array( 'ext.thanks.mobilediff' ) );
+		}
+		return true;
+	}
 }

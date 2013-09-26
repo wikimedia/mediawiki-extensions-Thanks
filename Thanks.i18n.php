@@ -14,11 +14,14 @@ $messages['en'] = array(
 	'thanks-desc' => 'Adds thank links to history and diff views',
 	'thanks-thank' => 'thank',
 	'thanks-thanked' => '{{GENDER:$1|thanked}}',
+	'thanks-button-thank' => 'Thank',
+	'thanks-button-thanked' => '{{GENDER:$1|Thanked}}',
 	'thanks-error-undefined' => 'Thank action failed. Please try again.',
 	'thanks-error-invalidrevision' => 'Revision ID is not valid.',
 	'thanks-error-ratelimited' => "You've exceeded your rate limit. Please wait some time and try again.",
 	'thanks-thank-tooltip' => '{{GENDER:$1|Send}} a thank you notification to this {{GENDER:$2|user}}',
 	'thanks-confirmation' => 'Are you sure you want to {{GENDER:$1|thank}} $2 for this edit?',
+	'thanks-thanked-notice' => "$1 was told that you liked {{GENDER:$2|his|her|their}} edit.",
 	'echo-pref-subscription-edit-thank' => 'Thanks me for my edit',
 	'echo-pref-tooltip-edit-thank' => 'Notify me when someone thanks me for an edit I made.',
 	'echo-category-title-edit-thank' => 'Thanks',
@@ -48,6 +51,11 @@ A link to thank another user. This appears next to messages such as {{msg-mw|edi
 
 Parameters:
 * \$1 is the current user, for GENDER support.",
+	'thanks-button-thank' => 'Text of a button to thank another user. Same as {{msg-mw|thanks-thank}}, but the context is in a button.',
+	'thanks-button-thanked' => "This message immediately replaces the message {{msg-mw|thanks-button-thank}} after it's pressed. It means that the thanking operation has been completed. Same as {{msg-mw|thanks-thanked}}, but the context is in a button.
+
+Parameters:
+* \$1 is the current user, for GENDER support.",
 	'thanks-error-undefined' => 'Error message that is displayed when the thank action fails.
 {{Identical|Please try again}}',
 	'thanks-error-invalidrevision' => 'Error message that is displayed when the revision ID is not valid',
@@ -60,6 +68,12 @@ Parameters:
 Parameters:
 * $1 - the user sending the thanks. Can be used for GENDER.
 * $2 - the username of the recipient. Can NOT be used for GENDER.',
+	'thanks-thanked-notice' => '{{doc-singularthey}}
+Pop-up message that is displayed after a user has thanked another user for their edit.
+
+Parameters:
+* $1 - the username of the user that was thanked
+* $2 - the gender of the user that was thanked',
 	'echo-pref-subscription-edit-thank' => 'Option for getting notifications when someone thanks the user for their edit.
 
 This is the conclusion of the sentence begun by the header: {{msg-mw|Prefs-echosubscriptions}}.',
