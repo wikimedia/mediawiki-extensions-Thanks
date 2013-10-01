@@ -46,16 +46,22 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'thanks-desc' => '{{desc|name=Thanks|url=http://www.mediawiki.org/wiki/Extension:Thanks}}',
 	'thanks-thank' => '{{Doc-actionlink}}
-A link to thank another user. This appears next to messages such as {{msg-mw|editundo}} and {{msg-mw|rollbacklink}} and should be translated in a similar fashion.',
-	'thanks-thanked' => "This message immediately replaces the message {{msg-mw|Thanks-thank}} after it's pressed. It means that the thanking operation has been completed. It can be translated as \"''thanked''\" in \"You thanked the user\" or \"The user has just been ''thanked''\" - whatever is appropriate to your language.
+A link to thank another user. This appears next to messages such as {{msg-mw|editundo}} and {{msg-mw|rollbacklink}} and should be translated in a similar fashion.
+{{Identical|Thank}}',
+	'thanks-thanked' => "This message immediately replaces the message {{msg-mw|Thanks-thank}} after it's pressed. It means that the thanking operation has been completed.
+
+It can be translated as \"''thanked''\" in \"You thanked the user\" or \"The user has just been ''thanked''\" - whatever is appropriate to your language.
 
 Parameters:
-* \$1 is the current user, for GENDER support.",
-	'thanks-button-thank' => 'Text of a button to thank another user. Same as {{msg-mw|thanks-thank}}, but the context is in a button.',
-	'thanks-button-thanked' => "This message immediately replaces the message {{msg-mw|thanks-button-thank}} after it's pressed. It means that the thanking operation has been completed. Same as {{msg-mw|thanks-thanked}}, but the context is in a button.
+* \$1 - the current user, for GENDER support",
+	'thanks-button-thank' => 'Text of a button to thank another user. Same as {{msg-mw|Thanks-thank}}, but the context is in a button.
+{{Identical|Thank}}',
+	'thanks-button-thanked' => "This message immediately replaces the message {{msg-mw|Thanks-button-thank}} after it's pressed. It means that the thanking operation has been completed.
+
+Same as {{msg-mw|Thanks-thanked}}, but the context is in a button.
 
 Parameters:
-* $1 is the current user, for GENDER support.",
+* $1 - the current user, for GENDER support",
 	'thanks-error-undefined' => 'Error message that is displayed when the thank action fails.
 {{Identical|Please try again}}',
 	'thanks-error-invalidrevision' => 'Error message that is displayed when the revision ID is not valid',
@@ -81,7 +87,7 @@ This is the conclusion of the sentence begun by the header: {{msg-mw|Prefs-echos
 	'echo-category-title-edit-thank' => 'This is a short title for the notification category.
 
 Used as <code>$1</code> in {{msg-mw|Echo-dismiss-message}} and as <code>$2</code> in {{msg-mw|Echo-email-batch-category-header}}
-{{Identical|Thanks}}',
+{{Identical|Thank}}',
 	'notification-thanks-diff-link' => "The text of a link to the user's edit.
 
 Used for <code>$2</code> in {{msg-mw|Notification-thanks}}. Should have capitalization appropriate for the middle of a sentence.",
@@ -127,11 +133,14 @@ $messages['ast'] = array(
 	'thanks-desc' => "Amiesta enllaces d'agradecimientu a les vistes d'historial y diferencies",
 	'thanks-thank' => 'agradecer',
 	'thanks-thanked' => '{{GENDER:$1|agradecíu|agradecida}}',
+	'thanks-button-thank' => 'Agradecer',
+	'thanks-button-thanked' => '{{GENDER:$1|Agradecíu|Agradecida}}',
 	'thanks-error-undefined' => "Falló l'aición d'agradecimientu. Por favor, vuelva a probar.",
 	'thanks-error-invalidrevision' => 'La ID de la revisión nun ye válida.',
 	'thanks-error-ratelimited' => 'Pasó la llende de repeticiones. Espere un tiempu y vuelva a intentalo.',
-	'thanks-thank-tooltip' => "Unvie una notificación d'agradecimientu a esti usuariu",
+	'thanks-thank-tooltip' => "{{GENDER:$1|Unviar}} una nota d'agradecimientu a {{GENDER:$2|esti usuariu|esta usuaria}}",
 	'thanks-confirmation' => '¿Ta {{GENDER:$1|seguru|segura}} de que quier agradecer a $2 la so edición?',
+	'thanks-thanked-notice' => "$1 recibió l'avisu de que-y gustó {{GENDER:$2|la so}} edición.",
 	'echo-pref-subscription-edit-thank' => 'Agradecimientos pola mio edición',
 	'echo-pref-tooltip-edit-thank' => 'Avisame cuando alguién me de les gracies por una edición de mio.',
 	'echo-category-title-edit-thank' => 'Gracies',
@@ -139,18 +148,12 @@ $messages['ast'] = array(
 	'notification-thanks' => '[[User:$1|$1]] ta {{GENDER:$1|agradecíu|agradecida}} por $2 en [[:$3]].',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|agradeció}} la so edición de $2.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|agradeció}} la so edición en {{SITENAME}}',
-	'notification-thanks-email-body' => "{{GENDER:$1|L'usuariu|La usuaria}} $1 agradeció la so edición en $2.
-
-Vea la so edición:
-
-$3
-
-$4",
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|agradeció}} la so edición en $2.',
 	'notification-link-text-respond-to-user' => 'Contestar al usuariu',
 	'log-name-thanks' => "Rexistru d'agradecimientos",
 	'log-description-thanks' => "Mas abaxo ta la llista d'usuarios a los qu'otros usuarios dieron les gracies.",
-	'logentry-thanks-thank' => '$1 {{GENDER:$2|dio les gracies a}} $3',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|dio les gracies a}} {{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => "$1 rexistru d'agradecimientos",
 );
 
 /** Bengali (বাংলা)
@@ -159,7 +162,9 @@ $4",
  */
 $messages['bn'] = array(
 	'thanks-thank' => 'ধন্যবাদ',
-	'thanks-thanked' => '{{GENDER:$1|ধন্যবাদ}}',
+	'thanks-thanked' => '{{GENDER:$1|ধন্যবাদ জানিয়েছেন}}',
+	'thanks-button-thank' => 'ধন্যবাদ',
+	'thanks-button-thanked' => '{{GENDER:$1|ধন্যবাদ জানিয়েছেন}}',
 	'thanks-error-undefined' => 'ধন্যবাদ পদক্ষেপ ব্যর্থ। অনুগ্রহ করে আবার চেষ্টা করুন।',
 	'echo-pref-subscription-edit-thank' => 'আমার সম্পাদনার জন্য আমার ধন্যবাদসমূহ',
 	'echo-pref-tooltip-edit-thank' => 'আমার কোনো সম্পাদনার জন্য কেউ আমাকে ধন্যবাদ দিলে তা আমাকে জানাও',
@@ -168,7 +173,8 @@ $messages['bn'] = array(
 	'notification-link-text-respond-to-user' => 'ব্যবহারকারীর প্রতিক্রিয়া',
 	'log-name-thanks' => 'ধন্যবাদ লগ',
 	'log-description-thanks' => 'নিচে ব্যবহারকারীদের একটি তালিকা রয়েছে যারা অন্য ব্যবহারকারী হতে ধন্যবাদ পেয়েছেন।',
-	'logentry-thanks-thank' => '$1 $3কে {{GENDER:$2|ধন্যবাদ জানিয়েছেন}}',
+	'logentry-thanks-thank' => '$1 {{GENDER:$4|$3}}কে {{GENDER:$2|ধন্যবাদ জানিয়েছেন}}',
+	'log-show-hide-thanks' => 'ধন্যবাদ লগ $1',
 );
 
 /** Breton (brezhoneg)
@@ -376,6 +382,27 @@ $messages['de'] = array(
 	'log-show-hide-thanks' => 'Dankeschön-Logbuch $1',
 );
 
+/** Esperanto (Esperanto)
+ * @author KuboF
+ */
+$messages['eo'] = array(
+	'thanks-desc' => 'Aldoni danko-ligilon al historio kaj diferenco-montro.',
+	'thanks-thank' => 'danki',
+	'thanks-thanked' => '{{GENDER:$1|dankita}}',
+	'thanks-button-thank' => 'Danki',
+	'thanks-error-invalidrevision' => 'Identigilo de revizio estas nevalida.',
+	'thanks-confirmation' => 'Ĉu vi certas ke vi volas  {{GENDER:$1|danki}} al $2 pro tiu ĉi redakto?',
+	'echo-pref-subscription-edit-thank' => 'Danki al mi pro miaj redaktoj',
+	'echo-pref-tooltip-edit-thank' => 'Sciigu min kiam iu dankas al mi pro mia redakto.',
+	'echo-category-title-edit-thank' => 'Dankoj',
+	'notification-thanks-diff-link' => 'via redakto',
+	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|dankis}} al vi pro $2 en [[:$3]].',
+	'notification-link-text-respond-to-user' => 'Respondi al uzanto',
+	'log-name-thanks' => 'Protokolo de dankoj',
+	'log-description-thanks' => 'Sube estas listo de uzantoj al kiuj aliaj uzantoj dankis.',
+	'log-show-hide-thanks' => '$1 protokolon de dankoj',
+);
+
 /** Spanish (español)
  * @author Fitoschido
  * @author Hahc21
@@ -472,11 +499,14 @@ $messages['fi'] = array(
 	'thanks-desc' => 'Lisää kiitä-linkit muokkaushistoriaan ja versioiden erot näyttävälle sivulle',
 	'thanks-thank' => 'kiitä',
 	'thanks-thanked' => '{{GENDER:$1|kiitetty}}',
+	'thanks-button-thank' => 'Kiitä',
+	'thanks-button-thanked' => '{{GENDER:$1|Kiitetty}}',
 	'thanks-error-undefined' => 'Kiittäminen epäonnistui. Yritä uudelleen.',
 	'thanks-error-invalidrevision' => 'Version tunnus ei kelpaa.',
 	'thanks-error-ratelimited' => 'Olet ylittänyt toimintorajasi. Odota vähän aikaa ja yritä sitten uudestaan.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Lähetä}} kiitoksesi tälle {{GENDER:$2|käyttäjälle}}',
 	'thanks-confirmation' => 'Oletko varma, että haluat {{GENDER:$1|kiittää}} käyttäjää $2 tästä muokkauksesta?',
+	'thanks-thanked-notice' => 'Käyttäjälle $1 kerrottiin, että tykkäsit {{GENDER:$2|hänen}} muokkauksestaan.',
 	'echo-pref-subscription-edit-thank' => 'Minulle annetut kiitokset tekemistäni muokkauksista',
 	'echo-pref-tooltip-edit-thank' => 'Ilmoita minulle, kun joku kiittää minua tekemästäni muokkauksesta.',
 	'echo-category-title-edit-thank' => 'Kiitokset',
@@ -505,11 +535,14 @@ $messages['fr'] = array(
 	'thanks-desc' => 'Ajoute des liens de remerciement aux vues historique et de différence',
 	'thanks-thank' => 'remercier',
 	'thanks-thanked' => '{{GENDER:$1|remercié|remerciée}}',
+	'thanks-button-thank' => 'Merci',
+	'thanks-button-thanked' => '{{GENDER:$1|Remercié}}',
 	'thanks-error-undefined' => 'Échec de l’action de remerciement. Veuillez réessayer.',
 	'thanks-error-invalidrevision' => 'L’ID de révision n’est pas valide.',
 	'thanks-error-ratelimited' => 'Vous avez dépassé votre limite de débit. Veuillez attendre un peu et réessayer.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Envoyer}} une notification de remerciement à {{GENDER:$2|cet utilisateur|cette utilisatrice}}',
 	'thanks-confirmation' => 'Êtes-vous sûr de vouloir {{GENDER:$1|remercier}} $2 pour cette modification ?',
+	'thanks-thanked-notice' => '$1 a été informé que vous avez aimé {{GENDER:$2|sa}} modification.',
 	'echo-pref-subscription-edit-thank' => 'Me remercier pour ma modification',
 	'echo-pref-tooltip-edit-thank' => 'Me prévenir quand quelqu’un me remercie pour une modification que j’ai faite.',
 	'echo-category-title-edit-thank' => 'Merci',
@@ -679,11 +712,14 @@ $messages['it'] = array(
 	'thanks-desc' => 'Aggiunge un collegamento per ringraziare nella cronologia e nelle differenze fra versioni',
 	'thanks-thank' => 'ringrazia',
 	'thanks-thanked' => '{{GENDER:$1|ringraziato|ringraziata|ringraziato/a}}',
+	'thanks-button-thank' => 'Ringrazia',
+	'thanks-button-thanked' => '{{GENDER:$1|Ringraziato|Ringraziata|Ringraziato/a}}',
 	'thanks-error-undefined' => 'Errore durante ringraziamento. Riprova ancora.',
 	'thanks-error-invalidrevision' => 'ID versione non è valido.',
 	'thanks-error-ratelimited' => "Hai superato il limite massimo di ringraziamenti. Aspetta un po' di tempo e riprova.",
 	'thanks-thank-tooltip' => '{{GENDER:$1|Invia}} una notifica di ringraziamento a {{GENDER:$2|questo|questa}} utente',
 	'thanks-confirmation' => 'Sei sicuro di voler {{GENDER:$1|ringraziare}} $2 per questa modifica?',
+	'thanks-thanked-notice' => 'Hai detto a $1 che ti piace {{GENDER:$2|la sua}} modifica.',
 	'echo-pref-subscription-edit-thank' => 'Mi ringrazia per una mia modifica',
 	'echo-pref-tooltip-edit-thank' => 'Avvisami quando qualcuno mi ringrazia per una modifica che ho fatto.',
 	'echo-category-title-edit-thank' => 'Ringraziamenti',
@@ -705,13 +741,16 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'thanks-desc' => '履歴ページおよび差分ページに、感謝を示すリンクを追加する',
-	'thanks-thank' => '感謝',
+	'thanks-thank' => '感謝を示す',
 	'thanks-thanked' => '{{GENDER:$1|感謝を示しました}}',
+	'thanks-button-thank' => '感謝を示す',
+	'thanks-button-thanked' => '{{GENDER:$1|感謝を示しました}}',
 	'thanks-error-undefined' => '感謝の操作に失敗しました。もう一度やり直してください。',
 	'thanks-error-invalidrevision' => '版 ID が無効です。',
 	'thanks-error-ratelimited' => '速度制限を超えました。しばらくしてからもう一度やり直してください。',
 	'thanks-thank-tooltip' => 'この{{GENDER:$2|利用者}}に感謝の通知を{{GENDER:$1|送信する}}',
 	'thanks-confirmation' => '$2 のこの編集に対して本当に{{GENDER:$1|感謝を示しますか}}?',
+	'thanks-thanked-notice' => 'あなたが $1 の編集に感謝を示したことを{{GENDER:$2|本人}}に通知しました。',
 	'echo-pref-subscription-edit-thank' => '自分の編集に誰かが感謝を示したとき',
 	'echo-pref-tooltip-edit-thank' => '自分の編集に誰かが感謝を示したら通知する。',
 	'echo-category-title-edit-thank' => '感謝',
@@ -806,6 +845,7 @@ $messages['ky'] = array(
 $messages['lb'] = array(
 	'thanks-desc' => "Setzt 'Merci'Linken bäi den Historique a bäi Versiounsënnerscheeder derbäi",
 	'thanks-thank' => 'merci',
+	'thanks-button-thank' => 'Merci soen',
 	'thanks-error-invalidrevision' => 'Versiounsnummer (ID) ass net valabel.',
 	'thanks-thank-tooltip' => '{{GENDER:$2|Dësem Benotzer|Dëser Benotzerin}} ee "Merci" {{GENDER:$1|schécken}}',
 	'echo-pref-subscription-edit-thank' => "'Mercie' fir meng Ännerung",
@@ -854,11 +894,14 @@ $messages['mk'] = array(
 	'thanks-desc' => 'Додава врски за заблагодарувања во историјата и прегледот на разликите',
 	'thanks-thank' => 'заблагодари се',
 	'thanks-thanked' => '{{GENDER:$1|заблагодарено}}',
+	'thanks-button-thank' => 'Заблагодари се',
+	'thanks-button-thanked' => '{{GENDER:$1|Заблагодарено}}',
 	'thanks-error-undefined' => 'Заблагодарувањето не успеа. Обидете се повторно.',
 	'thanks-error-invalidrevision' => 'Ревизијата има неважечка назнака.',
 	'thanks-error-ratelimited' => 'Ја надминавте границата на заблагодарувања. Почекајте некое време, па обидете се подоцна',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Испратете}} му благодарност (во порака) на {{GENDER:$2|корисников}}',
 	'thanks-confirmation' => 'Дали сте сигурни дека сакате да  {{GENDER:$1|му се заблагодарите|да ѝ се заблагодарите}} на $2 за уредувањево?',
+	'thanks-thanked-notice' => '$1 {{GENDER:$2|е известен дека ви се допаѓа неговото уредување|е известена дека ви се допаѓа нејзиното уредување|доби известување дека ви се допаѓа уредувањето што го направи}}.',
 	'echo-pref-subscription-edit-thank' => 'Ќе ми се заблагодари за мое уредување',
 	'echo-pref-tooltip-edit-thank' => 'Извести ме кога некој ќе ми заблагодари за напарвено уредување.',
 	'echo-category-title-edit-thank' => 'Благодарам',
@@ -945,6 +988,7 @@ $messages['nb'] = array(
 
 /** Dutch (Nederlands)
  * @author Hansmuller
+ * @author JurgenNL
  * @author Konovalov
  * @author SPQRobin
  * @author Siebrand
@@ -968,7 +1012,7 @@ $messages['nl'] = array(
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|heeft}} u bedankt voor uw bewerking op  {{SITENAME}}',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|heeft}} u bedankt voor uw bewerking op $2.',
 	'notification-link-text-respond-to-user' => 'Gebruiker antwoorden',
-	'log-name-thanks' => 'Logboek voor bedankjes',
+	'log-name-thanks' => 'Bedankjeslogboek',
 	'log-description-thanks' => 'Hieronder wordt een lijst weergegeven met gebruikers die door andere gebruikers zijn bedankt.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|heeft}} {{GENDER:$4|$3}} bedankt',
 	'log-show-hide-thanks' => 'bedankjeslogboek $1',
@@ -1143,12 +1187,15 @@ $messages['pt-br'] = array(
 $messages['ro'] = array(
 	'thanks-desc' => 'Adaugă legături pentru mulțumiri în istoric și în caseta „Diferență între versiuni”',
 	'thanks-thank' => 'mulțumire',
-	'thanks-thanked' => '{{GENDER:$1|a mulțumit}}',
+	'thanks-thanked' => '{{GENDER:$1|ați mulțumit}}',
+	'thanks-button-thank' => 'Mulțumesc',
+	'thanks-button-thanked' => '{{GENDER:$1|Ați mulțumit}}',
 	'thanks-error-undefined' => 'Încercarea de a mulțumi a eșuat. Încercați din nou.',
 	'thanks-error-invalidrevision' => 'Codul versiunii nu este valid.',
 	'thanks-error-ratelimited' => 'V-ați depășit limita de evaluare. Așteptați un timp și reîncercați.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|A trimis}} o notificare de mulțumire {{GENDER:$2|acestui utilizator|acestei utilizatoare}}',
 	'thanks-confirmation' => 'Sunteți {{GENDER:$1|sigur|sigură}} că doriți {{GENDER:$1|să mulțumiți}} utilizatorului $2 pentru această modificare?',
+	'thanks-thanked-notice' => '$1 a fost {{GENDER:$2|informat|informată|informat}} că i-ați apreciat modificarea.',
 	'echo-pref-subscription-edit-thank' => 'Mi se mulțumește pentru modificarea mea',
 	'echo-pref-tooltip-edit-thank' => 'Notifică-mă când cineva îmi mulțumește pentru o modificare pe care am efectuat-o.',
 	'echo-category-title-edit-thank' => 'Mulțumiri',
@@ -1193,11 +1240,13 @@ $messages['roa-tara'] = array(
 
 /** Russian (русский)
  * @author Kaganer
+ * @author Lockal
  */
 $messages['ru'] = array(
 	'thanks-desc' => 'Добавляет благодарственные ссылки на историю и сравнение версий',
 	'thanks-thank' => 'спасибо',
 	'thanks-thanked' => '{{GENDER:$1|поблагодарил|поблагодарила}}',
+	'thanks-button-thank' => 'Спасибо',
 	'thanks-error-undefined' => 'Попытка поблагодарить не удалась. Попробуйте снова.',
 	'thanks-error-invalidrevision' => 'Некорректный номер версии.',
 	'thanks-error-ratelimited' => 'Вы превысили ограничение скорости выполненния таких действий. Пожалуйста, подождите некоторое время и попробуйте снова.',
@@ -1399,11 +1448,14 @@ $messages['vi'] = array(
 	'thanks-desc' => 'Thêm liên kết cám ơn vào các trang lịch sử và khác biệt',
 	'thanks-thank' => 'cám ơn',
 	'thanks-thanked' => '{{GENDER:$1}}đã cám ơn',
+	'thanks-button-thank' => 'Cám ơn',
+	'thanks-button-thanked' => '{{GENDER:$1}}Đã cám ơn',
 	'thanks-error-undefined' => 'Thất bại cám ơn. Xin vui lòng thử lại.',
 	'thanks-error-invalidrevision' => 'Số phiên bản không hợp lệ.',
 	'thanks-error-ratelimited' => 'Bạn đã vượt quá giới hạn tốc độ. Xin vui lòng thử lại lát nữa.',
 	'thanks-thank-tooltip' => '{{GENDER:$1}}Gửi thông báo cám ơn cho {{GENDER:$2}}người dùng này',
 	'thanks-confirmation' => 'Bạn có chắc chắn muốn {{GENDER:$1}}cám ơn $2 vì sửa đổi này?',
+	'thanks-thanked-notice' => 'Đã cho $1 biết rằng bạn thích sửa đổi của {{GENDER:$2}}họ.',
 	'echo-pref-subscription-edit-thank' => 'Cám ơn tôi vì một sửa đổi của tôi',
 	'echo-pref-tooltip-edit-thank' => 'Báo cho tôi biết khi nào người ta cám ơn tôi về một sửa đổi của tôi.',
 	'echo-category-title-edit-thank' => 'Cám ơn',
@@ -1430,59 +1482,68 @@ $messages['yi'] = array(
  * @author Chiefwei
  * @author Fantasticfears
  * @author Hzy980512
+ * @author Liuxinyu970226
  * @author Qiyue2001
+ * @author Xiaomingyan
  * @author Yfdyh000
  * @author Zhuyifei1999
  */
 $messages['zh-hans'] = array(
-	'thanks-desc' => '在历史记录和查看差异页面添加感谢链接',
+	'thanks-desc' => '添加感谢链接至历史和差异视图',
 	'thanks-thank' => '感谢',
 	'thanks-thanked' => '{{GENDER:$1|已感谢}}',
+	'thanks-button-thank' => '感谢',
+	'thanks-button-thanked' => '{{GENDER:$1|已感谢}}',
 	'thanks-error-undefined' => '感谢操作失败，请重试。',
-	'thanks-error-invalidrevision' => '修订ID无效。',
-	'thanks-error-ratelimited' => '使用频率超限，请稍候重试。',
-	'thanks-thank-tooltip' => '{{GENDER:$1|发送}}感谢通知给此{{GENDER:$2|用户}}',
-	'thanks-confirmation' => '确定要{{GENDER:$1|感谢}}$2的这一编辑吗？',
-	'echo-pref-subscription-edit-thank' => '感谢我的编辑',
-	'echo-pref-tooltip-edit-thank' => '当有人感谢我的编辑时，通知我。',
+	'thanks-error-invalidrevision' => '版本ID无效。',
+	'thanks-error-ratelimited' => '使用频率超限，请等待一段时间后重试。',
+	'thanks-thank-tooltip' => '{{GENDER:$1|发送}}感谢通知给该{{GENDER:$2|用户}}',
+	'thanks-confirmation' => '你确定要{{GENDER:$1|感谢}}$2的这个编辑吗？',
+	'thanks-thanked-notice' => '$1已被告知你感谢{{GENDER:$2|他|她|他/她}}的编辑。',
+	'echo-pref-subscription-edit-thank' => '对我的编辑的感谢',
+	'echo-pref-tooltip-edit-thank' => '当有人感谢我的编辑时通知我。',
 	'echo-category-title-edit-thank' => '感谢',
 	'notification-thanks-diff-link' => '编辑',
-	'notification-thanks' => '[[User:$1|$1]]{{GENDER:$1|感谢}}您对[[:$3]]的$2。',
-	'notification-thanks-flyout2' => '[[User:$1|$1]]{{GENDER:$1|感谢}}您对$2的编辑。',
-	'notification-thanks-email-subject' => '$1{{GENDER:$1|感谢}}您对{{SITENAME}}的编辑',
-	'notification-thanks-email-batch-body' => '$1{{GENDER:$1|感谢}}您对$2的编辑。',
+	'notification-thanks' => '[[User:$1|$1]]{{GENDER:$1|感谢}}你对[[:$3]]的$2。',
+	'notification-thanks-flyout2' => '[[User:$1|$1]]{{GENDER:$1|感谢}}你对$2的编辑。',
+	'notification-thanks-email-subject' => '$1{{GENDER:$1|感谢}}你在{{SITENAME}}的编辑',
+	'notification-thanks-email-batch-body' => '$1{{GENDER:$1|感谢}}你对$2的编辑。',
 	'notification-link-text-respond-to-user' => '回应用户',
 	'log-name-thanks' => '感谢日志',
-	'log-description-thanks' => '下列是得到其他用户感谢的用户列表。',
+	'log-description-thanks' => '下面是得到其他用户感谢的用户的列表。',
 	'logentry-thanks-thank' => '$1{{GENDER:$2|感谢}}{{GENDER:$4|$3}}',
 	'log-show-hide-thanks' => '$1感谢日志',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Ch.Andrew
  * @author Fantasticfears
  * @author Simon Shek
  * @author Waihorace
  */
 $messages['zh-hant'] = array(
-	'thanks-desc' => '在歷史記錄和查看差異頁面添加感謝鏈接',
-	'thanks-thank' => '感謝',
-	'thanks-thanked' => '{{GENDER:$1|已感謝}}',
-	'thanks-error-undefined' => '感謝操作失敗。請再試一次。',
-	'thanks-error-invalidrevision' => '修訂ID無效。',
+	'thanks-desc' => '在歷史記錄與檢視差異頁面加入致謝連結',
+	'thanks-thank' => '致謝',
+	'thanks-thanked' => '{{GENDER:$1|已致謝}}',
+	'thanks-button-thank' => '致謝',
+	'thanks-button-thanked' => '{{GENDER:$1|已致謝}}',
+	'thanks-error-undefined' => '致謝的操作失敗。請再試一次。',
+	'thanks-error-invalidrevision' => '修訂 ID 無效。',
 	'thanks-error-ratelimited' => '使用頻率超限，請稍後再試。',
-	'thanks-thank-tooltip' => '{{GENDER:$1|發送}}感謝通知給此{{GENDER:$2|用戶}}',
-	'thanks-confirmation' => '確定要{{GENDER:$1|感謝}}$2的這一編輯嗎？',
-	'echo-pref-subscription-edit-thank' => '感謝我的編輯',
-	'echo-pref-tooltip-edit-thank' => '當有人感謝我所做的編輯，通知我。',
-	'echo-category-title-edit-thank' => '感謝',
+	'thanks-thank-tooltip' => '{{GENDER:$1|發送}}致謝通知給此位{{GENDER:$2|使用者}}',
+	'thanks-confirmation' => '確定要{{GENDER:$1|致謝}}$2的此次編輯嗎？',
+	'thanks-thanked-notice' => '$1聽說了您喜歡{{GENDER:$2|他的|她的|他們的}}編輯。',
+	'echo-pref-subscription-edit-thank' => '對於我的編輯所表達的致謝',
+	'echo-pref-tooltip-edit-thank' => '當有人致謝我所做的編輯時通知我。',
+	'echo-category-title-edit-thank' => '致謝',
 	'notification-thanks-diff-link' => '編輯',
-	'notification-thanks' => '[[User:$1|$1]]{{GENDER:$1|感謝}}您對[[:$3]]的$2。',
-	'notification-thanks-flyout2' => '[[User:$1|$1]]{{GENDER:$1|感謝}}您對$2的編輯。',
-	'notification-thanks-email-subject' => '$1{{GENDER:$1|感謝}}您對{{SITENAME}}的編輯',
-	'notification-thanks-email-batch-body' => '$1{{GENDER:$1|感謝}}您對$2的編輯。',
-	'notification-link-text-respond-to-user' => '迴應用戶',
-	'log-name-thanks' => '感謝日誌',
-	'log-description-thanks' => '以下是得到其他用戶感謝的用戶列表。',
-	'logentry-thanks-thank' => '$1{{GENDER:$2|感謝}}{{GENDER:$4|$3}}',
-	'log-show-hide-thanks' => '$1感謝日誌',
+	'notification-thanks' => '[[User:$1|$1]]{{GENDER:$1|致謝了}}您對於[[:$3]]頁面的$2。',
+	'notification-thanks-flyout2' => '[[User:$1|$1]]{{GENDER:$1|致謝了}}您對於$2頁面的編輯。',
+	'notification-thanks-email-subject' => '$1{{GENDER:$1|致謝了}}您對於{{SITENAME}}的編輯',
+	'notification-thanks-email-batch-body' => '$1{{GENDER:$1|致謝了}}您對於$2頁面的編輯。',
+	'notification-link-text-respond-to-user' => '回應使用者',
+	'log-name-thanks' => '致謝日誌',
+	'log-description-thanks' => '以下是獲得其他使用者致謝的使用者列表。',
+	'logentry-thanks-thank' => '$1{{GENDER:$2|致謝了}}{{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => '$1致謝日誌',
 );
