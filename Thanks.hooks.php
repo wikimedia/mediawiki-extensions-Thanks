@@ -24,7 +24,6 @@ class ThanksHooks {
 		if ( class_exists( 'EchoNotifier' )
 			&& !$wgUser->isAnon()
 			&& $rev->getUser() !== $wgUser->getId()
-			&& !$wgUser->getOption( 'vector-noexperiments' )
 			&& !$wgUser->isBlocked()
 		) {
 			$recipient = User::newFromId( $rev->getUser() );
