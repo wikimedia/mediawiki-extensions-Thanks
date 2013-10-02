@@ -156,6 +156,15 @@ $messages['ast'] = array(
 	'log-show-hide-thanks' => "$1 rexistru d'agradecimientos",
 );
 
+/** Azerbaijani (azərbaycanca)
+ * @author Interfase
+ */
+$messages['az'] = array(
+	'thanks-desc' => 'Tarixə minətdarlıq keçidləri əlavə edir və versiyaların müqayisəsi',
+	'thanks-thank' => 'təşəkkür',
+	'thanks-button-thank' => 'Təşəkkür',
+);
+
 /** Bengali (বাংলা)
  * @author Aftab1995
  * @author Bellayet
@@ -382,6 +391,36 @@ $messages['de'] = array(
 	'log-show-hide-thanks' => 'Dankeschön-Logbuch $1',
 );
 
+/** Greek (Ελληνικά)
+ * @author Geraki
+ */
+$messages['el'] = array(
+	'thanks-desc' => 'Προσθήκη συνδέσμων για ευχαριστήρια στις εμφανίσεις ιστορικού και διαφορών',
+	'thanks-thank' => 'ευχαριστία',
+	'thanks-thanked' => '{{GENDER:$1|δέχθηκε ευχαριστίες}}',
+	'thanks-button-thank' => 'Ευχαριστώ',
+	'thanks-button-thanked' => '{{GENDER:$1|δέχθηκε ευχαριστίες}}',
+	'thanks-error-undefined' => 'Η ενέργεια ευχαριστίας απέτυχε. Παρακαλούμε δοκιμάστε ξανά.',
+	'thanks-error-invalidrevision' => 'Το ID αναθεώρησης δεν είναι έγκυρο.',
+	'thanks-error-ratelimited' => 'Έχετε υπερβεί το όριό σας. Παρακαλούμε περιμένετε κάποιο χρονικό διάστημα και προσπαθήστε ξανά.',
+	'thanks-thank-tooltip' => '{{GENDER:$1|Έστειλε}} μια ειδοποίηση ευχαριστίας σε {{GENDER:$2|αυτόν τον χρήστη|αυτή την χρήστη}}',
+	'thanks-confirmation' => 'Είσαι {{GENDER:$1|σίγουρος|σίγουρη}} ότι θέλεις να ευχαριστήσεις {{GENDER:$2|τον|την}} $2 για αυτή την επεξεργασία;',
+	'thanks-thanked-notice' => '{{GENDER:$2|Ο|Η}} $1 ενημερώθηκε ότι σου άρεσε η επεξεργασία {{GENDER:$2|του|της}}.',
+	'echo-pref-subscription-edit-thank' => 'Με ευχαριστεί για την επεξεργασία μου',
+	'echo-pref-tooltip-edit-thank' => 'Να ειδοποιούμαι όταν κάποιος με ευχαριστεί για μια επεξεργασία που έκανα.',
+	'echo-category-title-edit-thank' => 'Ευχαριστίες',
+	'notification-thanks-diff-link' => 'την επεξεργασία σου',
+	'notification-thanks' => '{{GENDER:$1|Ο|Η}} [[User:$1|$1]] σε ευχαρίστησε για $2 στο [[:$3]].',
+	'notification-thanks-flyout2' => '{{GENDER:$1|Ο|Η}} [[User:$1|$1]] σε ευχαρίστησε για την επεξεργασία σου στη $2.',
+	'notification-thanks-email-subject' => '{{GENDER:$1|Ο|Η}} $1 σε ευχαρίστησε για την επεξεργασία σου στο {{SITENAME}}.',
+	'notification-thanks-email-batch-body' => '{{GENDER:$1|Ο|Η}} $1 σε ευχαρίστησε για την επεξεργασία σου στο $2.',
+	'notification-link-text-respond-to-user' => 'Απάντηση στο χρήστη',
+	'log-name-thanks' => 'Καταγραφή ευχαριστηρίων',
+	'log-description-thanks' => 'Παρακάτω είναι μια λίστα των χρηστών που ευχαριστήθηκαν από άλλους χρήστες.',
+	'logentry-thanks-thank' => '{{GENDER:$2|Ο|Η}} $1 ευχαρίστησε {{GENDER:$4|τον|την}} $3',
+	'log-show-hide-thanks' => '$1 καταγραφής ευχαριστηρίων',
+);
+
 /** Esperanto (Esperanto)
  * @author KuboF
  */
@@ -592,11 +631,14 @@ $messages['gl'] = array(
 	'thanks-desc' => 'Engade ligazóns de agradecemento no historial e na vista de diferenzas',
 	'thanks-thank' => 'agradecer',
 	'thanks-thanked' => '{{GENDER:$1|agradecido|agradecida}}',
+	'thanks-button-thank' => 'Agradecer',
+	'thanks-button-thanked' => '{{GENDER:$1|Agradecido|Agradecida}}',
 	'thanks-error-undefined' => 'Houbo un erro ao realizar o agradecemento. Inténteo de novo.',
 	'thanks-error-invalidrevision' => 'O ID da revisión non é válido.',
 	'thanks-error-ratelimited' => 'Superou o seu límite de velocidade. Agarde uns minutos e inténteo de novo.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Envía}} unha notificación de agradecemento a {{GENDER:$2|este usuario|esta usuaria}}',
 	'thanks-confirmation' => 'Está {{GENDER:$1|seguro|segura}} de querer agradecer a $2 a súa edición?',
+	'thanks-thanked-notice' => '$1 recibiu un aviso de que a vostede lle gustou {{GENDER:$2|a súa}} edición.',
 	'echo-pref-subscription-edit-thank' => 'Me agradeza unha edición feita por min',
 	'echo-pref-tooltip-edit-thank' => 'Notificádeme cando alguén me agradeza unha edición feita por min.',
 	'echo-category-title-edit-thank' => 'Agradecemento',
