@@ -621,11 +621,14 @@ $messages['he'] = array(
 	'thanks-desc' => 'הוספת קישורי "תודה" לדפי היסטוריה והשוואה',
 	'thanks-thank' => 'תודה',
 	'thanks-thanked' => '{{GENDER:$1|הודֵיתָ|הודֵיתְ}}',
+	'thanks-button-thank' => 'תודה',
+	'thanks-button-thanked' => '{{GENDER:$1|הודֵיתָ|הודֵיתְ}}',
 	'thanks-error-undefined' => 'פעולת תודה נכשלה. נא לנסות שוב.',
 	'thanks-error-invalidrevision' => 'מזהה גרסה אינו תקין.',
 	'thanks-error-ratelimited' => 'עברת את מגבלת הקצב שלך. נא להמתין ולנסות שוב.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|שלח|שלחי}} הודעת תודה {{GENDER:$2|למשתמש הזה|למשתמשת הזו}}',
 	'thanks-confirmation' => 'האם {{GENDER:$1|אתה|את}} באמת רוצה להודות ל{{GRAMMAR:תחילית|$2}} על העריכה הזאת?',
+	'thanks-thanked-notice' => 'ל{{GRAMMAR:תחילית|$1}} נאמר שאהבת את העריכה {{GENDER:$2|שלו|שלה|שלו}}.',
 	'echo-pref-subscription-edit-thank' => 'מודה לי על עריכה שלי',
 	'echo-pref-tooltip-edit-thank' => 'להודיע לי כשמישהו מודה לי על עריכה שעשיתי.',
 	'echo-category-title-edit-thank' => 'תודות',
@@ -737,13 +740,14 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Fryed-peach
+ * @author Penn Station
  * @author Shirayuki
  */
 $messages['ja'] = array(
 	'thanks-desc' => '履歴ページおよび差分ページに、感謝を示すリンクを追加する',
-	'thanks-thank' => '感謝を示す',
+	'thanks-thank' => '感謝',
 	'thanks-thanked' => '{{GENDER:$1|感謝を示しました}}',
-	'thanks-button-thank' => '感謝を示す',
+	'thanks-button-thank' => '感謝',
 	'thanks-button-thanked' => '{{GENDER:$1|感謝を示しました}}',
 	'thanks-error-undefined' => '感謝の操作に失敗しました。もう一度やり直してください。',
 	'thanks-error-invalidrevision' => '版 ID が無効です。',
@@ -1268,16 +1272,20 @@ $messages['ru'] = array(
 
 /** Slovenian (slovenščina)
  * @author Eleassar
+ * @author Matej1234
  */
 $messages['sl'] = array(
 	'thanks-desc' => 'K prikazom zgodovine in razlik doda povezavo za zahvalo.',
 	'thanks-thank' => 'zahvala',
 	'thanks-thanked' => '{{GENDER:$1|zahvala je objavljena}}',
+	'thanks-button-thank' => 'Zahvala',
+	'thanks-button-thanked' => '{{GENDER:$1|Zahvala je objavljena|Zahvala je objavljena}}',
 	'thanks-error-undefined' => 'Zahvala ni uspela. Prosimo, poskusite znova.',
 	'thanks-error-invalidrevision' => 'ID-številka redakcije ni veljavna.',
 	'thanks-error-ratelimited' => 'Presegli ste omejitev hitrosti. Prosimo, počakajte nekaj časa in nato poskusite znova.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Pošljite}} {{GENDER:$2|temu uporabniku|tej uporabnici}} zahvalo',
-	'thanks-confirmation' => 'Ali se uporabniku $2 resnično želite zahvaliti za to urejanje?', # Fuzzy
+	'thanks-confirmation' => 'Ali se želite uporabniku $2 resnično {{GENDER:$1|zahvaliti}} za to urejanje?',
+	'thanks-thanked-notice' => '$1 ste povedali, da vam je bilo {{GENDER:$2|njegovo|njeno}} urejanje všeč.',
 	'echo-pref-subscription-edit-thank' => 'Se mi zahvali za urejanje',
 	'echo-pref-tooltip-edit-thank' => 'Obvesti me, kadar se mi kdo zahvali za katero od mojih urejanj.',
 	'echo-category-title-edit-thank' => 'Zahvala',
