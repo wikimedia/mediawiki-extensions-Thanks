@@ -1021,6 +1021,34 @@ $messages['ky'] = array(
 	'notification-thanks-diff-link' => 'сиздин оңдооңуз',
 );
 
+/** Latin (Latina)
+ * @author Autokrator
+ */
+$messages['la'] = array(
+	'thanks-thank' => 'gratias agere',
+	'thanks-thanked' => '{{GENDER:$1|gratias egit}}',
+	'thanks-button-thank' => 'Gratias agere',
+	'thanks-button-thanked' => '{{GENDER:$1|Gratiae actae sunt}}',
+	'thanks-error-undefined' => 'Gratias agere non contigit.',
+	'thanks-error-invalidrevision' => 'ID revisionis falsa est.',
+	'thanks-error-ratelimited' => 'Excessisti concessum numerum aestimationum.',
+	'thanks-thank-tooltip' => '{{GENDER:$1|Mitte}} nuntium gratiarum habendarum ad istum {{GENDER:$2|usorem}}',
+	'thanks-thanked-notice' => '$1 nuntiatum est tibi recensionem {{GENDER:$2|eius|eorum}} placuisse.',
+	'echo-pref-subscription-edit-thank' => 'Gratias egit recensionis meae causa',
+	'echo-pref-tooltip-edit-thank' => 'Me certiorem facere si quis mihi gratias egerit',
+	'echo-category-title-edit-thank' => 'Gratias agere',
+	'notification-thanks-diff-link' => 'recensio tua',
+	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|gratias egit}} tibi pro $2 in pagina [[:$3]].',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|gratias egit}} tibi recensionis in pagina $2 factae causa.',
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1|gratias egit}} recensionis in pagina  {{SITENAME}} factae causa',
+	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|gratias egit}} recensionis tuae in $2 factae causa.',
+	'notification-link-text-respond-to-user' => 'Usori respondere',
+	'log-name-thanks' => 'Index gratiarum',
+	'log-description-thanks' => 'Infra est index usorum quibus gratiae ab aliis usoribus actae sunt.',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|gratias egit}} {{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => '$1 index gratiarum',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
