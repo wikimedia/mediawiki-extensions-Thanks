@@ -22,7 +22,7 @@
 						popup.show( mw.msg( 'thanks-error-invalidrevision' ) );
 						break;
 					case 'ratelimited':
-						popup.show( mw.msg( 'thanks-error-ratelimited' ) );
+						popup.show( mw.msg( 'thanks-error-ratelimited', gender ) );
 						break;
 					default:
 						popup.show( mw.msg( 'thanks-error-undefined' ) );
