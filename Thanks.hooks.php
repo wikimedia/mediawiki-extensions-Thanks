@@ -11,7 +11,7 @@ class ThanksHooks {
 	 * Handler for HistoryRevisionTools and DiffRevisionTools hooks.
 	 * Inserts 'thank' link into revision interface
 	 * @param $rev Revision object to add the thank link for
-	 * @param &$tools array Links to add to the revision interface
+	 * @param &$links array Links to add to the revision interface
 	 * @return bool
 	 */
 	public static function insertThankLink( $rev, &$links ) {
@@ -44,6 +44,7 @@ class ThanksHooks {
 	 * Creates either a thank link or thanked span based on users session
 	 * @param $rev Revision object to generate the thank element for
 	 * @param $recipient User the user who receives thanks notification
+	 * @return string
 	 */
 	protected static function generateThankElement( $rev, $recipient ) {
 		global $wgUser;
@@ -120,6 +121,7 @@ class ThanksHooks {
 	 * @param $notifications array of Echo notifications
 	 * @param $notificationCategories array of Echo notification categories
 	 * @param $icons array of icon details
+	 * @return bool
 	 */
 	public static function onBeforeCreateEchoEvent( &$notifications, &$notificationCategories, &$icons ) {
 		$notificationCategories['edit-thank'] = array(
