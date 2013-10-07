@@ -46,7 +46,7 @@
 		if ( name !== mw.config.get( 'wgUserName' ) ) {
 			return $( '<button class="mw-mf-action-button">' )
 				.html( '<img width="25" height="20" src="' + thankImg + '" class="mw-mf-action-button-icon"/>' +
-					mw.message( 'thanks-button-thank' ).escaped()
+					mw.message( 'thanks-button-thank', mw.user ).escaped()
 				)
 				.on( 'click', function() {
 					var $thankLink = $( this );
