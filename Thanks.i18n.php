@@ -135,7 +135,7 @@ $messages['ar'] = array(
 	'thanks-error-undefined' => 'فشل إرسال الشكر، الرجاء المحاولة مجددًا.',
 	'thanks-error-invalidrevision' => 'معرّف المراجعة غير صحيح.',
 	'thanks-error-ratelimited' => 'لقد تجاوزت حد التقييم، الرجاء الانتظار لبعض الوقت ثم المحاولة مجددًا.',
-	'thanks-thank-tooltip' => '{{GENDER:$1|قام|قامت}} بإرسال إشعار شكر ل{{GENDER:$2|هذا المستخدم|هذه المستخدمة}}',
+	'thanks-thank-tooltip' => '{{GENDER:$1|أرسل|أرسلي}} إشعار شكر ل{{GENDER:$2|هذا المستخدم|هذه المستخدمة}}',
 	'thanks-confirmation' => 'هل {{GENDER:$1|تريد|تريدين}} شكر $2 على هذا التعديل?',
 	'thanks-thanked-notice' => 'تم إشعار $1 بأن {{GENDER:$2|تعديله|تعديلها|تعديلهم}} أعجبك.',
 	'echo-pref-subscription-edit-thank' => 'شكري على تعديلي',
@@ -293,7 +293,9 @@ $messages['br'] = array(
 	'thanks-button-thank' => '{{GENDER:$1|Trugarez}}',
 	'thanks-button-thanked' => '{{GENDER:$1|Trugarekaet}}',
 	'echo-category-title-edit-thank' => 'Trugarez',
+	'notification-thanks-diff-link' => 'ho kemm',
 	'notification-link-text-respond-to-user' => "Respont d'an implijer",
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|en deus|he deus}} trugarekaet {{GENDER:$4|$3}}',
 );
 
 /** Bosnian (bosanski)
@@ -834,6 +836,19 @@ $messages['hi'] = array(
 	'log-description-thanks' => 'अन्य सदस्यों द्वारा धन्यवाद पाने वाले सदस्यों की सूची निम्न है।',
 	'logentry-thanks-thank' => '$1 ने {{GENDER:$4|$3}} को {{GENDER:$2|धन्यवाद कहा है}}',
 	'log-show-hide-thanks' => '$1 धन्यवाद लॉग',
+);
+
+/** Croatian (hrvatski)
+ * @author Roberta F.
+ */
+$messages['hr'] = array(
+	'thanks-thank' => 'hvala',
+	'echo-category-title-edit-thank' => 'Hvala',
+	'notification-thanks-diff-link' => 'vaše uređivanje',
+	'notification-thanks' => '[[User:$1|$1]] vam je {{GENDER:$1|zahvalio|zahvalila}} za $2 na stranici «[[:$3]]».',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] vam je {{GENDER:$1|zahvalio|zahvalila}} za Vašu izmjenu na stranici «$2».',
+	'notification-link-text-respond-to-user' => 'Odgovor suradniku',
+	'log-name-thanks' => 'Evidencija zahvala',
 );
 
 /** Hungarian (magyar)
@@ -1680,7 +1695,7 @@ $messages['sk'] = array(
 	'notification-thanks' => '[[User:$1|$1]] vám {{GENDER:$1|poďkoval|poďakovala}} za $2 stránky [[:$3]].',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] vám {{GENDER:$1|poďakoval|poďakovala}} za úpravu stránky $2.',
 	'notification-thanks-email-subject' => '$1 vám {{GENDER:$1|poďakoval|poďakovala}} za vašu úpravu na {{grammar:6sg|{{SITENAME}}}}',
-	'notification-thanks-email-batch-body' => '[[User:$1|$1]] vám {{GENDER:$1|poďakoval|poďakovala}} za úpravu stránky $2.', # Fuzzy
+	'notification-thanks-email-batch-body' => '$1 vám {{GENDER:$1|poďakoval|poďakovala}} za úpravu stránky $2.',
 	'notification-link-text-respond-to-user' => 'Reagovať na redaktora',
 	'log-name-thanks' => 'Kniha poďakovaní',
 	'log-description-thanks' => 'Nižšie je uvedený zoznam redaktorov, ktorým ostatný redaktori poďakovali.',
