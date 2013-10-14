@@ -441,17 +441,20 @@ $messages['cy'] = array(
 );
 
 /** Danish (dansk)
+ * @author Christian List
  * @author Palnatoke
  */
 $messages['da'] = array(
 	'thanks-desc' => 'Tilføjer takke-links til historik og forskelsvisninger',
 	'thanks-thank' => 'tak',
 	'thanks-thanked' => '{{GENDER:$1|takkede}}',
+	'thanks-button-thank' => '{{GENDER:$1|Tak}}',
+	'thanks-button-thanked' => '{{GENDER:$1|Takkede}}',
 	'thanks-error-undefined' => 'Takke-handlingen mislykkedes. Prøv venligst igen.',
 	'thanks-error-invalidrevision' => 'Versions-ID er ikke gyldigt.',
 	'thanks-error-ratelimited' => 'Du har overskredet din frekvensgrænse. Vent et stykke tid og prøv igen.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Send}} en takkemeddelelse til denne  {{GENDER:$2| bruger}}',
-	'thanks-confirmation' => 'Er du sikker på at du vil  {{GENDER:$1| takke}}  $2  for denne edit?', # Fuzzy
+	'thanks-confirmation' => 'Vil du {{GENDER:$1|takke}} $2 for denne redigering?',
 	'echo-pref-subscription-edit-thank' => 'Takker mig for min redigering',
 	'echo-pref-tooltip-edit-thank' => 'Giv mig besked, når nogen takker mig for en redigering jeg har lavet.',
 	'echo-category-title-edit-thank' => 'Tak!',
