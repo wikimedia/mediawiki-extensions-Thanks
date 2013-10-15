@@ -93,7 +93,7 @@
 					alert( mw.msg( 'thanks-error-invalidrevision' ) );
 					break;
 				case 'ratelimited':
-					alert( mw.msg( 'thanks-error-ratelimited' ) );
+					alert( mw.msg( 'thanks-error-ratelimited', mw.user ) );
 					break;
 				default:
 					alert( mw.msg( 'thanks-error-undefined' ) );
