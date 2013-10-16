@@ -253,13 +253,14 @@ $messages['be-tarask'] = array(
 );
 
 /** Bulgarian (български)
+ * @author DCLXVI
  * @author Termininja
  */
 $messages['bg'] = array(
-	'echo-pref-tooltip-edit-thank' => 'Уведомете ме, ако някой ми благодари за редакция която съм направил.',
+	'echo-pref-tooltip-edit-thank' => 'Уведомяване, когато някой изкаже благодарност за редакция, която съм направил.',
 	'echo-category-title-edit-thank' => 'Благодарност',
-	'notification-thanks-email-subject' => '$1 {{.:$1|ви благодари|ви благодари}} за вашата редакцията на сайта «{{SITENAME}}».',
-	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|ви благодари}} за вашата редакция в статията $2.',
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1|изразява благодарност}} за редакциите ви в {{SITENAME}}',
+	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|изказа благодарност}} за редакцията, която сте направили в $2.',
 );
 
 /** Bengali (বাংলা)
@@ -634,33 +635,34 @@ $messages['et'] = array(
  * @author Ladsgroup
  * @author Omidh
  * @author Reza1615
+ * @author ZxxZxxZ
  * @author درفش کاویانی
  */
 $messages['fa'] = array(
-	'thanks-desc' => 'گزینهٔ «سپاس‌گزاری» را به تاریخچه و نمایش تفاوت‌ها می‌افزاید.',
-	'thanks-thank' => 'سپاس‌گزاری',
-	'thanks-thanked' => '{{GENDER:$1|سپاس‌گزاری شد}}',
-	'thanks-button-thank' => '{{GENDER:$1|سپاس‌گزاری}}',
-	'thanks-button-thanked' => '{{GENDER:$1|سپاس‌گزاری شد}}',
-	'thanks-error-undefined' => 'سپاس‌گزاری نافرجام ماند. دوباره تلاش کنید.',
-	'thanks-error-invalidrevision' => 'شمارهٔ تفاوت صحیح نیست',
-	'thanks-error-ratelimited' => 'شما از مقدار مجاز فراتر رفته‌اید. لطفاً چند لحظه صبر کنید و دوباره امتحان کنید.', # Fuzzy
-	'thanks-thank-tooltip' => 'یک پیام سپاس‌گزاری به این {{GENDER:$2|کاربر}} {{GENDER:$1|بفرستید}}',
-	'thanks-confirmation' => 'آیا قصد {{GENDER:$1|سپاس‌گزاری}} از $2 برای این ویرایش را دارید؟',
-	'thanks-thanked-notice' => 'به $1 گفته‌شد که ویرایش {{GENDER:$2|او}} را دوست داشته‌اید.',
-	'echo-pref-subscription-edit-thank' => 'برای ویرایش‌هایم از من سپاسگزاری کن.',
-	'echo-pref-tooltip-edit-thank' => 'هنگامی که کسی از ویرایش‌های من سپاس‌گزاری می‌کند، مرا آگاه کن.',
-	'echo-category-title-edit-thank' => 'سپاس‌گزاری‌ها',
+	'thanks-desc' => 'گزینهٔ «تشکر» را به تاریخچه و نمایش تفاوت‌ها می‌افزاید.',
+	'thanks-thank' => 'تشکر',
+	'thanks-thanked' => '{{GENDER:$1|تشکر شد}}',
+	'thanks-button-thank' => '{{GENDER:$1|تشکر}}',
+	'thanks-button-thanked' => '{{GENDER:$1|تشکر شد}}',
+	'thanks-error-undefined' => 'عمل تشکر ناموفق بود. لطفاً دوباره امتحان کنید.',
+	'thanks-error-invalidrevision' => 'شناسهٔ نسخه معتبر نیست.',
+	'thanks-error-ratelimited' => '{{GENDER:$1|شما}} از محدودهٔ سرعت مجاز فراتر رفته‌اید. لطفاً کمی صبر کنید و دوباره امتحان کنید.',
+	'thanks-thank-tooltip' => '{{GENDER:$1|فرستادن}} پیام تشکر به این {{GENDER:$2|کاربر}}',
+	'thanks-confirmation' => 'آیا می‌خواهید برای این ویرایش از $2 {{GENDER:$1|تشکر کنید}}؟',
+	'thanks-thanked-notice' => 'به $1 اطلاع داده شد که شما از ویرایش {{GENDER:$2|او}} تشکر کرده‌اید.',
+	'echo-pref-subscription-edit-thank' => 'برای ویرایش‌هایم از من سپاسگزاری کن',
+	'echo-pref-tooltip-edit-thank' => 'وقتی کسی از ویرایش‌های من تشکر می‌کند مرا آگاه کن.',
+	'echo-category-title-edit-thank' => 'تشکرها',
 	'notification-thanks-diff-link' => 'ویرایشتان',
-	'notification-thanks' => '[[User:$1|$1]] از شما بخاطر $2 در [[:$3]] {{GENDER:$1|سپاس‌گزاری کرد}}.',
-	'notification-thanks-flyout2' => '[[User:$1|$1]] از ویرایش شما در $2 {{GENDER:$1|سپاس‌گزاری کرد}}.',
-	'notification-thanks-email-subject' => '$1 از ویرایش شما در {{SITENAME}} {{GENDER:$1|سپاس‌گزاری کرد}}',
-	'notification-thanks-email-batch-body' => '$1 از ویرایش شما در $2 {{GENDER:$1|سپاس‌گزاری کرد}}.',
+	'notification-thanks' => '[[User:$1|$1]] از شما بابت $2 در [[:$3]] {{GENDER:$1|تشکر کرد}}.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] از ویرایش شما در $2 {{GENDER:$1|تشکر کرد}}.',
+	'notification-thanks-email-subject' => '$1 از شما بابت ویرایشتان در {{SITENAME}} {{GENDER:$1|تشکر کرد}}',
+	'notification-thanks-email-batch-body' => '$1 از شما بابت ویرایشتان در $2 {{GENDER:$1|تشکر کرد}}.',
 	'notification-link-text-respond-to-user' => 'پاسخ به کاربر',
-	'log-name-thanks' => 'سیاههٔ سپاس‌گزاری‌ها',
-	'log-description-thanks' => 'در زیر، فهرستی از کاربرانی که توسط کاربران دیگر از آن‌ها سپاس‌گزاری‌شده آمده است.',
-	'logentry-thanks-thank' => '{{GENDER:$2|سپاس‌گزاری}} $1 از {{GENDER:$4|$3}}',
-	'log-show-hide-thanks' => '$1 سیاههٔ سپاس‌گزاری‌ها',
+	'log-name-thanks' => 'سیاههٔ تشکرها',
+	'log-description-thanks' => 'این فهرستی است از کاربرانی که کاربران دیگر از آن‌ها تشکر کرده‌اند.',
+	'logentry-thanks-thank' => '$1 از {{GENDER:$4|$3}} {{GENDER:$2|تشکر کرد}}',
+	'log-show-hide-thanks' => '$1 سیاههٔ تشکرها',
 );
 
 /** Finnish (suomi)
@@ -712,7 +714,7 @@ $messages['fr'] = array(
 	'thanks-button-thanked' => '{{GENDER:$1|Remercié}}',
 	'thanks-error-undefined' => 'Échec de l’action de remerciement. Veuillez réessayer.',
 	'thanks-error-invalidrevision' => 'L’ID de révision n’est pas valide.',
-	'thanks-error-ratelimited' => 'Vous avez dépassé votre limite de débit. Veuillez attendre un peu et réessayer.', # Fuzzy
+	'thanks-error-ratelimited' => '{{GENDER:$1|Vous}} avez dépassé votre limite de débit. Veuillez attendre un peu et réessayer.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Envoyer}} une notification de remerciement à {{GENDER:$2|cet utilisateur|cette utilisatrice}}',
 	'thanks-confirmation' => 'Voulez-vous {{GENDER:$1|remercier}} $2 pour cette modification ?',
 	'thanks-thanked-notice' => '$1 a été notifié que vous avez aimé {{GENDER:$2|sa}} modification.',
@@ -769,7 +771,7 @@ $messages['gl'] = array(
 	'thanks-button-thanked' => '{{GENDER:$1|Agradecido|Agradecida}}',
 	'thanks-error-undefined' => 'Houbo un erro ao realizar o agradecemento. Inténteo de novo.',
 	'thanks-error-invalidrevision' => 'O ID da revisión non é válido.',
-	'thanks-error-ratelimited' => 'Superou o seu límite de velocidade. Agarde uns minutos e inténteo de novo.', # Fuzzy
+	'thanks-error-ratelimited' => '{{GENDER:$1|Superou}} o seu límite de velocidade. Agarde uns minutos e inténteo de novo.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Envía}} unha notificación de agradecemento a {{GENDER:$2|este usuario|esta usuaria}}',
 	'thanks-confirmation' => 'Quere {{GENDER:$1|agradecer}} a $2 a súa edición?',
 	'thanks-thanked-notice' => '$1 recibiu un aviso de que a vostede lle gustou {{GENDER:$2|a súa}} edición.',
@@ -999,7 +1001,7 @@ $messages['ja'] = array(
 	'thanks-button-thanked' => '{{GENDER:$1|感謝を示しました}}',
 	'thanks-error-undefined' => '感謝の操作に失敗しました。もう一度やり直してください。',
 	'thanks-error-invalidrevision' => '版 ID が無効です。',
-	'thanks-error-ratelimited' => '速度制限を超えました。しばらくしてからもう一度やり直してください。', # Fuzzy
+	'thanks-error-ratelimited' => '{{GENDER:$1|}}速度制限を超えました。しばらくしてからもう一度やり直してください。',
 	'thanks-thank-tooltip' => 'この{{GENDER:$2|利用者}}に感謝の通知を{{GENDER:$1|送信する}}',
 	'thanks-confirmation' => '$2 のこの編集に対して{{GENDER:$1|感謝を示しますか}}?',
 	'thanks-thanked-notice' => 'あなたが $1 の編集に感謝を示したことを{{GENDER:$2|本人}}に通知しました。',
@@ -1185,7 +1187,7 @@ $messages['mk'] = array(
 	'thanks-button-thanked' => '{{GENDER:$1|Заблагодарено}}',
 	'thanks-error-undefined' => 'Заблагодарувањето не успеа. Обидете се повторно.',
 	'thanks-error-invalidrevision' => 'Ревизијата има неважечка назнака.',
-	'thanks-error-ratelimited' => 'Ја надминавте границата на заблагодарувања. Почекајте некое време, па обидете се подоцна', # Fuzzy
+	'thanks-error-ratelimited' => '{{GENDER:$1|Ја надминавте}} границата на заблагодарувања. Почекајте некое време, па обидете се подоцна',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Испратете}} му благодарност (во порака) на {{GENDER:$2|корисников}}',
 	'thanks-confirmation' => 'Дали сте сигурни дека сакате да {{GENDER:$1|му се заблагодарите|да ѝ се заблагодарите}} на $2 за уредувањево?',
 	'thanks-thanked-notice' => '$1 {{GENDER:$2|е известен дека ви се допаѓа неговото уредување|е известена дека ви се допаѓа нејзиното уредување|доби известување дека ви се допаѓа уредувањето што го направи}}.',
@@ -1717,6 +1719,7 @@ $messages['sk'] = array(
 );
 
 /** Slovenian (slovenščina)
+ * @author Dbc334
  * @author Eleassar
  * @author Matej1234
  * @author Yerpo
@@ -1729,10 +1732,10 @@ $messages['sl'] = array(
 	'thanks-button-thanked' => '{{GENDER:$1|Zahvala je objavljena|Zahvala je objavljena}}',
 	'thanks-error-undefined' => 'Zahvala ni uspela. Prosimo, poskusite znova.',
 	'thanks-error-invalidrevision' => 'ID-številka redakcije ni veljavna.',
-	'thanks-error-ratelimited' => 'Presegli ste omejitev hitrosti. Prosimo, počakajte nekaj časa in nato poskusite znova.', # Fuzzy
+	'thanks-error-ratelimited' => '{{GENDER:$1|Presegli}} ste omejitev hitrosti. Prosimo, počakajte nekaj časa in nato poskusite znova.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Pošljite}} {{GENDER:$2|temu uporabniku|tej uporabnici}} zahvalo',
-	'thanks-confirmation' => 'Ali se želite uporabniku $2 resnično {{GENDER:$1|zahvaliti}} za to urejanje?', # Fuzzy
-	'thanks-thanked-notice' => '$1 ste povedali, da vam je bilo {{GENDER:$2|njegovo|njeno}} urejanje všeč.', # Fuzzy
+	'thanks-confirmation' => 'Ali se želite uporabniku $2 {{GENDER:$1|zahvaliti}} za to urejanje?',
+	'thanks-thanked-notice' => '$1 ste sporočili, da vam je bilo {{GENDER:$2|njegovo|njeno}} urejanje všeč.',
 	'echo-pref-subscription-edit-thank' => 'Se mi zahvali za urejanje',
 	'echo-pref-tooltip-edit-thank' => 'Obvesti me, kadar se mi kdo zahvali za katero od mojih urejanj.',
 	'echo-category-title-edit-thank' => 'Zahvala',
@@ -1830,6 +1833,7 @@ $messages['ta'] = array(
 );
 
 /** Telugu (తెలుగు)
+ * @author Arjunaraoc
  * @author Veeven
  * @author Visdaviva
  * @author రహ్మానుద్దీన్
@@ -1840,21 +1844,21 @@ $messages['te'] = array(
 	'thanks-thanked' => '{{GENDER:$1|అభినందించారు}}',
 	'thanks-error-undefined' => 'కృతజ్ఞతల చర్య విఫలమైంది. దయచేసి మళ్ళీ ప్రయత్నించండి.',
 	'thanks-error-invalidrevision' => 'కూర్పుల ID చెల్లదు',
-	'thanks-error-ratelimited' => 'మీరు మీ రేట్ హద్దును దాటారు. దయచేసి కాసేపాగి తిరిగి ప్రయత్నించండి.',
-	'thanks-thank-tooltip' => '{{స్త్రీ/పురుష:$2|వాడుకరి}}కి ఒక ధన్యవాద సూచన {{స్త్రీ/పురుష:$1|పంపండి}}',
+	'thanks-error-ratelimited' => 'మీరు మీ రేట్ హద్దును దాటారు. దయచేసి కాసేపాగి తిరిగి ప్రయత్నించండి.', # Fuzzy
+	'thanks-thank-tooltip' => '{{GENDER:$2|వాడుకరి}}కి ఒక ధన్యవాద సూచన {{GENDER:$1|పంపండి}}',
 	'thanks-confirmation' => '$2 కి ఈ మార్పుకై {{GENDER:$1|కృతజ్ఞతలు}} తెలపాలనుకుంటున్నారా?', # Fuzzy
 	'echo-pref-subscription-edit-thank' => 'నా మార్పుకు ధన్యవాదాలు',
 	'echo-pref-tooltip-edit-thank' => 'నేను చేసిన మార్పుకు ఎవరైనా ధన్యవాదాలు చెపితే నాకు తెలియజేయి',
 	'echo-category-title-edit-thank' => 'ధన్యవాదాలు',
 	'notification-thanks-diff-link' => 'మీ మార్పు',
 	'notification-thanks' => '[[వాడుకరి:$1|$1]] ఇక్కడ [[:$3]] మీరు $2 కు {{GENDER:$1|ధన్యవాదాలు పంపారు}}.', # Fuzzy
-	'notification-thanks-flyout2' => '[[వాడుకరి:$1|$1]] $2 పై మీరు చేసిన మార్పు కై మీకు {{స్త్రీ/పురుష:$1|ధన్యవాదాలు పంపారు}}.', # Fuzzy
-	'notification-thanks-email-subject' => '$1 {{SITENAME}} పై మీరు చేసిన మార్పుకు {{స్త్రీ/పురుష:$1|ధన్యవాదాలు పంపారు}}',
-	'notification-thanks-email-batch-body' => '$2 పై మీ మార్పుకు $1 మీకు {{స్త్రీ/పురుష:$1|ధన్యవాదాలు పంపారు}}.',
+	'notification-thanks-flyout2' => '$2 పై మీరు చేసిన మార్పు కై మీకు [[User:$1|$1]]  {{GENDER:$1|ధన్యవాదాలు పంపారు}}.',
+	'notification-thanks-email-subject' => '{{SITENAME}} పై మీరు చేసిన మార్పుకు  $1  {{GENDER:$1|ధన్యవాదాలు పంపారు}}',
+	'notification-thanks-email-batch-body' => '$2 పై మీ మార్పుకు $1 మీకు {{GENDER:$1|ధన్యవాదాలు పంపారు}}.',
 	'notification-link-text-respond-to-user' => 'వాడుకరికి ప్రతిస్పందించండి',
 	'log-name-thanks' => 'ధన్యవాదాల చిట్టా',
 	'log-description-thanks' => 'క్రింది వాడుకరులు ఇతర వాడుకరుల నుండి ధన్యవాదాలు పొందారు.',
-	'logentry-thanks-thank' => '$1  {{స్త్రీ/పురుష:$4|$3}} కు {{స్త్రీ/పురుష:$2|ధన్యవాదాలు పంపారు}}',
+	'logentry-thanks-thank' => '$1  {{GENDER:$4|$3}} కు {{GENDER:$2|ధన్యవాదాలు పంపారు}}',
 	'log-show-hide-thanks' => '$1 ధన్యవాదాల చిట్టా',
 );
 
@@ -1933,7 +1937,7 @@ $messages['uk'] = array(
 	'thanks-button-thanked' => '{{GENDER:$1|Подякував|Подякувала}}',
 	'thanks-error-undefined' => 'Не вдалось подякувати. Спробуйте знову.',
 	'thanks-error-invalidrevision' => 'Неправильний ідентифікатор версії.',
-	'thanks-error-ratelimited' => 'Ви перевищили свій ліміт частоти. Будь ласка, зачекайте деякий час, і спробуйте знову.', # Fuzzy
+	'thanks-error-ratelimited' => '{{GENDER:$1|Ви}} перевищили свій ліміт частоти. Будь ласка, зачекайте деякий час, і спробуйте знову.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Надіслати}} сповіщення вдячності {{GENDER:$2|цьому користувачу|цій користувачці}}',
 	'thanks-confirmation' => 'Ви хочете {{GENDER:$1|подякувати}} $2 за цю зміну?',
 	'thanks-thanked-notice' => '$1 повідомив, що вам сподобалися  {{GENDER:$2|його|її|їхні}} зміни.',
