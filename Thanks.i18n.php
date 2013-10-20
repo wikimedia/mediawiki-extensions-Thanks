@@ -367,6 +367,36 @@ $messages['ca'] = array(
 	'log-show-hide-thanks' => "$1 el registre d'agraïments",
 );
 
+/** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄)
+ * @author Yejianfei
+ */
+$messages['cdo'] = array(
+	'thanks-desc' => '添加感謝鏈接遘歷史再區分觀點',
+	'thanks-thank' => '感謝',
+	'thanks-thanked' => '{{GENDER:$1|感謝}}',
+	'thanks-button-thank' => '{{GENDER:$1|感謝}}',
+	'thanks-button-thanked' => '{{GENDER:$1|感謝}}',
+	'thanks-error-undefined' => '感謝行動失敗了。起動再試蜀回。',
+	'thanks-error-invalidrevision' => '校訂編號𣍐合法。',
+	'thanks-error-ratelimited' => '{{GENDER:$1|汝}}已經超出汝其比率限制。起動等仂固再試蜀試。',
+	'thanks-thank-tooltip' => '{{GENDER:$1|發出}}蜀萆感謝通知遘茲蜀萆{{GENDER:$2|用戶}}',
+	'thanks-confirmation' => '汝有想{{GENDER:$1|感謝}}$2其茲蜀萆編輯無？',
+	'thanks-thanked-notice' => '$1已經接著汝喜歡{{GENDER:$2|伊其}}編辑其通知。',
+	'echo-pref-subscription-edit-thank' => '感謝我其修改',
+	'echo-pref-tooltip-edit-thank' => '有儂因為我其編輯感謝我辰候通知我。',
+	'echo-category-title-edit-thank' => '謝謝',
+	'notification-thanks-diff-link' => '汝其編輯',
+	'notification-thanks' => '[[User:$1|$1]]{{GENDER:$1|感謝}}汝敆[[:$3]]其$2。',
+	'notification-thanks-flyout2' => '[[User:$1|$1]]因為汝敆$2上其編輯{{GENDER:$1|感謝}}汝。',
+	'notification-thanks-email-subject' => '$1因為汝敆{{SITENAME}}上其編輯{{GENDER:$1|感謝}}汝',
+	'notification-thanks-email-batch-body' => '$1因為汝敆$2上其編輯{{GENDER:$1|感謝}}汝。',
+	'notification-link-text-respond-to-user' => '回覆遘用戶',
+	'log-name-thanks' => '感謝日誌',
+	'log-description-thanks' => '下底是乞其他用戶感謝過其用戶其蜀萆單單。',
+	'logentry-thanks-thank' => '$1{{GENDER:$2|感謝}}{{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => '$1感謝日誌',
+);
+
 /** Sorani Kurdish (کوردی)
  * @author Calak
  */
@@ -432,14 +462,14 @@ $messages['cy'] = array(
 	'thanks-desc' => "Yn ychwanegu cysylltau diolch i'r golygon hanes a diff",
 	'thanks-thank' => 'diolch',
 	'thanks-thanked' => '{{GENDER:$1|diolchwyd}}',
-	'thanks-button-thank' => 'Diolcher', # Fuzzy
+	'thanks-button-thank' => '{{GENDER:$1|Diolcher}}',
 	'thanks-button-thanked' => '{{GENDER:$1|Diolchwyd}}',
 	'thanks-error-undefined' => 'Methodd y weithred o ddiolch. Ceisiwch eto.',
 	'thanks-error-invalidrevision' => 'Nid yw ID y diwygiad yn ddilys.',
-	'thanks-error-ratelimited' => "Rydych wedi gwneud mwy o weithredoedd y funud na'r nifer a ganiateir. Arhoswch ennyd ac yna ceisiwch eto.",
+	'thanks-error-ratelimited' => "{{GENDER:$1|Rydych}} wedi gwneud mwy o weithredoedd y funud na'r nifer a ganiateir. Arhoswch ennyd ac yna ceisiwch eto.",
 	'thanks-thank-tooltip' => "{{GENDER:$1|Anfon}} hysbyseb o ddiolch i'r {{GENDER:$2|defnyddiwr}} hwn",
-	'thanks-confirmation' => 'Ydych chi wir am {{GENDER:$1|ddiolch}} i $2 am y golygiad hwn?', # Fuzzy
-	'thanks-thanked-notice' => "Dywedwyd wrth $1 eich bod yn hoff o'i {{GENDER:$2|adolygiad|hadolygiad|adolygiad}}.", # Fuzzy
+	'thanks-confirmation' => 'Ydych chi am {{GENDER:$1|ddiolch}} i $2 am y golygiad hwn?',
+	'thanks-thanked-notice' => "Hysbyswyd $1 eich bod yn hoff o'i {{GENDER:$2|adolygiad|hadolygiad|adolygiad}}.",
 	'echo-pref-subscription-edit-thank' => 'Fy niolch am fy ngolygiad',
 	'echo-pref-tooltip-edit-thank' => "Hysbyser fi pan fo rhywun yn fy niolch am un o'm golygiadau.",
 	'echo-category-title-edit-thank' => 'Diolch',
@@ -609,14 +639,14 @@ $messages['et'] = array(
 	'thanks-desc' => 'Lisab ajalugudesse ja erinevuse vaadete juurde tänulingid.',
 	'thanks-thank' => 'täna',
 	'thanks-thanked' => '{{GENDER:$1|tänatud}}',
-	'thanks-button-thank' => 'Täna', # Fuzzy
+	'thanks-button-thank' => '{{GENDER:$1|Täna}}',
 	'thanks-button-thanked' => '{{GENDER:$1|Tänatud}}',
 	'thanks-error-undefined' => 'Tänamine ebaõnnestus. Palun proovi uuesti.',
 	'thanks-error-invalidrevision' => 'Redaktsiooni identifikaator ei sobi.',
-	'thanks-error-ratelimited' => 'Oled ületanud piirangumäära. Palun oota natuke ja proovi uuesti.',
+	'thanks-error-ratelimited' => '{{GENDER:$1|Oled}} ületanud piirangumäära. Palun oota natuke ja proovi uuesti.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Saada}} sellele {{GENDER:$2|kasutajale}} tänuteavitus',
-	'thanks-confirmation' => 'Kas oled kindel, et soovid kasutajat $2 selle muudatuse eest {{GENDER:$1|tänada}}?', # Fuzzy
-	'thanks-thanked-notice' => 'Kasutajale $1 on edasi öeldud, et sulle meeldis {{GENDER:$2|tema}} muudatus.', # Fuzzy
+	'thanks-confirmation' => 'Kas tahad kasutajat $2 selle muudatuse eest {{GENDER:$1|tänada}}?',
+	'thanks-thanked-notice' => 'Kasutajale $1 on edasi öeldud, et sulle meeldis {{GENDER:$2|tema}} muudatus.',
 	'echo-pref-subscription-edit-thank' => 'Mind tänatakse minu muudatuse eest',
 	'echo-pref-tooltip-edit-thank' => 'Teavita mind, kui keegi tänab mind tehtud muudatuse eest.',
 	'echo-category-title-edit-thank' => 'Tänamine',
@@ -670,6 +700,7 @@ $messages['fa'] = array(
 );
 
 /** Finnish (suomi)
+ * @author Crt
  * @author Pxos
  * @author Samoasambia
  * @author Silvonen
@@ -681,8 +712,8 @@ $messages['fi'] = array(
 	'thanks-button-thank' => '{{GENDER:$1|Kiitä}}',
 	'thanks-button-thanked' => '{{GENDER:$1|Kiitetty}}',
 	'thanks-error-undefined' => 'Kiittäminen epäonnistui. Yritä uudelleen.',
-	'thanks-error-invalidrevision' => 'Version tunnus ei kelpaa.',
-	'thanks-error-ratelimited' => 'Olet ylittänyt toimintorajasi. Odota vähän aikaa ja yritä sitten uudestaan.', # Fuzzy
+	'thanks-error-invalidrevision' => 'Version tunniste ei kelpaa.',
+	'thanks-error-ratelimited' => '{{GENDER:$1|Olet}} ylittänyt toimintorajasi. Odota hetki ja yritä uudelleen.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Lähetä}} kiitoksesi tälle {{GENDER:$2|käyttäjälle}}',
 	'thanks-confirmation' => 'Haluatko {{GENDER:$1|kiittää}} käyttäjää $2 tästä muokkauksesta?',
 	'thanks-thanked-notice' => 'Käyttäjälle $1 ilmoitettiin, että tykkäsit {{GENDER:$2|hänen}} muokkauksestaan.',
@@ -695,10 +726,10 @@ $messages['fi'] = array(
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|kiitti}} sinua muokkauksestasi sivustolla {{SITENAME}}',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|kiitti}} sinua muokkauksestasi sivulla $2.',
 	'notification-link-text-respond-to-user' => 'Vastaa käyttäjälle',
-	'log-name-thanks' => 'Kiitosten loki',
+	'log-name-thanks' => 'Kiitosloki',
 	'log-description-thanks' => 'Alla on luettelo niistä käyttäjistä, jotka ovat saaneet kiitoksia toisilta käyttäjiltä.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|kiitti}} käyttäjää {{GENDER:$4|$3}}',
-	'log-show-hide-thanks' => '$1 kiitosten loki',
+	'log-show-hide-thanks' => '$1 kiitosloki',
 );
 
 /** French (français)
@@ -803,14 +834,14 @@ $messages['he'] = array(
 	'thanks-desc' => 'הוספת קישורי "תודה" לדפי היסטוריה והשוואה',
 	'thanks-thank' => 'תודה',
 	'thanks-thanked' => '{{GENDER:$1|הודֵיתָ|הודֵיתְ}}',
-	'thanks-button-thank' => 'תודה', # Fuzzy
+	'thanks-button-thank' => '{{GENDER:$1|תודה}}',
 	'thanks-button-thanked' => '{{GENDER:$1|הודֵיתָ|הודֵיתְ}}',
 	'thanks-error-undefined' => 'פעולת תודה נכשלה. נא לנסות שוב.',
 	'thanks-error-invalidrevision' => 'מזהה גרסה אינו תקין.',
-	'thanks-error-ratelimited' => 'עברת את מגבלת הקצב שלך. נא להמתין ולנסות שוב.',
+	'thanks-error-ratelimited' => '{{GENDER:$1|עברת}} את מגבלת הקצב שלך. נא להמתין ולנסות שוב.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|שלח|שלחי}} הודעת תודה {{GENDER:$2|למשתמש הזה|למשתמשת הזו}}',
-	'thanks-confirmation' => 'האם {{GENDER:$1|אתה|את}} באמת רוצה להודות ל{{GRAMMAR:תחילית|$2}} על העריכה הזאת?', # Fuzzy
-	'thanks-thanked-notice' => 'ל{{GRAMMAR:תחילית|$1}} נאמר שאהבת את העריכה {{GENDER:$2|שלו|שלה|שלו}}.', # Fuzzy
+	'thanks-confirmation' => 'האם {{GENDER:$1|אתה|את}} רוצה להודות ל{{GRAMMAR:תחילית|$2}} על העריכה הזאת?',
+	'thanks-thanked-notice' => 'ל{{GRAMMAR:תחילית|$1}} נאמר שאהבת את העריכה {{GENDER:$2|שלו|שלה|שלו}}.',
 	'echo-pref-subscription-edit-thank' => 'מודה לי על עריכה שלי',
 	'echo-pref-tooltip-edit-thank' => 'להודיע לי כשמישהו מודה לי על עריכה שעשיתי.',
 	'echo-category-title-edit-thank' => 'תודות',
@@ -861,13 +892,19 @@ $messages['hi'] = array(
  * @author Roberta F.
  */
 $messages['hr'] = array(
-	'thanks-thank' => 'hvala',
+	'thanks-thank' => 'zahvala',
+	'thanks-thanked' => '{{GENDER:$1|zahvala je objavljena}}',
+	'thanks-button-thanked' => '{{GENDER:$1|Zahvala je objavljena|Zahvala je objavljena}}',
 	'echo-category-title-edit-thank' => 'Hvala',
 	'notification-thanks-diff-link' => 'vaše uređivanje',
 	'notification-thanks' => '[[User:$1|$1]] vam je {{GENDER:$1|zahvalio|zahvalila}} za $2 na stranici «[[:$3]]».',
-	'notification-thanks-flyout2' => '[[User:$1|$1]] vam je {{GENDER:$1|zahvalio|zahvalila}} za Vašu izmjenu na stranici «$2».',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] Vam je {{GENDER:$1|zahvalio|zahvalila}} za Vašu izmjenu na stranici «$2».',
+	'notification-thanks-email-subject' => '$1 Vam {{GENDER:$1|zahvaljuje|zahvaljuje}} za uređivanje na {{SITENAME}}',
+	'notification-thanks-email-batch-body' => '$1 Vam je {{GENDER:$1|zahvalio|zahvalila}} za uređivanje na »$2«.',
 	'notification-link-text-respond-to-user' => 'Odgovor suradniku',
 	'log-name-thanks' => 'Evidencija zahvala',
+	'log-description-thanks' => 'Slijedi popis suradnika koji su drugim suradnicima objavili zahvalu.',
+	'logentry-thanks-thank' => '$1 je {{GENDER:$2|zahvalio|zahvalila}} {{GENDER:$4|suradniku|suradnici}} {{GENDER:$4|$3}}',
 );
 
 /** Hungarian (magyar)
@@ -913,7 +950,7 @@ $messages['id'] = array(
 	'thanks-button-thanked' => '{{GENDER:$1|Sudah berterima kasih}}',
 	'thanks-error-undefined' => 'Tindakan berterima kasih gagal. Silakan coba lagi.',
 	'thanks-error-invalidrevision' => 'ID revisi tidak sah.',
-	'thanks-error-ratelimited' => 'Anda telah melampaui batas Anda. Silakan tunggu beberapa saat dan coba lagi.', # Fuzzy
+	'thanks-error-ratelimited' => '{{GENDER:$1|Anda}} telah melampaui batas Anda. Silakan tunggu beberapa saat dan coba lagi.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Kirim}} sebuah pemberitahuan terima kasih kepada {{GENDER:$2|pengguna}} ini',
 	'thanks-confirmation' => 'Apakah Anda ingin {{GENDER:$1|berterima kasih}} kepada $2 atas suntingan ini?',
 	'thanks-thanked-notice' => '$1 telah diberitahu bahwa Anda menyukai {{GENDER:$2|suntingannya|suntingannya|suntingan mereka}}.',
@@ -1316,7 +1353,7 @@ $messages['nb'] = array(
 	'thanks-button-thanked' => '{{GENDER:$1|Takket}}',
 	'thanks-error-undefined' => 'Takkehandling feilet. Forsøk igjen.',
 	'thanks-error-invalidrevision' => 'Revisjons-ID er ikke gyldig.',
-	'thanks-error-ratelimited' => 'Du har overskredet frekvensbegrensingen din. Vent litt og prøv igjen.', # Fuzzy
+	'thanks-error-ratelimited' => '{{GENDER:$1|Du}} har overskredet frekvensbegrensingen din. Vent litt og prøv igjen.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Send}} en takkemelding til denne {{GENDER:$2|brukeren}}',
 	'thanks-confirmation' => 'Vil du {{GENDER:$1|takke}} $2 for denne redigeringen?',
 	'thanks-thanked-notice' => '$1 får høre at du satte pris på {{GENDER:$2|redigeringen hans|redigeringen hennes|redigeringen}}.',
@@ -1675,7 +1712,7 @@ $messages['ru'] = array(
 	'thanks-button-thanked' => '{{GENDER:$1|Был поблагодарён|Была поблагодарена}}',
 	'thanks-error-undefined' => 'Попытка поблагодарить не удалась. Попробуйте снова.',
 	'thanks-error-invalidrevision' => 'Некорректный номер версии.',
-	'thanks-error-ratelimited' => 'Вы превысили ограничение скорости выполнения таких действий. Пожалуйста, подождите некоторое время и попробуйте снова.', # Fuzzy
+	'thanks-error-ratelimited' => '{{GENDER:$1|Вы}} превысили ограничение скорости выполнения таких действий. Пожалуйста, подождите некоторое время и попробуйте снова.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Отправить}} {{GENDER:$2|этому участнику|этой участнице}} благодарственное сообщение',
 	'thanks-confirmation' => 'Хотите {{GENDER:$1|поблагодарить}} $2 за эту правку?',
 	'thanks-thanked-notice' => '$1 {{GENDER:$2|был оповещён|была оповещена|были оповещены}}, что вам понравилось {{GENDER:$2|его|её|их}} правка.',
