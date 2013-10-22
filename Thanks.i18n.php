@@ -1067,7 +1067,7 @@ $messages['ja'] = array(
 $messages['kk-cyrl'] = array(
 	'thanks-desc' => 'Тарих және нұсқалар айырмасында <<рахмет>> сілтемелерін қосу',
 	'thanks-thank' => 'рахмет',
-	'thanks-thanked' => '{{GENDER:$1|рахмет айтты}}',
+	'thanks-thanked' => '{{GENDER:$1|рахмет айтылды}}',
 	'thanks-button-thank' => '{{GENDER:$1|Рахметіңізді білдіру}}',
 	'thanks-button-thanked' => '{{GENDER:$1|Рахмет білдірілді}}',
 	'thanks-error-undefined' => 'Рахмет айту әрекеті орындалмады. Тағы қайталап көріңіз.',
@@ -1084,7 +1084,7 @@ $messages['kk-cyrl'] = array(
 	'notification-thanks-email-subject' => '$1 {{SITENAME}} сайтындағы өңдемеңіз үшін сізге {{GENDER:$1|рахметін}} білдірді.',
 	'notification-thanks-email-batch-body' => '$1 $2 бетіндегі өңдемеңіз үшін сізге {{GENDER:$1|рахметін}} білдірді.',
 	'notification-link-text-respond-to-user' => 'Қатысушыға жауап қайтару',
-	'log-name-thanks' => 'Рахмет айту журналы',
+	'log-name-thanks' => 'Рахмет білдіру журналы',
 	'log-description-thanks' => 'Төменде басқа қатысушылардан рахмет айтылған қатысушылар тізімі берілген.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$4|$3}} деген қатысушыға {{GENDER:$2|рахметін}} білдірді.',
 	'log-show-hide-thanks' => 'рахметін білдіру журналы $1',
@@ -1312,6 +1312,7 @@ $messages['ms'] = array(
 
 /** Maltese (Malti)
  * @author Leli Forte
+ * @author MTSap
  */
 $messages['mt'] = array(
 	'thanks-desc' => "Iżżid ħoloq ta' ringrazzjament fil-kronoloġija u fid-differenzi bejn il-verżjonijiet",
@@ -1322,7 +1323,7 @@ $messages['mt'] = array(
 	'thanks-error-undefined' => "Ir-ringrazzjament ma ħadimx. Erġa' pprova.",
 	'thanks-error-invalidrevision' => 'L-ID tar-reviżjoni mhuwiex validu.',
 	'thanks-error-ratelimited' => "Qbiżt il-limitu massimu tar-ringrazzjamenti. Jekk jogħġbok stenna ftit u erġa' pprova.", # Fuzzy
-	'thanks-thank-tooltip' => "{{GENDER:$1|Ibagħt}} notifika ta' ringrazzjament lil {{GENDER:$2|dan|din}} l-utent",
+	'thanks-thank-tooltip' => "{{GENDER:$1|Ibgħat}} notifika ta' ringrazzjament lil {{GENDER:$2|dan|din}} l-utent",
 	'thanks-confirmation' => "Trid {{GENDER:$1|tirringrazzja}} 'l $2 għal din il-modifika?",
 	'thanks-thanked-notice' => '$1 {{GENDER:$2|ġie mgħarraf|ġiet mgħarrfa|ġew mgħarrfin}} li għoġbitek il-modifika {{GENDER:$2|tiegħu|tagħha|tagħhom}}.',
 	'echo-pref-subscription-edit-thank' => 'Jirringrazzjani għall-modifika li għamilt',
