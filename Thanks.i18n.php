@@ -276,8 +276,8 @@ $messages['bn'] = array(
 	'thanks-button-thanked' => '{{GENDER:$1|ধন্যবাদ জানিয়েছেন}}',
 	'thanks-error-undefined' => 'ধন্যবাদ পদক্ষেপ ব্যর্থ। অনুগ্রহ করে আবার চেষ্টা করুন।',
 	'thanks-error-invalidrevision' => 'সংশোধনের আইডি বৈধ নয়।',
-	'thanks-error-ratelimited' => 'আপনি রেট করার সর্বোচ্চ সীমা অতিক্রম করেছেন। অনুগ্রহ করে অপেক্ষা করুন এবং পুনরায় চেষ্টা করুন।', # Fuzzy
-	'thanks-thank-tooltip' => 'এই {{GENDER:$2|ব্যবহারকারীকে}} ধন্যবাদ নোটিফিকেশন {{GENDER:$1|পাঠান}}',
+	'thanks-error-ratelimited' => '{{GENDER:$1|আপনি}} রেট করার সর্বোচ্চ সীমা অতিক্রম করেছেন। অনুগ্রহ করে অপেক্ষা করুন এবং পুনরায় চেষ্টা করুন।',
+	'thanks-thank-tooltip' => 'এই {{GENDER:$2|ব্যবহারকারীকে}} ধন্যবাদ বিজ্ঞপ্তি {{GENDER:$1|পাঠান}}',
 	'thanks-confirmation' => 'আপনি কি এই সম্পাদনার জন্য $2কে {{GENDER:$1|ধন্যবাদ}} জানাতে চান?',
 	'thanks-thanked-notice' => '$1-কে জাননো হয়েছে যে আপনি {{GENDER:$2|তার|তার|তাদের}} সম্পাদনা পছন্দ করেছেন।',
 	'echo-pref-subscription-edit-thank' => 'আমার সম্পাদনার জন্য আমার ধন্যবাদসমূহ',
@@ -395,6 +395,15 @@ $messages['cdo'] = array(
 	'log-description-thanks' => '下底是乞其他用戶感謝過其用戶其蜀萆單單。',
 	'logentry-thanks-thank' => '$1{{GENDER:$2|感謝}}{{GENDER:$4|$3}}',
 	'log-show-hide-thanks' => '$1感謝日誌',
+);
+
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'thanks-thank' => 'баркалла',
+	'echo-pref-tooltip-edit-thank' => 'Хаийта соьга, цхьам баркалла аьлча.',
+	'echo-category-title-edit-thank' => 'Баркалла',
 );
 
 /** Sorani Kurdish (کوردی)
@@ -889,12 +898,14 @@ $messages['hi'] = array(
 );
 
 /** Croatian (hrvatski)
+ * @author MaGa
  * @author Roberta F.
  */
 $messages['hr'] = array(
 	'thanks-thank' => 'zahvala',
 	'thanks-thanked' => '{{GENDER:$1|zahvala je objavljena}}',
 	'thanks-button-thanked' => '{{GENDER:$1|Zahvala je objavljena|Zahvala je objavljena}}',
+	'echo-pref-tooltip-edit-thank' => 'Obavijesti me kad mi netko zahvali za moju izmjenu.',
 	'echo-category-title-edit-thank' => 'Hvala',
 	'notification-thanks-diff-link' => 'vaše uređivanje',
 	'notification-thanks' => '[[User:$1|$1]] vam je {{GENDER:$1|zahvalio|zahvalila}} za $2 na stranici «[[:$3]]».',
@@ -1059,6 +1070,19 @@ $messages['ja'] = array(
 	'log-description-thanks' => '以下に、他の利用者から感謝を示された利用者を列挙します。',
 	'logentry-thanks-thank' => '$1 が {{GENDER:$4|$3}} に{{GENDER:$2|感謝を示しました}}',
 	'log-show-hide-thanks' => '感謝記録を$1',
+);
+
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'thanks-thank' => 'მადლობა',
+	'thanks-button-thank' => '{{GENDER:$1|მადლობა}}',
+	'thanks-confirmation' => 'გსურთ მომხმარებელს $2 {{GENDER:$1|მადლობა გადაუხადოთ}} ამ რედაქტირებისათვის?',
+	'notification-thanks' => 'მომხმარებელმა [[User:$1|$1]] {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი $2 გვერდზე [[:$3]].',
+	'notification-thanks-flyout2' => 'მომხმარებელმა [[User:$1|$1]] {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი რედაქტირებისათვის გვერდზე $2.',
+	'notification-thanks-email-subject' => 'მომხმარებელმა $1 {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი რედაქტირებისათვის საიტზე {{SITENAME}}',
+	'notification-thanks-email-batch-body' => 'მომხმარებელმა $1 {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი რედაქტირებისათვის $2.',
 );
 
 /** Kazakh (Cyrillic script) (қазақша (кирил)‎)
@@ -1281,7 +1305,30 @@ $messages['ml'] = array(
  * @author V.narsikar
  */
 $messages['mr'] = array(
-	'thanks-thank-tooltip' => '{{GENDER:$2|user}} ला एक धन्यवादाची अधिसूचना{{GENDER:$1|ने पाठविली}}',
+	'thanks-desc' => 'इतिहास व आवृत्त्यामधील फरकाच्या दृष्यास धन्यवादाचा दुवा जोडते',
+	'thanks-thank' => 'धन्यवाद',
+	'thanks-thanked' => '{{GENDER:$1|नी धन्यवाद दिले}}',
+	'thanks-button-thank' => '{{GENDER:$1|चे धन्यवाद}}',
+	'thanks-button-thanked' => '{{GENDER:$1|नी धन्यवाद दिलेत}}',
+	'thanks-error-undefined' => 'धन्यवाद देण्याची क्रिया अयशस्वी झाली.कृपया पुन्हा प्रयत्न करा.',
+	'thanks-error-invalidrevision' => 'आवृत्तीचा आयडी वैध नाही.',
+	'thanks-error-ratelimited' => '{{GENDER:$1|आपण}} दर मर्यादा पार केली आहे.कृपया थोडा वेळ थांबून पुन्हा प्रयत्न करा.',
+	'thanks-thank-tooltip' => '{{GENDER:$1|सदस्याने}} या {{GENDER:$2|सदस्याला}} एक धन्यवादाची अधिसूचना पाठवा',
+	'thanks-confirmation' => 'या संपादनासाठी  $2 ला {{GENDER:$1|धन्यवाद}} द्यायचे आहेत काय?',
+	'thanks-thanked-notice' => '$1 ने नोंदविले आहे कि आपणास {{GENDER:$2|त्याचे|तिचे|त्यांचे}} संपादन आवडले आहे.',
+	'echo-pref-subscription-edit-thank' => 'माझ्या संपादनाबद्दल मलाच धन्यवाद द्या',
+	'echo-pref-tooltip-edit-thank' => 'मी केलेल्या संपादनाबद्दल जर कोणी मला धन्यवाद देत असेल तर मला सूचना द्या.',
+	'echo-category-title-edit-thank' => 'धन्यवाद',
+	'notification-thanks-diff-link' => 'आपले संपादन',
+	'notification-thanks' => '[[User:$1|$1]] ने  $2 करीता [[:$3]] वर {{GENDER:$1|धन्यवाद दिलेत.}}',
+	'notification-thanks-flyout2' => '[[User:$1|$1]]ने आपणास $2 वर केलेल्या संपादनाबद्दल {{GENDER:$1|धन्यवाद दिलेत.}}',
+	'notification-thanks-email-subject' => '$1 ने {{SITENAME}} वर आपण केलेल्या संपादनाबाबत {{GENDER:$1|धन्यवाद दिलेत}}',
+	'notification-thanks-email-batch-body' => '$1 ने आपण $2 वर केलेल्या संपादनाबाबत आपणास {{GENDER:$1|धन्यवाद दिलेत.}}',
+	'notification-link-text-respond-to-user' => 'सदस्यास उत्तर द्या',
+	'log-name-thanks' => 'धन्यवादाच्या नोंदी',
+	'log-description-thanks' => 'खाली त्या सदस्यांची यादी आहे ज्यांना इतर सदस्यांनी धन्यवाद दिलेत.',
+	'logentry-thanks-thank' => '$1 ने {{GENDER:$4|$3}} ला {{GENDER:$2|धन्यवाद दिलेत}}',
+	'log-show-hide-thanks' => '$1 धन्यवादाच्या नोंदी',
 );
 
 /** Malay (Bahasa Melayu)
