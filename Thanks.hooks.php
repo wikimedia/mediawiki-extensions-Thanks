@@ -96,7 +96,7 @@ class ThanksHooks {
 	/**
 	 * Handler for DiffViewHeader hook.
 	 * @see http://www.mediawiki.org/wiki/Manual:Hooks/DiffViewHeader
-	 * @param $diff WikiPage|Article|ImagePage|CategoryPage|Page The page that the history is loading for.
+	 * @param $diff DifferenceEngine
 	 * @param $oldRev Revision object of the "old" revision (may be null/invalid)
 	 * @param $newRev Revision object of the "new" revision
 	 * @return bool true in all cases
