@@ -59,7 +59,12 @@ class ApiThankTest extends \ApiTestCase {
 	}
 
 	protected function assertSuccess( $result ){
-		$this->assertEquals( array( 'result' => array( 'success' => 1 ) ), $result );
+		$this->assertEquals( array(
+			'result' => array(
+				'success' => 1,
+				'recipient' => self::$users['uploader']->username,
+			),
+		), $result );
 	}
 
 	public function testInvalidRequest(){

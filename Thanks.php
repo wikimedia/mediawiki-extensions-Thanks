@@ -45,10 +45,14 @@ $wgAutoloadClasses['ThanksHooks'] = $dir . '/Thanks.hooks.php';
 $wgAutoloadClasses['EchoThanksFormatter'] = $dir . '/ThanksFormatter.php';
 $wgAutoloadClasses['ApiThank'] = $dir . '/ApiThank.php';
 $wgAutoloadClasses['ThanksLogFormatter'] = $dir . '/ThanksLogFormatter.php';
+$wgAutoloadClasses['SpecialThanks'] = $dir . '/SpecialThanks.php';
 $wgExtensionMessagesFiles['Thanks'] = $dir . '/Thanks.i18n.php';
 
 // Register APIs
 $wgAPIModules['thank'] = 'ApiThank';
+
+// Register special page
+$wgSpecialPages['Thanks'] = 'SpecialThanks';
 
 // Register hooks
 $wgHooks['HistoryRevisionTools'][] = 'ThanksHooks::insertThankLink';
