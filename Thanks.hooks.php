@@ -19,7 +19,6 @@ class ThanksHooks {
 		// Make sure Echo is turned on.
 		// Exclude anonymous users.
 		// Don't let users thank themselves.
-		// Exclude users who don't want to participate in feature experiments.
 		// Exclude users who are blocked.
 		if ( class_exists( 'EchoNotifier' )
 			&& !$wgUser->isAnon()
