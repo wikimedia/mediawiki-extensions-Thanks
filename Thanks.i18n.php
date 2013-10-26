@@ -402,8 +402,16 @@ $messages['cdo'] = array(
  */
 $messages['ce'] = array(
 	'thanks-thank' => 'баркалла',
+	'thanks-thanked' => '{{GENDER:$1|Баркалла аьлла}}',
+	'thanks-thank-tooltip' => '{{GENDER:$1|Бахьийта}} {{GENDER:$2|хӀокху декъашхочунга}} баркаллин хаам',
+	'thanks-confirmation' => 'Лаьий хьуна {{GENDER:$1|баркалла ала}} хӀара нисдарна?', # Fuzzy
 	'echo-pref-tooltip-edit-thank' => 'Хаийта соьга, цхьам баркалла аьлча.',
 	'echo-category-title-edit-thank' => 'Баркалла',
+	'notification-thanks' => 'Ахьа «[[:$3]]» агӀонехь $2 хӀара дарна [[User:$1|$1]] {{GENDER:$1|баркалла аьла}}.',
+	'notification-thanks-flyout2' => 'Ахьа хӀара «$2» агӀо таярна [[User:$1|$1]] хьуна {{GENDER:$1|баркалла аьла}}.',
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1|баркалла аьла}} «{{SITENAME}}» сайтехь тадар дарна.',
+	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|баркалла аьла}} ахьа хӀара «$2» агӀо таярна.',
+	'logentry-thanks-thank' => '{{GENDER:$4|декъашхочуна}} $3 $1 {{GENDER:$2|баркалла аьла}}',
 );
 
 /** Sorani Kurdish (کوردی)
@@ -1079,6 +1087,7 @@ $messages['ka'] = array(
 	'thanks-thank' => 'მადლობა',
 	'thanks-button-thank' => '{{GENDER:$1|მადლობა}}',
 	'thanks-confirmation' => 'გსურთ მომხმარებელს $2 {{GENDER:$1|მადლობა გადაუხადოთ}} ამ რედაქტირებისათვის?',
+	'notification-thanks-diff-link' => 'რედაქტირებისათვის',
 	'notification-thanks' => 'მომხმარებელმა [[User:$1|$1]] {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი $2 გვერდზე [[:$3]].',
 	'notification-thanks-flyout2' => 'მომხმარებელმა [[User:$1|$1]] {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი რედაქტირებისათვის გვერდზე $2.',
 	'notification-thanks-email-subject' => 'მომხმარებელმა $1 {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი რედაქტირებისათვის საიტზე {{SITENAME}}',
@@ -1881,7 +1890,7 @@ $messages['sv'] = array(
 	'thanks-button-thanked' => '{{GENDER:$1|Tackat}}',
 	'thanks-error-undefined' => 'Tackåtgärden misslyckades. Var god försök igen.',
 	'thanks-error-invalidrevision' => 'Versions-ID är inte giltigt.',
-	'thanks-error-ratelimited' => 'Du har överskridit din frekvensgräns. Var god vänta en stund och försök igen', # Fuzzy
+	'thanks-error-ratelimited' => '{{GENDER:$1|Du}} har överskridit din frekvensgräns. Var god vänta en stund och försök igen.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Skicka}} ett tackmeddelande till denna {{GENDER:$2|användare}}',
 	'thanks-confirmation' => 'Vill du {{GENDER:$1|tacka}} $2 för denna redigering?',
 	'thanks-thanked-notice' => '$1 meddelades att du gillade {{GENDER:$2|hans|hennes|dennes}} redigering.',
