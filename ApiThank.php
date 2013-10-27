@@ -119,6 +119,12 @@ class ApiThank extends ApiBase {
 		return '';
 	}
 
+	public function getHelpUrls() {
+		return array(
+			'https://www.mediawiki.org/wiki/Extension:Thanks#API_Documentation',
+		);
+	}
+
 	public function getVersion() {
 		return __CLASS__ . '-1.0';
 	}
