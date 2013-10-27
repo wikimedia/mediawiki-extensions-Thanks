@@ -1081,11 +1081,13 @@ $messages['ja'] = array(
 );
 
 /** Georgian (ქართული)
+ * @author BRUTE
  * @author David1010
  */
 $messages['ka'] = array(
 	'thanks-thank' => 'მადლობა',
 	'thanks-button-thank' => '{{GENDER:$1|მადლობა}}',
+	'thanks-button-thanked' => '{{GENDER:$1|მადლობა გადახდილია}}',
 	'thanks-confirmation' => 'გსურთ მომხმარებელს $2 {{GENDER:$1|მადლობა გადაუხადოთ}} ამ რედაქტირებისათვის?',
 	'notification-thanks-diff-link' => 'რედაქტირებისათვის',
 	'notification-thanks' => 'მომხმარებელმა [[User:$1|$1]] {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი $2 გვერდზე [[:$3]].',
