@@ -296,9 +296,11 @@ $messages['bn'] = array(
 );
 
 /** Breton (brezhoneg)
+ * @author VIGNERON
  * @author Y-M D
  */
 $messages['br'] = array(
+	'thanks-desc' => 'Ouzhpenn trugarez liammoù en istor ha dif.',
 	'thanks-thank' => 'trugarez',
 	'thanks-thanked' => '{{GENDER:$1|trugarekaet}}',
 	'thanks-button-thank' => '{{GENDER:$1|Trugarez}}',
@@ -679,6 +681,13 @@ $messages['et'] = array(
 	'log-show-hide-thanks' => '$1 tänulogi',
 );
 
+/** Basque (euskara)
+ * @author Xabier Armendaritz
+ */
+$messages['eu'] = array(
+	'notification-thanks-flyout2' => '[[User:$1|$1]] wikilariak «$2» orrian egin duzun edizioa eskertu dizu.',
+);
+
 /** Persian (فارسی)
  * @author A.R.Rostamzade
  * @author Dalba
@@ -913,6 +922,8 @@ $messages['hr'] = array(
 	'thanks-thank' => 'zahvala',
 	'thanks-thanked' => '{{GENDER:$1|zahvala je objavljena}}',
 	'thanks-button-thanked' => '{{GENDER:$1|Zahvala je objavljena|Zahvala je objavljena}}',
+	'thanks-thank-tooltip' => '{{GENDER:$1|Pošalji}} zahvalu {{GENDER:$2|ovom suradniku|ovoj suradnici}}',
+	'thanks-confirmation' => 'Želite li se zahvaliti {{GENDER:$1|suradniku|suradnici}} $2 za ovo uređivanje?',
 	'echo-pref-tooltip-edit-thank' => 'Obavijesti me kad mi netko zahvali za moju izmjenu.',
 	'echo-category-title-edit-thank' => 'Hvala',
 	'notification-thanks-diff-link' => 'vaše uređivanje',
@@ -1020,6 +1031,7 @@ $messages['ilo'] = array(
 
 /** Italian (italiano)
  * @author Beta16
+ * @author Elitre
  */
 $messages['it'] = array(
 	'thanks-desc' => 'Aggiunge un collegamento per ringraziare nella cronologia e nelle differenze fra versioni',
@@ -1028,7 +1040,7 @@ $messages['it'] = array(
 	'thanks-button-thank' => '{{GENDER:$1|Ringrazia}}',
 	'thanks-button-thanked' => '{{GENDER:$1|Ringraziato|Ringraziata|Ringraziato/a}}',
 	'thanks-error-undefined' => 'Errore durante ringraziamento. Riprova ancora.',
-	'thanks-error-invalidrevision' => 'ID versione non è valido.',
+	'thanks-error-invalidrevision' => "L'ID versione non è valido.",
 	'thanks-error-ratelimited' => "Hai superato il limite massimo di ringraziamenti. Aspetta un po' di tempo e riprova.", # Fuzzy
 	'thanks-thank-tooltip' => '{{GENDER:$1|Invia}} una notifica di ringraziamento a {{GENDER:$2|questo|questa}} utente',
 	'thanks-confirmation' => 'Vuoi {{GENDER:$1|ringraziare}} $2 per questa modifica?',
@@ -1211,6 +1223,7 @@ $messages['lb'] = array(
 	'thanks-desc' => "Setzt 'Merci'Linken bäi den Historique a bäi Versiounsënnerscheeder derbäi",
 	'thanks-thank' => 'merci',
 	'thanks-button-thank' => '{{GENDER:$1|Merci soen}}',
+	'thanks-error-undefined' => "'Merci soen' huet net funktionéiert. Probéiert w.e.g. nach eng Kéier.",
 	'thanks-error-invalidrevision' => 'Versiounsnummer (ID) ass net valabel.',
 	'thanks-thank-tooltip' => '{{GENDER:$2|Dësem Benotzer|Dëser Benotzerin}} ee "Merci" {{GENDER:$1|schécken}}',
 	'echo-pref-subscription-edit-thank' => "'Mercie' fir meng Ännerung",
@@ -1286,16 +1299,16 @@ $messages['mk'] = array(
  * @author Praveenp
  */
 $messages['ml'] = array(
-	'thanks-desc' => 'നാൾവഴിയിലും വ്യത്യാസങ്ങളിലും കൃതജ്ഞത രേഖപ്പെടുത്തുവാനുള്ള കണ്ണികൾ കൂട്ടിച്ചേർക്കുക',
+	'thanks-desc' => 'നാൾവഴിയിലും വ്യത്യാസങ്ങളിലും നന്ദി രേഖപ്പെടുത്തുവാനുള്ള കണ്ണികൾ ചേർക്കുക',
 	'thanks-thank' => 'നന്ദി രേഖപ്പെടുത്തുക',
 	'thanks-thanked' => '{{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}',
 	'thanks-button-thank' => '{{GENDER:$1|നന്ദി രേഖപ്പെടുത്തുക}}',
 	'thanks-button-thanked' => '{{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}',
 	'thanks-error-undefined' => 'നന്ദി രേഖപ്പെടുത്തൽ പരാജയപ്പെട്ടു. ദയവായി വീണ്ടും ശ്രമിക്കുക.',
 	'thanks-error-invalidrevision' => 'നാൾപ്പതിപ്പിന്റെ ഐ.ഡി. അസാധുവാണ്.',
-	'thanks-error-ratelimited' => '{{GENDER:$1|താങ്കളുടെ}} നിരക്കിന്റെ പരിധി അധികരിച്ചിരിക്കുന്നു. ദയവായി അല്പസമയം കാത്തിരുന്ന ശേഷം വീണ്ടും ശ്രമിക്കുക.',
-	'thanks-thank-tooltip' => 'ഈ {{GENDER:$2|ഉപയോക്താവിന്}} താങ്കളുടെ കൃതജ്ഞത അറിയിപ്പ് {{GENDER:$1|അയയ്ക്കുക}}',
-	'thanks-confirmation' => 'ഈ തിരുത്തലിന് $2 എന്ന ഉപയോക്താവിന് {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തണം}} എന്ന് താങ്കൾക്കുറപ്പാണോ?',
+	'thanks-error-ratelimited' => '{{GENDER:$1|താങ്കളുടെ}} പരിധി അധികരിച്ചിരിക്കുന്നു. ദയവായി അല്പസമയം കാത്തിരുന്ന ശേഷം വീണ്ടും ശ്രമിക്കുക.',
+	'thanks-thank-tooltip' => 'ഈ {{GENDER:$2|ഉപയോക്താവിന്}} താങ്കളുടെ കൃതജ്ഞത {{GENDER:$1|അയയ്ക്കുക}}',
+	'thanks-confirmation' => 'ഈ തിരുത്തിന് $2 എന്ന ഉപയോക്താവിന് {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തണം}} എന്ന് താങ്കൾക്കുറപ്പാണോ?',
 	'thanks-thanked-notice' => '$1 എന്ന ഉപയോക്താവിനെ, താങ്കൾക്ക്  {{GENDER:$2|അദ്ദേഹത്തിന്റെ|അവരുടെ|അവരുടെ}} തിരുത്ത് ഇഷ്ടപ്പെട്ടുവെന്ന് അറിയിച്ചു.',
 	'echo-pref-subscription-edit-thank' => 'എന്റെ തിരുത്തിന് എനിക്ക് കൃതജ്ഞത രേഖപ്പെടുത്തുക',
 	'echo-pref-tooltip-edit-thank' => 'ഞാൻ ചെയ്ത തിരുത്തിന് ആരെങ്കിലും നന്ദി രേഖപ്പെടുത്തിയാൽ എന്നെ അറിയിക്കുക.',
@@ -1369,6 +1382,7 @@ $messages['ms'] = array(
 );
 
 /** Maltese (Malti)
+ * @author Chrisportelli
  * @author Leli Forte
  * @author MTSap
  */
@@ -1385,7 +1399,7 @@ $messages['mt'] = array(
 	'thanks-confirmation' => "Trid {{GENDER:$1|tirringrazzja}} 'l $2 għal din il-modifika?",
 	'thanks-thanked-notice' => '$1 {{GENDER:$2|ġie mgħarraf|ġiet mgħarrfa|ġew mgħarrfin}} li għoġbitek il-modifika {{GENDER:$2|tiegħu|tagħha|tagħhom}}.',
 	'echo-pref-subscription-edit-thank' => 'Jirringrazzjani għall-modifika li għamilt',
-	'echo-pref-tooltip-edit-thank' => 'Għarrafni meta xi ħadd jirringrazzjani għal xi modifika li nkun għamilt.',
+	'echo-pref-tooltip-edit-thank' => 'Agħrrafni meta xi ħadd jirringrazzjani għal xi modifika li nkun għamilt.',
 	'echo-category-title-edit-thank' => 'Ringrazzjamenti',
 	'notification-thanks-diff-link' => 'il-modifika tiegħek',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|irringrazzjak|irringrazzjatek}} għal $2 fuq [[:$3]].',
@@ -2131,7 +2145,7 @@ $messages['vi'] = array(
 $messages['vo'] = array(
 	'thanks-thank' => 'danön',
 	'thanks-thanked' => '{{GENDER:$1|pedanon}}',
-	'thanks-button-thank' => 'Danön', # Fuzzy
+	'thanks-button-thank' => '{{GENDER:$1|Danön}}',
 	'thanks-button-thanked' => '{{GENDER:$1|Pedanon}}',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Sedön}} nunädi dana {{GENDER:$2|gebane}} at',
 	'echo-pref-subscription-edit-thank' => 'Danon obi pro redakam oba',
