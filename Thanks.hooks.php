@@ -24,6 +24,7 @@ class ThanksHooks {
 			&& !$wgUser->isAnon()
 			&& $rev->getUser() !== $wgUser->getId()
 			&& !$wgUser->isBlocked()
+			&& !$rev->isDeleted( Revision::DELETED_TEXT )
 		) {
 			$recipient = User::newFromId( $rev->getUser() );
 			$recipientAllowed = true;

@@ -28,6 +28,8 @@ class ApiThank extends ApiBase {
 		$result = array();
 		if ( !$rev ) {
 			$this->dieUsage( 'Revision ID is not valid', 'invalidrevision' );
+		} elseif ( $rev->isDeleted( Revision::DELETED_TEXT ) ) {
+			$this->dieUsage( 'Revision has been deleted', 'revdeleted' );
 		} else {
 			// Do not send notification if session data says "it has already been sent"
 			if ( !$agent->getRequest()->getSessionData( "thanks-thanked-{$rev->getId()}" ) ) {
