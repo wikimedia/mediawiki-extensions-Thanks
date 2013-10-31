@@ -923,7 +923,7 @@ $messages['hr'] = array(
 	'thanks-thanked' => '{{GENDER:$1|zahvala je objavljena}}',
 	'thanks-button-thanked' => '{{GENDER:$1|Zahvala je objavljena|Zahvala je objavljena}}',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Pošalji}} zahvalu {{GENDER:$2|ovom suradniku|ovoj suradnici}}',
-	'thanks-confirmation' => 'Želite li se zahvaliti {{GENDER:$1|suradniku|suradnici}} $2 za ovo uređivanje?',
+	'thanks-confirmation' => 'Želite li se {{GENDER:$1|zahvaliti}} suradniku $2 za ovo uređivanje?',
 	'echo-pref-tooltip-edit-thank' => 'Obavijesti me kad mi netko zahvali za moju izmjenu.',
 	'echo-category-title-edit-thank' => 'Hvala',
 	'notification-thanks-diff-link' => 'vaše uređivanje',
@@ -1041,7 +1041,7 @@ $messages['it'] = array(
 	'thanks-button-thanked' => '{{GENDER:$1|Ringraziato|Ringraziata|Ringraziato/a}}',
 	'thanks-error-undefined' => 'Errore durante ringraziamento. Riprova ancora.',
 	'thanks-error-invalidrevision' => "L'ID versione non è valido.",
-	'thanks-error-ratelimited' => "Hai superato il limite massimo di ringraziamenti. Aspetta un po' di tempo e riprova.", # Fuzzy
+	'thanks-error-ratelimited' => "{{GENDER:$1|Hai superato}} il limite massimo di ringraziamenti. Aspetta un po' di tempo e riprova.",
 	'thanks-thank-tooltip' => '{{GENDER:$1|Invia}} una notifica di ringraziamento a {{GENDER:$2|questo|questa}} utente',
 	'thanks-confirmation' => 'Vuoi {{GENDER:$1|ringraziare}} $2 per questa modifica?',
 	'thanks-thanked-notice' => 'È stato notificato a $1 che ti piace {{GENDER:$2|la sua}} modifica.',
@@ -1892,6 +1892,29 @@ $messages['sr-ec'] = array(
 	'log-show-hide-thanks' => '$1 дневник захваљивања',
 );
 
+/** Serbian (Latin script) (srpski (latinica)‎)
+ * @author Milicevic01
+ */
+$messages['sr-el'] = array(
+	'thanks-desc' => 'Dodaje mogućnost zahvaljivanja u pregledu istorije i pregledu razlika između izmena',
+	'thanks-thank' => 'zahvali se',
+	'thanks-thanked' => '{{GENDER:$1|zahvalio se|zahvalila se}}',
+	'thanks-error-undefined' => 'Zahvaljivanje nije uspelo. Pokušajte ponovo.',
+	'thanks-thank-tooltip' => '{{GENDER:$1|Pošaljite}} zahvalnicu {{GENDER:$2|ovom korisniku|ovoj korisnici}}',
+	'echo-pref-tooltip-edit-thank' => 'Obaveštava vas kada vam se neko zahvali za izmenu koju ste načinili.',
+	'echo-category-title-edit-thank' => 'Zahvalnice',
+	'notification-thanks-diff-link' => 'vašoj izmeni',
+	'notification-thanks' => '[[User:$1|$1]] vam se {{GENDER:$1|zahvaljuje}} na $2 stranice [[:$3]].',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] vam se {{GENDER:$1|zahvaljuje}} za vašu izmenu na stranici $2.',
+	'notification-thanks-email-subject' => '$1 vam se {{GENDER:$1|zahvaljuje}} za vašu izmenu na {{SITENAME}}',
+	'notification-thanks-email-batch-body' => '$1 vam se {{GENDER:$1|zahvaljuje}} za vašu izmenu na stranici $2.',
+	'notification-link-text-respond-to-user' => 'Odgovori korisniku',
+	'log-name-thanks' => 'Dnevnik zahvalnica',
+	'log-description-thanks' => 'Ispod se nalazi spisak korisnika kojima su se drugi korisnici zahvalili.',
+	'logentry-thanks-thank' => '$1 se {{GENDER:$2|zahvaljuje}} korisniku {{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => '$1 dnevnik zahvaljivanja',
+);
+
 /** Swedish (svenska)
  * @author Ainali
  * @author Jopparn
@@ -2166,6 +2189,16 @@ $messages['vo'] = array(
  * @author פוילישער
  */
 $messages['yi'] = array(
+	'thanks-thank' => 'דאַנק',
+	'thanks-thanked' => '{{GENDER:$1|געדאַנקט}}',
+	'thanks-button-thank' => '{{GENDER:$1|דאַנקען}}',
+	'thanks-button-thanked' => '{{GENDER:$1|געדאַנקט}}',
+	'thanks-error-undefined' => 'דאנק אקציע אדורכגעפאלן. זייט אזוי גוט פרובירט נאכאמאל.',
+	'thanks-error-invalidrevision' => 'רעוויסיע אידענטיפיצורונג נישט גילטיק.',
+	'thanks-confirmation' => 'צי ווילט איר {{GENDER:$1|דאַנקען}} $2 פאר דער רעדאקטירונג?',
+	'echo-category-title-edit-thank' => 'אַ דאַנק',
+	'notification-thanks-diff-link' => 'אײַער רעדאקטירונג',
+	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|האט געדאנקט}} דיך פֿאר $2 אויף [[:$3]].',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|האט געדאנקט}} {{GENDER:$4|$3}}',
 );
 
