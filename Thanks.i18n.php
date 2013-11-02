@@ -1179,6 +1179,36 @@ $messages['ko'] = array(
 	'log-show-hide-thanks' => '감사 기록을 $1',
 );
 
+/** Karachay-Balkar (къарачай-малкъар)
+ * @author Iltever
+ */
+$messages['krc'] = array(
+	'thanks-thank' => 'сау бол де',
+	'thanks-thanked' => '{{GENDER:$1|сау бол деди}}',
+	'thanks-button-thank' => '{{GENDER:$1|Сау бол де}}',
+	'thanks-button-thanked' => '{{GENDER:$1|Сау бол айтылды}}',
+	'thanks-error-undefined' => 'Сау бол айтылалмады. Джангыдан кёрюгюз.',
+	'thanks-error-invalidrevision' => 'Версияны номери тюз тюлдю.',
+	'thanks-error-ratelimited' => '{{GENDER:$1|Сиз}}, терклик чекни оздугъуз. Бираз сакълаб, джангыдан кёрюгюз.',
+	'thanks-thank-tooltip' => 'Бу {{GENDER:$2|къошулуучугъа}} {{GENDER:$1|ыспас билдириу джибер}}',
+	'thanks-confirmation' => 'Бу тюрлендириу ючюн $2 къошулуучугъа {{GENDER:$1|сау бол айтыргъа}}
+излеймисиз?',
+	'thanks-thanked-notice' => '$1 къошулуучугъа {{GENDER:$2|аны|аны|аланы}} тюрлендириуюн джаратханыгъыз билдирилди.',
+	'echo-pref-subscription-edit-thank' => 'Тюрлендириуюм ючюн меннге ыспас',
+	'echo-pref-tooltip-edit-thank' => 'Ким болса да, этген тюрлендириуюм ючюн сау бол десе, меннге билдир.',
+	'echo-category-title-edit-thank' => 'Сау бол',
+	'notification-thanks-diff-link' => 'тюрлендириуюгюз',
+	'notification-thanks' => '[[User:$1|$1]], «[[:$3]]» бетдеги $2 тюрлендириуюгюз ючюн сизге сау бол {{GENDER:$1|айтды}}.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]], «$2» бетдеги тюрлендириуюгюз ючюн сизге {{GENDER:$1|поблагодарил|сай бол айтды}}.',
+	'notification-thanks-email-subject' => '$1, «{{SITENAME}}» сайтдагъы тюрлендириуюгюз ючюн {{GENDER:$1|сау бол айтды}}.',
+	'notification-thanks-email-batch-body' => '$1, «$2» бетдеги тюрлендириуюгюз ючюн {{GENDER:$1|сау бол айтды}}.',
+	'notification-link-text-respond-to-user' => 'Къошулуучугъа джууаб бер',
+	'log-name-thanks' => 'Сау бол айтыу журнал',
+	'log-description-thanks' => 'Тюбюрекде, башха къошулуучуладан ыспас алгъан къошулуучуланы тизмесиди.',
+	'logentry-thanks-thank' => '$1, $3 {{GENDER:$4|къошулуучугъа}} {{GENDER:$2|сау бол айтды}}',
+	'log-show-hide-thanks' => '$1 сай бол айтыу журнал',
+);
+
 /** Kyrgyz (Кыргызча)
  * @author Викиней
  */
@@ -1218,14 +1248,16 @@ $messages['la'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
-	'thanks-desc' => "Setzt 'Merci'Linken bäi den Historique a bäi Versiounsënnerscheeder derbäi",
+	'thanks-desc' => "Setzt 'Merci'-Linken bei den Historique a bei Versiounsënnerscheeder derbäi",
 	'thanks-thank' => 'merci',
 	'thanks-button-thank' => '{{GENDER:$1|Merci soen}}',
 	'thanks-error-undefined' => "'Merci soen' huet net funktionéiert. Probéiert w.e.g. nach eng Kéier.",
 	'thanks-error-invalidrevision' => 'Versiounsnummer (ID) ass net valabel.',
 	'thanks-thank-tooltip' => '{{GENDER:$2|Dësem Benotzer|Dëser Benotzerin}} ee "Merci" {{GENDER:$1|schécken}}',
+	'thanks-confirmation' => "Wëllt Dir dem $2 'Merci soen', fir {{GENDER:$1|hir|seng}} Ännerung?",
 	'echo-pref-subscription-edit-thank' => "'Mercie' fir meng Ännerung",
 	'echo-pref-tooltip-edit-thank' => 'Mech Informéieren wann ee mir fir eng Ännerung déi ech gemaach hu Merci seet.',
 	'echo-category-title-edit-thank' => 'Merci',
@@ -2196,6 +2228,8 @@ $messages['yi'] = array(
 	'thanks-error-undefined' => 'דאנק אקציע אדורכגעפאלן. זייט אזוי גוט פרובירט נאכאמאל.',
 	'thanks-error-invalidrevision' => 'רעוויסיע אידענטיפיצורונג נישט גילטיק.',
 	'thanks-confirmation' => 'צי ווילט איר {{GENDER:$1|דאַנקען}} $2 פאר דער רעדאקטירונג?',
+	'echo-pref-subscription-edit-thank' => 'דאנקט מיך פאר מיין רעדאקטירונג',
+	'echo-pref-tooltip-edit-thank' => 'זיי מיך מודיע ווען איינער דאנקט מיך פאר א רעדאקטירונג מיינע.',
 	'echo-category-title-edit-thank' => 'אַ דאַנק',
 	'notification-thanks-diff-link' => 'אײַער רעדאקטירונג',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|האט געדאנקט}} דיך פֿאר $2 אויף [[:$3]].',
