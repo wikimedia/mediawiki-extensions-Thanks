@@ -59,6 +59,7 @@ $wgHooks['BeforeCreateEchoEvent'][] = 'ThanksHooks::onBeforeCreateEchoEvent';
 $wgHooks['EchoGetDefaultNotifiedUsers'][] = 'ThanksHooks::onEchoGetDefaultNotifiedUsers';
 $wgHooks['AddNewAccount'][] = 'ThanksHooks::onAccountCreated';
 $wgHooks['BeforeSpecialMobileDiffDisplay'][] = 'ThanksHooks::onBeforeSpecialMobileDiffDisplay';
+$wgHooks['UnitTestsList'][] = 'ThanksHooks::registerUnitTests';
 
 // Register modules
 $wgResourceModules['ext.thanks'] = array(

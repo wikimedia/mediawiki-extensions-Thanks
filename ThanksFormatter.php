@@ -27,6 +27,7 @@ class EchoThanksFormatter extends EchoBasicFormatter {
 					)
 				)
 			);
+
 		} else {
 			parent::processParam( $event, $param, $message, $user );
 		}
