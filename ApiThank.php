@@ -7,78 +7,115 @@
  */
 class ApiThank extends ApiBase {
 	public function execute() {
-		global $wgThanksLogging;
+		$this->dieIfEchoNotInstalled();
 
+		$user = $this->getUser();
+		$this->dieOnBadUser( $user );
+
+		$params = $this->extractRequestParams();
+		$revision = $this->getRevisionFromParams( $params );
+
+		if ( $this->userAlreadySentThanksForRevision( $user, $revision ) ) {
+			$this->markResultSuccess();
+		} else {
+			$this->sendThanks(
+				$user,
+				$revision,
+				$this->getSourceFromParams( $params )
+			);
+		}
+	}
+
+	private function userAlreadySentThanksForRevision( User $user, Revision $revision ) {
+		return $user->getRequest()->getSessionData( "thanks-thanked-{$revision->getId()}" );
+	}
+
+	private function dieIfEchoNotInstalled() {
 		if ( !class_exists( 'EchoNotifier' ) ) {
 			$this->dieUsage( 'Echo is not installed on this wiki', 'echonotinstalled' );
 		}
+	}
 
-		$agent = $this->getUser();
-		if ( $agent->isAnon() ) {
+	private function dieOnBadUser( User $user ) {
+		if ( $user->isAnon() ) {
 			$this->dieUsage( 'Anonymous users cannot send thanks', 'notloggedin' );
-		}
-		if ( $agent->pingLimiter( 'thanks-notification' ) ) {
+		} elseif ( $user->pingLimiter( 'thanks-notification' ) ) {
 			$this->dieUsageMsg( array( 'actionthrottledtext' ) );
-		}
-		if ( $agent->isBlocked() ) {
+		} elseif ( $user->isBlocked() ) {
 			$this->dieUsageMsg( array( 'blockedtext' ) );
 		}
-		$params = $this->extractRequestParams();
-		$rev = Revision::newFromId( $params['rev'] );
-		$result = array();
-		if ( !$rev ) {
+	}
+
+	private function getRevisionFromParams( $params ) {
+		$revision = Revision::newFromId( $params['rev'] );
+		if ( !$revision ) {
 			$this->dieUsage( 'Revision ID is not valid', 'invalidrevision' );
-		} elseif ( $rev->isDeleted( Revision::DELETED_TEXT ) ) {
+		} elseif ( $revision->isDeleted( Revision::DELETED_TEXT ) ) {
 			$this->dieUsage( 'Revision has been deleted', 'revdeleted' );
-		} else {
-			// Do not send notification if session data says "it has already been sent"
-			if ( !$agent->getRequest()->getSessionData( "thanks-thanked-{$rev->getId()}" ) ) {
-				$title = Title::newFromID( $rev->getPage() );
-				if ( !$title ) {
-					$this->dieUsage( 'Page title could not be retrieved', 'notitle' );
-				}
-
-				// Get the user ID of the user who performed the edit
-				$recipient = $rev->getUser();
-
-				if ( !$recipient ) {
-					$this->dieUsage( 'No valid recipient found', 'invalidrecipient' );
-				} else {
-					// Set the source of the thanks, e.g. 'diff' or 'history'
-					if ( $params['source'] ) {
-						$source = trim( $params['source'] );
-					} else {
-						$source = 'undefined';
-					}
-					// Create the notification via Echo extension
-					EchoEvent::create( array(
-						'type' => 'edit-thank',
-						'title' => $title,
-						'extra' => array(
-							'revid' => $rev->getId(),
-							'thanked-user-id' => $recipient,
-							'source' => $source,
-						),
-						'agent' => $agent,
-					) );
-					// Mark the thank in session to prevent duplicates (Bug 46690)
-					$agent->getRequest()->setSessionData( "thanks-thanked-{$rev->getId()}", true );
-					// Set success message
-					$result['success'] = '1';
-					// Log it if we're supposed to log it
-					if ( $wgThanksLogging ) {
-						$logEntry = new ManualLogEntry( 'thanks', 'thank' );
-						$logEntry->setPerformer( $agent );
-						$target = User::newFromId( $recipient )->getUserPage();
-						$logEntry->setTarget( $target );
-						$logid = $logEntry->insert();
-					}
-				}
-			} else {
-				$result['success'] = '1';
-			}
 		}
-		$this->getResult()->addValue( null, 'result', $result );
+		return $revision;
+	}
+
+	private function getTitleFromRevision( Revision $revision ) {
+		$title = Title::newFromID( $revision->getPage() );
+		if ( !$title instanceof Title ) {
+			$this->dieUsage( 'Page title could not be retrieved', 'notitle' );
+		}
+		return $title;
+	}
+
+	/**
+	 * Set the source of the thanks, e.g. 'diff' or 'history'
+	 */
+	private function getSourceFromParams( $params ) {
+		if ( $params['source'] ) {
+			return trim( $params['source'] );
+		} else {
+			return 'undefined';
+		}
+	}
+
+	private function getUserIdFromRevision( Revision $revision ) {
+		$recipient = $revision->getUser();
+		if ( !$recipient ) {
+			$this->dieUsage( 'No valid recipient found', 'invalidrecipient' );
+		}
+		return $recipient;
+	}
+
+	private function markResultSuccess(){
+		$this->getResult()->addValue( null, 'result', array( 'success' => 1 ) );
+	}
+
+	private function sendThanks( User $user, Revision $revision, $source  ) {
+		global $wgThanksLogging;
+		$title = $this->getTitleFromRevision( $revision );
+		$recipient = $this->getUserIdFromRevision( $revision );
+
+		// Create the notification via Echo extension
+		EchoEvent::create( array(
+			'type' => 'edit-thank',
+			'title' => $title,
+			'extra' => array(
+				'revid' => $revision->getId(),
+				'thanked-user-id' => $recipient,
+				'source' => $source,
+			),
+			'user' => $user,
+		) );
+
+		// Mark the thank in session to prevent duplicates (Bug 46690)
+		$user->getRequest()->setSessionData( "thanks-thanked-{$revision->getId()}", true );
+		// Set success message
+		$this->markResultSuccess();
+		// Log it if we're supposed to log it
+		if ( $wgThanksLogging ) {
+			$logEntry = new ManualLogEntry( 'thanks', 'thank' );
+			$logEntry->setPerformer( $user );
+			$target = User::newFromId( $recipient )->getUserPage();
+			$logEntry->setTarget( $target );
+			$logEntry->insert();
+		}
 	}
 
 	public function getDescription() {
@@ -135,4 +172,5 @@ class ApiThank extends ApiBase {
 	public function getVersion() {
 		return __CLASS__ . '-1.0';
 	}
+
 }
