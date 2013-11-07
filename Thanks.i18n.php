@@ -1940,7 +1940,7 @@ $messages['sr-ec'] = array(
 	'notification-link-text-respond-to-user' => 'Одговори кориснику',
 	'log-name-thanks' => 'Дневник захвалница',
 	'log-description-thanks' => 'Испод се налази списак корисника којима су се други корисници захвалили.',
-	'logentry-thanks-thank' => '$1 се {{GENDER:$2|захваљује}} кориснику {{GENDER:$4|$3}}',
+	'logentry-thanks-thank' => '$1 се {{GENDER:$2|захвалио|захвалила}} кориснику {{GENDER:$4|$3}}',
 	'log-show-hide-thanks' => '$1 дневник захваљивања',
 );
 
@@ -1963,7 +1963,7 @@ $messages['sr-el'] = array(
 	'notification-link-text-respond-to-user' => 'Odgovori korisniku',
 	'log-name-thanks' => 'Dnevnik zahvalnica',
 	'log-description-thanks' => 'Ispod se nalazi spisak korisnika kojima su se drugi korisnici zahvalili.',
-	'logentry-thanks-thank' => '$1 se {{GENDER:$2|zahvaljuje}} korisniku {{GENDER:$4|$3}}',
+	'logentry-thanks-thank' => '$1 se {{GENDER:$2|zahvalio|zahvalila}} korisniku {{GENDER:$4|$3}}',
 	'log-show-hide-thanks' => '$1 dnevnik zahvaljivanja',
 );
 
@@ -2152,6 +2152,36 @@ $messages['uk'] = array(
  */
 $messages['ur'] = array(
 	'thanks-thanked' => '{{GENDER:$1|کا شکریہ ادا کیا}}',
+);
+
+/** Uzbek (oʻzbekcha)
+ * @author Abdulla
+ * @author Nataev
+ */
+$messages['uz'] = array(
+	'thanks-thank' => 'rahmat',
+	'thanks-thanked' => '{{GENDER:$1|rahmat aytildi}}',
+	'thanks-button-thank' => '{{GENDER:$1|Rahmat}}',
+	'thanks-button-thanked' => '{{GENDER:$1|Rahmat aytildi}}',
+	'thanks-error-undefined' => 'Rahmat yetkazilmadi. Iltimos takrorlang.',
+	'thanks-error-invalidrevision' => 'Versiya raqami notoʻgʻri.',
+	'thanks-error-ratelimited' => '{{GENDER:$1|Siz}} bu amallarni haddan oshiq tez bajaryapsiz. Iltimos bir oz kuting va takrorlang.',
+	'thanks-thank-tooltip' => 'Bu {{GENDER:$2|foydalanuvchiga}} rahmat {{GENDER:$1|ayt}}',
+	'thanks-confirmation' => 'Bu tahrir uchun $2ga {{GENDER:$1|rahmat}} aytmoqchimisiz?',
+	'thanks-thanked-notice' => '$1ga {{GENDER:$2|uning|uning|ularning}} tahririni yoqtirganingiz haqida bildirildi.',
+	'echo-pref-subscription-edit-thank' => 'Tahririm uchun menga rahmat aytildi',
+	'echo-pref-tooltip-edit-thank' => 'Tahririm uchun rahmat aytilsa menga bildir.',
+	'echo-category-title-edit-thank' => 'Rahmat',
+	'notification-thanks-diff-link' => 'tahriringiz',
+	'notification-thanks' => '[[User:$1|$1]] [[:$3]] sahifasidagi $2 tahriringiz uchun sizga {{GENDER:$1|rahmat aytdi}}.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] $2 sahifasidagi tahriringiz uchun sizga {{GENDER:$1|rahmat}} aytdi.',
+	'notification-thanks-email-subject' => '$1 {{SITENAME}} tahriri uchun sizga {{GENDER:$1|rahmat}} aytdi',
+	'notification-thanks-email-batch-body' => '$1 $2 sahifasidagi tahriringiz uchun sizga {{GENDER:$1|rahmat aytdi}}.',
+	'notification-link-text-respond-to-user' => 'Foydalanuvchiga javob qil',
+	'log-name-thanks' => 'Rahmatlar qaydi',
+	'log-description-thanks' => 'Quyida rahmat aytilgan foydalanuvchilar roʻyxati keltirilgan.',
+	'logentry-thanks-thank' => '$1 {{GENDER:$4|$3}}ga {{GENDER:$2|rahmat aytdi}}',
+	'log-show-hide-thanks' => '$1 rahmatlar qaydi',
 );
 
 /** vèneto (vèneto)
