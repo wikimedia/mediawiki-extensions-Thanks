@@ -194,6 +194,7 @@ $messages['az'] = array(
 );
 
 /** Belarusian (беларуская)
+ * @author Дзяніс Тутэйшы
  * @author Чаховіч Уладзіслаў
  */
 $messages['be'] = array(
@@ -211,14 +212,14 @@ $messages['be'] = array(
 	'echo-pref-tooltip-edit-thank' => 'Паведамляць мне, калі хтосьці дзякуе мяне за зробленую мной праўку.',
 	'echo-category-title-edit-thank' => 'Дзякуй',
 	'notification-thanks-diff-link' => 'вашу праўку',
-	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|падзякаваў|падзякавала}} вас за $2 на старонцы «[[:$3]]».',
-	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|падзякаваў|падзякавала}} вас за вашу праўку на старонцы «$2».',
-	'notification-thanks-email-subject' => '$1 {{GENDER:$1|падзякаваў|падзякавала}} вас за вашу праўку на сайце «{{SITENAME}}».',
-	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|падзякаваў|падзякавала}} вас за вашу праўку на старонцы «$2».',
+	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|падзякаваў|падзякавала}} вам за $2 на старонцы «[[:$3]]».',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|падзякаваў|падзякавала}} вам за вашу праўку на старонцы «$2».',
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1|падзякаваў|падзякавала}} вам за вашу праўку на сайце «{{SITENAME}}».',
+	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|падзякаваў|падзякавала}} вам за вашу праўку на старонцы «$2».',
 	'notification-link-text-respond-to-user' => 'Адказаць удзельніку',
 	'log-name-thanks' => 'Часопіс падазяк',
 	'log-description-thanks' => 'Ніжэй прыведзены спіс удзельнікаў, якія атрымалі падзякі ад іншых удзельнікаў.',
-	'logentry-thanks-thank' => '$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$4|удзельніка|ўдзельніцу}} $3',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$4|удзельніку|ўдзельніцы}} $3',
 	'log-show-hide-thanks' => '$1 журнал падзяк',
 );
 
@@ -685,6 +686,8 @@ $messages['et'] = array(
  * @author Xabier Armendaritz
  */
 $messages['eu'] = array(
+	'thanks-thank' => 'eskertu',
+	'thanks-button-thank' => '{{GENDER:$1|Eskertu}}',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] wikilariak «$2» orrian egin duzun edizioa eskertu dizu.',
 );
 
@@ -854,6 +857,36 @@ $messages['gl'] = array(
 	'log-show-hide-thanks' => '$1 o rexistro de agradecementos',
 );
 
+/** Gujarati (ગુજરાતી)
+ * @author Dsvyas
+ */
+$messages['gu'] = array(
+	'thanks-desc' => 'ઇતિહાસ અને તફાવત બતાવતી વખતે આભાર માટેની કડી ઉમેરે છે',
+	'thanks-thank' => 'આભારા માનો',
+	'thanks-thanked' => '{{GENDER:$1|આભાર માન્યો}}',
+	'thanks-button-thank' => '{{GENDER:$1|આભાર માનો}}',
+	'thanks-button-thanked' => '{{GENDER:$1|આભાર માન્યો}}',
+	'thanks-error-undefined' => 'આભારની ક્રિયા  નિષ્ફળ ગઈ છે. ફરી પ્રયત્ન કરો.',
+	'thanks-error-invalidrevision' => 'પુનરાવર્તન આઇ.ડી. માન્ય નથી.',
+	'thanks-error-ratelimited' => '{{GENDER:$1|તમે}} તમારી ગુણાંકન સીમા વટાવી ચૂક્યા છો. કૃપા કરી થોડો સમય રાહ જુઓ અને પછી પ્રયત્ન કરો.',
+	'thanks-thank-tooltip' => '{{GENDER:$2|આ સભ્યને}} આભાર સંદેશો {{GENDER:$1|મોકલો}}',
+	'thanks-confirmation' => 'શું તમે આ ફેરફાર માટે $2નો {{GENDER:$1|આભાર}} માનવા ચાહો છો?',
+	'thanks-thanked-notice' => '$1ને માહિતગાર કરવામાં આવ્યા છે કે તમને {{GENDER:$2|તેમણે}} કરેલો ફેરફાર ગમ્યો છે.',
+	'echo-pref-subscription-edit-thank' => 'મેં કરેલા ફેરફાર માટે મારો આભાર માને છે',
+	'echo-pref-tooltip-edit-thank' => 'મેં કરેલા ફેરફાર માટે કોઈ મારો આભાર માને ત્યારે મને જણાવો.',
+	'echo-category-title-edit-thank' => 'આભાર',
+	'notification-thanks-diff-link' => 'તમે કરેલો ફેરફાર',
+	'notification-thanks' => '[[:$3]]માંના $2 માટે [[User:$1|$1]]એ તમારો {{GENDER:$1|આભાર માન્યો}}.',
+	'notification-thanks-flyout2' => '$2 પરના તમારા ફેરફાર માટે [[User:$1|$1]]એ તમારો {{GENDER:$1|આભાર માન્યો}}.',
+	'notification-thanks-email-subject' => '{{SITENAME}} પરના તમારા ફેરફાર માટે $1એ તમારો {{GENDER:$1|આભાર માન્યો}}.',
+	'notification-thanks-email-batch-body' => '$2 પરના તમારા ફેરફાર માટે $1એ તમારો {{GENDER:$1|આભાર માન્યો}}.',
+	'notification-link-text-respond-to-user' => 'સભ્યને પ્રત્યુત્તર પાઠવો',
+	'log-name-thanks' => 'આભાર નોંધ',
+	'log-description-thanks' => 'નીચે એવા સભ્યોની યાદિ આપી છે જેમનો અન્ય સભ્યોએ આભાર માન્યો હોય.',
+	'logentry-thanks-thank' => '$1એ {{GENDER:$4|$3}}નો {{GENDER:$2|આભાર માન્યો}}',
+	'log-show-hide-thanks' => '$1 આભાર નોંધ',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  * @author Guycn1
@@ -1013,7 +1046,7 @@ $messages['ilo'] = array(
 	'thanks-button-thanked' => '{{GENDER:$1|Nayamanan}}',
 	'thanks-error-undefined' => 'Napaay ti tignay a panagyaman. Pangngaasi a padasen manen.',
 	'thanks-error-invalidrevision' => 'Saan nga umiso to ID ti panagbaliw.',
-	'thanks-error-ratelimited' => 'Nalabesamon ti patingga ti gatadmo. Pangngaasi nga agurayka bassit ken padasem manen.', # Fuzzy
+	'thanks-error-ratelimited' => '{{GENDER:$1|Sika}} ket nalabesamon ti patingga ti gatadmo. Pangngaasi nga agurayka bassit ken padasem manen.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Agipatulod}} ti pakaammo a panagyaman iti daytoy nga {{GENDER:$2|agar-aramat}}',
 	'thanks-confirmation' => 'Kayatmo kadi ti {{GENDER:$1|agyaman}} kenni $2 para iti daytoy nga inurnos?',
 	'thanks-thanked-notice' => 'Naipaammo idi kenni $1 a kinayatmo {{GENDER:$2|ti|dagiti}} inurnosda.',
