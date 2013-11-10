@@ -957,6 +957,7 @@ $messages['hi'] = array(
 $messages['hr'] = array(
 	'thanks-thank' => 'zahvala',
 	'thanks-thanked' => '{{GENDER:$1|zahvala je objavljena}}',
+	'thanks-button-thank' => '{{GENDER:$1|Zahvala je objavljena|Zahvala je objavljena}}',
 	'thanks-button-thanked' => '{{GENDER:$1|Zahvala je objavljena|Zahvala je objavljena}}',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Pošalji}} zahvalu {{GENDER:$2|ovom suradniku|ovoj suradnici}}',
 	'thanks-confirmation' => 'Želite li {{GENDER:$1|zahvaliti}} suradniku $2 za ovo uređivanje?',
@@ -970,7 +971,7 @@ $messages['hr'] = array(
 	'notification-link-text-respond-to-user' => 'Odgovor suradniku',
 	'log-name-thanks' => 'Evidencija zahvala',
 	'log-description-thanks' => 'Slijedi popis suradnika koji su drugim suradnicima objavili zahvalu.',
-	'logentry-thanks-thank' => '$1 je {{GENDER:$2|zahvalio|zahvalila}} {{GENDER:$4|suradniku|suradnici}} {{GENDER:$4|$3}}',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|zahvalio|zahvalila}} je {{GENDER:$4|suradniku|suradnici}} {{GENDER:$4|$3}}',
 );
 
 /** Hungarian (magyar)
