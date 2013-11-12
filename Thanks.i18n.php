@@ -566,6 +566,20 @@ $messages['de'] = array(
 	'log-show-hide-thanks' => 'Dankeschön-Logbuch $1',
 );
 
+/** Zazaki (Zazaki)
+ * @author Gorizon
+ */
+$messages['diq'] = array(
+	'thanks-thank' => 'teşekur',
+	'thanks-thanked' => '{{GENDER:$1|teşekur ke}}',
+	'thanks-button-thank' => '{{GENDER:$1|Teşekur}}',
+	'thanks-button-thanked' => '{{GENDER:$1|teşekur ke}}',
+	'echo-category-title-edit-thank' => 'Teşekuri',
+	'log-name-thanks' => 'Qeydé tşekuran',
+	'logentry-thanks-thank' => "$1'i  {{GENDER:$4|$3}}'ré {{GENDER:$2|teşekur ke}}",
+	'log-show-hide-thanks' => 'Qeydé teşekuré $1',
+);
+
 /** Greek (Ελληνικά)
  * @author Geraki
  */
@@ -1382,8 +1396,8 @@ $messages['ml'] = array(
 	'echo-pref-subscription-edit-thank' => 'എന്റെ തിരുത്തിന് എനിക്ക് കൃതജ്ഞത രേഖപ്പെടുത്തുക',
 	'echo-pref-tooltip-edit-thank' => 'ഞാൻ ചെയ്ത തിരുത്തിന് ആരെങ്കിലും നന്ദി രേഖപ്പെടുത്തിയാൽ എന്നെ അറിയിക്കുക.',
 	'echo-category-title-edit-thank' => 'നന്ദി',
-	'notification-thanks-diff-link' => 'താങ്കളുടെ തിരുത്ത്',
-	'notification-thanks' => '[[:$3]] എന്ന താളിൽ താങ്കൾ ചെയ്ത  $2 എന്ന തിരുത്തിന് [[User:$1|$1]] {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}',
+	'notification-thanks-diff-link' => 'താങ്കളുടെ തിരുത്തിന്',
+	'notification-thanks' => '[[:$3]] എന്ന താളിലെ,  $2  [[User:$1|$1]] {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}',
 	'notification-thanks-flyout2' => '$2 എന്ന താളിൽ താങ്കൾ ചെയ്ത തിരുത്തിന് [[User:$1|$1]] {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}',
 	'notification-thanks-email-subject' => '{{SITENAME}} സംരംഭത്തിൽ താങ്കൾ ചെയ്ത തിരുത്തിന് $1 {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}',
 	'notification-thanks-email-batch-body' => '$2 എന്ന താളിൽ താങ്കൾ ചെയ്ത തിരുത്തിന് $1 {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}',
