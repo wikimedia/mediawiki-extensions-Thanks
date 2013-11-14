@@ -989,6 +989,7 @@ $messages['hr'] = array(
 );
 
 /** Hungarian (magyar)
+ * @author Misibacsi
  * @author Samat
  * @author Southparkfan
  * @author Teemeah
@@ -1008,7 +1009,7 @@ $messages['hu'] = array(
 	'echo-pref-tooltip-edit-thank' => 'Értesítést kérek, ha valaki megköszöni egy szerkesztésemet.',
 	'echo-category-title-edit-thank' => 'köszönet',
 	'notification-thanks-diff-link' => 'a szerkesztésed',
-	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|megköszönte}} a $2 szerkesztésed a(z) [[:$3]] szócikkben.',
+	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|megköszönte}} $2 a(z) [[:$3]] szócikkben.',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|megköszönte}} a szerkesztésed a(z) $2 szócikkben.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|megköszönte}} a(z) {{SITENAME}} oldalon tett szerkesztésedet.',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|megköszönte}} a(z) $2 lapon tett szerkesztésedet.',
@@ -1017,6 +1018,36 @@ $messages['hu'] = array(
 	'log-description-thanks' => 'Az alábbi szerkesztők köszönetet mondtak egy másik szerkesztőnek.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|köszönetet mondott}} {{GENDER:$4|$3}} szerkesztőnek.',
 	'log-show-hide-thanks' => 'Köszönetnapló $1',
+);
+
+/** Armenian (Հայերեն)
+ * @author Vacio
+ */
+$messages['hy'] = array(
+	'thanks-desc' => 'Ավելացնում է «Մերսի» հղումը էջի պատմության և խմբագրումների տարբերությունների մեջ',
+	'thanks-thank' => 'մերսի ասել',
+	'thanks-thanked' => '{{GENDER:$1|մերսի է ասվել}}',
+	'thanks-button-thank' => '{{GENDER:$1|մերսի ասել}}',
+	'thanks-button-thanked' => '{{GENDER:$1|Մերսի է ասվել}}',
+	'thanks-error-undefined' => 'Մերսի ասել չստացվեց։ Նորից փորձեք։',
+	'thanks-error-invalidrevision' => 'Խմբագրման համարանիշը վավեր չէ։',
+	'thanks-error-ratelimited' => '{{GENDER:$1|Դուք}} արդեն շատ եք մերսի ասել։ Սպասեք որոշ ժամանակ և նորից փորձեք։',
+	'thanks-thank-tooltip' => '{{GENDER:$1|Ուղարկեք}} մերսի այս {{GENDER:$2|մասնակցին}}',
+	'thanks-confirmation' => 'Ուզո՞ւմ եք {{GENDER:$1|մերսի}} ասել $2֊ին այս խմբագրման համար։',
+	'thanks-thanked-notice' => '$1-ը ծանուցում է ստացել, որ դուք հավանել եք {{GENDER:$2|իր}} խմբագրումը։',
+	'echo-pref-subscription-edit-thank' => 'Մերսի է ասում իմ խմբագրման համար',
+	'echo-pref-tooltip-edit-thank' => 'Տեղեկացրու ինձ, երբ ինչ֊որ մեկն ինձ մերսի է ասում իմ կատարած խմբագրման համար։',
+	'echo-category-title-edit-thank' => 'Մերսի՜',
+	'notification-thanks-diff-link' => 'քո խմբագրումը',
+	'notification-thanks' => '[[Մասնակից:$1|$1]]֊ը ձեզ {{GENDER:$1|մերսի է ասել} [[:$3]]֊ում $2֊ի համար.', # Fuzzy
+	'notification-thanks-flyout2' => '[[Մասնակից:$1|$1]]֊ը ձեզ {{GENDER:$1|մերսի է ասել}} $2֊ում ձեր խմբագրման համար։', # Fuzzy
+	'notification-thanks-email-subject' => '$1֊ը ձեզ {{GENDER:$1|մերսի է ասել}} {{SITENAME}}֊ում ձեր խմբագրման համար',
+	'notification-thanks-email-batch-body' => '$1֊ը ձեզ {{GENDER:$1|մերսի է ասել}} $2֊ում ձեր խմբագրման համար։',
+	'notification-link-text-respond-to-user' => 'Պատասխանել մասնակցին',
+	'log-name-thanks' => 'Մերսիների գրանցամատյան',
+	'log-description-thanks' => 'Ստորև մերսիներ ստացած մասնակիցների ցանկն է։',
+	'logentry-thanks-thank' => '$1֊ը {{GENDER:$2|մերսի է ասել}} {{GENDER:$4|$3}}֊ին',
+	'log-show-hide-thanks' => '$1 մերսիների գրանցամատյան',
 );
 
 /** Indonesian (Bahasa Indonesia)
