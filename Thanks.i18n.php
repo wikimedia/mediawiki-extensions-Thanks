@@ -57,6 +57,9 @@ It can be translated as \"''thanked''\" in \"You thanked the user\" or \"The use
 Parameters:
 * \$1 - the current user, for GENDER support",
 	'thanks-button-thank' => 'Text of a button to thank another user. Same as {{msg-mw|Thanks-thank}}, but the context is in a button.
+
+Parameters:
+* $1 - user object for GENDER support
 {{Identical|Thank}}',
 	'thanks-button-thanked' => "This message immediately replaces the message {{msg-mw|Thanks-button-thank}} after it's pressed. It means that the thanking operation has been completed.
 
@@ -67,7 +70,8 @@ Parameters:
 	'thanks-error-undefined' => 'Error message that is displayed when the thank action fails.
 {{Identical|Please try again}}',
 	'thanks-error-invalidrevision' => 'Error message that is displayed when the revision ID is not valid',
-	'thanks-error-ratelimited' => 'Error message that is displayed when user exceeds rate limit',
+	'thanks-error-ratelimited' => 'Error message that is displayed when user exceeds rate limit. Parameters:
+* $1 - gender',
 	'thanks-thank-tooltip' => 'Tooltip that appears when a user hovers over the "thank" link.  Parameters
 * $1 - The user sending the thanks.  Can be used for GENDER support.
 * $2 - The user receiving the thanks.  Can be used for GENDER support',
@@ -1954,7 +1958,7 @@ $messages['sk'] = array(
 	'echo-pref-tooltip-edit-thank' => 'Upozornite ma, ak mi niekto poďakuje za moju úpravu.',
 	'echo-category-title-edit-thank' => 'poďakovanie',
 	'notification-thanks-diff-link' => 'vašu úpravu',
-	'notification-thanks' => '[[User:$1|$1]] vám {{GENDER:$1|poďkoval|poďakovala}} za $2 stránky [[:$3]].',
+	'notification-thanks' => '[[User:$1|$1]] vám {{GENDER:$1|poďakoval|poďakovala}} za $2 stránky [[:$3]].',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] vám {{GENDER:$1|poďakoval|poďakovala}} za úpravu stránky $2.',
 	'notification-thanks-email-subject' => '$1 vám {{GENDER:$1|poďakoval|poďakovala}} za vašu úpravu na {{grammar:6sg|{{SITENAME}}}}',
 	'notification-thanks-email-batch-body' => '$1 vám {{GENDER:$1|poďakoval|poďakovala}} za úpravu stránky $2.',
