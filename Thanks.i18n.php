@@ -876,11 +876,12 @@ $messages['gl'] = array(
 );
 
 /** Gujarati (ગુજરાતી)
+ * @author Ashok modhvadia
  * @author Dsvyas
  */
 $messages['gu'] = array(
 	'thanks-desc' => 'ઇતિહાસ અને તફાવત બતાવતી વખતે આભાર માટેની કડી ઉમેરે છે',
-	'thanks-thank' => 'આભારા માનો',
+	'thanks-thank' => 'આભાર માનો',
 	'thanks-thanked' => '{{GENDER:$1|આભાર માન્યો}}',
 	'thanks-button-thank' => '{{GENDER:$1|આભાર માનો}}',
 	'thanks-button-thanked' => '{{GENDER:$1|આભાર માન્યો}}',
