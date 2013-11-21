@@ -542,6 +542,7 @@ $messages['da'] = array(
 /** German (Deutsch)
  * @author MF-Warburg
  * @author Metalhead64
+ * @author Wnme
  */
 $messages['de'] = array(
 	'thanks-desc' => 'Ergänzt „Danke schön“-Links zur Versionsgeschichte und zu Versionsunterschieden',
@@ -557,7 +558,7 @@ $messages['de'] = array(
 	'thanks-thanked-notice' => '$1 wurde benachrichtigt, dass du {{GENDER:$2|seine|ihre|ihre}} Bearbeitung magst.',
 	'echo-pref-subscription-edit-thank' => '„Danke schöns“ für meine Bearbeitung',
 	'echo-pref-tooltip-edit-thank' => 'Benachrichtige mich, wenn mir jemand für eine Bearbeitung dankt, die ich gemacht habe.',
-	'echo-category-title-edit-thank' => 'Danke schön',
+	'echo-category-title-edit-thank' => 'Dankeschön',
 	'notification-thanks-diff-link' => 'deine Bearbeitung',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|dankte}} dir für $2 auf [[:$3]].',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|dankte}} dir für deine Bearbeitung auf „$2“.',
