@@ -115,6 +115,11 @@ class ApiThank extends ApiBase {
 		return true;
 	}
 
+	// Writes to the Echo database and sometimes log tables.
+	public function isWriteMode() {
+		return true;
+	}
+
 	public function getTokenSalt() {
 		return '';
 	}
