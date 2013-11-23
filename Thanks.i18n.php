@@ -414,7 +414,8 @@ $messages['ce'] = array(
 	'thanks-confirmation' => 'Лаьий хьуна {{GENDER:$1|баркалла ала}} хӀара нисдарна?', # Fuzzy
 	'echo-pref-tooltip-edit-thank' => 'Хаийта соьга, цхьам баркалла аьлча.',
 	'echo-category-title-edit-thank' => 'Баркалла',
-	'notification-thanks' => 'Ахьа «[[:$3]]» агӀонехь $2 хӀара дарна [[User:$1|$1]] {{GENDER:$1|баркалла аьла}}.',
+	'notification-thanks-diff-link' => 'нисдар',
+	'notification-thanks' => 'Ахьа «[[:$3]]» агӀонехь $2 дарна [[User:$1|$1]] {{GENDER:$1|баркалла аьла}}.',
 	'notification-thanks-flyout2' => 'Ахьа хӀара «$2» агӀо таярна [[User:$1|$1]] хьуна {{GENDER:$1|баркалла аьла}}.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|баркалла аьла}} «{{SITENAME}}» сайтехь тадар дарна.',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|баркалла аьла}} ахьа хӀара «$2» агӀо таярна.',
@@ -542,21 +543,22 @@ $messages['da'] = array(
 /** German (Deutsch)
  * @author MF-Warburg
  * @author Metalhead64
+ * @author TMg
  * @author Wnme
  */
 $messages['de'] = array(
-	'thanks-desc' => 'Ergänzt „Danke schön“-Links zur Versionsgeschichte und zu Versionsunterschieden',
+	'thanks-desc' => 'Ergänzt Dankeschön-Links zur Versionsgeschichte und zu Versionsunterschieden',
 	'thanks-thank' => 'danken',
 	'thanks-thanked' => '{{GENDER:$1|bereits bedankt}}',
 	'thanks-button-thank' => '{{GENDER:$1|Danken}}',
 	'thanks-button-thanked' => '{{GENDER:$1|Bedankt}}',
-	'thanks-error-undefined' => '„Danke schön“ fehlgeschlagen. Bitte erneut versuchen.',
+	'thanks-error-undefined' => 'Dankeschön fehlgeschlagen. Bitte erneut versuchen.',
 	'thanks-error-invalidrevision' => 'Die Versionskennung ist ungültig.',
 	'thanks-error-ratelimited' => '{{GENDER:$1|Du}} hast dein Aktionslimit überschritten. Bitte warte einige Zeit und versuche es erneut.',
-	'thanks-thank-tooltip' => '{{GENDER:$2|Diesem Benutzer|Dieser Benutzerin}} ein „Danke schön“ {{GENDER:$1|senden}}',
+	'thanks-thank-tooltip' => '{{GENDER:$2|Diesem Benutzer|Dieser Benutzerin}} ein Dankeschön {{GENDER:$1|senden}}',
 	'thanks-confirmation' => 'Möchtest du $2 für diese Bearbeitung {{GENDER:$1|danken}}?',
 	'thanks-thanked-notice' => '$1 wurde benachrichtigt, dass du {{GENDER:$2|seine|ihre|ihre}} Bearbeitung magst.',
-	'echo-pref-subscription-edit-thank' => '„Danke schöns“ für meine Bearbeitung',
+	'echo-pref-subscription-edit-thank' => 'Dankeschöns für meine Bearbeitung',
 	'echo-pref-tooltip-edit-thank' => 'Benachrichtige mich, wenn mir jemand für eine Bearbeitung dankt, die ich gemacht habe.',
 	'echo-category-title-edit-thank' => 'Dankeschön',
 	'notification-thanks-diff-link' => 'deine Bearbeitung',
@@ -1762,14 +1764,14 @@ $messages['ps'] = array(
 	'thanks-desc' => 'د پېښليک او توپيرونو کتنو کې د مننې تړنې ورگډوي',
 	'thanks-thank' => 'مننه',
 	'thanks-thanked' => '{{GENDER:$1|منندوی شو}}',
-	'thanks-button-thank' => 'مننه', # Fuzzy
+	'thanks-button-thank' => '{{GENDER:$1|مننه}}',
 	'thanks-button-thanked' => '{{GENDER:$1|منندوی شو}}',
 	'thanks-error-undefined' => 'د مننې چاره پاتې راغله. بيا مو هڅه وکړۍ.',
 	'thanks-error-invalidrevision' => 'د کره کتنې پېژند سم نه دی.',
-	'thanks-error-ratelimited' => 'تاسې د خپل ټاکلي بريد نه واوښتلئ. مهرباني وکړۍ لږ څه تم شۍ او بيا يې وآزمويۍ.',
+	'thanks-error-ratelimited' => '{{GENDER:$1|تاسې}} د خپل ټاکلي بريد نه واوښتلئ. مهرباني وکړۍ لږ څه تم شۍ او بيا يې وآزمويۍ.',
 	'thanks-thank-tooltip' => 'دې {{GENDER:$2|کارن}} ته د مننې يو پيغام {{GENDER:$1|ورلېږل}}',
-	'thanks-confirmation' => 'آيا په رښتيا له $2 څخه د دې سمون په خاطر {{GENDER:$1|مننه کول غواړې}}؟', # Fuzzy
-	'thanks-thanked-notice' => '$1 ته ووييل شول چې تاسې د {{GENDER:$2|هغه|هغې|هغوی}} سمونونه خوښ کړل.', # Fuzzy
+	'thanks-confirmation' => 'آيا په رښتيا له $2 څخه د دې سمون په خاطر {{GENDER:$1|مننه کول غواړې}}؟',
+	'thanks-thanked-notice' => '$1 ته ووييل شول چې تاسې د {{GENDER:$2|هغه|هغې|هغوی}} سمونونه خوښ کړل.',
 	'echo-pref-subscription-edit-thank' => 'زه د سمون پخاطر زما منندوی شه',
 	'echo-pref-tooltip-edit-thank' => 'خبر مې کړه کله چې يو څوک زما د يو سمون په خاطر له ما څخه مننه کوي.',
 	'echo-category-title-edit-thank' => 'مننه',
