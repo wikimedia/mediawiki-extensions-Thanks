@@ -44,11 +44,17 @@ class ApiThankTest extends \ApiTestCase {
 	}
 
 	protected function newRevId(){
+		// You can't thank yourself, kind of hacky
+		$this->setMwGlobals( 'wgUser' , self::$users['uploader']->user );
+
 		/** @var Status $result */
 		$result = $this->editPage( 'thanks' . rand( 0, 100 ), 'thanks' . rand( 0, 100 ), 'thanksSummary' );
 		$result = $result->getValue();
 		/** @var Revision $revision */
 		$revision = $result['revision'];
+
+		$this->setMwGlobals( 'wgUser' , self::$users['sysop']->user );
+
 		return $revision->getId();
 	}
 

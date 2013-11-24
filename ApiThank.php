@@ -18,9 +18,12 @@ class ApiThank extends ApiBase {
 		if ( $this->userAlreadySentThanksForRevision( $user, $revision ) ) {
 			$this->markResultSuccess();
 		} else {
+			$recipient = $this->getUserFromRevision( $revision );
+			$this->dieOnBadRecipient( $user, $recipient );
 			$this->sendThanks(
 				$user,
 				$revision,
+				$recipient,
 				$this->getSourceFromParams( $params )
 			);
 		}
@@ -75,22 +78,31 @@ class ApiThank extends ApiBase {
 		}
 	}
 
-	private function getUserIdFromRevision( Revision $revision ) {
+	private function getUserFromRevision( Revision $revision ) {
 		$recipient = $revision->getUser();
 		if ( !$recipient ) {
 			$this->dieUsage( 'No valid recipient found', 'invalidrecipient' );
 		}
-		return $recipient;
+		return User::newFromId( $recipient );
 	}
 
 	private function markResultSuccess(){
 		$this->getResult()->addValue( null, 'result', array( 'success' => 1 ) );
 	}
 
-	private function sendThanks( User $user, Revision $revision, $source  ) {
+	private function dieOnBadRecipient( User $agent, User $recipient ) {
+		global $wgThanksSendToBots;
+
+		if ( $agent->getId() === $recipient->getId() ) {
+			$this->dieUsage( 'You cannot thank yourself', 'invalidrecipient' );
+		} elseif ( !$wgThanksSendToBots && in_array( 'bot', $recipient->getGroups() ) ) {
+			$this->dieUsage( 'Bots cannot be thanked', 'invalidrecipient' );
+		}
+	}
+
+	private function sendThanks( User $user, Revision $revision, User $recipient, $source  ) {
 		global $wgThanksLogging;
 		$title = $this->getTitleFromRevision( $revision );
-		$recipient = $this->getUserIdFromRevision( $revision );
 
 		// Create the notification via Echo extension
 		EchoEvent::create( array(
@@ -98,7 +110,7 @@ class ApiThank extends ApiBase {
 			'title' => $title,
 			'extra' => array(
 				'revid' => $revision->getId(),
-				'thanked-user-id' => $recipient,
+				'thanked-user-id' => $recipient->getId(),
 				'source' => $source,
 			),
 			'user' => $user,
@@ -112,7 +124,7 @@ class ApiThank extends ApiBase {
 		if ( $wgThanksLogging ) {
 			$logEntry = new ManualLogEntry( 'thanks', 'thank' );
 			$logEntry->setPerformer( $user );
-			$target = User::newFromId( $recipient )->getUserPage();
+			$target = $recipient->getUserPage();
 			$logEntry->setTarget( $target );
 			$logEntry->insert();
 		}
