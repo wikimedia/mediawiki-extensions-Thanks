@@ -1742,6 +1742,7 @@ $messages['pl'] = array(
 	'thanks-error-ratelimited' => '{{GENDER:$1|Przekroczyłeś|Przekroczyłaś}} limit podziękowań. Poczekaj chwilę i spróbuj ponownie.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Wyślij}} podziękowanie do {{GENDER:$2|tego użytkownika|tej użytkowniczki}}',
 	'thanks-confirmation' => 'Czy chcesz {{GENDER:$1|podziękować}} $2 za tę edycję?',
+	'thanks-thanked-notice' => '$1 {{GENDER:$2|został powiadomiony|została powiadomiona}} o twoim podziękowaniu za {{GENDER:$2|jego|jej}} edycję.',
 	'echo-pref-subscription-edit-thank' => 'podziękuje mi za edycję, którą wykonałem',
 	'echo-pref-tooltip-edit-thank' => 'Powiadom mnie, kiedy ktoś podziękuje mi za edycję, którą wykonałem.',
 	'echo-category-title-edit-thank' => 'Podziękowania',
@@ -2426,6 +2427,7 @@ $messages['zh-hans'] = array(
 /** Traditional Chinese (中文（繁體）‎)
  * @author Ch.Andrew
  * @author Fantasticfears
+ * @author Liuxinyu970226
  * @author Simon Shek
  * @author Waihorace
  */
@@ -2437,7 +2439,7 @@ $messages['zh-hant'] = array(
 	'thanks-button-thanked' => '{{GENDER:$1|已感謝}}',
 	'thanks-error-undefined' => '感謝的操作失敗。請再試一次。',
 	'thanks-error-invalidrevision' => '修訂 ID 無效。',
-	'thanks-error-ratelimited' => '您的使用頻率超限，請稍後再試。', # Fuzzy
+	'thanks-error-ratelimited' => '{{GENDER:$1|您}}的編輯已超出限額。請過段時間再試。',
 	'thanks-thank-tooltip' => '{{GENDER:$1|發送}}一則感謝的通知給此位{{GENDER:$2|使用者}}',
 	'thanks-confirmation' => '您確定要對$2的此次編輯表示{{GENDER:$1|感謝}}嗎？',
 	'thanks-thanked-notice' => '$1得知了您喜歡{{GENDER:$2|他的|她的|他們的}}編輯。',
