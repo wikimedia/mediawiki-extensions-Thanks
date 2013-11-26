@@ -1029,33 +1029,35 @@ $messages['hu'] = array(
 );
 
 /** Armenian (Հայերեն)
+ * @author Arman musikyan
  * @author Vacio
+ * @author Xelgen
  */
 $messages['hy'] = array(
-	'thanks-desc' => 'Ավելացնում է «Մերսի» հղումը էջի պատմության և խմբագրումների տարբերությունների մեջ',
-	'thanks-thank' => 'մերսի ասել',
-	'thanks-thanked' => '{{GENDER:$1|մերսի է ասվել}}',
-	'thanks-button-thank' => '{{GENDER:$1|մերսի ասել}}',
-	'thanks-button-thanked' => '{{GENDER:$1|Մերսի է ասվել}}',
-	'thanks-error-undefined' => 'Մերսի ասել չստացվեց։ Նորից փորձեք։',
+	'thanks-desc' => 'Ավելացնում է «Շնորհակալ եմ» հղումը էջի պատմության և խմբագրումների տարբերությունների մեջ',
+	'thanks-thank' => 'շնորհակալ եմ',
+	'thanks-thanked' => '{{GENDER:$1| մասնակցին շնորհակալություն է հայնտված}}',
+	'thanks-button-thank' => '{{GENDER:$1|Շնորհակալություն հայտնել}}',
+	'thanks-button-thanked' => '{{GENDER:$1|մասնակցին շնորհակալությունը հայտնված է}}',
+	'thanks-error-undefined' => 'Չստացվեց շնորհակալություն։ Փորձեք կրկին։',
 	'thanks-error-invalidrevision' => 'Խմբագրման համարանիշը վավեր չէ։',
-	'thanks-error-ratelimited' => '{{GENDER:$1|Դուք}} արդեն շատ եք մերսի ասել։ Սպասեք որոշ ժամանակ և նորից փորձեք։',
-	'thanks-thank-tooltip' => '{{GENDER:$1|Ուղարկեք}} մերսի այս {{GENDER:$2|մասնակցին}}',
-	'thanks-confirmation' => 'Ուզո՞ւմ եք {{GENDER:$1|մերսի}} ասել $2֊ին այս խմբագրման համար։',
-	'thanks-thanked-notice' => '$1-ը ծանուցում է ստացել, որ դուք հավանել եք {{GENDER:$2|իր}} խմբագրումը։',
-	'echo-pref-subscription-edit-thank' => 'Մերսի է ասում իմ խմբագրման համար',
-	'echo-pref-tooltip-edit-thank' => 'Տեղեկացրու ինձ, երբ ինչ֊որ մեկն ինձ մերսի է ասում իմ կատարած խմբագրման համար։',
-	'echo-category-title-edit-thank' => 'Մերսի՜',
-	'notification-thanks-diff-link' => 'քո խմբագրումը',
-	'notification-thanks' => '[[Մասնակից:$1|$1]]֊ը ձեզ {{GENDER:$1|մերսի է ասել} [[:$3]]֊ում $2֊ի համար.', # Fuzzy
-	'notification-thanks-flyout2' => '[[Մասնակից:$1|$1]]֊ը ձեզ {{GENDER:$1|մերսի է ասել}} $2֊ում ձեր խմբագրման համար։', # Fuzzy
-	'notification-thanks-email-subject' => '$1֊ը ձեզ {{GENDER:$1|մերսի է ասել}} {{SITENAME}}֊ում ձեր խմբագրման համար',
-	'notification-thanks-email-batch-body' => '$1֊ը ձեզ {{GENDER:$1|մերսի է ասել}} $2֊ում ձեր խմբագրման համար։',
+	'thanks-error-ratelimited' => '{{GENDER:$1|Դուք}} շատ եք շնորհակալություն հայտնել։ Սպասեք որոշ ժամանակ և նորից փորձեք։',
+	'thanks-thank-tooltip' => '{{GENDER:$1|Ուղարկեք}} շնորհակալական ուղերձ այս {{GENDER:$2|մասնակցին}}',
+	'thanks-confirmation' => 'Ուզո՞ւմ եք {{GENDER:$1|շնորհակալություն}} ասել $2ին այս խմբագրման համար։',
+	'thanks-thanked-notice' => '$1 մասնակիցը ծանուցում է ստացել, որ դուք հավանել եք {{GENDER:$2|իր}} խմբագրումը։',
+	'echo-pref-subscription-edit-thank' => 'Շնորհակալ է իմ խմբագրման համար',
+	'echo-pref-tooltip-edit-thank' => 'Տեղեկացնել, երբ ինչ–որ մեկն շնորհակալ է իմ կատարած խմբագրման համար։',
+	'echo-category-title-edit-thank' => 'Շնորհակալ է',
+	'notification-thanks-diff-link' => 'ձեր խմբագրման',
+	'notification-thanks' => '[[User:$1|$1]] մասնակիցը {{GENDER:$1|շնորհակալ է}} ձեզ [[:$3]] էջում $2 համար․',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] մասնակիցը {{GENDER:$1|շնորհակալ է}} $2 էջում ձեր արած խմբագրման համար։',
+	'notification-thanks-email-subject' => '$1 մասնակիցը շնորհակալ է ձեզ «{{SITENAME}}»–ում ձեր խմբագրման համար։',
+	'notification-thanks-email-batch-body' => '$1 մասնակիցը {{GENDER:$1|շնորհակալ է ձեզ}} $2 էջում ձեր խմբագրման համար։',
 	'notification-link-text-respond-to-user' => 'Պատասխանել մասնակցին',
-	'log-name-thanks' => 'Մերսիների գրանցամատյան',
-	'log-description-thanks' => 'Ստորև մերսիներ ստացած մասնակիցների ցանկն է։',
-	'logentry-thanks-thank' => '$1֊ը {{GENDER:$2|մերսի է ասել}} {{GENDER:$4|$3}}֊ին',
-	'log-show-hide-thanks' => '$1 մերսիների գրանցամատյան',
+	'log-name-thanks' => 'Շնորհակալությունների գրանցամատյան',
+	'log-description-thanks' => 'Ստորև «շնորհակալություներ» ստացած մասնակիցների ցանկն է։',
+	'logentry-thanks-thank' => '$1 մասնակիցը {{GENDER:$2|շնորհակալություն է}} հայտնել {{GENDER:$4|$3}} մասնակցին',
+	'log-show-hide-thanks' => '$1 շնորհակալությունների գրանցամատյան',
 );
 
 /** Indonesian (Bahasa Indonesia)
