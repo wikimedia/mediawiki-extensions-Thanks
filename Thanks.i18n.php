@@ -587,6 +587,36 @@ $messages['diq'] = array(
 	'log-show-hide-thanks' => 'Qeydé teşekuré $1',
 );
 
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'thanks-desc' => 'Pśidawa źěkowe wótkaze historiji a wersijowym rozdźělam',
+	'thanks-thank' => 'źěkowaś se',
+	'thanks-thanked' => '{{GENDER:$1|jo se źěkował|jo se źěkowała}}',
+	'thanks-button-thank' => '{{GENDER:$1|Źěkowaś se}}',
+	'thanks-button-thanked' => '{{GENDER:$1|Jo se źěkował|Jo se źěkowała}}',
+	'thanks-error-undefined' => 'Źěkowanje jo se njeraźiło. Pšosym wopytaj hyšći raz.',
+	'thanks-error-invalidrevision' => 'Wersijowy ID njejo płaśiwy.',
+	'thanks-error-ratelimited' => '{{GENDER:$1|Ty}} sy swój akciski limit {{GENDER:$1|pśekšocył|pśekšocyła}}. Pšosym cakaj chylku a wopytaj hyšći raz.',
+	'thanks-thank-tooltip' => 'Źěkowu powěźeńku toś {{GENDER:$2|wužywarjeju|wužywarce}} {{GENDER:$1|pósłaś}}',
+	'thanks-confirmation' => 'Coš se $2 za toś tu změnu {{GENDER:$1|źěkowaś}}?',
+	'thanks-thanked-notice' => '$1 jo se {{GENDER:$1|informěrował|informěrowała}}, až {{GENDER:$2|jogo|jeje}} změna jo śi spódobała.',
+	'echo-pref-subscription-edit-thank' => 'Źěkujo se mě za móju změnu.',
+	'echo-pref-tooltip-edit-thank' => 'Informěruj mě, gaž něchten źěkujo se mě za změnu, kótaruž som cynił.',
+	'echo-category-title-edit-thank' => 'Wjeliki źěk',
+	'notification-thanks-diff-link' => 'twója změna',
+	'notification-thanks' => '[[User:$1|$1]] jo se śi za $2 na [[:$3]] {{GENDER:$1|źěkował|źěkowała}}.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] jo se śi za změnu na $2 {{GENDER:$1|źěkował|źěkowała}}.',
+	'notification-thanks-email-subject' => '$1 jo se śi za twóju změnu na {{GRAMMAR:lokatiw|{{SITENAME}}}} {{GENDER:$1|źěkował|źěkowała}}',
+	'notification-thanks-email-batch-body' => '$1 jo se śi za twóju změnu na $2 {{GENDER:$1|źěkował|źěkowała}}.',
+	'notification-link-text-respond-to-user' => 'Wótegrono wužywarjeju',
+	'log-name-thanks' => 'Źěkowy protokol',
+	'log-description-thanks' => 'Dołojce jo lisćina wužywarjow, kótarymž druge wužywarje su se źěkowali.',
+	'logentry-thanks-thank' => '$1 jo {{GENDER:$4|$3}} {{GENDER:$2|źěkował|źěkowała}}',
+	'log-show-hide-thanks' => 'Źěkowy protokol $1',
+);
+
 /** Greek (Ελληνικά)
  * @author Geraki
  */
@@ -986,14 +1016,44 @@ $messages['hr'] = array(
 	'echo-pref-tooltip-edit-thank' => 'Obavijesti me kad mi netko zahvali za moju izmjenu.',
 	'echo-category-title-edit-thank' => 'Hvala',
 	'notification-thanks-diff-link' => 'vaše uređivanje',
-	'notification-thanks' => '[[User:$1|$1]] vam je {{GENDER:$1|zahvalio|zahvalila}} za $2 na stranici «[[:$3]]».',
-	'notification-thanks-flyout2' => '[[User:$1|$1]] Vam je {{GENDER:$1|zahvalio|zahvalila}} za Vašu izmjenu na stranici «$2».',
+	'notification-thanks' => '[[User:$1|$1]] vam je {{GENDER:$1|zahvalio|zahvalila}} za $2 na stranici [[:$3]].',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] Vam je {{GENDER:$1|zahvalio|zahvalila}} za Vašu izmjenu na stranici $2.',
 	'notification-thanks-email-subject' => '$1 Vam {{GENDER:$1|zahvaljuje|zahvaljuje}} za uređivanje na projektu {{SITENAME}}',
-	'notification-thanks-email-batch-body' => '$1 Vam je {{GENDER:$1|zahvalio|zahvalila}} za uređivanje na »$2«.',
+	'notification-thanks-email-batch-body' => '$1 Vam je {{GENDER:$1|zahvalio|zahvalila}} za uređivanje na $2.',
 	'notification-link-text-respond-to-user' => 'Odgovor suradniku',
 	'log-name-thanks' => 'Evidencija zahvala',
 	'log-description-thanks' => 'Slijedi popis suradnika koji su drugim suradnicima objavili zahvalu.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|zahvalio|zahvalila}} je {{GENDER:$4|suradniku|suradnici}} {{GENDER:$4|$3}}',
+);
+
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'thanks-desc' => 'Přidawa dźakne wotkazy historiji a wersijowym rozdźělam',
+	'thanks-thank' => 'dźakować so',
+	'thanks-thanked' => '{{GENDER:$1|je so dźakował|je so dźakowała}}',
+	'thanks-button-thank' => '{{GENDER:$1|Dźakować so}}',
+	'thanks-button-thanked' => '{{GENDER:$1|Je so dźakował|Je so dźakowała}}',
+	'thanks-error-undefined' => 'Dźakowanje je so njeporadźiło. Prošu spytaj hišće raz.',
+	'thanks-error-invalidrevision' => 'Wersijowy ID njeje płaćiwy.',
+	'thanks-error-ratelimited' => '{{GENDER:$1|Ty}} sy swój akciski limit {{GENDER:$1|překročił|překročiła}}. Prošu čakaj chwilku a spytaj hišće raz.',
+	'thanks-thank-tooltip' => 'Dźaknu źdźělenku {{GENDER:$2|tutomu wužiwarjej|wužiwarce}} {{GENDER:$1|pósłać}}',
+	'thanks-confirmation' => 'Chceš so $2 za tutu změnu {{GENDER:$1|dźakować}}?',
+	'thanks-thanked-notice' => '$1 je so {{GENDER:$1|informował|informowała}}, zo {{GENDER:$2|jeho|jeje}} změna je ći spodobała.',
+	'echo-pref-subscription-edit-thank' => 'Dźakuje so mi za moju změnu',
+	'echo-pref-tooltip-edit-thank' => 'Informuj mje, hdyž něchtó dźakuje so mje za změnu, kotruž sym činił.',
+	'echo-category-title-edit-thank' => 'Wulki dźak',
+	'notification-thanks-diff-link' => 'twoja změna',
+	'notification-thanks' => '[[User:$1|$1]] je so ći za $2 na [[:$3]] {{GENDER:$1|dźakował|dźakowała}}.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] je so ći za změnu na $2 {{GENDER:$1|dźakował|dźakowała}}.',
+	'notification-thanks-email-subject' => '$1 je so ći za twoju změnu na {{GRAMMAR:lokatiw|{{SITENAME}}}} {{GENDER:$1|dźakował|dźakowała}}',
+	'notification-thanks-email-batch-body' => '$1 je so ći za twoju změnu na $2 {{GENDER:$1|dźakował|dźakowała}}.',
+	'notification-link-text-respond-to-user' => 'Wotmołwa wužiwarjej',
+	'log-name-thanks' => 'Dźakny protokol',
+	'log-description-thanks' => 'Deleka je lisćina wužiwarjow, kotrymž su so druzy wužiwarjo dźakowali.',
+	'logentry-thanks-thank' => '$1 je {{GENDER:$4|$3}} {{GENDER:$2|dźakował|dźakowała}}',
+	'log-show-hide-thanks' => 'Dźakny protokol $1',
 );
 
 /** Hungarian (magyar)
@@ -2341,14 +2401,14 @@ $messages['vi'] = array(
 	'thanks-desc' => 'Thêm liên kết cảm ơn vào các trang lịch sử và khác biệt',
 	'thanks-thank' => 'cảm ơn',
 	'thanks-thanked' => '{{GENDER:$1}}đã cảm ơn',
-	'thanks-button-thank' => 'Cảm ơn', # Fuzzy
+	'thanks-button-thank' => '{{GENDER:$1}}Cảm ơn',
 	'thanks-button-thanked' => '{{GENDER:$1}}Đã cảm ơn',
 	'thanks-error-undefined' => 'Cảm ơn thất bại. Xin vui lòng thử lại.',
 	'thanks-error-invalidrevision' => 'Số phiên bản không hợp lệ.',
-	'thanks-error-ratelimited' => 'Bạn đã vượt quá giới hạn tốc độ. Xin vui lòng thử lại lát nữa.',
+	'thanks-error-ratelimited' => '{{GENDER:$1}}Bạn đã vượt quá giới hạn tốc độ. Xin vui lòng thử lại lát nữa.',
 	'thanks-thank-tooltip' => '{{GENDER:$1}}Gửi thông báo cảm ơn cho {{GENDER:$2}}người dùng này',
-	'thanks-confirmation' => 'Bạn có chắc chắn muốn {{GENDER:$1}}cảm ơn $2 vì sửa đổi này?', # Fuzzy
-	'thanks-thanked-notice' => 'Đã cho $1 biết rằng bạn thích sửa đổi của {{GENDER:$2}}họ.', # Fuzzy
+	'thanks-confirmation' => 'Bạn có muốn {{GENDER:$1}}cảm ơn $2 vì sửa đổi này?',
+	'thanks-thanked-notice' => 'Đã cho $1 biết rằng bạn thích sửa đổi của {{GENDER:$2}}họ.',
 	'echo-pref-subscription-edit-thank' => 'Cảm ơn tôi vì một sửa đổi của tôi',
 	'echo-pref-tooltip-edit-thank' => 'Báo cho tôi biết khi nào người ta cảm ơn tôi vì một sửa đổi của tôi.',
 	'echo-category-title-edit-thank' => 'Cảm ơn',
