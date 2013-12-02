@@ -1422,6 +1422,15 @@ $messages['lb'] = array(
 	'log-show-hide-thanks' => "Logbuch vum 'Merci' $1",
 );
 
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'thanks-thank' => 'منمون',
+	'echo-category-title-edit-thank' => 'منمون',
+	'notification-thanks-diff-link' => 'ویرایشت شما',
+);
+
 /** Latvian (latviešu)
  * @author Papuass
  */
@@ -1676,7 +1685,7 @@ $messages['nl'] = array(
 	'thanks-button-thanked' => '{{GENDER:$1|Bedankt}}',
 	'thanks-error-undefined' => 'Bedanken is mislukt. Probeer het opnieuw.',
 	'thanks-error-invalidrevision' => 'Het versienummer is niet geldig.',
-	'thanks-error-ratelimited' => 'U hebt uw limiet voor bedankjes overschreden. Wacht even en probeer het dan opnieuw.', # Fuzzy
+	'thanks-error-ratelimited' => '{{GENDER:$1|U}} hebt uw limiet voor bedankjes overschreden. Wacht even en probeer het dan opnieuw.',
 	'thanks-thank-tooltip' => 'Deze {{GENDER:$2|gebruiker}} een bedankje {{GENDER:$1|sturen}}',
 	'thanks-confirmation' => 'Wilt u $2 {{GENDER:$1|bedanken}} voor deze bewerking?',
 	'thanks-thanked-notice' => '$1 heeft bericht gekregen dat u {{GENDER:$2|zijn|haar|zijn/haar}} bewerking leuk vindt.',
