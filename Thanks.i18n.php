@@ -562,10 +562,10 @@ $messages['de'] = array(
 	'echo-pref-tooltip-edit-thank' => 'Benachrichtige mich, wenn mir jemand für eine Bearbeitung dankt, die ich gemacht habe.',
 	'echo-category-title-edit-thank' => 'Dankeschön',
 	'notification-thanks-diff-link' => 'deine Bearbeitung',
-	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|dankte}} dir für $2 auf [[:$3]].',
-	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|dankte}} dir für deine Bearbeitung auf „$2“.',
-	'notification-thanks-email-subject' => '$1 {{GENDER:$1|dankte}} dir für deine Bearbeitung auf {{SITENAME}}',
-	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|dankte}} dir für deine Bearbeitung auf $2.',
+	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|dankt}} dir für $2 auf [[:$3]].',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|dankt}} dir für deine Bearbeitung auf „$2“.',
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1|dankt}} dir für deine Bearbeitung auf {{SITENAME}}',
+	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|dankt}} dir für deine Bearbeitung auf $2.',
 	'notification-link-text-respond-to-user' => 'Antwort an Benutzer',
 	'log-name-thanks' => 'Dankeschön-Logbuch',
 	'log-description-thanks' => 'Es folgt eine Liste von Benutzern, die anderen Benutzern dankten.',
@@ -575,11 +575,12 @@ $messages['de'] = array(
 
 /** Zazaki (Zazaki)
  * @author Gorizon
+ * @author Marmase
  */
 $messages['diq'] = array(
-	'thanks-thank' => 'teşekur',
+	'thanks-thank' => 'teşekur kena',
 	'thanks-thanked' => '{{GENDER:$1|teşekur ke}}',
-	'thanks-button-thank' => '{{GENDER:$1|Teşekur}}',
+	'thanks-button-thank' => '{{GENDER:$1|Teşekur kena}}',
 	'thanks-button-thanked' => '{{GENDER:$1|teşekur ke}}',
 	'echo-category-title-edit-thank' => 'Teşekuri',
 	'log-name-thanks' => 'Qeydé tşekuran',
