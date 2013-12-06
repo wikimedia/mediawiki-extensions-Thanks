@@ -10,7 +10,7 @@
  *
  * @author Adam Shorland
  */
-class ApiThankTest extends \ApiTestCase {
+class ApiThankTest extends ApiTestCase {
 
 	public function setUp() {
 		parent::setUp();
