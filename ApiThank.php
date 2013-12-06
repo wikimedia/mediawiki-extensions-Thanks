@@ -113,7 +113,7 @@ class ApiThank extends ApiBase {
 				'thanked-user-id' => $recipient->getId(),
 				'source' => $source,
 			),
-			'user' => $user,
+			'agent' => $user,
 		) );
 
 		// Mark the thank in session to prevent duplicates (Bug 46690)
