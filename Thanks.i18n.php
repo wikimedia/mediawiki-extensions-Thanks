@@ -524,9 +524,10 @@ $messages['da'] = array(
 	'thanks-button-thanked' => '{{GENDER:$1|Takkede}}',
 	'thanks-error-undefined' => 'Takke-handlingen mislykkedes. Prøv venligst igen.',
 	'thanks-error-invalidrevision' => 'Versions-ID er ikke gyldigt.',
-	'thanks-error-ratelimited' => 'Du har overskredet din frekvensgrænse. Vent et stykke tid og prøv igen.', # Fuzzy
+	'thanks-error-ratelimited' => '{{GENDER:$1|Du}} har overskredet din frekvensgrænse. Vent et stykke tid og prøv igen.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Send}} en takkemeddelelse til denne  {{GENDER:$2| bruger}}',
 	'thanks-confirmation' => 'Vil du {{GENDER:$1|takke}} $2 for denne redigering?',
+	'thanks-thanked-notice' => '$1 fik at vide, at du kan lide {{GENDER:$2|hans|hendes|deres}} redigering.',
 	'echo-pref-subscription-edit-thank' => 'Takker mig for min redigering',
 	'echo-pref-tooltip-edit-thank' => 'Giv mig besked, når nogen takker mig for en redigering jeg har lavet.',
 	'echo-category-title-edit-thank' => 'Tak!',
@@ -741,8 +742,16 @@ $messages['et'] = array(
  */
 $messages['eu'] = array(
 	'thanks-thank' => 'eskertu',
+	'thanks-thanked' => '{{GENDER:$1|eskertuta}}',
 	'thanks-button-thank' => '{{GENDER:$1|Eskertu}}',
+	'thanks-button-thanked' => '{{GENDER:$1|Eskertuta}}',
+	'thanks-confirmation' => '$2 wikilariari edizio hau {{GENDER:$1|eskertu}} nahi diozu?',
+	'notification-thanks-diff-link' => 'edizioa',
+	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|wikilariak}} «[[:$3]]» orrian egin duzun $2 eskertu dizu.',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] wikilariak «$2» orrian egin duzun edizioa eskertu dizu.',
+	'notification-thanks-email-subject' => '{{SITENAME}} gunean egin duzun edizioa eskertu dizu $1 {{GENDER:$1|wikilariak}}',
+	'notification-thanks-email-batch-body' => '«$2» orrian egin duzun edizioa eskertu dizu $1 {{GENDER:$1|wikilariak}}.',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|wikilariak}} eskerrak eman dizkio {{GENDER:$4|$3}} wikilariari',
 );
 
 /** Persian (فارسی)
@@ -1256,12 +1265,21 @@ $messages['ka'] = array(
 	'thanks-thank' => 'მადლობა',
 	'thanks-button-thank' => '{{GENDER:$1|მადლობა}}',
 	'thanks-button-thanked' => '{{GENDER:$1|მადლობა გადახდილია}}',
+	'thanks-error-undefined' => 'მადლობის გადახდა ვერ მოხერხდა. გთხოვ სცადეთ კიდევ.',
 	'thanks-confirmation' => 'გსურთ მომხმარებელს $2 {{GENDER:$1|მადლობა გადაუხადოთ}} ამ რედაქტირებისათვის?',
+	'thanks-thanked-notice' => 'მომხმარებელს/მომხმარებლებს $1 გაეგზავნა(თ) შეტყობინება, რომ თქვენ მოიწონეთ {{GENDER:$2|მისი|მისი|მათი}} რედაქტირება.',
+	'echo-pref-subscription-edit-thank' => 'მადლობა ჩემი რედაქტირებისათვის',
+	'echo-pref-tooltip-edit-thank' => 'შემატყობინე, როდესაც ვინმე მადლობას გადამიხდის ჩემი რედაქტირებისათვის',
+	'echo-category-title-edit-thank' => 'გმადლობ',
 	'notification-thanks-diff-link' => 'რედაქტირებისათვის',
 	'notification-thanks' => 'მომხმარებელმა [[User:$1|$1]] {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი $2 გვერდზე [[:$3]].',
 	'notification-thanks-flyout2' => 'მომხმარებელმა [[User:$1|$1]] {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი რედაქტირებისათვის გვერდზე $2.',
 	'notification-thanks-email-subject' => 'მომხმარებელმა $1 {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი რედაქტირებისათვის საიტზე {{SITENAME}}',
 	'notification-thanks-email-batch-body' => 'მომხმარებელმა $1 {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი რედაქტირებისათვის $2.',
+	'notification-link-text-respond-to-user' => 'უპასუხე მომხმარებელს',
+	'log-name-thanks' => '„მადლობის“ ჟურნალი',
+	'log-description-thanks' => 'ქვემოთ მოცემულია მომხმარებელთა სია, რომელთაც სხვა მომხმარებლებმა გადაუხადეს მადლობა',
+	'log-show-hide-thanks' => '$1 „მადლობის“ ჟურნალი',
 );
 
 /** Kazakh (Cyrillic script) (қазақша (кирил)‎)
