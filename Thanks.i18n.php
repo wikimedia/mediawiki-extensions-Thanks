@@ -1454,6 +1454,7 @@ $messages['lrc'] = array(
 );
 
 /** Latvian (latviešu)
+ * @author Edgars2007
  * @author Papuass
  */
 $messages['lv'] = array(
@@ -1468,8 +1469,8 @@ $messages['lv'] = array(
 	'echo-pref-subscription-edit-thank' => 'Pateicība par manu labojumu',
 	'echo-pref-tooltip-edit-thank' => 'Paziņot man, kad kāds man izsaka pateicību par labojumu.',
 	'echo-category-title-edit-thank' => 'Paldies',
-	'notification-thanks-diff-link' => 'jūsu labojums',
-	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|pateicās}} jums par $2 [[:$3]].',
+	'notification-thanks-diff-link' => 'tavu labojumu',
+	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|pateicās}} tev par $2 [[:$3]].',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|pateicās}} jums par jūsu labojumu $2.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|pateicās}} jums par jūsu labojumu {{SITENAME}}',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|pateicās}} jums par jūsu labojumu $2.',
