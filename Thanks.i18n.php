@@ -586,6 +586,7 @@ $messages['diq'] = array(
 	'thanks-button-thank' => '{{GENDER:$1|Teşekur kena}}',
 	'thanks-button-thanked' => '{{GENDER:$1|teşekur ke}}',
 	'echo-category-title-edit-thank' => 'Teşekuri',
+	'notification-thanks-diff-link' => 'vırnayışa to',
 	'log-name-thanks' => 'Qeydé tşekuran',
 	'logentry-thanks-thank' => "$1'i  {{GENDER:$4|$3}}'ré {{GENDER:$2|teşekur ke}}",
 	'log-show-hide-thanks' => 'Qeydé teşekuré $1',
@@ -2066,6 +2067,17 @@ $messages['ru'] = array(
 	'log-description-thanks' => 'Ниже находится список участников, получивших благодарности от других участников.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|поблагодарил|поблагодарила}} {{GENDER:$4|участника|участницу}} $3',
 	'log-show-hide-thanks' => '$1 журнал благодарностей',
+);
+
+/** Sicilian (sicilianu)
+ * @author Gmelfi
+ */
+$messages['scn'] = array(
+	'thanks-thank' => 'arringràzzia',
+	'thanks-button-thank' => '{{GENDER:$1|Arringràzzia}}',
+	'thanks-confirmation' => 'Vuliti {{GENDER:$1|arringrazziari}} $2 pi stu canciu ?',
+	'echo-pref-subscription-edit-thank' => "M'arringràzzia pi lu mè canciu",
+	'echo-pref-tooltip-edit-thank' => "Abbìsami quannu quarchidunu m'arringràzzia pi nu canciu ca fici.",
 );
 
 /** Slovak (slovenčina)
