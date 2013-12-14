@@ -544,13 +544,14 @@ $messages['da'] = array(
 );
 
 /** German (Deutsch)
+ * @author Kghbln
  * @author MF-Warburg
  * @author Metalhead64
  * @author TMg
  * @author Wnme
  */
 $messages['de'] = array(
-	'thanks-desc' => 'Ergänzt Dankeschön-Links zur Versionsgeschichte und zu Versionsunterschieden',
+	'thanks-desc' => 'Ergänzt Versionsgeschichte und Versionsunterschiede um die Möglichkeit, sich für die entsprechende Bearbeitung zu bedanken',
 	'thanks-thank' => 'danken',
 	'thanks-thanked' => '{{GENDER:$1|bereits bedankt}}',
 	'thanks-button-thank' => '{{GENDER:$1|Danken}}',
@@ -1454,6 +1455,16 @@ $messages['lrc'] = array(
 	'notification-thanks-diff-link' => 'ویرایشت شما',
 );
 
+/** Lithuanian (lietuvių)
+ * @author Hugo.arg
+ */
+$messages['lt'] = array(
+	'thanks-thank' => 'padėkoti',
+	'thanks-button-thank' => '{{GENDER:$1|Padėkoti}}',
+	'thanks-thank-tooltip' => '{{GENDER:$1|Nusiųskite}} padėkos žinutę šiam {{GENDER:$2|naudotojui}}',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] padėkojo jums už jūsų keitimą puslapyje $2.',
+);
+
 /** Latvian (latviešu)
  * @author Edgars2007
  * @author Papuass
@@ -1977,6 +1988,14 @@ $messages['pt-br'] = array(
 	'log-name-thanks' => 'Registro de agradecimentos',
 	'log-description-thanks' => 'Abaixo está uma lista de usuários que receberam agradecimentos de outros usuários.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|agradeceu}} {{GENDER:$4|$3}}',
+);
+
+/** Romansh (rumantsch)
+ * @author Kazu89
+ */
+$messages['rm'] = array(
+	'log-name-thanks' => "Protocol d'engraziaments",
+	'log-show-hide-thanks' => "$1 il protocol d'engraziaments",
 );
 
 /** Romanian (română)
