@@ -66,7 +66,7 @@ class ThanksHooks {
 			'a',
 			array(
 				'class' => 'mw-thanks-thank-link',
-				'href' => '#',
+				'href' => SpecialPage::getTitleFor( 'Thanks', $rev->getId() )->getFullURL(),
 				'title' => $tooltip,
 				'data-revision-id' => $rev->getId(),
 			),

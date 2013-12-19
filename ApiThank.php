@@ -16,7 +16,7 @@ class ApiThank extends ApiBase {
 		$revision = $this->getRevisionFromParams( $params );
 
 		if ( $this->userAlreadySentThanksForRevision( $user, $revision ) ) {
-			$this->markResultSuccess();
+			$this->markResultSuccess( $revision );
 		} else {
 			$recipient = $this->getUserFromRevision( $revision );
 			$this->dieOnBadRecipient( $user, $recipient );
@@ -86,8 +86,11 @@ class ApiThank extends ApiBase {
 		return User::newFromId( $recipient );
 	}
 
-	private function markResultSuccess(){
-		$this->getResult()->addValue( null, 'result', array( 'success' => 1 ) );
+	private function markResultSuccess( Revision $revision ) {
+		$this->getResult()->addValue( null, 'result', array(
+			'success' => 1,
+			'recipient' => $revision->getUserText( Revision::FOR_PUBLIC )
+		) );
 	}
 
 	private function dieOnBadRecipient( User $agent, User $recipient ) {
@@ -119,7 +122,7 @@ class ApiThank extends ApiBase {
 		// Mark the thank in session to prevent duplicates (Bug 46690)
 		$user->getRequest()->setSessionData( "thanks-thanked-{$revision->getId()}", true );
 		// Set success message
-		$this->markResultSuccess();
+		$this->markResultSuccess( $revision );
 		// Log it if we're supposed to log it
 		if ( $wgThanksLogging ) {
 			$logEntry = new ManualLogEntry( 'thanks', 'thank' );

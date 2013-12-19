@@ -23,6 +23,9 @@ $messages['en'] = array(
 	'thanks-thank-tooltip' => '{{GENDER:$1|Send}} a thank you notification to this {{GENDER:$2|user}}',
 	'thanks-confirmation' => 'Do you want to {{GENDER:$1|thank}} $2 for this edit?',
 	'thanks-thanked-notice' => '$1 was notified that you liked {{GENDER:$2|his|her|their}} edit.',
+	'thanks' => 'Send thanks',
+	'thanks-form-revid' => 'Revision ID for edit',
+	'thanks-already-thanked' => '{{GENDER:$1|You}} have already sent thanks for this edit.',
 	'echo-pref-subscription-edit-thank' => 'Thanks me for my edit',
 	'echo-pref-tooltip-edit-thank' => 'Notify me when someone thanks me for an edit I made.',
 	'echo-category-title-edit-thank' => 'Thanks',
@@ -86,6 +89,9 @@ Pop-up message that is displayed after a user has thanked another user for their
 Parameters:
 * $1 - the username of the user that was thanked
 * $2 - the gender of the user that was thanked',
+	'thanks' => '{{doc-special|Thanks}}',
+	'thanks-form-revid' => 'Label for form field where the user inputs the revision id',
+	'thanks-already-thanked' => 'Message shown to user if they have already sent thanks for this edit. $1 is the user\'s username.',
 	'echo-pref-subscription-edit-thank' => 'Option for getting notifications when someone thanks the user for their edit.
 
 This is the conclusion of the sentence begun by the header: {{msg-mw|Prefs-echosubscriptions}}.',
