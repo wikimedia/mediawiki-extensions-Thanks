@@ -591,13 +591,14 @@ $messages['de'] = array(
 /** Zazaki (Zazaki)
  * @author Gorizon
  * @author Marmase
+ * @author Mirzali
  */
 $messages['diq'] = array(
 	'thanks-thank' => 'teşekur kena',
 	'thanks-thanked' => '{{GENDER:$1|teşekur ke}}',
 	'thanks-button-thank' => '{{GENDER:$1|Teşekur kena}}',
 	'thanks-button-thanked' => '{{GENDER:$1|teşekur ke}}',
-	'thanks' => 'Teşekur bırş',
+	'thanks' => 'Teşekur bırışe',
 	'echo-category-title-edit-thank' => 'Teşekuri',
 	'notification-thanks-diff-link' => 'vırnayışa to',
 	'log-name-thanks' => 'Qeydé tşekuran',
@@ -1904,6 +1905,9 @@ $messages['pms'] = array(
 	'thanks-thank-tooltip' => "{{GENDER:$1|Mandé}} na notìfica d'aringrassiament a cost {{GENDER:$2|utent}}",
 	'thanks-confirmation' => 'A veul {{GENDER:$1|aringrassié}} $2 për costa modìfica?',
 	'thanks-thanked-notice' => "A l'é stàit notificà a $1 che a chiel a l'é piasuje {{GENDER:$2|soa}} modìfica.",
+	'thanks' => "mandé dj'aringrassiament",
+	'thanks-form-revid' => 'Identificatin ëd revision për la modìfica',
+	'thanks-already-thanked' => "{{GENDER:$1|Chiel|Chila}} a l'ha già mandà n'aringrassiament për costa modìfica.",
 	'echo-pref-subscription-edit-thank' => 'Aringrassieme për mia modìfica',
 	'echo-pref-tooltip-edit-thank' => "Aviseme cand cheidun a m'aringrassia për na modìfica ch'i l'hai fàit.",
 	'echo-category-title-edit-thank' => 'Mersì',
