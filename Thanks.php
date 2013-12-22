@@ -47,6 +47,8 @@ $wgAutoloadClasses['ApiThank'] = $dir . '/ApiThank.php';
 $wgAutoloadClasses['ThanksLogFormatter'] = $dir . '/ThanksLogFormatter.php';
 $wgAutoloadClasses['SpecialThanks'] = $dir . '/SpecialThanks.php';
 $wgExtensionMessagesFiles['Thanks'] = $dir . '/Thanks.i18n.php';
+$wgExtensionMessagesFiles['ThanksAlias'] = $dir . '/Thanks.alias.php';
+
 
 // Register APIs
 $wgAPIModules['thank'] = 'ApiThank';
