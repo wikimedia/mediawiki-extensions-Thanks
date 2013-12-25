@@ -428,6 +428,7 @@ $messages['ce'] = array(
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|баркалла аьла}} «{{SITENAME}}» сайтехь тадар дарна.',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|баркалла аьла}} ахьа хӀара «$2» агӀо таярна.',
 	'log-name-thanks' => 'Баркаллин тептар',
+	'log-description-thanks' => 'Кхечу декъашхоша баркалла аьлла болу декъашхой чохь болу тептар.',
 	'logentry-thanks-thank' => '{{GENDER:$4|декъашхочуна}} $3 $1 {{GENDER:$2|баркалла аьла}}',
 	'log-show-hide-thanks' => '$1 баркаллин тептар',
 );
@@ -1061,6 +1062,7 @@ $messages['hr'] = array(
 	'log-name-thanks' => 'Evidencija zahvala',
 	'log-description-thanks' => 'Slijedi popis suradnika koji su drugim suradnicima objavili zahvalu.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|zahvalio|zahvalila}} je {{GENDER:$4|suradniku|suradnici}} {{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => '$1 evidenciju zahvala',
 );
 
 /** Upper Sorbian (hornjoserbsce)
@@ -1570,6 +1572,9 @@ $messages['ml'] = array(
 	'thanks-thank-tooltip' => 'ഈ {{GENDER:$2|ഉപയോക്താവിന്}} താങ്കളുടെ കൃതജ്ഞത {{GENDER:$1|അയയ്ക്കുക}}',
 	'thanks-confirmation' => 'ഈ തിരുത്തിന് $2 എന്ന ഉപയോക്താവിന് {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തണം}} എന്ന് താങ്കൾക്കുറപ്പാണോ?',
 	'thanks-thanked-notice' => '$1 എന്ന ഉപയോക്താവിനെ, താങ്കൾക്ക്  {{GENDER:$2|അദ്ദേഹത്തിന്റെ|അവരുടെ|അവരുടെ}} തിരുത്ത് ഇഷ്ടപ്പെട്ടുവെന്ന് അറിയിച്ചു.',
+	'thanks' => 'കൃതജ്ഞത അറിയിക്കുക',
+	'thanks-form-revid' => 'തിരുത്തിന്റെ നാൾപ്പതിപ്പിന്റെ ഐ.ഡി.',
+	'thanks-already-thanked' => 'ഈ തിരുത്തിന് {{GENDER:$1|താങ്കൾ}} നന്ദി അറിയിച്ചിട്ടുണ്ട്.',
 	'echo-pref-subscription-edit-thank' => 'എന്റെ തിരുത്തിന് എനിക്ക് കൃതജ്ഞത രേഖപ്പെടുത്തുക',
 	'echo-pref-tooltip-edit-thank' => 'ഞാൻ ചെയ്ത തിരുത്തിന് ആരെങ്കിലും നന്ദി രേഖപ്പെടുത്തിയാൽ എന്നെ അറിയിക്കുക.',
 	'echo-category-title-edit-thank' => 'നന്ദി',
