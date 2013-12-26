@@ -13,3 +13,13 @@ $specialPageAliases = array();
 $specialPageAliases['en'] = array(
 	'Thanks' => array( 'Thanks' ),
 );
+
+/** German (Deutsch) */
+$specialPageAliases['de'] = array(
+	'Thanks' => array( 'Danke' ),
+);
+
+/** Luxembourgish (Lëtzebuergesch) */
+$specialPageAliases['lb'] = array(
+	'Thanks' => array( 'Merci' ),
+);
