@@ -132,6 +132,39 @@ This is an object in a sentence so it should be in object case in languages wher
 {{Related|Log-show-hide}}',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'thanks-desc' => 'Voeg \'n "Bedank"-skakel by geskiedenis en weergawe-verskille',
+	'thanks-thank' => 'bedank',
+	'thanks-thanked' => '{{GENDER:$1|is bedank}}',
+	'thanks-button-thank' => '{{GENDER:$1|Bedank}}',
+	'thanks-button-thanked' => '{{GENDER:$1|Is bedank}}',
+	'thanks-error-undefined' => 'Bedanking het gefaal. Probeer asseblief weer.',
+	'thanks-error-invalidrevision' => 'Die weergawenommer is nie geldig nie.',
+	'thanks-error-ratelimited' => '{{GENDER:$1|U}} het u limiet vir bedankings oorskry. Wag eers en probeer dan weer.',
+	'thanks-thank-tooltip' => "{{GENDER:$1|Stuur}} 'n dankiesê-kennisgewing aan die {{GENDER:$2|gebruiker}}",
+	'thanks-confirmation' => 'Wil u $2 {{GENDER:$1|bedank}} vir hierdie wysiging bedank?',
+	'thanks-thanked-notice' => '$1 is in kennis gestel dat u van {{GENDER:$2|sy|haar|sy/haar}} wysiging hou.',
+	'thanks' => 'Stuur bedanking',
+	'thanks-form-revid' => 'Weergawe-ID vir wysiging',
+	'thanks-already-thanked' => "{{GENDER:$1|U}} het al 'n bedanking vir hierdie wysiging gestuur.",
+	'echo-pref-subscription-edit-thank' => "as iemand u vir 'n wysiging bedank",
+	'echo-pref-tooltip-edit-thank' => "Laat my weet as iemand my vir 'n wysiging bedank.",
+	'echo-category-title-edit-thank' => 'Bedank',
+	'notification-thanks-diff-link' => 'u wysiging',
+	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|het}} u op [[:$3]] vir $2 bedank.',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|het}} u vir u wysiging aan $2 bedank.',
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1|het}} u vir u wysiging bewerking op {{SITENAME}} bedank',
+	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|het}} u vir u wysiging aan $2 bedank.',
+	'notification-link-text-respond-to-user' => 'Reageer op bedanking',
+	'log-name-thanks' => 'Bedankingslogboek',
+	'log-description-thanks' => "Hieronder is 'n lys van gebruikers wat deur ander gebruikers bedank is.",
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|het}} {{GENDER:$4|$3}} bedank',
+	'log-show-hide-thanks' => 'bedankingslogboek $1',
+);
+
 /** Arabic (العربية)
  * @author Asaifm
  * @author ترجمان05
@@ -863,6 +896,7 @@ $messages['fi'] = array(
  * @author Jean-Frédéric
  * @author Ltrlg
  * @author Metroitendo
+ * @author Wyz
  */
 $messages['fr'] = array(
 	'thanks-desc' => 'Ajoute des liens de remerciement aux vues historique et de différence',
@@ -876,6 +910,9 @@ $messages['fr'] = array(
 	'thanks-thank-tooltip' => '{{GENDER:$1|Envoyer}} une notification de remerciement à {{GENDER:$2|cet utilisateur|cette utilisatrice}}',
 	'thanks-confirmation' => 'Voulez-vous {{GENDER:$1|remercier}} $2 pour cette modification ?',
 	'thanks-thanked-notice' => '$1 a été notifié que vous avez aimé {{GENDER:$2|sa}} modification.',
+	'thanks' => 'Envoyer des remerciements',
+	'thanks-form-revid' => 'ID de révision de la modification',
+	'thanks-already-thanked' => '{{GENDER:$1|Vous}} avez déjà envoyé des remerciements pour cette modification.',
 	'echo-pref-subscription-edit-thank' => 'Me remercier pour ma modification',
 	'echo-pref-tooltip-edit-thank' => 'Me prévenir quand quelqu’un me remercie pour une modification que j’ai faite.',
 	'echo-category-title-edit-thank' => 'Merci',
@@ -1552,6 +1589,9 @@ $messages['mk'] = array(
 	'thanks-thank-tooltip' => '{{GENDER:$1|Испратете}} му благодарност (во порака) на {{GENDER:$2|корисников}}',
 	'thanks-confirmation' => 'Дали сте сигурни дека сакате да {{GENDER:$1|му се заблагодарите|да ѝ се заблагодарите}} на $2 за уредувањево?',
 	'thanks-thanked-notice' => '$1 {{GENDER:$2|е известен дека ви се допаѓа неговото уредување|е известена дека ви се допаѓа нејзиното уредување|доби известување дека ви се допаѓа уредувањето што го направи}}.',
+	'thanks' => 'Заблагодари се',
+	'thanks-form-revid' => 'Назнака на ревизијата на уредувањето',
+	'thanks-already-thanked' => '{{GENDER:$1|Веќе}} се заблагодаривте за ова уредување.',
 	'echo-pref-subscription-edit-thank' => 'Ќе ми се заблагодари за мое уредување',
 	'echo-pref-tooltip-edit-thank' => 'Извести ме кога некој ќе ми заблагодари за напарвено уредување.',
 	'echo-category-title-edit-thank' => 'Благодарам',
