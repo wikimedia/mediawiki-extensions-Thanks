@@ -144,15 +144,15 @@ $messages['af'] = array(
 	'thanks-error-undefined' => 'Bedanking het gefaal. Probeer asseblief weer.',
 	'thanks-error-invalidrevision' => 'Die weergawenommer is nie geldig nie.',
 	'thanks-error-ratelimited' => '{{GENDER:$1|U}} het u limiet vir bedankings oorskry. Wag eers en probeer dan weer.',
-	'thanks-thank-tooltip' => "{{GENDER:$1|Stuur}} 'n dankiesê-kennisgewing aan die {{GENDER:$2|gebruiker}}",
-	'thanks-confirmation' => 'Wil u $2 {{GENDER:$1|bedank}} vir hierdie wysiging bedank?',
+	'thanks-thank-tooltip' => "{{GENDER:$1|Stuur}} die {{GENDER:$2|gebruiker}} 'n dankiesê-kennisgewing",
+	'thanks-confirmation' => 'Wil u $2 vir hierdie wysiging {{GENDER:$1|bedank}}?',
 	'thanks-thanked-notice' => '$1 is in kennis gestel dat u van {{GENDER:$2|sy|haar|sy/haar}} wysiging hou.',
 	'thanks' => 'Stuur bedanking',
 	'thanks-form-revid' => 'Weergawe-ID vir wysiging',
 	'thanks-already-thanked' => "{{GENDER:$1|U}} het al 'n bedanking vir hierdie wysiging gestuur.",
 	'echo-pref-subscription-edit-thank' => "as iemand u vir 'n wysiging bedank",
 	'echo-pref-tooltip-edit-thank' => "Laat my weet as iemand my vir 'n wysiging bedank.",
-	'echo-category-title-edit-thank' => 'Bedank',
+	'echo-category-title-edit-thank' => 'Dankiesê-kennisgewings',
 	'notification-thanks-diff-link' => 'u wysiging',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|het}} u op [[:$3]] vir $2 bedank.',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|het}} u vir u wysiging aan $2 bedank.',
@@ -562,12 +562,12 @@ $messages['cy'] = array(
  * @author Palnatoke
  */
 $messages['da'] = array(
-	'thanks-desc' => 'Tilføjer takke-links til historik og forskelsvisninger',
+	'thanks-desc' => 'Tilføjer takkelinks til historik og forskelsvisninger',
 	'thanks-thank' => 'tak',
 	'thanks-thanked' => '{{GENDER:$1|takkede}}',
 	'thanks-button-thank' => '{{GENDER:$1|Tak}}',
 	'thanks-button-thanked' => '{{GENDER:$1|Takkede}}',
-	'thanks-error-undefined' => 'Takke-handlingen mislykkedes. Prøv venligst igen.',
+	'thanks-error-undefined' => 'Takkehandlingen mislykkedes. Prøv venligst igen.',
 	'thanks-error-invalidrevision' => 'Versions-ID er ikke gyldigt.',
 	'thanks-error-ratelimited' => '{{GENDER:$1|Du}} har overskredet din frekvensgrænse. Vent et stykke tid og prøv igen.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Send}} en takkemeddelelse til denne  {{GENDER:$2| bruger}}',
@@ -585,10 +585,10 @@ $messages['da'] = array(
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|takkede}} dig for din redigering på {{SITENAME}}',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|takkede}} dig for din redigering på $2.',
 	'notification-link-text-respond-to-user' => 'Svar til bruger',
-	'log-name-thanks' => 'Takke-log',
+	'log-name-thanks' => 'Takkelog',
 	'log-description-thanks' => 'Nedenfor er en liste over brugere, som er blevet takket af andre brugere.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|takkede}} {{GENDER:$4|$3}}',
-	'log-show-hide-thanks' => '$1 takke-log',
+	'log-show-hide-thanks' => '$1 takkelog',
 );
 
 /** German (Deutsch)
@@ -1734,7 +1734,7 @@ $messages['mt'] = array(
  * @author Njardarlogar
  */
 $messages['nb'] = array(
-	'thanks-desc' => 'Legg til takkelenker på historikk og endringer',
+	'thanks-desc' => 'Gir mulighet for å takke brukere fra historikk- og sammenligningssider.',
 	'thanks-thank' => 'takk',
 	'thanks-thanked' => '{{GENDER:$1|takket}}',
 	'thanks-button-thank' => '{{GENDER:$1|Takk}}',
@@ -1745,6 +1745,9 @@ $messages['nb'] = array(
 	'thanks-thank-tooltip' => '{{GENDER:$1|Send}} en takkemelding til denne {{GENDER:$2|brukeren}}',
 	'thanks-confirmation' => 'Vil du {{GENDER:$1|takke}} $2 for denne redigeringen?',
 	'thanks-thanked-notice' => '$1 får høre at du satte pris på {{GENDER:$2|redigeringen hans|redigeringen hennes|redigeringen}}.',
+	'thanks' => 'Send takk',
+	'thanks-form-revid' => 'Revisjons-ID for redigeringen',
+	'thanks-already-thanked' => '{{GENDER:$1|Du}} har allerede sagt takk for denne redigeringen.',
 	'echo-pref-subscription-edit-thank' => 'Takker meg for redigeringen min',
 	'echo-pref-tooltip-edit-thank' => 'Varsle meg når noen takker meg for en redgering jeg har gjort.',
 	'echo-category-title-edit-thank' => 'Takk',
