@@ -12,9 +12,10 @@ class ThanksHooks {
 	 * Inserts 'thank' link into revision interface
 	 * @param $rev Revision object to add the thank link for
 	 * @param &$links array Links to add to the revision interface
+	 * @param $oldRev Revision object of the "old" revision when viewing a diff
 	 * @return bool
 	 */
-	public static function insertThankLink( $rev, &$links ) {
+	public static function insertThankLink( $rev, &$links, $oldRev = null ) {
 		global $wgUser, $wgThanksSendToBots;
 		// Make sure Echo is turned on.
 		// Exclude anonymous users.
@@ -24,7 +25,8 @@ class ThanksHooks {
 			&& !$wgUser->isAnon()
 			&& $rev->getUser() !== $wgUser->getId()
 			&& !$wgUser->isBlocked()
-			&& !$rev->isDeleted( Revision::DELETED_TEXT )
+			&& !$rev->isDeleted( Revision::DELETED_TEXT
+			&& ( !$oldRev || $rev->getParentId() == $oldRev->getId() ) )
 		) {
 			$recipient = User::newFromId( $rev->getUser() );
 			$recipientAllowed = true;
