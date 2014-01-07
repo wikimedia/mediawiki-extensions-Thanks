@@ -653,6 +653,7 @@ $messages['diq'] = array(
 );
 
 /** Lower Sorbian (dolnoserbski)
+ * @author Derbeth
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -661,7 +662,7 @@ $messages['dsb'] = array(
 	'thanks-thanked' => '{{GENDER:$1|jo se źěkował|jo se źěkowała}}',
 	'thanks-button-thank' => '{{GENDER:$1|Źěkowaś se}}',
 	'thanks-button-thanked' => '{{GENDER:$1|Jo se źěkował|Jo se źěkowała}}',
-	'thanks-error-undefined' => 'Źěkowanje jo se njeraźiło. Pšosym wopytaj hyšći raz.',
+	'thanks-error-undefined' => 'Źěkowanje njejo se raźiło. Pšosym wopytaj hyšći raz.',
 	'thanks-error-invalidrevision' => 'Wersijowy ID njejo płaśiwy.',
 	'thanks-error-ratelimited' => '{{GENDER:$1|Ty}} sy swój akciski limit {{GENDER:$1|pśekšocył|pśekšocyła}}. Pšosym cakaj chylku a wopytaj hyšći raz.',
 	'thanks-thank-tooltip' => 'Źěkowu powěźeńku toś {{GENDER:$2|wužywarjeju|wužywarce}} {{GENDER:$1|pósłaś}}',
@@ -2033,6 +2034,7 @@ $messages['ps'] = array(
  * @author OTAVIO1981
  * @author Oona
  * @author Opraco
+ * @author Titoncio
  * @author Vitorvicentevalente
  */
 $messages['pt'] = array(
@@ -2050,7 +2052,7 @@ $messages['pt'] = array(
 	'echo-pref-subscription-edit-thank' => 'Agradece-me pela minha edição',
 	'echo-pref-tooltip-edit-thank' => 'Notificar-me quando alguém me agradecer por uma edição que eu fiz.',
 	'echo-category-title-edit-thank' => 'Agradecimentos',
-	'notification-thanks-diff-link' => 'a sua edição',
+	'notification-thanks-diff-link' => 'sua edição',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|agradeceu-lhe}} pela $2 em [[:$3]].',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|agradeceu-lhe}} pela sua edição em $2.',
 	'notification-thanks-email-subject' => '$1 {{GENDER:$1|agradeceu-lhe}} pela sua edição em {{SITENAME}}',
