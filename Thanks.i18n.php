@@ -950,6 +950,9 @@ $messages['frr'] = array(
 	'thanks-thank-tooltip' => '{{Gender:$1|Schüür}} {{Gender:$2|didiar brüker}} en "soonk".',
 	'thanks-confirmation' => 'Wel dü $2 {{GENDER:$1|en soonk schüür}} för didiar bidrach?',
 	'thanks-thanked-notice' => '$1 hää bööd füngen, dat dü {{GENDER:$2|sin|hör|hör}} feranrang gud fanjst.',
+	'thanks' => 'Soonk schüür',
+	'thanks-form-revid' => "Werjuunskäänang för't bewerkin",
+	'thanks-already-thanked' => '{{GENDER:$1|Dü}} heest di al för det feranrang besoonket.',
 	'echo-pref-subscription-edit-thank' => '"Soonk" saien för man bidrach',
 	'echo-pref-tooltip-edit-thank' => 'Du mi bööd, wan mi hoker en "soonk" schüürt för man bidrach.',
 	'echo-category-title-edit-thank' => 'Föl soonk',
@@ -1548,8 +1551,10 @@ $messages['lrc'] = array(
  */
 $messages['lt'] = array(
 	'thanks-thank' => 'padėkoti',
+	'thanks-thanked' => '{{GENDER:$1|padėkota}}',
 	'thanks-button-thank' => '{{GENDER:$1|Padėkoti}}',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Nusiųskite}} padėkos žinutę šiam {{GENDER:$2|naudotojui}}',
+	'thanks-confirmation' => 'Ar jūs iš tiesų norite {{GENDER:$1|padėkoti}} $2 už šį keitimą?',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] padėkojo jums už jūsų keitimą puslapyje $2.',
 );
 
@@ -1949,6 +1954,9 @@ $messages['pl'] = array(
 	'thanks-thank-tooltip' => '{{GENDER:$1|Wyślij}} podziękowanie do {{GENDER:$2|tego użytkownika|tej użytkowniczki}}',
 	'thanks-confirmation' => 'Czy chcesz {{GENDER:$1|podziękować}} $2 za tę edycję?',
 	'thanks-thanked-notice' => '$1 {{GENDER:$2|został powiadomiony|została powiadomiona}} o twoim podziękowaniu za {{GENDER:$2|jego|jej}} edycję.',
+	'thanks' => 'Wyślij podziękowanie',
+	'thanks-form-revid' => 'ID wersji',
+	'thanks-already-thanked' => 'Już {{GENDER:$1|podziękowałeś|podziękowałaś}} za tą edycję.',
 	'echo-pref-subscription-edit-thank' => 'podziękuje mi za edycję, którą wykonałem',
 	'echo-pref-tooltip-edit-thank' => 'Powiadom mnie, kiedy ktoś podziękuje mi za edycję, którą wykonałem.',
 	'echo-category-title-edit-thank' => 'Podziękowania',
@@ -2204,6 +2212,15 @@ $messages['scn'] = array(
 	'thanks-confirmation' => 'Vuliti {{GENDER:$1|arringrazziari}} $2 pi stu canciu ?',
 	'echo-pref-subscription-edit-thank' => "M'arringràzzia pi lu mè canciu",
 	'echo-pref-tooltip-edit-thank' => "Abbìsami quannu quarchidunu m'arringràzzia pi nu canciu ca fici.",
+);
+
+/** Samogitian (žemaitėška)
+ * @author Hugo.arg
+ */
+$messages['sgs'] = array(
+	'thanks-thank' => 'padiekvuotė',
+	'thanks-button-thank' => 'Padiekavuotė', # Fuzzy
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|padiekavuojė}} Tamstā ož Tamstas pakeitėma poslapī $2.',
 );
 
 /** Slovak (slovenčina)
