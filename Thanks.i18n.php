@@ -273,6 +273,7 @@ $messages['be'] = array(
 
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Renessaince
+ * @author Zedlik
  */
 $messages['be-tarask'] = array(
 	'thanks-desc' => 'Дадае спасылкі з падзякамі у гісторыю і параўнаньне вэрсыяў',
@@ -297,7 +298,7 @@ $messages['be-tarask'] = array(
 	'notification-link-text-respond-to-user' => 'Адказаць удзельніку',
 	'log-name-thanks' => 'Журнал падзякаў',
 	'log-description-thanks' => 'Ніжэй знаходзіцца сьпіс удзельнікаў, якія атрымалі падзякі.',
-	'logentry-thanks-thank' => '$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$4|удзельніка|удзельніцу}} $3',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$4|удзельніку|удзельніцы}} $3',
 	'log-show-hide-thanks' => 'Журнал падзякаў $1',
 );
 
@@ -1956,7 +1957,7 @@ $messages['pl'] = array(
 	'thanks-thanked-notice' => '$1 {{GENDER:$2|został powiadomiony|została powiadomiona}} o twoim podziękowaniu za {{GENDER:$2|jego|jej}} edycję.',
 	'thanks' => 'Wyślij podziękowanie',
 	'thanks-form-revid' => 'ID wersji',
-	'thanks-already-thanked' => 'Już {{GENDER:$1|podziękowałeś|podziękowałaś}} za tą edycję.',
+	'thanks-already-thanked' => 'Już {{GENDER:$1|podziękowałeś|podziękowałaś}} za tę edycję.',
 	'echo-pref-subscription-edit-thank' => 'podziękuje mi za edycję, którą wykonałem',
 	'echo-pref-tooltip-edit-thank' => 'Powiadom mnie, kiedy ktoś podziękuje mi za edycję, którą wykonałem.',
 	'echo-category-title-edit-thank' => 'Podziękowania',
