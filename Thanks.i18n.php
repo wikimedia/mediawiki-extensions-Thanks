@@ -97,10 +97,12 @@ The special page contains the form to thank for the edit.',
 	'echo-pref-subscription-edit-thank' => 'Option for getting notifications when someone thanks the user for their edit.
 
 This is the conclusion of the sentence begun by the header: {{msg-mw|Prefs-echosubscriptions}}.',
-	'echo-pref-tooltip-edit-thank' => 'This is a short description of the edit-thank notification category.',
+	'echo-pref-tooltip-edit-thank' => 'This is a short description of the edit-thank notification category.
+{{Related|Echo-pref-tooltip}}',
 	'echo-category-title-edit-thank' => 'This is a short title for the notification category.
 
 Used as <code>$1</code> in {{msg-mw|Echo-dismiss-message}} and as <code>$2</code> in {{msg-mw|Echo-email-batch-category-header}}
+{{Related|Echo-category-title}}
 {{Identical|Thank}}',
 	'notification-thanks-diff-link' => "The text of a link to the user's edit.
 
@@ -1335,7 +1337,7 @@ $messages['ja'] = array(
 	'thanks-form-revid' => '編集の版 ID',
 	'thanks-already-thanked' => '{{GENDER:$1|}}この編集には既に感謝を示しました。',
 	'echo-pref-subscription-edit-thank' => '自分の編集に誰かが感謝を示したとき',
-	'echo-pref-tooltip-edit-thank' => '自分の編集に誰かが感謝を示したら通知する。',
+	'echo-pref-tooltip-edit-thank' => '自分の編集に誰かが感謝を示したときに通知する。',
 	'echo-category-title-edit-thank' => '感謝',
 	'notification-thanks-diff-link' => 'あなたの編集',
 	'notification-thanks' => '[[User:$1|$1]] が [[:$3]] での$2に{{GENDER:$1|感謝を示しました}}',
