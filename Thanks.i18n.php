@@ -2191,6 +2191,7 @@ $messages['ru'] = array(
 	'thanks-thank-tooltip' => '{{GENDER:$1|Отправить}} {{GENDER:$2|этому участнику|этой участнице}} благодарственное сообщение',
 	'thanks-confirmation' => 'Хотите {{GENDER:$1|поблагодарить}} $2 за эту правку?',
 	'thanks-thanked-notice' => '$1 {{GENDER:$2|был оповещён|была оповещена|были оповещены}}, что вам понравилось {{GENDER:$2|его|её|их}} правка.',
+	'thanks' => 'Отправить благодарность',
 	'echo-pref-subscription-edit-thank' => 'Спасибо мне за мою правку',
 	'echo-pref-tooltip-edit-thank' => 'Сообщать мне, когда кто-то благодарит меня за сделанную мной правку.',
 	'echo-category-title-edit-thank' => 'Спасибо',
@@ -2533,6 +2534,7 @@ $messages['ur'] = array(
 /** Uzbek (oʻzbekcha)
  * @author Abdulla
  * @author Nataev
+ * @author Sociologist
  */
 $messages['uz'] = array(
 	'thanks-thank' => 'rahmat',
@@ -2557,7 +2559,7 @@ $messages['uz'] = array(
 	'log-name-thanks' => 'Rahmatlar qaydi',
 	'log-description-thanks' => 'Quyida rahmat aytilgan foydalanuvchilar roʻyxati keltirilgan.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$4|$3}}ga {{GENDER:$2|rahmat aytdi}}',
-	'log-show-hide-thanks' => '$1 rahmatlar qaydi',
+	'log-show-hide-thanks' => 'Rahmatlar qaydini $1',
 );
 
 /** vèneto (vèneto)
