@@ -2192,6 +2192,7 @@ $messages['ru'] = array(
 	'thanks-confirmation' => 'Хотите {{GENDER:$1|поблагодарить}} $2 за эту правку?',
 	'thanks-thanked-notice' => '$1 {{GENDER:$2|был оповещён|была оповещена|были оповещены}}, что вам понравилось {{GENDER:$2|его|её|их}} правка.',
 	'thanks' => 'Отправить благодарность',
+	'thanks-already-thanked' => '{{GENDER:$1|Вы}} уже отправили благодарность за эту правку.',
 	'echo-pref-subscription-edit-thank' => 'Спасибо мне за мою правку',
 	'echo-pref-tooltip-edit-thank' => 'Сообщать мне, когда кто-то благодарит меня за сделанную мной правку.',
 	'echo-category-title-edit-thank' => 'Спасибо',
