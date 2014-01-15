@@ -1221,6 +1221,30 @@ $messages['hy'] = array(
 	'log-show-hide-thanks' => '$1 շնորհակալությունների գրանցամատյան',
 );
 
+/** Interlingua (interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'thanks-desc' => 'Adde ligamines de regratiamento al vistas de historia e diff',
+	'thanks-thank' => 'regratiar',
+	'thanks-thanked' => '{{GENDER:$1|regratiate}}',
+	'thanks-button-thank' => '{{GENDER:$1|Regratiar}}',
+	'thanks-button-thanked' => '{{GENDER:$1|Regratiate}}',
+	'thanks-error-undefined' => 'Le action de regratiamento ha fallite. Per favor reproba.',
+	'thanks-error-invalidrevision' => 'Le ID de version es invalide.',
+	'thanks-error-ratelimited' => '{{GENDER:$1|Tu}} ha excedite tu limite de frequentia. Per favor attende un poco e reproba.',
+	'thanks-thank-tooltip' => '{{GENDER:$1|Inviar}} un nota de regratiamento a iste {{GENDER:$2|usator}}',
+	'thanks-confirmation' => 'Vole tu {{GENDER:$1|regratiar}} $2 pro iste modification?',
+	'thanks-thanked-notice' => '$1 ha essite notificate que {{GENDER:$2|su}} modification te placeva.',
+	'thanks' => 'Inviar regratiamento',
+	'thanks-form-revid' => 'ID de version del modification',
+	'thanks-already-thanked' => '{{GENDER:$1|Tu}} ha jam inviate un regratiamento pro iste modification.',
+	'echo-pref-subscription-edit-thank' => 'Me regratia pro mi modification',
+	'echo-pref-tooltip-edit-thank' => 'Notificar me quando un persona me regratia pro un modification que io ha facite.',
+	'echo-category-title-edit-thank' => 'Regratiamentos',
+	'notification-thanks-diff-link' => 'tu modification',
+);
+
 /** Indonesian (Bahasa Indonesia)
  * @author Iwan Novirion
  * @author William Surya Permana
@@ -2192,6 +2216,7 @@ $messages['ru'] = array(
 	'thanks-confirmation' => 'Хотите {{GENDER:$1|поблагодарить}} $2 за эту правку?',
 	'thanks-thanked-notice' => '$1 {{GENDER:$2|был оповещён|была оповещена|были оповещены}}, что вам понравилось {{GENDER:$2|его|её|их}} правка.',
 	'thanks' => 'Отправить благодарность',
+	'thanks-form-revid' => 'Идентификатор правки для редактирования',
 	'thanks-already-thanked' => '{{GENDER:$1|Вы}} уже отправили благодарность за эту правку.',
 	'echo-pref-subscription-edit-thank' => 'Спасибо мне за мою правку',
 	'echo-pref-tooltip-edit-thank' => 'Сообщать мне, когда кто-то благодарит меня за сделанную мной правку.',
@@ -2491,6 +2516,7 @@ $messages['tr'] = array(
 );
 
 /** Ukrainian (українська)
+ * @author Aced
  * @author Andriykopanytsia
  * @author Base
  * @author Ата
@@ -2506,7 +2532,7 @@ $messages['uk'] = array(
 	'thanks-error-ratelimited' => '{{GENDER:$1|Ви}} перевищили свій ліміт частоти. Будь ласка, зачекайте деякий час, і спробуйте знову.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Надіслати}} сповіщення вдячності {{GENDER:$2|цьому користувачу|цій користувачці}}',
 	'thanks-confirmation' => 'Ви хочете {{GENDER:$1|подякувати}} $2 за цю зміну?',
-	'thanks-thanked-notice' => '$1 повідомив, що вам сподобалися  {{GENDER:$2|його|її|їхні}} зміни.',
+	'thanks-thanked-notice' => '$1 {{GENDER:$1|був повідомлений|була повідомлена|були повідомлені}}, що вам сподобалися {{GENDER:$2|його|її|їхні}} зміни.',
 	'thanks' => 'Надіслати подяку',
 	'thanks-form-revid' => 'ІД редакції для редагування',
 	'thanks-already-thanked' => '{{GENDER:$1|Ви}} вже надіслали подяки за це редагування.',
