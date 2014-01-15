@@ -1,6 +1,6 @@
 ( function( M, $ ) {
 	var api = M.require( 'api' ),
-		popup = M.require( 'notifications' ),
+		popup = M.require( 'toast' ),
 		schema = M.require( 'loggingSchemas/MobileWebClickTracking' );
 
 	function thankUser( name, revision, gender ) {
