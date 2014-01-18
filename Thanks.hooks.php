@@ -194,9 +194,10 @@ class ThanksHooks {
 	 * Add thanks button to SpecialMobileDiff page
 	 * @param &$output OutputPage object
 	 * @param $ctx MobileContext object
+	 * @param $revisions Array of the two revisions that are being compared in the diff
 	 * @return bool true in all cases
 	 */
-	public static function onBeforeSpecialMobileDiffDisplay( &$output, $ctx ) {
+	public static function onBeforeSpecialMobileDiffDisplay( &$output, $ctx, $revisions ) {
 		// If the Echo and MobileFrontend extensions are installed and the user is
 		// logged in, show a 'Thank' link.
 		if ( class_exists( 'EchoNotifier' )
@@ -204,6 +205,13 @@ class ThanksHooks {
 			&& $output->getUser()->isLoggedIn()
 		) {
 			$output->addModules( array( 'ext.thanks.mobilediff' ) );
+			$rev = $revisions[1];
+			if ( $rev ) {
+				if ( $output->getRequest()->getSessionData( 'thanks-thanked-' . $rev->getId() ) ) {
+					// User already sent thanks for this revision
+					$output->addJsConfigVars( 'wgThanksAlreadySent', true );
+				}
+			}
 		}
 		return true;
 	}

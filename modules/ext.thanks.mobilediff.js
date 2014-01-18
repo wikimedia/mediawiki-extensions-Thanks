@@ -41,25 +41,32 @@
 	 * @param gender String The gender of the user who made the edit
 	 */
 	function createThankLink( name, rev, gender ) {
-		var thankImg = mw.config.get( 'wgExtensionAssetsPath' ) + '/Thanks/WhiteSmiley.png';
+		var thankImg = mw.config.get( 'wgExtensionAssetsPath' ) + '/Thanks/WhiteSmiley.png',
+			thankImgTag = '<img width="25" height="20" src="' + thankImg + '" class="mw-mf-action-button-icon"/>',
+			$thankBtn;
 		// Don't make thank button for self
 		if ( name !== mw.config.get( 'wgUserName' ) ) {
-			return $( '<button class="mw-mf-action-button">' )
-				.html( '<img width="25" height="20" src="' + thankImg + '" class="mw-mf-action-button-icon"/>' +
-					mw.message( 'thanks-button-thank', mw.user ).escaped()
-				)
-				.on( 'click', function() {
-					var $thankLink = $( this );
-					schema.log( 'diff-thank', name );
-					if ( !$thankLink.hasClass( 'thanked' ) ) {
-						thankUser( name, rev, gender  ).done( function() {
-							$thankLink.addClass( 'thanked' ).attr( 'disabled', true );
-							$thankLink.html( '<img width="25" height="20" src="' + thankImg + '" class="mw-mf-action-button-icon"/>' +
-								mw.message( 'thanks-button-thanked', mw.user ).escaped()
-							);
-						} );
-					}
-				} );
+			// See if user has already been thanked for this edit
+			if ( mw.config.get( 'wgThanksAlreadySent' ) ) {
+				$thankBtn = $( '<button class="mw-mf-action-button thanked">' )
+					.attr( 'disabled', true )
+					.html( thankImgTag + mw.message( 'thanks-button-thanked', mw.user ).escaped() );
+			} else {
+				$thankBtn = $( '<button class="mw-mf-action-button">' )
+					.html( thankImgTag + mw.message( 'thanks-button-thank', mw.user ).escaped()
+					)
+					.on( 'click', function() {
+						var $this = $( this );
+						schema.log( 'diff-thank', name );
+						if ( !$this.hasClass( 'thanked' ) ) {
+							thankUser( name, rev, gender  ).done( function() {
+								$this.addClass( 'thanked' ).attr( 'disabled', true )
+									.html( thankImgTag + mw.message( 'thanks-button-thanked', mw.user ).escaped() );
+							} );
+						}
+					} );
+			}
+			return $thankBtn;
 		}
 	}
 
