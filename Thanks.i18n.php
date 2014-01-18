@@ -1444,6 +1444,7 @@ $messages['kn'] = array(
 
 /** Korean (한국어)
  * @author Hym411
+ * @author Priviet
  * @author 관인생략
  * @author 아라
  */
@@ -1451,17 +1452,17 @@ $messages['ko'] = array(
 	'thanks-desc' => '역사와 차이 보기에 감사 링크를 추가합니다',
 	'thanks-thank' => '감사',
 	'thanks-thanked' => '{{GENDER:$1|감사합니다}}',
-	'thanks-button-thank' => '감사', # Fuzzy
+	'thanks-button-thank' => '{{GENDER:$1|감사}}',
 	'thanks-button-thanked' => '{{GENDER:$1|감사를 표합니다}}',
 	'thanks-error-undefined' => '감사 표시 작업을 실패했습니다. 다시 시도하세요.',
 	'thanks-error-invalidrevision' => '판 ID가 올바르지 않습니다.',
-	'thanks-error-ratelimited' => '속도 제한을 초과했습니다. 잠시 기다리고 나서 다시 시도하세요.', # Fuzzy
+	'thanks-error-ratelimited' => '{{GENDER:$1|당신은}} 속도 제한을 초과했습니다. 잠시 기다리고 나서 다시 시도하세요.',
 	'thanks-thank-tooltip' => '이 {{GENDER:$2|사용자}}에게 감사의 알림을 {{GENDER:$1|보냅니다}}',
 	'thanks-confirmation' => '이 편집에 대해 $2님에게 {{GENDER:$1|감사}}를 표하겠습니까?',
 	'thanks-thanked-notice' => '$1님이 당신이 {{GENDER:$2|그|그녀|그들}}의 편집에 감사했다는 것을 들었습니다.',
 	'thanks' => '감사 보내기',
 	'thanks-form-revid' => '편집의 판 번호',
-	'thanks-already-thanked' => '당신은 이 편집에 대해 이미 감사를 표했습니다.', # Fuzzy
+	'thanks-already-thanked' => '{{GENDER:$1|당신은}} 이 편집에 대해 이미 감사를 표했습니다.',
 	'echo-pref-subscription-edit-thank' => '내 편집에 대해 다른 사용자가 감사를 표했습니다',
 	'echo-pref-tooltip-edit-thank' => '내게 내 편집에 대해 누군가가 감사를 표했을 때 알립니다.',
 	'echo-category-title-edit-thank' => '감사',
