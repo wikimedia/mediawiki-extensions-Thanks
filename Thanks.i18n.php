@@ -1572,12 +1572,15 @@ $messages['lb'] = array(
 );
 
 /** لوری (لوری)
+ * @author Bonevarluri
  * @author Mogoeilor
  */
 $messages['lrc'] = array(
 	'thanks-thank' => 'منمون',
 	'echo-category-title-edit-thank' => 'منمون',
 	'notification-thanks-diff-link' => 'ویرایشت شما',
+	'log-name-thanks' => 'پهرستنومه منمون بیئنی یا',
+	'log-show-hide-thanks' => 'پهرستنومه منمون بیئنی یا$1',
 );
 
 /** Lithuanian (lietuvių)
@@ -2184,6 +2187,8 @@ $messages['roa-tara'] = array(
 	'thanks-desc' => "Aggiunge le collegaminde de rengraziamende sus a le viste d'u cunde e de le differenze",
 	'thanks-thank' => 'grazie',
 	'thanks-thanked' => '{{GENDER:$1|ringraziate}}',
+	'thanks-button-thank' => '{{GENDER:$1|Grazie}}',
+	'thanks-button-thanked' => '{{GENDER:$1|Ringraziate}}',
 	'thanks-error-undefined' => 'Azione de ringraziamende fallite. Pe piacere pruéve arrete.',
 	'thanks-error-invalidrevision' => "ID d'a revisione non g'è valide.",
 	'thanks-error-ratelimited' => "Tu è sbunnate le limite de valutazione tune. Pe piacere aspitte 'nu picche e pruève arrete.", # Fuzzy
@@ -2333,7 +2338,8 @@ $messages['sr-ec'] = array(
 	'thanks-thanked' => '{{GENDER:$1|захвалио се|захвалила се}}',
 	'thanks-error-undefined' => 'Захваљивање није успело. Покушајте поново.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Пошаљите}} захвалницу {{GENDER:$2|овом кориснику|овој корисници}}',
-	'thanks-confirmation' => 'Да ли сте сигурни да желите да се {{GENDER:$1|захвалите}} кориснику $2 за ову измену?', # Fuzzy
+	'thanks-confirmation' => 'Да ли сте сигурни да желите да се захвалите {{GENDER:$1|кориснику|корисници}} $2 за ову измену?',
+	'thanks' => 'Захвали се',
 	'echo-pref-tooltip-edit-thank' => 'Обавештава вас када вам се неко захвали за измену коју сте начинили.',
 	'echo-category-title-edit-thank' => 'Захвалнице',
 	'notification-thanks-diff-link' => 'вашој измени',
@@ -2342,9 +2348,9 @@ $messages['sr-ec'] = array(
 	'notification-thanks-email-subject' => '$1 вам се {{GENDER:$1|захваљује}} за вашу измену на {{SITENAME}}',
 	'notification-thanks-email-batch-body' => '$1 вам се {{GENDER:$1|захваљује}} за вашу измену на страници $2.',
 	'notification-link-text-respond-to-user' => 'Одговори кориснику',
-	'log-name-thanks' => 'Дневник захвалница',
+	'log-name-thanks' => 'Дневник захваљивања',
 	'log-description-thanks' => 'Испод се налази списак корисника којима су се други корисници захвалили.',
-	'logentry-thanks-thank' => '$1 се {{GENDER:$2|захвалио|захвалила}} кориснику {{GENDER:$4|$3}}',
+	'logentry-thanks-thank' => '$1 се {{GENDER:$2|захвалио|захвалила}} {{GENDER:$4|кориснику|корисници}} {{GENDER:$4|$3}}',
 	'log-show-hide-thanks' => '$1 дневник захваљивања',
 );
 
@@ -2357,6 +2363,8 @@ $messages['sr-el'] = array(
 	'thanks-thanked' => '{{GENDER:$1|zahvalio se|zahvalila se}}',
 	'thanks-error-undefined' => 'Zahvaljivanje nije uspelo. Pokušajte ponovo.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Pošaljite}} zahvalnicu {{GENDER:$2|ovom korisniku|ovoj korisnici}}',
+	'thanks-confirmation' => 'Da li ste sigurni da želite da se zahvalite {{GENDER:$1|korisniku|korisnici}} $2 za ovu izmenu?',
+	'thanks' => 'Zahvali se',
 	'echo-pref-tooltip-edit-thank' => 'Obaveštava vas kada vam se neko zahvali za izmenu koju ste načinili.',
 	'echo-category-title-edit-thank' => 'Zahvalnice',
 	'notification-thanks-diff-link' => 'vašoj izmeni',
@@ -2365,9 +2373,9 @@ $messages['sr-el'] = array(
 	'notification-thanks-email-subject' => '$1 vam se {{GENDER:$1|zahvaljuje}} za vašu izmenu na {{SITENAME}}',
 	'notification-thanks-email-batch-body' => '$1 vam se {{GENDER:$1|zahvaljuje}} za vašu izmenu na stranici $2.',
 	'notification-link-text-respond-to-user' => 'Odgovori korisniku',
-	'log-name-thanks' => 'Dnevnik zahvalnica',
+	'log-name-thanks' => 'Dnevnik zahvaljivanja',
 	'log-description-thanks' => 'Ispod se nalazi spisak korisnika kojima su se drugi korisnici zahvalili.',
-	'logentry-thanks-thank' => '$1 se {{GENDER:$2|zahvalio|zahvalila}} korisniku {{GENDER:$4|$3}}',
+	'logentry-thanks-thank' => '$1 se {{GENDER:$2|zahvalio|zahvalila}} {{GENDER:$4|korisniku|korisnici}} {{GENDER:$4|$3}}',
 	'log-show-hide-thanks' => '$1 dnevnik zahvaljivanja',
 );
 
