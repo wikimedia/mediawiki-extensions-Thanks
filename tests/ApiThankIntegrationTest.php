@@ -1,6 +1,8 @@
 <?php
 
 /**
+ * Integration tests for the Thanks api module
+ *
  * @covers ApiThank
  *
  * @group Thanks
