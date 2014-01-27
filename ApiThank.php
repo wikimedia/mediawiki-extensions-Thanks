@@ -129,7 +129,8 @@ class ApiThank extends ApiBase {
 			$logEntry->setPerformer( $user );
 			$target = $recipient->getUserPage();
 			$logEntry->setTarget( $target );
-			$logEntry->insert();
+			$logId = $logEntry->insert();
+			$logEntry->publish( $logId, 'udp' );
 		}
 	}
 
