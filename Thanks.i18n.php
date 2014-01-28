@@ -746,6 +746,7 @@ $messages['eo'] = array(
  * @author Hahc21
  * @author Julian leonardo paez
  * @author PoLuX124
+ * @author Sethladan
  */
 $messages['es'] = array(
 	'thanks-desc' => 'Añade enlaces para agradecer desde el historial y las diferencias entre ediciones',
@@ -761,7 +762,7 @@ $messages['es'] = array(
 	'thanks-thanked-notice' => '$1 fue notificad{{GENDER:$2|o|a|o}} de que te ha gustado su edición.',
 	'thanks' => 'Enviar agradecimiento',
 	'thanks-form-revid' => 'Id. de revisión',
-	'thanks-already-thanked' => 'Ya has enviado un agradecimiento por esta edición.', # Fuzzy
+	'thanks-already-thanked' => 'Ya has {{GENDER:$1|enviado}} un agradecimiento por esta edición.',
 	'echo-pref-subscription-edit-thank' => 'Agradecerme por mi edición',
 	'echo-pref-tooltip-edit-thank' => 'Notificarme cuando alguien me agradezca por una edición que haya realizado.',
 	'echo-category-title-edit-thank' => 'Gracias',
@@ -1710,8 +1711,8 @@ $messages['mr'] = array(
 	'echo-category-title-edit-thank' => 'धन्यवाद',
 	'notification-thanks-diff-link' => 'आपले संपादन',
 	'notification-thanks' => '[[User:$1|$1]] ने  $2 करीता [[:$3]]वर {{GENDER:$1|धन्यवाद दिलेत.}}',
-	'notification-thanks-flyout2' => '[[User:$1|$1]]ने आपणास $2वर केलेल्या संपादनाबद्दल {{GENDER:$1|धन्यवाद दिलेत.}}',
-	'notification-thanks-email-subject' => '$1 ने {{SITENAME}}वर आपण केलेल्या संपादनाबाबत {{GENDER:$1|धन्यवाद दिलेत}}',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] ने आपणास {{GENDER:$1|धन्यवाद दिलेत}}$2 वर केलेल्या संपादनाबद्दल.',
+	'notification-thanks-email-subject' => '$1 ने {{SITENAME}}वर  {{GENDER:$1|धन्यवाद दिलेत}}आपण केलेल्या संपादनाबाबत',
 	'notification-thanks-email-batch-body' => '$1 ने आपण $2वर केलेल्या संपादनाबाबत आपणास {{GENDER:$1|धन्यवाद दिलेत.}}',
 	'notification-link-text-respond-to-user' => 'सदस्यास उत्तर द्या',
 	'log-name-thanks' => 'धन्यवादाच्या नोंदी',
@@ -2266,6 +2267,20 @@ $messages['sgs'] = array(
 	'thanks-thank' => 'padiekvuotė',
 	'thanks-button-thank' => 'Padiekavuotė', # Fuzzy
 	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|padiekavuojė}} Tamstā ož Tamstas pakeitėma poslapī $2.',
+);
+
+/** Serbo-Croatian (srpskohrvatski / српскохрватски)
+ * @author Kolega2357
+ */
+$messages['sh'] = array(
+	'thanks-desc' => 'Dodaje mogućnost zahvaljivanja u pregledu historije i pregledu razlika između izmena',
+	'thanks-thank' => 'zahvali se',
+	'thanks-thanked' => '{{GENDER:$1|zahvalio se|zahvalila se}}',
+	'notification-link-text-respond-to-user' => 'Odgovori korisniku',
+	'log-name-thanks' => 'Evidencija zahvaljivanja',
+	'log-description-thanks' => 'Ispod se nalazi spisak korisnika kojima su se drugi korisnici zahvalili.',
+	'logentry-thanks-thank' => '$1 se {{GENDER:$2|zahvalio|zahvalila}} {{GENDER:$4|korisniku|korisnici}} {{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => '$1 evidencija zahvaljivanja',
 );
 
 /** Slovak (slovenčina)
