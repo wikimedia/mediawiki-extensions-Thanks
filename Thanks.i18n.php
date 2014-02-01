@@ -990,6 +990,9 @@ $messages['gl'] = array(
 	'thanks-thank-tooltip' => '{{GENDER:$1|Envía}} unha notificación de agradecemento a {{GENDER:$2|este usuario|esta usuaria}}',
 	'thanks-confirmation' => 'Quere {{GENDER:$1|agradecer}} a $2 a súa edición?',
 	'thanks-thanked-notice' => '$1 recibiu un aviso de que a vostede lle gustou {{GENDER:$2|a súa}} edición.',
+	'thanks' => 'Enviar un agradecemento',
+	'thanks-form-revid' => 'ID de revisión da edición',
+	'thanks-already-thanked' => 'Xa {{GENDER:$1|enviou}} un agradecemento por esta edición.',
 	'echo-pref-subscription-edit-thank' => 'Me agradeza unha edición feita por min',
 	'echo-pref-tooltip-edit-thank' => 'Notificádeme cando alguén me agradeza unha edición feita por min.',
 	'echo-category-title-edit-thank' => 'Agradecemento',
@@ -1247,6 +1250,15 @@ $messages['ia'] = array(
 	'echo-pref-tooltip-edit-thank' => 'Notificar me quando un persona me regratia pro un modification que io ha facite.',
 	'echo-category-title-edit-thank' => 'Regratiamentos',
 	'notification-thanks-diff-link' => 'tu modification',
+	'notification-thanks' => '[[User:$1|$1]] te {{GENDER:$1|regratiava}} pro $2 in [[:$3]].',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] te {{GENDER:$1|regratiava}} pro tu modification in $2.',
+	'notification-thanks-email-subject' => '$1 te {{GENDER:$1|regratiava}} pro tu modification in {{SITENAME}}',
+	'notification-thanks-email-batch-body' => '$1 te {{GENDER:$1|regratiava}} pro tu modification in $2.',
+	'notification-link-text-respond-to-user' => 'Responder al usator',
+	'log-name-thanks' => 'Registro de regratiamentos',
+	'log-description-thanks' => 'Ecce un lista de usatores regratiate per altere usatores.',
+	'logentry-thanks-thank' => '$1 {{GENDER:$2|regratiava}} {{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => '$1 registro de regratiamentos',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -1581,7 +1593,9 @@ $messages['lrc'] = array(
 	'thanks-thank' => 'منمون',
 	'echo-category-title-edit-thank' => 'منمون',
 	'notification-thanks-diff-link' => 'ویرایشت شما',
+	'notification-thanks-email-subject' => '$1 {{جنس:$1|تشکر کرده}} د شما سی ویرایشتتو د {{نوم سیلجا}}',
 	'log-name-thanks' => 'پهرستنومه منمون بیئنی یا',
+	'log-description-thanks' => 'د هار یه گل نوم که کاروریایی هئ که کاروریا هنی دشو تشکر کردنه',
 	'log-show-hide-thanks' => 'پهرستنومه منمون بیئنی یا$1',
 );
 
@@ -2331,6 +2345,9 @@ $messages['sl'] = array(
 	'thanks-thank-tooltip' => '{{GENDER:$1|Pošljite}} {{GENDER:$2|temu uporabniku|tej uporabnici}} zahvalo',
 	'thanks-confirmation' => 'Ali se želite uporabniku $2 {{GENDER:$1|zahvaliti}} za to urejanje?',
 	'thanks-thanked-notice' => '$1 ste sporočili, da vam je bilo {{GENDER:$2|njegovo|njeno}} urejanje všeč.',
+	'thanks' => 'Pošljite zahvalo',
+	'thanks-form-revid' => 'ID redakcije za urejanje',
+	'thanks-already-thanked' => 'Za to urejanje {{GENDER:$1|ste}} že poslali zahvalo.',
 	'echo-pref-subscription-edit-thank' => 'Se mi zahvali za urejanje',
 	'echo-pref-tooltip-edit-thank' => 'Obvesti me, kadar se mi kdo zahvali za katero od mojih urejanj.',
 	'echo-category-title-edit-thank' => 'Zahvala',
