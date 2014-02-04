@@ -132,8 +132,7 @@ class ThanksHooks {
 		);
 
 		$notifications['edit-thank'] = array(
-			'primary-link' => array( 'message' => 'notification-link-text-respond-to-user', 'destination' => 'agent' ),
-			'secondary-link' => array( 'message' => 'notification-link-text-view-edit', 'destination' => 'diff' ),
+			'primary-link' => array( 'message' => 'notification-link-text-view-edit', 'destination' => 'diff' ),
 			'category' => 'edit-thank',
 			'group' => 'positive',
 			'formatter-class' => 'EchoThanksFormatter',
