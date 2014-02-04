@@ -93,7 +93,8 @@ $wgResourceModules['ext.thanks'] = array(
 );
 $wgResourceModules['ext.thanks.mobilediff'] = array(
 	'dependencies' => array(
-		'mobile.mobilediff.scripts',
+		// Module name changed in MobileFrontend on 2014-02-25
+		'mobile.special.mobilediff.scripts',
 	),
 	'scripts' => array(
 		'ext.thanks.mobilediff.js',
