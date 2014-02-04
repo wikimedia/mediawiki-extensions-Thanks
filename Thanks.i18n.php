@@ -455,6 +455,7 @@ $messages['cdo'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'thanks-desc' => 'Истори чу а версин башхала хьожечухь а баркалла олу хьажорагаш тӀетуху',
 	'thanks-thank' => 'баркалла',
 	'thanks-thanked' => '{{GENDER:$1|Баркалла аьлла}}',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Бахьийта}} {{GENDER:$2|хӀокху декъашхочунга}} баркаллин хаам',
