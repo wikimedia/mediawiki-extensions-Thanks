@@ -371,11 +371,13 @@ $messages['bs'] = array(
 	'thanks-desc' => 'Dodaje mogućnost zahvaljivanja u pregledu historije i pregledu razlike između izmjena',
 	'thanks-thank' => 'zahvali se',
 	'thanks-thanked' => '{{GENDER:$1|zahvalio se|zahvalila se}}',
+	'thanks-button-thank' => '{{GENDER:$1|Zahvali se}}',
 	'thanks-error-undefined' => 'Nije bilo moguće zahvaliti se. Pokušajte ponovo.',
 	'thanks-error-invalidrevision' => 'Revizioni ID nije validan.',
 	'thanks-error-ratelimited' => '{{GENDER:$1|Prekoračili ste}} vaše ograničenje za ocijenjivanje. Sačekajte jedno vrijeme i zatim pokušajte ponovo.',
 	'thanks-thank-tooltip' => '{{GENDER:$1|Pošalji}} zahvalnicu {{GENDER:$2|ovom korisniku|оvoj korisnici}}',
-	'thanks-confirmation' => 'Da li ste sigurni da se hoćete {{GENDER:$1|zahvaliti}} korisniku $2 za ovu izmjenu?', # Fuzzy
+	'thanks-confirmation' => 'Želite li {{GENDER:$1|zahvaliti}} korisniku $2 za ovu izmjenu?',
+	'thanks' => 'Zahvali se',
 	'echo-pref-subscription-edit-thank' => 'Neko mi se zahvali za moju izmjenu',
 	'echo-pref-tooltip-edit-thank' => 'Obavijesti me ako mi se neko zahvali za moju izmjenu.',
 	'echo-category-title-edit-thank' => 'Zahvale',
@@ -388,6 +390,7 @@ $messages['bs'] = array(
 	'log-name-thanks' => 'Zapis zahvalnica',
 	'log-description-thanks' => 'Ispod se nalazi spisak korisnika kojima su se drugi korisnici zahvalili.',
 	'logentry-thanks-thank' => '$1 se {{GENDER:$2|zahvaljuje}} korisniku {{GENDER:$4|$3}}',
+	'log-show-hide-thanks' => '$1 evidencija zahvaljivanja',
 );
 
 /** Catalan (català)
@@ -1581,6 +1584,8 @@ $messages['lb'] = array(
 	'echo-pref-tooltip-edit-thank' => 'Mech Informéieren wann ee mir fir eng Ännerung déi ech gemaach hu Merci seet.',
 	'echo-category-title-edit-thank' => 'Merci',
 	'notification-thanks-diff-link' => 'Är Ännerung',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|huet}} Iech Merci gesot fir Är Ännerung op $2.',
+	'notification-thanks-email-subject' => '$1 {{GENDER:$1|seet}} Iech merci fir Är Ännerung op {{SITENAME}}',
 	'notification-thanks-email-batch-body' => '$1 {{GENDER:$1|seet}} Iech merci fir Är Ännerung op $2.',
 	'notification-link-text-respond-to-user' => 'Dem Benotzer äntwerten',
 	'log-name-thanks' => 'Logbuch vum Merci-soen',
