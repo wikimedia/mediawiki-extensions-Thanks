@@ -2752,6 +2752,7 @@ $messages['yi'] = array(
 	'echo-category-title-edit-thank' => 'אַ דאַנק',
 	'notification-thanks-diff-link' => 'אײַער רעדאקטירונג',
 	'notification-thanks' => '[[User:$1|$1]] {{GENDER:$1|האט געדאנקט}} דיך פֿאר $2 אויף [[:$3]].',
+	'notification-link-text-respond-to-user' => 'ענטפערן באניצער',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|האט געדאנקט}} {{GENDER:$4|$3}}',
 );
 
