@@ -185,6 +185,7 @@ $messages['ar'] = array(
 	'thanks-thank-tooltip' => '{{GENDER:$1|أرسل|أرسلي}} إشعار شكر ل{{GENDER:$2|هذا المستخدم|هذه المستخدمة}}',
 	'thanks-confirmation' => 'هل {{GENDER:$1|تريد|تريدين}} شكر $2 على هذا التعديل?',
 	'thanks-thanked-notice' => 'تم إشعار $1 بأن {{GENDER:$2|تعديله|تعديلها|تعديلهم}} أعجبك.',
+	'thanks' => 'إرسال شكر',
 	'echo-pref-subscription-edit-thank' => 'شكري على تعديلي',
 	'echo-pref-tooltip-edit-thank' => 'أشعرني عندما يشكرني أحد ما على تعديل قمت به.',
 	'echo-category-title-edit-thank' => 'شكر',
