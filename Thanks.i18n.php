@@ -1312,6 +1312,9 @@ $messages['ilo'] = array(
 	'thanks-thank-tooltip' => '{{GENDER:$1|Agipatulod}} ti pakaammo a panagyaman iti daytoy nga {{GENDER:$2|agar-aramat}}',
 	'thanks-confirmation' => 'Kayatmo kadi ti {{GENDER:$1|agyaman}} kenni $2 para iti daytoy nga inurnos?',
 	'thanks-thanked-notice' => 'Naipaammo idi kenni $1 a kinayatmo {{GENDER:$2|ti|dagiti}} inurnosda.',
+	'thanks' => 'Agipatulod ti panag-yaman',
+	'thanks-form-revid' => 'Panagbaliw nga ID ti panag-urnos',
+	'thanks-already-thanked' => '{{GENDER:$1|Nakaipatulodkan}} ti panag-yaman para iti daytoy a panag-urnos.',
 	'echo-pref-subscription-edit-thank' => 'Pagyamanennak para iti inurnosko',
 	'echo-pref-tooltip-edit-thank' => 'Pakaammuannak no adda agyaman kaniak para iti maysa nga inaramidko nga inurnos.',
 	'echo-category-title-edit-thank' => 'Dagiti panagyaman',
@@ -2758,12 +2761,13 @@ $messages['yi'] = array(
 );
 
 /** Cantonese (粵語)
+ * @author Antonytse
  * @author William915
  */
 $messages['yue'] = array(
 	'thanks-thank' => '多謝',
 	'thanks-thanked' => '{{GENDER:$1|多謝咗}}',
-	'thanks-button-thank' => '多謝', # Fuzzy
+	'thanks-button-thank' => '{{GENDER:$1|多謝}}',
 	'thanks-button-thanked' => '{{GENDER:$1|多謝咗}}',
 	'thanks-error-undefined' => '多謝失敗，麻煩再試多次。',
 	'thanks-error-invalidrevision' => '錯嘅版本號',
