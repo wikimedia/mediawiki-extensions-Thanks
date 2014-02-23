@@ -917,6 +917,7 @@ $messages['fi'] = array(
  * @author Jean-Frédéric
  * @author Ltrlg
  * @author Metroitendo
+ * @author Urhixidur
  * @author Wyz
  */
 $messages['fr'] = array(
@@ -938,10 +939,10 @@ $messages['fr'] = array(
 	'echo-pref-tooltip-edit-thank' => 'Me prévenir quand quelqu’un me remercie pour une modification que j’ai faite.',
 	'echo-category-title-edit-thank' => 'Merci',
 	'notification-thanks-diff-link' => 'votre modification',
-	'notification-thanks' => '[[User:$1|$1]] vous {{GENDER:$1|a remercié}} pour $2 sur [[:$3]].',
-	'notification-thanks-flyout2' => '[[User:$1|$1]] vous {{GENDER:$1|a remercié}} pour votre modification sur $2.',
-	'notification-thanks-email-subject' => '$1 vous {{GENDER:$1|a remercié}} pour votre modification sur {{SITENAME}}',
-	'notification-thanks-email-batch-body' => '$1 vous {{GENDER:$1|a remercié}} pour votre modification sur $2.',
+	'notification-thanks' => '[[User:$1|$1]] vous a remercié pour $2 sur [[:$3]].',
+	'notification-thanks-flyout2' => '[[User:$1|$1]] vous a remercié pour votre modification sur $2.',
+	'notification-thanks-email-subject' => '$1 vous a remercié pour votre modification sur {{SITENAME}}',
+	'notification-thanks-email-batch-body' => '$1 vous a remercié pour votre modification sur $2.',
 	'notification-link-text-respond-to-user' => 'Répondre à l’utilisateur',
 	'log-name-thanks' => 'Journal des remerciements',
 	'log-description-thanks' => "Ci-dessous se trouve une liste d'utilisateurs qui ont été remerciés par d'autres.",
@@ -1404,6 +1405,7 @@ $messages['ja'] = array(
 /** Georgian (ქართული)
  * @author BRUTE
  * @author David1010
+ * @author Tokoko
  */
 $messages['ka'] = array(
 	'thanks-thank' => 'მადლობა',
@@ -1412,6 +1414,7 @@ $messages['ka'] = array(
 	'thanks-error-undefined' => 'მადლობის გადახდა ვერ მოხერხდა. გთხოვ სცადეთ კიდევ.',
 	'thanks-confirmation' => 'გსურთ მომხმარებელს $2 {{GENDER:$1|მადლობა გადაუხადოთ}} ამ რედაქტირებისათვის?',
 	'thanks-thanked-notice' => 'მომხმარებელს/მომხმარებლებს $1 გაეგზავნა(თ) შეტყობინება, რომ თქვენ მოიწონეთ {{GENDER:$2|მისი|მისი|მათი}} რედაქტირება.',
+	'thanks' => 'გადაუხადე მადლობა',
 	'echo-pref-subscription-edit-thank' => 'მადლობა ჩემი რედაქტირებისათვის',
 	'echo-pref-tooltip-edit-thank' => 'შემატყობინე, როდესაც ვინმე მადლობას გადამიხდის ჩემი რედაქტირებისათვის',
 	'echo-category-title-edit-thank' => 'გმადლობ',
