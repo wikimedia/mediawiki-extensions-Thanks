@@ -1609,6 +1609,8 @@ $messages['lb'] = array(
  */
 $messages['lrc'] = array(
 	'thanks-thank' => 'منمون',
+	'thanks-thank-tooltip' => '{{جنس:$1|کل کرد}} یه گل منمونداری بشگار کو سی ای {{جنس:$2|کارور}}',
+	'thanks' => 'فرسنئن منمونداری',
 	'echo-category-title-edit-thank' => 'منمون',
 	'notification-thanks-diff-link' => 'ویرایشت شما',
 	'notification-thanks-email-subject' => '$1 {{جنس:$1|تشکر کرده}} د شما سی ویرایشتتو د {{نوم سیلجا}}',
