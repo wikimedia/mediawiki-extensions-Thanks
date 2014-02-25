@@ -1679,7 +1679,7 @@ $messages['mk'] = array(
 	'thanks-already-thanked' => '{{GENDER:$1|Веќе}} се заблагодаривте за ова уредување.',
 	'echo-pref-subscription-edit-thank' => 'Ќе ми се заблагодари за мое уредување',
 	'echo-pref-tooltip-edit-thank' => 'Извести ме кога некој ќе ми заблагодари за напарвено уредување.',
-	'echo-category-title-edit-thank' => 'Благодарам',
+	'echo-category-title-edit-thank' => 'Благодарност',
 	'notification-thanks-diff-link' => 'вашето уредување',
 	'notification-thanks' => '[[User:$1|$1]] ви {{GENDER:$1|благодари}} за $2 на [[:$3]].',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] {{GENDER:$1|Ви заблагодари}} за вашето уредување на $2.',
@@ -2439,13 +2439,14 @@ $messages['sr-el'] = array(
 /** Swedish (svenska)
  * @author Ainali
  * @author Jopparn
+ * @author MagnusA
  * @author Skalman
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'thanks-desc' => 'Lägger till tacklänkar till historik och skillnadsjämförelser',
 	'thanks-thank' => 'tacka',
-	'thanks-thanked' => '{{GENDER:$1|tackade}}',
+	'thanks-thanked' => '{{GENDER:$1|tackat}}',
 	'thanks-button-thank' => '{{GENDER:$1|Tacka}}',
 	'thanks-button-thanked' => '{{GENDER:$1|Tackat}}',
 	'thanks-error-undefined' => 'Tackåtgärden misslyckades. Var god försök igen.',
