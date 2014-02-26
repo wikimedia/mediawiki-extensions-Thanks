@@ -45,7 +45,7 @@ class ThanksHooks {
 	 * Helper for self::insertThankLink
 	 * Creates either a thank link or thanked span based on users session
 	 * @param $rev Revision object to generate the thank element for
-	 * @param $recipient User the user who receives thanks notification
+	 * @param $recipient User who receives thanks notification
 	 * @return string
 	 */
 	protected static function generateThankElement( $rev, $recipient ) {
@@ -89,7 +89,7 @@ class ThanksHooks {
 			&& $context->getUser()->isLoggedIn()
 		) {
 			// Load the module for the thank links
-			$context->getOutput()->addModules( array( 'ext.thanks' ) );
+			$context->getOutput()->addModules( array( 'ext.thanks.revthank' ) );
 			$context->getOutput()->addJsConfigVars( 'thanks-confirmation-required',
 				$wgThanksConfirmationRequired );
 		}
@@ -110,7 +110,7 @@ class ThanksHooks {
 			&& $diff->getUser()->isLoggedIn()
 		) {
 			// Load the module for the thank link
-			$diff->getOutput()->addModules( array( 'ext.thanks' ) );
+			$diff->getOutput()->addModules( array( 'ext.thanks.revthank' ) );
 			$diff->getOutput()->addJsConfigVars( 'thanks-confirmation-required',
 				$wgThanksConfirmationRequired );
 		}
@@ -148,6 +148,22 @@ class ThanksHooks {
 			'icon' => 'thanks',
 		);
 
+		$notifications['flow-thank'] = array(
+			'primary-link' => array ( 'message' => 'notification-link-text-view-post', 'destination' => 'post' ),
+			'category' => 'edit-thank',
+			'group' => 'positive',
+			'formatter-class' => 'EchoFlowThanksFormatter',
+			'title-message' => 'notification-flow-thanks',
+			'title-params' => array( 'agent', 'postlink', 'topictitle', 'title' ),
+			'flyout-message' => 'notification-flow-thanks-flyout',
+			'flyout-params' => array( 'agent', 'topictitle', 'title' ),
+			'email-subject-message' => 'notification-flow-thanks-email-subject',
+			'email-subject-params' => array( 'agent' ),
+			'email-body-batch-message' => 'notification-flow-thanks-email-batch-body',
+			'email-body-batch-params' => array( 'agent', 'topictitle', 'title' ),
+			'icon' => 'thanks',
+		);
+
 		$icons['thanks'] = array(
 			'path' => 'Thanks/ThankYou.png',
 		);
@@ -164,6 +180,7 @@ class ThanksHooks {
 	public static function onEchoGetDefaultNotifiedUsers( $event, &$users ) {
 		switch ( $event->getType() ) {
 			case 'edit-thank':
+			case 'flow-thank':
 				$extra = $event->getExtra();
 				if ( !$extra || !isset( $extra['thanked-user-id'] ) ) {
 					break;
@@ -252,5 +269,84 @@ class ThanksHooks {
 	public static function onGetLogTypesOnUser( array &$types ) {
 		$types[] = 'thanks';
 		return true;
+	}
+
+	/**
+	 * Handler for FlowAddModules
+	 * @param OutputPage $out OutputPage object
+	 * @return bool
+	 */
+	public static function onFlowAddModules( OutputPage $out ) {
+		$out->addModules( 'ext.thanks.flowthank' );
+		return true;
+	}
+
+	/**
+	 * Handler for FlowAddInteractionLinks
+	 * Appends a 'thank' button or a 'thanked' label to interaction links for Flow comments
+	 * @param Flow\Model\PostRevision $post Flow PostRevision object for the comment
+	 * @param User $user User viewing the page
+	 * @param array $links Array of interaction links to be displayed
+	 * @return bool
+	 */
+	public static function onFlowAddPostInteractionLinks( $post, $user, &$links ) {
+		global $wgThanksSendToBots;
+		// Make sure Echo is turned on.
+		// Exclude anonymous users.
+		// Don't let users thank themselves.
+		// Exclude users who are blocked.
+		if ( class_exists( 'EchoNotifier' )
+			&& !$user->isAnon()
+			&& $post->getCreatorId() != $user->getId()
+			&& !$user->isBlocked()
+		) {
+			$recipient = User::newFromId( $post->getCreatorId() );
+			$recipientAllowed = true;
+			// If bots are not allowed, exclude them as recipients
+			if ( !$wgThanksSendToBots ) {
+				$recipientAllowed = !in_array( 'bot', $recipient->getGroups() );
+			}
+			if ( $recipientAllowed && !$recipient->isAnon() ) {
+				$links[] = self::generateFlowThankElement( $post, $user, $recipient );
+			}
+		}
+		return true;
+	}
+
+	/**
+	 * Creates either a 'thank' button or a 'thanked' label based on session data
+	 * @param Flow\Model\PostRevision $post Flow PostRevision object for the comment
+	 * @param User $user User viewing the page
+	 * @param User $recipient User who receives thanks notification
+	 * @return string HTML segment for the links
+	 */
+	protected static function generateFlowThankElement( $post, $user, $recipient ) {
+		$cssActiveClass = 'mw-thanks-flow-thank-link mw-ui-button';
+		$cssInactiveClass = 'mw-thanks-flow-thanked mw-ui-button mw-ui-disabled';
+
+		// User has already thanked for revision
+		if ( $user->getRequest()->getSessionData( "flow-thanked-{$post->getPostId()}" ) ) {
+			return Html::rawElement(
+				'span',
+				array( 'class' => $cssInactiveClass ),
+				wfMessage( 'thanks-button-thanked', $user )->parse()
+			);
+		}
+
+		// Add 'thank' link
+		$tooltip = wfMessage( 'thanks-thank-tooltip' )
+				->params( $user->getName(), $recipient->getName() )
+				->text();
+
+		return Html::rawElement(
+			'a',
+			array(
+				'class' => $cssActiveClass,
+				'href' => '#', // TODO: No-javascript fallback
+				'title' => $tooltip,
+				'data-post-id' => $post->getPostId()
+			),
+			wfMessage( 'thanks-button-thank', $user )->parse()
+		);
 	}
 }

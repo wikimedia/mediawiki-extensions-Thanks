@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Integration tests for the Thanks api module
+ * Integration tests for the Thanks API module
  *
- * @covers ApiThank
+ * @covers ApiRevThank
  *
  * @group Thanks
  * @group Database
@@ -12,7 +12,7 @@
  *
  * @author Adam Shorland
  */
-class ApiThankTest extends ApiTestCase {
+class ApiRevThankTest extends ApiTestCase {
 
 	public function setUp() {
 		parent::setUp();

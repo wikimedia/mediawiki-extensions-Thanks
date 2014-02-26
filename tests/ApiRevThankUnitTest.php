@@ -1,19 +1,19 @@
 <?php
 
 /**
- * Unit tests for the thanks API module
+ * Unit tests for the Thanks API module
  *
  * @group Thanks
  * @group API
  *
  * @author Adam Shorland
  */
-class ApiThankUnitTest extends MediaWikiTestCase {
+class ApiRevThankUnitTest extends MediaWikiTestCase {
 
 	static $moduleName = 'thank';
 
 	protected function getModule() {
-		return new ApiThank( new ApiMain(), self::$moduleName );
+		return new ApiRevThank( new ApiMain(), self::$moduleName );
 	}
 
 	/**

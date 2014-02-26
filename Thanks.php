@@ -29,8 +29,10 @@ $wgExtensionCredits['other'][] = array(
 	'name' => 'Thanks',
 	'author' => array(
 		'Ryan Kaldari',
+		'Benjamin Chen',
+		'Wctaiwan',
 	),
-	'version'  => '1.0.0',
+	'version'  => '1.1.0',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Thanks',
 	'descriptionmsg' => 'thanks-desc',
 );
@@ -43,15 +45,18 @@ $dir = __DIR__;
 // Register files
 $wgAutoloadClasses['ThanksHooks'] = $dir . '/Thanks.hooks.php';
 $wgAutoloadClasses['EchoThanksFormatter'] = $dir . '/ThanksFormatter.php';
+$wgAutoloadClasses['EchoFlowThanksFormatter'] = $dir . '/FlowThanksFormatter.php';
 $wgAutoloadClasses['ApiThank'] = $dir . '/ApiThank.php';
+$wgAutoloadClasses['ApiRevThank'] = $dir . '/ApiRevThank.php';
+$wgAutoloadClasses['ApiFlowThank'] = $dir . '/ApiFlowThank.php';
 $wgAutoloadClasses['ThanksLogFormatter'] = $dir . '/ThanksLogFormatter.php';
 $wgAutoloadClasses['SpecialThanks'] = $dir . '/SpecialThanks.php';
 $wgExtensionMessagesFiles['Thanks'] = $dir . '/Thanks.i18n.php';
 $wgExtensionMessagesFiles['ThanksAlias'] = $dir . '/Thanks.alias.php';
 
-
 // Register APIs
-$wgAPIModules['thank'] = 'ApiThank';
+$wgAPIModules['thank'] = 'ApiRevThank';
+$wgAPIModules['flowthank'] = 'ApiFlowThank';
 
 // Register special page
 $wgSpecialPages['Thanks'] = 'SpecialThanks';
@@ -68,10 +73,20 @@ $wgHooks['BeforeSpecialMobileDiffDisplay'][] = 'ThanksHooks::onBeforeSpecialMobi
 $wgHooks['UnitTestsList'][] = 'ThanksHooks::registerUnitTests';
 $wgHooks['GetLogTypesOnUser'][] = 'ThanksHooks::onGetLogTypesOnUser';
 
+$wgHooks['FlowAddPostInteractionLinks'][] = 'ThanksHooks::onFlowAddPostInteractionLinks';
+$wgHooks['FlowAddModules'][] = 'ThanksHooks::onFlowAddModules';
+
 // Register modules
 $wgResourceModules['ext.thanks'] = array(
 	'scripts' => array(
 		'ext.thanks.thank.js',
+	),
+	'localBasePath' => $dir . '/modules',
+	'remoteExtPath' => 'Thanks/modules',
+);
+$wgResourceModules['ext.thanks.revthank'] = array(
+	'scripts' => array(
+		'ext.thanks.revthank.js',
 	),
 	'messages' => array(
 		'thanks-thanked',
@@ -87,15 +102,12 @@ $wgResourceModules['ext.thanks'] = array(
 		'mediawiki.api',
 		'user.tokens',
 		'jquery.ui.dialog',
+		'ext.thanks',
 	),
 	'localBasePath' => $dir . '/modules',
 	'remoteExtPath' => 'Thanks/modules',
 );
 $wgResourceModules['ext.thanks.mobilediff'] = array(
-	'dependencies' => array(
-		// Module name changed in MobileFrontend on 2014-02-25
-		'mobile.special.mobilediff.scripts',
-	),
 	'scripts' => array(
 		'ext.thanks.mobilediff.js',
 	),
@@ -107,7 +119,29 @@ $wgResourceModules['ext.thanks.mobilediff'] = array(
 		'thanks-error-undefined',
 		'thanks-thanked-notice',
 	),
+	'dependencies' => array(
+		// Module name changed in MobileFrontend on 2014-02-25
+		'mobile.special.mobilediff.scripts',
+	),
 	'targets' => array( 'desktop', 'mobile' ),
+	'localBasePath' => $dir . '/modules',
+	'remoteExtPath' => 'Thanks/modules',
+);
+$wgResourceModules['ext.thanks.flowthank'] = array(
+	'scripts' => array(
+		'ext.thanks.flowthank.js',
+	),
+	'messages' => array(
+		'thanks-button-thanked',
+		'thanks-error-undefined',
+		'thanks-error-ratelimited',
+	),
+	'dependencies' => array(
+		'mediawiki.jqueryMsg',
+		'mediawiki.api',
+		'user.tokens',
+		'ext.thanks',
+	),
 	'localBasePath' => $dir . '/modules',
 	'remoteExtPath' => 'Thanks/modules',
 );

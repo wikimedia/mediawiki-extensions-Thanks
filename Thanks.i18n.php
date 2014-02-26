@@ -39,6 +39,14 @@ $messages['en'] = array(
 	'log-description-thanks' => 'Below is a list of users thanked by other users.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|thanked}} {{GENDER:$4|$3}}',
 	'log-show-hide-thanks' => '$1 thanks log',
+
+	//Flow Thanks
+	'notification-link-text-view-post' => 'View comment',
+	'notification-flow-thanks' => '[[User:$1|$1]] {{GENDER:$1|thanked}} you for $2 in "$3" on [[:$4]].',
+	'notification-flow-thanks-post-link' => 'your comment',
+	'notification-flow-thanks-flyout' => '[[User:$1|$1]] {{GENDER:$1|thanked}} you for your comment in "$2" on $3.',
+	'notification-flow-thanks-email-subject' => '$1 {{GENDER:$1|thanked}} you for your comment on {{SITENAME}}',
+	'notification-flow-thanks-email-batch-body' => '$1 {{GENDER:$1|thanked}} you for your comment in "$2" on $3.',
 );
 
 /** Message documentation (Message documentation)
@@ -132,6 +140,27 @@ This is an object in a sentence so it should be in object case in languages wher
 	'log-show-hide-thanks' => 'Shown on [[Special:Log]] as a link to show/hide thanks log entries. (Hidden by default)
 * $1 - one of {{msg-mw|Show}} or {{msg-mw|Hide}}
 {{Related|Log-show-hide}}',
+	'notification-link-text-view-post' => 'Label for button that links to a comment on a Flow board',
+	'notification-flow-thanks' => 'Format for displaying notifications when a user is thanked for their comment on a Flow board. Parameters:
+* $1 is the username of the person sending the thanks, as plain text. Can be used for GENDER.
+* $2 is a link to the comment. The text of the link is {{msg-mw|otification-flow-thanks-post-link}}.
+* $3 is the title of the topic the comment belongs to.
+* $4 is the title of the page where the comment is located.',
+	'notification-flow-thanks-post-link' => 'The text of a link to the comment made by the user.
+
+Used for <code>$2</code> in {{msg-mw|notification-flow-thanks}}. Should have capitalization appropriate for the middle of a sentence.
+
+This is an object in a sentence so it should be in object case in languages where there is a special object form for words.',
+	'notification-flow-thanks-flyout' => 'Format for displaying notifications in the flyout when a user is thanked for their comment on a Flow board. Parameters:
+* $1 is the username of the person sending the thanks, as plain text. Can be used for GENDER.
+* $2 is the title of the topic the comment belongs to.
+* $3 is the title of the page where the comment is located.',
+	'notification-flow-thanks-email-subject' => 'E-mail subject when a user is thanked for a comment on a Flow board. Parameters:
+* $1 is the username of the person sending the thanks, as plain text. Can be used for GENDER.',
+	'notification-flow-thanks-email-batch-body' => 'E-mail notification. Parameters:
+* $1 is the username of the person sending the thanks, as plain text. Can be used for GENDER.
+* $2 is the title of the topic the comment belongs to.
+* $3 is the title of the page where the comment is located.',
 );
 
 /** Afrikaans (Afrikaans)
