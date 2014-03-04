@@ -48,11 +48,11 @@
 		if ( name !== mw.config.get( 'wgUserName' ) ) {
 			// See if user has already been thanked for this edit
 			if ( mw.config.get( 'wgThanksAlreadySent' ) ) {
-				$thankBtn = $( '<button class="mw-mf-action-button thanked">' )
+				$thankBtn = $( '<button class="mw-mf-action-button mw-ui-button mw-ui-constructive thanked">' )
 					.attr( 'disabled', true )
 					.html( thankImgTag + mw.message( 'thanks-button-thanked', mw.user ).escaped() );
 			} else {
-				$thankBtn = $( '<button class="mw-mf-action-button">' )
+				$thankBtn = $( '<button class="mw-mf-action-button mw-ui-button mw-ui-constructive">' )
 					.html( thankImgTag + mw.message( 'thanks-button-thank', mw.user ).escaped()
 					)
 					.on( 'click', function() {
