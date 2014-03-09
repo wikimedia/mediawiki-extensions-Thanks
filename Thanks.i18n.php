@@ -629,7 +629,7 @@ $messages['de'] = array(
 	'thanks-thank-tooltip' => '{{GENDER:$2|Diesem Benutzer|Dieser Benutzerin}} ein Dankeschön {{GENDER:$1|senden}}',
 	'thanks-confirmation' => 'Möchtest du $2 für diese Bearbeitung {{GENDER:$1|danken}}?',
 	'thanks-thanked-notice' => '$1 wurde benachrichtigt, dass du {{GENDER:$2|seine|ihre|ihre}} Bearbeitung magst.',
-	'thanks' => 'Dankeschöns senden',
+	'thanks' => 'Für diese Bearbeitung bedanken',
 	'thanks-form-revid' => 'Versionskennung für die Bearbeitung',
 	'thanks-already-thanked' => '{{GENDER:$1|Du}} hast bereits ein Dankeschön für diese Bearbeitung gesendet.',
 	'echo-pref-subscription-edit-thank' => 'Dankeschöns für meine Bearbeitung',
@@ -2117,6 +2117,7 @@ $messages['ps'] = array(
 /** Portuguese (português)
  * @author GoEThe
  * @author Helder.wiki
+ * @author Imperadeiro98
  * @author Malafaya
  * @author OTAVIO1981
  * @author Oona
@@ -2128,13 +2129,13 @@ $messages['pt'] = array(
 	'thanks-desc' => 'Adiciona ligações para agradecimentos quando na página do histórico ou em diffs',
 	'thanks-thank' => 'agradecer',
 	'thanks-thanked' => '{{GENDER:$1|agradecimento enviado}}',
-	'thanks-button-thank' => 'Agradecer', # Fuzzy
+	'thanks-button-thank' => '{{GENDER:$1|Agradecer}}',
 	'thanks-button-thanked' => '{{GENDER:$1|Agradecimento enviado}}',
 	'thanks-error-undefined' => 'Acção de agradecimento falhou. Por favor, tente novamente.',
 	'thanks-error-invalidrevision' => 'O ID de revisão não é válido.',
 	'thanks-error-ratelimited' => 'Excedeu o limite de velocidade. Por favor, espere algum tempo e tente novamente.', # Fuzzy
 	'thanks-thank-tooltip' => '{{GENDER:$1|Envie}} um agradecimento para {{GENDER:$2|este utilizador|esta utilizadora}}',
-	'thanks-confirmation' => 'Tem a certeza que deseja {{GENDER:$1|agradecer}}  a $2 por esta edição?', # Fuzzy
+	'thanks-confirmation' => 'Quer {{GENDER:$1|agradecer}} a $2 por esta edição?',
 	'thanks-thanked-notice' => '$1 foi {{GENDER:$2|informado|informada|informado(a)}} que você gostou da sua edição.', # Fuzzy
 	'echo-pref-subscription-edit-thank' => 'Agradece-me pela minha edição',
 	'echo-pref-tooltip-edit-thank' => 'Notificar-me quando alguém me agradecer por uma edição que eu fiz.',
