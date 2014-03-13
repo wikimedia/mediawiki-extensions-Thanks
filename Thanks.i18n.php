@@ -2597,6 +2597,15 @@ $messages['tr'] = array(
 	'log-show-hide-thanks' => '$1 teşekkür kayıtları',
 );
 
+/** Tatar (Cyrillic script) (татарча)
+ * @author Ilnur efende
+ */
+$messages['tt-cyrl'] = array(
+	'thanks-confirmation' => '$2 әлеге кертеме өчен  {{GENDER:$1|рәхмәт}}  әйтергә телисезме?',
+	'notification-thanks-flyout2' => '$1 сезгә «$2» битендә ясаган кертемегез өчен рәхмәт әйтте.',
+	'notification-thanks-email-batch-body' => '$1 сезгә «$2» битендә ясаган кертемегез өчен рәхмәт әйтте.',
+);
+
 /** Ukrainian (українська)
  * @author Aced
  * @author Andriykopanytsia
