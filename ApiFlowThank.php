@@ -68,10 +68,7 @@ class ApiFlowThank extends ApiThank {
 	 * @returns array containing 'post' and 'root' as keys
 	 */
 	private function getFlowData( UUID $postId ) {
-		$rootPostLoader = new RootPostLoader(
-			Container::get( 'storage' ),
-			Container::get( 'repository.tree' )
-		);
+		$rootPostLoader = Container::get( 'loader.root_post' );
 
 		try {
 			$data = $rootPostLoader->getWithRoot( $postId );
