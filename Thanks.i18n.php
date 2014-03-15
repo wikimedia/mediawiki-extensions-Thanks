@@ -51,6 +51,7 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Amire80
+ * @author Nike
  * @author Pxos
  * @author Raymond
  * @author Shirayuki
@@ -143,7 +144,7 @@ This is an object in a sentence so it should be in object case in languages wher
 	'notification-link-text-view-post' => 'Label for button that links to a comment on a Flow board',
 	'notification-flow-thanks' => 'Format for displaying notifications when a user is thanked for their comment on a Flow board. Parameters:
 * $1 is the username of the person sending the thanks, as plain text. Can be used for GENDER.
-* $2 is a link to the comment. The text of the link is {{msg-mw|otification-flow-thanks-post-link}}.
+* $2 is a link to the comment. The text of the link is {{msg-mw|notification-flow-thanks-post-link}}.
 * $3 is the title of the topic the comment belongs to.
 * $4 is the title of the page where the comment is located.',
 	'notification-flow-thanks-post-link' => 'The text of a link to the comment made by the user.
@@ -509,6 +510,12 @@ $messages['ce'] = array(
 	'log-description-thanks' => 'Кхечу декъашхоша баркалла аьлла болу декъашхой чохь болу тептар.',
 	'logentry-thanks-thank' => '{{GENDER:$4|декъашхочуна}} $3 $1 {{GENDER:$2|баркалла аьла}}',
 	'log-show-hide-thanks' => '$1 баркаллин тептар',
+	'notification-link-text-view-post' => 'Хьажа къамеле',
+	'notification-flow-thanks' => 'Ахьа «[[:$3]]» агӀонехь [[:$4]] дарна [[User:$1|$1]] {{GENDER:$1|баркалла аьла}}.', # Fuzzy
+	'notification-flow-thanks-post-link' => 'хьан къамел',
+	'notification-flow-thanks-flyout' => '$1 {{GENDER:$1|баркалла аьла}} «$2» $3 агӀонгахь къамел дитарна.', # Fuzzy
+	'notification-flow-thanks-email-subject' => '$1 {{GENDER:$1|баркалла аьла}} «{{SITENAME}}» агӀонгахь къамел дитарна.',
+	'notification-flow-thanks-email-batch-body' => '$1 {{GENDER:$1|баркалла аьла}} «$2» $3 агӀонгахь къамел дитарна.',
 );
 
 /** Sorani Kurdish (کوردی)
@@ -643,6 +650,7 @@ $messages['da'] = array(
  * @author Kghbln
  * @author MF-Warburg
  * @author Metalhead64
+ * @author Suriyaa Kudo
  * @author TMg
  * @author Wnme
  */
@@ -674,6 +682,12 @@ $messages['de'] = array(
 	'log-description-thanks' => 'Es folgt eine Liste von Benutzern, die anderen Benutzern dankten.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|dankte}} {{GENDER:$4|$3}}',
 	'log-show-hide-thanks' => 'Dankeschön-Logbuch $1',
+	'notification-link-text-view-post' => 'Kommentar anzeigen',
+	'notification-flow-thanks' => '[[User:$1|$1]] {{GENDER:$1|dankte}} dir für $2 in „$3“ auf [[:$4]].',
+	'notification-flow-thanks-post-link' => 'deinen Kommentar',
+	'notification-flow-thanks-flyout' => '[[User:$1|$1]] {{GENDER:$1|dankte}} dir für deinen Kommentar in „$2“ auf $3.',
+	'notification-flow-thanks-email-subject' => '$1 {{GENDER:$1|dankte}} dir für deinen Kommentar auf {{SITENAME}}',
+	'notification-flow-thanks-email-batch-body' => '$1 {{GENDER:$1|dankte}} dir für deinen Kommentar in „$2“ auf $3.',
 );
 
 /** Zazaki (Zazaki)
@@ -849,6 +863,12 @@ $messages['et'] = array(
 	'log-description-thanks' => 'Allpool on nimekiri kasutajatest, keda teised kasutajad on tänanud.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|tänas}} kasutajat {{GENDER:$4|$3}}',
 	'log-show-hide-thanks' => '$1 tänulogi',
+	'notification-link-text-view-post' => 'Vaata kommentaari',
+	'notification-flow-thanks' => '[[User:$1|$1]] tänas sind $2 eest teemal "$3" leheküljel "[[:$4]]".',
+	'notification-flow-thanks-post-link' => 'kommentaari',
+	'notification-flow-thanks-flyout' => '[[User:$1|$1]] tänas sind kommentaari eest teemal "$2" leheküljel "$3".',
+	'notification-flow-thanks-email-subject' => '$1 tänas sind kommentaari eest {{GRAMMAR:inessive|{{SITENAME}}}}',
+	'notification-flow-thanks-email-batch-body' => '$1 tänas sind kommentaari eest teemal "$2" leheküljel "$3".',
 );
 
 /** Basque (euskara)
@@ -910,6 +930,7 @@ $messages['fa'] = array(
 
 /** Finnish (suomi)
  * @author Crt
+ * @author Nike
  * @author Pxos
  * @author Samoasambia
  * @author Silvonen
@@ -939,6 +960,12 @@ $messages['fi'] = array(
 	'log-description-thanks' => 'Alla on luettelo niistä käyttäjistä, jotka ovat saaneet kiitoksia toisilta käyttäjiltä.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|kiitti}} käyttäjää {{GENDER:$4|$3}}',
 	'log-show-hide-thanks' => '$1 kiitosloki',
+	'notification-link-text-view-post' => 'Näytä kommentti',
+	'notification-flow-thanks' => '[[User:$1|$1]] {{GENDER:$1|kiitti}} sinua $2 aiheesta ”$3” sivulla [[:$4]].',
+	'notification-flow-thanks-post-link' => 'kommentistasi',
+	'notification-flow-thanks-flyout' => '[[User:$1|$1]] {{GENDER:$1|kiitti}} sinua kommentistasi aiheessa ”$2” sivulla $3.',
+	'notification-flow-thanks-email-subject' => '$1 {{GENDER:$1|kiitti}} sinua kommentistasi {{GRAMMAR:inessive|{{SITENAME}}}}',
+	'notification-flow-thanks-email-batch-body' => '$1 {{GENDER:$1|kitti}} sinua kommentistasi aiheessa ”$2” sivulla $3.',
 );
 
 /** French (français)
@@ -948,7 +975,9 @@ $messages['fi'] = array(
  * @author Gomoko
  * @author Jean-Frédéric
  * @author Ltrlg
+ * @author Maxim21
  * @author Metroitendo
+ * @author Rmunn
  * @author Urhixidur
  * @author Wyz
  */
@@ -980,6 +1009,12 @@ $messages['fr'] = array(
 	'log-description-thanks' => "Ci-dessous se trouve une liste d'utilisateurs qui ont été remerciés par d'autres.",
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|a remercié}} {{GENDER:$4|$3}}',
 	'log-show-hide-thanks' => '$1 le journal des remerciements',
+	'notification-link-text-view-post' => 'Afficher commentaire',
+	'notification-flow-thanks' => '[[User:$1|$1]] vous a remercié pour $2 dans « $3 » sur [[:$4]].',
+	'notification-flow-thanks-post-link' => 'votre commentaire',
+	'notification-flow-thanks-flyout' => '[[User:$1|$1]] vous a remercié pour votre commentaire dans « $2 » sur $3.',
+	'notification-flow-thanks-email-subject' => '$1 vous a remercié pour votre commentaire sur {{SITENAME}}',
+	'notification-flow-thanks-email-batch-body' => '$1 vous a remercié pour votre commentaire dans « $2 » sur $3.',
 );
 
 /** Northern Frisian (Nordfriisk)
@@ -1113,6 +1148,8 @@ $messages['he'] = array(
 	'log-description-thanks' => 'להלן רשימת משתמשים שאנשים אחרים הודו להם.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|הודה|הודתה}} ל{{GRAMMAR:תחילית|{{GENDER:$4|$3}}}}',
 	'log-show-hide-thanks' => '$1 יומן תודות',
+	'notification-link-text-view-post' => 'הצגת תגובה',
+	'notification-flow-thanks-post-link' => 'התגובה שלך',
 );
 
 /** Hindi (हिन्दी)
@@ -1147,6 +1184,8 @@ $messages['hi'] = array(
 	'log-description-thanks' => 'अन्य सदस्यों द्वारा धन्यवाद पाने वाले सदस्यों की सूची निम्न है।',
 	'logentry-thanks-thank' => '$1 ने {{GENDER:$4|$3}} को {{GENDER:$2|धन्यवाद कहा है}}',
 	'log-show-hide-thanks' => '$1 धन्यवाद लॉग',
+	'notification-link-text-view-post' => 'टिप्पणी देखें',
+	'notification-flow-thanks-post-link' => 'आपकी टिप्पणी',
 );
 
 /** Croatian (hrvatski)
@@ -1435,6 +1474,12 @@ $messages['ja'] = array(
 	'log-description-thanks' => '以下に、他の利用者から感謝を示された利用者を列挙します。',
 	'logentry-thanks-thank' => '$1 が {{GENDER:$4|$3}} に{{GENDER:$2|感謝を示しました}}',
 	'log-show-hide-thanks' => '感謝記録を$1',
+	'notification-link-text-view-post' => 'コメントを閲覧',
+	'notification-flow-thanks' => '[[User:$1|$1]] が [[:$4]] の「$3」での$2に{{GENDER:$1|感謝を示しました}}。',
+	'notification-flow-thanks-post-link' => 'あなたのコメント',
+	'notification-flow-thanks-flyout' => '[[User:$1|$1]] が $3 の「$2」でのあなたのコメントに{{GENDER:$1|感謝を示しました}}。',
+	'notification-flow-thanks-email-subject' => '$1 が{{SITENAME}}でのあなたのコメントに{{GENDER:$1|感謝を示しました}}',
+	'notification-flow-thanks-email-batch-body' => '$1 が $3 の「$2」でのあなたのコメントに{{GENDER:$1|感謝を示しました}}。',
 );
 
 /** Georgian (ქართული)
@@ -1541,6 +1586,12 @@ $messages['ko'] = array(
 	'log-description-thanks' => '아래에는 다른 사용자가 감사를 표한 사용자의 목록입니다.',
 	'logentry-thanks-thank' => '$1 사용자가 {{GENDER:$4|$3}}님에게 {{GENDER:$2|감사를 표했습니다}}',
 	'log-show-hide-thanks' => '감사 기록을 $1',
+	'notification-link-text-view-post' => '의견 보기',
+	'notification-flow-thanks' => '[[User:$1|$1]]이 [[:$4]]의 "$3"에 대한 $2 에 {{GENDER:$1|감사를 표했습니다}}.',
+	'notification-flow-thanks-post-link' => '당신의 의견',
+	'notification-flow-thanks-flyout' => '[[User:$1|$1]] 님이 $3의 "$2"에 대한 당신의 의견에 {{GENDER:$1|감사를 표했습니다}}.',
+	'notification-flow-thanks-email-subject' => '$1님이 {{SITENAME}}에 대한 당신의 의견에 {{GENDER:$1|감사를 표했습니다}}.',
+	'notification-flow-thanks-email-batch-body' => '$1 님이 $3의 "$2" 에 대한 당신의 의견에 {{GENDER:$1|감사를 표했습니다}}.',
 );
 
 /** Karachay-Balkar (къарачай-малкъар)
@@ -1636,6 +1687,9 @@ $messages['lb'] = array(
 	'log-description-thanks' => "Hei drënner ass eng Lëscht vu Benotzer déi anere Benotzer 'Merci' gesot hunn.",
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|huet dem}} {{GENDER:$4|$3}} Merci gesot',
 	'log-show-hide-thanks' => "Logbuch vum 'Merci' $1",
+	'notification-link-text-view-post' => 'Bemierkung weisen',
+	'notification-flow-thanks-post-link' => 'Är Bemierkung',
+	'notification-flow-thanks-email-subject' => "{{GENDER:$1|D'|De(n)}} $1 seet Iech Merci fir Är Bemierkung op {{SITENAME}}",
 );
 
 /** لوری (لوری)
@@ -1655,6 +1709,7 @@ $messages['lrc'] = array(
 );
 
 /** Lithuanian (lietuvių)
+ * @author Garas
  * @author Hugo.arg
  */
 $messages['lt'] = array(
@@ -1664,6 +1719,8 @@ $messages['lt'] = array(
 	'thanks-thank-tooltip' => '{{GENDER:$1|Nusiųskite}} padėkos žinutę šiam {{GENDER:$2|naudotojui}}',
 	'thanks-confirmation' => 'Ar jūs iš tiesų norite {{GENDER:$1|padėkoti}} $2 už šį keitimą?',
 	'notification-thanks-flyout2' => '[[User:$1|$1]] padėkojo jums už jūsų keitimą puslapyje $2.',
+	'notification-link-text-view-post' => 'Rodyti komentarą',
+	'notification-flow-thanks-post-link' => 'jūsų komentaras',
 );
 
 /** Latvian (latviešu)
@@ -1725,6 +1782,12 @@ $messages['mk'] = array(
 	'log-description-thanks' => 'Следи список на корисници на кои други им искажале благодарност.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|му се заблагодари на|ѝ се заблагодари на|се заблагодари на}} {{GENDER:$4|$3}}',
 	'log-show-hide-thanks' => '$1 го дневникот на благодарења',
+	'notification-link-text-view-post' => 'Погл. коментар',
+	'notification-flow-thanks' => '[[User:$1|$1]] ви {{GENDER:$1|благодари}} за $2 на „$3“ во [[:$4]].',
+	'notification-flow-thanks-post-link' => 'вашиот коментар',
+	'notification-flow-thanks-flyout' => '[[User:$1|$1]] ви {{GENDER:$1|благодари}} за вашиот коментар на „$2“ во $3.',
+	'notification-flow-thanks-email-subject' => '$1 ви {{GENDER:$1|благодари}} за вашиот коментар на {{SITENAME}}',
+	'notification-flow-thanks-email-batch-body' => '$1 ви {{GENDER:$1|благодари}} за вашиот коментар на „$2“ во $3.',
 );
 
 /** Malayalam (മലയാളം)
@@ -2010,6 +2073,8 @@ $messages['oc'] = array(
 	'log-description-thanks' => "Trobaretz çaijós una lista d'utilizaires que son estats mercejats per d'autres.",
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|a mercejat}} {{GENDER:$4|$3}}',
 	'log-show-hide-thanks' => '$1 lo jornal dels mercejaments',
+	'notification-flow-thanks' => '[[User:$1|$1]] vos a mercejat per $2 dins "$3" sus [[:$4]].',
+	'notification-flow-thanks-email-batch-body' => '$1 vos {{GENDER:$1|a mercejat}} per vòstre comentari dins "$2" sus $3.',
 );
 
 /** Punjabi (ਪੰਜਾਬੀ)
@@ -2155,7 +2220,7 @@ $messages['ps'] = array(
  * @author Vitorvicentevalente
  */
 $messages['pt'] = array(
-	'thanks-desc' => 'Adiciona ligações para agradecimentos quando na página do histórico ou em diffs',
+	'thanks-desc' => 'Adiciona ligações para agradecimentos quando na página do histórico ou em comparação de edições',
 	'thanks-thank' => 'agradecer',
 	'thanks-thanked' => '{{GENDER:$1|agradecimento enviado}}',
 	'thanks-button-thank' => '{{GENDER:$1|Agradecer}}',
@@ -2166,6 +2231,9 @@ $messages['pt'] = array(
 	'thanks-thank-tooltip' => '{{GENDER:$1|Envie}} um agradecimento para {{GENDER:$2|este utilizador|esta utilizadora}}',
 	'thanks-confirmation' => 'Quer {{GENDER:$1|agradecer}} a $2 por esta edição?',
 	'thanks-thanked-notice' => '$1 foi {{GENDER:$2|informado|informada|informado(a)}} que você gostou da sua edição.', # Fuzzy
+	'thanks' => 'Enviar agradecimento',
+	'thanks-form-revid' => 'ID de revisão para editar',
+	'thanks-already-thanked' => 'Já agradeceu anteriormente por esta edição.', # Fuzzy
 	'echo-pref-subscription-edit-thank' => 'Agradece-me pela minha edição',
 	'echo-pref-tooltip-edit-thank' => 'Notificar-me quando alguém me agradecer por uma edição que eu fiz.',
 	'echo-category-title-edit-thank' => 'Agradecimentos',
@@ -2179,6 +2247,9 @@ $messages['pt'] = array(
 	'log-description-thanks' => 'Abaixo está uma lista de utilizadores que receberam agradecimentos de outros utilizadores.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|agradeceu}} a {{GENDER:$4|$3}}',
 	'log-show-hide-thanks' => '$1 registo de agradecimentos',
+	'notification-link-text-view-post' => 'Ver comentário',
+	'notification-flow-thanks-post-link' => 'o seu comentário',
+	'notification-flow-thanks-email-subject' => '$1 {{GENDER:$1|agradeceu-lhe}} pelo seu comentário em {{SITENAME}}',
 );
 
 /** Brazilian Portuguese (português do Brasil)
@@ -2319,6 +2390,12 @@ $messages['ru'] = array(
 	'log-description-thanks' => 'Ниже находится список участников, получивших благодарности от других участников.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|поблагодарил|поблагодарила}} {{GENDER:$4|участника|участницу}} $3',
 	'log-show-hide-thanks' => '$1 журнал благодарностей',
+	'notification-link-text-view-post' => 'Посмотреть комментарий',
+	'notification-flow-thanks' => '[[User:$1|$1]] поблагодарил{{GENDER:$1||а}} вас за $2 в теме «$3» на странице [[:$4]].',
+	'notification-flow-thanks-post-link' => 'ваш комментарий',
+	'notification-flow-thanks-flyout' => '[[User:$1|$1]] поблагодарил{{GENDER:$1||а}} вас за ваш комментарий в теме «$2» на странице $3.',
+	'notification-flow-thanks-email-subject' => '$1 поблагодарил{{GENDER:$1||а}} вас за комментарий на сайте «{{SITENAME}}».',
+	'notification-flow-thanks-email-batch-body' => '$1 поблагодарил{{GENDER:$1||а}} вас за комментарий в теме на сайте «$2» на странице $3.',
 );
 
 /** Sicilian (sicilianu)
@@ -2330,6 +2407,18 @@ $messages['scn'] = array(
 	'thanks-confirmation' => 'Vuliti {{GENDER:$1|arringrazziari}} $2 pi stu canciu ?',
 	'echo-pref-subscription-edit-thank' => "M'arringràzzia pi lu mè canciu",
 	'echo-pref-tooltip-edit-thank' => "Abbìsami quannu quarchidunu m'arringràzzia pi nu canciu ca fici.",
+);
+
+/** Scots (Scots)
+ * @author John Reid
+ */
+$messages['sco'] = array(
+	'notification-link-text-view-post' => 'See comment',
+	'notification-flow-thanks' => '[[User:$1|$1]] {{GENDER:$1|thankt}} ye fer $2 in "$3" oan [[:$4]].',
+	'notification-flow-thanks-post-link' => 'yer comment',
+	'notification-flow-thanks-flyout' => '[[User:$1|$1]] {{GENDER:$1|thankt}} ye fer yer comment in "$2" oan $3.',
+	'notification-flow-thanks-email-subject' => '$1 {{GENDER:$1|thankt}} ye fer yer comment oan {{SITENAME}}',
+	'notification-flow-thanks-email-batch-body' => '$1 {{GENDER:$1|thankt}} ye fer yer comment in "$2" oan $3.',
 );
 
 /** Samogitian (žemaitėška)
@@ -2509,6 +2598,12 @@ $messages['sv'] = array(
 	'log-description-thanks' => 'Nedan är en lista med användare som fått tack från andra användare.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|tackade}} {{GENDER:$4|$3}}',
 	'log-show-hide-thanks' => '$1 tacklogg',
+	'notification-link-text-view-post' => 'Visa kommentar',
+	'notification-flow-thanks' => '[[User:$1|$1]] {{GENDER:$1|tackade}} dig för $2 i "$3" på [[:$4]].',
+	'notification-flow-thanks-post-link' => 'din kommentar',
+	'notification-flow-thanks-flyout' => '[[User:$1|$1]] {{GENDER:$1|tackade}} dig för din kommentar i "$2" på $3.',
+	'notification-flow-thanks-email-subject' => '$1 {{GENDER:$1|tackade}} dig för din kommentar på {{SITENAME}}',
+	'notification-flow-thanks-email-batch-body' => '$1 {{GENDER:$1|tackade}} dig för din kommentar i "$2" på $3.',
 );
 
 /** Tamil (தமிழ்)
@@ -2630,7 +2725,7 @@ $messages['tr'] = array(
  * @author Ilnur efende
  */
 $messages['tt-cyrl'] = array(
-	'thanks-confirmation' => '$2 әлеге кертеме өчен  {{GENDER:$1|рәхмәт}}  әйтергә телисезме?',
+	'thanks-confirmation' => '$2 дигән кулланучыга әлеге кертеме өчен  {{GENDER:$1|рәхмәт}}  әйтергә телисезме?',
 	'notification-thanks-flyout2' => '$1 сезгә «$2» битендә ясаган кертемегез өчен рәхмәт әйтте.',
 	'notification-thanks-email-batch-body' => '$1 сезгә «$2» битендә ясаган кертемегез өчен рәхмәт әйтте.',
 );
@@ -2669,6 +2764,12 @@ $messages['uk'] = array(
 	'log-description-thanks' => 'Нижче наведено перелік користувачів, які подякували іншими користувачами.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|подякував|подякувала}} {{GENDER:$4|користувачу|користувачці}} $3',
 	'log-show-hide-thanks' => 'журнал подяк $1',
+	'notification-link-text-view-post' => 'Перегляд коментаря',
+	'notification-flow-thanks' => '[[User:$1|$1]] {{GENDER:$1|подякував|подякувала}} Вам за $2 у "$3" на [[:$4]].',
+	'notification-flow-thanks-post-link' => 'ваш коментар',
+	'notification-flow-thanks-flyout' => '[[User:$1|$1]]  {{GENDER:$1|подякував|подякувала}} Вам за Ваш коментар у $2 на $3.',
+	'notification-flow-thanks-email-subject' => '$1 {{GENDER:$1|подякував|подякувала}} Вам за Ваш коментар  на {{SITENAME}}',
+	'notification-flow-thanks-email-batch-body' => '$1  {{GENDER:$1|подякував|подякувала}} Вам за Ваш коментар у $2 на $3.',
 );
 
 /** Urdu (اردو)
@@ -2867,6 +2968,12 @@ $messages['zh-hans'] = array(
 	'log-description-thanks' => '下面是得到其他用户感谢的用户的列表。',
 	'logentry-thanks-thank' => '$1{{GENDER:$2|感谢}}{{GENDER:$4|$3}}',
 	'log-show-hide-thanks' => '$1感谢日志',
+	'notification-link-text-view-post' => '查看评论',
+	'notification-flow-thanks' => '[[User:$1|$1]]感谢您在[[:$4]]的“$3”发表的$2。',
+	'notification-flow-thanks-post-link' => '您的评论',
+	'notification-flow-thanks-flyout' => '[[User:$1|$1]]感谢了您在$3的“$2”发表的评论。',
+	'notification-flow-thanks-email-subject' => '$1感谢了您在{{SITENAME}}发表的评论',
+	'notification-flow-thanks-email-batch-body' => '$1感谢了您在$3的“$2”发表的评论。',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
@@ -2904,4 +3011,10 @@ $messages['zh-hant'] = array(
 	'log-description-thanks' => '以下是得到其他人表示感謝的使用者列表。',
 	'logentry-thanks-thank' => '$1向{{GENDER:$4|$3}}表示{{GENDER:$2|感謝}}',
 	'log-show-hide-thanks' => '$1感謝日誌',
+	'notification-link-text-view-post' => '檢視評論',
+	'notification-flow-thanks' => '[[User:$1|$1]]感謝了您於[[:$4]]之「$3」的$2。',
+	'notification-flow-thanks-post-link' => '您的評論',
+	'notification-flow-thanks-flyout' => '[[User:$1|$1]]感謝了您於$3的「$2」之評論。',
+	'notification-flow-thanks-email-subject' => '$1感謝了您於{{SITENAME}}之評論',
+	'notification-flow-thanks-email-batch-body' => '$1感謝了您於$3的「$2」之評論。',
 );
