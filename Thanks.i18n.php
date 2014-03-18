@@ -264,6 +264,12 @@ $messages['ast'] = array(
 	'log-description-thanks' => "Mas abaxo ta la llista d'usuarios a los qu'otros usuarios dieron les gracies.",
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|dio les gracies a}} {{GENDER:$4|$3}}',
 	'log-show-hide-thanks' => "$1 rexistru d'agradecimientos",
+	'notification-link-text-view-post' => 'Ver el comentariu',
+	'notification-flow-thanks' => '[[User:$1|$1]] {{GENDER:$1|agradeció}}-y por $2 en "$3" de [[:$4]].',
+	'notification-flow-thanks-post-link' => 'el so comentariu',
+	'notification-flow-thanks-flyout' => '[[User:$1|$1]] {{GENDER:$1|agradeció}}\'l so comentariu en "$2" de $3.',
+	'notification-flow-thanks-email-subject' => "$1 {{GENDER:$1|agradeció}}'l so comentariu en {{SITENAME}}",
+	'notification-flow-thanks-email-batch-body' => '$1 {{GENDER:$1|agradeció}}\'l so comentariu en "$2" de $3.',
 );
 
 /** Azerbaijani (azərbaycanca)
@@ -378,6 +384,18 @@ $messages['bn'] = array(
 	'log-description-thanks' => 'নিচে ব্যবহারকারীদের একটি তালিকা রয়েছে যারা অন্য ব্যবহারকারী হতে ধন্যবাদ পেয়েছেন।',
 	'logentry-thanks-thank' => '$1 {{GENDER:$4|$3}}কে {{GENDER:$2|ধন্যবাদ জানিয়েছেন}}',
 	'log-show-hide-thanks' => 'ধন্যবাদ লগ $1',
+);
+
+/** Tibetan (བོད་ཡིག)
+ * @author Phurbutsering
+ */
+$messages['bo'] = array(
+	'notification-link-text-view-post' => 'དཔྱད་གླེང་ལ་གཟིགས་རོགས།',
+	'notification-flow-thanks' => '[[User:$1|$1]]ནས་ཁྱེད་ལ་"$3"ནང་གི་$2 ཐོག་ [[:$4]]{{GENDER:$1|ཐུགས་རྗེ་ཆེ།}}ཞུ།',
+	'notification-flow-thanks-post-link' => 'ཁྱེད་ཀྱི་དཔྱད་གླེང།',
+	'notification-flow-thanks-flyout' => '[[User:$1|$1]] ནས་ཁྱེད་ཀྱི་"$2" ནང་གི་ $3 ཐོག་དཔྱད་གླེང་གནང་བར་ {{GENDER:$1|ཐུགས་རྗེ་ཆེ་}} ཞུ།',
+	'notification-flow-thanks-email-subject' => '$1 ནས་ཁྱེད་ཀྱི་{{SITENAME}} ཐོག་དཔྱད་གླེང་གནང་བར་ {{GENDER:$1|ཐུགས་རྗེ་ཆེ་}} ཞུ།',
+	'notification-flow-thanks-email-batch-body' => '$1 ནས་ཁྱེད་ཀྱི་"$2" ནང་གི་ $3 ཐོག་དཔྱད་གླེང་བྱས་པར་ {{GENDER:$1|ཐུགས་རྗེ་ཆེ་}} ཞུ།',
 );
 
 /** Breton (brezhoneg)
@@ -2913,6 +2931,12 @@ $messages['vi'] = array(
 	'log-description-thanks' => 'Dưới đây có danh sách những người dùng được người khác cảm ơn.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2}}đã cảm ơn {{GENDER:$4}}$3',
 	'log-show-hide-thanks' => '$1 nhật trình cảm ơn',
+	'notification-link-text-view-post' => 'Xem bình luận',
+	'notification-flow-thanks' => '[[User:$1|$1]] cảm ơn bạn $2 về “$3” tại [[:$4]].',
+	'notification-flow-thanks-post-link' => 'đã bình luận',
+	'notification-flow-thanks-flyout' => '[[User:$1|$1]] cảm ơn bạn đã bình luận về “$2” tại $3.',
+	'notification-flow-thanks-email-subject' => '$1 cảm ơn bạn đã bình luận trên {{SITENAME}}',
+	'notification-flow-thanks-email-batch-body' => '$1 cảm ơn bạn đã bình luận về “$2” tại $3.',
 );
 
 /** Volapük (Volapük)
