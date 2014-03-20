@@ -231,6 +231,8 @@ $messages['ar'] = array(
 	'log-description-thanks' => 'بالأسفل قائمة مستخدمين تلقوا شكرًا من مستخدمين آخرين.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|شكر|شكرت}} {{GENDER:$4|$3}}',
 	'log-show-hide-thanks' => '$1 سجل الشكر',
+	'notification-link-text-view-post' => 'أظهر التعليق',
+	'notification-flow-thanks-post-link' => 'تعليقك',
 );
 
 /** Asturian (asturianu)
