@@ -235,6 +235,14 @@ $messages['ar'] = array(
 	'notification-flow-thanks-post-link' => 'تعليقك',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
+ */
+$messages['as'] = array(
+	'notification-link-text-view-post' => 'মন্তব্য দেখুৱাওক',
+	'notification-flow-thanks-post-link' => 'আপোনাৰ মন্তব্য',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
