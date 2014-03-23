@@ -2066,6 +2066,12 @@ $messages['nl'] = array(
 	'log-description-thanks' => 'Hieronder wordt een lijst weergegeven met gebruikers die door andere gebruikers zijn bedankt.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|heeft}} {{GENDER:$4|$3}} bedankt',
 	'log-show-hide-thanks' => 'bedankjeslogboek $1',
+	'notification-link-text-view-post' => 'Reactie weergeven',
+	'notification-flow-thanks' => '[[User:$1|$1]] {{GENDER:$1|heeft}} u bedankt voor $2 in "$3" op [[:$4]].',
+	'notification-flow-thanks-post-link' => 'uw reactie',
+	'notification-flow-thanks-flyout' => '[[User:$1|$1]] {{GENDER:$1|heeft}} u bedankt voor uw reactie in "$2" op $3.',
+	'notification-flow-thanks-email-subject' => '$1 {{GENDER:$1|heeft}} u bedankt voor uw reactie op {{SITENAME}}',
+	'notification-flow-thanks-email-batch-body' => '$1 {{GENDER:$1|heeft}} u bedankt voor uw reactie in "$2" op $3.',
 );
 
 /** Norwegian Nynorsk (norsk nynorsk)
@@ -2297,7 +2303,7 @@ $messages['pt'] = array(
 	'thanks-thanked-notice' => '$1 foi {{GENDER:$2|informado|informada|informado(a)}} que você gostou da sua edição.', # Fuzzy
 	'thanks' => 'Enviar agradecimento',
 	'thanks-form-revid' => 'ID de revisão para editar',
-	'thanks-already-thanked' => 'Já agradeceu anteriormente por esta edição.', # Fuzzy
+	'thanks-already-thanked' => '{{GENDER:$1|Você}} já agradeceu por esta edição.',
 	'echo-pref-subscription-edit-thank' => 'Agradece-me pela minha edição',
 	'echo-pref-tooltip-edit-thank' => 'Notificar-me quando alguém me agradecer por uma edição que eu fiz.',
 	'echo-category-title-edit-thank' => 'Agradecimentos',
