@@ -1083,6 +1083,12 @@ $messages['frr'] = array(
 	'log-description-thanks' => 'Oner stäänt en list faan brükern, diar faan ööder brükern soonk saad wurden as.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|besoonket}} ham bi {{Gender:$4|$3}}',
 	'log-show-hide-thanks' => 'Föl-soonk-logbuk $1',
+	'notification-link-text-view-post' => 'Komentaar uunwise',
+	'notification-flow-thanks' => '[[User:$1|$1]] {{GENDER:$1|soonket}} di för $2 uun "$3" üüb [[:$4]].',
+	'notification-flow-thanks-post-link' => 'dan komentaar',
+	'notification-flow-thanks-flyout' => '[[User:$1|$1]] {{GENDER:$1|soonket}} di för dan komentaar uun "$2" üüb $3.',
+	'notification-flow-thanks-email-subject' => '$1 {{GENDER:$1|soonket}} di för dan komentaar üüb {{SITENAME}}',
+	'notification-flow-thanks-email-batch-body' => '$1 {{GENDER:$1|soonket}} di för dan komentaar uun "$2" üüb $3.',
 );
 
 /** Galician (galego)
