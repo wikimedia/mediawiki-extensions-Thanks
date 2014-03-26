@@ -734,6 +734,7 @@ $messages['diq'] = array(
 	'log-name-thanks' => 'Qeydé tşekuran',
 	'logentry-thanks-thank' => "$1'i  {{GENDER:$4|$3}}'ré {{GENDER:$2|teşekur ke}}",
 	'log-show-hide-thanks' => 'Qeydé teşekuré $1',
+	'notification-link-text-view-post' => 'Vatışi bıvin',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -2791,8 +2792,8 @@ $messages['tr'] = array(
 	'echo-pref-subscription-edit-thank' => 'Katkım için bana teşekkür edildi',
 	'echo-pref-tooltip-edit-thank' => 'Yaptığım katkılar için yapılan teşekkürleri bana bildir.',
 	'echo-category-title-edit-thank' => 'Teşekkürler',
-	'notification-thanks-diff-link' => 'düzenlemeniz',
-	'notification-thanks' => '[[User:$1|$1]], [[:$3]] sayfasındaki $2 değişikliğiniz için size {{GENDER:$1|teşekkür}} etti.',
+	'notification-thanks-diff-link' => 'değişikliğiniz',
+	'notification-thanks' => '[[User:$1|$1]], [[:$3]] sayfasındaki $2 için size {{GENDER:$1|teşekkür}} etti.',
 	'notification-thanks-flyout2' => '[[User:$1|$1]], $2 sayfasındaki değişikliğiniz için size {{GENDER:$1|teşekkür}} etti.',
 	'notification-thanks-email-subject' => '$1 {{SITENAME}} değişikliği için {{GENDER:$1|teşekkür}} ediyor',
 	'notification-thanks-email-batch-body' => '$1, $2 sayfasındaki değişikliğiniz için size {{GENDER:$1|teşekkür etti}}.',
