@@ -734,7 +734,7 @@ $messages['diq'] = array(
 	'log-name-thanks' => 'Qeydé tşekuran',
 	'logentry-thanks-thank' => "$1'i  {{GENDER:$4|$3}}'ré {{GENDER:$2|teşekur ke}}",
 	'log-show-hide-thanks' => 'Qeydé teşekuré $1',
-	'notification-link-text-view-post' => 'Vatışi bıvin',
+	'notification-link-text-view-post' => 'Tefsiri bıvêne',
 );
 
 /** Lower Sorbian (dolnoserbski)
