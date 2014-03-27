@@ -55,7 +55,7 @@ class ThanksHooks {
 			return Html::element(
 				'span',
 				array( 'class' => 'mw-thanks-thanked' ),
-				wfMessage( 'thanks-thanked', $wgUser )->parse()
+				wfMessage( 'thanks-thanked', $wgUser )->text()
 			);
 		}
 
@@ -329,7 +329,7 @@ class ThanksHooks {
 			return Html::rawElement(
 				'span',
 				array( 'class' => $cssInactiveClass ),
-				wfMessage( 'thanks-button-thanked', $user )->parse()
+				wfMessage( 'thanks-button-thanked', $user )->escaped()
 			);
 		}
 
@@ -346,7 +346,7 @@ class ThanksHooks {
 				'title' => $tooltip,
 				'data-post-id' => $post->getPostId()
 			),
-			wfMessage( 'thanks-button-thank', $user )->parse()
+			wfMessage( 'thanks-button-thank', $user )->escaped()
 		);
 	}
 }
