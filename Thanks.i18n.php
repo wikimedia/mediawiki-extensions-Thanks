@@ -2330,6 +2330,7 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Dianakc
  * @author HenriqueCrang
  * @author OTAVIO1981
@@ -2340,11 +2341,17 @@ $messages['pt-br'] = array(
 	'thanks-desc' => 'Adiciona link de agradecimento às páginas de histórico e de diferença entre edições',
 	'thanks-thank' => 'agradecer',
 	'thanks-thanked' => '{{GENDER:$1|agradecido|agradecida}}',
+	'thanks-button-thank' => '{{GENDER:$1|Agradecer}}',
+	'thanks-button-thanked' => '{{GENDER:$1|Agradecimento enviado}}',
 	'thanks-error-undefined' => 'O agradecer falhou. Por favor tente de novo.',
 	'thanks-error-invalidrevision' => 'ID de revisão inválido.',
 	'thanks-error-ratelimited' => 'Você excedeu seu limite. Por favor aguarde um pouco e tente novamente.', # Fuzzy
 	'thanks-thank-tooltip' => '{{GENDER:$1|Envie}} uma nota de agradecimento para este {{GENDER:$2|usuário}}',
-	'thanks-confirmation' => 'Você tem certeza que deseja {{GENDER:$1|agradecer}}  a $2 por esta edição?', # Fuzzy
+	'thanks-confirmation' => 'Você deseja {{GENDER:$1|agradecer}} a $2 por esta edição?',
+	'thanks-thanked-notice' => '$1 foi {{GENDER:$2|notificado|notificada}} de que você apreciou {{GENDER:$2|sua}} edição.',
+	'thanks' => 'Enviar agradecimento',
+	'thanks-form-revid' => 'ID de revisão da edição',
+	'thanks-already-thanked' => '{{GENDER:$1|Você}} já enviou um agradecimento por esta edição.',
 	'echo-pref-subscription-edit-thank' => 'Agradeça-me pela minha edição',
 	'echo-pref-tooltip-edit-thank' => 'Notifique-me quando alguém agradecer por uma edição que fiz.',
 	'echo-category-title-edit-thank' => 'Agradecimento',
@@ -2357,6 +2364,12 @@ $messages['pt-br'] = array(
 	'log-name-thanks' => 'Registro de agradecimentos',
 	'log-description-thanks' => 'Abaixo está uma lista de usuários que receberam agradecimentos de outros usuários.',
 	'logentry-thanks-thank' => '$1 {{GENDER:$2|agradeceu}} {{GENDER:$4|$3}}',
+	'notification-link-text-view-post' => 'Ver comentário',
+	'notification-flow-thanks' => '[[User:$1|$1]] {{GENDER:$1|agradeceu-lhe}} por $2 em "$3" na página [[:$4]].',
+	'notification-flow-thanks-post-link' => 'seu comentário',
+	'notification-flow-thanks-flyout' => '[[User:$1|$1]] {{GENDER:$1|agradeceu-lhe}} pelo seu comentário em "$2" na página $3.',
+	'notification-flow-thanks-email-subject' => '$1 {{GENDER:$1|agradeceu-lhe}} pelo seu comentário em {{SITENAME}}',
+	'notification-flow-thanks-email-batch-body' => '$1 {{GENDER:$1|agradeceu-lhe}} pelo seu comentário em "$2" na página $3.',
 );
 
 /** Romansh (rumantsch)
