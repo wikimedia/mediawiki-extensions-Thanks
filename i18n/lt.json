@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "Garas",
+            "Hugo.arg"
+        ]
+    },
+    "thanks-thank": "padėkoti",
+    "thanks-thanked": "{{GENDER:$1|padėkota}}",
+    "thanks-button-thank": "{{GENDER:$1|Padėkoti}}",
+    "thanks-thank-tooltip": "{{GENDER:$1|Nusiųskite}} padėkos žinutę šiam {{GENDER:$2|naudotojui}}",
+    "thanks-confirmation": "Ar jūs iš tiesų norite {{GENDER:$1|padėkoti}} $2 už šį keitimą?",
+    "notification-thanks-flyout2": "[[User:$1|$1]] padėkojo jums už jūsų keitimą puslapyje $2.",
+    "notification-link-text-view-post": "Rodyti komentarą",
+    "notification-flow-thanks-post-link": "jūsų komentaras"
+}

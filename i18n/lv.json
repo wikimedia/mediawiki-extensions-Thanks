@@ -1,0 +1,29 @@
+{
+    "@metadata": {
+        "authors": [
+            "Edgars2007",
+            "Papuass"
+        ]
+    },
+    "thanks-desc": "Pievieno pateicības saiti vēstures un atšķirību skatiem",
+    "thanks-thank": "pateikties",
+    "thanks-thanked": "{{GENDER:$1|pateicās}}",
+    "thanks-error-undefined": "Pateicības darbība neizdevās. Lūdzu, mēģiniet vēlreiz.",
+    "thanks-error-invalidrevision": "Versijas ID ir nederīgs.",
+    "thanks-error-ratelimited": "Jūsu ierobežojums ir pārsniegts. Lūdzu, uzgaidiet un mēģiniet vēlreiz.",
+    "thanks-thank-tooltip": "{{GENDER:$1|Nosūtīt}} pateicības ziņojumu {{GENDER:$2|šim  lietotājam|šai lietotājai}}",
+    "thanks-confirmation": "Vai tiešām jūs vēlaties {{GENDER:$1|pateikties}} $2 par šo labojumu?",
+    "echo-pref-subscription-edit-thank": "Pateicība par manu labojumu",
+    "echo-pref-tooltip-edit-thank": "Paziņot man, kad kāds man izsaka pateicību par labojumu.",
+    "echo-category-title-edit-thank": "Paldies",
+    "notification-thanks-diff-link": "tavu labojumu",
+    "notification-thanks": "[[User:$1|$1]] {{GENDER:$1|pateicās}} tev par $2 [[:$3]].",
+    "notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1|pateicās}} jums par jūsu labojumu $2.",
+    "notification-thanks-email-subject": "$1 {{GENDER:$1|pateicās}} jums par jūsu labojumu {{SITENAME}}",
+    "notification-thanks-email-batch-body": "$1 {{GENDER:$1|pateicās}} jums par jūsu labojumu $2.",
+    "notification-link-text-respond-to-user": "Atbildēt lietotājam",
+    "log-name-thanks": "Pateicību žurnāls",
+    "log-description-thanks": "Zemāk ir saraksts ar lietotājiem, kuriem citi lietotāji ir pateikušies.",
+    "logentry-thanks-thank": "$1 {{GENDER:$2|pateicās}} {{GENDER:$4|$3}}",
+    "log-show-hide-thanks": "$1 pateicību žurnāls"
+}

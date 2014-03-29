@@ -1,0 +1,17 @@
+{
+    "@metadata": {
+        "authors": [
+            "VIGNERON",
+            "Y-M D"
+        ]
+    },
+    "thanks-desc": "Ouzhpenn trugarez liammoù en istor ha dif.",
+    "thanks-thank": "trugarez",
+    "thanks-thanked": "{{GENDER:$1|trugarekaet}}",
+    "thanks-button-thank": "{{GENDER:$1|Trugarez}}",
+    "thanks-button-thanked": "{{GENDER:$1|Trugarekaet}}",
+    "echo-category-title-edit-thank": "Trugarez",
+    "notification-thanks-diff-link": "ho kemm",
+    "notification-link-text-respond-to-user": "Respont d'an implijer",
+    "logentry-thanks-thank": "$1 {{GENDER:$2|en deus|he deus}} trugarekaet {{GENDER:$4|$3}}"
+}

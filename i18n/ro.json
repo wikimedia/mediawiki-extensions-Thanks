@@ -1,0 +1,40 @@
+{
+    "@metadata": {
+        "authors": [
+            "Minisarm"
+        ]
+    },
+    "thanks-desc": "Adaugă legături pentru mulțumiri în istoric și în caseta „Diferență între versiuni”",
+    "thanks-thank": "mulțumire",
+    "thanks-thanked": "{{GENDER:$1|ați mulțumit}}",
+    "thanks-button-thank": "{{GENDER:$1|Mulțumesc}}",
+    "thanks-button-thanked": "{{GENDER:$1|Ați mulțumit}}",
+    "thanks-error-undefined": "Încercarea de a mulțumi a eșuat. Încercați din nou.",
+    "thanks-error-invalidrevision": "Codul versiunii nu este valid.",
+    "thanks-error-ratelimited": "{{GENDER:$1|V}}-ați depășit limita de evaluare. Așteptați un timp și reîncercați.",
+    "thanks-thank-tooltip": "{{GENDER:$1|Trimite}} o notificare de mulțumire {{GENDER:$2|acestui utilizator|acestei utilizatoare}}",
+    "thanks-confirmation": "Doriți {{GENDER:$1|să mulțumiți}} utilizatorului $2 pentru această modificare?",
+    "thanks-thanked-notice": "$1 a fost {{GENDER:$2|notificat|notificată|notificat}} că i-ați apreciat modificarea.",
+    "thanks": "Trimitere mulțumiri",
+    "thanks-form-revid": "ID-ul versiunii pentru modificare",
+    "thanks-already-thanked": "{{GENDER:$1|Ați}} trimis deja mulțumiri pentru această modificare.",
+    "echo-pref-subscription-edit-thank": "Mi se mulțumește pentru modificarea mea",
+    "echo-pref-tooltip-edit-thank": "Notifică-mă când cineva îmi mulțumește pentru o modificare pe care am efectuat-o.",
+    "echo-category-title-edit-thank": "Mulțumiri",
+    "notification-thanks-diff-link": "modificarea dumneavoastră",
+    "notification-thanks": "[[User:$1|$1]] {{GENDER:$1|v-a mulțumit}} pentru $2 asupra paginii [[:$3]].",
+    "notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1|v-a mulțumit}} pentru modificarea dumnevoastră asupra paginii $2.",
+    "notification-thanks-email-subject": "$1 {{GENDER:$1|v-a mulțumit}} pentru modificarea dumneavoastră de la {{SITENAME}}",
+    "notification-thanks-email-batch-body": "$1 {{GENDER:$1|v-a mulțumit}} pentru modificarea dumneavoastră asupra paginii $2.",
+    "notification-link-text-respond-to-user": "Răspuns către utilizator",
+    "log-name-thanks": "Jurnal mulțumiri",
+    "log-description-thanks": "Mai jos se află o listă a utilizatorilor cărora li s-a mulțumit de către alți utilizatori.",
+    "logentry-thanks-thank": "$1 {{GENDER:$2|i-a mulțumit}} {{GENDER:$4|utilizatorului $3|utilizatoarei $3}}",
+    "log-show-hide-thanks": "$1 jurnalul de mulțumiri",
+    "notification-link-text-view-post": "Vezi comentariul",
+    "notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|v-a mulțumit}} pentru $2 din secțiunea „$3” a paginii [[:$4]].",
+    "notification-flow-thanks-post-link": "comentariul dumneavoastră",
+    "notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|v-a mulțumit}} pentru comentariul dumnevoastră din secțiunea „$2” a paginii $3.",
+    "notification-flow-thanks-email-subject": "$1 {{GENDER:$1|v-a mulțumit}} pentru comentariul dumneavoastră de la {{SITENAME}}",
+    "notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|v-a mulțumit}} pentru comentariul dumnevoastră din secțiunea „$2” a paginii $3."
+}

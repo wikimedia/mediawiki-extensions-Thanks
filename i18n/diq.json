@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Gorizon",
+            "Marmase",
+            "Mirzali"
+        ]
+    },
+    "thanks-thank": "teşekur kena",
+    "thanks-thanked": "{{GENDER:$1|teşekur ke}}",
+    "thanks-button-thank": "{{GENDER:$1|Teşekur kena}}",
+    "thanks-button-thanked": "{{GENDER:$1|teşekur ke}}",
+    "thanks": "Teşekur bırışe",
+    "echo-category-title-edit-thank": "Teşekuri",
+    "notification-thanks-diff-link": "vırnayışa to",
+    "log-name-thanks": "Qeydé tşekuran",
+    "logentry-thanks-thank": "$1'i  {{GENDER:$4|$3}}'ré {{GENDER:$2|teşekur ke}}",
+    "log-show-hide-thanks": "Qeydé teşekuré $1",
+    "notification-link-text-view-post": "Tefsiri bıvêne"
+}

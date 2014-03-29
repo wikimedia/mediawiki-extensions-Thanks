@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "KuboF"
+        ]
+    },
+    "thanks-desc": "Aldoni danko-ligilon al historio kaj diferenco-montro.",
+    "thanks-thank": "danki",
+    "thanks-thanked": "{{GENDER:$1|dankita}}",
+    "thanks-button-thank": "{{GENDER:$1|Danki}}",
+    "thanks-error-invalidrevision": "Identigilo de revizio estas nevalida.",
+    "thanks-confirmation": "Ĉu vi volas {{GENDER:$1|danki}} al $2 pro tiu ĉi redakto?",
+    "echo-pref-subscription-edit-thank": "Danki al mi pro miaj redaktoj",
+    "echo-pref-tooltip-edit-thank": "Sciigu min kiam iu dankas al mi pro mia redakto.",
+    "echo-category-title-edit-thank": "Dankoj",
+    "notification-thanks-diff-link": "via redakto",
+    "notification-thanks": "[[User:$1|$1]] {{GENDER:$1|dankis}} al vi pro $2 en [[:$3]].",
+    "notification-link-text-respond-to-user": "Respondi al uzanto",
+    "log-name-thanks": "Protokolo de dankoj",
+    "log-description-thanks": "Sube estas listo de uzantoj al kiuj aliaj uzantoj dankis.",
+    "log-show-hide-thanks": "$1 protokolon de dankoj"
+}

@@ -1,0 +1,39 @@
+{
+    "@metadata": {
+        "authors": [
+            "Asaifm",
+            "ترجمان05",
+            "زكريا",
+            "مشعل الحربي"
+        ]
+    },
+    "thanks-desc": "تضيف روابط للشكر على صفحات التاريخ والفرق",
+    "thanks-thank": "شكر",
+    "thanks-thanked": "{{GENDER:$1|تم إرسال الشكر}}",
+    "thanks-button-thank": "{{GENDER:$1|شكر}}",
+    "thanks-button-thanked": "{{GENDER:$1|تم إرسال الشكر}}",
+    "thanks-error-undefined": "فشل إرسال الشكر، الرجاء المحاولة مجددًا.",
+    "thanks-error-invalidrevision": "معرّف المراجعة غير صحيح.",
+    "thanks-error-ratelimited": "لقد {{GENDER:$1|تجاوزت}} حد التقييم، الرجاء الانتظار لبعض الوقت ثم المحاولة مجددًا.",
+    "thanks-thank-tooltip": "{{GENDER:$1|أرسل|أرسلي}} إشعار شكر ل{{GENDER:$2|هذا المستخدم|هذه المستخدمة}}",
+    "thanks-confirmation": "هل {{GENDER:$1|تريد|تريدين}} شكر $2 على هذا التعديل؟",
+    "thanks-thanked-notice": "تم إشعار $1 بأن {{GENDER:$2|تعديله|تعديلها|تعديلهم}} أعجبك.",
+    "thanks": "إرسال شكر",
+    "thanks-form-revid": "رقم التعديل",
+    "thanks-already-thanked": "{{GENDER:$1|لقد قمت|لقد قمتِ}} بإرسال شكر على هذا التعديل من قبل.",
+    "echo-pref-subscription-edit-thank": "شكري على تعديلي",
+    "echo-pref-tooltip-edit-thank": "أشعرني عندما يشكرني أحد ما على تعديل قمت به.",
+    "echo-category-title-edit-thank": "شكر",
+    "notification-thanks-diff-link": "تعديلك",
+    "notification-thanks": "{{GENDER:$1|شكرك|شكرتك}} [[User:$1|$1]] على $2 في [[:$3]].",
+    "notification-thanks-flyout2": "{{GENDER:$1|شكرك|شكرتك}} [[User:$1|$1]] على تعديلك في $2.",
+    "notification-thanks-email-subject": "$1 {{GENDER:$1|شكرك|شكرتك}} على تعديلك في {{SITENAME}}",
+    "notification-thanks-email-batch-body": "$1 {{GENDER:$1|شكرك|شكرتك}} على تعديلك في $2.",
+    "notification-link-text-respond-to-user": "الرد على المستخدم",
+    "log-name-thanks": "سجل الشكر",
+    "log-description-thanks": "بالأسفل قائمة مستخدمين تلقوا شكرًا من مستخدمين آخرين.",
+    "logentry-thanks-thank": "$1 {{GENDER:$2|شكر|شكرت}} {{GENDER:$4|$3}}",
+    "log-show-hide-thanks": "$1 سجل الشكر",
+    "notification-link-text-view-post": "أظهر التعليق",
+    "notification-flow-thanks-post-link": "تعليقك"
+}

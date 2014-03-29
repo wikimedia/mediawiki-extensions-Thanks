@@ -1,0 +1,24 @@
+{
+    "@metadata": {
+        "authors": [
+            "Jayarathina"
+        ]
+    },
+    "thanks-desc": "திருத்த வரலாறு மற்றும் திருத்தங்களுக்கிடையேயான வேறுபாட்டு பக்கங்களில் நன்றி இணைப்பிடுக",
+    "thanks-button-thank": "நன்றி!",
+    "thanks-error-undefined": "நன்றி தெரிவிப்பது தோல்வியடைந்தது. மீண்டும் முயற்சிக்கவும்.",
+    "thanks-error-invalidrevision": "திருத்த எண் தவறானது.",
+    "echo-pref-subscription-edit-thank": "என் தொகுப்புக்கு எனக்கு நன்றி கூறுகிறார்",
+    "echo-pref-tooltip-edit-thank": "நான் செய்த ஒரு தொகுப்புக்கு எனக்கு யாரேனும் நன்றி சொன்னால் எனக்கு தெரிவி.",
+    "echo-category-title-edit-thank": "நன்றி!",
+    "notification-thanks-diff-link": "உங்கள் தொகுப்பு",
+    "notification-thanks": "நீங்கள் $2 [[:$3]]இல் செய்த தொகுப்புக்கு [[User:$1|$1]] நன்றி தெரிவித்தார்.",
+    "notification-thanks-flyout2": "நீங்கள் $2இல் செய்த தொகுப்புக்கு [[User:$1|$1]] நன்றி தெரிவித்தார்.",
+    "notification-thanks-email-subject": "நீங்கள் {{SITENAME}}இல் செய்த தொகுப்புக்கு $1 நன்றி தெரிவித்தார்.",
+    "notification-thanks-email-batch-body": "நீங்கள் $2இல் செய்த தொகுப்புக்கு $1 நன்றி தெரிவித்தார்.",
+    "notification-link-text-respond-to-user": "பயனருக்கு பதிலளிக்க",
+    "log-name-thanks": "நன்றிகள் பதிவு",
+    "log-description-thanks": "பிற பயனர்களால் நன்றி தெரிவிக்கப்பட்ட பயனர்களின் பட்டியல் கீழே உள்ளது.",
+    "logentry-thanks-thank": "$1, $4க்கு நன்றி தெரிவித்தார்.",
+    "log-show-hide-thanks": "$1 நன்றிகள் பதிவு"
+}

@@ -1,0 +1,32 @@
+{
+    "@metadata": {
+        "authors": [
+            "Renessaince",
+            "Zedlik"
+        ]
+    },
+    "thanks-desc": "Дадае спасылкі з падзякамі у гісторыю і параўнаньне вэрсыяў",
+    "thanks-thank": "дзякуй",
+    "thanks-thanked": "{{GENDER:$1|падзякаваў|падзякавала}}",
+    "thanks-button-thank": "Дзякуй",
+    "thanks-button-thanked": "{{GENDER:$1|Падзякаваў|Падзякавала}}",
+    "thanks-error-undefined": "Не атрымалася падзякаваць. Паспрабуйце яшчэ раз.",
+    "thanks-error-invalidrevision": "Няслушны ідэнтыфікатар вэрсіі",
+    "thanks-error-ratelimited": "Вы перавысілі абмежаваньне хуткасьці выкананьня. Пачакайце крыху і паўтарыце спробу.",
+    "thanks-thank-tooltip": "{{GENDER:$1|Адаслаць}} {{GENDER:$2|гэтаму карыстальніку|гэтай карыстальніцы}} падзяку",
+    "thanks-confirmation": "Вы насамрэч хочаце {{GENDER:$1|падзякаваць}} $2 за гэтую праўку?",
+    "thanks-thanked-notice": "$1 {{GENDER:$2|атрымаў|атрымала|атрымалі}} паведамленьне пра вашае ўпадабаньне {{GENDER:$2|ягонай|ейнай|іхняй}} праўкі.",
+    "echo-pref-subscription-edit-thank": "Дзякуе мне за маю праўку",
+    "echo-pref-tooltip-edit-thank": "Паведаміць мне, калі нехта дзякуе за мае праўкі.",
+    "echo-category-title-edit-thank": "Дзякуй",
+    "notification-thanks-diff-link": "вашае рэдагаваньне",
+    "notification-thanks": "[[User:$1|$1]] {{GENDER:$1|падзякаваў|падзякавала}} Вам за $2 на [[:$3]].",
+    "notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1|падзякаваў|падзякавала}} Вам за Вашую праўку на $2.",
+    "notification-thanks-email-subject": "$1 {{GENDER:$1|падзякаваў|падзякавала}} Вам за Вашую праўку на {{SITENAME}}.",
+    "notification-thanks-email-batch-body": "$1 {{GENDER:$1|падзякаваў|падзякавала}} Вам за Вашую праўку на $2.",
+    "notification-link-text-respond-to-user": "Адказаць удзельніку",
+    "log-name-thanks": "Журнал падзякаў",
+    "log-description-thanks": "Ніжэй знаходзіцца сьпіс удзельнікаў, якія атрымалі падзякі.",
+    "logentry-thanks-thank": "$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$4|удзельніку|удзельніцы}} $3",
+    "log-show-hide-thanks": "Журнал падзякаў $1"
+}

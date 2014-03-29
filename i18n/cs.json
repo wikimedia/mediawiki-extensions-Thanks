@@ -1,0 +1,35 @@
+{
+    "@metadata": {
+        "authors": [
+            "Littledogboy",
+            "Mormegil"
+        ]
+    },
+    "thanks-desc": "Přidává do historie a zobrazení rozdílů odkazy pro poděkování",
+    "thanks-thank": "poděkovat",
+    "thanks-thanked": "{{GENDER:$1|poděkováno}}",
+    "thanks-button-thank": "{{GENDER:$1|Poděkovat}}",
+    "thanks-button-thanked": "{{GENDER:$1|Poděkováno}}",
+    "thanks-error-undefined": "Poděkování se nezdařilo. Zkuste to prosím znovu.",
+    "thanks-error-invalidrevision": "ID revize je neplatné.",
+    "thanks-error-ratelimited": "{{GENDER:$1|Překročil|Překročila|Překročili}} jste rychlostní limit. Počkejte prosím chvíli a zkuste to znovu.",
+    "thanks-thank-tooltip": "{{GENDER:$1|Poslat}} {{GENDER:$2|tomuto uživateli|této uživatelce}} poděkování",
+    "thanks-confirmation": "Chcete za tuto editaci uživateli $2 {{GENDER:$1|poděkovat}}?",
+    "thanks-thanked-notice": "{{GENDER:$2|Uživatel|Uživatelka}} $1 {{GENDER:$2|byl informován|byla informována}} o tom, že se vám {{GENDER:$2|jeho|její}} editace líbila.",
+    "thanks": "Poslat poděkování",
+    "thanks-form-revid": "ID revize",
+    "thanks-already-thanked": "Za tuto editaci jste již {{GENDER:$1|poděkoval|poděkovala|poděkovali}}.",
+    "echo-pref-subscription-edit-thank": "…mi někdo poděkuje za editaci",
+    "echo-pref-tooltip-edit-thank": "Upozorněte mě, když mi někdo poděkuje za editaci.",
+    "echo-category-title-edit-thank": "poděkování",
+    "notification-thanks-diff-link": "vaši úpravu",
+    "notification-thanks": "[[User:$1|$1]] vám {{GENDER:$1|poděkoval|poděkovala}} za $2 stránky [[:$3]].",
+    "notification-thanks-flyout2": "[[User:$1|$1]] vám {{GENDER:$1|poděkoval|poděkovala}} za editaci stránky $2.",
+    "notification-thanks-email-subject": "$1 vám {{GENDER:$1|poděkoval|poděkovala}} za vaši editaci na {{grammar:6sg|{{SITENAME}}}}",
+    "notification-thanks-email-batch-body": "$1 vám {{GENDER:$1|poděkoval|poděkovala}} za vaši úpravu stránky $2.",
+    "notification-link-text-respond-to-user": "Odpovědět uživateli",
+    "log-name-thanks": "Kniha poděkování",
+    "log-description-thanks": "Níže je seznam uživatelů, kterým ostatní uživatelé poděkovali.",
+    "logentry-thanks-thank": "$1 {{GENDER:$2|poděkoval|poděkovala}} {{GENDER:$4|uživateli|uživatelce}} $3",
+    "log-show-hide-thanks": "$1 knihu poděkování"
+}

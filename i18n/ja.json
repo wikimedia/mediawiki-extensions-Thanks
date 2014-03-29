@@ -1,0 +1,42 @@
+{
+    "@metadata": {
+        "authors": [
+            "Fryed-peach",
+            "Penn Station",
+            "Shirayuki"
+        ]
+    },
+    "thanks-desc": "履歴ページおよび差分ページに、感謝を示すリンクを追加する",
+    "thanks-thank": "感謝",
+    "thanks-thanked": "{{GENDER:$1|感謝を示しました}}",
+    "thanks-button-thank": "{{GENDER:$1|感謝}}",
+    "thanks-button-thanked": "{{GENDER:$1|感謝を示しました}}",
+    "thanks-error-undefined": "感謝の操作に失敗しました。もう一度やり直してください。",
+    "thanks-error-invalidrevision": "版 ID が無効です。",
+    "thanks-error-ratelimited": "{{GENDER:$1|}}速度制限を超えました。しばらくしてからもう一度やり直してください。",
+    "thanks-thank-tooltip": "この{{GENDER:$2|利用者}}に感謝の通知を{{GENDER:$1|送信する}}",
+    "thanks-confirmation": "$2 のこの編集に対して{{GENDER:$1|感謝を示しますか}}?",
+    "thanks-thanked-notice": "あなたが $1 の編集に感謝を示したことを{{GENDER:$2|本人}}に通知しました。",
+    "thanks": "感謝を示す",
+    "thanks-form-revid": "編集の版 ID",
+    "thanks-already-thanked": "{{GENDER:$1|}}この編集には既に感謝を示しました。",
+    "echo-pref-subscription-edit-thank": "自分の編集に誰かが感謝を示したとき",
+    "echo-pref-tooltip-edit-thank": "自分の編集に誰かが感謝を示したときに通知する。",
+    "echo-category-title-edit-thank": "感謝",
+    "notification-thanks-diff-link": "あなたの編集",
+    "notification-thanks": "[[User:$1|$1]] が [[:$3]] での$2に{{GENDER:$1|感謝を示しました}}",
+    "notification-thanks-flyout2": "[[User:$1|$1]] が $2 でのあなたの編集に{{GENDER:$1|感謝を示しました}}。",
+    "notification-thanks-email-subject": "$1 が{{SITENAME}}でのあなたの編集に{{GENDER:$1|感謝を示しました}}",
+    "notification-thanks-email-batch-body": "$1 が $2 でのあなたの編集に{{GENDER:$1|感謝を示しました}}",
+    "notification-link-text-respond-to-user": "利用者に返信",
+    "log-name-thanks": "感謝記録",
+    "log-description-thanks": "以下に、他の利用者から感謝を示された利用者を列挙します。",
+    "logentry-thanks-thank": "$1 が {{GENDER:$4|$3}} に{{GENDER:$2|感謝を示しました}}",
+    "log-show-hide-thanks": "感謝記録を$1",
+    "notification-link-text-view-post": "コメントを閲覧",
+    "notification-flow-thanks": "[[User:$1|$1]] が [[:$4]] の「$3」での$2に{{GENDER:$1|感謝を示しました}}。",
+    "notification-flow-thanks-post-link": "あなたのコメント",
+    "notification-flow-thanks-flyout": "[[User:$1|$1]] が $3 の「$2」でのあなたのコメントに{{GENDER:$1|感謝を示しました}}。",
+    "notification-flow-thanks-email-subject": "$1 が{{SITENAME}}でのあなたのコメントに{{GENDER:$1|感謝を示しました}}",
+    "notification-flow-thanks-email-batch-body": "$1 が $3 の「$2」でのあなたのコメントに{{GENDER:$1|感謝を示しました}}。"
+}

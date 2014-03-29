@@ -1,0 +1,32 @@
+{
+    "@metadata": {
+        "authors": [
+            "Iwan Novirion",
+            "William Surya Permana"
+        ]
+    },
+    "thanks-desc": "Menambahkan pranala terima kasih pada tampilan riwayat suntingan dan perbedaan revisi",
+    "thanks-thank": "berterima kasih",
+    "thanks-thanked": "{{GENDER:$1|sudah berterima kasih}}",
+    "thanks-button-thank": "{{GENDER:$1|Berterima kasih}}",
+    "thanks-button-thanked": "{{GENDER:$1|Sudah berterima kasih}}",
+    "thanks-error-undefined": "Tindakan berterima kasih gagal. Silakan coba lagi.",
+    "thanks-error-invalidrevision": "ID revisi tidak sah.",
+    "thanks-error-ratelimited": "{{GENDER:$1|Anda}} telah melampaui batas Anda. Silakan tunggu beberapa saat dan coba lagi.",
+    "thanks-thank-tooltip": "{{GENDER:$1|Kirim}} sebuah pemberitahuan terima kasih kepada {{GENDER:$2|pengguna}} ini",
+    "thanks-confirmation": "Apakah Anda ingin {{GENDER:$1|berterima kasih}} kepada $2 atas suntingan ini?",
+    "thanks-thanked-notice": "$1 telah diberitahu bahwa Anda menyukai {{GENDER:$2|suntingannya|suntingannya|suntingan mereka}}.",
+    "echo-pref-subscription-edit-thank": "Berterima kasih kepada saya atas suntingan saya",
+    "echo-pref-tooltip-edit-thank": "Beritahu saya saat seseorang berterima kasih kepada saya atas suntingan yang saya buat.",
+    "echo-category-title-edit-thank": "Terima kasih",
+    "notification-thanks-diff-link": "suntingan Anda",
+    "notification-thanks": "[[User:$1|$1]] {{GENDER:$1|berterima kasih}} kepada Anda atas $2 di [[:$3]].",
+    "notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1|berterima kasih}} kepada Anda atas suntingan Anda di $2.",
+    "notification-thanks-email-subject": "$1 {{GENDER:$1|berterima kasih}} kepada Anda atas suntingan Anda di {{SITENAME}}",
+    "notification-thanks-email-batch-body": "$1 {{GENDER:$1|berterima kasih}} kepada Anda atas suntingan Anda di $2.",
+    "notification-link-text-respond-to-user": "Tanggapi pengguna",
+    "log-name-thanks": "Log terima kasih",
+    "log-description-thanks": "Di bawah ini adalah daftar pengguna yang menerima terima kasih dari pengguna lain.",
+    "logentry-thanks-thank": "$1 {{GENDER:$2|berterima kasih}} kepada {{GENDER:$4|$3}}",
+    "log-show-hide-thanks": "$1 log terima kasih"
+}

@@ -32,7 +32,7 @@ $wgExtensionCredits['other'][] = array(
 		'Benjamin Chen',
 		'Wctaiwan',
 	),
-	'version'  => '1.1.0',
+	'version'  => '1.2.0',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Thanks',
 	'descriptionmsg' => 'thanks-desc',
 );
@@ -51,6 +51,7 @@ $wgAutoloadClasses['ApiRevThank'] = $dir . '/ApiRevThank.php';
 $wgAutoloadClasses['ApiFlowThank'] = $dir . '/ApiFlowThank.php';
 $wgAutoloadClasses['ThanksLogFormatter'] = $dir . '/ThanksLogFormatter.php';
 $wgAutoloadClasses['SpecialThanks'] = $dir . '/SpecialThanks.php';
+$wgMessagesDirs['Thanks'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['Thanks'] = $dir . '/Thanks.i18n.php';
 $wgExtensionMessagesFiles['ThanksAlias'] = $dir . '/Thanks.alias.php';
 

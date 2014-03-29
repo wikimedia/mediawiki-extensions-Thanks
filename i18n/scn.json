@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "Gmelfi"
+        ]
+    },
+    "thanks-thank": "arringràzzia",
+    "thanks-button-thank": "{{GENDER:$1|Arringràzzia}}",
+    "thanks-confirmation": "Vuliti {{GENDER:$1|arringrazziari}} $2 pi stu canciu ?",
+    "echo-pref-subscription-edit-thank": "M'arringràzzia pi lu mè canciu",
+    "echo-pref-tooltip-edit-thank": "Abbìsami quannu quarchidunu m'arringràzzia pi nu canciu ca fici."
+}

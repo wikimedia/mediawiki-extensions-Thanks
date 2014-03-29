@@ -1,0 +1,39 @@
+{
+    "@metadata": {
+        "authors": [
+            "Alan",
+            "Fitoschido",
+            "Hahc21",
+            "Julian leonardo paez",
+            "PoLuX124",
+            "Sethladan"
+        ]
+    },
+    "thanks-desc": "Añade enlaces para agradecer desde el historial y las diferencias entre ediciones",
+    "thanks-thank": "agradecer",
+    "thanks-thanked": "{{GENDER:$1|agradeció}}",
+    "thanks-button-thank": "{{GENDER:$1|Gracias}}",
+    "thanks-button-thanked": "agradecid{{GENDER:$1|o|a}}",
+    "thanks-error-undefined": "La acción de agradecimiento falló. Inténtalo de nuevo.",
+    "thanks-error-invalidrevision": "El id. de revisión no es válido.",
+    "thanks-error-ratelimited": "Has excedido tu límite. Por favor, espera un tiempo e intenta de nuevo.",
+    "thanks-thank-tooltip": "{{GENDER:$1|Enviar}} una notificación de agradecimiento a {{GENDER:$2|este|esta|este}} {{GENDER:$2|usuario|usuaria|usuario}}",
+    "thanks-confirmation": "¿Quieres agradecer a $2 por esta edición?",
+    "thanks-thanked-notice": "$1 fue notificad{{GENDER:$2|o|a|o}} de que te ha gustado su edición.",
+    "thanks": "Enviar agradecimiento",
+    "thanks-form-revid": "Id. de revisión",
+    "thanks-already-thanked": "Ya has {{GENDER:$1|enviado}} un agradecimiento por esta edición.",
+    "echo-pref-subscription-edit-thank": "Agradecerme por mi edición",
+    "echo-pref-tooltip-edit-thank": "Notificarme cuando alguien me agradezca por una edición que haya realizado.",
+    "echo-category-title-edit-thank": "Gracias",
+    "notification-thanks-diff-link": "tu edición",
+    "notification-thanks": "[[User:$1|$1]] te ha agradecido por $2 en [[:$3]].",
+    "notification-thanks-flyout2": "[[User:$1|$1]] te ha agradecido por tu edición en $2.",
+    "notification-thanks-email-subject": "$1 {{GENDER:$1|agradeció}} tu edición en {{SITENAME}}",
+    "notification-thanks-email-batch-body": "$1 te ha agradecido por tu edición en $2.",
+    "notification-link-text-respond-to-user": "Responder al usuario",
+    "log-name-thanks": "Registro de agradecimientos",
+    "log-description-thanks": "A continuación, una lista de usuarios que han sido agradecidos por otros usuarios.",
+    "logentry-thanks-thank": "$1 {{GENDER:$2|agradeció}} a {{GENDER:$4|$3}}",
+    "log-show-hide-thanks": "$1 registro de agradecimientos"
+}

@@ -1,0 +1,34 @@
+{
+    "@metadata": {
+        "authors": [
+            "Lloffiwr"
+        ]
+    },
+    "thanks-desc": "Yn ychwanegu cysylltau diolch i'r golygon hanes a diff",
+    "thanks-thank": "diolch",
+    "thanks-thanked": "{{GENDER:$1|diolchwyd}}",
+    "thanks-button-thank": "{{GENDER:$1|Diolcher}}",
+    "thanks-button-thanked": "{{GENDER:$1|Diolchwyd}}",
+    "thanks-error-undefined": "Methodd y weithred o ddiolch. Ceisiwch eto.",
+    "thanks-error-invalidrevision": "Nid yw ID y diwygiad yn ddilys.",
+    "thanks-error-ratelimited": "{{GENDER:$1|Rydych}} wedi gwneud mwy o weithredoedd y funud na'r nifer a ganiateir. Arhoswch ennyd ac yna ceisiwch eto.",
+    "thanks-thank-tooltip": "{{GENDER:$1|Anfon}} gair o ddiolch i'r {{GENDER:$2|defnyddiwr}} hwn",
+    "thanks-confirmation": "Ydych chi am {{GENDER:$1|ddiolch}} i $2 am y golygiad hwn?",
+    "thanks-thanked-notice": "Hysbyswyd $1 eich bod yn hoff o'i {{GENDER:$2|adolygiad|hadolygiad|adolygiad}}.",
+    "thanks": "Anfon diolchiadau",
+    "thanks-form-revid": "ID y golygiad",
+    "thanks-already-thanked": "{{GENDER:$1|Rydych}} eisoes wedi anfon gair o ddiolch am y golygiad hwn.",
+    "echo-pref-subscription-edit-thank": "Fy niolch am fy ngolygiad",
+    "echo-pref-tooltip-edit-thank": "Hysbyser fi pan fo rhywun yn fy niolch am un o'm golygiadau.",
+    "echo-category-title-edit-thank": "Diolch",
+    "notification-thanks-diff-link": "eich golygiad",
+    "notification-thanks": "{{GENDER:$1|Anfonodd}} [[User:$1|$1]] air o ddiolch i chi am $2 ar [[:$3]].",
+    "notification-thanks-flyout2": "{{GENDER:$1|Anfonodd}} [[User:$1|$1]] air o ddiolch i chi am $2.",
+    "notification-thanks-email-subject": "{{GENDER:$1|Anfonodd}} $1 air o ddiolch i chi am eich golygiad ar {{SITENAME}}",
+    "notification-thanks-email-batch-body": "{{GENDER:$1|Anfonodd}} $1 air o ddiolch i chi am eich golygiad ar $2.",
+    "notification-link-text-respond-to-user": "Ateb y defnyddiwr",
+    "log-name-thanks": "Lòg diolchiadau",
+    "log-description-thanks": "Dyma restr o ddefnyddwyr yr anfonwyd gair o ddiolch atynt gan ddefnyddwyr eraill.",
+    "logentry-thanks-thank": "{{GENDER:$2|Anfonodd}} $1 air o ddiolch i {{GENDER:$4|$3}}",
+    "log-show-hide-thanks": "$1 y lòg diolchiadau"
+}

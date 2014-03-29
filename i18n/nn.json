@@ -1,0 +1,31 @@
+{
+    "@metadata": {
+        "authors": [
+            "Njardarlogar"
+        ]
+    },
+    "thanks-desc": "Legg til takkelenkjer til historikk og skilnadsvising",
+    "thanks-thank": "takk",
+    "thanks-thanked": "{{GENDER:$1|takka}}",
+    "thanks-button-thank": "Takk",
+    "thanks-button-thanked": "{{GENDER:$1|Takka}}",
+    "thanks-error-undefined": "Takkehandlinga gjekk ikkje. Freist om att.",
+    "thanks-error-invalidrevision": "Versjons-ID-en er ikkje gild",
+    "thanks-error-ratelimited": "Du har overskride frekvensgrensa di. Vent litt og freist om att.",
+    "thanks-thank-tooltip": "{{GENDER:$1|Send}} ei takkemelding til {{GENDER:$2|brukaren}}",
+    "thanks-confirmation": "Er du viss på at du ynskjer å {{GENDER:$1|takka}} $2 for denne endringa?",
+    "thanks-thanked-notice": "$1 vart fortald at du lika endringa {{GENDER:$2|hans|hennar|hans/hennar}}.",
+    "echo-pref-subscription-edit-thank": "Takkar meg for endringa mi",
+    "echo-pref-tooltip-edit-thank": "Meld meg når nokon takkar meg for ei endring eg har gjort.",
+    "echo-category-title-edit-thank": "Takk",
+    "notification-thanks-diff-link": "endringa di",
+    "notification-thanks": "[[User:$1|$1]] {{GENDER:$1|takka}} deg for $2 på [[:$3]].",
+    "notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1|takka}} deg for endringa di på $2.",
+    "notification-thanks-email-subject": "$1 {{GENDER:$1|takka}} deg for endringa di på {{SITENAME}}",
+    "notification-thanks-email-batch-body": "$1 {{GENDER:$1|takka}} deg for endringa di på $2.",
+    "notification-link-text-respond-to-user": "Svar brukar",
+    "log-name-thanks": "Takkelogg",
+    "log-description-thanks": "Under er ei liste over brukarar som har vorte takka av andre brukarar.",
+    "logentry-thanks-thank": "$1 {{GENDER:$2|takka}} {{GENDER:$4|$3}}",
+    "log-show-hide-thanks": "$1 takkelogg"
+}

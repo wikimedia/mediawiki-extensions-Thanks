@@ -1,0 +1,33 @@
+{
+    "@metadata": {
+        "authors": [
+            "Aftab1995",
+            "Bellayet",
+            "Nasir8891"
+        ]
+    },
+    "thanks-desc": "ইতিহাস পাতায় ধন্যবাদ লিংক সংযোজন",
+    "thanks-thank": "ধন্যবাদ",
+    "thanks-thanked": "{{GENDER:$1|ধন্যবাদ জানিয়েছেন}}",
+    "thanks-button-thank": "{{GENDER:$1|ধন্যবাদ}}",
+    "thanks-button-thanked": "{{GENDER:$1|ধন্যবাদ জানিয়েছেন}}",
+    "thanks-error-undefined": "ধন্যবাদ পদক্ষেপ ব্যর্থ। অনুগ্রহ করে আবার চেষ্টা করুন।",
+    "thanks-error-invalidrevision": "সংশোধনের আইডি বৈধ নয়।",
+    "thanks-error-ratelimited": "{{GENDER:$1|আপনি}} রেট করার সর্বোচ্চ সীমা অতিক্রম করেছেন। অনুগ্রহ করে অপেক্ষা করুন এবং পুনরায় চেষ্টা করুন।",
+    "thanks-thank-tooltip": "এই {{GENDER:$2|ব্যবহারকারীকে}} ধন্যবাদ বিজ্ঞপ্তি {{GENDER:$1|পাঠান}}",
+    "thanks-confirmation": "আপনি কি এই সম্পাদনার জন্য $2কে {{GENDER:$1|ধন্যবাদ}} জানাতে চান?",
+    "thanks-thanked-notice": "$1-কে জাননো হয়েছে যে আপনি {{GENDER:$2|তার|তার|তাদের}} সম্পাদনা পছন্দ করেছেন।",
+    "echo-pref-subscription-edit-thank": "আমার সম্পাদনার জন্য আমার ধন্যবাদসমূহ",
+    "echo-pref-tooltip-edit-thank": "আমার কোনো সম্পাদনার জন্য কেউ আমাকে ধন্যবাদ দিলে তা আমাকে জানাও",
+    "echo-category-title-edit-thank": "ধন্যবাদসমূহ",
+    "notification-thanks-diff-link": "আপনার সম্পাদনা",
+    "notification-thanks": "[[User:$1|$1]] আপনাকে [[:$3]] পাতায় $2 এর জন্য {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
+    "notification-thanks-flyout2": "$2 পাতায় সম্পাদনার জন্য [[User:$1|$1]]  আপনাকে {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
+    "notification-thanks-email-subject": "{{SITENAME}} সম্পাদনার জন্য $1 আপনাকে {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
+    "notification-thanks-email-batch-body": "$2-এ সম্পাদনার জন্য $1 আপনাকে {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
+    "notification-link-text-respond-to-user": "ব্যবহারকারীর প্রতিক্রিয়া",
+    "log-name-thanks": "ধন্যবাদ লগ",
+    "log-description-thanks": "নিচে ব্যবহারকারীদের একটি তালিকা রয়েছে যারা অন্য ব্যবহারকারী হতে ধন্যবাদ পেয়েছেন।",
+    "logentry-thanks-thank": "$1 {{GENDER:$4|$3}}কে {{GENDER:$2|ধন্যবাদ জানিয়েছেন}}",
+    "log-show-hide-thanks": "ধন্যবাদ লগ $1"
+}

@@ -1,0 +1,31 @@
+{
+    "@metadata": {
+        "authors": [
+            "Yejianfei"
+        ]
+    },
+    "thanks-desc": "添加感謝鏈接遘歷史再區分觀點",
+    "thanks-thank": "感謝",
+    "thanks-thanked": "{{GENDER:$1|感謝}}",
+    "thanks-button-thank": "{{GENDER:$1|感謝}}",
+    "thanks-button-thanked": "{{GENDER:$1|感謝}}",
+    "thanks-error-undefined": "感謝行動失敗了。起動再試蜀回。",
+    "thanks-error-invalidrevision": "校訂編號𣍐合法。",
+    "thanks-error-ratelimited": "{{GENDER:$1|汝}}已經超出汝其比率限制。起動等仂固再試蜀試。",
+    "thanks-thank-tooltip": "{{GENDER:$1|發出}}蜀萆感謝通知遘茲蜀萆{{GENDER:$2|用戶}}",
+    "thanks-confirmation": "汝有想{{GENDER:$1|感謝}}$2其茲蜀萆編輯無？",
+    "thanks-thanked-notice": "$1已經接著汝喜歡{{GENDER:$2|伊其}}編辑其通知。",
+    "echo-pref-subscription-edit-thank": "感謝我其修改",
+    "echo-pref-tooltip-edit-thank": "有儂因為我其編輯感謝我辰候通知我。",
+    "echo-category-title-edit-thank": "謝謝",
+    "notification-thanks-diff-link": "汝其編輯",
+    "notification-thanks": "[[User:$1|$1]]{{GENDER:$1|感謝}}汝敆[[:$3]]其$2。",
+    "notification-thanks-flyout2": "[[User:$1|$1]]因為汝敆$2上其編輯{{GENDER:$1|感謝}}汝。",
+    "notification-thanks-email-subject": "$1因為汝敆{{SITENAME}}上其編輯{{GENDER:$1|感謝}}汝",
+    "notification-thanks-email-batch-body": "$1因為汝敆$2上其編輯{{GENDER:$1|感謝}}汝。",
+    "notification-link-text-respond-to-user": "回覆遘用戶",
+    "log-name-thanks": "感謝日誌",
+    "log-description-thanks": "下底是乞其他用戶感謝過其用戶其蜀萆單單。",
+    "logentry-thanks-thank": "$1{{GENDER:$2|感謝}}{{GENDER:$4|$3}}",
+    "log-show-hide-thanks": "$1感謝日誌"
+}
