@@ -12,7 +12,7 @@
 		$( 'a.mw-thanks-flow-thank-link' ).each( function( idx, el ) {
 			var $thankLink = $( el );
 			if ( mw.thanks.thanked.contains( $thankLink ) ) {
-				$thankLink.before( $thankedLabel );
+				$thankLink.before( $thankedLabel.clone() );
 				$thankLink.remove();
 			}
 		} );
@@ -25,7 +25,7 @@
 			'token' : mw.user.tokens.get( 'editToken' )
 		} )
 		.done( function( data ) {
-			$thankLink.before( $thankedLabel );
+			$thankLink.before( $thankedLabel.clone() );
 			$thankLink.remove();
 			mw.thanks.thanked.push( $thankLink );
 		} )
