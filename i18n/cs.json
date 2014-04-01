@@ -31,5 +31,11 @@
     "log-name-thanks": "Kniha poděkování",
     "log-description-thanks": "Níže je seznam uživatelů, kterým ostatní uživatelé poděkovali.",
     "logentry-thanks-thank": "$1 {{GENDER:$2|poděkoval|poděkovala}} {{GENDER:$4|uživateli|uživatelce}} $3",
-    "log-show-hide-thanks": "$1 knihu poděkování"
+    "log-show-hide-thanks": "$1 knihu poděkování",
+    "notification-link-text-view-post": "Zobrazit komentář",
+    "notification-flow-thanks": "[[User:$1|$1]] vám {{GENDER:$1|poděkoval|poděkovala}} za $2 k „$3“ na stránce [[:$4]].",
+    "notification-flow-thanks-post-link": "váš komentář",
+    "notification-flow-thanks-flyout": "[[User:$1|$1]] vám {{GENDER:$1|poděkoval|poděkovala}} za váš komentář k „$2“ na stránce $3.",
+    "notification-flow-thanks-email-subject": "$1 vám {{GENDER:$1|poděkoval|poděkovala}} za váš komentář na {{grammar:6sg|{{SITENAME}}}}",
+    "notification-flow-thanks-email-batch-body": "$1 vám {{GENDER:$1|poděkoval|poděkovala}} za váš komentář k „$2“ na stránce $3."
 }
