@@ -321,8 +321,8 @@ class ThanksHooks {
 	 * @return string HTML segment for the links
 	 */
 	protected static function generateFlowThankElement( $post, $user, $recipient ) {
-		$cssActiveClass = 'mw-thanks-flow-thank-link mw-ui-button';
-		$cssInactiveClass = 'mw-thanks-flow-thanked mw-ui-button mw-ui-disabled';
+		$cssActiveClass = 'mw-thanks-flow-thank-link mw-ui-button mw-ui-quiet mw-ui-constructive';
+		$cssInactiveClass = 'mw-thanks-flow-thanked mw-ui-button mw-ui-quiet mw-ui-disabled';
 
 		// User has already thanked for revision
 		if ( $user->getRequest()->getSessionData( "flow-thanked-{$post->getPostId()}" ) ) {

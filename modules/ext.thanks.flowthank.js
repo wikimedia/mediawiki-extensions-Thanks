@@ -6,7 +6,7 @@
 
 	var $thankedLabel = $( '<span></span>' )
 		.append( mw.msg( 'thanks-button-thanked', mw.user ) )
-		.addClass( 'mw-thanks-flow-thanked mw-ui-button mw-ui-disabled' );
+		.addClass( 'mw-thanks-flow-thanked mw-ui-button mw-ui-quiet mw-ui-disabled' );
 
 	var reloadThankedState = function() {
 		$( 'a.mw-thanks-flow-thank-link' ).each( function( idx, el ) {
