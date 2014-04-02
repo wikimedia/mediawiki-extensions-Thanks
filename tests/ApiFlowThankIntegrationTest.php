@@ -92,7 +92,7 @@ class ApiFlowThankTest extends ApiTestCase {
 
 		$container[ 'storage' ] = $mockStorage;
 
-		$mockTemplating = $this->getMockBuilder( '\Flow\Templating' )
+		$mockTemplating = $this->getMockBuilder( 'Flow\Templating' )
 			->disableOriginalConstructor()
 			->getMock();
 
