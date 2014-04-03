@@ -39,6 +39,11 @@ $specialPageAliases['fa'] = array(
 	'Thanks' => array( 'تشکر' ),
 );
 
+/** Italian (italiano) */
+$specialPageAliases['it'] = array(
+	'Thanks' => array( 'Ringrazia' ),
+);
+
 /** Luxembourgish (Lëtzebuergesch) */
 $specialPageAliases['lb'] = array(
 	'Thanks' => array( 'Merci' ),
