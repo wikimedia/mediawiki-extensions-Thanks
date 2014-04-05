@@ -9,10 +9,15 @@
     "thanks-thank": "захвали се",
     "thanks-thanked": "{{GENDER:$1|захвалио се|захвалила се}}",
     "thanks-button-thank": "{{GENDER:$1|Захвали се}}",
+    "thanks-button-thanked": "{{GENDER:$1|Захвалили сте се}}",
     "thanks-error-undefined": "Захваљивање није успело. Покушајте поново.",
+    "thanks-error-invalidrevision": "ID измене је погрешан.",
     "thanks-thank-tooltip": "{{GENDER:$1|Пошаљите}} захвалницу {{GENDER:$2|овом кориснику|овој корисници}}",
     "thanks-confirmation": "Да ли желите да се захвалите {{GENDER:$1|кориснику|корисници}} $2 за ову измену?",
+    "thanks-thanked-notice": "$1 {{GENDER:$2|је обавештен да сте му се захвалили|је обавештена да сте јој се захвалили}}.",
     "thanks": "Захвали се",
+    "thanks-form-revid": "ID (број) измене",
+    "thanks-already-thanked": "{{GENDER:$1|Већ}} сте се захвалили за ову измену.",
     "echo-pref-tooltip-edit-thank": "Обавештава вас када вам се неко захвали за измену коју сте начинили.",
     "echo-category-title-edit-thank": "Захвалнице",
     "notification-thanks-diff-link": "вашој измени",
@@ -24,5 +29,7 @@
     "log-name-thanks": "Дневник захваљивања",
     "log-description-thanks": "Испод се налази списак корисника којима су се други корисници захвалили.",
     "logentry-thanks-thank": "$1 се {{GENDER:$2|захвалио|захвалила}} {{GENDER:$4|кориснику|корисници}} {{GENDER:$4|$3}}",
-    "log-show-hide-thanks": "$1 дневник захваљивања"
+    "log-show-hide-thanks": "$1 дневник захваљивања",
+    "notification-link-text-view-post": "Види коментар",
+    "notification-flow-thanks-post-link": "ваш коментар"
 }
