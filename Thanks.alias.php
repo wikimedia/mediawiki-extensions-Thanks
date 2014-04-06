@@ -34,6 +34,11 @@ $specialPageAliases['de'] = array(
 	'Thanks' => array( 'Danke' ),
 );
 
+/** Spanish (español) */
+$specialPageAliases['es'] = array(
+	'Thanks' => array( 'Gracias' ),
+);
+
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
 	'Thanks' => array( 'تشکر' ),
