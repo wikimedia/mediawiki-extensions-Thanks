@@ -109,7 +109,7 @@ class ApiFlowThankTest extends ApiTestCase {
 		$this->setExpectedException( 'UsageException', 'The token parameter must be set' );
 		$this->doApiRequest( array(
 			'action' => 'flowthank',
-			'postid' => UUID::create( '42' ),
+			'postid' => UUID::create( '42' )->getAlphadecimal(),
 		) );
 	}
 
@@ -121,7 +121,7 @@ class ApiFlowThankTest extends ApiTestCase {
 	public function testValidRequest(){
 		list( $result,, ) = $this->doApiRequestWithToken( array(
 			'action' => 'flowthank',
-			'postid' => $this->postByOtherUser->getPostId(),
+			'postid' => $this->postByOtherUser->getPostId()->getAlphadecimal(),
 		) );
 		$this->assertSuccess( $result );
 	}
@@ -130,7 +130,7 @@ class ApiFlowThankTest extends ApiTestCase {
 		$this->setExpectedException( 'UsageException', 'Post ID is invalid' );
 		list( $result,, ) = $this->doApiRequestWithToken( array(
 			'action' => 'flowthank',
-			'postid' => UUID::create( '42' ),
+			'postid' => UUID::create( '42' )->getAlphadecimal(),
 		) );
 	}
 
@@ -138,7 +138,7 @@ class ApiFlowThankTest extends ApiTestCase {
 		$this->setExpectedException( 'UsageException', 'You cannot thank yourself' );
 		list( $result,, ) = $this->doApiRequestWithToken( array(
 			'action' => 'flowthank',
-			'postid' => $this->postByMe->getPostId(),
+			'postid' => $this->postByMe->getPostId()->getAlphadecimal(),
 		) );
 	}
 

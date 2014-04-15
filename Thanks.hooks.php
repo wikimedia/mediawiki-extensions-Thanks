@@ -324,8 +324,10 @@ class ThanksHooks {
 		$cssActiveClass = 'mw-thanks-flow-thank-link mw-ui-button mw-ui-quiet mw-ui-constructive';
 		$cssInactiveClass = 'mw-thanks-flow-thanked mw-ui-button mw-ui-quiet mw-ui-disabled';
 
+		$uuid = $post->getPostId()->getAlphadecimal();
+
 		// User has already thanked for revision
-		if ( $user->getRequest()->getSessionData( "flow-thanked-{$post->getPostId()}" ) ) {
+		if ( $user->getRequest()->getSessionData( "flow-thanked-{$uuid}" ) ) {
 			return Html::rawElement(
 				'span',
 				array( 'class' => $cssInactiveClass ),
@@ -344,7 +346,7 @@ class ThanksHooks {
 				'class' => $cssActiveClass,
 				'href' => '#', // TODO: No-javascript fallback
 				'title' => $tooltip,
-				'data-post-id' => $post->getPostId()
+				'data-post-id' => $uuid
 			),
 			wfMessage( 'thanks-button-thank', $user )->escaped()
 		);
