@@ -32,6 +32,13 @@ abstract class ApiThank extends ApiBase {
 		}
 	}
 
+	protected function markResultSuccess( $recipientName ) {
+		$this->getResult()->addValue( null, 'result', array(
+			'success' => 1,
+			'recipient' => $recipientName,
+		) );
+	}
+
 	protected function logThanks( User $user, User $recipient ) {
 		$logEntry = new ManualLogEntry( 'thanks', 'thank' );
 		$logEntry->setPerformer( $user );

@@ -24,17 +24,22 @@ class ApiFlowThank extends ApiThank {
 		$this->dieOnBadUser( $user );
 
 		$params = $this->extractRequestParams();
-		$postId = UUID::create( $params['postid'] );
 
-		if ( $this->userAlreadySentThanksForId( $user, $postId ) ) {
-			$this->markResultSuccess();
-			return;
+		try {
+			$postId = UUID::create( $params['postid'] );
+		} catch ( FlowException $e ) {
+			$this->dieUsage( 'Post ID is invalid', 'invalidpostid' );
 		}
 
 		$data = $this->getFlowData( $postId );
 
 		$recipient = $this->getRecipientFromPost( $data['post'] );
 		$this->dieOnBadRecipient( $user, $recipient );
+
+		if ( $this->userAlreadySentThanksForId( $user, $postId ) ) {
+			$this->markResultSuccess( $recipient->getName() );
+			return;
+		}
 
 		$rootPost = $data['root'];
 		$workflowId = $rootPost->getPostId();
@@ -87,8 +92,7 @@ class ApiFlowThank extends ApiThank {
 	 * @returns User
 	 */
 	private function getRecipientFromPost( PostRevision $post ) {
-		$uid = $post->getCreatorId();
-		$recipient = User::newFromId( $uid );
+		$recipient = User::newFromId( $post->getCreatorId() );
 		if ( !$recipient->loadFromId() ) {
 			$this->dieUsage( 'Recipient is invalid', 'invalidrecipient' );
 		}
@@ -102,12 +106,6 @@ class ApiFlowThank extends ApiThank {
 	private function getPageTitleFromRootPost( PostRevision $rootPost ) {
 		$workflow = Container::get( 'storage' )->get( 'Workflow', $rootPost->getPostId() );
 		return $workflow->getArticleTitle();
-	}
-
-	private function markResultSuccess() {
-		$this->getResult()->addValue( null, 'result', array(
-			'success' => 1,
-		) );
 	}
 
 	/**
@@ -139,7 +137,7 @@ class ApiFlowThank extends ApiThank {
 		// Mark the thank in session to prevent duplicates (Bug 46690).
 		$user->getRequest()->setSessionData( "flow-thanked-{$postId->getAlphadecimal()}", true );
 		// Set success message.
-		$this->markResultSuccess();
+		$this->markResultSuccess( $recipient->getName() );
 		// Log it if we're supposed to log it.
 		if ( $wgThanksLogging ) {
 			$this->logThanks( $user, $recipient );

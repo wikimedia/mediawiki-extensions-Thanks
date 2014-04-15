@@ -16,7 +16,7 @@ class ApiRevThank extends ApiThank {
 		$revision = $this->getRevisionFromParams( $params );
 
 		if ( $this->userAlreadySentThanksForRevision( $user, $revision ) ) {
-			$this->markResultSuccess( $revision );
+			$this->markResultSuccess( $revision->getUserText() );
 		} else {
 			$recipient = $this->getUserFromRevision( $revision );
 			$this->dieOnBadRecipient( $user, $recipient );
@@ -35,7 +35,9 @@ class ApiRevThank extends ApiThank {
 
 	private function getRevisionFromParams( $params ) {
 		$revision = Revision::newFromId( $params['rev'] );
-		if ( !$revision ) {
+
+		// Revision ID 1 means an invalid argument was passed in.
+		if ( !$revision || $revision->getId() === 1 ) {
 			$this->dieUsage( 'Revision ID is not valid', 'invalidrevision' );
 		} elseif ( $revision->isDeleted( Revision::DELETED_TEXT ) ) {
 			$this->dieUsage( 'Revision has been deleted', 'revdeleted' );
@@ -70,13 +72,6 @@ class ApiRevThank extends ApiThank {
 		return User::newFromId( $recipient );
 	}
 
-	private function markResultSuccess( Revision $revision ) {
-		$this->getResult()->addValue( null, 'result', array(
-			'success' => 1,
-			'recipient' => $revision->getUserText( Revision::FOR_PUBLIC )
-		) );
-	}
-
 	private function sendThanks( User $user, Revision $revision, User $recipient, $source  ) {
 		global $wgThanksLogging;
 		$title = $this->getTitleFromRevision( $revision );
@@ -96,7 +91,7 @@ class ApiRevThank extends ApiThank {
 		// Mark the thank in session to prevent duplicates (Bug 46690)
 		$user->getRequest()->setSessionData( "thanks-thanked-{$revision->getId()}", true );
 		// Set success message
-		$this->markResultSuccess( $revision );
+		$this->markResultSuccess( $recipient->getName() );
 		// Log it if we're supposed to log it
 		if ( $wgThanksLogging ) {
 			$this->logThanks( $user, $recipient );
