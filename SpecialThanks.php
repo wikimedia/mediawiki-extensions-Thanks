@@ -2,11 +2,54 @@
 
 class SpecialThanks extends FormSpecialPage {
 
-	/** @var array $result */
+	 /**
+	  * API result
+	  * @var array $result
+	  */
 	protected $result;
+
+	/**
+	 * 'rev' for revision or 'flow' for Flow comment, null if no ID is specified
+	 * @var string $type
+	 */
+	protected $type;
+
+	/**
+	 * Revision ID ('0' = invalid) or Flow UUID
+	 * @var string $id
+	 */
+	protected $id;
 
 	public function __construct() {
 		parent::__construct( 'Thanks' );
+	}
+
+	/**
+	 * Set the type and ID or UUID of the request.
+	 * @param string $par
+	 */
+	protected function setParameter( $par ) {
+		if ( $par === null || $par === '' ) {
+			$this->type = null;
+			return;
+		}
+
+		$tokens = explode( '/', $par );
+		if ( $tokens[0] === 'Flow' ) {
+			if ( count( $tokens ) === 1 || $tokens[1] === '' ) {
+				$this->type = null;
+			} else {
+				$this->type = 'flow';
+				$this->id = $tokens[1];
+			}
+		} else {
+			$this->type = 'rev';
+			if ( !( ctype_digit( $par ) ) ) { // Revision ID is not an integer.
+				$this->id = '0';
+			} else {
+				$this->id = $par;
+			}
+		}
 	}
 
 	/**
@@ -18,24 +61,47 @@ class SpecialThanks extends FormSpecialPage {
 			'revid' => array(
 				'id' => 'mw-thanks-form-revid',
 				'name' => 'revid',
-				'type' => 'int',
+				'type' => 'hidden',
 				'label-message' => 'thanks-form-revid',
-				'default' => $this->getRequest()->getInt( 'revid', $this->par ) ?: '',
+				'default' => $this->id,
 			)
 		);
 	}
 
 	/**
-	 * Make it look pretty
+	 * Return the confirmation or error message.
+	 * @return string
+	 */
+	protected function preText() {
+		if ( $this->type === null ) {
+			$msgKey = 'thanks-error-no-id-specified';
+		} elseif ( $this->type === 'rev' && $this->id === '0' ) {
+			$msgKey = 'thanks-error-invalidrevision';
+		} elseif ( $this->type === 'flow' ) {
+			$msgKey = 'flow-thanks-confirmation-special';
+		} else {
+			$msgKey = 'thanks-confirmation-special';
+		}
+		return '<p>' . $this->msg( $msgKey )->escaped() . '</p>';
+	}
+
+	/**
+	 * Format the submission form.
 	 * @param HTMLForm $form
 	 */
 	protected function alterForm( HTMLForm $form ) {
 		$form->setDisplayFormat( 'vform' );
 		$form->setWrapperLegend( false );
+
+		if ( $this->type === null || $this->type === 'rev' && $this->id === '0' ) {
+			$form->suppressDefaultSubmit( true );
+		} else {
+			$form->setSubmitText( $this->msg( 'thanks' )->escaped() );
+		}
 	}
 
 	/**
-	 * Calls the API internally
+	 * Call the API internally.
 	 * @param array $data
 	 * @return Status
 	 */
@@ -44,14 +110,24 @@ class SpecialThanks extends FormSpecialPage {
 			return Status::newFatal( 'thanks-error-invalidrevision' );
 		}
 
-		$request = new DerivativeRequest(
-			$this->getRequest(),
-			array(
+		if ( $this->type === 'rev' ) {
+			$requestData = array(
 				'action' => 'thank',
 				'rev' => (int)$data['revid'],
 				'source' => 'specialpage',
 				'token' => $this->getUser()->getEditToken(),
-			),
+			);
+		} else {
+			$requestData = array(
+				'action' => 'flowthank',
+				'postid' => $data['revid'],
+				'token' => $this->getUser()->getEditToken(),
+			);
+		}
+
+		$request = new DerivativeRequest(
+			$this->getRequest(),
+			$requestData,
 			true // posted
 		);
 
@@ -72,7 +148,8 @@ class SpecialThanks extends FormSpecialPage {
 	}
 
 	/**
-	 * Handles error codes returned by the API
+	 * Handle error codes returned by the API.
+	 *
 	 * @param $code
 	 * @return Status
 	 */
@@ -80,8 +157,13 @@ class SpecialThanks extends FormSpecialPage {
 		$status = new Status;
 		switch ( $code ) {
 			case 'invalidrevision':
+			case 'invalidpostid':
 			case 'ratelimited':
-				$status->fatal( "thanks-error-$code" );
+				// Message keys used here:
+				// * thanks-error-invalidrevision
+				// * thanks-error-invalidpostid
+				// * thanks-error-ratelimited
+				$status->fatal( 'thanks-error-' . $code );
 				break;
 			case 'notloggedin':
 			case 'blockedtext':
@@ -94,12 +176,19 @@ class SpecialThanks extends FormSpecialPage {
 	}
 
 	/**
-	 * Display a message to the user
+	 * Display a message to the user.
 	 */
 	public function onSuccess() {
 		$recipient = User::newFromName( $this->result['recipient'] );
 		$link = Linker::userLink( $recipient->getId(), $recipient->getName() );
-		$this->getOutput()->addHTML( $this->msg( 'thanks-thanked-notice' )
+
+		if ( $this->type === 'rev' ) {
+			$msgKey = 'thanks-thanked-notice';
+		} else {
+			$msgKey = 'flow-thanks-thanked-notice';
+		}
+
+		$this->getOutput()->addHTML( $this->msg( $msgKey )
 			->rawParams( $link )
 			->params( $recipient->getName() )->parse()
 		);

@@ -344,7 +344,10 @@ class ThanksHooks {
 			'a',
 			array(
 				'class' => $cssActiveClass,
-				'href' => '#', // TODO: No-javascript fallback
+				'href' => SpecialPage::getTitleFor(
+					'Thanks',
+					'Flow/' . $uuid
+				)->getFullURL(),
 				'title' => $tooltip,
 				'data-post-id' => $uuid
 			),
