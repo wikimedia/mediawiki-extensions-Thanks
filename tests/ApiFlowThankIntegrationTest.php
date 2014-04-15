@@ -188,6 +188,7 @@ class ApiFlowThankTest extends ApiTestCase {
 
 			// flow_tree_revision
 			'tree_rev_descendant_id' => $uuidPost->getBinary(),
+			'rev_type_id' => $uuidPost->getBinary(),
 			'tree_rev_id' => $uuidRevision->getBinary(),
 			'tree_orig_create_time' => wfTimestampNow(),
 			'tree_orig_user_id' => $userId,
