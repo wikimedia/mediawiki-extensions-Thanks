@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Bishnu Saikia"
-        ]
-    },
-    "notification-link-text-view-post": "মন্তব্য দেখুৱাওক",
-    "notification-flow-thanks-post-link": "আপোনাৰ মন্তব্য"
+	"@metadata": {
+		"authors": [
+			"Bishnu Saikia"
+		]
+	},
+	"notification-link-text-view-post": "মন্তব্য দেখুৱাওক",
+	"notification-flow-thanks-post-link": "আপোনাৰ মন্তব্য"
 }

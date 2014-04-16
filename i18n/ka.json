@@ -1,28 +1,28 @@
 {
-    "@metadata": {
-        "authors": [
-            "BRUTE",
-            "David1010",
-            "Tokoko"
-        ]
-    },
-    "thanks-thank": "მადლობა",
-    "thanks-button-thank": "{{GENDER:$1|მადლობა}}",
-    "thanks-button-thanked": "{{GENDER:$1|მადლობა გადახდილია}}",
-    "thanks-error-undefined": "მადლობის გადახდა ვერ მოხერხდა. გთხოვ სცადეთ კიდევ.",
-    "thanks-confirmation": "გსურთ მომხმარებელს $2 {{GENDER:$1|მადლობა გადაუხადოთ}} ამ რედაქტირებისათვის?",
-    "thanks-thanked-notice": "მომხმარებელს/მომხმარებლებს $1 გაეგზავნა(თ) შეტყობინება, რომ თქვენ მოიწონეთ {{GENDER:$2|მისი|მისი|მათი}} რედაქტირება.",
-    "thanks": "გადაუხადე მადლობა",
-    "echo-pref-subscription-edit-thank": "მადლობა ჩემი რედაქტირებისათვის",
-    "echo-pref-tooltip-edit-thank": "შემატყობინე, როდესაც ვინმე მადლობას გადამიხდის ჩემი რედაქტირებისათვის",
-    "echo-category-title-edit-thank": "გმადლობ",
-    "notification-thanks-diff-link": "რედაქტირებისათვის",
-    "notification-thanks": "მომხმარებელმა [[User:$1|$1]] {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი $2 გვერდზე [[:$3]].",
-    "notification-thanks-flyout2": "მომხმარებელმა [[User:$1|$1]] {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი რედაქტირებისათვის გვერდზე $2.",
-    "notification-thanks-email-subject": "მომხმარებელმა $1 {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი რედაქტირებისათვის საიტზე {{SITENAME}}",
-    "notification-thanks-email-batch-body": "მომხმარებელმა $1 {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი რედაქტირებისათვის $2.",
-    "notification-link-text-respond-to-user": "უპასუხე მომხმარებელს",
-    "log-name-thanks": "„მადლობის“ ჟურნალი",
-    "log-description-thanks": "ქვემოთ მოცემულია მომხმარებელთა სია, რომელთაც სხვა მომხმარებლებმა გადაუხადეს მადლობა",
-    "log-show-hide-thanks": "$1 „მადლობის“ ჟურნალი"
+	"@metadata": {
+		"authors": [
+			"BRUTE",
+			"David1010",
+			"Tokoko"
+		]
+	},
+	"thanks-thank": "მადლობა",
+	"thanks-button-thank": "{{GENDER:$1|მადლობა}}",
+	"thanks-button-thanked": "{{GENDER:$1|მადლობა გადახდილია}}",
+	"thanks-error-undefined": "მადლობის გადახდა ვერ მოხერხდა. გთხოვ სცადეთ კიდევ.",
+	"thanks-confirmation": "გსურთ მომხმარებელს $2 {{GENDER:$1|მადლობა გადაუხადოთ}} ამ რედაქტირებისათვის?",
+	"thanks-thanked-notice": "მომხმარებელს/მომხმარებლებს $1 გაეგზავნა(თ) შეტყობინება, რომ თქვენ მოიწონეთ {{GENDER:$2|მისი|მისი|მათი}} რედაქტირება.",
+	"thanks": "გადაუხადე მადლობა",
+	"echo-pref-subscription-edit-thank": "მადლობა ჩემი რედაქტირებისათვის",
+	"echo-pref-tooltip-edit-thank": "შემატყობინე, როდესაც ვინმე მადლობას გადამიხდის ჩემი რედაქტირებისათვის",
+	"echo-category-title-edit-thank": "გმადლობ",
+	"notification-thanks-diff-link": "რედაქტირებისათვის",
+	"notification-thanks": "მომხმარებელმა [[User:$1|$1]] {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი $2 გვერდზე [[:$3]].",
+	"notification-thanks-flyout2": "მომხმარებელმა [[User:$1|$1]] {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი რედაქტირებისათვის გვერდზე $2.",
+	"notification-thanks-email-subject": "მომხმარებელმა $1 {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი რედაქტირებისათვის საიტზე {{SITENAME}}",
+	"notification-thanks-email-batch-body": "მომხმარებელმა $1 {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი რედაქტირებისათვის $2.",
+	"notification-link-text-respond-to-user": "უპასუხე მომხმარებელს",
+	"log-name-thanks": "„მადლობის“ ჟურნალი",
+	"log-description-thanks": "ქვემოთ მოცემულია მომხმარებელთა სია, რომელთაც სხვა მომხმარებლებმა გადაუხადეს მადლობა",
+	"log-show-hide-thanks": "$1 „მადლობის“ ჟურნალი"
 }

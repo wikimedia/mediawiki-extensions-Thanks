@@ -1,33 +1,33 @@
 {
-    "@metadata": {
-        "authors": [
-            "Ahmed-Najib-Biabani-Ibrahimkhel"
-        ]
-    },
-    "thanks-desc": "د پېښليک او توپيرونو کتنو کې د مننې تړنې ورگډوي",
-    "thanks-thank": "مننه",
-    "thanks-thanked": "{{GENDER:$1|منندوی شو}}",
-    "thanks-button-thank": "{{GENDER:$1|مننه}}",
-    "thanks-button-thanked": "{{GENDER:$1|منندوی شو}}",
-    "thanks-error-undefined": "د مننې چاره پاتې راغله. بيا مو هڅه وکړۍ.",
-    "thanks-error-invalidrevision": "د کره کتنې پېژند سم نه دی.",
-    "thanks-error-ratelimited": "{{GENDER:$1|تاسې}} د خپل ټاکلي بريد نه واوښتلئ. مهرباني وکړۍ لږ څه تم شۍ او بيا يې وآزمويۍ.",
-    "thanks-thank-tooltip": "دې {{GENDER:$2|کارن}} ته د مننې يو پيغام {{GENDER:$1|ورلېږل}}",
-    "thanks-confirmation": "آيا په رښتيا له $2 څخه د دې سمون په خاطر {{GENDER:$1|مننه کول غواړې}}؟",
-    "thanks-thanked-notice": "$1 ته ووييل شول چې تاسې د {{GENDER:$2|هغه|هغې|هغوی}} سمونونه خوښ کړل.",
-    "echo-pref-subscription-edit-thank": "زه د سمون پخاطر زما منندوی شه",
-    "echo-pref-tooltip-edit-thank": "خبر مې کړه کله چې يو څوک زما د يو سمون په خاطر له ما څخه مننه کوي.",
-    "echo-category-title-edit-thank": "مننه",
-    "notification-thanks-diff-link": "ستاسې سمون",
-    "notification-thanks": "[[User:$1|$1]] له تاسې څخه په [[:$3]] باندې د $2 پخاطر {{GENDER:$1|مننه وکړه}}.",
-    "notification-thanks-flyout2": "[[User:$1|$1]] له تاسې څخه په $2 باندې ستاسې د سمون پخاطر {{GENDER:$1|مننه وکړه}}.",
-    "notification-thanks-email-subject": "$1 په {{SITENAME}} باندې ستاسې د سمون په خاطر {{GENDER:$1|مننه وکړه}}",
-    "notification-thanks-email-batch-body": "$1 په $2 باندې ستاسې د سمون په خاطر {{GENDER:$1|مننه وکړه}}.",
-    "notification-link-text-respond-to-user": "کارن ته ځواب",
-    "log-name-thanks": "د مننې يادښت",
-    "log-description-thanks": "دا لاندې د هغو کارنانو يو لړليک دی چې نور کارنان ترې منندوی دي.",
-    "logentry-thanks-thank": "$1 {{GENDER:$2|منندوی شو}} له {{GENDER:$4|$3}}",
-    "log-show-hide-thanks": "د مننې يادښت $1",
-    "notification-link-text-view-post": "تبصره کتل",
-    "notification-flow-thanks-post-link": "ستاسې تبصره"
+	"@metadata": {
+		"authors": [
+			"Ahmed-Najib-Biabani-Ibrahimkhel"
+		]
+	},
+	"thanks-desc": "د پېښليک او توپيرونو کتنو کې د مننې تړنې ورگډوي",
+	"thanks-thank": "مننه",
+	"thanks-thanked": "{{GENDER:$1|منندوی شو}}",
+	"thanks-button-thank": "{{GENDER:$1|مننه}}",
+	"thanks-button-thanked": "{{GENDER:$1|منندوی شو}}",
+	"thanks-error-undefined": "د مننې چاره پاتې راغله. بيا مو هڅه وکړۍ.",
+	"thanks-error-invalidrevision": "د کره کتنې پېژند سم نه دی.",
+	"thanks-error-ratelimited": "{{GENDER:$1|تاسې}} د خپل ټاکلي بريد نه واوښتلئ. مهرباني وکړۍ لږ څه تم شۍ او بيا يې وآزمويۍ.",
+	"thanks-thank-tooltip": "دې {{GENDER:$2|کارن}} ته د مننې يو پيغام {{GENDER:$1|ورلېږل}}",
+	"thanks-confirmation": "آيا په رښتيا له $2 څخه د دې سمون په خاطر {{GENDER:$1|مننه کول غواړې}}؟",
+	"thanks-thanked-notice": "$1 ته ووييل شول چې تاسې د {{GENDER:$2|هغه|هغې|هغوی}} سمونونه خوښ کړل.",
+	"echo-pref-subscription-edit-thank": "زه د سمون پخاطر زما منندوی شه",
+	"echo-pref-tooltip-edit-thank": "خبر مې کړه کله چې يو څوک زما د يو سمون په خاطر له ما څخه مننه کوي.",
+	"echo-category-title-edit-thank": "مننه",
+	"notification-thanks-diff-link": "ستاسې سمون",
+	"notification-thanks": "[[User:$1|$1]] له تاسې څخه په [[:$3]] باندې د $2 پخاطر {{GENDER:$1|مننه وکړه}}.",
+	"notification-thanks-flyout2": "[[User:$1|$1]] له تاسې څخه په $2 باندې ستاسې د سمون پخاطر {{GENDER:$1|مننه وکړه}}.",
+	"notification-thanks-email-subject": "$1 په {{SITENAME}} باندې ستاسې د سمون په خاطر {{GENDER:$1|مننه وکړه}}",
+	"notification-thanks-email-batch-body": "$1 په $2 باندې ستاسې د سمون په خاطر {{GENDER:$1|مننه وکړه}}.",
+	"notification-link-text-respond-to-user": "کارن ته ځواب",
+	"log-name-thanks": "د مننې يادښت",
+	"log-description-thanks": "دا لاندې د هغو کارنانو يو لړليک دی چې نور کارنان ترې منندوی دي.",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|منندوی شو}} له {{GENDER:$4|$3}}",
+	"log-show-hide-thanks": "د مننې يادښت $1",
+	"notification-link-text-view-post": "تبصره کتل",
+	"notification-flow-thanks-post-link": "ستاسې تبصره"
 }

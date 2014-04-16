@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Interfase",
-            "Khan27"
-        ]
-    },
-    "thanks-desc": "Tarixə minətdarlıq keçidləri əlavə edir və versiyaların müqayisəsi",
-    "thanks-thank": "təşəkkür",
-    "thanks-button-thank": "{{GENDER:$1|Təşəkkür}}"
+	"@metadata": {
+		"authors": [
+			"Interfase",
+			"Khan27"
+		]
+	},
+	"thanks-desc": "Tarixə minətdarlıq keçidləri əlavə edir və versiyaların müqayisəsi",
+	"thanks-thank": "təşəkkür",
+	"thanks-button-thank": "{{GENDER:$1|Təşəkkür}}"
 }

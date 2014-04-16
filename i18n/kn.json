@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Pavanaja"
-        ]
-    },
-    "thanks-thank": "ಧನ್ಯವಾದ ಹೇಳಿ",
-    "thanks-error-undefined": "ಧನ್ಯವಾದ ಪ್ರಕ್ರಿಯ ನಡೆಯಲಿಲ್ಲ. ಪುನಃ ಪ್ರಯತ್ನಿಸಿ",
-    "echo-category-title-edit-thank": "ಧನ್ಯವಾದಗಳು",
-    "notification-thanks-diff-link": "ನಿಮ್ಮ ಸಂಪಾದನೆ"
+	"@metadata": {
+		"authors": [
+			"Pavanaja"
+		]
+	},
+	"thanks-thank": "ಧನ್ಯವಾದ ಹೇಳಿ",
+	"thanks-error-undefined": "ಧನ್ಯವಾದ ಪ್ರಕ್ರಿಯ ನಡೆಯಲಿಲ್ಲ. ಪುನಃ ಪ್ರಯತ್ನಿಸಿ",
+	"echo-category-title-edit-thank": "ಧನ್ಯವಾದಗಳು",
+	"notification-thanks-diff-link": "ನಿಮ್ಮ ಸಂಪಾದನೆ"
 }

@@ -1,29 +1,29 @@
 {
-    "@metadata": {
-        "authors": [
-            "Умар"
-        ]
-    },
-    "thanks-desc": "Истори чу а версин башхала хьожечухь а баркалла олу хьажорагаш тӀетуху",
-    "thanks-thank": "баркалла",
-    "thanks-thanked": "{{GENDER:$1|Баркалла аьлла}}",
-    "thanks-thank-tooltip": "{{GENDER:$1|Бахьийта}} {{GENDER:$2|хӀокху декъашхочунга}} баркаллин хаам",
-    "thanks-confirmation": "Лаьий хьуна {{GENDER:$1|баркалла ала}} хӀара нисдарна?",
-    "echo-pref-tooltip-edit-thank": "Хаийта соьга, цхьам баркалла аьлча.",
-    "echo-category-title-edit-thank": "Баркалла",
-    "notification-thanks-diff-link": "нисдар",
-    "notification-thanks": "Ахьа «[[:$3]]» агӀонехь $2 дарна [[User:$1|$1]] {{GENDER:$1|баркалла аьла}}.",
-    "notification-thanks-flyout2": "Ахьа хӀара «$2» агӀо таярна [[User:$1|$1]] хьуна {{GENDER:$1|баркалла аьла}}.",
-    "notification-thanks-email-subject": "$1 {{GENDER:$1|баркалла аьла}} «{{SITENAME}}» сайтехь тадар дарна.",
-    "notification-thanks-email-batch-body": "$1 {{GENDER:$1|баркалла аьла}} ахьа хӀара «$2» агӀо таярна.",
-    "log-name-thanks": "Баркаллин тептар",
-    "log-description-thanks": "Кхечу декъашхоша баркалла аьлла болу декъашхой чохь болу тептар.",
-    "logentry-thanks-thank": "{{GENDER:$4|декъашхочуна}} $3 $1 {{GENDER:$2|баркалла аьла}}",
-    "log-show-hide-thanks": "$1 баркаллин тептар",
-    "notification-link-text-view-post": "Хьажа къамеле",
-    "notification-flow-thanks": "Ахьа «[[:$3]]» агӀонехь [[:$4]] дарна [[User:$1|$1]] {{GENDER:$1|баркалла аьла}}.",
-    "notification-flow-thanks-post-link": "хьан къамел",
-    "notification-flow-thanks-flyout": "$1 {{GENDER:$1|баркалла аьла}} «$2» $3 агӀонгахь къамел дитарна.",
-    "notification-flow-thanks-email-subject": "$1 {{GENDER:$1|баркалла аьла}} «{{SITENAME}}» агӀонгахь къамел дитарна.",
-    "notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|баркалла аьла}} «$2» $3 агӀонгахь къамел дитарна."
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"thanks-desc": "Истори чу а версин башхала хьожечухь а баркалла олу хьажорагаш тӀетуху",
+	"thanks-thank": "баркалла",
+	"thanks-thanked": "{{GENDER:$1|Баркалла аьлла}}",
+	"thanks-thank-tooltip": "{{GENDER:$1|Бахьийта}} {{GENDER:$2|хӀокху декъашхочунга}} баркаллин хаам",
+	"thanks-confirmation": "Лаьий хьуна {{GENDER:$1|баркалла ала}} хӀара нисдарна?",
+	"echo-pref-tooltip-edit-thank": "Хаийта соьга, цхьам баркалла аьлча.",
+	"echo-category-title-edit-thank": "Баркалла",
+	"notification-thanks-diff-link": "нисдар",
+	"notification-thanks": "Ахьа «[[:$3]]» агӀонехь $2 дарна [[User:$1|$1]] {{GENDER:$1|баркалла аьла}}.",
+	"notification-thanks-flyout2": "Ахьа хӀара «$2» агӀо таярна [[User:$1|$1]] хьуна {{GENDER:$1|баркалла аьла}}.",
+	"notification-thanks-email-subject": "$1 {{GENDER:$1|баркалла аьла}} «{{SITENAME}}» сайтехь тадар дарна.",
+	"notification-thanks-email-batch-body": "$1 {{GENDER:$1|баркалла аьла}} ахьа хӀара «$2» агӀо таярна.",
+	"log-name-thanks": "Баркаллин тептар",
+	"log-description-thanks": "Кхечу декъашхоша баркалла аьлла болу декъашхой чохь болу тептар.",
+	"logentry-thanks-thank": "{{GENDER:$4|декъашхочуна}} $3 $1 {{GENDER:$2|баркалла аьла}}",
+	"log-show-hide-thanks": "$1 баркаллин тептар",
+	"notification-link-text-view-post": "Хьажа къамеле",
+	"notification-flow-thanks": "Ахьа «[[:$3]]» агӀонехь [[:$4]] дарна [[User:$1|$1]] {{GENDER:$1|баркалла аьла}}.",
+	"notification-flow-thanks-post-link": "хьан къамел",
+	"notification-flow-thanks-flyout": "$1 {{GENDER:$1|баркалла аьла}} «$2» $3 агӀонгахь къамел дитарна.",
+	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|баркалла аьла}} «{{SITENAME}}» агӀонгахь къамел дитарна.",
+	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|баркалла аьла}} «$2» $3 агӀонгахь къамел дитарна."
 }

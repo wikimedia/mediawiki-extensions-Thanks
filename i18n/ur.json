@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Noor2020"
-        ]
-    },
-    "thanks-thanked": "{{GENDER:$1|کا شکریہ ادا کیا}}"
+	"@metadata": {
+		"authors": [
+			"Noor2020"
+		]
+	},
+	"thanks-thanked": "{{GENDER:$1|کا شکریہ ادا کیا}}"
 }

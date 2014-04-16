@@ -1,21 +1,21 @@
 {
-    "@metadata": {
-        "authors": [
-            "פוילישער"
-        ]
-    },
-    "thanks-thank": "דאַנק",
-    "thanks-thanked": "{{GENDER:$1|געדאַנקט}}",
-    "thanks-button-thank": "{{GENDER:$1|דאַנקען}}",
-    "thanks-button-thanked": "{{GENDER:$1|געדאַנקט}}",
-    "thanks-error-undefined": "דאנק אקציע אדורכגעפאלן. זייט אזוי גוט פרובירט נאכאמאל.",
-    "thanks-error-invalidrevision": "רעוויסיע אידענטיפיצורונג נישט גילטיק.",
-    "thanks-confirmation": "צי ווילט איר {{GENDER:$1|דאַנקען}} $2 פאר דער רעדאקטירונג?",
-    "echo-pref-subscription-edit-thank": "דאנקט מיך פאר מיין רעדאקטירונג",
-    "echo-pref-tooltip-edit-thank": "זיי מיך מודיע ווען איינער דאנקט מיך פאר א רעדאקטירונג מיינע.",
-    "echo-category-title-edit-thank": "אַ דאַנק",
-    "notification-thanks-diff-link": "אײַער רעדאקטירונג",
-    "notification-thanks": "[[User:$1|$1]] {{GENDER:$1|האט געדאנקט}} דיך פֿאר $2 אויף [[:$3]].",
-    "notification-link-text-respond-to-user": "ענטפערן באניצער",
-    "logentry-thanks-thank": "$1 {{GENDER:$2|האט געדאנקט}} {{GENDER:$4|$3}}"
+	"@metadata": {
+		"authors": [
+			"פוילישער"
+		]
+	},
+	"thanks-thank": "דאַנק",
+	"thanks-thanked": "{{GENDER:$1|געדאַנקט}}",
+	"thanks-button-thank": "{{GENDER:$1|דאַנקען}}",
+	"thanks-button-thanked": "{{GENDER:$1|געדאַנקט}}",
+	"thanks-error-undefined": "דאנק אקציע אדורכגעפאלן. זייט אזוי גוט פרובירט נאכאמאל.",
+	"thanks-error-invalidrevision": "רעוויסיע אידענטיפיצורונג נישט גילטיק.",
+	"thanks-confirmation": "צי ווילט איר {{GENDER:$1|דאַנקען}} $2 פאר דער רעדאקטירונג?",
+	"echo-pref-subscription-edit-thank": "דאנקט מיך פאר מיין רעדאקטירונג",
+	"echo-pref-tooltip-edit-thank": "זיי מיך מודיע ווען איינער דאנקט מיך פאר א רעדאקטירונג מיינע.",
+	"echo-category-title-edit-thank": "אַ דאַנק",
+	"notification-thanks-diff-link": "אײַער רעדאקטירונג",
+	"notification-thanks": "[[User:$1|$1]] {{GENDER:$1|האט געדאנקט}} דיך פֿאר $2 אויף [[:$3]].",
+	"notification-link-text-respond-to-user": "ענטפערן באניצער",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|האט געדאנקט}} {{GENDER:$4|$3}}"
 }

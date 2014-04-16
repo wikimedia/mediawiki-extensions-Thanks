@@ -1,31 +1,31 @@
 {
-    "@metadata": {
-        "authors": [
-            "Autokrator",
-            "UV"
-        ]
-    },
-    "thanks-thank": "gratias agere",
-    "thanks-thanked": "{{GENDER:$1|gratiae actae sunt}}",
-    "thanks-button-thank": "{{GENDER:$1|Gratias agere}}",
-    "thanks-button-thanked": "{{GENDER:$1|Gratiae actae sunt}}",
-    "thanks-error-undefined": "Gratias agere non contigit.",
-    "thanks-error-invalidrevision": "ID emendationis falsa est.",
-    "thanks-error-ratelimited": "Excessisti concessum numerum aestimationum.",
-    "thanks-thank-tooltip": "{{GENDER:$1|Mitte}} nuntium gratiarum habendarum ad istum {{GENDER:$2|usorem}}",
-    "thanks-confirmation": "Visne gratiam agere {{GENDER:$1|usori}} $2 huius recensionis?",
-    "thanks-thanked-notice": "$1 nuntiatum est recensionem {{GENDER:$2|eius}} tibi placuisse.",
-    "echo-pref-subscription-edit-thank": "Gratias egit recensionis meae causa",
-    "echo-pref-tooltip-edit-thank": "Me certiorem facere si quis mihi gratias egerit",
-    "echo-category-title-edit-thank": "Gratias agere",
-    "notification-thanks-diff-link": "recensione tua",
-    "notification-thanks": "[[User:$1|$1]] {{GENDER:$1|gratias egit}} tibi pro $2 in pagina [[:$3]].",
-    "notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1|gratias egit}} tibi recensionis in pagina $2 factae causa.",
-    "notification-thanks-email-subject": "$1 {{GENDER:$1|gratias egit}} recensionis apud {{grammar:accusative|{{SITENAME}}}} factae causa",
-    "notification-thanks-email-batch-body": "$1 {{GENDER:$1|gratias egit}} recensionis tuae in $2 factae causa.",
-    "notification-link-text-respond-to-user": "Usori respondere",
-    "log-name-thanks": "Index gratiarum",
-    "log-description-thanks": "Infra est index usorum quibus gratiae ab aliis usoribus actae sunt.",
-    "logentry-thanks-thank": "$1 {{GENDER:$2|gratias egit}} {{GENDER:$4|$3}}",
-    "log-show-hide-thanks": "$1 indicem gratiarum"
+	"@metadata": {
+		"authors": [
+			"Autokrator",
+			"UV"
+		]
+	},
+	"thanks-thank": "gratias agere",
+	"thanks-thanked": "{{GENDER:$1|gratiae actae sunt}}",
+	"thanks-button-thank": "{{GENDER:$1|Gratias agere}}",
+	"thanks-button-thanked": "{{GENDER:$1|Gratiae actae sunt}}",
+	"thanks-error-undefined": "Gratias agere non contigit.",
+	"thanks-error-invalidrevision": "ID emendationis falsa est.",
+	"thanks-error-ratelimited": "Excessisti concessum numerum aestimationum.",
+	"thanks-thank-tooltip": "{{GENDER:$1|Mitte}} nuntium gratiarum habendarum ad istum {{GENDER:$2|usorem}}",
+	"thanks-confirmation": "Visne gratiam agere {{GENDER:$1|usori}} $2 huius recensionis?",
+	"thanks-thanked-notice": "$1 nuntiatum est recensionem {{GENDER:$2|eius}} tibi placuisse.",
+	"echo-pref-subscription-edit-thank": "Gratias egit recensionis meae causa",
+	"echo-pref-tooltip-edit-thank": "Me certiorem facere si quis mihi gratias egerit",
+	"echo-category-title-edit-thank": "Gratias agere",
+	"notification-thanks-diff-link": "recensione tua",
+	"notification-thanks": "[[User:$1|$1]] {{GENDER:$1|gratias egit}} tibi pro $2 in pagina [[:$3]].",
+	"notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1|gratias egit}} tibi recensionis in pagina $2 factae causa.",
+	"notification-thanks-email-subject": "$1 {{GENDER:$1|gratias egit}} recensionis apud {{grammar:accusative|{{SITENAME}}}} factae causa",
+	"notification-thanks-email-batch-body": "$1 {{GENDER:$1|gratias egit}} recensionis tuae in $2 factae causa.",
+	"notification-link-text-respond-to-user": "Usori respondere",
+	"log-name-thanks": "Index gratiarum",
+	"log-description-thanks": "Infra est index usorum quibus gratiae ab aliis usoribus actae sunt.",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|gratias egit}} {{GENDER:$4|$3}}",
+	"log-show-hide-thanks": "$1 indicem gratiarum"
 }

@@ -1,15 +1,15 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kolega2357"
-        ]
-    },
-    "thanks-desc": "Dodaje mogućnost zahvaljivanja u pregledu historije i pregledu razlika između izmena",
-    "thanks-thank": "zahvali se",
-    "thanks-thanked": "{{GENDER:$1|zahvalio se|zahvalila se}}",
-    "notification-link-text-respond-to-user": "Odgovori korisniku",
-    "log-name-thanks": "Evidencija zahvaljivanja",
-    "log-description-thanks": "Ispod se nalazi spisak korisnika kojima su se drugi korisnici zahvalili.",
-    "logentry-thanks-thank": "$1 se {{GENDER:$2|zahvalio|zahvalila}} {{GENDER:$4|korisniku|korisnici}} {{GENDER:$4|$3}}",
-    "log-show-hide-thanks": "$1 evidencija zahvaljivanja"
+	"@metadata": {
+		"authors": [
+			"Kolega2357"
+		]
+	},
+	"thanks-desc": "Dodaje mogućnost zahvaljivanja u pregledu historije i pregledu razlika između izmena",
+	"thanks-thank": "zahvali se",
+	"thanks-thanked": "{{GENDER:$1|zahvalio se|zahvalila se}}",
+	"notification-link-text-respond-to-user": "Odgovori korisniku",
+	"log-name-thanks": "Evidencija zahvaljivanja",
+	"log-description-thanks": "Ispod se nalazi spisak korisnika kojima su se drugi korisnici zahvalili.",
+	"logentry-thanks-thank": "$1 se {{GENDER:$2|zahvalio|zahvalila}} {{GENDER:$4|korisniku|korisnici}} {{GENDER:$4|$3}}",
+	"log-show-hide-thanks": "$1 evidencija zahvaljivanja"
 }

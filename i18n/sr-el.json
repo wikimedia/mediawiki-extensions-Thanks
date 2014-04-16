@@ -1,27 +1,27 @@
 {
-    "@metadata": {
-        "authors": [
-            "Milicevic01"
-        ]
-    },
-    "thanks-desc": "Dodaje mogućnost zahvaljivanja u pregledu istorije i pregledu razlika između izmena",
-    "thanks-thank": "zahvali se",
-    "thanks-thanked": "{{GENDER:$1|zahvalio se|zahvalila se}}",
-    "thanks-button-thank": "{{GENDER:$1|Zahvali se}}",
-    "thanks-error-undefined": "Zahvaljivanje nije uspelo. Pokušajte ponovo.",
-    "thanks-thank-tooltip": "{{GENDER:$1|Pošaljite}} zahvalnicu {{GENDER:$2|ovom korisniku|ovoj korisnici}}",
-    "thanks-confirmation": "Da li želite da se zahvalite {{GENDER:$1|korisniku|korisnici}} $2 za ovu izmenu?",
-    "thanks": "Zahvali se",
-    "echo-pref-tooltip-edit-thank": "Obaveštava vas kada vam se neko zahvali za izmenu koju ste načinili.",
-    "echo-category-title-edit-thank": "Zahvalnice",
-    "notification-thanks-diff-link": "vašoj izmeni",
-    "notification-thanks": "[[User:$1|$1]] vam se {{GENDER:$1|zahvaljuje}} na $2 stranice [[:$3]].",
-    "notification-thanks-flyout2": "[[User:$1|$1]] vam se {{GENDER:$1|zahvaljuje}} za vašu izmenu na stranici $2.",
-    "notification-thanks-email-subject": "$1 vam se {{GENDER:$1|zahvaljuje}} za vašu izmenu na {{SITENAME}}",
-    "notification-thanks-email-batch-body": "$1 vam se {{GENDER:$1|zahvaljuje}} za vašu izmenu na stranici $2.",
-    "notification-link-text-respond-to-user": "Odgovori korisniku",
-    "log-name-thanks": "Dnevnik zahvaljivanja",
-    "log-description-thanks": "Ispod se nalazi spisak korisnika kojima su se drugi korisnici zahvalili.",
-    "logentry-thanks-thank": "$1 se {{GENDER:$2|zahvalio|zahvalila}} {{GENDER:$4|korisniku|korisnici}} {{GENDER:$4|$3}}",
-    "log-show-hide-thanks": "$1 dnevnik zahvaljivanja"
+	"@metadata": {
+		"authors": [
+			"Milicevic01"
+		]
+	},
+	"thanks-desc": "Dodaje mogućnost zahvaljivanja u pregledu istorije i pregledu razlika između izmena",
+	"thanks-thank": "zahvali se",
+	"thanks-thanked": "{{GENDER:$1|zahvalio se|zahvalila se}}",
+	"thanks-button-thank": "{{GENDER:$1|Zahvali se}}",
+	"thanks-error-undefined": "Zahvaljivanje nije uspelo. Pokušajte ponovo.",
+	"thanks-thank-tooltip": "{{GENDER:$1|Pošaljite}} zahvalnicu {{GENDER:$2|ovom korisniku|ovoj korisnici}}",
+	"thanks-confirmation": "Da li želite da se zahvalite {{GENDER:$1|korisniku|korisnici}} $2 za ovu izmenu?",
+	"thanks": "Zahvali se",
+	"echo-pref-tooltip-edit-thank": "Obaveštava vas kada vam se neko zahvali za izmenu koju ste načinili.",
+	"echo-category-title-edit-thank": "Zahvalnice",
+	"notification-thanks-diff-link": "vašoj izmeni",
+	"notification-thanks": "[[User:$1|$1]] vam se {{GENDER:$1|zahvaljuje}} na $2 stranice [[:$3]].",
+	"notification-thanks-flyout2": "[[User:$1|$1]] vam se {{GENDER:$1|zahvaljuje}} za vašu izmenu na stranici $2.",
+	"notification-thanks-email-subject": "$1 vam se {{GENDER:$1|zahvaljuje}} za vašu izmenu na {{SITENAME}}",
+	"notification-thanks-email-batch-body": "$1 vam se {{GENDER:$1|zahvaljuje}} za vašu izmenu na stranici $2.",
+	"notification-link-text-respond-to-user": "Odgovori korisniku",
+	"log-name-thanks": "Dnevnik zahvaljivanja",
+	"log-description-thanks": "Ispod se nalazi spisak korisnika kojima su se drugi korisnici zahvalili.",
+	"logentry-thanks-thank": "$1 se {{GENDER:$2|zahvalio|zahvalila}} {{GENDER:$4|korisniku|korisnici}} {{GENDER:$4|$3}}",
+	"log-show-hide-thanks": "$1 dnevnik zahvaljivanja"
 }

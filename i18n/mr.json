@@ -1,31 +1,31 @@
 {
-    "@metadata": {
-        "authors": [
-            "V.narsikar"
-        ]
-    },
-    "thanks-desc": "इतिहास व आवृत्त्यामधील फरकाच्या दृष्यास धन्यवादाचा दुवा जोडते",
-    "thanks-thank": "धन्यवाद",
-    "thanks-thanked": "{{GENDER:$1|नी धन्यवाद दिले}}",
-    "thanks-button-thank": "{{GENDER:$1|चे धन्यवाद}}",
-    "thanks-button-thanked": "{{GENDER:$1|नी धन्यवाद दिलेत}}",
-    "thanks-error-undefined": "धन्यवाद देण्याची क्रिया अयशस्वी झाली.कृपया पुन्हा प्रयत्न करा.",
-    "thanks-error-invalidrevision": "आवृत्तीचा आयडी वैध नाही.",
-    "thanks-error-ratelimited": "{{GENDER:$1|आपण}} दर मर्यादा पार केली आहे.कृपया थोडा वेळ थांबून पुन्हा प्रयत्न करा.",
-    "thanks-thank-tooltip": "{{GENDER:$2|या सदस्याला}} एक धन्यवादाची अधिसूचना {{GENDER:$1|पाठवा}}",
-    "thanks-confirmation": "या संपादनासाठी  $2 ला {{GENDER:$1|धन्यवाद}} द्यायचे आहेत काय?",
-    "thanks-thanked-notice": "$1 ने नोंदविले आहे कि आपणास {{GENDER:$2|त्याचे|तिचे|त्यांचे}} संपादन आवडले आहे.",
-    "echo-pref-subscription-edit-thank": "माझ्या संपादनाबद्दल मलाच धन्यवाद द्या",
-    "echo-pref-tooltip-edit-thank": "मी केलेल्या संपादनाबद्दल जर कोणी मला धन्यवाद देत असेल तर मला सूचना द्या.",
-    "echo-category-title-edit-thank": "धन्यवाद",
-    "notification-thanks-diff-link": "आपले संपादन",
-    "notification-thanks": "[[User:$1|$1]] ने  $2 करीता [[:$3]]वर {{GENDER:$1|धन्यवाद दिलेत.}}",
-    "notification-thanks-flyout2": "[[User:$1|$1]] ने आपणास {{GENDER:$1|धन्यवाद दिलेत}}$2 वर केलेल्या संपादनाबद्दल.",
-    "notification-thanks-email-subject": "$1 ने {{SITENAME}}वर  {{GENDER:$1|धन्यवाद दिलेत}}आपण केलेल्या संपादनाबाबत",
-    "notification-thanks-email-batch-body": "$1 ने आपण $2वर केलेल्या संपादनाबाबत आपणास {{GENDER:$1|धन्यवाद दिलेत.}}",
-    "notification-link-text-respond-to-user": "सदस्यास उत्तर द्या",
-    "log-name-thanks": "धन्यवादाच्या नोंदी",
-    "log-description-thanks": "खाली त्या सदस्यांची यादी आहे ज्यांना इतर सदस्यांनी धन्यवाद दिलेत.",
-    "logentry-thanks-thank": "$1 ने {{GENDER:$4|$3}} ला {{GENDER:$2|धन्यवाद दिलेत}}",
-    "log-show-hide-thanks": "$1 धन्यवादाच्या नोंदी"
+	"@metadata": {
+		"authors": [
+			"V.narsikar"
+		]
+	},
+	"thanks-desc": "इतिहास व आवृत्त्यामधील फरकाच्या दृष्यास धन्यवादाचा दुवा जोडते",
+	"thanks-thank": "धन्यवाद",
+	"thanks-thanked": "{{GENDER:$1|नी धन्यवाद दिले}}",
+	"thanks-button-thank": "{{GENDER:$1|चे धन्यवाद}}",
+	"thanks-button-thanked": "{{GENDER:$1|नी धन्यवाद दिलेत}}",
+	"thanks-error-undefined": "धन्यवाद देण्याची क्रिया अयशस्वी झाली.कृपया पुन्हा प्रयत्न करा.",
+	"thanks-error-invalidrevision": "आवृत्तीचा आयडी वैध नाही.",
+	"thanks-error-ratelimited": "{{GENDER:$1|आपण}} दर मर्यादा पार केली आहे.कृपया थोडा वेळ थांबून पुन्हा प्रयत्न करा.",
+	"thanks-thank-tooltip": "{{GENDER:$2|या सदस्याला}} एक धन्यवादाची अधिसूचना {{GENDER:$1|पाठवा}}",
+	"thanks-confirmation": "या संपादनासाठी  $2 ला {{GENDER:$1|धन्यवाद}} द्यायचे आहेत काय?",
+	"thanks-thanked-notice": "$1 ने नोंदविले आहे कि आपणास {{GENDER:$2|त्याचे|तिचे|त्यांचे}} संपादन आवडले आहे.",
+	"echo-pref-subscription-edit-thank": "माझ्या संपादनाबद्दल मलाच धन्यवाद द्या",
+	"echo-pref-tooltip-edit-thank": "मी केलेल्या संपादनाबद्दल जर कोणी मला धन्यवाद देत असेल तर मला सूचना द्या.",
+	"echo-category-title-edit-thank": "धन्यवाद",
+	"notification-thanks-diff-link": "आपले संपादन",
+	"notification-thanks": "[[User:$1|$1]] ने  $2 करीता [[:$3]]वर {{GENDER:$1|धन्यवाद दिलेत.}}",
+	"notification-thanks-flyout2": "[[User:$1|$1]] ने आपणास {{GENDER:$1|धन्यवाद दिलेत}}$2 वर केलेल्या संपादनाबद्दल.",
+	"notification-thanks-email-subject": "$1 ने {{SITENAME}}वर  {{GENDER:$1|धन्यवाद दिलेत}}आपण केलेल्या संपादनाबाबत",
+	"notification-thanks-email-batch-body": "$1 ने आपण $2वर केलेल्या संपादनाबाबत आपणास {{GENDER:$1|धन्यवाद दिलेत.}}",
+	"notification-link-text-respond-to-user": "सदस्यास उत्तर द्या",
+	"log-name-thanks": "धन्यवादाच्या नोंदी",
+	"log-description-thanks": "खाली त्या सदस्यांची यादी आहे ज्यांना इतर सदस्यांनी धन्यवाद दिलेत.",
+	"logentry-thanks-thank": "$1 ने {{GENDER:$4|$3}} ला {{GENDER:$2|धन्यवाद दिलेत}}",
+	"log-show-hide-thanks": "$1 धन्यवादाच्या नोंदी"
 }

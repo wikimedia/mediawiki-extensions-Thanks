@@ -1,33 +1,33 @@
 {
-    "@metadata": {
-        "authors": [
-            "Cedric31"
-        ]
-    },
-    "thanks-desc": "Apond de ligams de mercejament a las vistas istoric e de diferéncia",
-    "thanks-thank": "mercé",
-    "thanks-thanked": "{{GENDER:$1|mercejat|mercejada}}",
-    "thanks-button-thank": "{{GENDER:$1|Mercé}}",
-    "thanks-button-thanked": "{{GENDER:$1|Mercejat}}",
-    "thanks-error-undefined": "Fracàs de l’accion de mercejament. Tornatz ensajar.",
-    "thanks-error-invalidrevision": "L’ID de revision es invalid.",
-    "thanks-error-ratelimited": "{{GENDER:$1|Avètz}} depassat vòstre limit de debit. Esperatz un pauc e tornatz ensajar.",
-    "thanks-thank-tooltip": "{{GENDER:$1|Mandar}} una notificacion de mercejament a {{GENDER:$2|aqueste utilizaire|aquesta utilizaira}}",
-    "thanks-confirmation": "Volètz {{GENDER:$1|mercejar}} $2 per aquesta modificacion ?",
-    "thanks-thanked-notice": "$1 es estat notificat que vos a agradat {{GENDER:$2|sa}} modificacion.",
-    "echo-pref-subscription-edit-thank": "Me mercejar per ma modificacion",
-    "echo-pref-tooltip-edit-thank": "M'avisar quand qualqu’un me merceja per una modificacion qu’ai facha.",
-    "echo-category-title-edit-thank": "Mercé",
-    "notification-thanks-diff-link": "vòstra modificacion",
-    "notification-thanks": "[[User:$1|$1]] vos {{GENDER:$1|a mercejat}} per $2 sus [[:$3]].",
-    "notification-thanks-flyout2": "[[User:$1|$1]] vos {{GENDER:$1|a mercejat}} per vòstra modificacion sus $2.",
-    "notification-thanks-email-subject": "$1 vos {{GENDER:$1|a mercejat}} per vòstra modificacion sus {{SITENAME}}",
-    "notification-thanks-email-batch-body": "$1 vos {{GENDER:$1|a mercejat}} per vòstra modificacion sus $2.",
-    "notification-link-text-respond-to-user": "Respondre a l’utilizaire",
-    "log-name-thanks": "Entrada mercejaments",
-    "log-description-thanks": "Trobaretz çaijós una lista d'utilizaires que son estats mercejats per d'autres.",
-    "logentry-thanks-thank": "$1 {{GENDER:$2|a mercejat}} {{GENDER:$4|$3}}",
-    "log-show-hide-thanks": "$1 lo jornal dels mercejaments",
-    "notification-flow-thanks": "[[User:$1|$1]] vos a mercejat per $2 dins \"$3\" sus [[:$4]].",
-    "notification-flow-thanks-email-batch-body": "$1 vos {{GENDER:$1|a mercejat}} per vòstre comentari dins \"$2\" sus $3."
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"thanks-desc": "Apond de ligams de mercejament a las vistas istoric e de diferéncia",
+	"thanks-thank": "mercé",
+	"thanks-thanked": "{{GENDER:$1|mercejat|mercejada}}",
+	"thanks-button-thank": "{{GENDER:$1|Mercé}}",
+	"thanks-button-thanked": "{{GENDER:$1|Mercejat}}",
+	"thanks-error-undefined": "Fracàs de l’accion de mercejament. Tornatz ensajar.",
+	"thanks-error-invalidrevision": "L’ID de revision es invalid.",
+	"thanks-error-ratelimited": "{{GENDER:$1|Avètz}} depassat vòstre limit de debit. Esperatz un pauc e tornatz ensajar.",
+	"thanks-thank-tooltip": "{{GENDER:$1|Mandar}} una notificacion de mercejament a {{GENDER:$2|aqueste utilizaire|aquesta utilizaira}}",
+	"thanks-confirmation": "Volètz {{GENDER:$1|mercejar}} $2 per aquesta modificacion ?",
+	"thanks-thanked-notice": "$1 es estat notificat que vos a agradat {{GENDER:$2|sa}} modificacion.",
+	"echo-pref-subscription-edit-thank": "Me mercejar per ma modificacion",
+	"echo-pref-tooltip-edit-thank": "M'avisar quand qualqu’un me merceja per una modificacion qu’ai facha.",
+	"echo-category-title-edit-thank": "Mercé",
+	"notification-thanks-diff-link": "vòstra modificacion",
+	"notification-thanks": "[[User:$1|$1]] vos {{GENDER:$1|a mercejat}} per $2 sus [[:$3]].",
+	"notification-thanks-flyout2": "[[User:$1|$1]] vos {{GENDER:$1|a mercejat}} per vòstra modificacion sus $2.",
+	"notification-thanks-email-subject": "$1 vos {{GENDER:$1|a mercejat}} per vòstra modificacion sus {{SITENAME}}",
+	"notification-thanks-email-batch-body": "$1 vos {{GENDER:$1|a mercejat}} per vòstra modificacion sus $2.",
+	"notification-link-text-respond-to-user": "Respondre a l’utilizaire",
+	"log-name-thanks": "Entrada mercejaments",
+	"log-description-thanks": "Trobaretz çaijós una lista d'utilizaires que son estats mercejats per d'autres.",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|a mercejat}} {{GENDER:$4|$3}}",
+	"log-show-hide-thanks": "$1 lo jornal dels mercejaments",
+	"notification-flow-thanks": "[[User:$1|$1]] vos a mercejat per $2 dins \"$3\" sus [[:$4]].",
+	"notification-flow-thanks-email-batch-body": "$1 vos {{GENDER:$1|a mercejat}} per vòstre comentari dins \"$2\" sus $3."
 }

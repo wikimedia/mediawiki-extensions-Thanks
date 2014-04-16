@@ -1,34 +1,34 @@
 {
-    "@metadata": {
-        "authors": [
-            "Praveenp"
-        ]
-    },
-    "thanks-desc": "നാൾവഴിയിലും വ്യത്യാസങ്ങളിലും നന്ദി രേഖപ്പെടുത്തുവാനുള്ള കണ്ണികൾ ചേർക്കുക",
-    "thanks-thank": "നന്ദി രേഖപ്പെടുത്തുക",
-    "thanks-thanked": "{{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}",
-    "thanks-button-thank": "{{GENDER:$1|നന്ദി രേഖപ്പെടുത്തുക}}",
-    "thanks-button-thanked": "{{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}",
-    "thanks-error-undefined": "നന്ദി രേഖപ്പെടുത്തൽ പരാജയപ്പെട്ടു. ദയവായി വീണ്ടും ശ്രമിക്കുക.",
-    "thanks-error-invalidrevision": "നാൾപ്പതിപ്പിന്റെ ഐ.ഡി. അസാധുവാണ്.",
-    "thanks-error-ratelimited": "{{GENDER:$1|താങ്കളുടെ}} പരിധി അധികരിച്ചിരിക്കുന്നു. ദയവായി അല്പസമയം കാത്തിരുന്ന ശേഷം വീണ്ടും ശ്രമിക്കുക.",
-    "thanks-thank-tooltip": "ഈ {{GENDER:$2|ഉപയോക്താവിന്}} താങ്കളുടെ കൃതജ്ഞത {{GENDER:$1|അയയ്ക്കുക}}",
-    "thanks-confirmation": "ഈ തിരുത്തിന് $2 എന്ന ഉപയോക്താവിന് {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തണം}} എന്ന് താങ്കൾക്കുറപ്പാണോ?",
-    "thanks-thanked-notice": "$1 എന്ന ഉപയോക്താവിനെ, താങ്കൾക്ക്  {{GENDER:$2|അദ്ദേഹത്തിന്റെ|അവരുടെ|അവരുടെ}} തിരുത്ത് ഇഷ്ടപ്പെട്ടുവെന്ന് അറിയിച്ചു.",
-    "thanks": "കൃതജ്ഞത അറിയിക്കുക",
-    "thanks-form-revid": "തിരുത്തിന്റെ നാൾപ്പതിപ്പിന്റെ ഐ.ഡി.",
-    "thanks-already-thanked": "ഈ തിരുത്തിന് {{GENDER:$1|താങ്കൾ}} നന്ദി അറിയിച്ചിട്ടുണ്ട്.",
-    "echo-pref-subscription-edit-thank": "എന്റെ തിരുത്തിന് എനിക്ക് കൃതജ്ഞത രേഖപ്പെടുത്തുക",
-    "echo-pref-tooltip-edit-thank": "ഞാൻ ചെയ്ത തിരുത്തിന് ആരെങ്കിലും നന്ദി രേഖപ്പെടുത്തിയാൽ എന്നെ അറിയിക്കുക.",
-    "echo-category-title-edit-thank": "നന്ദി",
-    "notification-thanks-diff-link": "താങ്കൾ ചെയ്ത തിരുത്തിന്",
-    "notification-thanks": "[[:$3]] എന്ന താളിൽ $2,  [[User:$1|$1]] {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}.",
-    "notification-thanks-flyout2": "$2 എന്ന താളിൽ താങ്കൾ ചെയ്ത തിരുത്തിന് [[User:$1|$1]] {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}",
-    "notification-thanks-email-subject": "{{SITENAME}} സംരംഭത്തിൽ താങ്കൾ ചെയ്ത തിരുത്തിന് $1 {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}",
-    "notification-thanks-email-batch-body": "$2 എന്ന താളിൽ താങ്കൾ ചെയ്ത തിരുത്തിന് $1 {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}",
-    "notification-link-text-respond-to-user": "ഉപയോക്താവിനെ ബന്ധപ്പെടുക",
-    "log-name-thanks": "കൃതജ്ഞതാരേഖ",
-    "log-description-thanks": "മറ്റ് ഉപയോക്താക്കളുടെ കൃതജ്ഞത ലഭിച്ച ഉപയോക്താക്കളുടെ പട്ടിക താഴെ കാണാം.",
-    "logentry-thanks-thank": "{{GENDER:$4|$3}} എന്ന ഉപയോക്താവിന് $1 {{GENDER:$2|നന്ദി രേഖപ്പെടുത്തി}}",
-    "log-show-hide-thanks": "കൃതജ്ഞതാരേഖ $1"
+	"@metadata": {
+		"authors": [
+			"Praveenp"
+		]
+	},
+	"thanks-desc": "നാൾവഴിയിലും വ്യത്യാസങ്ങളിലും നന്ദി രേഖപ്പെടുത്തുവാനുള്ള കണ്ണികൾ ചേർക്കുക",
+	"thanks-thank": "നന്ദി രേഖപ്പെടുത്തുക",
+	"thanks-thanked": "{{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}",
+	"thanks-button-thank": "{{GENDER:$1|നന്ദി രേഖപ്പെടുത്തുക}}",
+	"thanks-button-thanked": "{{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}",
+	"thanks-error-undefined": "നന്ദി രേഖപ്പെടുത്തൽ പരാജയപ്പെട്ടു. ദയവായി വീണ്ടും ശ്രമിക്കുക.",
+	"thanks-error-invalidrevision": "നാൾപ്പതിപ്പിന്റെ ഐ.ഡി. അസാധുവാണ്.",
+	"thanks-error-ratelimited": "{{GENDER:$1|താങ്കളുടെ}} പരിധി അധികരിച്ചിരിക്കുന്നു. ദയവായി അല്പസമയം കാത്തിരുന്ന ശേഷം വീണ്ടും ശ്രമിക്കുക.",
+	"thanks-thank-tooltip": "ഈ {{GENDER:$2|ഉപയോക്താവിന്}} താങ്കളുടെ കൃതജ്ഞത {{GENDER:$1|അയയ്ക്കുക}}",
+	"thanks-confirmation": "ഈ തിരുത്തിന് $2 എന്ന ഉപയോക്താവിന് {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തണം}} എന്ന് താങ്കൾക്കുറപ്പാണോ?",
+	"thanks-thanked-notice": "$1 എന്ന ഉപയോക്താവിനെ, താങ്കൾക്ക്  {{GENDER:$2|അദ്ദേഹത്തിന്റെ|അവരുടെ|അവരുടെ}} തിരുത്ത് ഇഷ്ടപ്പെട്ടുവെന്ന് അറിയിച്ചു.",
+	"thanks": "കൃതജ്ഞത അറിയിക്കുക",
+	"thanks-form-revid": "തിരുത്തിന്റെ നാൾപ്പതിപ്പിന്റെ ഐ.ഡി.",
+	"thanks-already-thanked": "ഈ തിരുത്തിന് {{GENDER:$1|താങ്കൾ}} നന്ദി അറിയിച്ചിട്ടുണ്ട്.",
+	"echo-pref-subscription-edit-thank": "എന്റെ തിരുത്തിന് എനിക്ക് കൃതജ്ഞത രേഖപ്പെടുത്തുക",
+	"echo-pref-tooltip-edit-thank": "ഞാൻ ചെയ്ത തിരുത്തിന് ആരെങ്കിലും നന്ദി രേഖപ്പെടുത്തിയാൽ എന്നെ അറിയിക്കുക.",
+	"echo-category-title-edit-thank": "നന്ദി",
+	"notification-thanks-diff-link": "താങ്കൾ ചെയ്ത തിരുത്തിന്",
+	"notification-thanks": "[[:$3]] എന്ന താളിൽ $2,  [[User:$1|$1]] {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}.",
+	"notification-thanks-flyout2": "$2 എന്ന താളിൽ താങ്കൾ ചെയ്ത തിരുത്തിന് [[User:$1|$1]] {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}",
+	"notification-thanks-email-subject": "{{SITENAME}} സംരംഭത്തിൽ താങ്കൾ ചെയ്ത തിരുത്തിന് $1 {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}",
+	"notification-thanks-email-batch-body": "$2 എന്ന താളിൽ താങ്കൾ ചെയ്ത തിരുത്തിന് $1 {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}",
+	"notification-link-text-respond-to-user": "ഉപയോക്താവിനെ ബന്ധപ്പെടുക",
+	"log-name-thanks": "കൃതജ്ഞതാരേഖ",
+	"log-description-thanks": "മറ്റ് ഉപയോക്താക്കളുടെ കൃതജ്ഞത ലഭിച്ച ഉപയോക്താക്കളുടെ പട്ടിക താഴെ കാണാം.",
+	"logentry-thanks-thank": "{{GENDER:$4|$3}} എന്ന ഉപയോക്താവിന് $1 {{GENDER:$2|നന്ദി രേഖപ്പെടുത്തി}}",
+	"log-show-hide-thanks": "കൃതജ്ഞതാരേഖ $1"
 }
