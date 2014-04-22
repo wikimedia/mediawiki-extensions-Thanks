@@ -5,7 +5,8 @@
 			"Nike",
 			"Pxos",
 			"Samoasambia",
-			"Silvonen"
+			"Silvonen",
+			"Stryn"
 		]
 	},
 	"thanks-desc": "Lisää kiitä-linkit muokkaushistoriaan ja versioiden erot näyttävälle sivulle",
@@ -19,6 +20,9 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|Lähetä}} kiitoksesi tälle {{GENDER:$2|käyttäjälle}}",
 	"thanks-confirmation": "Haluatko {{GENDER:$1|kiittää}} käyttäjää $2 tästä muokkauksesta?",
 	"thanks-thanked-notice": "Käyttäjälle $1 ilmoitettiin, että tykkäsit {{GENDER:$2|hänen}} muokkauksestaan.",
+	"thanks": "Lähetä kiitokset",
+	"thanks-form-revid": "Muokatun version tunniste",
+	"thanks-already-thanked": "{{GENDER:$1|Olet}} jo lähettänyt kiitoksesi tästä muokkauksesta.",
 	"echo-pref-subscription-edit-thank": "Minulle annetut kiitokset tekemistäni muokkauksista",
 	"echo-pref-tooltip-edit-thank": "Ilmoita minulle, kun joku kiittää minua tekemästäni muokkauksesta.",
 	"echo-category-title-edit-thank": "Kiitokset",
