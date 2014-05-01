@@ -44,6 +44,11 @@ $specialPageAliases['es'] = array(
 	'Thanks' => array( 'Gracias' ),
 );
 
+/** Estonian (eesti) */
+$specialPageAliases['et'] = array(
+	'Thanks' => array( 'Tänu' ),
+);
+
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
 	'Thanks' => array( 'تشکر' ),

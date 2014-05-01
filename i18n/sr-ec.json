@@ -7,7 +7,7 @@
 	},
 	"thanks-desc": "Додаје могућност захваљивања у прегледу историје и прегледу разлика између измена",
 	"thanks-thank": "захвали се",
-	"thanks-thanked": "{{GENDER:$1|захвалио се|захвалила се}}",
+	"thanks-thanked": "{{GENDER:$1|захваљено}}",
 	"thanks-button-thank": "{{GENDER:$1|Захвали се}}",
 	"thanks-button-thanked": "{{GENDER:$1|Захвалили сте се}}",
 	"thanks-error-undefined": "Захваљивање није успело. Покушајте поново.",
