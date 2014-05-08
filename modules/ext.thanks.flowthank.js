@@ -49,7 +49,8 @@
 		$( document ).ready( reloadThankedState );
 	}
 
-	$( 'a.mw-thanks-flow-thank-link' ).click( function( e ) {
+	// .on() is needed to make the button work for dynamically loaded posts
+	$( '.flow-topics' ).on( 'click', 'a.mw-thanks-flow-thank-link', function( e ) {
 		var $thankLink = $( this );
 		e.preventDefault();
 		sendFlowThanks( $thankLink );
