@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Anakmalaysia"
+			"Anakmalaysia",
+			"Aurora"
 		]
 	},
 	"thanks-desc": "Meletakkan pautan terima kasih pada paparan sejarah dan beza",
 	"thanks-thank": "berterima kasih",
-	"thanks-thanked": "{{GENDER:$1|berterima kasih kepada}}",
+	"thanks-thanked": "{{GENDER:$1|telah berterima kasih}}",
 	"thanks-error-undefined": "Tindakan terima kasih gagal. Sila cuba lagi.",
 	"thanks-error-invalidrevision": "ID semakan tidak sah.",
 	"thanks-error-ratelimited": "Anda telah melampaui had kadar anda. Sila cuba seketika, kemudian cuba lagi.",
