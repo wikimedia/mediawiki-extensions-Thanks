@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Horus"
+		]
+	},
+	"thanks-desc": "เพิ่มลิงก์ขอบคุณไปยังประวัติและการดูผลต่าง",
+	"thanks-thank": "ขอบคุณ",
+	"thanks-thanked": "กล่าวขอบคุณ",
+	"thanks-button-thank": "ขอบคุณ",
+	"thanks-button-thanked": "กล่าวขอบคุณแล้ว",
+	"thanks-error-undefined": "ปฏิบัติการขอบคุณล้มเหลว โปรดลองอีกครั้ง",
+	"thanks-error-invalidrevision": "หมายเลขประจำรุ่นไม่ถูกต้อง",
+	"thanks-error-ratelimited": "ึคุณได้กระทำเกินขีดจำกัดอัตราของคุณ โปรดรอสักครู่แล้วลองอีกครั้ง",
+	"thanks-thank-tooltip": "ส่งประกาศขอบคุณไปยังผู้ใช้",
+	"thanks-confirmation": "คุณต้องการกล่าวขอบคุณ $2 สำหรับการแก้ไขนี้หรือไม่",
+	"thanks-thanked-notice": "$1 ได้รับแจ้งว่าคุณถูกใจการแก้ไขของ{{GENDER:$2|เขา|เธอ|พวกเขา}}",
+	"thanks": "ส่งคำขอบคุณ",
+	"thanks-form-revid": "หมายเลขประจำรุ่นสำหรับแก้ไข",
+	"thanks-already-thanked": "คุณส่งคำขอบคุณสำหรับการแก้ไขนี้แล้ว",
+	"echo-pref-subscription-edit-thank": "กล่าวขอบคุณฉันสำหรับการแก้ไขของฉัน",
+	"echo-pref-tooltip-edit-thank": "แจ้งฉันเมื่อบางคนกล่าวขอบคุณฉันสำหรับการแก้ไขที่ฉันกระทำ",
+	"echo-category-title-edit-thank": "ขอบคุณ",
+	"notification-thanks-diff-link": "การแก้ไขของคุณ",
+	"notification-thanks": "[[ผู้ใช้:$1|$1]]กล่าวขอบคุณคุณสำหรับ $2 ใน [[:$3]]",
+	"notification-thanks-flyout2": "[[ผู้ใช้:$1|$1]]กล่าวขอบคุณคุณสำหรับการแก้ไขของคุณใน $2",
+	"notification-thanks-email-subject": "$1 กล่าวขอบคุณคุณสำหรับการแก้ไขของคุณใน{{SITENAME}}",
+	"notification-thanks-email-batch-body": "$1 กล่าวขอบคุณคุณสำหรับการแก้ไขของคุณใน $2",
+	"notification-link-text-respond-to-user": "สนองตอบผู้ใช้",
+	"log-name-thanks": "ปูมการขอบคุณ",
+	"log-description-thanks": "ด้านล่างนี้เป็นรายการผู้ใช้ที่ผู้ใช้อื่นกล่าวขอบคุณ",
+	"logentry-thanks-thank": "$1 กล่าวขอบคุณ {{GENDER:$4|$3}}",
+	"log-show-hide-thanks": "$1ปูมการขอบคุณ",
+	"notification-link-text-view-post": "ดูความเห็น",
+	"notification-flow-thanks": "[[ผู้ใช้:$1|$1]] กล่าวขอบคุณคุณสำหรับ $2 ในหัวข้อ \"$3\" ในหน้า [[:$4]]",
+	"notification-flow-thanks-post-link": "ความเห็นของคุณ",
+	"notification-flow-thanks-flyout": "[[ผู้ใช้:$1|$1]] กล่าวขอบคุณคุณสำหรับความเห็นของคุณในหัวข้อ \"$2\" ในหน้า $3",
+	"notification-flow-thanks-email-subject": "$1 กล่าวขอบคุณคุณสำหรับความเห้นของคุณใน{{SITENAME}}",
+	"notification-flow-thanks-email-batch-body": "$1 กล่าวขอบคุณคุณสำหรับความเห็นของคุณในหัวข้อ \"$2\" ในหน้า $3"
+}
