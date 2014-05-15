@@ -19,7 +19,7 @@
 	"thanks-form-revid": "Өңдеме үшін нұсқа ID-і",
 	"thanks-already-thanked": "{{GENDER:$1|Сіз}} бұл өңдемеге әлдеқашан рахметіңізді білдірдіңіз.",
 	"echo-pref-subscription-edit-thank": "Менің өңдемем үшін маған рахмет айту",
-	"echo-pref-tooltip-edit-thank": "Мен жасаған өңдеме үшін кейбіреу рахмет айтқанда маған білдір.",
+	"echo-pref-tooltip-edit-thank": "Мен жасаған өңдеме үшін әлдебіреу рахмет айтқанда маған білдір.",
 	"echo-category-title-edit-thank": "Рахмет",
 	"notification-thanks-diff-link": "өңдемеңізге",
 	"notification-thanks": "[[User:$1|$1]] [[:$3]] бетіндегі $2  {{GENDER:$1|рахметін}} білдірді.",
