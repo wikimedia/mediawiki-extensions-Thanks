@@ -69,6 +69,11 @@ $specialPageAliases['mk'] = array(
 	'Thanks' => array( 'Благодарења' ),
 );
 
+/** Malayalam (മലയാളം) */
+$specialPageAliases['ml'] = array(
+	'Thanks' => array( 'കൃത്ജ്ഞതകൾ' ),
+);
+
 /** Norwegian Bokmål (norsk bokmål) */
 $specialPageAliases['nb'] = array(
 	'Thanks' => array( 'Takk' ),

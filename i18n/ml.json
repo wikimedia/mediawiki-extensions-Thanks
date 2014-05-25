@@ -30,5 +30,8 @@
 	"log-name-thanks": "കൃതജ്ഞതാരേഖ",
 	"log-description-thanks": "മറ്റ് ഉപയോക്താക്കളുടെ കൃതജ്ഞത ലഭിച്ച ഉപയോക്താക്കളുടെ പട്ടിക താഴെ കാണാം.",
 	"logentry-thanks-thank": "{{GENDER:$4|$3}} എന്ന ഉപയോക്താവിന് $1 {{GENDER:$2|നന്ദി രേഖപ്പെടുത്തി}}",
-	"log-show-hide-thanks": "കൃതജ്ഞതാരേഖ $1"
+	"log-show-hide-thanks": "കൃതജ്ഞതാരേഖ $1",
+	"notification-link-text-view-post": "അഭിപ്രായം കാണുക",
+	"notification-flow-thanks": "[[:$4]] എന്ന താളിലെ \"$3\" എന്നതിലെ $2-ന്,  [[User:$1|$1]] {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}.",
+	"notification-flow-thanks-post-link": "താങ്കളുടെ അഭിപ്രായം"
 }
