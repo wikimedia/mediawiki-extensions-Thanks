@@ -3,10 +3,12 @@
 		"authors": [
 			"BRUTE",
 			"David1010",
-			"Tokoko"
+			"Tokoko",
+			"Nodar Kherkheulidze"
 		]
 	},
 	"thanks-thank": "მადლობა",
+	"thanks-thanked": "{{GENDER:$1|მადლობა გადახდილია}}",
 	"thanks-button-thank": "{{GENDER:$1|მადლობა}}",
 	"thanks-button-thanked": "{{GENDER:$1|მადლობა გადახდილია}}",
 	"thanks-error-undefined": "მადლობის გადახდა ვერ მოხერხდა. გთხოვ სცადეთ კიდევ.",

@@ -27,7 +27,7 @@
 	"notification-link-text-respond-to-user": "وەڵام بۆ بەکارھێنەر",
 	"log-name-thanks": "لۆگی سپاس",
 	"log-description-thanks": "ژێرەوە پێرستێکی لەو بەکارھێنەرانەن کە لە لایەن بەکارھێنەرانی ترەوە سپاسیان لێ کراوە.",
-	"logentry-thanks-thank": "$1 {{GENDER:$2|سپاس کرد}} لە {{GENDER:$4|$3}}",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|سپاسی کرد}} لە {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "لۆگی سپاس $1",
 	"notification-link-text-view-post": "بۆچوون ببینە",
 	"notification-flow-thanks-post-link": "بۆچوونی تۆ",
