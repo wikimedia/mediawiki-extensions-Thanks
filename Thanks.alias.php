@@ -54,6 +54,11 @@ $specialPageAliases['fa'] = array(
 	'Thanks' => array( 'تشکر' ),
 );
 
+/** Hebrew (עברית) */
+$specialPageAliases['he'] = array(
+	'Thanks' => array( 'תודות' ),
+);
+
 /** Italian (italiano) */
 $specialPageAliases['it'] = array(
 	'Thanks' => array( 'Ringrazia' ),

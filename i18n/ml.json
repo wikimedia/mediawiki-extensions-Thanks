@@ -33,5 +33,8 @@
 	"log-show-hide-thanks": "കൃതജ്ഞതാരേഖ $1",
 	"notification-link-text-view-post": "അഭിപ്രായം കാണുക",
 	"notification-flow-thanks": "[[:$4]] എന്ന താളിലെ \"$3\" എന്നതിലെ $2-ന്,  [[User:$1|$1]] {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}.",
-	"notification-flow-thanks-post-link": "താങ്കളുടെ അഭിപ്രായം"
+	"notification-flow-thanks-post-link": "താങ്കളുടെ അഭിപ്രായം",
+	"notification-flow-thanks-flyout": "$3 എന്ന താളിലെ \"$2\" എന്ന ഭാഗത്ത് താങ്കൾ ഇട്ട കുറിപ്പിന് [[User:$1|$1]] {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}",
+	"notification-flow-thanks-email-subject": "{{SITENAME}} സംരംഭത്തിൽ താങ്കൾ ഇട്ട കുറിപ്പിന് $1 {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}",
+	"notification-flow-thanks-email-batch-body": "$3 എന്ന താളിലെ \"$2\" എന്ന ഭാഗത്ത് താങ്കൾ ഇട്ട കുറിപ്പിന് $1 {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}"
 }
