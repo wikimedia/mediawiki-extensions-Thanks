@@ -14,7 +14,7 @@
 			"Wyz"
 		]
 	},
-	"thanks-desc": "Ajoute des liens de remerciement aux vues historique et de différence",
+	"thanks-desc": "Ajoute des liens pour remercier les utilisateurs pour des modifications, des commentaires, etc.",
 	"thanks-thank": "remercier",
 	"thanks-thanked": "{{GENDER:$1|remercié|remerciée}}",
 	"thanks-button-thank": "{{GENDER:$1|Merci}}",
@@ -41,7 +41,12 @@
 	"log-description-thanks": "Ci-dessous se trouve une liste d'utilisateurs qui ont été remerciés par d'autres.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|a remercié}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 le journal des remerciements",
+	"thanks-error-no-id-specified": "Vous devez spécifier un ID de révision pour envoyer des remerciements.",
+	"thanks-confirmation-special": "Voulez-vous envoyer des remerciements pour cette modification ?",
 	"notification-link-text-view-post": "Afficher commentaire",
+	"thanks-error-invalidpostid": "L’ID de la note n’est pas valide.",
+	"flow-thanks-confirmation-special": "Voulez-vous envoyer des remerciements pour ce commentaire ?",
+	"flow-thanks-thanked-notice": "$1 {{GENDER:$2|a été notifié|a été notifiée|ont été notifiés}} que vous aimez {{GENDER:$2|son|son|leur}} commentaire.",
 	"notification-flow-thanks": "[[User:$1|$1]] vous a remercié pour $2 dans « $3 » sur [[:$4]].",
 	"notification-flow-thanks-post-link": "votre commentaire",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] vous a remercié pour votre commentaire dans « $2 » sur $3.",

@@ -11,7 +11,7 @@
 			"Zhuyifei1999"
 		]
 	},
-	"thanks-desc": "添加感谢链接至历史和差异视图",
+	"thanks-desc": "添加感谢用户编辑、评论等的连接",
 	"thanks-thank": "感谢",
 	"thanks-thanked": "{{GENDER:$1|已感谢}}",
 	"thanks-button-thank": "{{GENDER:$1|感谢}}",
@@ -38,7 +38,12 @@
 	"log-description-thanks": "下面是得到其他用户感谢的用户的列表。",
 	"logentry-thanks-thank": "$1{{GENDER:$2|感谢}}{{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1感谢日志",
+	"thanks-error-no-id-specified": "您必须指定发送感谢的修订ID。",
+	"thanks-confirmation-special": "您希望对此编辑发送感谢么？",
 	"notification-link-text-view-post": "查看评论",
+	"thanks-error-invalidpostid": "帖子ID无效。",
+	"flow-thanks-confirmation-special": "您希望对此评论发送感谢么？",
+	"flow-thanks-thanked-notice": "$1已被告知您感谢{{GENDER:$2|他|她|他们}}的编辑。",
 	"notification-flow-thanks": "[[User:$1|$1]]感谢您在[[:$4]]的“$3”发表的$2。",
 	"notification-flow-thanks-post-link": "您的评论",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]]感谢了您在$3的“$2”发表的评论。",

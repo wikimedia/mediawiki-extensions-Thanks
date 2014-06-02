@@ -7,7 +7,7 @@
 			"Rotemliss"
 		]
 	},
-	"thanks-desc": "הוספת קישורי \"תודה\" לדפי היסטוריה והשוואה",
+	"thanks-desc": "הוספת קישורים לאמירת \"תודה\" למשתמשים על עריכות, הערות, וכו'.",
 	"thanks-thank": "תודה",
 	"thanks-thanked": "{{GENDER:$1|אמרת תודה}}",
 	"thanks-button-thank": "{{GENDER:$1|תודה}}",
@@ -34,7 +34,12 @@
 	"log-description-thanks": "להלן רשימת משתמשים שאנשים אחרים הודו להם.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|הודה|הודתה}} ל{{GRAMMAR:תחילית|{{GENDER:$4|$3}}}}",
 	"log-show-hide-thanks": "$1 יומן תודות",
+	"thanks-error-no-id-specified": "יש לציין מזהה גרסה בשביל שליחת תודה.",
+	"thanks-confirmation-special": "האם לשלוח תודה על העריכה הזאת?",
 	"notification-link-text-view-post": "הצגת תגובה",
+	"thanks-error-invalidpostid": "מהזז הרשומה אינו תקין.",
+	"flow-thanks-confirmation-special": "האם לשלוח תודה על ההערה הזאת?",
+	"flow-thanks-thanked-notice": "$1 {{GENDER:$2|קיבל|קיבלה}} הודאה על כך שאהבת את ההערה {{GENDER:$2|שלו|שלה}}.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|הודה|הודתה}} לך על $2 בנושא \"$3\" בדף [[:$4]].",
 	"notification-flow-thanks-post-link": "התגובה שלך",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|הודה|הודתה}} לך על התגובה שלך בנושא \"$2\" בדף $3.",

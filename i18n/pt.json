@@ -12,7 +12,7 @@
 			"Vitorvicentevalente"
 		]
 	},
-	"thanks-desc": "Adiciona ligações para agradecimentos quando na página do histórico ou em comparação de edições",
+	"thanks-desc": "Adiciona ligações para agradecer a utilizadores por edições, comentários, etc.",
 	"thanks-thank": "agradecer",
 	"thanks-thanked": "{{GENDER:$1|agradecimento enviado}}",
 	"thanks-button-thank": "{{GENDER:$1|Agradecer}}",
@@ -39,7 +39,12 @@
 	"log-description-thanks": "Abaixo está uma lista de utilizadores que receberam agradecimentos de outros utilizadores.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|agradeceu}} a {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 registo de agradecimentos",
+	"thanks-error-no-id-specified": "Deve especificar um ID de revisão para enviar um agradecimento.",
+	"thanks-confirmation-special": "Deseja enviar um agradecimento por esta edição?",
 	"notification-link-text-view-post": "Ver comentário",
+	"thanks-error-invalidpostid": "ID de mensagem inválido.",
+	"flow-thanks-confirmation-special": "Deseja enviar um agradecimento por este comentário?",
+	"flow-thanks-thanked-notice": "$1 foi {{GENDER:$2|informado|informada}} de que você gostou do seu comentário.",
 	"notification-flow-thanks-post-link": "o seu comentário",
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|agradeceu-lhe}} pelo seu comentário em {{SITENAME}}"
 }

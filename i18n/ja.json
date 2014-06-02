@@ -6,7 +6,7 @@
 			"Shirayuki"
 		]
 	},
-	"thanks-desc": "履歴ページおよび差分ページに、感謝を示すリンクを追加する",
+	"thanks-desc": "利用者の編集やコメントなどに感謝を示すリンクを追加する",
 	"thanks-thank": "感謝",
 	"thanks-thanked": "{{GENDER:$1|感謝を示しました}}",
 	"thanks-button-thank": "{{GENDER:$1|感謝}}",
@@ -34,6 +34,8 @@
 	"logentry-thanks-thank": "$1 が {{GENDER:$4|$3}} に{{GENDER:$2|感謝を示しました}}",
 	"log-show-hide-thanks": "感謝記録を$1",
 	"notification-link-text-view-post": "コメントを閲覧",
+	"flow-thanks-confirmation-special": "このコメントに感謝を示しますか?",
+	"flow-thanks-thanked-notice": "あなたが $1 のコメントに感謝を示したことを{{GENDER:$2|本人}}に通知しました。",
 	"notification-flow-thanks": "[[User:$1|$1]] が [[:$4]] の「$3」での$2に{{GENDER:$1|感謝を示しました}}。",
 	"notification-flow-thanks-post-link": "あなたのコメント",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] が $3 の「$2」でのあなたのコメントに{{GENDER:$1|感謝を示しました}}。",

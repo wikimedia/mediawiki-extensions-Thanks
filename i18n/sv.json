@@ -5,10 +5,11 @@
 			"Jopparn",
 			"MagnusA",
 			"Skalman",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Lokal Profil"
 		]
 	},
-	"thanks-desc": "Lägger till tacklänkar till historik och skillnadsjämförelser",
+	"thanks-desc": "Lägger till länkar för att tacka användare för redigeringar, kommentarer, etc.",
 	"thanks-thank": "tacka",
 	"thanks-thanked": "{{GENDER:$1|tackat}}",
 	"thanks-button-thank": "{{GENDER:$1|Tacka}}",

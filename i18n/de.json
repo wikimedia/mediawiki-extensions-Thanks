@@ -9,7 +9,7 @@
 			"Wnme"
 		]
 	},
-	"thanks-desc": "Ergänzt Versionsgeschichte und Versionsunterschiede um die Möglichkeit, sich für die entsprechende Bearbeitung zu bedanken",
+	"thanks-desc": "Ergänzt Links zum Bedanken bei Benutzern für Bearbeitungen, Kommentare etc.",
 	"thanks-thank": "danken",
 	"thanks-thanked": "{{GENDER:$1|bereits bedankt}}",
 	"thanks-button-thank": "{{GENDER:$1|Danken}}",
@@ -36,7 +36,12 @@
 	"log-description-thanks": "Es folgt eine Liste von Benutzern, die anderen Benutzern dankten.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|dankte}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "Dankeschön-Logbuch $1",
+	"thanks-error-no-id-specified": "Du musst eine Versionskennung angeben, um Dankeschöns zu senden.",
+	"thanks-confirmation-special": "Möchtest du Dankeschöns für diese Bearbeitung senden?",
 	"notification-link-text-view-post": "Kommentar anzeigen",
+	"thanks-error-invalidpostid": "Die Beitragskennung ist nicht gültig.",
+	"flow-thanks-confirmation-special": "Möchtest du Dankeschöns für diesen Kommentar senden?",
+	"flow-thanks-thanked-notice": "$1 wurde benachrichtigt, dass du {{GENDER:$2|seinen|ihren|seinen}} Kommentar magst.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|dankte}} dir für $2 in „$3“ auf [[:$4]].",
 	"notification-flow-thanks-post-link": "deinen Kommentar",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|dankte}} dir für deinen Kommentar in „$2“ auf $3.",

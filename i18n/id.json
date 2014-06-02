@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Iwan Novirion",
-			"William Surya Permana"
+			"William Surya Permana",
+			"Raynasution"
 		]
 	},
 	"thanks-desc": "Menambahkan pranala terima kasih pada tampilan riwayat suntingan dan perbedaan revisi",
@@ -28,5 +29,9 @@
 	"log-name-thanks": "Log terima kasih",
 	"log-description-thanks": "Di bawah ini adalah daftar pengguna yang menerima terima kasih dari pengguna lain.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|berterima kasih}} kepada {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 log terima kasih"
+	"log-show-hide-thanks": "$1 log terima kasih",
+	"thanks-error-no-id-specified": "Anda harus menentukan perubahan ID untuk mengirim terima kasih.",
+	"thanks-confirmation-special": "Apakah anda ingin mengirimkan terima kasih untuk suntingan ini?",
+	"thanks-error-invalidpostid": "ID posting tidak sah.",
+	"flow-thanks-confirmation-special": "Apakah anda ingin mengirim terima kasih untuk komentar ini?"
 }

@@ -4,7 +4,8 @@
 			"Hym411",
 			"Priviet",
 			"관인생략",
-			"아라"
+			"아라",
+			"Miri-Nae"
 		]
 	},
 	"thanks-desc": "역사와 차이 보기에 감사 링크를 추가합니다",
@@ -34,7 +35,10 @@
 	"log-description-thanks": "아래에는 다른 사용자가 감사를 표한 사용자의 목록입니다.",
 	"logentry-thanks-thank": "$1 사용자가 {{GENDER:$4|$3}}님에게 {{GENDER:$2|감사를 표했습니다}}",
 	"log-show-hide-thanks": "감사 기록을 $1",
+	"thanks-confirmation-special": "이 편집에 대한 감사 메시지를 보내시겠습니까?",
 	"notification-link-text-view-post": "의견 보기",
+	"thanks-error-invalidpostid": "게시물 ID가 유효하지 않습니다.",
+	"flow-thanks-confirmation-special": "이 덧글에 대한 감사 메시지를 보내시겠습니까?",
 	"notification-flow-thanks": "[[User:$1|$1]]이 [[:$4]]의 \"$3\"에 대한 $2 에 {{GENDER:$1|감사를 표했습니다}}.",
 	"notification-flow-thanks-post-link": "당신의 의견",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] 님이 $3의 \"$2\"에 대한 당신의 의견에 {{GENDER:$1|감사를 표했습니다}}.",
