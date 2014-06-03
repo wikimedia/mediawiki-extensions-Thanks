@@ -4,7 +4,7 @@
 			"Minisarm"
 		]
 	},
-	"thanks-desc": "Adaugă legături pentru mulțumiri în istoric și în caseta „Diferență între versiuni”",
+	"thanks-desc": "Adaugă legături pentru a putea mulțumi utilizatorilor pentru modificări, comentarii etc.",
 	"thanks-thank": "mulțumire",
 	"thanks-thanked": "{{GENDER:$1|ați mulțumit}}",
 	"thanks-button-thank": "{{GENDER:$1|Mulțumesc}}",
@@ -31,7 +31,12 @@
 	"log-description-thanks": "Mai jos se află o listă a utilizatorilor cărora li s-a mulțumit de către alți utilizatori.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|i-a mulțumit}} {{GENDER:$4|utilizatorului $3|utilizatoarei $3}}",
 	"log-show-hide-thanks": "$1 jurnalul de mulțumiri",
+	"thanks-error-no-id-specified": "Trebuie să precizați un ID de versiune pentru a trimite mulțumiri.",
+	"thanks-confirmation-special": "Doriți să trimiteți mulțumiri pentru această modificare?",
 	"notification-link-text-view-post": "Vezi comentariul",
+	"thanks-error-invalidpostid": "ID-ul mesajului nu este valid.",
+	"flow-thanks-confirmation-special": "Doriți să trimiteți mulțumiri pentru acest comentariu?",
+	"flow-thanks-thanked-notice": "$1 a fost {{GENDER:$2|notificat|notificată|notificat}} că i-ați apreciat comentariul.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|v-a mulțumit}} pentru $2 din secțiunea „$3” a paginii [[:$4]].",
 	"notification-flow-thanks-post-link": "comentariul dumneavoastră",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|v-a mulțumit}} pentru comentariul dumnevoastră din secțiunea „$2” a paginii $3.",

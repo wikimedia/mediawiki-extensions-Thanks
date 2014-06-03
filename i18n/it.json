@@ -5,7 +5,7 @@
 			"Elitre"
 		]
 	},
-	"thanks-desc": "Aggiunge un collegamento per ringraziare nella cronologia e nelle differenze fra versioni",
+	"thanks-desc": "Aggiunge un collegamento per ringraziare gli utenti per modifiche, commenti, ecc.",
 	"thanks-thank": "ringrazia",
 	"thanks-thanked": "{{GENDER:$1|ringraziato|ringraziata|ringraziato/a}}",
 	"thanks-button-thank": "{{GENDER:$1|Ringrazia}}",
@@ -32,7 +32,12 @@
 	"log-description-thanks": "Di seguito è riportato un elenco di utenti ringraziati da altri utenti.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|ha ringraziato}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 registro dei ringraziamenti",
+	"thanks-error-no-id-specified": "È necessario specificare un ID versione per ringraziare.",
+	"thanks-confirmation-special": "Vuoi ringraziare per questa modifica?",
 	"notification-link-text-view-post": "Vedi commento",
+	"thanks-error-invalidpostid": "ID messaggio non è valido.",
+	"flow-thanks-confirmation-special": "Vuoi ringraziare per questo commento?",
+	"flow-thanks-thanked-notice": "È stato notificato a $1 che ti piace {{GENDER:$2|il suo}} commento.",
 	"notification-flow-thanks": "[[User:$1|$1]] ti {{GENDER:$1|ha ringraziato}} per $2 in \"$3\" su [[:$4]].",
 	"notification-flow-thanks-post-link": "il tuo commento",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] ti {{GENDER:$1|ha ringraziato}} per il tuo commento in \"$2\" su $3.",

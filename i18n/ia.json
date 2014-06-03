@@ -4,7 +4,7 @@
 			"McDutchie"
 		]
 	},
-	"thanks-desc": "Adde ligamines de regratiamento al vistas de historia e diff",
+	"thanks-desc": "Adde ligamines pro regratiar le autores de modificationes, commentos, etc.",
 	"thanks-thank": "regratiar",
 	"thanks-thanked": "{{GENDER:$1|regratiate}}",
 	"thanks-button-thank": "{{GENDER:$1|Regratiar}}",
@@ -30,5 +30,10 @@
 	"log-name-thanks": "Registro de regratiamentos",
 	"log-description-thanks": "Ecce un lista de usatores regratiate per altere usatores.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|regratiava}} {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 registro de regratiamentos"
+	"log-show-hide-thanks": "$1 registro de regratiamentos",
+	"thanks-error-no-id-specified": "Tu debe specificar le ID de un version pro inviar un regratiamento.",
+	"thanks-confirmation-special": "Vole tu regratiar le autor de iste modification?",
+	"thanks-error-invalidpostid": "Le ID del message non es valide.",
+	"flow-thanks-confirmation-special": "Vole tu regratiar le autor de iste commento?",
+	"flow-thanks-thanked-notice": "$1 ha essite notificate que {{GENDER:$2|su}} commento te placeva."
 }

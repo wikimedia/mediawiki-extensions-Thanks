@@ -6,7 +6,7 @@
 			"Njardarlogar"
 		]
 	},
-	"thanks-desc": "Gir mulighet for å takke brukere fra historikk- og sammenligningssider.",
+	"thanks-desc": "Legger til lenker for å takke brukere for redigeringer, kommentarer, etc.",
 	"thanks-thank": "takk",
 	"thanks-thanked": "{{GENDER:$1|takket}}",
 	"thanks-button-thank": "{{GENDER:$1|Takk}}",
@@ -33,7 +33,12 @@
 	"log-description-thanks": "Under er en liste av brukere som er takket av andre brukere.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|takket}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 takkelogg",
+	"thanks-error-no-id-specified": "Du må angi en revisjons-ID for å takke.",
+	"thanks-confirmation-special": "Vil du takke for denne redigeringen?",
 	"notification-link-text-view-post": "Vis kommentar",
+	"thanks-error-invalidpostid": "Post-ID er ugyldig.",
+	"flow-thanks-confirmation-special": "Vil du takke for denne kommentaren?",
+	"flow-thanks-thanked-notice": "$1 får høre at du satte pris på {{GENDER:$2|kommentaren hans|kommentaren hennes|kommentaren}}.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|takket}} deg for $2 i «$3» på [[:$4]].",
 	"notification-flow-thanks-post-link": "din kommentar",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|takket}} deg for din kommentar til «$2» på $3.",

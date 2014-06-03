@@ -5,7 +5,7 @@
 			"Pikne"
 		]
 	},
-	"thanks-desc": "Lisab ajalugudesse ja erinevuse vaadete juurde tänulingid.",
+	"thanks-desc": "Lisab lingid kasutajate tänamiseks muudatuste, kommentaaride ja muu eest.",
 	"thanks-thank": "täna",
 	"thanks-thanked": "{{GENDER:$1|tänatud}}",
 	"thanks-button-thank": "{{GENDER:$1|Täna}}",
@@ -32,7 +32,12 @@
 	"log-description-thanks": "Allpool on nimekiri kasutajatest, keda teised kasutajad on tänanud.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|tänas}} kasutajat {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 tänulogi",
+	"thanks-error-no-id-specified": "Pead määrama redaktsiooni identifikaatori, et tänu avaldada.",
+	"thanks-confirmation-special": "Kas tahad selle muudatuse eest tänu avaldada?",
 	"notification-link-text-view-post": "Vaata kommentaari",
+	"thanks-error-invalidpostid": "Postituse identifikaator on vigane.",
+	"flow-thanks-confirmation-special": "Kas tahad selle kommentaari eest tänu avaldada?",
+	"flow-thanks-thanked-notice": "Kasutajale $1 on edasi öeldud, et sulle meeldis {{GENDER:$2|tema}} kommentaar.",
 	"notification-flow-thanks": "[[User:$1|$1]] tänas sind $2 eest teemal \"$3\" leheküljel \"[[:$4]]\".",
 	"notification-flow-thanks-post-link": "kommentaari",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] tänas sind kommentaari eest teemal \"$2\" leheküljel \"$3\".",

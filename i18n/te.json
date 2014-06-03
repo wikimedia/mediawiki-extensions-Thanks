@@ -4,10 +4,11 @@
 			"Arjunaraoc",
 			"Veeven",
 			"Visdaviva",
-			"రహ్మానుద్దీన్"
+			"రహ్మానుద్దీన్",
+			"Kiranmayee"
 		]
 	},
-	"thanks-desc": "చరిత్ర మరియు తేడా వీక్షణాలకు ధన్యవాద లంకెలను జత చేస్తుంది",
+	"thanks-desc": "చరిత్ర మరియు తేడా వీక్షణాలకు వాడుకరులకు ధన్యవాదములు తెలుపు లంకెలను జత చేస్తుంది",
 	"thanks-thank": "కృతజ్ఞత తెలుపు",
 	"thanks-thanked": "{{GENDER:$1|అభినందించారు}}",
 	"thanks-error-undefined": "కృతజ్ఞతల చర్య విఫలమైంది. దయచేసి మళ్ళీ ప్రయత్నించండి.",
@@ -27,5 +28,7 @@
 	"log-name-thanks": "ధన్యవాదాల చిట్టా",
 	"log-description-thanks": "క్రింది వాడుకరులు ఇతర వాడుకరుల నుండి ధన్యవాదాలు పొందారు.",
 	"logentry-thanks-thank": "$1  {{GENDER:$4|$3}} కు {{GENDER:$2|ధన్యవాదాలు పంపారు}}",
-	"log-show-hide-thanks": "$1 ధన్యవాదాల చిట్టా"
+	"log-show-hide-thanks": "$1 ధన్యవాదాల చిట్టా",
+	"thanks-confirmation-special": "ఈ మార్పునకు ధన్యవాదములు తెలుపుతారా?",
+	"flow-thanks-confirmation-special": "ఈ వ్యాఖ్యానానికి ధన్యవాదములు తెలుపుతారా?"
 }
