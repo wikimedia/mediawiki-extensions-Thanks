@@ -5,7 +5,7 @@
 			"Милан Јелисавчић"
 		]
 	},
-	"thanks-desc": "Додаје могућност захваљивања у прегледу историје и прегледу разлика између измена",
+	"thanks-desc": "Додаје везе за захваљивање корисницима за њихове измене, коментаре итд.",
 	"thanks-thank": "захвали се",
 	"thanks-thanked": "{{GENDER:$1|захваљено}}",
 	"thanks-button-thank": "{{GENDER:$1|Захвали се}}",
@@ -31,7 +31,11 @@
 	"log-description-thanks": "Испод се налази списак корисника којима су се други корисници захвалили.",
 	"logentry-thanks-thank": "$1 се {{GENDER:$2|захвалио|захвалила}} {{GENDER:$4|кориснику|корисници}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 дневник захваљивања",
+	"thanks-error-no-id-specified": "Морате навести број измене да би сте се захвалили.",
+	"thanks-confirmation-special": "Желите ли да се захвалите за ову измену?",
 	"notification-link-text-view-post": "Види коментар",
+	"flow-thanks-confirmation-special": "Желите ли да се захвалите за овај коментар?",
+	"flow-thanks-thanked-notice": "$1 {{GENDER:$2|је обавештен да вам се свиђа његов|је обавештена да вам се свиђа њен}} коментар.",
 	"notification-flow-thanks": "[[User:$1|$1]] вам се {{GENDER:$1|захваљује}} на $2 у теми „$3“ на страници [[:$4]].",
 	"notification-flow-thanks-post-link": "вашем коментару",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] вам се {{GENDER:$1|захваљује}} на вашем коментару у теми „$2“ на страници $3.",

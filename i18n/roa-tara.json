@@ -30,5 +30,6 @@
 	"log-name-thanks": "Archivije de le rengraziaminde",
 	"log-description-thanks": "Sotte stè 'n'elenghe de utinde ca onne rengraziate otre utinde.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|ave ringraziate}} {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 archivije de le rengraziaminde"
+	"log-show-hide-thanks": "$1 archivije de le rengraziaminde",
+	"flow-thanks-confirmation-special": "Vuè ccu manne 'nu grazie pe stu commende?"
 }

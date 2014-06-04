@@ -5,7 +5,7 @@
 			"Mormegil"
 		]
 	},
-	"thanks-desc": "Přidává do historie a zobrazení rozdílů odkazy pro poděkování",
+	"thanks-desc": "Přidává odkazy pro poděkování uživatelům za editace, komentáře apod.",
 	"thanks-thank": "poděkovat",
 	"thanks-thanked": "{{GENDER:$1|poděkováno}}",
 	"thanks-button-thank": "{{GENDER:$1|Poděkovat}}",
@@ -32,7 +32,12 @@
 	"log-description-thanks": "Níže je seznam uživatelů, kterým ostatní uživatelé poděkovali.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|poděkoval|poděkovala}} {{GENDER:$4|uživateli|uživatelce}} $3",
 	"log-show-hide-thanks": "$1 knihu poděkování",
+	"thanks-error-no-id-specified": "Abyste {{GENDER:|mohl|mohla|mohli}} poděkovat, musíte zadat ID revize.",
+	"thanks-confirmation-special": "Chcete poděkovat za tuto editaci?",
 	"notification-link-text-view-post": "Zobrazit komentář",
+	"thanks-error-invalidpostid": "ID komentáře není platné.",
+	"flow-thanks-confirmation-special": "Chcete poděkovat za tento komentář?",
+	"flow-thanks-thanked-notice": "{{GENDER:$2|Uživatel|Uživatelka}} $1 {{GENDER:$2|byl informován|byla informována}} o tom, že se vám {{GENDER:$2|jeho|její}} komentář líbil.",
 	"notification-flow-thanks": "[[User:$1|$1]] vám {{GENDER:$1|poděkoval|poděkovala}} za $2 k „$3“ na stránce [[:$4]].",
 	"notification-flow-thanks-post-link": "váš komentář",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] vám {{GENDER:$1|poděkoval|poděkovala}} za váš komentář k „$2“ na stránce $3.",
