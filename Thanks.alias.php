@@ -64,6 +64,11 @@ $specialPageAliases['it'] = array(
 	'Thanks' => array( 'Ringrazia' ),
 );
 
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'Thanks' => array( '감사' ),
+);
+
 /** Luxembourgish (Lëtzebuergesch) */
 $specialPageAliases['lb'] = array(
 	'Thanks' => array( 'Merci' ),

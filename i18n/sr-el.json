@@ -4,7 +4,7 @@
 			"Milicevic01"
 		]
 	},
-	"thanks-desc": "Dodaje mogućnost zahvaljivanja u pregledu istorije i pregledu razlika između izmena",
+	"thanks-desc": "Dodaje veze za zahvaljivanje korisnicima za njihove izmene, komentare itd.",
 	"thanks-thank": "zahvali se",
 	"thanks-thanked": "{{GENDER:$1|zahvaljeno}}",
 	"thanks-button-thank": "{{GENDER:$1|Zahvali se}}",
@@ -30,7 +30,11 @@
 	"log-description-thanks": "Ispod se nalazi spisak korisnika kojima su se drugi korisnici zahvalili.",
 	"logentry-thanks-thank": "$1 se {{GENDER:$2|zahvalio|zahvalila}} {{GENDER:$4|korisniku|korisnici}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 dnevnik zahvaljivanja",
+	"thanks-error-no-id-specified": "Morate navesti broj izmene da bi ste se zahvalili.",
+	"thanks-confirmation-special": "Želite li da se zahvalite za ovu izmenu?",
 	"notification-link-text-view-post": "Vidi komentar",
+	"flow-thanks-confirmation-special": "Želite li da se zahvalite za ovaj komentar?",
+	"flow-thanks-thanked-notice": "$1 {{GENDER:$2|je obavešten da vam se sviđa njegov|je obaveštena da vam se sviđa njen}} komentar.",
 	"notification-flow-thanks": "[[User:$1|$1]] vam se {{GENDER:$1|zahvaljuje}} na $2 u temi „$3“ na stranici [[:$4]].",
 	"notification-flow-thanks-post-link": "vašem komentaru",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] vam se {{GENDER:$1|zahvaljuje}} na vašem komentaru u temi „$2“ na stranici $3.",
