@@ -4,7 +4,7 @@
 			"Lam-ang"
 		]
 	},
-	"thanks-desc": "Agnayon kadagiti silpo ti panagyaman kadagiti panagkita ti pakasaritaan ken sabali",
+	"thanks-desc": "Agnayon kadagiti silpo para iti panagyaman kadagiti agar-aramat para kadagiti panag-urnos, komentario, kdpy.",
 	"thanks-thank": "yamanan",
 	"thanks-thanked": "{{GENDER:$1|nayamanan}}",
 	"thanks-button-thank": "{{GENDER:$1|Yamanan}}",
@@ -31,7 +31,12 @@
 	"log-description-thanks": "Dita baba ket listaan dagiti agar-aramat a nayamanan babaen dagiti dadduma nga agar-aramat.",
 	"logentry-thanks-thank": "Ni $1 ket {{GENDER:$2|nagyaman}} kenni {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 ti listaan dagiti panagyaman",
+	"thanks-error-no-id-specified": "Nasken a mainaganan ti ID ti panagbaliw tapno makaipatulod kadagiti panagyaman.",
+	"thanks-confirmation-special": "Kayatmo kadi ti agipatulod kadagiti panagyaman para iti daytoy a panag-urnos?",
 	"notification-link-text-view-post": "Kitaen ti komentario",
+	"thanks-error-invalidpostid": "Ti ID ti pablaak ket saan nga umiso.",
+	"flow-thanks-confirmation-special": "Kayatmo kadi ti agipatulod kadagiti panagyaman para iti daytoy a komentario?",
+	"flow-thanks-thanked-notice": "Naipaammo idi kenni $1 a kinayatmo ti {{GENDER:$2|komentariona|komentariona|komentarioda}}.",
 	"notification-flow-thanks": "Ni [[User:$1|$1]] ket {{GENDER:$1|nagyaman}} kenka para iti $2 iti \"$3\" iti [[:$4]].",
 	"notification-flow-thanks-post-link": "ti komentariom",
 	"notification-flow-thanks-flyout": "Ni [[User:$1|$1]] ket {{GENDER:$1|nagyaman}} kenka para iti komentariom iti \"$2\" iti $3.",

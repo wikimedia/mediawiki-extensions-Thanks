@@ -5,7 +5,7 @@
 			"Prenn"
 		]
 	},
-	"thanks-desc": "Thêm liên kết cảm ơn vào các trang lịch sử và khác biệt",
+	"thanks-desc": "Thêm các liên kết để cảm ơn người dùng vì sửa đổi, bình luận, v.v.",
 	"thanks-thank": "cảm ơn",
 	"thanks-thanked": "{{GENDER:$1}}đã cảm ơn",
 	"thanks-button-thank": "{{GENDER:$1}}Cảm ơn",
@@ -32,7 +32,12 @@
 	"log-description-thanks": "Dưới đây có danh sách những người dùng được người khác cảm ơn.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2}}đã cảm ơn {{GENDER:$4}}$3",
 	"log-show-hide-thanks": "$1 nhật trình cảm ơn",
+	"thanks-error-no-id-specified": "Bạn phải định rõ số phiên bản để gửi cảm ơn.",
+	"thanks-confirmation-special": "Bạn có muốn gửi lời cảm ơn vì sửa đổi này?",
 	"notification-link-text-view-post": "Xem bình luận",
+	"thanks-error-invalidpostid": "Số bài đăng không hợp lệ.",
+	"flow-thanks-confirmation-special": "Bạn có muốn gửi lời cảm ơn vì lời bình luận này?",
+	"flow-thanks-thanked-notice": "Đã cho $1 biết rằng bạn thích lời bình luận của {{GENDER:$2}}họ.",
 	"notification-flow-thanks": "[[User:$1|$1]] cảm ơn bạn $2 về “$3” tại [[:$4]].",
 	"notification-flow-thanks-post-link": "đã bình luận",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] cảm ơn bạn đã bình luận về “$2” tại $3.",
