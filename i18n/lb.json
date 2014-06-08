@@ -27,6 +27,7 @@
 	"logentry-thanks-thank": "$1 {{GENDER:$2|huet dem}} {{GENDER:$4|$3}} Merci gesot",
 	"log-show-hide-thanks": "Logbuch vum 'Merci' $1",
 	"notification-link-text-view-post": "Bemierkung weisen",
+	"flow-thanks-confirmation-special": "Wëllt Dir fir dës Bemierkung e 'Merci' schécken?",
 	"notification-flow-thanks-post-link": "Är Bemierkung",
 	"notification-flow-thanks-email-subject": "{{GENDER:$1|D'|De(n)}} $1 seet Iech Merci fir Är Bemierkung op {{SITENAME}}",
 	"notification-flow-thanks-email-batch-body": "{{GENDER:$1|D'|De(n)}} $1 seet Iech Merci fir Är Bemierkung iwwer \"$2\" betreffend $3."

@@ -18,7 +18,7 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|שלח|שלחי}} הודעת תודה {{GENDER:$2|למשתמש זה|למשתמשת זו}}",
 	"thanks-confirmation": "האם {{GENDER:$1|אתה|את}} רוצה להודות ל־$2 על העריכה הזאת?",
 	"thanks-thanked-notice": "ל{{GRAMMAR:תחילית|$1}} נאמר שאהבת את העריכה {{GENDER:$2|שלו|שלה|שלו}}.",
-	"thanks": "נשלחה תודה",
+	"thanks": "שליחת תודה",
 	"thanks-form-revid": "מזהה גרסה עבור עריכה",
 	"thanks-already-thanked": "כבר {{GENDER:$1|שלחת}} תודה על העריכה הזאת.",
 	"echo-pref-subscription-edit-thank": "מודה לי על עריכה שלי",
