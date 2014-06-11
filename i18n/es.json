@@ -36,5 +36,6 @@
 	"log-description-thanks": "A continuación, una lista de usuarios que han sido agradecidos por otros usuarios.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|agradeció}} a {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 registro de agradecimientos",
-	"notification-link-text-view-post": "Ver comentario"
+	"notification-link-text-view-post": "Ver comentario",
+	"notification-flow-thanks-post-link": "tu comentario"
 }
