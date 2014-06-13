@@ -9,7 +9,7 @@
 			"Stryn"
 		]
 	},
-	"thanks-desc": "Lisää kiitä-linkit muokkaushistoriaan ja versioiden erot näyttävälle sivulle",
+	"thanks-desc": "Lisää linkkejä käyttäjien kiittämistä varten heidän muokkauksistaan, kommenteistaan ynnä muusta.",
 	"thanks-thank": "kiitä",
 	"thanks-thanked": "{{GENDER:$1|kiitetty}}",
 	"thanks-button-thank": "{{GENDER:$1|Kiitä}}",
@@ -36,7 +36,12 @@
 	"log-description-thanks": "Alla on luettelo niistä käyttäjistä, jotka ovat saaneet kiitoksia toisilta käyttäjiltä.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|kiitti}} käyttäjää {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 kiitosloki",
+	"thanks-error-no-id-specified": "Sinun on määritettävä version tunnistenumero, jotta voit lähettää kiitoksia.",
+	"thanks-confirmation-special": "Haluatko lähettää kiitokset tästä muokkauksesta?",
 	"notification-link-text-view-post": "Näytä kommentti",
+	"thanks-error-invalidpostid": "Viestin tunnistenumero ei ole kelvollinen.",
+	"flow-thanks-confirmation-special": "Haluatko lähettää kiitokset tästä kommentista?",
+	"flow-thanks-thanked-notice": "$1 on saanut ilmoituksen siitä, että tykkäsit {{GENDER:$2|hänen}} kommentistaan.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|kiitti}} sinua $2 aiheesta ”$3” sivulla [[:$4]].",
 	"notification-flow-thanks-post-link": "kommentistasi",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|kiitti}} sinua kommentistasi aiheessa ”$2” sivulla $3.",

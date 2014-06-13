@@ -89,6 +89,11 @@ $specialPageAliases['nb'] = array(
 	'Thanks' => array( 'Takk' ),
 );
 
+/** Dutch (Nederlands) */
+$specialPageAliases['nl'] = array(
+	'Thanks' => array( 'Bedanken' ),
+);
+
 /** Quechua (Runa Simi) */
 $specialPageAliases['qu'] = array(
 	'Thanks' => array( 'Uspalay' ),

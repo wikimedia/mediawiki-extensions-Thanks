@@ -4,7 +4,7 @@
 			"Servien"
 		]
 	},
-	"thanks-desc": "t Zet de \"Bedankt\"-verwiezing op de geschiedenisse en verschillenweergaven",
+	"thanks-desc": "Voegt verwiezingen toe um gebrukers te bedanken veur bewarkingen, kommentaar, enz.",
 	"thanks-thank": "bedanken",
 	"thanks-thanked": "{{GENDER:$1|is bedankt}}",
 	"thanks-button-thank": "{{GENDER:$1|Bedanken}}",
