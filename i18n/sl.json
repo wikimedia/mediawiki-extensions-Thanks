@@ -7,7 +7,7 @@
 			"Yerpo"
 		]
 	},
-	"thanks-desc": "K prikazom zgodovine in razlik doda povezavo za zahvalo.",
+	"thanks-desc": "Doda povezave za zahvalo uporabnikom za urejanja, pripombe itn.",
 	"thanks-thank": "zahvala",
 	"thanks-thanked": "{{GENDER:$1|zahvala je objavljena}}",
 	"thanks-button-thank": "{{GENDER:$1|Zahvala}}",
