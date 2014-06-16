@@ -6,7 +6,7 @@
 			"Nasir8891"
 		]
 	},
-	"thanks-desc": "ইতিহাস পাতায় ধন্যবাদ লিংক সংযোজন",
+	"thanks-desc": "সম্পাদনা, মতামত, ইত্যাদি জন্য ব্যবহারকারীদের ধন্যবাদের লিংক সংযোজন করে",
 	"thanks-thank": "ধন্যবাদ",
 	"thanks-thanked": "{{GENDER:$1|ধন্যবাদ জানিয়েছেন}}",
 	"thanks-button-thank": "{{GENDER:$1|ধন্যবাদ}}",
@@ -17,11 +17,14 @@
 	"thanks-thank-tooltip": "এই {{GENDER:$2|ব্যবহারকারীকে}} ধন্যবাদ বিজ্ঞপ্তি {{GENDER:$1|পাঠান}}",
 	"thanks-confirmation": "আপনি কি এই সম্পাদনার জন্য $2কে {{GENDER:$1|ধন্যবাদ}} জানাতে চান?",
 	"thanks-thanked-notice": "$1-কে জাননো হয়েছে যে আপনি {{GENDER:$2|তার|তার|তাদের}} সম্পাদনা পছন্দ করেছেন।",
+	"thanks": "ধন্যবাদ পাঠান",
+	"thanks-form-revid": "সম্পাদনা জন্য সংশোধন আইডি",
+	"thanks-already-thanked": "{{GENDER:$1|আপনি}} ইতিমধ্যে এই সম্পাদনার জন্য ধন্যবাদ পাঠিয়েছেন।",
 	"echo-pref-subscription-edit-thank": "আমার সম্পাদনার জন্য আমার ধন্যবাদসমূহ",
-	"echo-pref-tooltip-edit-thank": "আমার কোনো সম্পাদনার জন্য কেউ আমাকে ধন্যবাদ দিলে তা আমাকে জানাও",
+	"echo-pref-tooltip-edit-thank": "আমার কোনো সম্পাদনার জন্য কেউ আমাকে ধন্যবাদ দিলে তা আমাকে জানাও।",
 	"echo-category-title-edit-thank": "ধন্যবাদসমূহ",
 	"notification-thanks-diff-link": "আপনার সম্পাদনা",
-	"notification-thanks": "[[User:$1|$1]] আপনাকে [[:$3]] পাতায় $2 এর জন্য {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
+	"notification-thanks": "[[User:$1|$1]] আপনাকে [[:$3]] পাতায় $2-এর জন্য {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
 	"notification-thanks-flyout2": "$2 পাতায় সম্পাদনার জন্য [[User:$1|$1]]  আপনাকে {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
 	"notification-thanks-email-subject": "{{SITENAME}} সম্পাদনার জন্য $1 আপনাকে {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
 	"notification-thanks-email-batch-body": "$2-এ সম্পাদনার জন্য $1 আপনাকে {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
@@ -29,5 +32,16 @@
 	"log-name-thanks": "ধন্যবাদ লগ",
 	"log-description-thanks": "নিচে ব্যবহারকারীদের একটি তালিকা রয়েছে যারা অন্য ব্যবহারকারী হতে ধন্যবাদ পেয়েছেন।",
 	"logentry-thanks-thank": "$1 {{GENDER:$4|$3}}কে {{GENDER:$2|ধন্যবাদ জানিয়েছেন}}",
-	"log-show-hide-thanks": "ধন্যবাদ লগ $1"
+	"log-show-hide-thanks": "ধন্যবাদ লগ $1",
+	"thanks-error-no-id-specified": "ধন্যবাদ পাঠাতে আপনাকে একটি সংস্করণ আইডি উল্লেখ করা আবশ্যক।",
+	"thanks-confirmation-special": "আপনি কি এই সম্পাদনার জন্য ধন্যবাদ পাঠাতে চান?",
+	"notification-link-text-view-post": "মন্তব্য দেখুন",
+	"thanks-error-invalidpostid": "পোস্ট আইডি বৈধ নয়।",
+	"flow-thanks-confirmation-special": "আপনি কি এই মন্তব্যের জন্য ধন্যবাদ পাঠাতে চান?",
+	"flow-thanks-thanked-notice": "$1 বলেছেন যে আপনি {{GENDER:$2|তার|তার|তাদের}} মন্তব্য পছন্দ করেছেন।",
+	"notification-flow-thanks": "[[:$4]] পাতায় \"$3\"-এ $2-এর জন্য [[User:$1|$1]]  আপনাকে {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
+	"notification-flow-thanks-post-link": "আপনার মন্তব্য",
+	"notification-flow-thanks-flyout": "$3 পাতায় \"$2\"-এ মন্তব্যের জন্য [[User:$1|$1]] আপনাকে {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
+	"notification-flow-thanks-email-subject": "{{SITENAME}} মন্তব্যের জন্য $1 আপনাকে {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
+	"notification-flow-thanks-email-batch-body": "$3 পাতায় \"$2\"-এ মন্তব্যের জন্য $1 আপনাকে {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।"
 }

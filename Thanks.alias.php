@@ -59,6 +59,11 @@ $specialPageAliases['he'] = array(
 	'Thanks' => array( 'תודות' ),
 );
 
+/** Upper Sorbian (hornjoserbsce) */
+$specialPageAliases['hsb'] = array(
+	'Thanks' => array( 'Dźak' ),
+);
+
 /** Italian (italiano) */
 $specialPageAliases['it'] = array(
 	'Thanks' => array( 'Ringrazia' ),
