@@ -16,6 +16,7 @@
 	"echo-category-title-edit-thank": "אַ דאַנק",
 	"notification-thanks-diff-link": "אײַער רעדאקטירונג",
 	"notification-thanks": "[[User:$1|$1]] {{GENDER:$1|האט געדאנקט}} דיך פֿאר $2 אויף [[:$3]].",
+	"notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1|האט געדאנקט}} אײַך פֿאר אײַער רעדאקטירונג אויף $2.",
 	"notification-thanks-email-subject": "$1 {{GENDER:$1|האט אײַך געדאנקט}} פאר אײַער רעדאקטירונג אויף {{SITENAME}}",
 	"notification-thanks-email-batch-body": "$1 {{GENDER:$1|האט אײַך געדאנקט}} פאר אייר רעדאקטירונג אויף $2",
 	"notification-link-text-respond-to-user": "ענטפערן באניצער",

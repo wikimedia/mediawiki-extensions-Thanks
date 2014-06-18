@@ -8,7 +8,8 @@
 			"Qiyue2001",
 			"Xiaomingyan",
 			"Yfdyh000",
-			"Zhuyifei1999"
+			"Zhuyifei1999",
+			"Mywood"
 		]
 	},
 	"thanks-desc": "添加感谢用户编辑、评论等的连接",
@@ -38,7 +39,7 @@
 	"log-description-thanks": "下面是得到其他用户感谢的用户的列表。",
 	"logentry-thanks-thank": "$1{{GENDER:$2|感谢}}{{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1感谢日志",
-	"thanks-error-no-id-specified": "您必须指定发送感谢的修订ID。",
+	"thanks-error-no-id-specified": "您必须指定发送感谢的版本ID。",
 	"thanks-confirmation-special": "您希望对此编辑发送感谢么？",
 	"notification-link-text-view-post": "查看评论",
 	"thanks-error-invalidpostid": "帖子ID无效。",

@@ -37,6 +37,7 @@
 	"log-show-hide-thanks": "$1感謝日誌",
 	"notification-link-text-view-post": "檢視評論",
 	"thanks-error-invalidpostid": "帖子 ID 不準確。",
+	"flow-thanks-thanked-notice": "$1得知您喜歡{{GENDER:$2|他|她|他們|她們}}的評論。",
 	"notification-flow-thanks": "[[User:$1|$1]]感謝了您於[[:$4]]之「$3」的$2。",
 	"notification-flow-thanks-post-link": "您的評論",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]]感謝了您於$3的「$2」之評論。",
