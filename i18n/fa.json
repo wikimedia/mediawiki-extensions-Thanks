@@ -12,7 +12,7 @@
 			"درفش کاویانی"
 		]
 	},
-	"thanks-desc": "گزینهٔ «تشکر» را به تاریخچه و نمایش تفاوت‌ها می‌افزاید.",
+	"thanks-desc": "پیوندی برای تشکر کاربران برای ویرایش‌ها، توضیحات و ... اضافه می‌کند.",
 	"thanks-thank": "تشکر",
 	"thanks-thanked": "{{GENDER:$1|تشکر شد}}",
 	"thanks-button-thank": "{{GENDER:$1|تشکر}}",
@@ -39,7 +39,12 @@
 	"log-description-thanks": "این فهرستی است از کاربرانی که کاربران دیگر از آن‌ها تشکر کرده‌اند.",
 	"logentry-thanks-thank": "$1 از {{GENDER:$4|$3}} {{GENDER:$2|تشکر کرد}}",
 	"log-show-hide-thanks": "$1 سیاههٔ تشکرها",
+	"thanks-error-no-id-specified": "شناسهٔ نسخه برای فرستادن تشکر را مشخص کنید.",
+	"thanks-confirmation-special": "می‌خواهید برای این ویرایش تشکر بفرستید؟",
 	"notification-link-text-view-post": "مشاهده نظر",
+	"thanks-error-invalidpostid": "شناسهٔ پست معتبر نیست.",
+	"flow-thanks-confirmation-special": "می‌خواهید برای این توضیح تشکر بفرستید؟",
+	"flow-thanks-thanked-notice": "$1 برای {{GENDER:$2|توضیحش}} که شما دوست داشتید مطلع شد.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|سپاس}} از شما $2 در \"$3\" بر [[:$4]].",
 	"notification-flow-thanks-post-link": "نظر شما",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|سپاس}} از شما برای نظرتان در \"$2\" بر $3.",
