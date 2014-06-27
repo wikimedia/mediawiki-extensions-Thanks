@@ -17,7 +17,7 @@
 	"thanks-error-invalidrevision": "Nieprawidłowy identyfikator wersji.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Przekroczyłeś|Przekroczyłaś}} limit podziękowań. Poczekaj chwilę i spróbuj ponownie.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Wyślij}} podziękowanie do {{GENDER:$2|tego użytkownika|tej użytkowniczki}}",
-	"thanks-confirmation": "Czy chcesz {{GENDER:$1|podziękować}} $2 za tę edycję?",
+	"thanks-confirmation": "Czy chcesz {{GENDER:$1|chciałbyś podziękować|chciałabyć podziękować}} $2 za tę edycję?",
 	"thanks-thanked-notice": "$1 {{GENDER:$2|został powiadomiony|została powiadomiona}} o twoim podziękowaniu za {{GENDER:$2|jego|jej}} edycję.",
 	"thanks": "Wyślij podziękowanie",
 	"thanks-form-revid": "ID wersji",
