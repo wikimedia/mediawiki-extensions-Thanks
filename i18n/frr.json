@@ -4,7 +4,7 @@
 			"Murma174"
 		]
 	},
-	"thanks-desc": "Saat en \"soonk\" tu a werjuunsferluup",
+	"thanks-desc": "Saat ferwisangen, am brükern tu soonkin för hör bidracher",
 	"thanks-thank": "soonke",
 	"thanks-thanked": "{{GENDER:$1|besoonket}}",
 	"thanks-button-thank": "{{GENDER:$1|Besoonke}}",
@@ -31,7 +31,12 @@
 	"log-description-thanks": "Oner stäänt en list faan brükern, diar faan ööder brükern soonk saad wurden as.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|besoonket}} ham bi {{Gender:$4|$3}}",
 	"log-show-hide-thanks": "Föl-soonk-logbuk $1",
+	"thanks-error-no-id-specified": "Dü skel en werjuuns-ID uundu, am en soonk tu schüüren.",
+	"thanks-confirmation-special": "Maadst dü en soonk för didiar bidrach schüür?",
 	"notification-link-text-view-post": "Komentaar uunwise",
+	"thanks-error-invalidpostid": "Det ID faan di bidrach as ferkiard.",
+	"flow-thanks-confirmation-special": "Maadst dü en soonk för didiar komentaar schüür?",
+	"flow-thanks-thanked-notice": "$1 hää bööd füngen, dat dü {{GENDER:$2|sin|hör|hör}} komentaar gud fanjst.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|soonket}} di för $2 uun \"$3\" üüb [[:$4]].",
 	"notification-flow-thanks-post-link": "dan komentaar",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|soonket}} di för dan komentaar uun \"$2\" üüb $3.",
