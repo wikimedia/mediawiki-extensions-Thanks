@@ -7,7 +7,7 @@
 			"Ата"
 		]
 	},
-	"thanks-desc": "Додає посилання вдячності до переглядів історії та різниці версій",
+	"thanks-desc": "Додає посилання для дякування користувачам за редагування, коментарі тощо.",
 	"thanks-thank": "дякую",
 	"thanks-thanked": "{{GENDER:$1|подякував|подякувала}}",
 	"thanks-button-thank": "{{GENDER:$1|Подякувати}}",
@@ -34,7 +34,12 @@
 	"log-description-thanks": "Нижче наведено перелік користувачів, які подякували іншими користувачами.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|подякував|подякувала}} {{GENDER:$4|користувачу|користувачці}} $3",
 	"log-show-hide-thanks": "журнал подяк $1",
+	"thanks-error-no-id-specified": "Слід указати ID версії, щоб відправити подяку.",
+	"thanks-confirmation-special": "Ви хочете надіслати подяку за це редагування?",
 	"notification-link-text-view-post": "Перегляд коментаря",
+	"thanks-error-invalidpostid": "Неприпустимий ідентифікатор допису.",
+	"flow-thanks-confirmation-special": "Ви хочете надіслати подяку за цей коментар?",
+	"flow-thanks-thanked-notice": "$1 було сповіщено, що вам подобається {{GENDER:$2|його|її|їх}} коментар.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|подякував|подякувала}} Вам за $2 у \"$3\" на [[:$4]].",
 	"notification-flow-thanks-post-link": "ваш коментар",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]]  {{GENDER:$1|подякував|подякувала}} Вам за Ваш коментар у $2 на $3.",
