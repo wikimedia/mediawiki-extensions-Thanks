@@ -73,9 +73,7 @@ $wgHooks['AddNewAccount'][] = 'ThanksHooks::onAccountCreated';
 $wgHooks['BeforeSpecialMobileDiffDisplay'][] = 'ThanksHooks::onBeforeSpecialMobileDiffDisplay';
 $wgHooks['UnitTestsList'][] = 'ThanksHooks::registerUnitTests';
 $wgHooks['GetLogTypesOnUser'][] = 'ThanksHooks::onGetLogTypesOnUser';
-
-$wgHooks['FlowAddPostInteractionLinks'][] = 'ThanksHooks::onFlowAddPostInteractionLinks';
-$wgHooks['FlowAddModules'][] = 'ThanksHooks::onFlowAddModules';
+$wgHooks['BeforePageDisplay'][] = 'ThanksHooks::onBeforePageDisplay';
 
 // Register modules
 $wgResourceModules['ext.thanks'] = array(

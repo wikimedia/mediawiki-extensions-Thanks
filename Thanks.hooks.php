@@ -272,86 +272,18 @@ class ThanksHooks {
 	}
 
 	/**
-	 * Handler for FlowAddModules
+	 * Handler for FlowAddModules.  Inserts javascript to enhance thank
+	 * links from static urls to in-page dialogs along with reloading
+	 * the previously thanked state.
+	 *
 	 * @param OutputPage $out OutputPage object
+	 * @param mixed $skin
 	 * @return bool
 	 */
-	public static function onFlowAddModules( OutputPage $out ) {
-		$out->addModules( 'ext.thanks.flowthank' );
-		return true;
-	}
-
-	/**
-	 * Handler for FlowAddInteractionLinks
-	 * Appends a 'thank' button or a 'thanked' label to interaction links for Flow comments
-	 * @param Flow\Model\PostRevision $post Flow PostRevision object for the comment
-	 * @param User $user User viewing the page
-	 * @param array $links Array of interaction links to be displayed
-	 * @return bool
-	 */
-	public static function onFlowAddPostInteractionLinks( $post, $user, &$links ) {
-		global $wgThanksSendToBots;
-		// Make sure Echo is turned on.
-		// Exclude anonymous users.
-		// Don't let users thank themselves.
-		// Exclude users who are blocked.
-		if ( class_exists( 'EchoNotifier' )
-			&& !$user->isAnon()
-			&& $post->getCreatorId() != $user->getId()
-			&& !$user->isBlocked()
-		) {
-			$recipient = User::newFromId( $post->getCreatorId() );
-			$recipientAllowed = true;
-			// If bots are not allowed, exclude them as recipients
-			if ( !$wgThanksSendToBots ) {
-				$recipientAllowed = !in_array( 'bot', $recipient->getGroups() );
-			}
-			if ( $recipientAllowed && !$recipient->isAnon() ) {
-				$links[] = self::generateFlowThankElement( $post, $user, $recipient );
-			}
+	public static function onBeforePageDisplay( OutputPage $out, $skin ) {
+		if ( $out->getTitle()->getContentModel() === 'flow-board' ) {
+			$out->addModules( 'ext.thanks.flowthank' );
 		}
 		return true;
-	}
-
-	/**
-	 * Creates either a 'thank' button or a 'thanked' label based on session data
-	 * @param Flow\Model\PostRevision $post Flow PostRevision object for the comment
-	 * @param User $user User viewing the page
-	 * @param User $recipient User who receives thanks notification
-	 * @return string HTML segment for the links
-	 */
-	protected static function generateFlowThankElement( $post, $user, $recipient ) {
-		$cssActiveClass = 'mw-thanks-flow-thank-link mw-ui-button mw-ui-quiet mw-ui-constructive';
-		$cssInactiveClass = 'mw-thanks-flow-thanked mw-ui-button mw-ui-quiet mw-ui-disabled';
-
-		$uuid = $post->getPostId()->getAlphadecimal();
-
-		// User has already thanked for revision
-		if ( $user->getRequest()->getSessionData( "flow-thanked-{$uuid}" ) ) {
-			return Html::rawElement(
-				'span',
-				array( 'class' => $cssInactiveClass ),
-				wfMessage( 'thanks-button-thanked', $user )->escaped()
-			);
-		}
-
-		// Add 'thank' link
-		$tooltip = wfMessage( 'thanks-thank-tooltip' )
-				->params( $user->getName(), $recipient->getName() )
-				->text();
-
-		return Html::rawElement(
-			'a',
-			array(
-				'class' => $cssActiveClass,
-				'href' => SpecialPage::getTitleFor(
-					'Thanks',
-					'Flow/' . $uuid
-				)->getFullURL(),
-				'title' => $tooltip,
-				'data-post-id' => $uuid
-			),
-			wfMessage( 'thanks-button-thank', $user )->escaped()
-		);
 	}
 }

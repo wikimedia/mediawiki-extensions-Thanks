@@ -2,16 +2,16 @@
 	'use strict';
 
 	mw.thanks.thanked.cookieName = 'flow-thanked';
-	mw.thanks.thanked.attrName = 'data-post-id';
+	mw.thanks.thanked.attrName = 'data-flow-id';
 
 	var $thankedLabel = $( '<span></span>' )
 		.append( mw.msg( 'thanks-button-thanked', mw.user ) )
-		.addClass( 'mw-thanks-flow-thanked mw-ui-button mw-ui-quiet mw-ui-disabled' );
+		.addClass( 'mw-thanks-flow-thanked mw-ui-quiet' );
 
 	var reloadThankedState = function() {
 		$( 'a.mw-thanks-flow-thank-link' ).each( function( idx, el ) {
 			var $thankLink = $( el );
-			if ( mw.thanks.thanked.contains( $thankLink ) ) {
+			if ( mw.thanks.thanked.contains( $thankLink.closest( '.flow-post' ) ) ) {
 				$thankLink.before( $thankedLabel.clone() );
 				$thankLink.remove();
 			}
@@ -21,13 +21,13 @@
 	var sendFlowThanks = function( $thankLink ) {
 		( new mw.Api ).get( {
 			'action' : 'flowthank',
-			'postid' : $thankLink.attr( 'data-post-id' ),
+			'postid' : $thankLink.closest( '.flow-post' ).attr( mw.thanks.thanked.attrName ),
 			'token' : mw.user.tokens.get( 'editToken' )
 		} )
 		.done( function( data ) {
+			mw.thanks.thanked.push( $thankLink.closest( '.flow-post' ) );
 			$thankLink.before( $thankedLabel.clone() );
 			$thankLink.remove();
-			mw.thanks.thanked.push( $thankLink );
 		} )
 		.fail( function( errorCode, details ) {
 			// TODO: use something besides alert for the error messages
@@ -50,7 +50,7 @@
 	}
 
 	// .on() is needed to make the button work for dynamically loaded posts
-	$( '.flow-container' ).on( 'click', 'a.mw-thanks-flow-thank-link', function( e ) {
+	$( '.flow-board' ).on( 'click', 'a.mw-thanks-flow-thank-link', function( e ) {
 		var $thankLink = $( this );
 		e.preventDefault();
 		sendFlowThanks( $thankLink );
