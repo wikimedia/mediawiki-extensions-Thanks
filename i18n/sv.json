@@ -39,7 +39,7 @@
 	"thanks-error-no-id-specified": "Du måste ange ett versions-ID om du vill skicka tack.",
 	"thanks-confirmation-special": "Vill du skicka tack för denna redigering?",
 	"notification-link-text-view-post": "Visa kommentar",
-	"thanks-error-invalidpostid": "InläggsID: är inte giltigt.",
+	"thanks-error-invalidpostid": "Inläggs-ID är inte giltigt.",
 	"flow-thanks-confirmation-special": "Vill du skicka tack för denna kommentar?",
 	"flow-thanks-thanked-notice": "$1 meddelades att du gillade {{GENDER:$2|hans|hennes|dennes}} kommentar.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|tackade}} dig för $2 i \"$3\" på [[:$4]].",
