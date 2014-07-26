@@ -30,7 +30,7 @@
 	"notification-thanks-email-batch-body": "$1 {{GENDER:$1|takket}} deg for redigeringen din på $2.",
 	"notification-link-text-respond-to-user": "Svar til bruker",
 	"log-name-thanks": "Takkelogg",
-	"log-description-thanks": "Under er en liste av brukere som er takket av andre brukere.",
+	"log-description-thanks": "Under er en liste over brukere som har blitt takket av andre brukere.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|takket}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 takkelogg",
 	"thanks-error-no-id-specified": "Du må angi en revisjons-ID for å takke.",
