@@ -79,6 +79,11 @@ $specialPageAliases['lb'] = array(
 	'Thanks' => array( 'Merci' ),
 );
 
+/** Literary Chinese (文言) */
+$specialPageAliases['lzh'] = array(
+	'Thanks' => array( '謝' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'Thanks' => array( 'Благодарења' ),
