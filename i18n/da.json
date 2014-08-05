@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Christian List",
-			"Palnatoke"
+			"Palnatoke",
+			"Thomsen"
 		]
 	},
-	"thanks-desc": "Tilføjer takkelinks til historik og forskelsvisninger",
+	"thanks-desc": "Tilføjer links til at takke brugerne for ændringer, kommentarer, osv.",
 	"thanks-thank": "tak",
 	"thanks-thanked": "{{GENDER:$1|takkede}}",
 	"thanks-button-thank": "{{GENDER:$1|Tak}}",
