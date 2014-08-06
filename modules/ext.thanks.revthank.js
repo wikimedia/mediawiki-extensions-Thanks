@@ -11,36 +11,9 @@
 		} );
 	};
 
-	var confirmThanks = function( $thankLink ) {
-		var recipient = $thankLink.parent().find( '.mw-userlink' ).text();
-		if ( recipient === '' ) { // for Diff view
-			recipient = $thankLink.parents( '.diff-ntitle' ).find( '.mw-userlink' ).text();
-		}
-		var $dialog = $( '<div>' ).msg( 'thanks-confirmation', mw.user, recipient );
-		$dialog.dialog( {
-			autoOpen: false,
-			width: 400,
-			modal: true,
-			resizable: false,
-			buttons: [
-				{
-					text: mw.msg( 'ok' ),
-					'class': 'ui-button-green',
-					click: function() {
-						$( this ).dialog( "close" );
-						sendThanks( $thankLink );
-					}
-				},
-				{
-					text: mw.msg( 'cancel' ),
-					click: function() { $( this ).dialog( "close" ); }
-				}
-			]
-		} );
-		$dialog.dialog( 'open' );
-	};
-
-	var sendThanks = function( $thankLink ) {
+	// $thankLink is the element with the data-revision-id attribute
+	// $thankElement is the element to be removed on success
+	var sendThanks = function( $thankLink, $thankElement ) {
 		var source;
 		if ( mw.config.get( 'wgAction' ) === 'history' ) {
 			source = 'history';
@@ -54,8 +27,8 @@
 			'token' : mw.user.tokens.values.editToken
 		} )
 		.done( function( data ) {
-			$thankLink.before( mw.message( 'thanks-thanked', mw.user ).escaped() );
-			$thankLink.remove();
+			$thankElement.before( mw.message( 'thanks-thanked', mw.user ).escaped() );
+			$thankElement.remove();
 			mw.thanks.thanked.push( $thankLink );
 		} )
 		.fail( function( errorCode, details ) {
@@ -81,13 +54,22 @@
 		$( document ).ready( reloadThankedState );
 	}
 
-	$( 'a.mw-thanks-thank-link' ).click( function( e ) {
-		var $thankLink = $( this );
-		e.preventDefault();
+	$( function() {
 		if ( mw.config.get( 'thanks-confirmation-required' ) ) {
-			confirmThanks( $thankLink );
+			$( 'a.mw-thanks-thank-link' ).confirmable( {
+				i18n: { confirm: mw.msg( 'thanks-confirmation2', mw.user ) },
+				handler: function ( e ) {
+					var $thankLink = $( this );
+					e.preventDefault();
+					sendThanks( $thankLink, $thankLink.closest( '.jquery-confirmable-wrapper' ) );
+				}
+			} );
 		} else {
-			sendThanks( $thankLink );
+			$( 'a.mw-thanks-thank-link' ).click( function ( e ) {
+				var $thankLink = $( this );
+				e.preventDefault();
+				sendThanks( $thankLink, $thankLink );
+			} );
 		}
 	} );
 
