@@ -94,6 +94,11 @@ $specialPageAliases['ml'] = array(
 	'Thanks' => array( 'കൃത്ജ്ഞതകൾ' ),
 );
 
+/** Marathi (मराठी) */
+$specialPageAliases['mr'] = array(
+	'Thanks' => array( 'धन्यवाद' ),
+);
+
 /** Norwegian Bokmål (norsk bokmål) */
 $specialPageAliases['nb'] = array(
 	'Thanks' => array( 'Takk' ),
@@ -102,6 +107,11 @@ $specialPageAliases['nb'] = array(
 /** Dutch (Nederlands) */
 $specialPageAliases['nl'] = array(
 	'Thanks' => array( 'Bedanken' ),
+);
+
+/** Portuguese (português) */
+$specialPageAliases['pt'] = array(
+	'Thanks' => array( 'Agradecer' ),
 );
 
 /** Quechua (Runa Simi) */
