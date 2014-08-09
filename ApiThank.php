@@ -49,7 +49,7 @@ abstract class ApiThank extends ApiBase {
 	}
 
 	public function needsToken() {
-		return true;
+		return 'csrf';
 	}
 
 	// Writes to the Echo database and sometimes log tables.
