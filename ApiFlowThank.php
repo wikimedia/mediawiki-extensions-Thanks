@@ -70,7 +70,7 @@ class ApiFlowThank extends ApiThank {
 
 	/**
 	 * @param UUID $postId UUID of the post to thank for
-	 * @returns array containing 'post' and 'root' as keys
+	 * @return array containing 'post' and 'root' as keys
 	 */
 	private function getFlowData( UUID $postId ) {
 		$rootPostLoader = Container::get( 'loader.root_post' );
@@ -89,7 +89,7 @@ class ApiFlowThank extends ApiThank {
 
 	/**
 	 * @param PostRevision $post
-	 * @returns User
+	 * @return User
 	 */
 	private function getRecipientFromPost( PostRevision $post ) {
 		$recipient = User::newFromId( $post->getCreatorId() );
@@ -101,7 +101,7 @@ class ApiFlowThank extends ApiThank {
 
 	/**
 	 * @param PostRevision $rootPost
-	 * @returns Title
+	 * @return Title
 	 */
 	private function getPageTitleFromRootPost( PostRevision $rootPost ) {
 		$workflow = Container::get( 'storage' )->get( 'Workflow', $rootPost->getPostId() );
