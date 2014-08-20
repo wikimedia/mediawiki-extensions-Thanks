@@ -10,7 +10,7 @@
 			"Southparkfan"
 		]
 	},
-	"thanks-desc": "Voegt \"Bedankt\"-koppelingen toe aan geschiedenis en verschillenweergaves",
+	"thanks-desc": "Voegt koppelingen voor het bedanken van gebruikers voor bewerkingen, opmerkingen en dergelijke toe",
 	"thanks-thank": "bedanken",
 	"thanks-thanked": "{{GENDER:$1|is bedankt}}",
 	"thanks-button-thank": "{{GENDER:$1|Bedanken}}",
