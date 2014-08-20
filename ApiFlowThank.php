@@ -105,7 +105,7 @@ class ApiFlowThank extends ApiThank {
 	 */
 	private function getPageTitleFromRootPost( PostRevision $rootPost ) {
 		$workflow = Container::get( 'storage' )->get( 'Workflow', $rootPost->getPostId() );
-		return $workflow->getArticleTitle();
+		return $workflow->getOwnerTitle();
 	}
 
 	/**
