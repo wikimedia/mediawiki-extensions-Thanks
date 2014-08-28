@@ -47,7 +47,7 @@
 		} else {
 			source = 'diff';
 		}
-		( new mw.Api ).get( {
+		( new mw.Api ).post( {
 			'action' : 'thank',
 			'rev' : $thankLink.attr( 'data-revision-id' ),
 			'source' : source,
