@@ -19,7 +19,7 @@
 	"thanks-error-invalidrevision": "Die Versionskennung ist ungültig.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Du}} hast dein Aktionslimit überschritten. Bitte warte etwas und versuche es erneut.",
 	"thanks-thank-tooltip": "{{GENDER:$2|Diesem Benutzer|Dieser Benutzerin}} ein Dankeschön {{GENDER:$1|senden}}",
-	"thanks-confirmation": "Möchtest du $2 für diese Bearbeitung {{GENDER:$1|danken}}?",
+	"thanks-confirmation2": "Dankeschöns für diese Bearbeitung {{GENDER:$1|senden}}?",
 	"thanks-thanked-notice": "$1 wurde benachrichtigt, dass dir {{GENDER:$2|seine|ihre|seine}} Bearbeitung gefällt.",
 	"thanks": "Für diese Bearbeitung danken",
 	"thanks-form-revid": "Versionskennung der Bearbeitung",

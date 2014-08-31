@@ -15,7 +15,6 @@
 	"thanks-error-invalidrevision": "A lapváltozat azonosítója érvénytelen.",
 	"thanks-error-ratelimited": "Túllépted a meghatározott limitet. Kérlek várj egy kicsit és próbáld újra.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Küldj}} köszönetet ennek a {{GENDER:$2|szerkesztőnek}}",
-	"thanks-confirmation": "Biztos, hogy {{GENDER:$1|meg akarod köszönni}} $2 szerkesztését?",
 	"thanks-thanked-notice": "$1 was notified that you liked {{GENDER:$2|his|her|their}} edit.",
 	"echo-pref-subscription-edit-thank": "Megköszöni a szerkesztésem",
 	"echo-pref-tooltip-edit-thank": "Értesítést kérek, ha valaki megköszöni egy szerkesztésemet.",
@@ -28,6 +27,6 @@
 	"notification-link-text-respond-to-user": "Válaszolok a szerkesztőnek.",
 	"log-name-thanks": "Köszönési napló",
 	"log-description-thanks": "Az alábbi szerkesztők köszönetet mondtak egy másik szerkesztőnek.",
-	"logentry-thanks-thank": "$1 {{GENDER:$2|köszönetet mondott}} {{GENDER:$4|$3}} szerkesztőnek.",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|köszönetet mondott}} {{GENDER:$4|$3}} szerkesztőnek",
 	"log-show-hide-thanks": "Köszönetnapló $1"
 }

@@ -13,7 +13,7 @@
 	"thanks-error-invalidrevision": "Codul versiunii nu este valid.",
 	"thanks-error-ratelimited": "{{GENDER:$1|V}}-ați depășit limita de evaluare. Așteptați un timp și reîncercați.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Trimite}} o notificare de mulțumire {{GENDER:$2|acestui utilizator|acestei utilizatoare}}",
-	"thanks-confirmation": "Doriți {{GENDER:$1|să mulțumiți}} utilizatorului $2 pentru această modificare?",
+	"thanks-confirmation2": "{{GENDER:$1|Trimiteți}} mulțumiri pentru această modificare?",
 	"thanks-thanked-notice": "$1 a fost {{GENDER:$2|notificat|notificată|notificat}} că i-ați apreciat modificarea.",
 	"thanks": "Trimitere mulțumiri",
 	"thanks-form-revid": "ID-ul versiunii pentru modificare",

@@ -24,7 +24,7 @@
 	"thanks-error-invalidrevision": "L’ID de révision n’est pas valide.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Vous}} avez dépassé votre limite de débit. Veuillez attendre un peu et réessayer.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Envoyer}} une notification de remerciement à {{GENDER:$2|cet utilisateur|cette utilisatrice}}",
-	"thanks-confirmation": "Voulez-vous {{GENDER:$1|remercier}} $2 pour cette modification ?",
+	"thanks-confirmation2": "{{GENDER:$1|Envoyer}} des remerciements pour cette mise à jour ?",
 	"thanks-thanked-notice": "$1 a été notifié que vous avez aimé {{GENDER:$2|sa}} modification.",
 	"thanks": "Envoyer des remerciements",
 	"thanks-form-revid": "ID de révision de la modification",
