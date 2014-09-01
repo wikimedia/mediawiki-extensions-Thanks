@@ -19,10 +19,9 @@
 	};
 
 	var sendFlowThanks = function( $thankLink ) {
-		( new mw.Api ).post( {
+		( new mw.Api ).postWithToken( 'edit', {
 			'action' : 'flowthank',
-			'postid' : $thankLink.closest( '.flow-post' ).attr( mw.thanks.thanked.attrName ),
-			'token' : mw.user.tokens.get( 'editToken' )
+			'postid' : $thankLink.closest( '.flow-post' ).attr( mw.thanks.thanked.attrName )
 		} )
 		.done( function( data ) {
 			mw.thanks.thanked.push( $thankLink.closest( '.flow-post' ) );
