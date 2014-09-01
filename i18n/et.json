@@ -14,6 +14,7 @@
 	"thanks-error-invalidrevision": "Redaktsiooni identifikaator ei sobi.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Oled}} ületanud piirangumäära. Palun oota natuke ja proovi uuesti.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Saada}} sellele {{GENDER:$2|kasutajale}} tänuteavitus",
+	"thanks-confirmation2": "Kas {{GENDER:$1|saadad}} selle muudatuse eest tänuavalduse?",
 	"thanks-thanked-notice": "Kasutajale $1 on edasi öeldud, et sulle meeldis {{GENDER:$2|tema}} muudatus.",
 	"thanks": "Tänu avaldamine",
 	"thanks-form-revid": "Muudatuse redaktsiooni identifikaator",

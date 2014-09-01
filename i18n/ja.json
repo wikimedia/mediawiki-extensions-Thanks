@@ -15,7 +15,7 @@
 	"thanks-error-invalidrevision": "版 ID が無効です。",
 	"thanks-error-ratelimited": "{{GENDER:$1|}}速度制限を超えました。しばらくしてからもう一度やり直してください。",
 	"thanks-thank-tooltip": "この{{GENDER:$2|利用者}}に感謝の通知を{{GENDER:$1|送信する}}",
-	"thanks-confirmation": "$2 のこの編集に対して{{GENDER:$1|感謝を示しますか}}?",
+	"thanks-confirmation2": "この編集に感謝を{{GENDER:$1|示しますか}}?",
 	"thanks-thanked-notice": "あなたが $1 の編集に感謝を示したことを{{GENDER:$2|本人}}に通知しました。",
 	"thanks": "感謝を示す",
 	"thanks-form-revid": "編集の版 ID",

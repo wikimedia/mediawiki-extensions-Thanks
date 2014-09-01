@@ -21,7 +21,7 @@
 	"thanks-error-invalidrevision": "O ID de revisão não é válido.",
 	"thanks-error-ratelimited": "Excedeu o limite de agradecimentos. Por favor, espere algum tempo e tente novamente.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Envie}} um agradecimento para {{GENDER:$2|este utilizador|esta utilizadora}}",
-	"thanks-confirmation": "Quer {{GENDER:$1|agradecer}} a $2 por esta edição?",
+	"thanks-confirmation2": "{{GENDER:$1|Enviar}} agradecimento por esta edição?",
 	"thanks-thanked-notice": "$1 foi {{GENDER:$2|informado|informada|informado(a)}} de que gostou da sua edição.",
 	"thanks": "Enviar agradecimento",
 	"thanks-form-revid": "ID de revisão para editar",

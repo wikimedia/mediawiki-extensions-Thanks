@@ -22,7 +22,7 @@
 	"thanks-error-invalidrevision": "版本ID无效。",
 	"thanks-error-ratelimited": "{{GENDER:$1|您}}的编辑可能已经超频。请等待一段时间后重试。",
 	"thanks-thank-tooltip": "{{GENDER:$1|发送}}感谢通知给该{{GENDER:$2|用户}}",
-	"thanks-confirmation": "您确定要{{GENDER:$1|感谢}}$2的这个编辑吗？",
+	"thanks-confirmation2": "对此编辑发送{{GENDER:$1|感谢}}？",
 	"thanks-thanked-notice": "$1已被告知你感谢{{GENDER:$2|他|她|他/她}}的编辑。",
 	"thanks": "发送感谢",
 	"thanks-form-revid": "用于编辑的修订ID",
