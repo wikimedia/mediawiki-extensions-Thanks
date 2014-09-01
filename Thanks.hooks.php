@@ -154,13 +154,13 @@ class ThanksHooks {
 			'group' => 'positive',
 			'formatter-class' => 'EchoFlowThanksFormatter',
 			'title-message' => 'notification-flow-thanks',
-			'title-params' => array( 'agent', 'postlink', 'topictitle', 'title' ),
+			'title-params' => array( 'agent', 'postlink', 'topictitle', 'title', 'user' ),
 			'flyout-message' => 'notification-flow-thanks-flyout',
-			'flyout-params' => array( 'agent', 'topictitle', 'title' ),
+			'flyout-params' => array( 'agent', 'topictitle', 'title', 'user' ),
 			'email-subject-message' => 'notification-flow-thanks-email-subject',
-			'email-subject-params' => array( 'agent' ),
+			'email-subject-params' => array( 'agent', 'user' ),
 			'email-body-batch-message' => 'notification-flow-thanks-email-batch-body',
-			'email-body-batch-params' => array( 'agent', 'topictitle', 'title' ),
+			'email-body-batch-params' => array( 'agent', 'topictitle', 'title', 'user' ),
 			'icon' => 'thanks',
 		);
 
