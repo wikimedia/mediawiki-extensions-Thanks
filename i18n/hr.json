@@ -23,5 +23,6 @@
 	"log-name-thanks": "Evidencija zahvala",
 	"log-description-thanks": "Slijedi popis suradnika koji su drugim suradnicima objavili zahvalu.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|zahvalio|zahvalila}} je {{GENDER:$4|suradniku|suradnici}} {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 evidenciju zahvala"
+	"log-show-hide-thanks": "$1 evidenciju zahvala",
+	"thanks-confirmation-special": "Želite li poslati zahvalu za ovo uređivanje?"
 }
