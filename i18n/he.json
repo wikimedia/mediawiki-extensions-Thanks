@@ -40,9 +40,9 @@
 	"thanks-error-invalidpostid": "מהזז הרשומה אינו תקין.",
 	"flow-thanks-confirmation-special": "האם לשלוח תודה על ההערה הזאת?",
 	"flow-thanks-thanked-notice": "$1 {{GENDER:$2|קיבל|קיבלה}} הודאה על כך שאהבת את ההערה {{GENDER:$2|שלו|שלה}}.",
-	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|הודה|הודתה}} לך על $2 בנושא \"$3\" בדף [[:$4]].",
+	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|הודה|הודתה}} {{GENDER:$5|לך}} על $2 בנושא \"$3\" בדף [[:$4]].",
 	"notification-flow-thanks-post-link": "התגובה שלך",
-	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|הודה|הודתה}} לך על התגובה שלך בנושא \"$2\" בדף $3.",
-	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|הודה|הודתה}} לך על התגובה שלך באתר {{SITENAME}}",
-	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|הודה|הודתה}} לך על התגובה שלך בנושא \"$2\" בדף $3."
+	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|הודה|הודתה}} {{GENDER:$4|לך}} על התגובה שלך בנושא \"$2\" בדף $3.",
+	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|הודה|הודתה}} {{GENDER:$2|לך}} על התגובה שלך באתר {{SITENAME}}",
+	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|הודה|הודתה}} {{GENDER:$4|לך}} על התגובה שלך בנושא \"$2\" בדף $3."
 }

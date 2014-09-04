@@ -39,9 +39,9 @@
 	"thanks-error-invalidpostid": "পোস্ট আইডি বৈধ নয়।",
 	"flow-thanks-confirmation-special": "আপনি কি এই মন্তব্যের জন্য ধন্যবাদ পাঠাতে চান?",
 	"flow-thanks-thanked-notice": "$1 বলেছেন যে আপনি {{GENDER:$2|তার|তার|তাদের}} মন্তব্য পছন্দ করেছেন।",
-	"notification-flow-thanks": "[[:$4]] পাতায় \"$3\"-এ $2-এর জন্য [[User:$1|$1]]  আপনাকে {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
+	"notification-flow-thanks": "[[:$4]] পাতায় \"$3\"-এ $2-এর জন্য [[User:$1|$1]] {{GENDER:$5|আপনাকে}} {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
 	"notification-flow-thanks-post-link": "আপনার মন্তব্য",
-	"notification-flow-thanks-flyout": "$3 পাতায় \"$2\"-এ মন্তব্যের জন্য [[User:$1|$1]] আপনাকে {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
-	"notification-flow-thanks-email-subject": "{{SITENAME}} মন্তব্যের জন্য $1 আপনাকে {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
-	"notification-flow-thanks-email-batch-body": "$3 পাতায় \"$2\"-এ মন্তব্যের জন্য $1 আপনাকে {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।"
+	"notification-flow-thanks-flyout": "$3 পাতায় \"$2\"-এ মন্তব্যের জন্য [[User:$1|$1]] {{GENDER:$4|আপনাকে}} {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
+	"notification-flow-thanks-email-subject": "{{SITENAME}} মন্তব্যের জন্য $1 {{GENDER:$2|আপনাকে}} {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
+	"notification-flow-thanks-email-batch-body": "$3 পাতায় \"$2\"-এ মন্তব্যের জন্য $1 {{GENDER:$4|আপনাকে}} {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।"
 }

@@ -45,6 +45,9 @@
 	"thanks-error-invalidpostid": "ID de mensagem inválido.",
 	"flow-thanks-confirmation-special": "Deseja enviar um agradecimento por este comentário?",
 	"flow-thanks-thanked-notice": "$1 foi {{GENDER:$2|informado|informada}} de que você gostou do seu comentário.",
+	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|agradeceu}}{{GENDER:$4|-lhe}} por $2 em \"$3\" ([[$4]]).",
 	"notification-flow-thanks-post-link": "o seu comentário",
-	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|agradeceu-lhe}} pelo seu comentário em {{SITENAME}}"
+	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|agradeceu}}{{GENDER:$4|-lhe}} pelo seu comentário em \"$2\" ($3).",
+	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|agradeceu}}{{GENDER:$2|-lhe}} pelo seu comentário em {{SITENAME}}",
+	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|agradeceu}}{{GENDER:$4|-lhe}} pelo seu comentário em \"$2\" ($3)."
 }

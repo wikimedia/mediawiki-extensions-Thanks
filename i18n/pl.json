@@ -17,7 +17,6 @@
 	"thanks-error-invalidrevision": "Nieprawidłowy identyfikator wersji.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Przekroczyłeś|Przekroczyłaś}} limit podziękowań. Poczekaj chwilę i spróbuj ponownie.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Wyślij}} podziękowanie do {{GENDER:$2|tego użytkownika|tej użytkowniczki}}",
-	"thanks-confirmation": "Czy chcesz {{GENDER:$1|chciałbyś podziękować|chciałabyć podziękować}} $2 za tę edycję?",
 	"thanks-thanked-notice": "$1 {{GENDER:$2|został powiadomiony|została powiadomiona}} o twoim podziękowaniu za {{GENDER:$2|jego|jej}} edycję.",
 	"thanks": "Wyślij podziękowanie",
 	"thanks-form-revid": "ID wersji",
@@ -38,9 +37,9 @@
 	"thanks-confirmation-special": "Czy chcesz wysłać podziękowanie za tę edycję?",
 	"notification-link-text-view-post": "Zobacz komentarz",
 	"flow-thanks-confirmation-special": "Czy chcesz wysłać podziękowanie za ten komentarz?",
-	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|podziękował|podziękowała}} ci za $2 w „$3” na stronie [[:$4]].",
+	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|podziękował|podziękowała}} {{GENDER:$5|ci}} za $2 w „$3” na stronie [[:$4]].",
 	"notification-flow-thanks-post-link": "twój komentarz",
-	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|podziękował|podziękowała}} ci za twój komentarz w „$2” na stronie $3.",
-	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|podziękował|podziękowała}} ci za twój komentarz w {{GRAMMAR:MS.lp|{{SITENAME}}}}",
-	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|podziękował|podziękowała}} ci za twój komentarz w „$2” na stronie $3."
+	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|podziękował|podziękowała}} {{GENDER:$4|ci}} za twój komentarz w „$2” na stronie $3.",
+	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|podziękował|podziękowała}} {{GENDER:$2|ci}} za twój komentarz w {{GRAMMAR:MS.lp|{{SITENAME}}}}",
+	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|podziękował|podziękowała}} {{GENDER:$4|ci}} za twój komentarz w „$2” na stronie $3."
 }

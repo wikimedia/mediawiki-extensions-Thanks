@@ -43,9 +43,9 @@
 	"thanks-error-invalidpostid": "Die Beitragskennung ist nicht gültig.",
 	"flow-thanks-confirmation-special": "Möchtest du Dankeschöns für diesen Kommentar senden?",
 	"flow-thanks-thanked-notice": "$1 wurde benachrichtigt, dass du {{GENDER:$2|seinen|ihren|seinen}} Kommentar magst.",
-	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|dankte}} dir für $2 in „$3“ auf [[:$4]].",
+	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|dankte}} {{GENDER:$5|dir}} für $2 in „$3“ auf [[:$4]].",
 	"notification-flow-thanks-post-link": "deinen Kommentar",
-	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|dankte}} dir für deinen Kommentar in „$2“ auf $3.",
-	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|dankte}} dir für deinen Kommentar auf {{SITENAME}}",
-	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|dankte}} dir für deinen Kommentar in „$2“ auf $3."
+	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|dankte}} {{GENDER:$4|dir}} für deinen Kommentar in „$2“ auf $3.",
+	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|dankte}} {{GENDER:$2|dir}} für deinen Kommentar auf {{SITENAME}}",
+	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|dankte}} {{GENDER:$4|dir}} für deinen Kommentar in „$2“ auf $3."
 }
