@@ -11,6 +11,7 @@
 	"thanks-error-undefined": "'Merci soen' huet net funktionéiert. Probéiert w.e.g. nach eng Kéier.",
 	"thanks-error-invalidrevision": "Versiounsnummer (ID) ass net valabel.",
 	"thanks-thank-tooltip": "{{GENDER:$2|Dësem Benotzer|Dëser Benotzerin}} ee \"Merci\" {{GENDER:$1|schécken}}",
+	"thanks-confirmation2": "Merci fir dës Ännerung {{GENDER:$1|schécken}}?",
 	"thanks": "Merci soen",
 	"thanks-already-thanked": "{{GENDER:$1|Dir}} hutt scho fir dës Ännerung Merci gesot.",
 	"echo-pref-subscription-edit-thank": "'Mercie' fir meng Ännerung",

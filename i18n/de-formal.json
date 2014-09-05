@@ -5,7 +5,6 @@
 		]
 	},
 	"thanks-error-ratelimited": "{{GENDER:$1|Sie}} haben Ihr Aktionslimit überschritten. Bitte warten Sie etwas und versuchen Sie es erneut.",
-	"thanks-confirmation": "Möchten Sie $2 für diese Bearbeitung {{GENDER:$1|danken}}?",
 	"thanks-thanked-notice": "$1 wurde benachrichtigt, dass Ihnen {{GENDER:$2|seine|ihre|ihre}} Bearbeitung gefällt.",
 	"thanks-already-thanked": "{{GENDER:$1|Sie}} haben bereits ein Dankeschön für diese Bearbeitung gesendet.",
 	"notification-thanks-diff-link": "Ihre Bearbeitung",
@@ -13,6 +12,8 @@
 	"notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1|dankt}} Ihnen für Ihre Bearbeitung auf „$2“.",
 	"notification-thanks-email-subject": "$1 {{GENDER:$1|dankt}} Ihnen für Ihre Bearbeitung auf {{SITENAME}}",
 	"notification-thanks-email-batch-body": "$1 {{GENDER:$1|dankt}} Ihnen für Ihre Bearbeitung auf „$2“.",
+	"thanks-confirmation-special": "Möchten Sie ein Dankeschön für diese Bearbeitung senden?",
+	"flow-thanks-confirmation-special": "Möchten Sie ein Dankeschön für diesen Kommentar senden?",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|dankte}} Ihnen für $2 in „$3“ auf [[:$4]].",
 	"notification-flow-thanks-post-link": "Ihren Kommentar",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|dankte}} Ihnen für Ihren Kommentar in „$2“ auf $3.",
