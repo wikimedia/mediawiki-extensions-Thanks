@@ -31,5 +31,5 @@
 	"flow-thanks-confirmation-special": "Wëllt Dir fir dës Bemierkung e 'Merci' schécken?",
 	"notification-flow-thanks-post-link": "Är Bemierkung",
 	"notification-flow-thanks-email-subject": "{{GENDER:$1|D'|De(n)}} $1 seet {{GENDER:$2|Iech}} Merci fir Är Bemierkung op {{SITENAME}}",
-	"notification-flow-thanks-email-batch-body": "{{GENDER:$1|D'|De(n)}} $1 seet {{GENDER:$2|Iech}} Merci fir Är Bemierkung iwwer \"$2\" betreffend $3."
+	"notification-flow-thanks-email-batch-body": "{{GENDER:$1|D'|De(n)}} $1 seet {{GENDER:$4|Iech}} Merci fir Är Bemierkung iwwer \"$2\" betreffend $3."
 }

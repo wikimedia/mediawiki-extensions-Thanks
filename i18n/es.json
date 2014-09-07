@@ -43,6 +43,6 @@
 	"thanks-error-invalidpostid": "El identificador de publicación no es válido.",
 	"flow-thanks-confirmation-special": "¿Deseas agradecer por este comentario?",
 	"flow-thanks-thanked-notice": "$1 fue notificado de que te gustó {{GENDER:$2|su}} comentario.",
-	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|te agradeció}} por $2 en \"$3\" de [[:$4]].",
+	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$5|te}} {{GENDER:$1|agradeció}} por $2 en \"$3\" de [[:$4]].",
 	"notification-flow-thanks-post-link": "tu comentario"
 }
