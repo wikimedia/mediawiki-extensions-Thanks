@@ -6,7 +6,7 @@
 	function thankUser( name, revision, gender ) {
 		var d = $.Deferred();
 		api.getToken( 'edit' ).done( function( token ) {
-			api.get( {
+			api.post( {
 				'action' : 'thank',
 				'rev' : revision,
 				'source' : 'mobilediff',
