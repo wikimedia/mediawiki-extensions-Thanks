@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Minh Nguyen",
-			"Prenn"
+			"Prenn",
+			"Trần Nguyễn Minh Huy"
 		]
 	},
 	"thanks-desc": "Thêm các liên kết để cảm ơn người dùng vì sửa đổi, bình luận, v.v.",
@@ -14,7 +15,7 @@
 	"thanks-error-invalidrevision": "Số phiên bản không hợp lệ.",
 	"thanks-error-ratelimited": "{{GENDER:$1}}Bạn đã vượt quá giới hạn tốc độ. Xin vui lòng thử lại lát nữa.",
 	"thanks-thank-tooltip": "{{GENDER:$1}}Gửi thông báo cảm ơn cho {{GENDER:$2}}người dùng này",
-	"thanks-confirmation": "Bạn có muốn {{GENDER:$1}}cảm ơn $2 vì sửa đổi này?",
+	"thanks-confirmation2": "{{GENDER:$1|Gửi}} lời cảm ơn vì sửa đổi này?",
 	"thanks-thanked-notice": "Đã cho $1 biết rằng bạn thích sửa đổi của {{GENDER:$2}}họ.",
 	"thanks": "Gửi lời cảm ơn",
 	"thanks-form-revid": "ID phiên bản sửa đổi",
@@ -38,9 +39,9 @@
 	"thanks-error-invalidpostid": "Số bài đăng không hợp lệ.",
 	"flow-thanks-confirmation-special": "Bạn có muốn gửi lời cảm ơn vì lời bình luận này?",
 	"flow-thanks-thanked-notice": "Đã cho $1 biết rằng bạn thích lời bình luận của {{GENDER:$2}}họ.",
-	"notification-flow-thanks": "[[User:$1|$1]] cảm ơn bạn $2 về “$3” tại [[:$4]].",
+	"notification-flow-thanks": "[[User:$1|$1]] cảm ơn {{GENDER:$5}}bạn $2 về “$3” tại [[:$4]].",
 	"notification-flow-thanks-post-link": "đã bình luận",
-	"notification-flow-thanks-flyout": "[[User:$1|$1]] cảm ơn bạn đã bình luận về “$2” tại $3.",
-	"notification-flow-thanks-email-subject": "$1 cảm ơn bạn đã bình luận trên {{SITENAME}}",
-	"notification-flow-thanks-email-batch-body": "$1 cảm ơn bạn đã bình luận về “$2” tại $3."
+	"notification-flow-thanks-flyout": "[[User:$1|$1]] cảm ơn {{GENDER:$4}}bạn đã bình luận về “$2” tại $3.",
+	"notification-flow-thanks-email-subject": "$1 cảm ơn {{GENDER:$2}}bạn đã bình luận trên {{SITENAME}}",
+	"notification-flow-thanks-email-batch-body": "$1 cảm ơn {{GENDER:$4}}bạn đã bình luận về “$2” tại $3."
 }

@@ -46,9 +46,9 @@
 	"thanks-error-invalidpostid": "شناسهٔ پست معتبر نیست.",
 	"flow-thanks-confirmation-special": "می‌خواهید برای این توضیح تشکر بفرستید؟",
 	"flow-thanks-thanked-notice": "$1 برای {{GENDER:$2|توضیحش}} که شما دوست داشتید مطلع شد.",
-	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|سپاس}} از شما $2 در \"$3\" بر [[:$4]].",
+	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|سپاس}} از {{GENDER:$5|شما}} $2 در «$3» بر [[:$4]].",
 	"notification-flow-thanks-post-link": "نظر شما",
-	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|سپاس}} از شما برای نظرتان در \"$2\" بر $3.",
-	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|سپاس}} از شما برای نظرتان در {{SITENAME}}",
-	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|سپاس}} از شما برای نظرتان در \"$2\" بر $3."
+	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|سپاس}} از {{GENDER:$4|شما}} برای نظرتان در «$2» بر $3.",
+	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|سپاس}} از {{GENDER:$2|شما}} برای نظرتان در {{SITENAME}}",
+	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|سپاس}} از {{GENDER:$4|شما}} برای نظرتان در «$2» بر $3."
 }
