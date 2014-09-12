@@ -7,7 +7,8 @@
 			"SPQRobin",
 			"Siebrand",
 			"Sjoerddebruin",
-			"Southparkfan"
+			"Southparkfan",
+			"Mar(c)"
 		]
 	},
 	"thanks-desc": "Voegt koppelingen voor het bedanken van gebruikers voor bewerkingen, opmerkingen en dergelijke toe",
@@ -19,7 +20,7 @@
 	"thanks-error-invalidrevision": "Het versienummer is niet geldig.",
 	"thanks-error-ratelimited": "{{GENDER:$1|U}} hebt uw limiet voor bedankjes overschreden. Wacht even en probeer het dan opnieuw.",
 	"thanks-thank-tooltip": "Deze {{GENDER:$2|gebruiker}} een bedankje {{GENDER:$1|sturen}}",
-	"thanks-confirmation": "Wilt u $2 {{GENDER:$1|bedanken}} voor deze bewerking?",
+	"thanks-confirmation2": "Een bedankje voor deze bewerking {{GENDER:$1|sturen}}?",
 	"thanks-thanked-notice": "$1 heeft bericht gekregen dat u {{GENDER:$2|zijn|haar|zijn/haar}} bewerking leuk vindt.",
 	"thanks": "Bedanken",
 	"thanks-form-revid": "Versie-ID voor bewerking",
@@ -39,6 +40,7 @@
 	"log-show-hide-thanks": "bedankjeslogboek $1",
 	"thanks-confirmation-special": "Wil je een bedankje sturen voor deze bewerking?",
 	"notification-link-text-view-post": "Reactie weergeven",
+	"flow-thanks-confirmation-special": "Wil je een bedankje sturen voor dit commentaar?",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|heeft}} u bedankt voor $2 in \"$3\" op [[:$4]].",
 	"notification-flow-thanks-post-link": "uw reactie",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|heeft}} u bedankt voor uw reactie in \"$2\" op $3.",

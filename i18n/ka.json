@@ -4,7 +4,8 @@
 			"BRUTE",
 			"David1010",
 			"Tokoko",
-			"Nodar Kherkheulidze"
+			"Nodar Kherkheulidze",
+			"Otogi"
 		]
 	},
 	"thanks-thank": "მადლობა",
@@ -12,7 +13,7 @@
 	"thanks-button-thank": "{{GENDER:$1|მადლობა}}",
 	"thanks-button-thanked": "{{GENDER:$1|მადლობა გადახდილია}}",
 	"thanks-error-undefined": "მადლობის გადახდა ვერ მოხერხდა. გთხოვ სცადეთ კიდევ.",
-	"thanks-confirmation": "გსურთ მომხმარებელს $2 {{GENDER:$1|მადლობა გადაუხადოთ}} ამ რედაქტირებისათვის?",
+	"thanks-confirmation2": "გინდათ მადლობის გადახდა ამ რედაქტირებისთვის ?",
 	"thanks-thanked-notice": "მომხმარებელს/მომხმარებლებს $1 გაეგზავნა(თ) შეტყობინება, რომ თქვენ მოიწონეთ {{GENDER:$2|მისი|მისი|მათი}} რედაქტირება.",
 	"thanks": "გადაუხადე მადლობა",
 	"echo-pref-subscription-edit-thank": "მადლობა ჩემი რედაქტირებისათვის",

@@ -13,7 +13,7 @@
 	"thanks-error-invalidrevision": "پێداچوونەوەی پێناسە نادروستە.",
 	"thanks-error-ratelimited": "{{GENDER:$1|تۆ}} زیاتر لە سنووری خێرایی چووی. تکایە ھەندێک ڕاوەستە و دیسان ھەوڵ بدەوە.",
 	"thanks-thank-tooltip": "ئاگادارییەکی سپاس بۆ ئەم {{GENDER:$2|بەکارھێنەرە}} {{GENDER:$1|بنێرە}}",
-	"thanks-confirmation": "دەتەوەێ سپاسی $2 بۆ ئەم دەستکارییە {{GENDER:$1|بکەی}}؟",
+	"thanks-confirmation2": "سپاسی ئەم دەستکارییە {{GENDER:$1|دەکەی}}؟",
 	"thanks": "سپاس بکە",
 	"thanks-form-revid": "پێناسەی پێداچوونەوە بۆ دەستکاری",
 	"echo-pref-subscription-edit-thank": "بۆ دەستکارییەکم سپاسم بکە",

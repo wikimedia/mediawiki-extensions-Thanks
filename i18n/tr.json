@@ -14,7 +14,7 @@
 	"thanks-error-invalidrevision": "Revizyon numarası geçerli değil.",
 	"thanks-error-ratelimited": "Gönderme limitini aştınız. Lütfen bekleyin ve tekrar deneyin.",
 	"thanks-thank-tooltip": "Bu {{GENDER:$2|kullanıcıya}} {{GENDER:$1|teşekkürlerini}} ilet",
-	"thanks-confirmation": "Bu değişikliğinden ötürü $2 adlı kullanıcıya {{GENDER:$1|teşekkür}} etmek istiyor musunuz?",
+	"thanks-confirmation2": "Bu değişiklik için {{GENDER:$1|teşekkür etmek}} istiyor musunuz?",
 	"thanks-thanked-notice": "$1 kullanıcısına {{GENDER:$2|onu|onu|onları}} beğendiğiniz iletildi.",
 	"echo-pref-subscription-edit-thank": "Katkım için bana teşekkür edildi",
 	"echo-pref-tooltip-edit-thank": "Yaptığım katkılar için yapılan teşekkürleri bana bildir.",
