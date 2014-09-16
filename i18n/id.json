@@ -3,7 +3,8 @@
 		"authors": [
 			"Iwan Novirion",
 			"William Surya Permana",
-			"Raynasution"
+			"Raynasution",
+			"Bennylin"
 		]
 	},
 	"thanks-desc": "Menambahkan pranala terima kasih pada tampilan riwayat suntingan dan perbedaan revisi",
@@ -15,7 +16,6 @@
 	"thanks-error-invalidrevision": "ID revisi tidak sah.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Anda}} telah melampaui batas Anda. Silakan tunggu beberapa saat dan coba lagi.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Kirim}} sebuah pemberitahuan terima kasih kepada {{GENDER:$2|pengguna}} ini",
-	"thanks-confirmation": "Apakah Anda ingin {{GENDER:$1|berterima kasih}} kepada $2 atas suntingan ini?",
 	"thanks-thanked-notice": "$1 telah diberitahu bahwa Anda menyukai {{GENDER:$2|suntingannya|suntingannya|suntingan mereka}}.",
 	"echo-pref-subscription-edit-thank": "Berterima kasih kepada saya atas suntingan saya",
 	"echo-pref-tooltip-edit-thank": "Beritahu saya saat seseorang berterima kasih kepada saya atas suntingan yang saya buat.",
@@ -30,8 +30,8 @@
 	"log-description-thanks": "Di bawah ini adalah daftar pengguna yang menerima terima kasih dari pengguna lain.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|berterima kasih}} kepada {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 log terima kasih",
-	"thanks-error-no-id-specified": "Anda harus menentukan perubahan ID untuk mengirim terima kasih.",
-	"thanks-confirmation-special": "Apakah anda ingin mengirimkan terima kasih untuk suntingan ini?",
+	"thanks-error-no-id-specified": "Anda harus menentukan perubahan ID untuk mengirimkan ucapan terima kasih.",
+	"thanks-confirmation-special": "Apakah Anda ingin mengirimkan ucapan terima kasih untuk suntingan ini?",
 	"thanks-error-invalidpostid": "ID posting tidak sah.",
-	"flow-thanks-confirmation-special": "Apakah anda ingin mengirim terima kasih untuk komentar ini?"
+	"flow-thanks-confirmation-special": "Apakah Anda ingin mengirimkan ucapan terima kasih untuk komentar ini?"
 }

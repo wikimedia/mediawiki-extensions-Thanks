@@ -29,7 +29,7 @@
 	"notification-link-text-respond-to-user": "Қатысушыға жауап қайтару",
 	"log-name-thanks": "Рахмет білдіру журналы",
 	"log-description-thanks": "Төменде басқа қатысушылардан рахмет айтылған қатысушылар тізімі берілген.",
-	"logentry-thanks-thank": "$1 {{GENDER:$4|$3}} деген қатысушыға {{GENDER:$2|рахметін}} білдірді.",
+	"logentry-thanks-thank": "$1 {{GENDER:$4|$3}} есімді қатысушыға {{GENDER:$2|рахметін}} білдірді.",
 	"log-show-hide-thanks": "рахметін білдіру журналын $1",
 	"thanks-error-no-id-specified": "Рахметті жөнелту үшін нұсқа ID-ін көрсетуіңіз керек.",
 	"thanks-confirmation-special": "Бұл өңдемеге рахмет айтқыңыз келе ме?",
