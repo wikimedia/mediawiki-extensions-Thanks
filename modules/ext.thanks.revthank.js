@@ -20,11 +20,10 @@
 		} else {
 			source = 'diff';
 		}
-		( new mw.Api ).post( {
+		( new mw.Api ).postWithToken( 'edit', {
 			'action' : 'thank',
 			'rev' : $thankLink.attr( 'data-revision-id' ),
-			'source' : source,
-			'token' : mw.user.tokens.values.editToken
+			'source' : source
 		} )
 		.done( function( data ) {
 			$thankElement.before( mw.message( 'thanks-thanked', mw.user ).escaped() );
