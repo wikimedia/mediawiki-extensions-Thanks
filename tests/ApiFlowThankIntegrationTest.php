@@ -45,7 +45,7 @@ class ApiFlowThankTest extends ApiTestCase {
 			), array(), 1 );
 
 		// Set up mock classes in Container.
-		$mockLoader = $this->getMockBuilder( '\Flow\Data\RootPostLoader' )
+		$mockLoader = $this->getMockBuilder( '\Flow\Repository\RootPostLoader' )
 			->disableOriginalConstructor()
 			->getMock();
 		$that = $this;
@@ -165,7 +165,8 @@ class ApiFlowThankTest extends ApiTestCase {
 		$uuidRevision = UUID::create();
 
 		$user = User::newFromName( 'UTSysop' );
-		list( $userId, $userIp ) = PostRevision::userFields( $user );
+		$userId = $user->getId();
+		$userIp = null;
 
 		return $row + array(
 			// flow_revision
@@ -173,6 +174,7 @@ class ApiFlowThankTest extends ApiTestCase {
 			'rev_type' => 'post',
 			'rev_user_id' => $userId,
 			'rev_user_ip' => $userIp,
+			'rev_user_wiki' => wfWikiId(),
 			'rev_parent_id' => null,
 			'rev_flags' => 'html',
 			'rev_content' => 'test content',
@@ -180,11 +182,13 @@ class ApiFlowThankTest extends ApiTestCase {
 			'rev_mod_state' => AbstractRevision::MODERATED_NONE,
 			'rev_mod_user_id' => null,
 			'rev_mod_user_ip' => null,
+			'rev_mod_user_wiki' => null,
 			'rev_mod_timestamp' => null,
 			'rev_mod_reason' => null,
 			'rev_last_edit_id' => null,
 			'rev_edit_user_id' => null,
 			'rev_edit_user_ip' => null,
+			'rev_edit_user_wiki' => null,
 
 			// flow_tree_revision
 			'tree_rev_descendant_id' => $uuidPost->getBinary(),
@@ -193,6 +197,7 @@ class ApiFlowThankTest extends ApiTestCase {
 			'tree_orig_create_time' => wfTimestampNow(),
 			'tree_orig_user_id' => $userId,
 			'tree_orig_user_ip' => $userIp,
+			'tree_orig_user_wiki' => wfWikiId(),
 			'tree_parent_id' => null,
 		);
 	}
