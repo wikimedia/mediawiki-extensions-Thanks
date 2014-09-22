@@ -3,7 +3,8 @@
 		"authors": [
 			"QuimGil",
 			"Vriullop",
-			"Pere prlpz"
+			"Pere prlpz",
+			"KRLS"
 		]
 	},
 	"thanks-desc": "Afegeix enllaços d'agraïment a les pàgines d'historial i diferències de revisions.",
@@ -15,7 +16,6 @@
 	"thanks-error-invalidrevision": "L'identificador de revisió no és vàlid.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Heu}} excedit el límit d'agraïments. Si us plau espereu una mica abans de tornar-hi.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Envia}} una notificació d'agraïment a {{GENDER:$2|aquest usuari|aquesta usuària}}.",
-	"thanks-confirmation": "Voleu {{GENDER:$1|agrair}}-li a $2 aquesta edició?",
 	"thanks-thanked-notice": "$1 ha rebut el vostre agraïment per {{GENDER:$2|la seva}} edició.",
 	"thanks": "Envia agraïments",
 	"thanks-form-revid": "ID de revisió per a l'edició",
@@ -33,7 +33,9 @@
 	"log-description-thanks": "A continuació teniu una llista d'usuaris agraïts per part d'altres usuaris.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|ha agraït}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 el registre d'agraïments",
+	"thanks-confirmation-special": "Voleu donar les gràcies per aquesta edició?",
 	"notification-link-text-view-post": "Mostra el comentari",
+	"flow-thanks-confirmation-special": "Voleu donar les gràcies per aquesta edició?",
 	"notification-flow-thanks": "[[User:$1|$1]] us {{GENDER:$1|agraeix}} per $2 a \"$3\" de [[:$4]].",
 	"notification-flow-thanks-post-link": "el vostre comentari",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] us {{GENDER:$1|agraeix}} el comentari a \"$2\" de $3.",
