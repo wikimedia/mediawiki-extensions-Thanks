@@ -124,6 +124,11 @@ $specialPageAliases['sr-ec'] = array(
 	'Thanks' => array( 'Хвала' ),
 );
 
+/** Swedish (svenska) */
+$specialPageAliases['sv'] = array(
+	'Thanks' => array( 'Tack' ),
+);
+
 /** Vietnamese (Tiếng Việt) */
 $specialPageAliases['vi'] = array(
 	'Thanks' => array( 'Cảm_ơn', 'Cám_ơn' ),
