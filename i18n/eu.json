@@ -9,6 +9,7 @@
 	"thanks-button-thank": "{{GENDER:$1|Eskertu}}",
 	"thanks-button-thanked": "{{GENDER:$1|Eskertuta}}",
 	"thanks-confirmation2": "Eskerrak {{GENDER:$1|eman}} edizio honengatik?",
+	"thanks-thanked-notice": "$1 wikilariari {{GENDER:$2|bere}} edizioa atsegin duzula jakinarazi zaio.",
 	"thanks": "Eman eskerrak",
 	"notification-thanks-diff-link": "edizioa",
 	"notification-thanks": "[[User:$1|$1]] {{GENDER:$1|wikilariak}} «[[:$3]]» orrian egin duzun $2 eskertu dizu.",
