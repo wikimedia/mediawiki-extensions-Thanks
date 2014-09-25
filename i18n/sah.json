@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kaganer"
+		]
+	},
+	"thanks-thank": "махтал",
+	"thanks-button-thank": "{{GENDER:$1|Махтал}}",
+	"echo-category-title-edit-thank": "Махтал"
+}
