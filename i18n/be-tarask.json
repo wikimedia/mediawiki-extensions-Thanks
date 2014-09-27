@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Renessaince",
-			"Zedlik"
+			"Zedlik",
+			"Red Winged Duck"
 		]
 	},
 	"thanks-desc": "Дадае спасылкі з падзякамі у гісторыю і параўнаньне вэрсыяў",
@@ -14,7 +15,7 @@
 	"thanks-error-invalidrevision": "Няслушны ідэнтыфікатар вэрсіі",
 	"thanks-error-ratelimited": "Вы перавысілі абмежаваньне хуткасьці выкананьня. Пачакайце крыху і паўтарыце спробу.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Адаслаць}} {{GENDER:$2|гэтаму карыстальніку|гэтай карыстальніцы}} падзяку",
-	"thanks-confirmation": "Вы насамрэч хочаце {{GENDER:$1|падзякаваць}} $2 за гэтую праўку?",
+	"thanks-confirmation2": "{{GENDER:$1|Падзякаваць}} за гэтую праўку?",
 	"thanks-thanked-notice": "$1 {{GENDER:$2|атрымаў|атрымала|атрымалі}} паведамленьне пра вашае ўпадабаньне {{GENDER:$2|ягонай|ейнай|іхняй}} праўкі.",
 	"echo-pref-subscription-edit-thank": "Дзякуе мне за маю праўку",
 	"echo-pref-tooltip-edit-thank": "Паведаміць мне, калі нехта дзякуе за мае праўкі.",
