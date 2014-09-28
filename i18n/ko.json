@@ -5,7 +5,9 @@
 			"Priviet",
 			"관인생략",
 			"아라",
-			"Miri-Nae"
+			"Miri-Nae",
+			"Bluemersen",
+			"Revi"
 		]
 	},
 	"thanks-desc": "편집, 덧글 등등에 사용자에게 감사 링크를 표시합니다.",
@@ -17,7 +19,7 @@
 	"thanks-error-invalidrevision": "판 ID가 올바르지 않습니다.",
 	"thanks-error-ratelimited": "{{GENDER:$1|당신은}} 속도 제한을 초과했습니다. 잠시 기다리고 나서 다시 시도하세요.",
 	"thanks-thank-tooltip": "이 {{GENDER:$2|사용자}}에게 감사의 알림을 {{GENDER:$1|보냅니다}}",
-	"thanks-confirmation": "이 편집에 대해 $2님에게 {{GENDER:$1|감사}}를 표하겠습니까?",
+	"thanks-confirmation2": "이 편집에 감사를 표현하시겠습니까?",
 	"thanks-thanked-notice": "$1님이 당신이 {{GENDER:$2|그|그녀|그들}}의 편집에 감사했다는 것을 들었습니다.",
 	"thanks": "감사 보내기",
 	"thanks-form-revid": "편집의 판 번호",

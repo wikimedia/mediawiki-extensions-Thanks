@@ -6,5 +6,14 @@
 	},
 	"thanks-thank": "махтал",
 	"thanks-button-thank": "{{GENDER:$1|Махтал}}",
-	"echo-category-title-edit-thank": "Махтал"
+	"echo-category-title-edit-thank": "Махтал",
+	"notification-thanks-diff-link": "көннөрүүҥ иһин",
+	"notification-thanks": "[[User:$1|$1]] эйиэхэ {{GENDER:$1|махтаммыт}} «[[:$3]]» сирэйгэ $2 иһин.",
+	"notification-thanks-flyout2": "[[User:$1|$1]] эйиэхэ {{GENDER:$1|махтаммыт}} «$2» сирэйгэ көннөрүүҥ иһин.",
+	"notification-thanks-email-subject": "$1 эйиэхэ {{GENDER:$1|махтаммыт}} «{{SITENAME}}» ситим-сиргэ көннөрүүҥ иһин.",
+	"notification-thanks-email-batch-body": "$1 эйиэхэ {{GENDER:$1|махтаммыт}} «$2» сирэйгэ көннөрүүҥ иһин.",
+	"notification-flow-thanks": "[[User:$1|$1]] эйиэхэ {{GENDER:$5|махтаммыт}} [[:$4]] сирэйгэ «$3» тиэмэҕэ $2 иһин.",
+	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$4|эйиэхэ}} {{GENDER:$1|махтаммыт}} $3 сирэйгэ «$2» тиэмэҕэ быһаарыыҥ иһин.",
+	"notification-flow-thanks-email-subject": "$1 {{GENDER:$2|эйиэхэ}} махтаммыт «{{SITENAME}}» ситим-сиргэ быһаарыыҥ иһин.",
+	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$4|эйиэхэ}} {{GENDER:$1|махтаммыт}} «$2» ситим-сир $3 сирэйигэр тиэмэҕэ быһаарыыҥ иһин."
 }

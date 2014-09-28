@@ -43,7 +43,7 @@
 	"flow-thanks-thanked-notice": "$1 {{GENDER:$2|был оповещён|была оповещена|были оповещены}}, что вам понравилось {{GENDER:$2|его|её|их}} комментарий.",
 	"notification-flow-thanks": "[[User:$1|$1]] поблагодарил{{GENDER:$5||а}} вас за $2 в теме «$3» на странице [[:$4]].",
 	"notification-flow-thanks-post-link": "ваш комментарий",
-	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|поблагодарил(а)}} {{GENDER:$4|вас}} за ваш комментарий в теме «$2» на странице $3.",
+	"notification-flow-thanks-flyout": "[[User:$1|$1]] поблагодарил{{GENDER:$1||а}} {{GENDER:$4|вас}} за ваш комментарий в теме «$2» на странице $3.",
 	"notification-flow-thanks-email-subject": "$1 поблагодарил{{GENDER:$1||а}} {{GENDER:$2|вас}} за комментарий на сайте «{{SITENAME}}».",
-	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|поблагодарил(а)}} {{GENDER:$4|вас}} за комментарий в теме на сайте «$2» на странице $3."
+	"notification-flow-thanks-email-batch-body": "$1 поблагодарил{{GENDER:$1||а}} {{GENDER:$4|вас}} за комментарий в теме на сайте «$2» на странице $3."
 }
