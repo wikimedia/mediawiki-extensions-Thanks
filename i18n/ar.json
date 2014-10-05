@@ -16,7 +16,7 @@
 	"thanks-error-invalidrevision": "معرّف المراجعة غير صحيح.",
 	"thanks-error-ratelimited": "لقد {{GENDER:$1|تجاوزت}} حد التقييم، الرجاء الانتظار لبعض الوقت ثم المحاولة مجددًا.",
 	"thanks-thank-tooltip": "{{GENDER:$1|أرسل|أرسلي}} إشعار شكر ل{{GENDER:$2|هذا المستخدم|هذه المستخدمة}}",
-	"thanks-confirmation": "هل {{GENDER:$1|تريد|تريدين}} شكر $2 على هذا التعديل؟",
+	"thanks-confirmation2": "أتود{{GENDER:$1||ين}} الشكر لهذا التعديل؟",
 	"thanks-thanked-notice": "تم إشعار $1 بأن {{GENDER:$2|تعديله|تعديلها|تعديلهم}} أعجبك.",
 	"thanks": "إرسال شكر",
 	"thanks-form-revid": "رقم التعديل",
@@ -34,6 +34,7 @@
 	"log-description-thanks": "بالأسفل قائمة مستخدمين تلقوا شكرًا من مستخدمين آخرين.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|شكر|شكرت}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 سجل الشكر",
+	"thanks-confirmation-special": "أتود إرسال شكرك لصاحب هذا التعديل؟",
 	"notification-link-text-view-post": "أظهر التعليق",
 	"notification-flow-thanks-post-link": "تعليقك"
 }

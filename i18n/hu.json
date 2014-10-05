@@ -6,15 +6,16 @@
 			"Southparkfan",
 			"Teemeah",
 			"William915",
-			"Tacsipacsi"
+			"Tacsipacsi",
+			"Csega"
 		]
 	},
 	"thanks-desc": "Köszönőlinket helyez el a laptörténetben és a diffváltozatokban",
 	"thanks-thank": "köszönet",
-	"thanks-thanked": "{{GENDER:$1|Megköszönve}}",
+	"thanks-thanked": "{{GENDER:$1|megköszönve}}",
 	"thanks-error-undefined": "A megköszönés sikertelen. Kérlek, próbáld meg újra!",
 	"thanks-error-invalidrevision": "A lapváltozat azonosítója érvénytelen.",
-	"thanks-error-ratelimited": "Túllépted a meghatározott limitet. Kérlek várj egy kicsit és próbáld újra.",
+	"thanks-error-ratelimited": "{{GENDER:$1|Túllépted}} a meghatározott limitet. Kérlek várj egy kicsit, és próbáld újra.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Küldj}} köszönetet ennek a {{GENDER:$2|szerkesztőnek}}",
 	"thanks-confirmation2": "{{GENDER:$1|Küldesz}} köszönetet ezért a szerkesztésért?",
 	"thanks-thanked-notice": "$1 was notified that you liked {{GENDER:$2|his|her|their}} edit.",

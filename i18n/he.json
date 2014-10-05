@@ -40,7 +40,7 @@
 	"notification-link-text-view-post": "הצגת תגובה",
 	"thanks-error-invalidpostid": "מהזז הרשומה אינו תקין.",
 	"flow-thanks-confirmation-special": "האם לשלוח תודה על ההערה הזאת?",
-	"flow-thanks-thanked-notice": "$1 {{GENDER:$2|קיבל|קיבלה}} הודאה על כך שאהבת את ההערה {{GENDER:$2|שלו|שלה}}.",
+	"flow-thanks-thanked-notice": "$1 {{GENDER:$2|קיבל|קיבלה}} הודעה על כך שאהבת את ההערה {{GENDER:$2|שלו|שלה}}.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|הודה|הודתה}} {{GENDER:$5|לך}} על $2 בנושא \"$3\" בדף [[:$4]].",
 	"notification-flow-thanks-post-link": "התגובה שלך",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|הודה|הודתה}} {{GENDER:$4|לך}} על התגובה שלך בנושא \"$2\" בדף $3.",
