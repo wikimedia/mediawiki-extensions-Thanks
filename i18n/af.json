@@ -13,7 +13,7 @@
 	"thanks-error-invalidrevision": "Die weergawenommer is nie geldig nie.",
 	"thanks-error-ratelimited": "{{GENDER:$1|U}} het u limiet vir bedankings oorskry. Wag eers en probeer dan weer.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Stuur}} die {{GENDER:$2|gebruiker}} 'n dankiesê-kennisgewing",
-	"thanks-confirmation": "Wil u $2 vir hierdie wysiging {{GENDER:$1|bedank}}?",
+	"thanks-confirmation2": "{{GENDER:$1|Sê}} dankie vir die wysiging?",
 	"thanks-thanked-notice": "$1 is in kennis gestel dat u van {{GENDER:$2|sy|haar|sy/haar}} wysiging hou.",
 	"thanks": "Stuur bedanking",
 	"thanks-form-revid": "Weergawe-ID vir wysiging",
@@ -30,5 +30,16 @@
 	"log-name-thanks": "Bedankingslogboek",
 	"log-description-thanks": "Hieronder is 'n lys van gebruikers wat deur ander gebruikers bedank is.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|het}} {{GENDER:$4|$3}} bedank",
-	"log-show-hide-thanks": "bedankingslogboek $1"
+	"log-show-hide-thanks": "bedankingslogboek $1",
+	"thanks-error-no-id-specified": "U moet 'n WysigingID verskaf om iemand te bedank.",
+	"thanks-confirmation-special": "Wil u vir hierdie wysiging dankie sê?",
+	"notification-link-text-view-post": "Wys opmerking",
+	"thanks-error-invalidpostid": "PosID is ongeldig",
+	"flow-thanks-confirmation-special": "Wil u vir hierdie opmerking dankie sê?",
+	"flow-thanks-thanked-notice": "$1 is laat weet dat u {{GENDER:$2|hom|haar|hom/haar}} vir {{GENDER:$2|sy|haar|sy/haar}} opmerking bedank het.",
+	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|het}} {{GENDER:$5|u}} vir $2 in \"$3\" op [[:$4]] bedank.",
+	"notification-flow-thanks-post-link": "U opmerking",
+	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|het}} {{GENDER:$4|u}} vir u opmerking in \"$2\" op $3 bedank.",
+	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|het}} {{GENDER:$2|u}} vir u opmerking op {{SITENAME}} bedank",
+	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|het}} {{GENDER:$4|u}} voor u opmerking in \"$2\" op $3 bedank."
 }
