@@ -8,7 +8,7 @@
 			"WTM"
 		]
 	},
-	"thanks-desc": "Dodaje do stron historii i różnicy pomiędzy wersjami link umożliwiający podziękowanie",
+	"thanks-desc": "Dodaje link umożliwiający podziękowanie użytkownikowi za edycję, komentarz itp.",
 	"thanks-thank": "podziękuj",
 	"thanks-thanked": "{{GENDER:$1|podziękowałeś|podziękowałaś}}",
 	"thanks-button-thank": "{{GENDER:$1|Podziękuj}}",
@@ -38,6 +38,7 @@
 	"thanks-confirmation-special": "Czy chcesz wysłać podziękowanie za tę edycję?",
 	"notification-link-text-view-post": "Zobacz komentarz",
 	"flow-thanks-confirmation-special": "Czy chcesz wysłać podziękowanie za ten komentarz?",
+	"flow-thanks-thanked-notice": "$1 {{GENDER:$2|został powiadomiony|została powiadomiona}} o twoim podziękowaniu za {{GENDER:$2|jego|jej}} komentarz.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|podziękował|podziękowała}} {{GENDER:$5|ci}} za $2 w „$3” na stronie [[:$4]].",
 	"notification-flow-thanks-post-link": "twój komentarz",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|podziękował|podziękowała}} {{GENDER:$4|ci}} za twój komentarz w „$2” na stronie $3.",
