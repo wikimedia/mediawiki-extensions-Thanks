@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Baloch Afghanistan"
+		]
+	},
+	"thanks-thank": "تشکر/سپاسیبا",
+	"echo-category-title-edit-thank": "تشکرهان",
+	"notification-thanks-diff-link": "شمی ایڈ\tیٹ",
+	"log-name-thanks": "سیاه چالی تشکر",
+	"thanks-confirmation-special": "شمائه لوٹیت کی په ای ایڈیٹ هاتیرا تشکری دیم دهیت ؟",
+	"notification-link-text-view-post": "دیستین نظری",
+	"flow-thanks-confirmation-special": "شمائه لوٹیت کی په ای کامینٹی هاتیرا تشکری دیم دهیت ؟",
+	"flow-thanks-thanked-notice": "$1 په {{GENDER:$2|کامینٹی}} که شما دوست داشتیت سئی بوت.",
+	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|تشکر کورت}} شه {{GENDER:$5|شما}} $2 بی «$3» تا [[:$4]].",
+	"notification-flow-thanks-post-link": "شمی کامینٹ",
+	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|تشکر کورت}} شه {{GENDER:$4|شما}} په شمی کامینٹی هایترا بی «$2» تا $3.",
+	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|تشکر کورت}} شه {{GENDER:$2|شما}} شه شمی کامینٹا بی {{SITENAME}}",
+	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|تشکر کورت}} شه {{GENDER:$4|شما}} په شمی کامینٹی هاتیرا بی  «$2» تا $3."
+}
