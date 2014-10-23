@@ -2,22 +2,23 @@
 	"@metadata": {
 		"authors": [
 			"Shubhamkanodia",
-			"Siddhartha Ghai"
+			"Siddhartha Ghai",
+			"संजीव कुमार"
 		]
 	},
-	"thanks-desc": "इतिहास और बदलाव दृश्य में धन्यवाद कड़ियाँ जोड़ें।",
+	"thanks-desc": "सदस्यों को उनके सम्पादनों, टिप्पणियों आदि के लिए धन्यवाद देने कड़ियाँ जोड़ें।",
 	"thanks-thank": "धन्यवाद दें",
 	"thanks-thanked": "{{GENDER:$1|धन्यवाद दिया}}",
 	"thanks-button-thank": "{{GENDER:$1|धन्यवाद}}",
 	"thanks-button-thanked": "{{GENDER:$1|धन्यवाद दिया}}",
 	"thanks-error-undefined": "धन्यवाद देने का कार्य विफल रहा। कृपया पुनः प्रयास करें।",
-	"thanks-error-invalidrevision": "अवतरण आई॰डी मान्य नहीं है।",
+	"thanks-error-invalidrevision": "अवतरण आई॰डी॰ मान्य नहीं है।",
 	"thanks-error-ratelimited": "{{GENDER:$1|आप}} अपनी दर सीमा पार कर चुके हैं। कृपया थोड़ी देर बाद पुनः प्रयास करें।",
 	"thanks-thank-tooltip": "इस {{GENDER:$2|सदस्य}} को धन्यवाद अधिसूचना {{GENDER:$1|भेजें}}।",
-	"thanks-confirmation": "क्या आप इस सम्पादन के लिए $2 को {{GENDER:$1|धन्यवाद}} देना चाहते हैं?",
+	"thanks-confirmation2": "इस सम्पादन के लिए धन्यवाद {{GENDER:$1|भेजें}}?",
 	"thanks-thanked-notice": "$1 को अधिसूचित किया गया है कि आपको {{GENDER:$2|उनका}} सम्पादन अच्छा लगा।",
 	"thanks": "धन्यवाद दें",
-	"thanks-form-revid": "सम्पादन के लिए अवतरण आइ॰डी",
+	"thanks-form-revid": "सम्पादन के लिए अवतरण आई॰डी॰",
 	"thanks-already-thanked": "आप इस सम्पादन के लिये पहले ही धन्यवाद दे {{GENDER:$1|चुके|चुकी|चुके}} हैं।",
 	"echo-pref-subscription-edit-thank": "मेरे सम्पादन के लिए मुझे धन्यवाद दे।",
 	"echo-pref-tooltip-edit-thank": "जब कोई मेरे सम्पादन के लिये मुझे धन्यवाद कहे, मुझे सूचित करें।",
@@ -32,6 +33,15 @@
 	"log-description-thanks": "अन्य सदस्यों द्वारा धन्यवाद पाने वाले सदस्यों की सूची निम्न है।",
 	"logentry-thanks-thank": "$1 ने {{GENDER:$4|$3}} को {{GENDER:$2|धन्यवाद कहा है}}",
 	"log-show-hide-thanks": "$1 धन्यवाद लॉग",
+	"thanks-error-no-id-specified": "धन्यवाद कहने के लिए आपको कोई एक पुनरीक्षण पता निर्दिष्ट करना चाहिए।",
+	"thanks-confirmation-special": "क्या आप इस सम्पादन के लिए धन्यवाद देना चाहते हो?",
 	"notification-link-text-view-post": "टिप्पणी देखें",
-	"notification-flow-thanks-post-link": "आपकी टिप्पणी"
+	"thanks-error-invalidpostid": "पोस्ट पता वैध नहीं है।",
+	"flow-thanks-confirmation-special": "क्या आप इस टिप्पणी के लिए धन्यवाद भेजना चाहते हो?",
+	"flow-thanks-thanked-notice": "$1 को अधिसूचित किया गया है कि आपको {{GENDER:$2|उनकी|उनकी|उनकी}} टिप्पणियाँ पसन्द आयीं।",
+	"notification-flow-thanks": "[[User:$1|$1]] ने [[:$4]] पर $3 में $2 के लिए {{GENDER:$5|आपको}} {{GENDER:$1|धन्यवाद}} दिया है।",
+	"notification-flow-thanks-post-link": "आपकी टिप्पणी",
+	"notification-flow-thanks-flyout": "[[User:$1|$1]]  ने $3 पर $2 में आपकी टिप्पणी के लिए {{GENDER:$4|आपको}}{{GENDER:$1|धन्यवाद}} दिया है।",
+	"notification-flow-thanks-email-subject": "$1 ने {{SITENAME}} पर आपकी टिप्पणी के लिए {{GENDER:$2|आपको}} {{GENDER:$1|धन्यवाद}} दिया है।",
+	"notification-flow-thanks-email-batch-body": "$1 ने $3 पर $2 में आपकी टिप्पणी के लिए {{GENDER:$4|आपको}} {{GENDER:$1|धन्यवाद दिया है।}}"
 }
