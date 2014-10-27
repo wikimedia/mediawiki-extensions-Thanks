@@ -13,7 +13,6 @@
 	"thanks-error-invalidrevision": "t Versienummer is niet geldig.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Je}} hebben joew limiet veur bedankjes overschrejen. Wacht effen veurda'j veurdan gaon.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Stuur}} n melding mit n bedankjen naor disse {{GENDER:$2|gebruker}}",
-	"thanks-confirmation": "Wi'j $2 {{GENDER:$1|bedanken}} veur disse bewarking?",
 	"thanks-thanked-notice": "$1 hef bericht ekregen dat jie {{GENDER:$2|zien|heur|zien/heur}} bewarking mooi vienen.",
 	"echo-pref-subscription-edit-thank": "Bedank m'n veur mien bewarking",
 	"echo-pref-tooltip-edit-thank": "Stuur m'n n melding as der ene mien bedankt veur n bewarking die'k an-ebröcht hebbe.",

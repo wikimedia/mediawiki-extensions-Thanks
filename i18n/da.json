@@ -15,7 +15,6 @@
 	"thanks-error-invalidrevision": "Versions-ID er ikke gyldigt.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Du}} har overskredet din frekvensgrænse. Vent et stykke tid og prøv igen.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Send}} en takkemeddelelse til denne  {{GENDER:$2| bruger}}",
-	"thanks-confirmation": "Vil du {{GENDER:$1|takke}} $2 for denne redigering?",
 	"thanks-thanked-notice": "$1 fik at vide, at du kan lide {{GENDER:$2|hans|hendes|deres}} redigering.",
 	"thanks": "Send tak",
 	"thanks-form-revid": "Versions-ID for redigering",

@@ -9,7 +9,6 @@
 	"thanks-thanked": "{{GENDER:$1|dankita}}",
 	"thanks-button-thank": "{{GENDER:$1|Danki}}",
 	"thanks-error-invalidrevision": "Identigilo de revizio estas nevalida.",
-	"thanks-confirmation": "Ĉu vi volas {{GENDER:$1|danki}} al $2 pro tiu ĉi redakto?",
 	"echo-pref-subscription-edit-thank": "Danki al mi pro miaj redaktoj",
 	"echo-pref-tooltip-edit-thank": "Sciigu min kiam iu dankas al mi pro mia redakto.",
 	"echo-category-title-edit-thank": "Dankoj",

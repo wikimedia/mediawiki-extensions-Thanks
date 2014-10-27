@@ -12,7 +12,6 @@
 	"thanks-error-invalidrevision": "Версияны номери тюз тюлдю.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Сиз}}, терклик чекни оздугъуз. Бираз сакълаб, джангыдан кёрюгюз.",
 	"thanks-thank-tooltip": "Бу {{GENDER:$2|къошулуучугъа}} {{GENDER:$1|ыспас билдириу джибер}}",
-	"thanks-confirmation": "Бу тюрлендириу ючюн $2 къошулуучугъа {{GENDER:$1|сау бол айтыргъа}}\nизлеймисиз?",
 	"thanks-thanked-notice": "$1 къошулуучугъа {{GENDER:$2|аны|аны|аланы}} тюрлендириуюн джаратханыгъыз билдирилди.",
 	"echo-pref-subscription-edit-thank": "Тюрлендириуюм ючюн меннге ыспас",
 	"echo-pref-tooltip-edit-thank": "Ким болса да, этген тюрлендириуюм ючюн сау бол десе, меннге билдир.",

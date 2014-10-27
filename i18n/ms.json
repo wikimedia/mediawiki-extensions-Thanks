@@ -15,7 +15,6 @@
 	"thanks-error-invalidrevision": "ID semakan tidak sah.",
 	"thanks-error-ratelimited": "Anda telah melampaui had kadar anda. Sila tunggu seketika, kemudian cuba lagi.",
 	"thanks-thank-tooltip": "Hantar ucapan terima kasih kepada pengguna ini",
-	"thanks-confirmation": "Adakah anda betul-betul ingin {{GENDER:$1|berterima kasih}} kepada $2 atas suntingan ini?",
 	"thanks-thanked-notice": "$1 telah diberitahu bahawa anda menyukai suntingan beliau.",
 	"thanks": "Ucap terima kasih",
 	"thanks-already-thanked": "Anda telah pun mengirim ucapan terima kasih atas suntingan ini.",

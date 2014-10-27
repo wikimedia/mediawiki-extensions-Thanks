@@ -4,7 +4,6 @@
 			"Ilnur efende"
 		]
 	},
-	"thanks-confirmation": "$2 дигән кулланучыга әлеге кертеме өчен  {{GENDER:$1|рәхмәт}}  әйтергә телисезме?",
 	"notification-thanks-flyout2": "$1 сезгә «$2» битендә ясаган кертемегез өчен рәхмәт әйтте.",
 	"notification-thanks-email-batch-body": "$1 сезгә «$2» битендә ясаган кертемегез өчен рәхмәт әйтте."
 }

@@ -13,7 +13,6 @@
 	"thanks-error-invalidrevision": "ID emendationis falsa est.",
 	"thanks-error-ratelimited": "Excessisti concessum numerum aestimationum.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Mitte}} nuntium gratiarum habendarum ad istum {{GENDER:$2|usorem}}",
-	"thanks-confirmation": "Visne gratiam agere {{GENDER:$1|usori}} $2 huius recensionis?",
 	"thanks-thanked-notice": "$1 nuntiatum est recensionem {{GENDER:$2|eius}} tibi placuisse.",
 	"echo-pref-subscription-edit-thank": "Gratias egit recensionis meae causa",
 	"echo-pref-tooltip-edit-thank": "Me certiorem facere si quis mihi gratias egerit",

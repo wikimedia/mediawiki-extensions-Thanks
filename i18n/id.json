@@ -16,7 +16,7 @@
 	"thanks-error-invalidrevision": "ID revisi tidak sah.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Anda}} telah melampaui batas Anda. Silakan tunggu beberapa saat dan coba lagi.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Kirim}} sebuah pemberitahuan terima kasih kepada {{GENDER:$2|pengguna}} ini",
-	"thanks-thanked-notice": "$1 telah diberitahu bahwa Anda menyukai {{GENDER:$2|suntingannya|suntingannya|suntingan mereka}}.",
+	"thanks-thanked-notice": "$1 telah diberitahu bahwa Anda menyukai {{GENDER:$2}}suntingannya.",
 	"echo-pref-subscription-edit-thank": "Berterima kasih kepada saya atas suntingan saya",
 	"echo-pref-tooltip-edit-thank": "Beritahu saya saat seseorang berterima kasih kepada saya atas suntingan yang saya buat.",
 	"echo-category-title-edit-thank": "Terima kasih",

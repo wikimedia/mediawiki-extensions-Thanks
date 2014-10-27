@@ -13,7 +13,6 @@
 	"thanks-error-invalidrevision": "Nid yw ID y diwygiad yn ddilys.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Rydych}} wedi gwneud mwy o weithredoedd y funud na'r nifer a ganiateir. Arhoswch ennyd ac yna ceisiwch eto.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Anfon}} gair o ddiolch i'r {{GENDER:$2|defnyddiwr}} hwn",
-	"thanks-confirmation": "Ydych chi am {{GENDER:$1|ddiolch}} i $2 am y golygiad hwn?",
 	"thanks-thanked-notice": "Hysbyswyd $1 eich bod yn hoff o'i {{GENDER:$2|adolygiad|hadolygiad|adolygiad}}.",
 	"thanks": "Anfon diolchiadau",
 	"thanks-form-revid": "ID y golygiad",

@@ -13,7 +13,6 @@
 	"thanks-error-invalidrevision": "Versjons-ID-en er ikkje gild",
 	"thanks-error-ratelimited": "Du har overskride frekvensgrensa di. Vent litt og freist om att.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Send}} ei takkemelding til {{GENDER:$2|brukaren}}",
-	"thanks-confirmation": "Er du viss på at du ynskjer å {{GENDER:$1|takka}} $2 for denne endringa?",
 	"thanks-thanked-notice": "$1 vart fortald at du lika endringa {{GENDER:$2|hans|hennar|hans/hennar}}.",
 	"echo-pref-subscription-edit-thank": "Takkar meg for endringa mi",
 	"echo-pref-tooltip-edit-thank": "Meld meg når nokon takkar meg for ei endring eg har gjort.",

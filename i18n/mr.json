@@ -13,7 +13,6 @@
 	"thanks-error-invalidrevision": "आवृत्तीचा आयडी वैध नाही.",
 	"thanks-error-ratelimited": "{{GENDER:$1|आपण}} दर मर्यादा पार केली आहे.कृपया थोडा वेळ थांबून पुन्हा प्रयत्न करा.",
 	"thanks-thank-tooltip": "{{GENDER:$2|या सदस्याला}} एक धन्यवादाची अधिसूचना {{GENDER:$1|पाठवा}}",
-	"thanks-confirmation": "या संपादनासाठी  $2 ला {{GENDER:$1|धन्यवाद}} द्यायचे आहेत काय?",
 	"thanks-thanked-notice": "$1 ने नोंदविले आहे कि आपणास {{GENDER:$2|त्याचे|तिचे|त्यांचे}} संपादन आवडले आहे.",
 	"echo-pref-subscription-edit-thank": "माझ्या संपादनाबद्दल मलाच धन्यवाद द्या",
 	"echo-pref-tooltip-edit-thank": "मी केलेल्या संपादनाबद्दल जर कोणी मला धन्यवाद देत असेल तर मला सूचना द्या.",

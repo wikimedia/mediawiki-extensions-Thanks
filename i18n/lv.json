@@ -12,7 +12,6 @@
 	"thanks-error-invalidrevision": "Versijas ID ir nederīgs.",
 	"thanks-error-ratelimited": "Jūsu ierobežojums ir pārsniegts. Lūdzu, uzgaidiet un mēģiniet vēlreiz.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Nosūtīt}} pateicības ziņojumu {{GENDER:$2|šim  lietotājam|šai lietotājai}}",
-	"thanks-confirmation": "Vai tiešām jūs vēlaties {{GENDER:$1|pateikties}} $2 par šo labojumu?",
 	"echo-pref-subscription-edit-thank": "Pateicība par manu labojumu",
 	"echo-pref-tooltip-edit-thank": "Paziņot man, kad kāds man izsaka pateicību par labojumu.",
 	"echo-category-title-edit-thank": "Paldies",

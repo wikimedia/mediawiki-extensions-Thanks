@@ -14,7 +14,6 @@
 	"thanks-error-invalidrevision": "Versiya raqami notoʻgʻri.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Siz}} bu amallarni haddan oshiq tez bajaryapsiz. Iltimos bir oz kuting va takrorlang.",
 	"thanks-thank-tooltip": "Bu {{GENDER:$2|foydalanuvchiga}} rahmat {{GENDER:$1|ayt}}",
-	"thanks-confirmation": "Bu tahrir uchun $2ga {{GENDER:$1|rahmat}} aytmoqchimisiz?",
 	"thanks-thanked-notice": "$1ga {{GENDER:$2|uning|uning|ularning}} tahririni yoqtirganingiz haqida bildirildi.",
 	"echo-pref-subscription-edit-thank": "Tahririm uchun menga rahmat aytildi",
 	"echo-pref-tooltip-edit-thank": "Tahririm uchun rahmat aytilsa menga bildir.",

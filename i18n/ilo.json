@@ -13,7 +13,6 @@
 	"thanks-error-invalidrevision": "Saan nga umiso ti ID ti panagbaliw.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Sika}} ket nalabesamon ti patingga ti gatadmo. Pangngaasi nga agurayka bassit ken padasem manen.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Agipatulod}} ti pakaammo a panagyaman iti daytoy nga {{GENDER:$2|agar-aramat}}",
-	"thanks-confirmation": "Kayatmo kadi ti {{GENDER:$1|agyaman}} kenni $2 para iti daytoy nga inurnos?",
 	"thanks-thanked-notice": "Naipaammo idi kenni $1 a kinayatmo {{GENDER:$2|ti inurnosna|dagiti inurnosda}}.",
 	"thanks": "Agipatulod ti panag-yaman",
 	"thanks-form-revid": "Panagbaliw nga ID para iti panag-urnos",
