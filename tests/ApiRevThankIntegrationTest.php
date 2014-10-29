@@ -17,6 +17,7 @@ class ApiRevThankTest extends ApiTestCase {
 	public function setUp() {
 		parent::setUp();
 		$this->doLogin( 'sysop' );
+		\DeferredUpdates::clearPendingUpdates();
 	}
 
 	public function testRequestWithoutToken(){

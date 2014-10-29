@@ -41,5 +41,12 @@
 	"notification-flow-thanks-post-link": "your comment",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|thanked}} {{GENDER:$4|you}} for your comment in \"$2\" on $3.",
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|thanked}} {{GENDER:$2|you}} for your comment on {{SITENAME}}",
-	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|thanked}} {{GENDER:$4|you}} for your comment in \"$2\" on $3."
+	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|thanked}} {{GENDER:$4|you}} for your comment in \"$2\" on $3.",
+	"apihelp-flowthank-description": "Send a thank-you notification for a Flow comment.",
+	"apihelp-flowthank-param-postid": "The UUID of the post to thank for.",
+	"apihelp-flowthank-example-1": "Send thanks for the comment with UUID xyz789",
+	"apihelp-thank-description": "Send a thank-you notification to an editor.",
+	"apihelp-thank-param-rev": "Revision ID to thank someone for.",
+	"apihelp-thank-param-source": "A short string describing the source of the request, for example, \"diff\" or \"history\".",
+	"apihelp-thank-example-1": "Send thanks for revision ID 456, with the source being a diff page"
 }

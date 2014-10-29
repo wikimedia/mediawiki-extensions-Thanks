@@ -57,6 +57,7 @@ $wgExtensionMessagesFiles['ThanksAlias'] = $dir . '/Thanks.alias.php';
 
 // Register APIs
 $wgAPIModules['thank'] = 'ApiRevThank';
+/** @todo This should be conditional on Flow being installed on the wiki */
 $wgAPIModules['flowthank'] = 'ApiFlowThank';
 
 // Register special page
