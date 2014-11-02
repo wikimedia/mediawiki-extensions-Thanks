@@ -13,5 +13,6 @@
 	"notification-thanks-email-subject": "$1 {{جنس:$1|تشکر کرده}} د شما سی ویرایشتتو د {{نوم سیلجا}}",
 	"log-name-thanks": "پهرستنومه منمون بیئنی یا",
 	"log-description-thanks": "د هار یه گل نوم که کاروریایی هئ که کاروریا هنی دشو تشکر کردنه",
-	"log-show-hide-thanks": "پهرستنومه منمون بیئنی یا$1"
+	"log-show-hide-thanks": "پهرستنومه منمون بیئنی یا$1",
+	"notification-link-text-view-post": "دیئن ویر و باور"
 }

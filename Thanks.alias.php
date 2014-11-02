@@ -59,6 +59,11 @@ $specialPageAliases['he'] = array(
 	'Thanks' => array( 'תודות' ),
 );
 
+/** Croatian (hrvatski) */
+$specialPageAliases['hr'] = array(
+	'Thanks' => array( 'Zahvale' ),
+);
+
 /** Upper Sorbian (hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
 	'Thanks' => array( 'Dźak' ),
