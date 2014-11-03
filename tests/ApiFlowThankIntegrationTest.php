@@ -103,6 +103,7 @@ class ApiFlowThankTest extends ApiTestCase {
 		$container[ 'templating' ] = $mockTemplating;
 
 		$this->doLogin( 'sysop' );
+		\DeferredUpdates::clearPendingUpdates();
 	}
 
 	public function testRequestWithoutToken(){

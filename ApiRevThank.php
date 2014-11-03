@@ -98,12 +98,18 @@ class ApiRevThank extends ApiThank {
 		}
 	}
 
+	/**
+	 * @deprecated since MediaWiki core 1.25
+	 */
 	public function getDescription() {
 		return array(
 			'This API is for sending thank you notifications from one editor to another.',
 		);
 	}
 
+	/**
+	 * @deprecated since MediaWiki core 1.25
+	 */
 	public function getParamDescription() {
 		return array(
 			'rev' => 'A revision ID for an edit that you want to thank someone for',
@@ -136,10 +142,23 @@ class ApiRevThank extends ApiThank {
 		);
 	}
 
+	/**
+	 * @deprecated since MediaWiki core 1.25
+	 */
 	public function getExamples() {
 		return array(
 			'api.php?action=thank&revid=123&source=diff&token=xyz456'
 				=> 'Send thanks for revision with the ID 123, with the source being a diff page',
+		);
+	}
+
+	/**
+	 * @see ApiBase::getExamplesMessages()
+	 */
+	protected function getExamplesMessages() {
+		return array(
+			'action=thank&revid=456&source=diff&token=123ABC'
+				=> 'apihelp-thank-example-1',
 		);
 	}
 }

@@ -144,12 +144,18 @@ class ApiFlowThank extends ApiThank {
 		}
 	}
 
+	/**
+	 * @deprecated since MediaWiki core 1.25
+	 */
 	public function getDescription() {
 		return array(
 			'This API is for sending thank you notifications for Flow comments.',
 		);
 	}
 
+	/**
+	 * @deprecated since MediaWiki core 1.25
+	 */
 	public function getParamDescription() {
 		return array(
 			'postid' => 'The UUID of the post to thank for',
@@ -170,10 +176,23 @@ class ApiFlowThank extends ApiThank {
 		);
 	}
 
+	/**
+	 * @deprecated since MediaWiki core 1.25
+	 */
 	public function getExamples() {
 		return array(
 			'api.php?action=flowthank&postid=abc123&token=xyz456+\\'
 				=> 'Send thanks for the comment with UUID abc123',
+		);
+	}
+
+	/**
+	 * @see ApiBase::getExamplesMessages()
+	 */
+	protected function getExamplesMessages() {
+		return array(
+			'action=flowthank&postid=xyz789&token=123ABC'
+				=> 'apihelp-flowthank-example-1',
 		);
 	}
 }
