@@ -3,7 +3,8 @@
 		"authors": [
 			"Minh Nguyen",
 			"Prenn",
-			"Trần Nguyễn Minh Huy"
+			"Trần Nguyễn Minh Huy",
+			"Max20091"
 		]
 	},
 	"thanks-desc": "Thêm các liên kết để cảm ơn người dùng vì sửa đổi, bình luận, v.v.",
@@ -43,5 +44,6 @@
 	"notification-flow-thanks-post-link": "đã bình luận",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] cảm ơn {{GENDER:$4}}bạn đã bình luận về “$2” tại $3.",
 	"notification-flow-thanks-email-subject": "$1 cảm ơn {{GENDER:$2}}bạn đã bình luận trên {{SITENAME}}",
-	"notification-flow-thanks-email-batch-body": "$1 cảm ơn {{GENDER:$4}}bạn đã bình luận về “$2” tại $3."
+	"notification-flow-thanks-email-batch-body": "$1 cảm ơn {{GENDER:$4}}bạn đã bình luận về “$2” tại $3.",
+	"apihelp-thank-param-rev": "Xem ID để cảm ơn ai đó."
 }
