@@ -14,5 +14,8 @@
 	"log-name-thanks": "پهرستنومه منمون بیئنی یا",
 	"log-description-thanks": "د هار یه گل نوم که کاروریایی هئ که کاروریا هنی دشو تشکر کردنه",
 	"log-show-hide-thanks": "پهرستنومه منمون بیئنی یا$1",
-	"notification-link-text-view-post": "دیئن ویر و باور"
+	"thanks-confirmation-special": "آیا میهایت سی ای ویرایشت یه گل تشکر کل بکیت؟",
+	"notification-link-text-view-post": "دیئن ویر و باور",
+	"flow-thanks-confirmation-special": "آیا میهایت سی ای ویر و باور یه گل تشکر کل بکیت؟",
+	"notification-flow-thanks-post-link": "ویر و باور شما"
 }
