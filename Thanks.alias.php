@@ -56,7 +56,7 @@ $specialPageAliases['fa'] = array(
 
 /** Hebrew (עברית) */
 $specialPageAliases['he'] = array(
-	'Thanks' => array( 'תודות' ),
+	'Thanks' => array( 'תודה', 'תודות' ),
 );
 
 /** Croatian (hrvatski) */
