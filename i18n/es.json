@@ -21,7 +21,7 @@
 	"thanks-error-ratelimited": "{{GENDER:$1|Has}} excedido tu límite. Por favor, espera un tiempo e intenta de nuevo.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Enviar}} una notificación de agradecimiento a {{GENDER:$2|este|esta|este}} {{GENDER:$2|usuario|usuaria|usuario}}",
 	"thanks-confirmation2": "¿{{GENDER:$1|Agradecer}} esta edición?",
-	"thanks-thanked-notice": "$1 fue notificad{{GENDER:$2|o|a|o}} de que te ha gustado su edición.",
+	"thanks-thanked-notice": "$1 recibió tu agradecimiento por {{GENDER:$2|su}} edición.",
 	"thanks": "Enviar agradecimiento",
 	"thanks-form-revid": "Id. de revisión",
 	"thanks-already-thanked": "Ya has {{GENDER:$1|enviado}} un agradecimiento por esta edición.",
@@ -42,7 +42,7 @@
 	"notification-link-text-view-post": "Ver comentario",
 	"thanks-error-invalidpostid": "El identificador de publicación no es válido.",
 	"flow-thanks-confirmation-special": "¿Deseas agradecer por este comentario?",
-	"flow-thanks-thanked-notice": "$1 fue notificado de que te gustó {{GENDER:$2|su}} comentario.",
+	"flow-thanks-thanked-notice": "$1 recibió tu agradecimiento por {{GENDER:$2|su}} comentario.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$5|te}} {{GENDER:$1|agradeció}} por $2 en \"$3\" de [[:$4]].",
 	"notification-flow-thanks-post-link": "tu comentario"
 }
