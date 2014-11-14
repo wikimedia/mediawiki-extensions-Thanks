@@ -6,6 +6,9 @@
 		]
 	},
 	"thanks-thank": "منمون",
+	"thanks-thanked": "{{GENDER:$1|منموندار بیه}}",
+	"thanks-button-thank": "{{GENDER:$1|منمون}}",
+	"thanks-button-thanked": "{{GENDER:$1|منموندار بیه}}",
 	"thanks-thank-tooltip": "{{جنس:$1|کل کرد}} یه گل منمونداری بشگار کو سی ای {{جنس:$2|کارور}}",
 	"thanks": "فرسنئن منمونداری",
 	"echo-category-title-edit-thank": "منمون",
