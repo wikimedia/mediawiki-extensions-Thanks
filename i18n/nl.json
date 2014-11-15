@@ -11,7 +11,7 @@
 			"Mar(c)"
 		]
 	},
-	"thanks-desc": "Voegt koppelingen toe voor het bedanken van gebruikers voor bewerkingen, reacties, enz.",
+	"thanks-desc": "Voegt koppelingen toe voor het bedanken van gebruikers voor bewerkingen, reacties, enzovoort.",
 	"thanks-thank": "bedanken",
 	"thanks-thanked": "{{GENDER:$1|is bedankt}}",
 	"thanks-button-thank": "{{GENDER:$1|Bedanken}}",
