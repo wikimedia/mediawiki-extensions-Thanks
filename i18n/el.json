@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Geraki"
+			"Geraki",
+			"Glavkos"
 		]
 	},
 	"thanks-desc": "Προσθέτει συνδέσμους για να ευχαριστείτε χρήστες για επεξεργασίες, σχόλια, κλπ.",
@@ -14,7 +15,7 @@
 	"thanks-error-ratelimited": "{{GENDER:$1|Έχετε}} υπερβεί το όριό σας. Παρακαλούμε περιμένετε κάποιο χρονικό διάστημα και προσπαθήστε ξανά.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Έστειλε}} μια ειδοποίηση ευχαριστίας σε {{GENDER:$2|αυτόν τον χρήστη|αυτή την χρήστη}}",
 	"thanks-confirmation2": "{{GENDER:$1|Αποστολή}} ευχαριστίας για αυτή την επεξεργασία;",
-	"thanks-thanked-notice": "{{GENDER:$2|Ο|Η}} $1 ενημερώθηκε ότι σας άρεσε η επεξεργασία {{GENDER:$2|του|της}}.",
+	"thanks-thanked-notice": "{{GENDER:$2|Ο|Η}} $1 έλαβε τις ευχαριστίες σας για την επεξεργασία {{GENDER:$2|του|της}}.",
 	"thanks": "Αποστολή ευχαριστίας",
 	"thanks-form-revid": "Αναγνωριστικό αλλαγής για την επεξεργασία",
 	"thanks-already-thanked": "{{GENDER:$1|Έχετε}} ήδη αποσταλεί ευχαριστώ για αυτή την επεξεργασία.",
@@ -35,7 +36,7 @@
 	"thanks-confirmation-special": "Θέλετε να στείλετε ευχαριστία για αυτή την επεξεργασία;",
 	"notification-link-text-view-post": "Προβολή σχολίου",
 	"flow-thanks-confirmation-special": "Θέλετε να στείλετε ευχαριστία για αυτό το σχόλιο;",
-	"flow-thanks-thanked-notice": "{{GENDER:$2|Ο|Η}} $1 ενημερώθηκε ότι σας άρεσε το σχόλιό {{GENDER:$2|του|της}}.",
+	"flow-thanks-thanked-notice": "{{GENDER:$2|Ο|Η}} $1 έλαβε τις ευχαριστίες σας για το σχόλιό {{GENDER:$2|του|της}}.",
 	"notification-flow-thanks": "{{GENDER:$1|Ο|Η}} [[Χρήστης:$1|$1]] {{GENDER:$5|σας}} ευχαρίστησε για το $2 στο \"$3\" στην [[:$4]].",
 	"notification-flow-thanks-post-link": "σχόλιό σας",
 	"notification-flow-thanks-flyout": "{{GENDER:$1|Ο|Η}} [[User:$1|$1]] {{GENDER:$4|σας}} ευχαρίστησε για το σχόλιό σας στο \"$2\" στην $3.",

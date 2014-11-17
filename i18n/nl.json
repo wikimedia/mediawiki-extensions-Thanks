@@ -39,7 +39,7 @@
 	"logentry-thanks-thank": "$1 {{GENDER:$2|heeft}} {{GENDER:$4|$3}} bedankt",
 	"log-show-hide-thanks": "bedankjeslogboek $1",
 	"thanks-error-no-id-specified": "U dient een revisienummer op te geven om een bedankje te sturen.",
-	"thanks-confirmation-special": "Wil je een bedankje sturen voor deze bewerking?",
+	"thanks-confirmation-special": "Wilt u een bedankje sturen voor deze bewerking?",
 	"notification-link-text-view-post": "Reactie weergeven",
 	"thanks-error-invalidpostid": "Berichtnummer is niet geldig.",
 	"flow-thanks-confirmation-special": "Wilt u een bedankje sturen voor deze reactie?",
