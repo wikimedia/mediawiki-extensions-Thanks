@@ -55,5 +55,6 @@
 	"apihelp-flowthank-description": "为一条Flow评论发送感谢通知。",
 	"apihelp-flowthank-param-postid": "要感谢的帖子的UUID。",
 	"apihelp-flowthank-example-1": "为UUID为xyz789的评论发送感谢",
-	"apihelp-thank-description": "向一名编辑者发送感谢通知。"
+	"apihelp-thank-description": "向一名编辑者发送感谢通知。",
+	"apihelp-thank-example-1": "为修订ID456发送感谢，将差异页面作为来源"
 }
