@@ -6,7 +6,8 @@
 			"Liuxinyu970226",
 			"Simon Shek",
 			"Waihorace",
-			"Cwlin0416"
+			"Cwlin0416",
+			"LNDDYL"
 		]
 	},
 	"thanks-desc": "提供可讓使用者感謝編輯、評論..等的連結。",
@@ -22,7 +23,7 @@
 	"thanks-thanked-notice": "$1 已被通知您喜歡{{GENDER:$2|他的|她的|他們的}}編輯。",
 	"thanks": "發送感謝",
 	"thanks-form-revid": "編輯的修訂 ID",
-	"thanks-already-thanked": "{{GENDER:$1|您}}已經發送過此編輯的感謝通知。",
+	"thanks-already-thanked": "{{GENDER:$1|您}}已經傳送過此編輯的感謝通知。",
 	"echo-pref-subscription-edit-thank": "對我的編輯表示感謝",
 	"echo-pref-tooltip-edit-thank": "當有人感謝我所做的編輯時，請通知我。",
 	"echo-category-title-edit-thank": "感謝",
