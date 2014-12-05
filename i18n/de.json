@@ -20,7 +20,7 @@
 	"thanks-error-ratelimited": "{{GENDER:$1|Du}} hast dein Aktionslimit überschritten. Bitte warte etwas und versuche es erneut.",
 	"thanks-thank-tooltip": "{{GENDER:$2|Diesem Benutzer|Dieser Benutzerin}} ein Dankeschön {{GENDER:$1|senden}}",
 	"thanks-confirmation2": "Dankeschön für diese Bearbeitung {{GENDER:$1|senden}}?",
-	"thanks-thanked-notice": "$1 erhielt deine Dankeschöns für {{GENDER:$2|seine|ihre|seine}} Bearbeitung.",
+	"thanks-thanked-notice": "$1 erhielt dein Dankeschön für {{GENDER:$2|seine|ihre|seine}} Bearbeitung.",
 	"thanks": "Für diese Bearbeitung danken",
 	"thanks-form-revid": "Versionskennung der Bearbeitung",
 	"thanks-already-thanked": "{{GENDER:$1|Du}} hast bereits ein Dankeschön für diese Bearbeitung gesendet.",
