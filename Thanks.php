@@ -122,6 +122,7 @@ $wgResourceModules['ext.thanks.mobilediff'] = array(
 	'dependencies' => array(
 		// Module name changed in MobileFrontend on 2014-02-25
 		'mobile.special.mobilediff.scripts',
+		'mobile.toast',
 	),
 	'targets' => array( 'desktop', 'mobile' ),
 	'localBasePath' => $dir . '/modules',
