@@ -57,7 +57,7 @@
 					)
 					.on( 'click', function() {
 						var $this = $( this );
-						schema.log( 'Diff', 'diff-thank', name );
+						schema.log( 'Diff', 'thank', name );
 						if ( !$this.hasClass( 'thanked' ) ) {
 							thankUser( name, rev, gender  ).done( function() {
 								$this.addClass( 'thanked' ).attr( 'disabled', true )
