@@ -139,6 +139,11 @@ $specialPageAliases['vi'] = array(
 	'Thanks' => array( 'Cảm_ơn', 'Cám_ơn' ),
 );
 
+/** Chinese (中文) */
+$specialPageAliases['zh'] = array(
+	'Thanks' => array( '感谢', '感謝' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'Thanks' => array( '感谢' ),
