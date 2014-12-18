@@ -47,7 +47,11 @@
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|tackade}} {{GENDER:$4|dig}} för din kommentar i \"$2\" på $3.",
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|tackade}} {{GENDER:$2|dig}} för din kommentar på {{SITENAME}}",
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|tackade}} {{GENDER:$4|dig}} för din kommentar i \"$2\" på $3.",
+	"apihelp-flowthank-description": "Skicka ett tack-meddelande för en Flow-kommentar.",
+	"apihelp-flowthank-param-postid": "UUID:et för det inlägg du vill tacka för.",
 	"apihelp-flowthank-example-1": "Skicka tack för kommentaren med UUID xyz789",
 	"apihelp-thank-description": "Skicka ett tack till en redigerare.",
-	"apihelp-thank-param-rev": "Sidversionens ID att tacka någon för."
+	"apihelp-thank-param-rev": "Sidversionens ID att tacka någon för.",
+	"apihelp-thank-param-source": "En kort sträng som beskriver källan för begäran, till exempel, \"diff\" eller \"history\".",
+	"apihelp-thank-example-1": "Skicka tack för version med ID 456, med en diff-sida som källa"
 }
