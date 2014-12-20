@@ -11,6 +11,7 @@
 	"thanks-button-thanked": "{{GENDER:$1|منموندار بیه}}",
 	"thanks-thank-tooltip": "{{جنس:$1|کل کرد}} یه گل منمونداری بشگار کو سی ای {{جنس:$2|کارور}}",
 	"thanks": "فرسنئن منمونداری",
+	"thanks-form-revid": "وانئری نوم دیارکن سی یه که ویرایشت با",
 	"echo-pref-subscription-edit-thank": "منموندار مه سی ویرایشتم",
 	"echo-category-title-edit-thank": "منمون",
 	"notification-thanks-diff-link": "ویرایشت شما",
