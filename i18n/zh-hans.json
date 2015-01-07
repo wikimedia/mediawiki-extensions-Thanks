@@ -14,7 +14,7 @@
 			"王庭茂"
 		]
 	},
-	"thanks-desc": "添加感谢用户进行编辑、评论等行动的链接。",
+	"thanks-desc": "添加感谢用户进行编辑、评论等行为的链接。",
 	"thanks-thank": "感谢",
 	"thanks-thanked": "{{GENDER:$1|已感谢}}",
 	"thanks-button-thank": "{{GENDER:$1|感谢}}",
