@@ -3,17 +3,18 @@
 		"authors": [
 			"Interfase",
 			"Khan27",
-			"Dağlı95"
+			"Dağlı95",
+			"Wertuose"
 		]
 	},
-	"thanks-desc": "Tarixə minətdarlıq keçidləri əlavə edir və versiyaların müqayisəsi",
+	"thanks-desc": "İstifadəçilərin redaktələrinə, şərhlərinə və s. görə minnətdarlıq üçün keçidləri əlavə edir",
 	"thanks-thank": "təşəkkür",
 	"thanks-thanked": "{{GENDER:$1|təşəkkür edildi}}",
 	"thanks-button-thank": "{{GENDER:$1|Təşəkkür}}",
 	"thanks-button-thanked": "{{GENDER:$1|Təşəkkür edildi}}",
 	"thanks-error-undefined": "Təşəkkür bildirişinin göndərilməsi alınmadı. Xahiş edirik, yenidən cəhd edin.",
 	"thanks-thank-tooltip": "Bu {{GENDER:$2|istifadəçiyə}} təşəkkür bildirişi {{GENDER:$1|göndər}}.",
-	"thanks-thanked-notice": "$1 adlı istifadəçiyə etdiyi dəyişikliyə görə təşəkkür bildirişi göndərildi.",
+	"thanks-thanked-notice": "$1 etdiyi dəyişikliyə görə sizin təşəkkürünüzü aldı.",
 	"thanks": "Təşəkkür et",
 	"thanks-form-revid": "Redaktələr üçün dəyişiklik identifikatoru",
 	"thanks-already-thanked": "{{GENDER:$1|Siz}} artıq bu redaktəyə görə istifadəçiyə təşəkkür etmisiz.",
