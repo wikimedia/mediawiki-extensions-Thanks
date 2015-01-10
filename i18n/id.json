@@ -7,7 +7,7 @@
 			"Bennylin"
 		]
 	},
-	"thanks-desc": "Menambahkan pranala terima kasih pada tampilan riwayat suntingan dan perbedaan revisi",
+	"thanks-desc": "Menambahkan pranala untuk berterima kasih kepada pengguna atas suntingan, komentar, dll.",
 	"thanks-thank": "berterima kasih",
 	"thanks-thanked": "{{GENDER:$1|sudah berterima kasih}}",
 	"thanks-button-thank": "{{GENDER:$1|Berterima kasih}}",
@@ -16,7 +16,11 @@
 	"thanks-error-invalidrevision": "ID revisi tidak sah.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Anda}} telah melampaui batas Anda. Silakan tunggu beberapa saat dan coba lagi.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Kirim}} sebuah pemberitahuan terima kasih kepada {{GENDER:$2|pengguna}} ini",
-	"thanks-thanked-notice": "$1 telah diberitahu bahwa Anda menyukai {{GENDER:$2}}suntingannya.",
+	"thanks-confirmation2": "{{GENDER:$1|Kirimkan}} ucapan terima kasih atas suntingan ini?",
+	"thanks-thanked-notice": "$1 telah menerima ucapan terima kasih dari Anda atas {{GENDER:$2|suntingannya}}.",
+	"thanks": "Kirim ucapan terima kasih",
+	"thanks-form-revid": "ID revisi suntingan",
+	"thanks-already-thanked": "{{GENDER:$1|Anda}} sudah pernah mengirimkan ucapan terima kasih atas suntingan ini.",
 	"echo-pref-subscription-edit-thank": "Berterima kasih kepada saya atas suntingan saya",
 	"echo-pref-tooltip-edit-thank": "Beritahu saya saat seseorang berterima kasih kepada saya atas suntingan yang saya buat.",
 	"echo-category-title-edit-thank": "Terima kasih",
@@ -32,6 +36,8 @@
 	"log-show-hide-thanks": "$1 log terima kasih",
 	"thanks-error-no-id-specified": "Anda harus menentukan perubahan ID untuk mengirimkan ucapan terima kasih.",
 	"thanks-confirmation-special": "Apakah Anda ingin mengirimkan ucapan terima kasih untuk suntingan ini?",
+	"notification-link-text-view-post": "Tampilkan komentar",
 	"thanks-error-invalidpostid": "ID posting tidak sah.",
-	"flow-thanks-confirmation-special": "Apakah Anda ingin mengirimkan ucapan terima kasih untuk komentar ini?"
+	"flow-thanks-confirmation-special": "Apakah Anda ingin mengirimkan ucapan terima kasih untuk komentar ini?",
+	"notification-flow-thanks-post-link": "komentar Anda"
 }
