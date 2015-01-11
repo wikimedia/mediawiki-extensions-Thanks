@@ -90,14 +90,18 @@ class SpecialThanks extends FormSpecialPage {
 	 * @param HTMLForm $form
 	 */
 	protected function alterForm( HTMLForm $form ) {
-		$form->setDisplayFormat( 'vform' );
-		$form->setWrapperLegend( false );
-
 		if ( $this->type === null || $this->type === 'rev' && $this->id === '0' ) {
 			$form->suppressDefaultSubmit( true );
 		} else {
 			$form->setSubmitText( $this->msg( 'thanks' )->escaped() );
 		}
+	}
+
+	/**
+	 * @return string
+	 */
+	protected function getDisplayFormat() {
+		return 'vform';
 	}
 
 	/**
