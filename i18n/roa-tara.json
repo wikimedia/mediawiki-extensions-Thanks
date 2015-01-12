@@ -4,7 +4,7 @@
 			"Joetaras"
 		]
 	},
-	"thanks-desc": "Aggiunge le collegaminde de rengraziamende sus a le viste d'u cunde e de le differenze",
+	"thanks-desc": "Aggiunge le collegaminde de rengraziamende a l'utinde pe le cangiaminde, le commende, etc.",
 	"thanks-thank": "grazie",
 	"thanks-thanked": "{{GENDER:$1|ringraziate}}",
 	"thanks-button-thank": "{{GENDER:$1|Grazie}}",
@@ -30,5 +30,7 @@
 	"log-description-thanks": "Sotte stè 'n'elenghe de utinde ca onne rengraziate otre utinde.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|ave ringraziate}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 archivije de le rengraziaminde",
+	"notification-link-text-view-post": "'Ndruche 'u commende",
+	"thanks-error-invalidpostid": "ID d'u messàgge jè invalide.",
 	"flow-thanks-confirmation-special": "Vuè ccu manne 'nu grazie pe stu commende?"
 }
