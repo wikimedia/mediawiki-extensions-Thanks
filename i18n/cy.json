@@ -37,11 +37,11 @@
 	"notification-link-text-view-post": "Gweler y sylw",
 	"thanks-error-invalidpostid": "Dydy'r ID ddim yn ddilys.",
 	"flow-thanks-confirmation-special": "Ydych chi'n dymuno danfon gair o ddiolch am y sylw hwn?",
-	"flow-thanks-thanked-notice": "Derbyniodd $1 eich diolch",
-	"notification-flow-thanks": "Dioilchodd [[User:$1|$1]] i chi am $2 yn \"$3\" ar [[:$4]].",
+	"flow-thanks-thanked-notice": "Derbyniodd $1 eich diolch am {{GENDER:$2|ei|ei|eu}} sylw.",
+	"notification-flow-thanks": "Diolchodd [[User:$1|$1]] {{GENDER:$1|i chi}} am $2 yn \"$3\" ar [[:$4]].",
 	"notification-flow-thanks-post-link": "eich sylw",
-	"notification-flow-thanks-flyout": "Diolchodd [[User:$1|$1]] i chi am eich sylw yn \"$2\" ar $3.",
-	"notification-flow-thanks-email-subject": "Diolchodd $1 {{GENDER:$1|}} am eich sylw ar {{SITENAME}}",
-	"notification-flow-thanks-email-batch-body": "Diolchodd $1 {{GENDER:$1}} am eich sylw yn \"$2\" ar $3.",
+	"notification-flow-thanks-flyout": "Diolchodd [[User:$1|$1]] {{GENDER:$1|}} {{GENDER:$4|i chi}} am eich sylw yn \"$2\" ar $3.",
+	"notification-flow-thanks-email-subject": "Diolchodd $1 {{GENDER:$1|}} am eich sylw ar {{SITENAME}}\n\nDiolchodd $1 {{GENDER:$1|}} {{GENDER:$2|i chi}} am eich sylw ar {{SITENAME}}",
+	"notification-flow-thanks-email-batch-body": "Diolchodd $1 {{GENDER:$1|}} {{GENDER:$4|i chi}} am eich sylw \"$2\" ar $3.",
 	"apihelp-thank-description": "Danfonwch air o ddiolch at y golygydd."
 }
