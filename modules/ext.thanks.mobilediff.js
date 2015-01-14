@@ -1,7 +1,8 @@
 ( function( M, $ ) {
 	var api = M.require( 'api' ),
 		popup = M.require( 'toast' ),
-		schema = M.require( 'loggingSchemas/MobileWebClickTracking' );
+		SchemaMobileWebClickTracking = M.require( 'loggingSchemas/SchemaMobileWebClickTracking' ),
+		schema = new SchemaMobileWebClickTracking( {}, 'MobileWebDiffClickTracking' );
 
 	function thankUser( name, revision, gender ) {
 		var d = $.Deferred();
@@ -57,7 +58,10 @@
 					)
 					.on( 'click', function() {
 						var $this = $( this );
-						schema.log( 'Diff', 'thank', name );
+						schema.log( {
+							name: 'thank',
+							destination: name
+						} );
 						if ( !$this.hasClass( 'thanked' ) ) {
 							thankUser( name, rev, gender  ).done( function() {
 								$this.addClass( 'thanked' ).attr( 'disabled', true )
