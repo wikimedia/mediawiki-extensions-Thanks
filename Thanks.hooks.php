@@ -8,6 +8,31 @@
 
 class ThanksHooks {
 	/**
+	 * ResourceLoaderTestModules hook handler
+	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/ResourceLoaderTestModules
+	 *
+	 * @param array $testModules
+	 * @param ResourceLoader $resourceLoader
+	 * @return bool
+	 */
+	public static function onResourceLoaderTestModules( array &$testModules,
+		ResourceLoader &$resourceLoader
+	) {
+		if ( class_exists( 'SpecialMobileDiff' ) ) {
+			$testModules['qunit']['tests.ext.thanks.mobilediff'] = array(
+				'localBasePath' => __DIR__,
+				'remoteExtPath' => 'Thanks',
+				'dependencies' => array( 'ext.thanks.mobilediff' ),
+				'scripts' => array(
+					'tests/qunit/test_ext.thanks.mobilediff.js',
+				),
+				'targets' => array( 'desktop', 'mobile' ),
+			);
+		}
+		return true;
+	}
+
+	/**
 	 * Handler for HistoryRevisionTools and DiffRevisionTools hooks.
 	 * Inserts 'thank' link into revision interface
 	 * @param $rev Revision object to add the thank link for

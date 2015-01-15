@@ -4,6 +4,13 @@
 		SchemaMobileWebClickTracking = M.require( 'loggingSchemas/SchemaMobileWebClickTracking' ),
 		schema = new SchemaMobileWebClickTracking( {}, 'MobileWebDiffClickTracking' );
 
+	/**
+	 * Create a thank button for a given edit
+	 *
+	 * @param {String} name The username of the user who made the edit
+	 * @param {String} revision The revision the user created
+	 * @param {String} gender The gender of the user who made the edit
+	 */
 	function thankUser( name, revision, gender ) {
 		var d = $.Deferred();
 		api.getToken( 'edit' ).done( function( token ) {
@@ -37,9 +44,9 @@
 	/**
 	 * Create a thank button for a given edit
 	 *
-	 * @param name String The username of the user who made the edit
-	 * @param rev String The revision the user created
-	 * @param gender String The gender of the user who made the edit
+	 * @param {String} name The username of the user who made the edit
+	 * @param {String} rev The revision the user created
+	 * @param {String} gender The gender of the user who made the edit
 	 */
 	function createThankLink( name, rev, gender ) {
 		var thankImg = mw.config.get( 'wgExtensionAssetsPath' ) + '/Thanks/WhiteSmiley.png',
@@ -74,9 +81,14 @@
 		}
 	}
 
-	$( function() {
-		var $user = $( '.mw-mf-user' ),
-			username = $user.data( 'user-name' ),
+	/**
+	 * Initialise a thank button in the given container.
+	 *
+	 * @param {jQuery.Object} $user existing element with data attributes associated describing a user.
+	 * @param {jQuery.Object} $container to render button in
+	 */
+	function init( $user, $container ) {
+		var username = $user.data( 'user-name' ),
 			rev = $user.data( 'revision-id' ),
 			gender = $user.data( 'user-gender' ),
 			$thankBtn;
@@ -84,8 +96,17 @@
 		if ( !$user.hasClass( 'mw-mf-anon' ) ) {
 			$thankBtn = createThankLink( username, rev, gender );
 			if ( $thankBtn ) {
-				$thankBtn.prependTo( '#mw-mf-userinfo' );
+				$thankBtn.prependTo( $container );
 			}
 		}
+	}
+
+	$( function () {
+		init( $( '.mw-mf-user' ), $( '#mw-mf-userinfo' ) );
+	} );
+
+	// Expose for testing purposes
+	mw.thanks = $.extend( {}, mw.thanks || {}, {
+		_mobileDiffInit: init
 	} );
 } )( mw.mobileFrontend, jQuery );
