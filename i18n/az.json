@@ -14,6 +14,7 @@
 	"thanks-button-thanked": "{{GENDER:$1|Təşəkkür edildi}}",
 	"thanks-error-undefined": "Təşəkkür bildirişinin göndərilməsi alınmadı. Xahiş edirik, yenidən cəhd edin.",
 	"thanks-thank-tooltip": "Bu {{GENDER:$2|istifadəçiyə}} təşəkkür bildirişi {{GENDER:$1|göndər}}.",
+	"thanks-confirmation2": "Bu dəyişiklik üçün təşəkkür göndərilsin?",
 	"thanks-thanked-notice": "$1 etdiyi dəyişikliyə görə sizin təşəkkürünüzü aldı.",
 	"thanks": "Təşəkkür et",
 	"thanks-form-revid": "Redaktələr üçün dəyişiklik identifikatoru",

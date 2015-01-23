@@ -104,6 +104,11 @@ $specialPageAliases['mr'] = array(
 	'Thanks' => array( 'धन्यवाद' ),
 );
 
+/** Malay (Bahasa Melayu) */
+$specialPageAliases['ms'] = array(
+	'Thanks' => array( 'Berterima_kasih' ),
+);
+
 /** Norwegian Bokmål (norsk bokmål) */
 $specialPageAliases['nb'] = array(
 	'Thanks' => array( 'Takk' ),

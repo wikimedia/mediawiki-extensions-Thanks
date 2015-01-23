@@ -13,6 +13,7 @@
 	"thanks-error-invalidrevision": "ID d'a revisione non g'è valide.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Tu}} è sbunnate le limite de valutazione tune. Pe piacere aspitte 'nu picche e pruève arrete.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Manne}} 'na notifiche de rengraziamende a stu {{GENDER:$2|utende}}",
+	"thanks-confirmation2": "{{GENDER:$1|Manne}} le rengraziaminde pe stu cangiamende?",
 	"thanks-thanked-notice": "$1 ha state notificate ca a te t'ha piaciute 'u cangiamende {{GENDER:$2|sue|sue|lore}}",
 	"thanks": "Manne le rengraziaminde",
 	"thanks-form-revid": "ID d'a revisione pu cangiamende",
@@ -32,5 +33,6 @@
 	"log-show-hide-thanks": "$1 archivije de le rengraziaminde",
 	"notification-link-text-view-post": "'Ndruche 'u commende",
 	"thanks-error-invalidpostid": "ID d'u messàgge jè invalide.",
-	"flow-thanks-confirmation-special": "Vuè ccu manne 'nu grazie pe stu commende?"
+	"flow-thanks-confirmation-special": "Vuè ccu manne 'nu grazie pe stu commende?",
+	"notification-flow-thanks-post-link": "'u commende tune"
 }
