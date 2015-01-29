@@ -35,6 +35,7 @@ $wgExtensionCredits['other'][] = array(
 	'version'  => '1.2.0',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Thanks',
 	'descriptionmsg' => 'thanks-desc',
+	'license-name' => 'MIT',
 );
 
 
