@@ -75,6 +75,7 @@ $wgHooks['BeforeSpecialMobileDiffDisplay'][] = 'ThanksHooks::onBeforeSpecialMobi
 $wgHooks['UnitTestsList'][] = 'ThanksHooks::registerUnitTests';
 $wgHooks['GetLogTypesOnUser'][] = 'ThanksHooks::onGetLogTypesOnUser';
 $wgHooks['BeforePageDisplay'][] = 'ThanksHooks::onBeforePageDisplay';
+$wgHooks['ResourceLoaderTestModules'][] = 'ThanksHooks::onResourceLoaderTestModules';
 
 // Register modules
 $wgResourceModules['ext.thanks'] = array(
