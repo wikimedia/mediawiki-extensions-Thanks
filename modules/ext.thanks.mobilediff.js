@@ -57,7 +57,7 @@
 			// See if user has already been thanked for this edit
 			if ( mw.config.get( 'wgThanksAlreadySent' ) ) {
 				$thankBtn = $( '<button class="mw-mf-action-button mw-ui-button mw-ui-constructive thanked">' )
-					.attr( 'disabled', true )
+					.prop( 'disabled', true )
 					.html( thankImgTag + mw.message( 'thanks-button-thanked', mw.user ).escaped() );
 			} else {
 				$thankBtn = $( '<button class="mw-mf-action-button mw-ui-button mw-ui-constructive">' )
@@ -71,7 +71,7 @@
 						} );
 						if ( !$this.hasClass( 'thanked' ) ) {
 							thankUser( name, rev, gender  ).done( function() {
-								$this.addClass( 'thanked' ).attr( 'disabled', true )
+								$this.addClass( 'thanked' ).prop( 'disabled', true )
 									.html( thankImgTag + mw.message( 'thanks-button-thanked', mw.user ).escaped() );
 							} );
 						}
