@@ -13,6 +13,7 @@
 	"thanks-error-invalidrevision": "Det werjuun jaft at ei.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Dü}} heest tuföl aktjuunen onernimen. Teew en uugenblak an ferschük det noch ans weder.",
 	"thanks-thank-tooltip": "{{Gender:$1|Schüür}} {{Gender:$2|didiar brüker}} en \"soonk\".",
+	"thanks-confirmation2": "Diar en soonk för{{GENDER:$1|schüür}}?",
 	"thanks-thanked-notice": "$1 hää bööd füngen, dat dü {{GENDER:$2|sin|hör|hör}} feranrang gud fanjst.",
 	"thanks": "Soonk schüür",
 	"thanks-form-revid": "Werjuunskäänang för't bewerkin",
