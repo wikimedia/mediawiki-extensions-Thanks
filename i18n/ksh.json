@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"thanks-thank": "Dank",
+	"thanks-thank-tooltip": "Scheck {{GENDER:$2|däm|däm|däm Metmaacher|dä|däm}} $2 Dinge Dank.{{GENDER:$1}}"
+}
