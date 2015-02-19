@@ -268,6 +268,7 @@ class ThanksHooks {
 	 * @return boolean
 	 */
 	public static function registerUnitTests( array &$files ) {
+		// @codeCoverageIgnoreStart
 		$files[] = __DIR__ . '/tests/';
 		return true;
 		// @codeCoverageIgnoreEnd
