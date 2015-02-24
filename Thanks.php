@@ -96,6 +96,8 @@ $wgResourceModules['ext.thanks.revthank'] = array(
 		'thanks-error-invalidrevision',
 		'thanks-error-ratelimited',
 		'thanks-confirmation2',
+		'thanks-thank-tooltip-no',
+		'thanks-thank-tooltip-yes',
 		'ok',
 		'cancel',
 	),

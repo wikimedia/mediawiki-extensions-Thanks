@@ -56,7 +56,11 @@
 	$( function() {
 		if ( mw.config.get( 'thanks-confirmation-required' ) ) {
 			$( 'a.mw-thanks-thank-link' ).confirmable( {
-				i18n: { confirm: mw.msg( 'thanks-confirmation2', mw.user ) },
+				i18n: {
+					confirm: mw.msg( 'thanks-confirmation2', mw.user ),
+					noTitle: mw.msg( 'thanks-thank-tooltip-no', mw.user ),
+					yesTitle: mw.msg( 'thanks-thank-tooltip-yes', mw.user )
+				},
 				handler: function ( e ) {
 					var $thankLink = $( this );
 					e.preventDefault();
