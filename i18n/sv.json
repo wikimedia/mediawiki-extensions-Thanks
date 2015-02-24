@@ -18,6 +18,8 @@
 	"thanks-error-invalidrevision": "Versions-ID är inte giltigt.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Du}} har överskridit din frekvensgräns. Var god vänta en stund och försök igen.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Skicka}} ett tackmeddelande till denna {{GENDER:$2|användare}}",
+	"thanks-thank-tooltip-no": "{{GENDER:$1|Avbryt}} tackmeddelandet",
+	"thanks-thank-tooltip-yes": "{{GENDER:$1|Skicka}} tackmeddelandet",
 	"thanks-confirmation2": "{{GENDER:$1|Skicka}} tack för denna redigering?",
 	"thanks-thanked-notice": "$1 meddelades att du gillade {{GENDER:$2|hans|hennes|dennes}} redigering.",
 	"thanks": "Skicka tack",

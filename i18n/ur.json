@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Noor2020"
+			"Noor2020",
+			"عثمان خان شاہ"
 		]
 	},
+	"thanks-thank": "شکریہ",
 	"thanks-thanked": "{{GENDER:$1|کا شکریہ ادا کیا}}"
 }
