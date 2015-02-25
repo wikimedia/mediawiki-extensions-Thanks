@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kaganer"
+			"Kaganer",
+			"HalanTul"
 		]
 	},
 	"thanks-thank": "махтал",
 	"thanks-button-thank": "{{GENDER:$1|Махтал}}",
+	"thanks-thank-tooltip": "Бу {{GENDER:$2|кыттааччыга}} махтал сурук {{GENDER:$1|ыытарга}}",
 	"echo-category-title-edit-thank": "Махтал",
 	"notification-thanks-diff-link": "көннөрүүҥ иһин",
 	"notification-thanks": "[[User:$1|$1]] эйиэхэ {{GENDER:$1|махтаммыт}} «[[:$3]]» сирэйгэ $2 иһин.",
