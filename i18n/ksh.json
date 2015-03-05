@@ -5,5 +5,18 @@
 		]
 	},
 	"thanks-thank": "Dank",
-	"thanks-thank-tooltip": "Scheck {{GENDER:$2|däm|däm|däm Metmaacher|dä|däm}} $2 Dinge Dank.{{GENDER:$1}}"
+	"thanks-thanked": "{{GENDER:$1|bedank}}",
+	"thanks-thank-tooltip": "Scheck {{GENDER:$2|däm|däm|däm Metmaacher|dä|däm}} $2 Dinge Dank.{{GENDER:$1}}",
+	"echo-pref-subscription-edit-thank": "Dank mer för ming Änderong",
+	"notification-thanks-diff-link": "Ding Änderong",
+	"notification-thanks": "{{GENDER:$1|Dä|Dat|Dä Metmaacher|De|Dat}} [[User:$1|$1]] bedangk sesch bei Der för $2 op dä Sigg „[[:$3]]“",
+	"notification-thanks-flyout2": "{{GENDER:$1|Dä|Dat|Dä Metmaacher|De|Dat}} [[User:$1|$1]] bedangk sesch bei Der för Ding Änderong op dä Sigg „$2“",
+	"notification-thanks-email-subject": "{{GENDER:$1|Dä|Dat|Dä Metmaacher|De|Dat}} $1 bedangk sesch för Ding Änderong {{ucfirst:{{GRAMMAR:em|{{ucfirst:{{SITENAME}}}}}}}}",
+	"notification-thanks-email-batch-body": "{{GENDER:$1|Dä|Dat|Dä Metmaacher|De|Dat}} $1 bedangk sesch för Ding Änderong op $2",
+	"notification-link-text-respond-to-user": "Donn dämm Metmaacher antwoote",
+	"log-name-thanks": "Et Logbohch vum Bedangke",
+	"log-description-thanks": "Heh küdd en Leß met de Metmaacher, di Dangk vun andere krääje han.",
+	"log-show-hide-thanks": "Et Logbohch vum Bedangke $1",
+	"apihelp-thank-param-rev": "De Kännong vun ene Väsjohn för sesch bei einem för ze bedangke.",
+	"apihelp-thank-example-1": "Scheck ene Dangk för de Väsjohn met dä Kännong 456, woh de Quäll en Sigg met Ongerscheide es."
 }
