@@ -74,9 +74,6 @@ class ApiFlowThankTest extends ApiTestCase {
 				}
 			) );
 
-		$container = Flow\Container::getContainer();
-		$container[ 'loader.root_post' ] = $mockLoader;
-
 		$mockWorkflow = $this->getMock( '\Flow\Model\Workflow' );
 		$mockWorkflow->expects( $this->any() )
 			->method( 'getOwnerTitle' )
@@ -90,7 +87,6 @@ class ApiFlowThankTest extends ApiTestCase {
 			->method( 'get' )
 			->will( $this->returnValue( $mockWorkflow ) );
 
-		$container[ 'storage' ] = $mockStorage;
 
 		$mockTemplating = $this->getMockBuilder( 'Flow\Templating' )
 			->disableOriginalConstructor()
@@ -100,6 +96,10 @@ class ApiFlowThankTest extends ApiTestCase {
 			->method( 'getContent' )
 			->will( $this->returnValue( 'test content' ) );
 
+		Flow\Container::reset();
+		$container = Flow\Container::getContainer();
+		$container[ 'loader.root_post' ] = $mockLoader;
+		$container[ 'storage' ] = $mockStorage;
 		$container[ 'templating' ] = $mockTemplating;
 
 		$this->doLogin( 'sysop' );
