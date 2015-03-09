@@ -16,6 +16,8 @@
 	"thanks-error-invalidrevision": "Số phiên bản không hợp lệ.",
 	"thanks-error-ratelimited": "{{GENDER:$1}}Bạn đã vượt quá giới hạn tốc độ. Xin vui lòng thử lại lát nữa.",
 	"thanks-thank-tooltip": "{{GENDER:$1}}Gửi thông báo cảm ơn cho {{GENDER:$2}}người dùng này",
+	"thanks-thank-tooltip-no": "{{GENDER:$1}}Hủy bỏ lời cảm ơn",
+	"thanks-thank-tooltip-yes": "{{GENDER:$1}}Gửi lời cảm ơn",
 	"thanks-confirmation2": "{{GENDER:$1}}Gửi lời cảm ơn vì sửa đổi này?",
 	"thanks-thanked-notice": "$1 đã nhận lời cảm ơn của bạn vì sửa đổi của {{GENDER:$2}}họ.",
 	"thanks": "Gửi lời cảm ơn",
