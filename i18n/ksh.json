@@ -6,6 +6,7 @@
 	},
 	"thanks-thank": "Dank",
 	"thanks-thanked": "{{GENDER:$1|bedank}}",
+	"thanks-error-undefined": "Et Bedangke hät nit jeflupp. Versöhg_et norr_ens.",
 	"thanks-error-invalidrevision": "Di Kännong för di Väsjohn es nit jöltesch.",
 	"thanks-thank-tooltip": "Scheck {{GENDER:$2|däm|däm|däm Metmaacher|dä|däm}} $2 Dinge Dank.{{GENDER:$1}}",
 	"thanks": "Bedanke",

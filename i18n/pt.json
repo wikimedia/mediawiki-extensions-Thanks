@@ -24,7 +24,7 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|Envie}} um agradecimento para {{GENDER:$2|este utilizador|esta utilizadora}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Cancelar}} a notificação de agradecimento",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Enviar}} a notificação de agradecimento",
-	"thanks-confirmation2": "{{GENDER:$1|Enviar}} agradecimento por esta edição?",
+	"thanks-confirmation2": "{{GENDER:$1|Enviar}} publicamente um agradecimento por esta edição?",
 	"thanks-thanked-notice": "$1 foi {{GENDER:$2|informado|informada|informado(a)}} de que gostou da sua edição.",
 	"thanks": "Enviar agradecimento",
 	"thanks-form-revid": "ID de revisão para editar",
@@ -43,14 +43,15 @@
 	"logentry-thanks-thank": "$1 {{GENDER:$2|agradeceu}} a {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 registo de agradecimentos",
 	"thanks-error-no-id-specified": "Deve especificar um ID de revisão para enviar um agradecimento.",
-	"thanks-confirmation-special": "Deseja enviar um agradecimento por esta edição?",
+	"thanks-confirmation-special": "Deseja agradecer publicamente por esta edição?",
 	"notification-link-text-view-post": "Ver comentário",
 	"thanks-error-invalidpostid": "ID de mensagem inválido.",
-	"flow-thanks-confirmation-special": "Deseja enviar um agradecimento por este comentário?",
+	"flow-thanks-confirmation-special": "Deseja agradecer publicamente por este comentário?",
 	"flow-thanks-thanked-notice": "$1 foi {{GENDER:$2|informado|informada}} de que você gostou do seu comentário.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|agradeceu}}{{GENDER:$5|-lhe}} por $2 em \"$3\" ([[:$4]]).",
 	"notification-flow-thanks-post-link": "o seu comentário",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|agradeceu}}{{GENDER:$4|-lhe}} pelo seu comentário em \"$2\" ($3).",
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|agradeceu}}{{GENDER:$2|-lhe}} pelo seu comentário em {{SITENAME}}",
-	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|agradeceu}}{{GENDER:$4|-lhe}} pelo seu comentário em \"$2\" ($3)."
+	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|agradeceu}}{{GENDER:$4|-lhe}} pelo seu comentário em \"$2\" ($3).",
+	"apihelp-flowthank-description": "Enviar notificação de agradecimento público por um comentário no Flow."
 }
