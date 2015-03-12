@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Toliño",
-			"Agremon"
+			"Agremon",
+			"Elisardojm"
 		]
 	},
 	"thanks-desc": "Engade ligazóns para agradecer aos usuarios as súas edicións, comentarios etc.",
@@ -36,14 +37,14 @@
 	"thanks-confirmation-special": "Quere agradecer esta edición de xeito público?",
 	"notification-link-text-view-post": "Mostrar o comentario",
 	"thanks-error-invalidpostid": "O identificador de publicación non é válido.",
-	"flow-thanks-confirmation-special": "Quere agradecer este comentario?",
+	"flow-thanks-confirmation-special": "Quere agradecer publicamente este comentario?",
 	"flow-thanks-thanked-notice": "$1 recibiu o agradecemento que lle enviou pola {{GENDER:$2|seu}} comentario.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|agradeceu}} {{GENDER:$5|$2}} en \"$3\" na páxina \"[[:$4]]\".",
 	"notification-flow-thanks-post-link": "o seu comentario",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|agradeceu}} {{GENDER:$4|o seu comentario}} en \"$2\" na páxina \"$3\".",
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|agradeceu}} {{GENDER:$2|o seu comentario}} en {{SITENAME}}",
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|agradeceu}} {{GENDER:$4|o seu comentario}} en \"$2\" na páxina \"$3\".",
-	"apihelp-flowthank-description": "Enviar unha notificación de agradecemento por un comentario en Flow.",
+	"apihelp-flowthank-description": "Enviar unha notificación pública de agradecemento por un comentario en Flow.",
 	"apihelp-flowthank-param-postid": "O UUID da publicación que agradecer.",
 	"apihelp-flowthank-example-1": "Enviar un agradecemento ao comentario co UUID xyz789",
 	"apihelp-thank-description": "Enviar unha notificación de agradecemento a un editor.",
