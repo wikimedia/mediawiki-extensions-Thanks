@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bishnu Saikia"
+			"Bishnu Saikia",
+			"Gitartha.bordoloi"
 		]
 	},
+	"thanks-thank": "ধন্যবাদ",
+	"thanks-thank-tooltip": "এই {{GENDER:$2|সদস্যলৈ}} এটা ধন্যবাদ বাৰ্তা {{GENDER:$1|পঠিয়াওক}}",
 	"notification-link-text-view-post": "মন্তব্য দেখুৱাওক",
 	"notification-flow-thanks-post-link": "আপোনাৰ মন্তব্য"
 }
