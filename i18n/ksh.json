@@ -9,6 +9,9 @@
 	"thanks-error-undefined": "Et Bedangke hät nit jeflupp. Versöhg_et norr_ens.",
 	"thanks-error-invalidrevision": "Di Kännong för di Väsjohn es nit jöltesch.",
 	"thanks-thank-tooltip": "Scheck {{GENDER:$2|däm|däm|däm Metmaacher|dä|däm}} $2 Dinge Dank.{{GENDER:$1}}",
+	"thanks-thank-tooltip-no": "Donn keine Meddeilong zom Bedanke verschecke.{{GENDER:$1|}}",
+	"thanks-thank-tooltip-yes": "Donn de Meddeilong zom Bedanke verschecke.{{GENDER:$1|}}",
+	"thanks-confirmation2": "Wells De Desch öffentlesch för heh di Änderoong bedanke?{{GENDER:$1|}}",
 	"thanks": "Bedanke",
 	"thanks-form-revid": "De Kännong fun dä Väsjohn met dä Änderong",
 	"echo-pref-subscription-edit-thank": "Dank mer för ming Änderong",
@@ -22,6 +25,9 @@
 	"log-name-thanks": "Et Logbohch vum Bedangke",
 	"log-description-thanks": "Heh küdd en Leß met de Metmaacher, di Dangk vun andere krääje han.",
 	"log-show-hide-thanks": "Et Logbohch vum Bedangke $1",
+	"thanks-confirmation-special": "Wells De Desch öffentlesch för heh di Änderoong bedanke?",
+	"flow-thanks-confirmation-special": "Wells De Desch öffentlesch för heh dä Kommäntaa bedanke?",
+	"apihelp-flowthank-description": "Schegg en öffentlesche Nohreesch zom bedanke för ene  Flow Kommäntaa.",
 	"apihelp-thank-param-rev": "De Kännong vun ene Väsjohn för sesch bei einem för ze bedangke.",
 	"apihelp-thank-example-1": "Scheck ene Dangk för de Väsjohn met dä Kännong 456, woh de Quäll en Sigg met Ongerscheide es."
 }
