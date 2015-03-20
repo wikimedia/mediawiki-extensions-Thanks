@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Garas",
-			"Hugo.arg"
+			"Hugo.arg",
+			"Pofka"
 		]
 	},
 	"thanks-thank": "padėkoti",
@@ -11,6 +12,8 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|Nusiųskite}} padėkos žinutę šiam {{GENDER:$2|naudotojui}}",
 	"echo-pref-tooltip-edit-thank": "Tebūnie pranešta, kai kas nors padėkoja už mano atliktą keitimą.",
 	"notification-thanks-flyout2": "[[User:$1|$1]] padėkojo jums už jūsų keitimą puslapyje $2.",
+	"thanks-confirmation-special": "Ar norite viešai išsiųsti padėką už šį pakeitimą?",
 	"notification-link-text-view-post": "Rodyti komentarą",
+	"flow-thanks-confirmation-special": "Ar norite viešai išsiųsti padėką už šį komentarą?",
 	"notification-flow-thanks-post-link": "jūsų komentaras"
 }
