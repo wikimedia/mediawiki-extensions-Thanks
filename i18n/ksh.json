@@ -4,8 +4,11 @@
 			"Purodha"
 		]
 	},
+	"thanks-desc": "Määd lengks en et Wikki för sesch bei Metmaacher för jät ze bedangke.",
 	"thanks-thank": "Dank",
 	"thanks-thanked": "{{GENDER:$1|bedank}}",
+	"thanks-button-thank": "Bedangke{{GENDER:$1|}}",
+	"thanks-button-thanked": "Bedangk.{{GENDER:$1|}}",
 	"thanks-error-undefined": "Et Bedangke hät nit jeflupp. Versöhg_et norr_ens.",
 	"thanks-error-invalidrevision": "Di Kännong för di Väsjohn es nit jöltesch.",
 	"thanks-thank-tooltip": "Scheck {{GENDER:$2|däm|däm|däm Metmaacher|dä|däm}} $2 Dinge Dank.{{GENDER:$1}}",
@@ -24,10 +27,18 @@
 	"notification-link-text-respond-to-user": "Donn dämm Metmaacher antwoote",
 	"log-name-thanks": "Et Logbohch vum Bedangke",
 	"log-description-thanks": "Heh küdd en Leß met de Metmaacher, di Dangk vun andere krääje han.",
-	"log-show-hide-thanks": "Et Logbohch vum Bedangke $1",
+	"log-show-hide-thanks": "Et Logbohch vum Bedangke {{lcfirst:$1}}",
 	"thanks-confirmation-special": "Wells De Desch öffentlesch för heh di Änderoong bedanke?",
 	"flow-thanks-confirmation-special": "Wells De Desch öffentlesch för heh dä Kommäntaa bedanke?",
-	"apihelp-flowthank-description": "Schegg en öffentlesche Nohreesch zom bedanke för ene  Flow Kommäntaa.",
+	"flow-thanks-thanked-notice": "{{GENDER:$2|Dä|Dat|Dä Metmaacher|De|Dat}} $1 hät Dinge Dangk krähje för wat {{GENDER:$2|hä|et|hä|sei|et}} jeschrevve hät.",
+	"notification-flow-thanks": "{{GENDER:$1|Dä|Dat|Dä Metmaacher|De|Dat}} \n[[User:$1|$1]] hät sesch bei Der bedangk för $2 dä Övverschreff „$3“ op dä Sigg „[[:$4]]“.{{GENDER:$5|}}",
+	"notification-flow-thanks-post-link": "wat de jeschrevve häs",
+	"notification-flow-thanks-flyout": "{{GENDER:$1|Dä|Dat|Dä Metmaacher|De|Dat}} \n[[User:$1|$1]] hät sesch bei Der bedangk för wat de em Affschnedd „$2“ op di Sigg „$3“ jeschrevve häs.{{GENDER:$4|}}",
+	"notification-flow-thanks-email-subject": "{{GENDER:$1|Dä|Dat|Dä Metmaacher|De|Dat}} $1 hät sesch bei Der bedangk för wat de {{GRAMMAR:em|{{ucfirst:{{SITENAME}}}}}} jeschrevve häs.{{GENDER:$2|}}",
+	"notification-flow-thanks-email-batch-body": "{{GENDER:$1|Dä|Dat|Dä Metmaacher|De|Dat}} \n$1 hät sesch bei Der bedangk för wat de em Affschnedd „$2“ op di Sigg „$3“ jeschrevve häs.{{GENDER:$4|}}",
+	"apihelp-flowthank-description": "Schegg en öffentlesche Nohreesch zom Bedanke för ene  Flow Kommäntaa.",
+	"apihelp-thank-description": "Schegg ene Dangk aan ene Schrihver.",
 	"apihelp-thank-param-rev": "De Kännong vun ene Väsjohn för sesch bei einem för ze bedangke.",
+	"apihelp-thank-param-source": "Ene koote Täx öm ze sahre, woh di Frohch hehr küdd, „<code lang=\"en\" xml:lang=\"en\" dir=\"ltr\">diff</code>“ uddder „<code lang=\"en\" xml:lang=\"en\" dir=\"ltr\">history</code>“ för e Beijschpell.\n<!-- \nhttps://translatewiki.net/wiki/Thread:Support/About_MediaWiki:Apihelp-thank-param-source/en\n-->",
 	"apihelp-thank-example-1": "Scheck ene Dangk för de Väsjohn met dä Kännong 456, woh de Quäll en Sigg met Ongerscheide es."
 }
