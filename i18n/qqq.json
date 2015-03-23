@@ -6,10 +6,11 @@
 			"Pxos",
 			"Raymond",
 			"Shirayuki",
-			"Siebrand"
+			"Siebrand",
+			"Umherirrender"
 		]
 	},
-	"thanks-desc": "{{desc|name=Thanks|url=http://www.mediawiki.org/wiki/Extension:Thanks}}",
+	"thanks-desc": "{{desc|name=Thanks|url=https://www.mediawiki.org/wiki/Extension:Thanks}}",
 	"thanks-thank": "{{Doc-actionlink}}\nA link to thank another user. This appears next to messages such as {{msg-mw|editundo}} and {{msg-mw|rollbacklink}} and should be translated in a similar fashion.\n{{Identical|Thank}}",
 	"thanks-thanked": "This message immediately replaces the message {{msg-mw|Thanks-thank}} after it's pressed. It means that the thanking operation has been completed.\n\nIt can be translated as \"''thanked''\" in \"You thanked the user\" or \"The user has just been ''thanked''\" - whatever is appropriate to your language.\n\nParameters:\n* $1 - the current user, for GENDER support",
 	"thanks-button-thank": "Text of a button to thank another user. Same as {{msg-mw|Thanks-thank}}, but the context is in a button.\n\nParameters:\n* $1 - user object for GENDER support\n{{Identical|Thank}}",

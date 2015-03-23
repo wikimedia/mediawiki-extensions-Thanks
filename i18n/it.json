@@ -3,7 +3,8 @@
 		"authors": [
 			"Beta16",
 			"Elitre",
-			"FRacco"
+			"FRacco",
+			"Macofe"
 		]
 	},
 	"thanks-desc": "Aggiunge un collegamento per ringraziare gli utenti per modifiche, commenti, ecc.",
@@ -15,7 +16,7 @@
 	"thanks-error-invalidrevision": "L'ID versione non è valido.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Hai superato}} il limite massimo di ringraziamenti. Aspetta un po' di tempo e riprova.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Invia}} una notifica di ringraziamento a {{GENDER:$2|questo|questa}} utente",
-	"thanks-confirmation2": "{{GENDER:$1|Inviare}} un ringraziamento per questa modifica?",
+	"thanks-confirmation2": "{{GENDER:$1|Inviare}} un ringraziamento pubblico per questa modifica?",
 	"thanks-thanked-notice": "$1 ha ricevuto il tuo ringraziamento per {{GENDER:$2|la sua}} modifica.",
 	"thanks": "Invia ringraziamento",
 	"thanks-form-revid": "ID versione per modifica",
@@ -34,10 +35,10 @@
 	"logentry-thanks-thank": "$1 {{GENDER:$2|ha ringraziato}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 registro dei ringraziamenti",
 	"thanks-error-no-id-specified": "È necessario specificare un ID versione per ringraziare.",
-	"thanks-confirmation-special": "Vuoi ringraziare per questa modifica?",
+	"thanks-confirmation-special": "Vuoi ringraziare pubblicamente per questa modifica?",
 	"notification-link-text-view-post": "Vedi commento",
 	"thanks-error-invalidpostid": "ID messaggio non è valido.",
-	"flow-thanks-confirmation-special": "Vuoi ringraziare per questo commento?",
+	"flow-thanks-confirmation-special": "Vuoi ringraziare pubblicamente per questo commento?",
 	"flow-thanks-thanked-notice": "$1 ha ricevuto il tuo ringraziamento per {{GENDER:$2|il suo}} commento.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$5|ti}} {{GENDER:$1|ha ringraziato}} per $2 in \"$3\" su [[:$4]].",
 	"notification-flow-thanks-post-link": "il tuo commento",

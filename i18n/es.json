@@ -46,5 +46,6 @@
 	"flow-thanks-confirmation-special": "¿Deseas agradecer públicamente este comentario?",
 	"flow-thanks-thanked-notice": "$1 recibió tu agradecimiento por {{GENDER:$2|su}} comentario.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$5|te}} {{GENDER:$1|agradeció}} por $2 en \"$3\" de [[:$4]].",
-	"notification-flow-thanks-post-link": "tu comentario"
+	"notification-flow-thanks-post-link": "tu comentario",
+	"apihelp-flowthank-description": "Enviar una notificación pública de agradecimiento por un comentario en Flow."
 }

@@ -5,7 +5,8 @@
 			"Vriullop",
 			"Pere prlpz",
 			"KRLS",
-			"Paucabot"
+			"Paucabot",
+			"Macofe"
 		]
 	},
 	"thanks-desc": "Afegeix enllaços per agrair els editors per les seves edicions, comentaris, etc.",
@@ -36,10 +37,10 @@
 	"logentry-thanks-thank": "$1 {{GENDER:$2|ha agraït}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 el registre d'agraïments",
 	"thanks-error-no-id-specified": "Heu d'especificar una revisió ID per enviar les gràcies.",
-	"thanks-confirmation-special": "Voleu agrair aquesta edició?",
+	"thanks-confirmation-special": "Voleu agrair públicament aquesta edició?",
 	"notification-link-text-view-post": "Mostra el comentari",
 	"thanks-error-invalidpostid": "Post ID no és vàlid.",
-	"flow-thanks-confirmation-special": "Voleu agrair aquest comentari?",
+	"flow-thanks-confirmation-special": "Voleu agrair públicament aquest comentari?",
 	"flow-thanks-thanked-notice": "$1 ha rebut el vostre agraïment pel {{GENDER:$2|seu|seu|seu}} comentari.",
 	"notification-flow-thanks": "[[User:$1|$1]] us {{GENDER:$1|agraeix}} per $2 a \"$3\" de [[:$4]].",
 	"notification-flow-thanks-post-link": "el vostre comentari",

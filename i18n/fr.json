@@ -13,7 +13,8 @@
 			"Urhixidur",
 			"Wyz",
 			"McDutchie",
-			"Dereckson"
+			"Dereckson",
+			"Macofe"
 		]
 	},
 	"thanks-desc": "Ajoute des liens pour remercier les utilisateurs pour des modifications, des commentaires, etc.",
@@ -44,10 +45,10 @@
 	"logentry-thanks-thank": "$1 {{GENDER:$2|a remercié}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 le journal des remerciements",
 	"thanks-error-no-id-specified": "Vous devez spécifier un ID de révision pour envoyer des remerciements.",
-	"thanks-confirmation-special": "Voulez-vous envoyer des remerciements pour cette modification ?",
+	"thanks-confirmation-special": "Voulez-vous envoyer publiquement des remerciements pour cette modification ?",
 	"notification-link-text-view-post": "Afficher commentaire",
 	"thanks-error-invalidpostid": "L’ID de la note n’est pas valide.",
-	"flow-thanks-confirmation-special": "Voulez-vous envoyer des remerciements pour ce commentaire ?",
+	"flow-thanks-confirmation-special": "Voulez-vous envoyer publiquement des remerciements pour ce commentaire ?",
 	"flow-thanks-thanked-notice": "$1 a été {{GENDER:$2|notifié|notifiée}} que vous aimez son commentaire.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$5|vous}} a remercié pour $2 dans « $3 » sur [[:$4]].",
 	"notification-flow-thanks-post-link": "votre commentaire",
