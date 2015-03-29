@@ -40,7 +40,7 @@
 	"thanks-error-no-id-specified": "יש לציין מזהה גרסה בשביל שליחת תודה.",
 	"thanks-confirmation-special": "האם לשלוח תודה פומבית על העריכה הזאת?",
 	"notification-link-text-view-post": "הצגת תגובה",
-	"thanks-error-invalidpostid": "מהזז הרשומה אינו תקין.",
+	"thanks-error-invalidpostid": "מזהה הרשומה אינו תקין.",
 	"flow-thanks-confirmation-special": "האם לשלוח תודה פומבית על ההערה הזאת?",
 	"flow-thanks-thanked-notice": "$1 {{GENDER:$2|קיבל|קיבלה}} את התודה שלך על ההערה {{GENDER:$2|שלו|שלה}}.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|הודה|הודתה}} {{GENDER:$5|לך}} על $2 בנושא \"$3\" בדף [[:$4]].",

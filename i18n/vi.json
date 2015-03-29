@@ -4,7 +4,8 @@
 			"Minh Nguyen",
 			"Prenn",
 			"Trần Nguyễn Minh Huy",
-			"Max20091"
+			"Max20091",
+			"Dinhxuanduyet"
 		]
 	},
 	"thanks-desc": "Thêm các liên kết để cảm ơn người dùng vì sửa đổi, bình luận, v.v.",
@@ -40,7 +41,7 @@
 	"thanks-confirmation-special": "Bạn có muốn gửi lời cảm ơn vì sửa đổi này?",
 	"notification-link-text-view-post": "Xem bình luận",
 	"thanks-error-invalidpostid": "Số bài đăng không hợp lệ.",
-	"flow-thanks-confirmation-special": "Bạn có muốn gửi lời cảm ơn vì lời bình luận này?",
+	"flow-thanks-confirmation-special": "Bạn có muốn gửi lời cảm ơn cho lời bình luận này?",
 	"flow-thanks-thanked-notice": "$1 đã nhận lời cảm ơn của bạn vì lời bình luận của {{GENDER:$2}}họ.",
 	"notification-flow-thanks": "[[User:$1|$1]] cảm ơn {{GENDER:$5}}bạn $2 về “$3” tại [[:$4]].",
 	"notification-flow-thanks-post-link": "đã bình luận",
