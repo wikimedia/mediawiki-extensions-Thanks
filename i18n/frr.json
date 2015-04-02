@@ -15,7 +15,7 @@
 	"thanks-thank-tooltip": "{{Gender:$1|Schüür}} {{Gender:$2|didiar brüker}} en \"soonk\".",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Breeg}} det soonkin uf",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Schüür}} det soonk-bööd",
-	"thanks-confirmation2": "Diar en soonk för{{GENDER:$1|schüür}}?",
+	"thanks-confirmation2": "Diar en öfentelken soonk för {{GENDER:$1|schüür}}?",
 	"thanks-thanked-notice": "$1 hää bööd füngen, dat dü {{GENDER:$2|sin|hör|hör}} feranrang gud fanjst.",
 	"thanks": "Soonk schüür",
 	"thanks-form-revid": "Werjuunskäänang för't bewerkin",
