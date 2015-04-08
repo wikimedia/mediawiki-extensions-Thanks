@@ -29,6 +29,11 @@ $specialPageAliases['arz'] = array(
 	'Thanks' => array( 'شكرا' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'Thanks' => array( 'سپاس', 'منتوارن', 'تشکر' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'Thanks' => array( 'Danke' ),
