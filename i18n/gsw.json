@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Als-Holder"
+		]
+	},
+	"thanks-thank": "dankschen sage",
+	"thanks-thank-tooltip": "{{GENDER:$2|Däm Benutzer|Däre Benutzeri}} ne Dankschen {{GENDER:$1|schicke}}"
+}
