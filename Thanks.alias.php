@@ -64,6 +64,11 @@ $specialPageAliases['he'] = array(
 	'Thanks' => array( 'תודה', 'תודות' ),
 );
 
+/** Hindi (हिन्दी) */
+$specialPageAliases['hi'] = array(
+	'Thanks' => array( 'धन्यवाद' ),
+);
+
 /** Croatian (hrvatski) */
 $specialPageAliases['hr'] = array(
 	'Thanks' => array( 'Zahvale' ),
