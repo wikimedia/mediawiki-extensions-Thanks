@@ -4,5 +4,6 @@
 			"बिप्लब आनन्द"
 		]
 	},
-	"thanks-thank": "धन्यवाद"
+	"thanks-thank": "धन्यवाद",
+	"thanks-thank-tooltip": "यस {{GENDER:$2|प्रयोगकर्ता}}लाई धन्यवाद अधिसूचना {{GENDER:$1|पठाउने}}।"
 }

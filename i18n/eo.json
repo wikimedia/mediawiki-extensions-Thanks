@@ -12,6 +12,7 @@
 	"thanks-error-undefined": "Danko malsukcesis. Reprovu poste.",
 	"thanks-error-invalidrevision": "Identigilo de revizio estas nevalida.",
 	"thanks-error-ratelimited": "Vi superis vian laŭtempan limon. Atendu kelkan tempon kaj reprovu.",
+	"thanks-thank-tooltip": "{{GENDER:$1|Danki}} al tiu ĉi {{GENDER:$2|uzanto}}",
 	"thanks-confirmation2": "{{GENDER:$1|Ĉu sendi}} dankon pro tiu ĉi redakto?",
 	"thanks-thanked-notice": "$1 ricevis vian dankon pro {{GENDER:$2|lia|ŝia|lia}} redakto.",
 	"thanks": "Sendi dankon",
