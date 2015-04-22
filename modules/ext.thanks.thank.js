@@ -33,6 +33,31 @@
 					return false;
 				}
 			}
+		},
+
+		/**
+		 * Retrieve user gender
+		 * @param {string} username Requested username
+		 * @return {jQuery.Promise} A promise that resolves with the gender string, 'female', 'male', or 'unknown'
+		 */
+		getUserGender: function ( username ) {
+			return new mw.Api().get( {
+				action: 'query',
+				list: 'users',
+				ususers: username,
+				usprop: 'gender'
+			} )
+				.then(
+					function ( result ) {
+						return (
+							result.query.users[0] &&
+							result.query.users[0].gender
+						) || 'unknown';
+					},
+					function () {
+						return 'unknown';
+					}
+				);
 		}
 	};
 

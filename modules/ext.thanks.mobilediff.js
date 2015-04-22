@@ -61,7 +61,7 @@
 					.html( thankImgTag + mw.message( 'thanks-button-thanked', mw.user ).escaped() );
 			} else {
 				$thankBtn = $( '<button class="mw-mf-action-button mw-ui-button mw-ui-constructive">' )
-					.html( thankImgTag + mw.message( 'thanks-button-thank', mw.user ).escaped()
+					.html( thankImgTag + mw.message( 'thanks-button-thank', mw.user, gender ).escaped()
 					)
 					.on( 'click', function () {
 						var $this = $( this );
@@ -72,7 +72,7 @@
 						if ( !$this.hasClass( 'thanked' ) ) {
 							thankUser( name, rev, gender  ).done( function () {
 								$this.addClass( 'thanked' ).prop( 'disabled', true )
-									.html( thankImgTag + mw.message( 'thanks-button-thanked', mw.user ).escaped() );
+									.html( thankImgTag + mw.message( 'thanks-button-thanked', mw.user, gender ).escaped() );
 							} );
 						}
 					} );

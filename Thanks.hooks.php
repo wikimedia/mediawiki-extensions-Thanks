@@ -80,7 +80,7 @@ class ThanksHooks {
 			return Html::element(
 				'span',
 				array( 'class' => 'mw-thanks-thanked' ),
-				wfMessage( 'thanks-thanked', $wgUser )->text()
+				wfMessage( 'thanks-thanked', $wgUser, $recipient->getName() )->text()
 			);
 		}
 
@@ -97,7 +97,7 @@ class ThanksHooks {
 				'title' => $tooltip,
 				'data-revision-id' => $rev->getId(),
 			),
-			wfMessage( 'thanks-thank' )->plain()
+			wfMessage( 'thanks-thank', $wgUser, $recipient->getName() )->plain()
 		);
 	}
 

@@ -20,28 +20,40 @@
 		} else {
 			source = 'diff';
 		}
+
 		( new mw.Api ).postWithToken( 'edit', {
 			action: 'thank',
 			rev: $thankLink.attr( 'data-revision-id' ),
 			source: source
 		} )
-		.done( function ( data ) {
-			$thankElement.before( mw.message( 'thanks-thanked', mw.user ).escaped() );
+		.then(
+			// Success
+			function ( data ) {
+				var username = $thankLink.closest(
+						source === 'history' ? 'li' : 'td'
+					).find( 'a.mw-userlink' ).text();
+				// Get the user who was thanked (for gender purposes)
+				return mw.thanks.getUserGender( username );
+			},
+			// Fail
+			function ( errorCode, details ) {
+				// TODO: use something besides alert for the error messages
+				switch ( errorCode ) {
+					case 'invalidrevision':
+						alert( mw.msg( 'thanks-error-invalidrevision' ) );
+						break;
+					case 'ratelimited':
+						alert( mw.msg( 'thanks-error-ratelimited', mw.user ) );
+						break;
+					default:
+						alert( mw.msg( 'thanks-error-undefined' ) );
+				}
+			}
+		)
+		.then( function ( recipientGender ) {
+			$thankElement.before( mw.message( 'thanks-thanked', mw.user, recipientGender ).escaped() );
 			$thankElement.remove();
 			mw.thanks.thanked.push( $thankLink );
-		} )
-		.fail( function ( errorCode, details ) {
-			// TODO: use something besides alert for the error messages
-			switch ( errorCode ) {
-				case 'invalidrevision':
-					alert( mw.msg( 'thanks-error-invalidrevision' ) );
-					break;
-				case 'ratelimited':
-					alert( mw.msg( 'thanks-error-ratelimited', mw.user ) );
-					break;
-				default:
-					alert( mw.msg( 'thanks-error-undefined' ) );
-			}
 		} );
 	}
 
