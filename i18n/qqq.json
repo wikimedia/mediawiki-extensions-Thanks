@@ -24,7 +24,6 @@
 	"thanks-thanked-notice": "{{doc-singularthey}}\nPop-up message that is displayed after a user has thanked another user for their edit.\n\nParameters:\n* $1 - the username of the user that was thanked\n* $2 - the gender of the user that was thanked\nSee also:\n* {{msg-mw|Flow-thanks-thanked-notice}}",
 	"thanks": "{{doc-special|Thanks|unlisted=1}}\nThe special page contains the form to thank for the edit.",
 	"thanks-form-revid": "Label for form field where the user inputs the revision ID.",
-	"thanks-already-thanked": "Message shown to user if they have already sent thanks for this edit. Parameters:\n* $1 - the user's username",
 	"echo-pref-subscription-edit-thank": "Option for getting notifications when someone thanks the user for their edit.\n\nThis is the conclusion of the sentence begun by the header: {{msg-mw|Prefs-echosubscriptions}}.",
 	"echo-pref-tooltip-edit-thank": "This is a short description of the edit-thank notification category.\n{{Related|Echo-pref-tooltip}}",
 	"echo-category-title-edit-thank": "This is a short title for the notification category.\n\nUsed as <code>$1</code> in {{msg-mw|Echo-dismiss-message}} and as <code>$2</code> in {{msg-mw|Echo-email-batch-category-header}}\n{{Related|Echo-category-title}}\n{{Identical|Thank}}",
