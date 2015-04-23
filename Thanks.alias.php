@@ -84,6 +84,11 @@ $specialPageAliases['it'] = array(
 	'Thanks' => array( 'Ringrazia' ),
 );
 
+/** Georgian (ქართული) */
+$specialPageAliases['ka'] = array(
+	'Thanks' => array( 'მადლობა' ),
+);
+
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
 	'Thanks' => array( '감사' ),
