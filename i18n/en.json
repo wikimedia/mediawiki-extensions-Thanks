@@ -19,7 +19,6 @@
 	"thanks-thanked-notice": "$1 received your thanks for {{GENDER:$2|his|her|their}} edit.",
 	"thanks": "Send thanks",
 	"thanks-form-revid": "Revision ID for edit",
-	"thanks-already-thanked": "{{GENDER:$1|You}} have already sent thanks for this edit.",
 	"echo-pref-subscription-edit-thank": "Thanks me for my edit",
 	"echo-pref-tooltip-edit-thank": "Notify me when someone thanks me for an edit I made.",
 	"echo-category-title-edit-thank": "Thanks",
