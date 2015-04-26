@@ -19,7 +19,6 @@
 	"thanks-thanked-notice": "$1 recibió'l to agradecimientu {{GENDER:$2|pola so}} edición.",
 	"thanks": "Agradecer",
 	"thanks-form-revid": "ID de revisión pa la edición",
-	"thanks-already-thanked": "{{GENDER:$1|Yá}} agradeció esta edición.",
 	"echo-pref-subscription-edit-thank": "Agradecimientos pola mio edición",
 	"echo-pref-tooltip-edit-thank": "Avisame cuando alguién me de les gracies por una edición de mio.",
 	"echo-category-title-edit-thank": "Gracies",

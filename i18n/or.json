@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jnanaranjan Sahu"
+		]
+	},
+	"thanks-thank": "ଧନ୍ୟବାଦ ଦେବେ",
+	"thanks-thank-tooltip": "{{GENDER:$2|user}}ଙ୍କୁ ଏକ ଧନ୍ୟବାଦ ସୂଚନା {{GENDER:$1|ପଠାନ୍ତୁ}}"
+}

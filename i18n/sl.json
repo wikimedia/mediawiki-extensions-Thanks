@@ -19,7 +19,6 @@
 	"thanks-thanked-notice": "$1 je {{GENDER:$2|prejel|prejela}} vašo zahvalo za {{GENDER:$2|njegovo|njeno}} urejanje.",
 	"thanks": "Pošljite zahvalo",
 	"thanks-form-revid": "ID redakcije za urejanje",
-	"thanks-already-thanked": "Za to urejanje {{GENDER:$1|ste}} že poslali zahvalo.",
 	"echo-pref-subscription-edit-thank": "Se mi zahvali za urejanje",
 	"echo-pref-tooltip-edit-thank": "Obvesti me, kadar se mi kdo zahvali za katero od mojih urejanj.",
 	"echo-category-title-edit-thank": "Zahvala",
