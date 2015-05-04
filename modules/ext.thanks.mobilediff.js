@@ -1,4 +1,4 @@
-( function( M, $ ) {
+( function ( M, $ ) {
 	var api = M.require( 'api' ),
 		popup = M.require( 'toast' ),
 		SchemaMobileWebClickTracking = M.require( 'loggingSchemas/SchemaMobileWebClickTracking' ),
@@ -13,19 +13,19 @@
 	 */
 	function thankUser( name, revision, gender ) {
 		var d = $.Deferred();
-		api.getToken( 'edit' ).done( function( token ) {
+		api.getToken( 'edit' ).done( function ( token ) {
 			api.post( {
-				'action' : 'thank',
-				'rev' : revision,
-				'source' : 'mobilediff',
-				'token' : token
+				action: 'thank',
+				rev: revision,
+				source: 'mobilediff',
+				token: token
 			} )
-			.done( function() {
+			.done( function () {
 				popup.show( mw.msg( 'thanks-thanked-notice', name, gender ) );
 				d.resolve();
 			} )
-			.fail( function( errorCode ) {
-				switch( errorCode ) {
+			.fail( function ( errorCode ) {
+				switch ( errorCode ) {
 					case 'invalidrevision':
 						popup.show( mw.msg( 'thanks-error-invalidrevision' ) );
 						break;
@@ -63,14 +63,14 @@
 				$thankBtn = $( '<button class="mw-mf-action-button mw-ui-button mw-ui-constructive">' )
 					.html( thankImgTag + mw.message( 'thanks-button-thank', mw.user ).escaped()
 					)
-					.on( 'click', function() {
+					.on( 'click', function () {
 						var $this = $( this );
 						schema.log( {
 							name: 'thank',
 							destination: name
 						} );
 						if ( !$this.hasClass( 'thanked' ) ) {
-							thankUser( name, rev, gender  ).done( function() {
+							thankUser( name, rev, gender  ).done( function () {
 								$this.addClass( 'thanked' ).prop( 'disabled', true )
 									.html( thankImgTag + mw.message( 'thanks-button-thanked', mw.user ).escaped() );
 							} );

@@ -8,29 +8,29 @@
 		.append( mw.msg( 'thanks-button-thanked', mw.user ) )
 		.addClass( 'mw-thanks-flow-thanked mw-ui-quiet' );
 
-	var reloadThankedState = function() {
-		$( 'a.mw-thanks-flow-thank-link' ).each( function( idx, el ) {
+	function reloadThankedState() {
+		$( 'a.mw-thanks-flow-thank-link' ).each( function ( idx, el ) {
 			var $thankLink = $( el );
 			if ( mw.thanks.thanked.contains( $thankLink.closest( '.flow-post' ) ) ) {
 				$thankLink.before( $thankedLabel.clone() );
 				$thankLink.remove();
 			}
 		} );
-	};
+	}
 
-	var sendFlowThanks = function( $thankLink ) {
+	function sendFlowThanks( $thankLink ) {
 		( new mw.Api ).postWithToken( 'edit', {
-			'action' : 'flowthank',
-			'postid' : $thankLink.closest( '.flow-post' ).attr( mw.thanks.thanked.attrName )
+			action: 'flowthank',
+			postid: $thankLink.closest( '.flow-post' ).attr( mw.thanks.thanked.attrName )
 		} )
-		.done( function( data ) {
+		.done( function ( data ) {
 			mw.thanks.thanked.push( $thankLink.closest( '.flow-post' ) );
 			$thankLink.before( $thankedLabel.clone() );
 			$thankLink.remove();
 		} )
-		.fail( function( errorCode, details ) {
+		.fail( function ( errorCode, details ) {
 			// TODO: use something besides alert for the error messages
-			switch( errorCode ) {
+			switch ( errorCode ) {
 				case 'ratelimited':
 					alert( mw.msg( 'thanks-error-ratelimited', mw.user ) );
 					break;
@@ -38,7 +38,7 @@
 					alert( mw.msg( 'thanks-error-undefined' ) );
 			}
 		} );
-	};
+	}
 
 	if ( $.isReady ) {
 		// This condition is required for soft-reloads
@@ -49,7 +49,7 @@
 	}
 
 	// .on() is needed to make the button work for dynamically loaded posts
-	$( '.flow-board' ).on( 'click', 'a.mw-thanks-flow-thank-link', function( e ) {
+	$( '.flow-board' ).on( 'click', 'a.mw-thanks-flow-thank-link', function ( e ) {
 		var $thankLink = $( this );
 		e.preventDefault();
 		sendFlowThanks( $thankLink );

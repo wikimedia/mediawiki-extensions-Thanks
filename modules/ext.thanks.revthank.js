@@ -1,19 +1,19 @@
 ( function ( $, mw ) {
 	'use strict';
 
-	var reloadThankedState = function() {
-		$( 'a.mw-thanks-thank-link' ).each( function( idx, el ) {
+	function reloadThankedState() {
+		$( 'a.mw-thanks-thank-link' ).each( function ( idx, el ) {
 			var $thankLink = $( el );
 			if ( mw.thanks.thanked.contains( $thankLink ) ) {
 				$thankLink.before( mw.msg( 'thanks-thanked' ) );
 				$thankLink.remove();
 			}
 		} );
-	};
+	}
 
 	// $thankLink is the element with the data-revision-id attribute
 	// $thankElement is the element to be removed on success
-	var sendThanks = function( $thankLink, $thankElement ) {
+	function sendThanks( $thankLink, $thankElement ) {
 		var source;
 		if ( mw.config.get( 'wgAction' ) === 'history' ) {
 			source = 'history';
@@ -21,18 +21,18 @@
 			source = 'diff';
 		}
 		( new mw.Api ).postWithToken( 'edit', {
-			'action' : 'thank',
-			'rev' : $thankLink.attr( 'data-revision-id' ),
-			'source' : source
+			action: 'thank',
+			rev: $thankLink.attr( 'data-revision-id' ),
+			source: source
 		} )
-		.done( function( data ) {
+		.done( function ( data ) {
 			$thankElement.before( mw.message( 'thanks-thanked', mw.user ).escaped() );
 			$thankElement.remove();
 			mw.thanks.thanked.push( $thankLink );
 		} )
-		.fail( function( errorCode, details ) {
+		.fail( function ( errorCode, details ) {
 			// TODO: use something besides alert for the error messages
-			switch( errorCode ) {
+			switch ( errorCode ) {
 				case 'invalidrevision':
 					alert( mw.msg( 'thanks-error-invalidrevision' ) );
 					break;
@@ -43,7 +43,7 @@
 					alert( mw.msg( 'thanks-error-undefined' ) );
 			}
 		} );
-	};
+	}
 
 	if ( $.isReady ) {
 		// This condition is required for soft-reloads
@@ -53,7 +53,7 @@
 		$( document ).ready( reloadThankedState );
 	}
 
-	$( function() {
+	$( function () {
 		if ( mw.config.get( 'thanks-confirmation-required' ) ) {
 			$( 'a.mw-thanks-thank-link' ).confirmable( {
 				i18n: {

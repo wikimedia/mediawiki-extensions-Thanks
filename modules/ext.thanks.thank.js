@@ -8,7 +8,7 @@
 			cookieName: 'thanks-thanked',
 			attrName: 'data-revision-id',
 
-			load: function() {
+			load: function () {
 				var cookie = $.cookie( this.cookieName );
 				if ( cookie === null ) {
 					return [];
@@ -16,7 +16,7 @@
 				return unescape( cookie ).split( ',' );
 			},
 
-			push: function( $thankLink ) {
+			push: function ( $thankLink ) {
 				var saved = this.load();
 				saved.push( $thankLink.attr( this.attrName ) );
 				if ( saved.length > this.maxHistory ) { // prevent forever growing
@@ -25,7 +25,7 @@
 				$.cookie( this.cookieName, escape( saved.join( ',' ) ) );
 			},
 
-			contains: function( $thankLink ) {
+			contains: function ( $thankLink ) {
 				// $.inArray returns the index position or -1 if non-existant
 				if ( $.inArray( $thankLink.attr( this.attrName ), this.load() ) !== -1 ) {
 					return true;
