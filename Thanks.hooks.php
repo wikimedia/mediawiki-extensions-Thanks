@@ -97,7 +97,7 @@ class ThanksHooks {
 				'title' => $tooltip,
 				'data-revision-id' => $rev->getId(),
 			),
-			wfMessage( 'thanks-thank', $wgUser, $recipient->getName() )->plain()
+			wfMessage( 'thanks-thank', $wgUser, $recipient->getName() )->text()
 		);
 	}
 
