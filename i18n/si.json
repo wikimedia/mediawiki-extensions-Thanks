@@ -4,5 +4,6 @@
 			"හරිත"
 		]
 	},
-	"thanks-thank": "ස්තූතිය"
+	"thanks-thank": "ස්තූතිය",
+	"thanks-thank-tooltip": "මෙම {{GENDER:$2|පරිශීලකයා}} හට ස්තූති කිරීමේ නිවේදනයක් {{GENDER:$1|යවන්න}}"
 }

@@ -22,7 +22,6 @@
 	"thanks-thanked-notice": "$1 recibiu o agradecemento que lle enviou pola {{GENDER:$2|súa}} edición.",
 	"thanks": "Enviar un agradecemento",
 	"thanks-form-revid": "ID de revisión da edición",
-	"thanks-already-thanked": "Xa {{GENDER:$1|enviou}} un agradecemento por esta edición.",
 	"echo-pref-subscription-edit-thank": "Me agradeza unha edición feita por min",
 	"echo-pref-tooltip-edit-thank": "Notificádeme cando alguén me agradeza unha edición feita por min.",
 	"echo-category-title-edit-thank": "Agradecemento",

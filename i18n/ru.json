@@ -21,7 +21,6 @@
 	"thanks-thanked-notice": "$1 получил{{GENDER:$2||а|}} вашу благодарность за {{GENDER:$2|свою}} правку.",
 	"thanks": "Отправить благодарность",
 	"thanks-form-revid": "Идентификатор правки для редактирования",
-	"thanks-already-thanked": "{{GENDER:$1|Вы}} уже отправили благодарность за эту правку.",
 	"echo-pref-subscription-edit-thank": "Спасибо мне за мою правку",
 	"echo-pref-tooltip-edit-thank": "Сообщать мне, когда кто-то благодарит меня за сделанную мной правку.",
 	"echo-category-title-edit-thank": "Спасибо",

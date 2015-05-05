@@ -16,7 +16,6 @@
 	"thanks-confirmation2": "{{GENDER:$1|Ĉu sendi}} dankon pro tiu ĉi redakto?",
 	"thanks-thanked-notice": "$1 ricevis vian dankon pro {{GENDER:$2|lia|ŝia|lia}} redakto.",
 	"thanks": "Sendi dankon",
-	"thanks-already-thanked": "{{GENDER:$1|Vi}} jam sendis dankon pro tiu ĉi redakto.",
 	"echo-pref-subscription-edit-thank": "Danki al mi pro miaj redaktoj",
 	"echo-pref-tooltip-edit-thank": "Sciigu min kiam iu dankas al mi pro mia redakto.",
 	"echo-category-title-edit-thank": "Dankoj",

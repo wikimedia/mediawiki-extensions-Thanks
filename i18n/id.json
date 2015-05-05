@@ -20,7 +20,6 @@
 	"thanks-thanked-notice": "$1 telah menerima ucapan terima kasih dari Anda atas {{GENDER:$2|suntingannya}}.",
 	"thanks": "Kirim ucapan terima kasih",
 	"thanks-form-revid": "ID revisi suntingan",
-	"thanks-already-thanked": "{{GENDER:$1|Anda}} sudah pernah mengirimkan ucapan terima kasih atas suntingan ini.",
 	"echo-pref-subscription-edit-thank": "Berterima kasih kepada saya atas suntingan saya",
 	"echo-pref-tooltip-edit-thank": "Beritahu saya saat seseorang berterima kasih kepada saya atas suntingan yang saya buat.",
 	"echo-category-title-edit-thank": "Terima kasih",

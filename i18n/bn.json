@@ -21,7 +21,6 @@
 	"thanks-thanked-notice": "$1 {{GENDER:$2|তার|তার|তাদের}} সম্পাদনার জন্য আপনার ধন্যবাদ পেয়েছেন।",
 	"thanks": "ধন্যবাদ পাঠান",
 	"thanks-form-revid": "সম্পাদনা জন্য সংশোধন আইডি",
-	"thanks-already-thanked": "{{GENDER:$1|আপনি}} ইতিমধ্যে এই সম্পাদনার জন্য ধন্যবাদ পাঠিয়েছেন।",
 	"echo-pref-subscription-edit-thank": "আমার সম্পাদনার জন্য আমার ধন্যবাদসমূহ",
 	"echo-pref-tooltip-edit-thank": "আমার কোনো সম্পাদনার জন্য কেউ আমাকে ধন্যবাদ দিলে তা আমাকে জানাও।",
 	"echo-category-title-edit-thank": "ধন্যবাদসমূহ",

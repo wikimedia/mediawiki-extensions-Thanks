@@ -14,7 +14,6 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|שיקן}} א דאנק מודעה צו {{GENDER:$2|דעם באניצער}}",
 	"thanks-confirmation2": "{{GENDER:$1|שיקן}} אן עפנטלעכער ייש\"כ פאר דער רעדאקטירונג?",
 	"thanks": "שיקן א דאנק",
-	"thanks-already-thanked": "{{GENDER:$1|איר}} האט שוין געשיקט א דאנק פאר דער רעדאקטירונג.",
 	"echo-pref-subscription-edit-thank": "דאנקט מיך פאר מיין רעדאקטירונג",
 	"echo-pref-tooltip-edit-thank": "זיי מיך מודיע ווען איינער דאנקט מיך פאר א רעדאקטירונג מיינע.",
 	"echo-category-title-edit-thank": "אַ דאַנק",

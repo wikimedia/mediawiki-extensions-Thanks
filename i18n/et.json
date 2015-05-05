@@ -20,7 +20,6 @@
 	"thanks-thanked-notice": "Kasutaja $1 {{GENDER:$2|sai}} kätte sinu tänusõnad muudatuse eest.",
 	"thanks": "Tänu avaldamine",
 	"thanks-form-revid": "Muudatuse redaktsiooni identifikaator",
-	"thanks-already-thanked": "{{GENDER:$1|Oled}} selle muudatuse eest juba tänu avaldanud.",
 	"echo-pref-subscription-edit-thank": "Mind tänatakse minu muudatuse eest",
 	"echo-pref-tooltip-edit-thank": "Teavita mind, kui keegi tänab mind tehtud muudatuse eest.",
 	"echo-category-title-edit-thank": "Tänamine",

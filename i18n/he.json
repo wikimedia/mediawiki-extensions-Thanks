@@ -23,7 +23,6 @@
 	"thanks-thanked-notice": "$1 {{GENDER:$2|קיבל|קיבלה}} את התודה שלך על עריכה {{GENDER:$2|שלו|שלה}}",
 	"thanks": "שליחת תודה",
 	"thanks-form-revid": "מזהה גרסה עבור עריכה",
-	"thanks-already-thanked": "כבר {{GENDER:$1|שלחת}} תודה על העריכה הזאת.",
 	"echo-pref-subscription-edit-thank": "מודה לי על עריכה שלי",
 	"echo-pref-tooltip-edit-thank": "להודיע לי כשמישהו מודה לי על עריכה שעשיתי.",
 	"echo-category-title-edit-thank": "תודות",

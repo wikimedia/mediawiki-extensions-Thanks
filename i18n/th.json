@@ -17,7 +17,6 @@
 	"thanks-thanked-notice": "$1 ได้รับแจ้งว่าคุณถูกใจการแก้ไขของ{{GENDER:$2|เขา|เธอ|พวกเขา}}",
 	"thanks": "ส่งคำขอบคุณ",
 	"thanks-form-revid": "หมายเลขประจำรุ่นสำหรับแก้ไข",
-	"thanks-already-thanked": "คุณส่งคำขอบคุณสำหรับการแก้ไขนี้แล้ว",
 	"echo-pref-subscription-edit-thank": "กล่าวขอบคุณฉันสำหรับการแก้ไขของฉัน",
 	"echo-pref-tooltip-edit-thank": "แจ้งฉันเมื่อบางคนกล่าวขอบคุณฉันสำหรับการแก้ไขที่ฉันกระทำ",
 	"echo-category-title-edit-thank": "ขอบคุณ",

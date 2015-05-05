@@ -29,7 +29,6 @@
 	"thanks-thanked-notice": "$1 تشکر شما را برای ویرایش {{GENDER:$2|او|او|آنها}} دریافت کرد.",
 	"thanks": "ارسال تشکر",
 	"thanks-form-revid": "شناسهٔ نسخه برای ویرایش",
-	"thanks-already-thanked": "{{GENDER:$1|شما}} تشکر را برای این ویرایش فرستادید.",
 	"echo-pref-subscription-edit-thank": "برای ویرایش‌هایم از من سپاسگزاری کن",
 	"echo-pref-tooltip-edit-thank": "وقتی کسی از ویرایش‌های من تشکر می‌کند مرا آگاه کن.",
 	"echo-category-title-edit-thank": "تشکرها",

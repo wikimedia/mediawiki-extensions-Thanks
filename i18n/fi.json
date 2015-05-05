@@ -24,7 +24,6 @@
 	"thanks-thanked-notice": "$1 on saanut lähettämäsi kiitokset {{GENDER:$2|tekemästään}} muokkauksesta.",
 	"thanks": "Lähetä kiitokset",
 	"thanks-form-revid": "Muokatun version tunniste",
-	"thanks-already-thanked": "{{GENDER:$1|Olet}} jo lähettänyt kiitoksesi tästä muokkauksesta.",
 	"echo-pref-subscription-edit-thank": "Minulle annetut kiitokset tekemistäni muokkauksista",
 	"echo-pref-tooltip-edit-thank": "Ilmoita minulle, kun joku kiittää minua tekemästäni muokkauksesta.",
 	"echo-category-title-edit-thank": "Kiitokset",

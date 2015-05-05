@@ -30,7 +30,6 @@
 	"thanks-thanked-notice": "$1 a été notifié que vous avez aimé {{GENDER:$2|sa}} modification.",
 	"thanks": "Envoyer des remerciements",
 	"thanks-form-revid": "ID de révision de la modification",
-	"thanks-already-thanked": "{{GENDER:$1|Vous}} avez déjà envoyé des remerciements pour cette modification.",
 	"echo-pref-subscription-edit-thank": "Me remercier pour ma modification",
 	"echo-pref-tooltip-edit-thank": "Me prévenir quand quelqu’un me remercie pour une modification que j’ai faite.",
 	"echo-category-title-edit-thank": "Merci",

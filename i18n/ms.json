@@ -18,7 +18,6 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|Hantar}} ucapan terima kasih kepada {{GENDER:$2|pengguna}} ini",
 	"thanks-thanked-notice": "$1 telah diberitahu bahawa anda menyukai suntingan beliau.",
 	"thanks": "Ucap terima kasih",
-	"thanks-already-thanked": "Anda telah pun mengirim ucapan terima kasih atas suntingan ini.",
 	"echo-pref-subscription-edit-thank": "Berterima kasih pada saya atas suntingan saya",
 	"echo-pref-tooltip-edit-thank": "Beritahu saya apabila seseorang berterima kasih kepada saya atas suntingan saya.",
 	"echo-category-title-edit-thank": "Terima kasih",
