@@ -7,7 +7,7 @@
 		]
 	},
 	"thanks-desc": "Προσθέτει συνδέσμους για να ευχαριστείτε χρήστες για επεξεργασίες, σχόλια, κλπ.",
-	"thanks-thank": "ευχαριστία",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ευχαριστία}}}}",
 	"thanks-thanked": "{{GENDER:$1|δέχθηκε ευχαριστίες}}",
 	"thanks-button-thank": "{{GENDER:$1|Ευχαριστώ}}",
 	"thanks-button-thanked": "{{GENDER:$1|δέχθηκε ευχαριστίες}}",
@@ -19,7 +19,6 @@
 	"thanks-thanked-notice": "{{GENDER:$2|Ο|Η}} $1 έλαβε τις ευχαριστίες σας για την επεξεργασία {{GENDER:$2|του|της}}.",
 	"thanks": "Αποστολή ευχαριστίας",
 	"thanks-form-revid": "Αναγνωριστικό αλλαγής για την επεξεργασία",
-	"thanks-already-thanked": "{{GENDER:$1|Έχετε}} ήδη αποσταλεί ευχαριστώ για αυτή την επεξεργασία.",
 	"echo-pref-subscription-edit-thank": "Με ευχαριστεί για την επεξεργασία μου",
 	"echo-pref-tooltip-edit-thank": "Να ειδοποιούμαι όταν κάποιος με ευχαριστεί για μια επεξεργασία που έκανα.",
 	"echo-category-title-edit-thank": "Ευχαριστίες",

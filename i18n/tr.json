@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Incelemeelemani",
-			"Rapsar"
+			"Rapsar",
+			"Stultiwikia"
 		]
 	},
 	"thanks-desc": "Tarih ve fark görünümüne teşekkür bağlantısı ekler",
-	"thanks-thank": "teşekkür et",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|teşekkür et}}}}",
 	"thanks-thanked": "{{GENDER:$1|teşekkür edildi}}",
 	"thanks-button-thank": "{{GENDER:$1|Teşekkür et}}",
 	"thanks-button-thanked": "{{GENDER:$1|Teşekkür}}",

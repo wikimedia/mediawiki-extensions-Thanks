@@ -7,14 +7,15 @@
 			"Raymond",
 			"Shirayuki",
 			"Siebrand",
-			"Umherirrender"
+			"Umherirrender",
+			"Liuxinyu970226"
 		]
 	},
 	"thanks-desc": "{{desc|name=Thanks|url=https://www.mediawiki.org/wiki/Extension:Thanks}}",
 	"thanks-thank": "{{Doc-actionlink}}\nA link to thank another user. This appears next to messages such as {{msg-mw|editundo}} and {{msg-mw|rollbacklink}} and should be translated in a similar fashion.\nFor languages that need it, the gender of each of the thanked and thanking users is available.\n{{Identical|Thank}} \n* $1 - The user that is thanking\n* $2 - The gender of the user that is thanked",
-	"thanks-thanked": "This message immediately replaces the message {{msg-mw|Thanks-thank}} after it's pressed. It means that the thanking operation has been completed.\n\nIt can be translated as \"''thanked''\" in \"You thanked the user\" or \"The user has just been ''thanked''\" - whatever is appropriate to your language.\nFor languages that need it, the gender of each of the thanked and thanking users is available.\n\nParameters:\n* $1 - The user that is thanking\n* $2 - The gender of the user that is thanked",
-	"thanks-button-thank": "Text of a button to thank another user. Same as {{msg-mw|Thanks-thank}}, but the context is in a button.\n\nParameters:\n* $1 - The user that is thanking, for gender\n* $2 - The user that is being thanked, for gender",
-	"thanks-button-thanked": "This message immediately replaces the message {{msg-mw|Thanks-button-thank}} after it's pressed. It means that the thanking operation has been completed.\n\nSame as {{msg-mw|Thanks-thanked}}, but the context is in a button.\n\nParameters:\n* $1 - The user that is thanking, for gender\n* $2 - The user that is being thanked, for gender",
+	"thanks-thanked": "This message immediately replaces the message {{msg-mw|Thanks-thank}} after it's pressed. It means that the thanking operation has been completed.\n\nIt can be translated as \"''thanked''\" in \"You thanked the user\" or \"The user has just been ''thanked''\" - whatever is appropriate to your language.\nFor languages that need it, the gender of each of the thanked and thanking users is available.\n\nParameters:\n* $1 - The user that is thanking\n* $2 - The gender of the user that is thanked\n{{Identical|Thanked}}",
+	"thanks-button-thank": "Text of a button to thank another user. Same as {{msg-mw|Thanks-thank}}, but the context is in a button.\n\nParameters:\n* $1 - The user that is thanking, for gender\n* $2 - The user that is being thanked, for gender\n{{Identical|Thank}}",
+	"thanks-button-thanked": "This message immediately replaces the message {{msg-mw|Thanks-button-thank}} after it's pressed. It means that the thanking operation has been completed.\n\nSame as {{msg-mw|Thanks-thanked}}, but the context is in a button.\n\nParameters:\n* $1 - The user that is thanking, for gender\n* $2 - The user that is being thanked, for gender\n{{Identical|Thanked}}",
 	"thanks-error-undefined": "Error message that is displayed when the thank action fails.\n{{Identical|Please try again}}",
 	"thanks-error-invalidrevision": "Error message that is displayed when the revision ID is not valid",
 	"thanks-error-ratelimited": "Error message that is displayed when user exceeds rate limit. Parameters:\n* $1 - gender",
@@ -36,7 +37,7 @@
 	"notification-link-text-respond-to-user": "Label for button that links to a user page.",
 	"log-name-thanks": "Name of log that appears on [[Special:Log]].",
 	"log-description-thanks": "Description of thanks log",
-	"logentry-thanks-thank": "Log entry that is created when a user thanks another user for an edit. Parameters:\n* $1 is a user link, for example \"Jane Doe (Talk | contribs)\"\n* $2 is a username. Can be used for GENDER.\n* $3 is a user link, for example \"John Doe (Talk | contribs)\n* $4 is the username of the recipient. Can be used for GENDER.",
+	"logentry-thanks-thank": "Log entry that is created when a user thanks another user for an edit. Parameters:\n* $1 is a user link, for example \"Jane Doe (Talk | contribs)\"\n* $2 is a username. Can be used for GENDER.\n* $3 is a user link, for example \"John Doe (Talk | contribs)\n* $4 is the username of the recipient. Can be used for GENDER.\n{{Identical|Thanked}}",
 	"log-show-hide-thanks": "Shown on [[Special:Log]] as a link to show/hide thanks log entries. (Hidden by default)\n* $1 - one of {{msg-mw|Show}} or {{msg-mw|Hide}}\n{{Related|Log-show-hide}}",
 	"thanks-error-no-id-specified": "Error message shown to the user when they visit Special:Thanks without specifying a revision ID",
 	"thanks-confirmation-special": "A confirmation message shown on [[Special:Thanks]] to make sure the user wants to send thanks for an edit.\n\nSee also:\n* {{msg-mw|Flow-thanks-confirmation-special}}\n* {{msg-mw|Thanks-confirmation2}}",

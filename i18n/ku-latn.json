@@ -4,5 +4,5 @@
 			"Bikarhêner"
 		]
 	},
-	"thanks-thank": "spas"
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|spas}}}}"
 }

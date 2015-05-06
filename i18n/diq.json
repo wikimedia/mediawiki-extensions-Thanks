@@ -6,7 +6,7 @@
 			"Mirzali"
 		]
 	},
-	"thanks-thank": "teşekur kena",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|sıpas}}}}",
 	"thanks-thanked": "{{GENDER:$1|teşekur ke}}",
 	"thanks-button-thank": "{{GENDER:$1|Teşekur kena}}",
 	"thanks-button-thanked": "{{GENDER:$1|teşekur ke}}",
