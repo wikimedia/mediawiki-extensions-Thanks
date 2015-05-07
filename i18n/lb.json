@@ -6,9 +6,9 @@
 		]
 	},
 	"thanks-desc": "Setzt Linken derbäi fir Benotzer fir Ännerungen, Bemierkungen, asw. 'Merci' ze soen",
-	"thanks-thank": "merci",
-	"thanks-thanked": "{{GENDER:$1|Merci gesot}}",
-	"thanks-button-thank": "{{GENDER:$1|Merci soen}}",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|Merci soen}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|Merci gesot}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Merci soen}}}}",
 	"thanks-error-undefined": "'Merci soen' huet net funktionéiert. Probéiert w.e.g. nach eng Kéier.",
 	"thanks-error-invalidrevision": "Versiounsnummer (ID) ass net valabel.",
 	"thanks-thank-tooltip": "{{GENDER:$2|Dësem Benotzer|Dëser Benotzerin}} ee \"Merci\" {{GENDER:$1|schécken}}",

@@ -4,7 +4,7 @@
 			"Iltever"
 		]
 	},
-	"thanks-thank": "сау бол де",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|сау бол де}}}}",
 	"thanks-thanked": "{{GENDER:$1|сау бол деди}}",
 	"thanks-button-thank": "{{GENDER:$1|Сау бол де}}",
 	"thanks-button-thanked": "{{GENDER:$1|Сау бол айтылды}}",
