@@ -7,7 +7,7 @@
 		]
 	},
 	"thanks-desc": "Дадае спасылкі з падзякамі у гісторыю і параўнаньне вэрсыяў",
-	"thanks-thank": "дзякуй",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|дзякуй}}}}",
 	"thanks-thanked": "{{GENDER:$1|падзякаваў|падзякавала}}",
 	"thanks-button-thank": "Дзякуй",
 	"thanks-button-thanked": "{{GENDER:$1|Падзякаваў|Падзякавала}}",

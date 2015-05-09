@@ -8,7 +8,7 @@
 		]
 	},
 	"thanks-desc": "Menambah pautan yang membolehkan pengguna mengirim ucapan terima kasih atas suntingan, ulasan, dan sebagainya.",
-	"thanks-thank": "terima kasih",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|terima kasih}}}}",
 	"thanks-thanked": "{{GENDER:$1|telah berterima kasih}}",
 	"thanks-button-thank": "Terima kasih",
 	"thanks-button-thanked": "Kasih diterima",
