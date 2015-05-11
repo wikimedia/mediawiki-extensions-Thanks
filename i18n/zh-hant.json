@@ -11,9 +11,9 @@
 		]
 	},
 	"thanks-desc": "提供可讓使用者感謝編輯、評論..等的連結。",
-	"thanks-thank": "感謝",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|感謝}}}}",
 	"thanks-thanked": "{{GENDER:$1|已感謝}}",
-	"thanks-button-thank": "{{GENDER:$1|感謝}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|感謝}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|已感謝}}",
 	"thanks-error-undefined": "感謝操作失敗，請再試一次。",
 	"thanks-error-invalidrevision": "修訂 ID 無效。",

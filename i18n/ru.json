@@ -9,7 +9,7 @@
 		]
 	},
 	"thanks-desc": "Добавляет ссылки для благодарности участников за правки, комментарии и т.д.",
-	"thanks-thank": "спасибо",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|поблагодарить}}}}",
 	"thanks-thanked": "{{GENDER:$1|поблагодарил|поблагодарила}}",
 	"thanks-button-thank": "{{GENDER:$1|Спасибо}}",
 	"thanks-button-thanked": "{{GENDER:$1|Был поблагодарён|Была поблагодарена}}",
