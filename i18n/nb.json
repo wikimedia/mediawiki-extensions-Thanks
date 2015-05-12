@@ -3,11 +3,12 @@
 		"authors": [
 			"Danmichaelo",
 			"Jeblad",
-			"Njardarlogar"
+			"Njardarlogar",
+			"Chameleon222"
 		]
 	},
 	"thanks-desc": "Legger til lenker for å takke brukere for redigeringer, kommentarer, etc.",
-	"thanks-thank": "takk",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|takk}}}}",
 	"thanks-thanked": "{{GENDER:$1|takket}}",
 	"thanks-button-thank": "{{GENDER:$1|Takk}}",
 	"thanks-button-thanked": "{{GENDER:$1|Takket}}",

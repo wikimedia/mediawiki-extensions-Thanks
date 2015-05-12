@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Njardarlogar"
+			"Njardarlogar",
+			"Chameleon222"
 		]
 	},
 	"thanks-desc": "Legg til takkelenkjer til historikk og skilnadsvising",
-	"thanks-thank": "takk",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|takk}}}}",
 	"thanks-thanked": "{{GENDER:$1|takka}}",
 	"thanks-button-thank": "Takk",
 	"thanks-button-thanked": "{{GENDER:$1|Takka}}",

@@ -24,7 +24,7 @@ $specialPageAliases['ar'] = array(
 	'Thanks' => array( 'شكرا' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'Thanks' => array( 'شكرا' ),
 );
