@@ -4,6 +4,6 @@
 			"C.R."
 		]
 	},
-	"thanks-thank": "grazie",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|grazie}}}}",
 	"thanks-thank-tooltip": "{{GENDER:$1|Manna}} na notifeca 'e rengraziamiente a st'{{GENDER:$2|utente}}"
 }
