@@ -15,7 +15,7 @@
 		]
 	},
 	"thanks-desc": "پیوندی برای تشکر کاربران برای ویرایش‌ها، توضیحات و ... اضافه می‌کند.",
-	"thanks-thank": "تشکر",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|تشکر}}}}",
 	"thanks-thanked": "{{GENDER:$1|تشکر شد}}",
 	"thanks-button-thank": "{{GENDER:$1|تشکر}}",
 	"thanks-button-thanked": "{{GENDER:$1|تشکر شد}}",

@@ -5,7 +5,7 @@
 		]
 	},
 	"thanks-desc": "Aggiunge le collegaminde de rengraziamende a l'utinde pe le cangiaminde, le commende, etc.",
-	"thanks-thank": "grazie",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|grazie}}}}",
 	"thanks-thanked": "{{GENDER:$1|ringraziate}}",
 	"thanks-button-thank": "{{GENDER:$1|Grazie}}",
 	"thanks-button-thanked": "{{GENDER:$1|Ringraziate}}",
@@ -17,7 +17,6 @@
 	"thanks-thanked-notice": "$1 ha state notificate ca a te t'ha piaciute 'u cangiamende {{GENDER:$2|sue|sue|lore}}",
 	"thanks": "Manne le rengraziaminde",
 	"thanks-form-revid": "ID d'a revisione pu cangiamende",
-	"thanks-already-thanked": "{{GENDER:$1|tu}} è ggià mannate le rengraziaminde pe stu cangiamende.",
 	"echo-pref-subscription-edit-thank": "Ringraziame pu cangiamende mije",
 	"echo-pref-tooltip-edit-thank": "Notificame quanne quacchedune me ringrazie pe 'nu cangiamende ca agghie fatte.",
 	"echo-category-title-edit-thank": "Grazie!",

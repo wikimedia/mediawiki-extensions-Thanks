@@ -5,7 +5,7 @@
 		]
 	},
 	"thanks-desc": "Истори чу а версин башхала хьожечухь а баркалла олу хьажоргаш тӀетуху",
-	"thanks-thank": "баркалла",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|баркалла}}}}",
 	"thanks-thanked": "{{GENDER:$1|Баркалла аьлла}}",
 	"thanks-button-thank": "{{GENDER:$1|Баркалла}}",
 	"thanks-button-thanked": "{{GENDER:$1|Баркалла аьлла}}",
@@ -17,7 +17,6 @@
 	"thanks-thanked-notice": "$1 {{GENDER:$2|хаам бина}}, {{GENDER:$2|цуна|цера}} нисдар хаза хетта аьлла.",
 	"thanks": "ДӀадахьийта баркалла",
 	"thanks-form-revid": "Нисдаран ID тадан",
-	"thanks-already-thanked": "{{GENDER:$1|Ахьа}} хӀара нисдар дарна хӀинцале баркалла аьлла.",
 	"echo-pref-subscription-edit-thank": "Баркалла суна сан нисдар дарна",
 	"echo-pref-tooltip-edit-thank": "Хаийта соьга, цхьам баркалла аьлча.",
 	"echo-category-title-edit-thank": "Баркалла",

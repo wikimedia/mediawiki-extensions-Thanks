@@ -10,7 +10,7 @@
 		]
 	},
 	"thanks-desc": "Lisää linkkejä käyttäjien kiittämistä varten heidän muokkauksistaan, kommenteistaan ynnä muusta.",
-	"thanks-thank": "kiitä",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|kiitä}}}}",
 	"thanks-thanked": "{{GENDER:$1|kiitetty}}",
 	"thanks-button-thank": "{{GENDER:$1|Kiitä}}",
 	"thanks-button-thanked": "{{GENDER:$1|Kiitetty}}",
