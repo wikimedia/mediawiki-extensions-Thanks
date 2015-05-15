@@ -9,7 +9,7 @@
 		]
 	},
 	"thanks-desc": "Dodaje link umożliwiający podziękowanie użytkownikowi za edycję, komentarz itp.",
-	"thanks-thank": "podziękuj",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|podziękuj}}}}",
 	"thanks-thanked": "{{GENDER:$1|podziękowałeś|podziękowałaś}}",
 	"thanks-button-thank": "{{GENDER:$1|Podziękuj}}",
 	"thanks-button-thanked": "{{GENDER:$1|Podziękowałeś|Podziękowałaś}}",
@@ -21,7 +21,6 @@
 	"thanks-thanked-notice": "$1 {{GENDER:$2|dostał|dostała}} twoje podziękowanie za {{GENDER:$2|jego|jej}} edycję.",
 	"thanks": "Wyślij podziękowanie",
 	"thanks-form-revid": "ID wersji",
-	"thanks-already-thanked": "Już {{GENDER:$1|podziękowałeś|podziękowałaś}} za tę edycję.",
 	"echo-pref-subscription-edit-thank": "podziękuje mi za edycję, którą wykonałem",
 	"echo-pref-tooltip-edit-thank": "Powiadom mnie, kiedy ktoś podziękuje mi za edycję, którą wykonałem.",
 	"echo-category-title-edit-thank": "Podziękowania",

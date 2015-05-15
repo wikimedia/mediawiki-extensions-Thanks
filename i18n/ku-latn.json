@@ -4,5 +4,6 @@
 			"Bikarhêner"
 		]
 	},
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|spas}}}}"
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|spas}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|hate spaskirin}}}}"
 }
