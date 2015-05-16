@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Ashok modhvadia",
-			"Dsvyas"
+			"Dsvyas",
+			"KartikMistry"
 		]
 	},
 	"thanks-desc": "ઇતિહાસ અને તફાવત બતાવતી વખતે આભાર માટેની કડી ઉમેરે છે",
-	"thanks-thank": "આભાર માનો",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|આભાર માનો}}}}",
 	"thanks-thanked": "{{GENDER:$1|આભાર માન્યો}}",
 	"thanks-button-thank": "{{GENDER:$1|આભાર માનો}}",
 	"thanks-button-thanked": "{{GENDER:$1|આભાર માન્યો}}",

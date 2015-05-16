@@ -5,11 +5,12 @@
 			"Andriykopanytsia",
 			"Base",
 			"Ата",
-			"Olion"
+			"Olion",
+			"AS"
 		]
 	},
 	"thanks-desc": "Додає посилання для дякування користувачам за редагування, коментарі тощо.",
-	"thanks-thank": "дякую",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|дякую}}}}",
 	"thanks-thanked": "{{GENDER:$1|подякував|подякувала}}",
 	"thanks-button-thank": "{{GENDER:$1|Подякувати}}",
 	"thanks-button-thanked": "{{GENDER:$1|Подякував|Подякувала}}",
@@ -21,7 +22,6 @@
 	"thanks-thanked-notice": "$1 {{GENDER:$1|був повідомлений|була повідомлена|були повідомлені}}, що вам сподобалися {{GENDER:$2|його|її|їхні}} зміни.",
 	"thanks": "Надіслати подяку",
 	"thanks-form-revid": "ІД редакції для редагування",
-	"thanks-already-thanked": "{{GENDER:$1|Ви}} вже надіслали подяки за це редагування.",
 	"echo-pref-subscription-edit-thank": "Дякує мені за мої редагування",
 	"echo-pref-tooltip-edit-thank": "Повідомляти, коли хтось дякує мені за редагування, зроблені мною.",
 	"echo-category-title-edit-thank": "вдячність",

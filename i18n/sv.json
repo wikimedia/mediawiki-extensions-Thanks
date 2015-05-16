@@ -12,7 +12,7 @@
 		]
 	},
 	"thanks-desc": "Lägger till länkar för att tacka användare för redigeringar, kommentarer, etc.",
-	"thanks-thank": "tacka",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|tacka}}}}",
 	"thanks-thanked": "{{GENDER:$1|tackat}}",
 	"thanks-button-thank": "{{GENDER:$1|Tacka}}",
 	"thanks-button-thanked": "{{GENDER:$1|Tackat}}",

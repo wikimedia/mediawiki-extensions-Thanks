@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"හරිත"
+			"හරිත",
+			"Susith Chandira Gts"
 		]
 	},
-	"thanks-thank": "ස්තූතිය",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ස්තූතිය}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|ස්තුති කළා}}}}",
 	"thanks-thank-tooltip": "මෙම {{GENDER:$2|පරිශීලකයා}} හට ස්තූති කිරීමේ නිවේදනයක් {{GENDER:$1|යවන්න}}"
 }
