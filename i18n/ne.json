@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"बिप्लब आनन्द"
+			"बिप्लब आनन्द",
+			"Nirjal stha"
 		]
 	},
-	"thanks-thank": "धन्यवाद",
+	"thanks-thank": "{{लिङ्गः$1|{{लिङ्ग:$2|धन्यावाद}}}}",
 	"thanks-thank-tooltip": "यस {{GENDER:$2|प्रयोगकर्ता}}लाई धन्यवाद अधिसूचना {{GENDER:$1|पठाउने}}।"
 }

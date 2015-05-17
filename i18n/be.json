@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Дзяніс Тутэйшы",
-			"Чаховіч Уладзіслаў"
+			"Чаховіч Уладзіслаў",
+			"Mikalai Udodau"
 		]
 	},
 	"thanks-desc": "Дадае падзячныя спасылкі на гісторыю і параўнанне версій",
-	"thanks-thank": "дзякуй",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|дзякуй}}}}",
 	"thanks-thanked": "{{GENDER:$1|падзякаваў|падзякавала}}",
 	"thanks-button-thank": "{{GENDER:$1|Дзякуй}}",
 	"thanks-error-undefined": "На атрымалася падзякаваць. Паспрабуйце зноў.",
