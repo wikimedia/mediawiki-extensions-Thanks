@@ -5,11 +5,12 @@
 			"Elitre",
 			"FRacco",
 			"Macofe",
-			"Dragonòt"
+			"Dragonòt",
+			"Valepert"
 		]
 	},
 	"thanks-desc": "Aggiunge un collegamento per ringraziare gli utenti per modifiche, commenti, ecc.",
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|mersì}}}}",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ringrazia}}}}",
 	"thanks-thanked": "{{GENDER:$1|ringraziato|ringraziata|ringraziato/a}}",
 	"thanks-button-thank": "{{GENDER:$1|Ringrazia}}",
 	"thanks-button-thanked": "{{GENDER:$1|Ringraziato|Ringraziata|Ringraziato/a}}",

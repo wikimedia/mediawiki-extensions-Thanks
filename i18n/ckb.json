@@ -6,7 +6,7 @@
 		]
 	},
 	"thanks-desc": "بەستەرەکانی سپاس بە مێژوو و نیشاندانی جیاوزاییەکان زیاد دەکا",
-	"thanks-thank": "سپاس",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|سپاس}}}}",
 	"thanks-thanked": "{{GENDER:$1|سپاس کرا}}",
 	"thanks-button-thank": "{{GENDER:$1|سپاس}}",
 	"thanks-button-thanked": "{{GENDER:$1|سپاس کرا}}",

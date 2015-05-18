@@ -5,7 +5,7 @@
 		]
 	},
 	"thanks-desc": "Aldoni ligilon por danki al uzantoj pro ties redaktoj, komentoj ks.",
-	"thanks-thank": "danki",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|danki}}}}",
 	"thanks-thanked": "{{GENDER:$1|dankita}}",
 	"thanks-button-thank": "{{GENDER:$1|Danki}}",
 	"thanks-button-thanked": "{{GENDER:$1|Dankis}}",

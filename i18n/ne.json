@@ -5,6 +5,9 @@
 			"Nirjal stha"
 		]
 	},
-	"thanks-thank": "{{लिङ्गः$1|{{लिङ्ग:$2|धन्यावाद}}}}",
+	"thanks-thank": "{{लिङ्गः$1|{{लिङ्ग:$2|धन्यवाद}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{लिङ्ग:$2|धन्यवाद ज्ञापित}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{लिङ्ग:$2|धन्यवाद}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{लिङ्ग:$2|धन्यवाद ज्ञापित}}}}",
 	"thanks-thank-tooltip": "यस {{GENDER:$2|प्रयोगकर्ता}}लाई धन्यवाद अधिसूचना {{GENDER:$1|पठाउने}}।"
 }

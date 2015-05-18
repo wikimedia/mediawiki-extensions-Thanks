@@ -6,9 +6,9 @@
 	},
 	"thanks-desc": "Aggiunge le collegaminde de rengraziamende a l'utinde pe le cangiaminde, le commende, etc.",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|grazie}}}}",
-	"thanks-thanked": "{{GENDER:$1|ringraziate}}",
-	"thanks-button-thank": "{{GENDER:$1|Grazie}}",
-	"thanks-button-thanked": "{{GENDER:$1|Ringraziate}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|ringraziate}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Grazie}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Ringraziate}}}}",
 	"thanks-error-undefined": "Azione de ringraziamende fallite. Pe piacere pruéve arrete.",
 	"thanks-error-invalidrevision": "ID d'a revisione non g'è valide.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Tu}} è sbunnate le limite de valutazione tune. Pe piacere aspitte 'nu picche e pruève arrete.",
@@ -32,6 +32,6 @@
 	"log-show-hide-thanks": "$1 archivije de le rengraziaminde",
 	"notification-link-text-view-post": "'Ndruche 'u commende",
 	"thanks-error-invalidpostid": "ID d'u messàgge jè invalide.",
-	"flow-thanks-confirmation-special": "Vuè ccu manne 'nu grazie pe stu commende?",
+	"flow-thanks-confirmation-special": "Vuè ccu manne 'nu grazie pubblecamende pe stu commende?",
 	"notification-flow-thanks-post-link": "'u commende tune"
 }

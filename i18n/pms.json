@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Borichèt"
+			"Borichèt",
+			"Dragonòt"
 		]
 	},
 	"thanks-desc": "A gionta dle liure d'aringrassiament a le viste dë stòria e ëd diferensa",
-	"thanks-thank": "aringrassié",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ringrassié}}}}",
 	"thanks-thanked": "{{GENDER:$1|aringrassià}}",
 	"thanks-button-thank": "{{GENDER:$1|Mersì}}",
 	"thanks-button-thanked": "{{GENDER:$1|Aringrassià}}",
@@ -16,7 +17,6 @@
 	"thanks-thanked-notice": "A l'é stàit notificà a $1 che a chiel a l'é piasuje {{GENDER:$2|soa}} modìfica.",
 	"thanks": "mandé dj'aringrassiament",
 	"thanks-form-revid": "Identificatin ëd revision për la modìfica",
-	"thanks-already-thanked": "{{GENDER:$1|Chiel|Chila}} a l'ha già mandà n'aringrassiament për costa modìfica.",
 	"echo-pref-subscription-edit-thank": "Aringrassieme për mia modìfica",
 	"echo-pref-tooltip-edit-thank": "Aviseme cand cheidun a m'aringrassia për na modìfica ch'i l'hai fàit.",
 	"echo-category-title-edit-thank": "Mersì",

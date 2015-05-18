@@ -43,5 +43,12 @@
 	"notification-flow-thanks-post-link": "kommentaari",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] tänas {{GENDER:$4|sind}} kommentaari eest teemal \"$2\" leheküljel \"$3\".",
 	"notification-flow-thanks-email-subject": "$1 tänas {{GENDER:$2|sind}} kommentaari eest {{GRAMMAR:inessive|{{SITENAME}}}}",
-	"notification-flow-thanks-email-batch-body": "$1 tänas {{GENDER:$4|sind}} kommentaari eest teemal \"$2\" leheküljel \"$3\"."
+	"notification-flow-thanks-email-batch-body": "$1 tänas {{GENDER:$4|sind}} kommentaari eest teemal \"$2\" leheküljel \"$3\".",
+	"apihelp-flowthank-description": "Avaliku tänuteavituse saatmine voogarutelu kommentaari eest.",
+	"apihelp-flowthank-param-postid": "Postitus, mille eest tänada, UUID.",
+	"apihelp-flowthank-example-1": "Täna postituse eest, selle UUID on xyz789",
+	"apihelp-thank-description": "Tänuteavituse saatmine toimetajale.",
+	"apihelp-thank-param-rev": "Redaktsioon, mille eest tänada, selle identifikaator.",
+	"apihelp-thank-param-source": "Lühisõne, mis kirjeldab päringu allikat, näiteks \"diff\" või \"history\".",
+	"apihelp-thank-example-1": "Täna redaktsiooni 456 eest, allikas on erinevuste lehekülg"
 }
