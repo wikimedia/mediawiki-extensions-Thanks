@@ -3,11 +3,12 @@
 		"authors": [
 			"Fryed-peach",
 			"Penn Station",
-			"Shirayuki"
+			"Shirayuki",
+			"2nd-player"
 		]
 	},
 	"thanks-desc": "利用者の編集やコメントなどに感謝を示すリンクを追加する",
-	"thanks-thank": "感謝",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|感謝}}}}",
 	"thanks-thanked": "{{GENDER:$1|感謝を示しました}}",
 	"thanks-button-thank": "{{GENDER:$1|感謝}}",
 	"thanks-button-thanked": "{{GENDER:$1|感謝を示しました}}",
@@ -19,7 +20,6 @@
 	"thanks-thanked-notice": "あなたが $1 の編集に感謝を示したことを{{GENDER:$2|本人}}に通知しました。",
 	"thanks": "感謝を示す",
 	"thanks-form-revid": "編集の版 ID",
-	"thanks-already-thanked": "{{GENDER:$1|}}この編集には既に感謝を示しました。",
 	"echo-pref-subscription-edit-thank": "自分の編集に誰かが感謝を示したとき",
 	"echo-pref-tooltip-edit-thank": "自分の編集に誰かが感謝を示したときに通知する。",
 	"echo-category-title-edit-thank": "感謝",
