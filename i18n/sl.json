@@ -8,7 +8,7 @@
 		]
 	},
 	"thanks-desc": "Doda povezave za zahvalo uporabnikom za urejanja, pripombe itn.",
-	"thanks-thank": "zahvala",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|zahvala}}}}",
 	"thanks-thanked": "{{GENDER:$1|zahvala je objavljena}}",
 	"thanks-button-thank": "{{GENDER:$1|Zahvala}}",
 	"thanks-button-thanked": "{{GENDER:$1|Zahvala je objavljena|Zahvala je objavljena}}",

@@ -39,6 +39,7 @@
 	"log-description-thanks": "A continuación, una lista de usuarios que han sido agradecidos por otros usuarios.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|agradeció}} a {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 registro de agradecimientos",
+	"thanks-error-no-id-specified": "Debes especificar un identificador de revisión para agradecer.",
 	"thanks-confirmation-special": "¿Deseas agradecer públicamente esta edición?",
 	"notification-link-text-view-post": "Ver comentario",
 	"thanks-error-invalidpostid": "El identificador de publicación no es válido.",
@@ -50,5 +51,8 @@
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$2|te}} {{GENDER:$1|agradeció}} por tu comentario en {{SITENAME}}",
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$4|te}} {{GENDER:$1|agradeció}} por tu comentario sobre \"$2\" en $3.",
 	"apihelp-flowthank-description": "Enviar una notificación pública de agradecimiento por un comentario en Flow.",
-	"apihelp-thank-description": "Enviar una notificación de agradecimiento a un editor."
+	"apihelp-flowthank-param-postid": "El UUID de la publicación a la cual agradecer.",
+	"apihelp-flowthank-example-1": "Agradecer por el comentario con UUID xyz789",
+	"apihelp-thank-description": "Enviar una notificación de agradecimiento a un editor.",
+	"apihelp-thank-param-rev": "Identificador de revisión para agradecer a alguien."
 }

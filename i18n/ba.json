@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Рустам Нурыев"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|рәхмәт әйтергә}}}}",
+	"thanks-thank-tooltip": "{{GENDER:$2|Был ҡатнашыусыға}} рәхмәт хәбәрен {{GENDER:$1|ебәрергә}}"
+}
