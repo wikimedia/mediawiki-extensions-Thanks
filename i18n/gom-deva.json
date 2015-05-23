@@ -4,5 +4,6 @@
 			"Supriya kankumbikar"
 		]
 	},
-	"thanks-thank": "बरें जावं"
+	"thanks-thank": "दिनवास",
+	"thanks-thank-tooltip": "ह्या {{GENDER:$2|सदस्याक}} दिनवास दिवपी अधिसूचोवणी {{GENDER:$1|धाडात}}।"
 }

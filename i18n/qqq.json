@@ -54,7 +54,7 @@
 	"notification-flow-thanks-email-batch-body": "Email notification. Parameters:\n* $1 - the username of the person sending the thanks, as plain text. Can be used for GENDER.\n* $2 - the title of the topic the comment belongs to\n* $3 - the title of the page where the comment is located\n* $4 - the username. Can be used for GENDER.",
 	"apihelp-flowthank-description": "{{doc-apihelp-description|flowthank}}",
 	"apihelp-flowthank-param-postid": "{{doc-apihelp-param|flowthank|postid}}",
-	"apihelp-flowthank-example-1": "The \"UUID\" is an [[w:alphanumeric|alphanumeric]] string which identifies a message (in the Flow extension).\n----\n{{doc-apihelp-example|flowthank}}",
+	"apihelp-flowthank-example-1": "The \"[[w:Universally unique identifier|UUID]]\" in question is an [[w:alphanumeric|alphanumeric]] string which identifies a message (in the Flow extension).\n----\n{{doc-apihelp-example|flowthank}}",
 	"apihelp-thank-description": "{{doc-apihelp-description|thank}}",
 	"apihelp-thank-param-rev": "{{doc-apihelp-param|thank|rev}}",
 	"apihelp-thank-param-source": "{{doc-apihelp-param|thank|source}}",
