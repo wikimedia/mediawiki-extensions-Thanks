@@ -18,6 +18,7 @@
 	"thanks-confirmation2": "{{GENDER:$1|Send}} public thanks for this edit?",
 	"thanks-thanked-notice": "$1 received your thanks for {{GENDER:$2|his|her|their}} edit.",
 	"thanks": "Send thanks",
+	"thanks-submit": "Send thanks",
 	"thanks-form-revid": "Revision ID for edit",
 	"echo-pref-subscription-edit-thank": "Thanks me for my edit",
 	"echo-pref-tooltip-edit-thank": "Notify me when someone thanks me for an edit I made.",
