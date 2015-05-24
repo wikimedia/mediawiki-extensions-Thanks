@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bikarhêner"
+			"Bikarhêner",
+			"George Animal"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|spas}}}}",
-	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|hate spaskirin}}}}"
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|hate spaskirin}}}}",
+	"echo-category-title-edit-thank": "Spas"
 }

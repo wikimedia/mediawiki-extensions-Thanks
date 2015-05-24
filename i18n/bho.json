@@ -5,6 +5,6 @@
 			"SatyamMishra"
 		]
 	},
-	"thanks-thank": "धन्यवाद भेजीं",
-	"thanks-thank-tooltip": "{{GENDER:$1|Send}} a thank you notification to this {{GENDER:$2|user}}"
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|धन्यवाद भेजीं}}}}",
+	"thanks-thank-tooltip": "{{GENDER:$2|सदस्य}} के धन्यवाद {{GENDER:$1|भेजीं}}!"
 }

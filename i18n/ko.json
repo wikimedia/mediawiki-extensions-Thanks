@@ -8,11 +8,12 @@
 			"Miri-Nae",
 			"Bluemersen",
 			"Revi",
-			"IRTC1015"
+			"IRTC1015",
+			"Kwj2772"
 		]
 	},
 	"thanks-desc": "편집, 덧글 등등에 사용자에게 감사 링크를 표시합니다.",
-	"thanks-thank": "감사",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|감사}}}}",
 	"thanks-thanked": "{{GENDER:$1|감사합니다}}",
 	"thanks-button-thank": "{{GENDER:$1|감사}}",
 	"thanks-button-thanked": "{{GENDER:$1|감사를 표합니다}}",
