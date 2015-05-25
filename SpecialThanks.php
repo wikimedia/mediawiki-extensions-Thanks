@@ -93,7 +93,7 @@ class SpecialThanks extends FormSpecialPage {
 		if ( $this->type === null || $this->type === 'rev' && $this->id === '0' ) {
 			$form->suppressDefaultSubmit( true );
 		} else {
-			$form->setSubmitText( $this->msg( 'thanks' )->escaped() );
+			$form->setSubmitText( $this->msg( 'thanks-submit' )->escaped() );
 		}
 	}
 
