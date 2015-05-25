@@ -2,12 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"बिप्लब आनन्द",
-			"Nirjal stha"
+			"Nirjal stha",
+			"NehalDaveND"
 		]
 	},
 	"thanks-thank": "{{लिङ्गः$1|{{लिङ्ग:$2|धन्यवाद}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{लिङ्ग:$2|धन्यवाद ज्ञापित}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{लिङ्ग:$2|धन्यवाद}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{लिङ्ग:$2|धन्यवाद ज्ञापित}}}}",
-	"thanks-thank-tooltip": "यस {{GENDER:$2|प्रयोगकर्ता}}लाई धन्यवाद अधिसूचना {{GENDER:$1|पठाउने}}।"
+	"thanks-thank-tooltip": "यस {{GENDER:$2|प्रयोगकर्ता}}लाई धन्यवाद अधिसूचना {{GENDER:$1|पठाउने}}।",
+	"echo-category-title-edit-thank": "धन्यवाद",
+	"notification-thanks-diff-link": "तपाईको सम्पादन",
+	"log-name-thanks": "धन्यवाद लोग",
+	"log-show-hide-thanks": "$1 धन्यवाद लॉग"
 }
