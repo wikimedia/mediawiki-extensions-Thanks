@@ -23,6 +23,7 @@
 	"thanks-confirmation2": "{{GENDER:$1}}Gửi lời cảm ơn vì sửa đổi này?",
 	"thanks-thanked-notice": "$1 đã nhận lời cảm ơn của bạn vì sửa đổi của {{GENDER:$2}}họ.",
 	"thanks": "Gửi lời cảm ơn",
+	"thanks-submit": "Gửi lời cảm ơn",
 	"thanks-form-revid": "ID phiên bản sửa đổi",
 	"echo-pref-subscription-edit-thank": "Cảm ơn tôi vì một sửa đổi của tôi",
 	"echo-pref-tooltip-edit-thank": "Báo cho tôi biết khi nào người ta cảm ơn tôi vì một sửa đổi của tôi.",

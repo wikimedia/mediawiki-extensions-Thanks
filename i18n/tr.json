@@ -3,7 +3,8 @@
 		"authors": [
 			"Incelemeelemani",
 			"Rapsar",
-			"Stultiwikia"
+			"Stultiwikia",
+			"Meelo"
 		]
 	},
 	"thanks-desc": "Tarih ve fark görünümüne teşekkür bağlantısı ekler",
@@ -15,6 +16,8 @@
 	"thanks-error-invalidrevision": "Revizyon numarası geçerli değil.",
 	"thanks-error-ratelimited": "Gönderme limitini aştınız. Lütfen bekleyin ve tekrar deneyin.",
 	"thanks-thank-tooltip": "Bu {{GENDER:$2|kullanıcıya}} {{GENDER:$1|teşekkürlerini}} ilet",
+	"thanks-thank-tooltip-no": "Teşekkür bildiriminiz iptal {{GENDER:$1|edildi}}",
+	"thanks-thank-tooltip-yes": "Teşekkür bildiriminiz {{GENDER:$1|gönderildi}}",
 	"thanks-confirmation2": "Bu değişiklik için {{GENDER:$1|teşekkür etmek}} istiyor musunuz?",
 	"thanks-thanked-notice": "$1 kullanıcısına {{GENDER:$2|onu|onu|onları}} beğendiğiniz iletildi.",
 	"echo-pref-subscription-edit-thank": "Katkım için bana teşekkür edildi",

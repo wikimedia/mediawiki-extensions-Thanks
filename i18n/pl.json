@@ -20,6 +20,7 @@
 	"thanks-confirmation2": "{{GENDER:$1|Wysłać}} podziękowanie za tę edycję?",
 	"thanks-thanked-notice": "$1 {{GENDER:$2|dostał|dostała}} twoje podziękowanie za {{GENDER:$2|jego|jej}} edycję.",
 	"thanks": "Wyślij podziękowanie",
+	"thanks-submit": "Wyślij podziękowanie",
 	"thanks-form-revid": "ID wersji",
 	"echo-pref-subscription-edit-thank": "podziękuje mi za edycję, którą wykonałem",
 	"echo-pref-tooltip-edit-thank": "Powiadom mnie, kiedy ktoś podziękuje mi za edycję, którą wykonałem.",

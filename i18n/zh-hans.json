@@ -11,7 +11,8 @@
 			"Zhuyifei1999",
 			"Mywood",
 			"Impersonator 1",
-			"王庭茂"
+			"王庭茂",
+			"Northteam"
 		]
 	},
 	"thanks-desc": "添加感谢用户进行编辑、评论等行为的链接。",
@@ -28,6 +29,7 @@
 	"thanks-confirmation2": "对此编辑{{GENDER:$1|发送}}公开感谢？",
 	"thanks-thanked-notice": "$1已收到您对{{GENDER:$2|他|她|他们}}的编辑做出的感谢。",
 	"thanks": "发送感谢",
+	"thanks-submit": "发送感谢",
 	"thanks-form-revid": "编辑的修订ID",
 	"echo-pref-subscription-edit-thank": "对我的编辑的感谢",
 	"echo-pref-tooltip-edit-thank": "当有人感谢我的编辑时通知我。",

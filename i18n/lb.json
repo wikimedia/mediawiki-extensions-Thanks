@@ -15,6 +15,7 @@
 	"thanks-thank-tooltip": "{{GENDER:$2|Dësem Benotzer|Dëser Benotzerin}} ee \"Merci\" {{GENDER:$1|schécken}}",
 	"thanks-confirmation2": "Merci fir dës Ännerung ëffentlech {{GENDER:$1|schécken}}?",
 	"thanks": "Merci soen",
+	"thanks-submit": "Merci soen",
 	"echo-pref-subscription-edit-thank": "'Mercie' fir meng Ännerung",
 	"echo-pref-tooltip-edit-thank": "Mech Informéieren wann ee mir fir eng Ännerung déi ech gemaach hu Merci seet.",
 	"echo-category-title-edit-thank": "Merci",
