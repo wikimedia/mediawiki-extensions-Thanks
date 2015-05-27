@@ -25,6 +25,7 @@
 	"thanks-confirmation2": "¿{{GENDER:$1|Agradecer}} públicamente esta edición?",
 	"thanks-thanked-notice": "$1 recibió tu agradecimiento por {{GENDER:$2|su}} edición.",
 	"thanks": "Enviar agradecimiento",
+	"thanks-submit": "Enviar agradecimiento",
 	"thanks-form-revid": "Id. de revisión",
 	"echo-pref-subscription-edit-thank": "Agradecerme por mi edición",
 	"echo-pref-tooltip-edit-thank": "Notificarme cuando alguien me agradezca por una edición que haya realizado.",

@@ -22,6 +22,7 @@
 	"thanks-confirmation2": "{{GENDER:$1|לשלוח}} תודה פומבית על העריכה הזאת?",
 	"thanks-thanked-notice": "$1 {{GENDER:$2|קיבל|קיבלה}} את התודה שלך על עריכה {{GENDER:$2|שלו|שלה}}",
 	"thanks": "שליחת תודה",
+	"thanks-submit": "שליחת תודה",
 	"thanks-form-revid": "מזהה גרסה עבור עריכה",
 	"echo-pref-subscription-edit-thank": "מודה לי על עריכה שלי",
 	"echo-pref-tooltip-edit-thank": "להודיע לי כשמישהו מודה לי על עריכה שעשיתי.",

@@ -4,5 +4,6 @@
 			"Jagwar"
 		]
 	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|isaorana}}}}",
 	"log-name-thanks": "Laogim-pisaorana"
 }

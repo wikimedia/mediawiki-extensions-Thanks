@@ -4,7 +4,8 @@
 			"Incelemeelemani",
 			"Rapsar",
 			"Stultiwikia",
-			"Meelo"
+			"Meelo",
+			"Sayginer"
 		]
 	},
 	"thanks-desc": "Tarih ve fark görünümüne teşekkür bağlantısı ekler",
@@ -20,6 +21,7 @@
 	"thanks-thank-tooltip-yes": "Teşekkür bildiriminiz {{GENDER:$1|gönderildi}}",
 	"thanks-confirmation2": "Bu değişiklik için {{GENDER:$1|teşekkür etmek}} istiyor musunuz?",
 	"thanks-thanked-notice": "$1 kullanıcısına {{GENDER:$2|onu|onu|onları}} beğendiğiniz iletildi.",
+	"thanks-submit": "Teşekkür gönder",
 	"echo-pref-subscription-edit-thank": "Katkım için bana teşekkür edildi",
 	"echo-pref-tooltip-edit-thank": "Yaptığım katkılar için yapılan teşekkürleri bana bildir.",
 	"echo-category-title-edit-thank": "Teşekkürler",
