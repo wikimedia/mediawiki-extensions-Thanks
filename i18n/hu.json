@@ -7,11 +7,12 @@
 			"Teemeah",
 			"William915",
 			"Tacsipacsi",
-			"Csega"
+			"Csega",
+			"Dj"
 		]
 	},
 	"thanks-desc": "Köszönőlinket helyez el a laptörténetben és a diffváltozatokban",
-	"thanks-thank": "köszönet",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|köszönet}}}}",
 	"thanks-thanked": "{{GENDER:$1|megköszönve}}",
 	"thanks-error-undefined": "A megköszönés sikertelen. Kérlek, próbáld meg újra!",
 	"thanks-error-invalidrevision": "A lapváltozat azonosítója érvénytelen.",

@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Supriya kankumbikar"
+			"Supriya kankumbikar",
+			"Konknni mogi 24"
 		]
 	},
-	"thanks-thank": "दिनवास",
+	"thanks-thank": "{{लिंग:$1|{{लिंग:$2|दिनवास}}}}",
 	"thanks-thank-tooltip": "ह्या {{GENDER:$2|सदस्याक}} दिनवास दिवपी अधिसूचोवणी {{GENDER:$1|धाडात}}।"
 }
