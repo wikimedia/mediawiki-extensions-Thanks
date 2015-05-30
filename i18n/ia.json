@@ -5,7 +5,7 @@
 		]
 	},
 	"thanks-desc": "Adde ligamines pro regratiar le autores de modificationes, commentos, etc.",
-	"thanks-thank": "regratiar",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|regratiar}}}}",
 	"thanks-thanked": "{{GENDER:$1|regratiate}}",
 	"thanks-button-thank": "{{GENDER:$1|Regratiar}}",
 	"thanks-button-thanked": "{{GENDER:$1|Regratiate}}",
@@ -16,7 +16,6 @@
 	"thanks-thanked-notice": "$1 ha essite notificate que {{GENDER:$2|su}} modification te placeva.",
 	"thanks": "Inviar regratiamento",
 	"thanks-form-revid": "ID de version del modification",
-	"thanks-already-thanked": "{{GENDER:$1|Tu}} ha jam inviate un regratiamento pro iste modification.",
 	"echo-pref-subscription-edit-thank": "Me regratia pro mi modification",
 	"echo-pref-tooltip-edit-thank": "Notificar me quando un persona me regratia pro un modification que io ha facite.",
 	"echo-category-title-edit-thank": "Regratiamentos",

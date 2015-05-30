@@ -16,6 +16,7 @@
 	"thanks-confirmation2": "ХӀара нисдар дарна баркалла {{GENDER:$1|дӀадохьуьйтий}}?",
 	"thanks-thanked-notice": "$1 {{GENDER:$2|хаам бина}}, {{GENDER:$2|цуна|цера}} нисдар хаза хетта аьлла.",
 	"thanks": "ДӀадахьийта баркалла",
+	"thanks-submit": "ДӀадахьийта баркалла",
 	"thanks-form-revid": "Нисдаран ID тадан",
 	"echo-pref-subscription-edit-thank": "Баркалла суна сан нисдар дарна",
 	"echo-pref-tooltip-edit-thank": "Хаийта соьга, цхьам баркалла аьлча.",
