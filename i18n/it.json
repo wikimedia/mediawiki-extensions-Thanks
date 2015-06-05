@@ -6,7 +6,8 @@
 			"FRacco",
 			"Macofe",
 			"Dragonòt",
-			"Valepert"
+			"Valepert",
+			"Alexmar983"
 		]
 	},
 	"thanks-desc": "Aggiunge un collegamento per ringraziare gli utenti per modifiche, commenti, ecc.",
@@ -21,6 +22,7 @@
 	"thanks-confirmation2": "{{GENDER:$1|Inviare}} un ringraziamento pubblico per questa modifica?",
 	"thanks-thanked-notice": "$1 ha ricevuto il tuo ringraziamento per {{GENDER:$2|la sua}} modifica.",
 	"thanks": "Invia ringraziamento",
+	"thanks-submit": "Invia ringraziamento",
 	"thanks-form-revid": "ID versione per modifica",
 	"echo-pref-subscription-edit-thank": "Mi ringrazia per una mia modifica",
 	"echo-pref-tooltip-edit-thank": "Avvisami quando qualcuno mi ringrazia per una modifica che ho fatto.",

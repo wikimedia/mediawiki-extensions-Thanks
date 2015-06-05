@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Sudo77(new)",
-			"Teslaton"
+			"Teslaton",
+			"Mikulas1"
 		]
 	},
 	"thanks-desc": "Pridáva odkazy na poďakovanie do histórie a zobrazenia rozdielov",
-	"thanks-thank": "poďakovať",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|poďakovať}}}}",
 	"thanks-thanked": "{{GENDER:$1|poďakoval}}",
 	"thanks-button-thank": "{{GENDER:$1|Ďakujem}}",
 	"thanks-button-thanked": "{{GENDER:$1|Poďakoval}}",
