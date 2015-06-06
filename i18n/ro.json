@@ -18,6 +18,7 @@
 	"thanks-confirmation2": "{{GENDER:$1|Trimiteți}} în mod public mulțumiri pentru această modificare?",
 	"thanks-thanked-notice": "$1 a primit mulțumirea dumneavoastră pentru modificarea {{GENDER:$2|sa}}.",
 	"thanks": "Trimitere mulțumiri",
+	"thanks-submit": "Trimite mulțumirea",
 	"thanks-form-revid": "ID-ul versiunii pentru modificare",
 	"echo-pref-subscription-edit-thank": "Mi se mulțumește pentru modificarea mea",
 	"echo-pref-tooltip-edit-thank": "Notifică-mă când cineva îmi mulțumește pentru o modificare pe care am efectuat-o.",
