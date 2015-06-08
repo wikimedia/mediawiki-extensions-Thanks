@@ -41,20 +41,18 @@ $wgExtensionCredits['other'][] = array(
 
 /* Setup */
 
-$dir = __DIR__;
-
 // Register files
-$wgAutoloadClasses['ThanksHooks'] = $dir . '/Thanks.hooks.php';
-$wgAutoloadClasses['EchoThanksFormatter'] = $dir . '/ThanksFormatter.php';
-$wgAutoloadClasses['EchoFlowThanksFormatter'] = $dir . '/FlowThanksFormatter.php';
-$wgAutoloadClasses['ApiThank'] = $dir . '/ApiThank.php';
-$wgAutoloadClasses['ApiRevThank'] = $dir . '/ApiRevThank.php';
-$wgAutoloadClasses['ApiFlowThank'] = $dir . '/ApiFlowThank.php';
-$wgAutoloadClasses['ThanksLogFormatter'] = $dir . '/ThanksLogFormatter.php';
-$wgAutoloadClasses['SpecialThanks'] = $dir . '/SpecialThanks.php';
+$wgAutoloadClasses['ThanksHooks'] = __DIR__ . '/Thanks.hooks.php';
+$wgAutoloadClasses['EchoThanksFormatter'] = __DIR__ . '/ThanksFormatter.php';
+$wgAutoloadClasses['EchoFlowThanksFormatter'] = __DIR__ . '/FlowThanksFormatter.php';
+$wgAutoloadClasses['ApiThank'] = __DIR__ . '/ApiThank.php';
+$wgAutoloadClasses['ApiRevThank'] = __DIR__ . '/ApiRevThank.php';
+$wgAutoloadClasses['ApiFlowThank'] = __DIR__ . '/ApiFlowThank.php';
+$wgAutoloadClasses['ThanksLogFormatter'] = __DIR__ . '/ThanksLogFormatter.php';
+$wgAutoloadClasses['SpecialThanks'] = __DIR__ . '/SpecialThanks.php';
 $wgMessagesDirs['Thanks'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['Thanks'] = $dir . '/Thanks.i18n.php';
-$wgExtensionMessagesFiles['ThanksAlias'] = $dir . '/Thanks.alias.php';
+$wgExtensionMessagesFiles['Thanks'] = __DIR__ . '/Thanks.i18n.php';
+$wgExtensionMessagesFiles['ThanksAlias'] = __DIR__ . '/Thanks.alias.php';
 
 // Register APIs
 $wgAPIModules['thank'] = 'ApiRevThank';
@@ -83,7 +81,7 @@ $wgResourceModules['ext.thanks'] = array(
 	'scripts' => array(
 		'ext.thanks.thank.js',
 	),
-	'localBasePath' => $dir . '/modules',
+	'localBasePath' => __DIR__ . '/modules',
 	'remoteExtPath' => 'Thanks/modules',
 );
 $wgResourceModules['ext.thanks.revthank'] = array(
@@ -108,7 +106,7 @@ $wgResourceModules['ext.thanks.revthank'] = array(
 		'jquery.confirmable',
 		'ext.thanks',
 	),
-	'localBasePath' => $dir . '/modules',
+	'localBasePath' => __DIR__ . '/modules',
 	'remoteExtPath' => 'Thanks/modules',
 );
 $wgResourceModules['ext.thanks.mobilediff'] = array(
@@ -129,7 +127,7 @@ $wgResourceModules['ext.thanks.mobilediff'] = array(
 		'mobile.toast',
 	),
 	'targets' => array( 'desktop', 'mobile' ),
-	'localBasePath' => $dir . '/modules',
+	'localBasePath' => __DIR__ . '/modules',
 	'remoteExtPath' => 'Thanks/modules',
 );
 $wgResourceModules['ext.thanks.flowthank'] = array(
@@ -147,7 +145,7 @@ $wgResourceModules['ext.thanks.flowthank'] = array(
 		'user.tokens',
 		'ext.thanks',
 	),
-	'localBasePath' => $dir . '/modules',
+	'localBasePath' => __DIR__ . '/modules',
 	'remoteExtPath' => 'Thanks/modules',
 );
 
