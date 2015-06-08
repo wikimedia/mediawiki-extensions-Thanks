@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xabier Armendaritz"
+			"Xabier Armendaritz",
+			"Subi"
 		]
 	},
 	"thanks-thank": "eskertu",
@@ -11,6 +12,7 @@
 	"thanks-confirmation2": "Eskerrak {{GENDER:$1|eman}} edizio honengatik?",
 	"thanks-thanked-notice": "$1 wikilariari {{GENDER:$2|bere}} edizioa atsegin duzula jakinarazi zaio.",
 	"thanks": "Eman eskerrak",
+	"thanks-submit": "Bidali eskerrak",
 	"notification-thanks-diff-link": "edizioa",
 	"notification-thanks": "[[User:$1|$1]] {{GENDER:$1|wikilariak}} «[[:$3]]» orrian egin duzun $2 eskertu dizu.",
 	"notification-thanks-flyout2": "[[User:$1|$1]] wikilariak «$2» orrian egin duzun edizioa eskertu dizu.",
