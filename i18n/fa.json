@@ -26,7 +26,7 @@
 	"thanks-thank-tooltip-no": "آگاه‌سازی تشکر از شما را {{GENDER:$1|لغو کنید}}",
 	"thanks-thank-tooltip-yes": "آگاه‌سازی تشکر از شما را {{GENDER:$1|بفرستید}}",
 	"thanks-confirmation2": "{{GENDER:$1|فرستادن}} تشکر برای این ویرایش؟",
-	"thanks-thanked-notice": "$1 تشکر شما را برای ویرایش {{GENDER:$2|او|او|آنها}} دریافت کرد.",
+	"thanks-thanked-notice": "$1 تشکر شما از ویرایش{{GENDER:$2|ش|ش|ش}} را دریافت کرد.",
 	"thanks": "ارسال تشکر",
 	"thanks-form-revid": "شناسهٔ نسخه برای ویرایش",
 	"echo-pref-subscription-edit-thank": "برای ویرایش‌هایم از من سپاسگزاری کن",
