@@ -5,7 +5,7 @@
 			"HalanTul"
 		]
 	},
-	"thanks-thank": "махтал",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|махтал}}}}",
 	"thanks-button-thank": "{{GENDER:$1|Махтал}}",
 	"thanks-thank-tooltip": "Бу {{GENDER:$2|кыттааччыга}} махтал сурук {{GENDER:$1|ыытарга}}",
 	"echo-category-title-edit-thank": "Махтал",

@@ -5,7 +5,7 @@
 		]
 	},
 	"thanks-desc": "Voeg 'n \"Bedank\"-skakel by geskiedenis en weergawe-verskille",
-	"thanks-thank": "bedank",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|bedank}}}}",
 	"thanks-thanked": "{{GENDER:$1|is bedank}}",
 	"thanks-button-thank": "{{GENDER:$1|Bedank}}",
 	"thanks-button-thanked": "{{GENDER:$1|Is bedank}}",
@@ -17,7 +17,6 @@
 	"thanks-thanked-notice": "$1 is in kennis gestel dat u van {{GENDER:$2|sy|haar|sy/haar}} wysiging hou.",
 	"thanks": "Stuur bedanking",
 	"thanks-form-revid": "Weergawe-ID vir wysiging",
-	"thanks-already-thanked": "{{GENDER:$1|U}} het al 'n bedanking vir hierdie wysiging gestuur.",
 	"echo-pref-subscription-edit-thank": "as iemand u vir 'n wysiging bedank",
 	"echo-pref-tooltip-edit-thank": "Laat my weet as iemand my vir 'n wysiging bedank.",
 	"echo-category-title-edit-thank": "Dankiesê-kennisgewings",
