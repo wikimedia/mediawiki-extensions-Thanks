@@ -6,7 +6,7 @@
 			"Sociologist"
 		]
 	},
-	"thanks-thank": "rahmat",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|rahmat}}}}",
 	"thanks-thanked": "{{GENDER:$1|rahmat aytildi}}",
 	"thanks-button-thank": "{{GENDER:$1|Rahmat}}",
 	"thanks-button-thanked": "{{GENDER:$1|Rahmat aytildi}}",

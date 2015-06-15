@@ -5,7 +5,7 @@
 		]
 	},
 	"thanks-desc": "Agnayon kadagiti silpo para iti panagyaman kadagiti agar-aramat para kadagiti panag-urnos, komentario, kdpy.",
-	"thanks-thank": "yamanan",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|yamanan}}}}",
 	"thanks-thanked": "{{GENDER:$1|nayamanan}}",
 	"thanks-button-thank": "{{GENDER:$1|Yamanan}}",
 	"thanks-button-thanked": "{{GENDER:$1|Nayamanan}}",
@@ -16,7 +16,6 @@
 	"thanks-thanked-notice": "Naipaammo idi kenni $1 a kinayatmo {{GENDER:$2|ti inurnosna|dagiti inurnosda}}.",
 	"thanks": "Agipatulod ti panag-yaman",
 	"thanks-form-revid": "Panagbaliw nga ID para iti panag-urnos",
-	"thanks-already-thanked": "{{GENDER:$1|Nakaipatulodkan}} ti panag-yaman para iti daytoy a panag-urnos.",
 	"echo-pref-subscription-edit-thank": "Pagyamanennak para iti inurnosko",
 	"echo-pref-tooltip-edit-thank": "Pakaammuannak no adda agyaman kaniak para iti maysa nga inaramidko nga inurnos.",
 	"echo-category-title-edit-thank": "Dagiti panagyaman",
