@@ -15,7 +15,8 @@
 			"McDutchie",
 			"Dereckson",
 			"Macofe",
-			"Djiboun"
+			"Djiboun",
+			"Mattho69"
 		]
 	},
 	"thanks-desc": "Ajoute des liens pour remercier les utilisateurs pour des modifications, des commentaires, etc.",
@@ -32,6 +33,7 @@
 	"thanks-confirmation2": "{{GENDER:$1|Envoyer}} des remerciements publics pour cette modification ?",
 	"thanks-thanked-notice": "$1 a été {{GENDER:$2|averti|avertie}} que vous avez apprécié sa modification.",
 	"thanks": "Envoyer des remerciements",
+	"thanks-submit": "Remercier",
 	"thanks-form-revid": "ID de révision de la modification",
 	"echo-pref-subscription-edit-thank": "Me remercie pour ma modification",
 	"echo-pref-tooltip-edit-thank": "Me prévenir quand quelqu’un me remercie pour une modification que j’ai faite.",
