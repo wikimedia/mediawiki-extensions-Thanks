@@ -1,6 +1,5 @@
-( function ( M, $ ) {
-	var api = M.require( 'api' ),
-		popup = M.require( 'toast' ),
+( function ( mw, M, $ ) {
+	var popup = M.require( 'toast' ),
 		SchemaMobileWebClickTracking = M.require( 'loggingSchemas/SchemaMobileWebClickTracking' ),
 		schema = new SchemaMobileWebClickTracking( {}, 'MobileWebDiffClickTracking' );
 
@@ -13,30 +12,26 @@
 	 */
 	function thankUser( name, revision, gender ) {
 		var d = $.Deferred();
-		api.getToken( 'edit' ).done( function ( token ) {
-			api.post( {
-				action: 'thank',
-				rev: revision,
-				source: 'mobilediff',
-				token: token
-			} )
-			.done( function () {
-				popup.show( mw.msg( 'thanks-thanked-notice', name, gender ) );
-				d.resolve();
-			} )
-			.fail( function ( errorCode ) {
-				switch ( errorCode ) {
-					case 'invalidrevision':
-						popup.show( mw.msg( 'thanks-error-invalidrevision' ) );
-						break;
-					case 'ratelimited':
-						popup.show( mw.msg( 'thanks-error-ratelimited', gender ) );
-						break;
-					default:
-						popup.show( mw.msg( 'thanks-error-undefined' ) );
-				}
-				d.reject();
-			} );
+		( new mw.Api() ).postWithToken( 'edit', {
+			action: 'thank',
+			rev: revision,
+			source: 'mobilediff'
+		} ).done( function () {
+			popup.show( mw.msg( 'thanks-thanked-notice', name, gender ) );
+			d.resolve();
+		} )
+		.fail( function ( errorCode ) {
+			switch ( errorCode ) {
+				case 'invalidrevision':
+					popup.show( mw.msg( 'thanks-error-invalidrevision' ) );
+					break;
+				case 'ratelimited':
+					popup.show( mw.msg( 'thanks-error-ratelimited', gender ) );
+					break;
+				default:
+					popup.show( mw.msg( 'thanks-error-undefined' ) );
+			}
+			d.reject();
 		} );
 		return d;
 	}
@@ -109,4 +104,4 @@
 	mw.thanks = $.extend( {}, mw.thanks || {}, {
 		_mobileDiffInit: init
 	} );
-} )( mw.mobileFrontend, jQuery );
+} )( mediaWiki, mw.mobileFrontend, jQuery );
