@@ -102,7 +102,6 @@ $wgResourceModules['ext.thanks.revthank'] = array(
 	'dependencies' => array(
 		'mediawiki.jqueryMsg',
 		'mediawiki.api',
-		'user.tokens',
 		'jquery.confirmable',
 		'ext.thanks',
 	),
@@ -143,7 +142,6 @@ $wgResourceModules['ext.thanks.flowthank'] = array(
 	'dependencies' => array(
 		'mediawiki.jqueryMsg',
 		'mediawiki.api',
-		'user.tokens',
 		'ext.thanks',
 	),
 	'localBasePath' => __DIR__ . '/modules',
