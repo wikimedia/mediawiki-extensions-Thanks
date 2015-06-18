@@ -119,7 +119,13 @@ class ApiFlowThank extends ApiThank {
 	private function sendThanks( User $user, User $recipient, UUID $postId, UUID $workflowId,
 		$topicTitleText, Title $pageTitle ) {
 
-		global $wgThanksLogging;
+		$uniqueId = "flow-{$postId->getAlphadecimal()}";
+		// Do one last check to make sure we haven't sent Thanks before
+		if ( $this->haveAlreadyThanked( $user, $uniqueId ) ) {
+			// Pretend the thanks were sent
+			$this->markResultSuccess( $recipient->getName() );
+			return;
+		}
 
 		// Create the notification via Echo extension
 		EchoEvent::create( array(
@@ -134,14 +140,11 @@ class ApiFlowThank extends ApiThank {
 			'agent' => $user,
 		) );
 
-		// Mark the thank in session to prevent duplicates (Bug 46690).
+		// And mark the thank in session for a cheaper check to prevent duplicates (Bug 46690).
 		$user->getRequest()->setSessionData( "flow-thanked-{$postId->getAlphadecimal()}", true );
 		// Set success message.
 		$this->markResultSuccess( $recipient->getName() );
-		// Log it if we're supposed to log it.
-		if ( $wgThanksLogging ) {
-			$this->logThanks( $user, $recipient );
-		}
+		$this->logThanks( $user, $recipient, $uniqueId );
 	}
 
 	/**

@@ -39,9 +39,43 @@ abstract class ApiThank extends ApiBase {
 		) );
 	}
 
-	protected function logThanks( User $user, User $recipient ) {
+	/**
+	 * This checks the log_search data
+	 *
+	 * @param User $thanker
+	 * @param string $uniqueId
+	 * @return bool Whether thanks has already been sent
+	 */
+	protected function haveAlreadyThanked( User $thanker, $uniqueId ) {
+		$dbw = wfGetDB( DB_MASTER );
+		return (bool)$dbw->selectRow(
+			array( 'log_search', 'logging' ),
+			array( 'ls_value' ),
+			array(
+				'log_user' => $thanker->getId(),
+				'ls_field' => 'thankid',
+				'ls_value' => $uniqueId,
+			),
+			__METHOD__,
+			array(),
+			array( 'logging' => array( 'INNER JOIN', 'ls_log_id=log_id' ) )
+		);
+	}
+
+	/**
+	 * @param User $user
+	 * @param User $recipient
+	 * @param string $uniqueId A unique Id to identify the event being thanked for, to use
+	 *                         when checking for duplicate thanks
+	 */
+	protected function logThanks( User $user, User $recipient, $uniqueId ) {
+		global $wgThanksLogging;
+		if ( !$wgThanksLogging ) {
+			return;
+		}
 		$logEntry = new ManualLogEntry( 'thanks', 'thank' );
 		$logEntry->setPerformer( $user );
+		$logEntry->setRelations( array( 'thankid' => $uniqueId ) );
 		$target = $recipient->getUserPage();
 		$logEntry->setTarget( $target );
 		$logId = $logEntry->insert();
