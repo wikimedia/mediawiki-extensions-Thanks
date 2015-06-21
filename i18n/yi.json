@@ -12,8 +12,13 @@
 	"thanks-error-undefined": "דאנק אקציע אדורכגעפאלן. זייט אזוי גוט פרובירט נאכאמאל.",
 	"thanks-error-invalidrevision": "רעוויסיע אידענטיפיצורונג נישט גילטיק.",
 	"thanks-thank-tooltip": "{{GENDER:$1|שיקן}} א דאנק מודעה צו {{GENDER:$2|דעם באניצער}}",
+	"thanks-thank-tooltip-no": "{{GENDER:$1|אנולירן}} די דאנק־מודעה",
+	"thanks-thank-tooltip-yes": "{{GENDER:$1|שיקן}} די דאנק־מודעה",
 	"thanks-confirmation2": "{{GENDER:$1|שיקן}} אן עפנטלעכער ייש\"כ פאר דער רעדאקטירונג?",
+	"thanks-thanked-notice": "$1 האט באקומען אייער דאנק פאר {{GENDER:$2|זיין|איר|זייער}} רעדאקטירונג.",
 	"thanks": "שיקן א דאנק",
+	"thanks-submit": "שיקן א דאנק",
+	"thanks-form-revid": "ווערסיע־אידענטיפיצירער פאר רעדאקטירונג",
 	"echo-pref-subscription-edit-thank": "דאנקט מיך פאר מיין רעדאקטירונג",
 	"echo-pref-tooltip-edit-thank": "זיי מיך מודיע ווען איינער דאנקט מיך פאר א רעדאקטירונג מיינע.",
 	"echo-category-title-edit-thank": "אַ דאַנק",
@@ -24,7 +29,13 @@
 	"notification-thanks-email-batch-body": "$1 {{GENDER:$1|האט אײַך געדאנקט}} פאר אייר רעדאקטירונג אויף $2",
 	"notification-link-text-respond-to-user": "ענטפערן באניצער",
 	"log-name-thanks": "דאנק־לאגבוך",
+	"log-description-thanks": "אונטן איז רשימה פון באניצער געדאַנקט דורך אנדערע באניצער.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|האט געדאנקט}} {{GENDER:$4|$3}}",
+	"log-show-hide-thanks": "$1 דאנק־לאגבוך",
 	"thanks-confirmation-special": "ווילט איר שיקן עפנטלעך א דאַנק פאר דער רעדאַקטירונג?",
-	"notification-flow-thanks-post-link": "אייער הערה"
+	"notification-link-text-view-post": "ווייזן הערה",
+	"flow-thanks-thanked-notice": "$1 האט באקומען אייער דאנק פאר {{GENDER:$2|זיין|איר|זייער}} הערה.",
+	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|האט געדאַנקט}} {{GENDER:$5|אייך}} פאר $2 אין \"$3\" אויף [[:$4]].",
+	"notification-flow-thanks-post-link": "אייער הערה",
+	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|האט געדאַנקט}} {{GENDER:$4|אייך}} פאר אייער הערה אין \"$2\" אויף $3."
 }

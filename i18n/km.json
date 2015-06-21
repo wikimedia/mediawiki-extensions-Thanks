@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"គីមស៊្រុន"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|សូមថ្លែងអំណរគុណ}}}}",
+	"thanks-thank-tooltip": "{{GENDER:$1|ផ្ញើ}}សារថ្លែងអំណរគុណទៅកាន់{{GENDER:$2|អ្នកប្រើប្រាស់}}នេះ។"
+}

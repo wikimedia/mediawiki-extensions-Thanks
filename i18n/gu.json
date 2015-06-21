@@ -6,7 +6,7 @@
 			"KartikMistry"
 		]
 	},
-	"thanks-desc": "ઇતિહાસ અને તફાવત બતાવતી વખતે આભાર માટેની કડી ઉમેરે છે",
+	"thanks-desc": "સંપાદનો, પ્રતિભાવો વ. માતે સભ્યોના આભારદર્શનની કડીઓ ઉમેરો.",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|આભાર માનો}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|આભાર માન્યો}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|આભાર માનો}}}}",
@@ -15,7 +15,7 @@
 	"thanks-error-invalidrevision": "પુનરાવર્તન આઇ.ડી. માન્ય નથી.",
 	"thanks-error-ratelimited": "{{GENDER:$1|તમે}} તમારી ગુણાંકન સીમા વટાવી ચૂક્યા છો. કૃપા કરી થોડો સમય રાહ જુઓ અને પછી પ્રયત્ન કરો.",
 	"thanks-thank-tooltip": "{{GENDER:$2|આ સભ્યને}} આભાર સંદેશો {{GENDER:$1|મોકલો}}",
-	"thanks-thanked-notice": "$1ને માહિતગાર કરવામાં આવ્યા છે કે તમને {{GENDER:$2|તેમણે}} કરેલો ફેરફાર ગમ્યો છે.",
+	"thanks-thanked-notice": "$1 {{GENDER:$2|તેમણે}} કરેલા ફેરફાર માટે તમારા ધન્યવાદ પ્રાપ્ત કરે છે.",
 	"echo-pref-subscription-edit-thank": "મેં કરેલા ફેરફાર માટે મારો આભાર માને છે",
 	"echo-pref-tooltip-edit-thank": "મેં કરેલા ફેરફાર માટે કોઈ મારો આભાર માને ત્યારે મને જણાવો.",
 	"echo-category-title-edit-thank": "આભાર",

@@ -3,11 +3,12 @@
 		"authors": [
 			"VIGNERON",
 			"Y-M D",
-			"Gwenn-Ael"
+			"Gwenn-Ael",
+			"Pymouss"
 		]
 	},
 	"thanks-desc": "Ouzhpenn trugarez liammoù en istor ha dif.",
-	"thanks-thank": "trugarez",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|trugarekaat}}",
 	"thanks-thanked": "{{GENDER:$1|trugarekaet}}",
 	"thanks-button-thank": "{{GENDER:$1|Trugarez}}",
 	"thanks-button-thanked": "{{GENDER:$1|Trugarekaet}}",
