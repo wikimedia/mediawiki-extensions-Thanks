@@ -285,12 +285,12 @@ class ThanksHooks {
 	}
 
 	/**
-	 * Handler for FlowAddModules.  Inserts javascript to enhance thank
+	 * Handler for BeforePageDisplay.  Inserts javascript to enhance thank
 	 * links from static urls to in-page dialogs along with reloading
 	 * the previously thanked state.
 	 *
 	 * @param OutputPage $out OutputPage object
-	 * @param mixed $skin
+	 * @param Skin $skin
 	 * @return bool
 	 */
 	public static function onBeforePageDisplay( OutputPage $out, $skin ) {
