@@ -25,6 +25,7 @@
 	"thanks-confirmation2": "{{GENDER:$1|Skicka}} tack för denna redigering?",
 	"thanks-thanked-notice": "$1 meddelades att du gillade {{GENDER:$2|hans|hennes|dennes}} redigering.",
 	"thanks": "Skicka tack",
+	"thanks-submit": "Skicka tack",
 	"thanks-form-revid": "Versions-ID för redigering",
 	"echo-pref-subscription-edit-thank": "Tackar mig för min redigering",
 	"echo-pref-tooltip-edit-thank": "Meddela mig när någon tackar mig för en redigering jag har gjort.",
