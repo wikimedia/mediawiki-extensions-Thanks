@@ -8,7 +8,7 @@
 		]
 	},
 	"thanks-desc": "ਵਰਤੋਂਕਾਰਾਂ ਦਾ ਸੋਧਾਂ, ਟਿੱਪਣੀਆਂ ਆਦਿ ਲਈ ਧੰਨਵਾਦ ਕਰਨ ਲਈ ਧੰਨਵਾਦੀ ਲਿੰਕ ਜੋੜਦਾ ਹੈ",
-	"thanks-thank": "ਧੰਨਵਾਦ ਆਖੋ",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ਧੰਨਵਾਦ ਕਹੋ}}}}",
 	"thanks-thanked": "{{GENDER:$1|ਧੰਨਵਾਦ ਕੀਤਾ ਗਿਆ}}",
 	"thanks-button-thank": "ਧੰਨਵਾਦ",
 	"thanks-button-thanked": "{{GENDER:$1|ਧੰਨਵਾਦ ਕੀਤਾ ਗਿਆ}}",

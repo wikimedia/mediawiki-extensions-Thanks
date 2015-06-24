@@ -26,7 +26,7 @@
 	"thanks-confirmation2": "Dankeschön für diese Bearbeitung öffentlich {{GENDER:$1|senden}}?",
 	"thanks-thanked-notice": "$1 erhielt dein Dankeschön für {{GENDER:$2|seine|ihre|seine}} Bearbeitung.",
 	"thanks": "Für diese Bearbeitung danken",
-	"thanks-submit": "Dankeschöns senden",
+	"thanks-submit": "Dankeschön senden",
 	"thanks-form-revid": "Versionskennung der Bearbeitung",
 	"echo-pref-subscription-edit-thank": "Dankeschöns für meine Bearbeitung",
 	"echo-pref-tooltip-edit-thank": "Benachrichtige mich, wenn mir jemand für eine Bearbeitung dankt, die ich gemacht habe.",
