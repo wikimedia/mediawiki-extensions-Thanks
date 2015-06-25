@@ -17,7 +17,6 @@ use Flow\Model\UUID;
 
 class ApiFlowThank extends ApiThank {
 	public function execute() {
-		$this->dieIfFlowNotInstalled();
 		$this->dieIfEchoNotInstalled();
 
 		$user = $this->getUser();
@@ -56,12 +55,6 @@ class ApiFlowThank extends ApiThank {
 			$topicTitleText,
 			$pageTitle
 		);
-	}
-
-	private function dieIfFlowNotInstalled() {
-		if ( !class_exists( 'FlowHooks' ) ) {
-			$this->dieUsage( 'Flow is not installed on this wiki', 'flownotinstalled' );
-		}
 	}
 
 	private function userAlreadySentThanksForId( User $user, UUID $id ) {

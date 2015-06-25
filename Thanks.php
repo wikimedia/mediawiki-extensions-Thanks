@@ -56,8 +56,6 @@ $wgExtensionMessagesFiles['ThanksAlias'] = __DIR__ . '/Thanks.alias.php';
 
 // Register APIs
 $wgAPIModules['thank'] = 'ApiRevThank';
-/** @todo This should be conditional on Flow being installed on the wiki */
-$wgAPIModules['flowthank'] = 'ApiFlowThank';
 
 // Register special page
 $wgSpecialPages['Thanks'] = 'SpecialThanks';
@@ -75,6 +73,7 @@ $wgHooks['UnitTestsList'][] = 'ThanksHooks::registerUnitTests';
 $wgHooks['GetLogTypesOnUser'][] = 'ThanksHooks::onGetLogTypesOnUser';
 $wgHooks['BeforePageDisplay'][] = 'ThanksHooks::onBeforePageDisplay';
 $wgHooks['ResourceLoaderTestModules'][] = 'ThanksHooks::onResourceLoaderTestModules';
+$wgHooks['ApiMain::moduleManager'][] = 'ThanksHooks::onApiMainModuleManager';
 
 // Register modules
 $wgResourceModules['ext.thanks'] = array(

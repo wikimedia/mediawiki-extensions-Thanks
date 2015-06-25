@@ -299,4 +299,22 @@ class ThanksHooks {
 		}
 		return true;
 	}
+
+	/**
+	 * Conditionally load API module 'flowthank' depending on whether or not
+	 * Flow is installed.
+	 *
+	 * @param ApiModuleManager $moduleManager Module manager instance
+	 * @return bool
+	 */
+	public static function onApiMainModuleManager( ApiModuleManager $moduleManager ) {
+		if ( class_exists( 'FlowHooks' ) ) {
+			$moduleManager->addModule(
+				'flowthank',
+				'action',
+				'ApiFlowThank'
+			);
+		}
+		return true;
+	}
 }
