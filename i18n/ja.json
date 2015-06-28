@@ -4,14 +4,15 @@
 			"Fryed-peach",
 			"Penn Station",
 			"Shirayuki",
-			"2nd-player"
+			"2nd-player",
+			"Sujiniku"
 		]
 	},
 	"thanks-desc": "利用者の編集やコメントなどに感謝を示すリンクを追加する",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|感謝}}}}",
-	"thanks-thanked": "{{GENDER:$1|感謝を示しました}}",
-	"thanks-button-thank": "{{GENDER:$1|感謝}}",
-	"thanks-button-thanked": "{{GENDER:$1|感謝を示しました}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|感謝を示しました}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|感謝}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|感謝を示しました}}}}",
 	"thanks-error-undefined": "感謝の操作に失敗しました。もう一度やり直してください。",
 	"thanks-error-invalidrevision": "版 ID が無効です。",
 	"thanks-error-ratelimited": "{{GENDER:$1|}}速度制限を超えました。しばらくしてからもう一度やり直してください。",
