@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Highlander45temp"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|опсэу е1ожь}}}}",
+	"thanks-thank-tooltip": "{{GENDER:$2|User}}-м ш1уфэс тхыгъэ горэ {{GENDER:$1|фегъэхь}}"
+}

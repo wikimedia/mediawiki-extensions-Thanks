@@ -62,5 +62,8 @@
 	"apihelp-flowthank-description": "Envoyer des remerciements pour un \"Flow content\".",
 	"apihelp-flowthank-param-postid": "L’UUID du message pour lequel remercier.",
 	"apihelp-flowthank-example-1": "Remercier pour le commentaire ayant l’UUID xyz789",
-	"apihelp-thank-description": "Envoyer des remerciements à un éditeur."
+	"apihelp-thank-description": "Envoyer des remerciements à un éditeur.",
+	"apihelp-thank-param-rev": "ID de révision pour lequel remercier quelqu’un.",
+	"apihelp-thank-param-source": "Une chaîne courte décrivant la source de la requête, par exemple, « diff » ou « history ».",
+	"apihelp-thank-example-1": "Envoyer des remerciements pour l’ID de révision 456, avec la source étant une page de différence"
 }
