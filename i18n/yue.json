@@ -6,7 +6,7 @@
 			"Yueman"
 		]
 	},
-	"thanks-thank": "多謝",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|多謝}}}}",
 	"thanks-thanked": "{{GENDER:$1|多謝咗}}",
 	"thanks-button-thank": "{{GENDER:$1|多謝}}",
 	"thanks-button-thanked": "{{GENDER:$1|多謝咗}}",

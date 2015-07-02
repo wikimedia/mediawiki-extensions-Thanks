@@ -3,14 +3,15 @@
 		"authors": [
 			"Shubhamkanodia",
 			"Siddhartha Ghai",
-			"संजीव कुमार"
+			"संजीव कुमार",
+			"राम प्रसाद जोशी"
 		]
 	},
 	"thanks-desc": "सदस्यों को उनके सम्पादनों, टिप्पणियों आदि के लिए धन्यवाद देने कड़ियाँ जोड़ें।",
 	"thanks-thank": "धन्यवाद दें",
 	"thanks-thanked": "{{GENDER:$1|धन्यवाद दिया}}",
-	"thanks-button-thank": "{{GENDER:$1|धन्यवाद}}",
-	"thanks-button-thanked": "{{GENDER:$1|धन्यवाद दिया}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|धन्यवाद}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|धन्यवाद दिया}}}}",
 	"thanks-error-undefined": "धन्यवाद देने का कार्य विफल रहा। कृपया पुनः प्रयास करें।",
 	"thanks-error-invalidrevision": "अवतरण आई॰डी॰ मान्य नहीं है।",
 	"thanks-error-ratelimited": "{{GENDER:$1|आप}} अपनी दर सीमा पार कर चुके हैं। कृपया थोड़ी देर बाद पुनः प्रयास करें।",
@@ -19,7 +20,6 @@
 	"thanks-thanked-notice": "$1 को अधिसूचित किया गया है कि आपको {{GENDER:$2|उनका}} सम्पादन अच्छा लगा।",
 	"thanks": "धन्यवाद दें",
 	"thanks-form-revid": "सम्पादन के लिए अवतरण आई॰डी॰",
-	"thanks-already-thanked": "आप इस सम्पादन के लिये पहले ही धन्यवाद दे {{GENDER:$1|चुके|चुकी|चुके}} हैं।",
 	"echo-pref-subscription-edit-thank": "मेरे सम्पादन के लिए मुझे धन्यवाद दे।",
 	"echo-pref-tooltip-edit-thank": "जब कोई मेरे सम्पादन के लिये मुझे धन्यवाद कहे, मुझे सूचित करें।",
 	"echo-category-title-edit-thank": "धन्यवाद",

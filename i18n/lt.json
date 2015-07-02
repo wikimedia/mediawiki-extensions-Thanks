@@ -3,10 +3,11 @@
 		"authors": [
 			"Garas",
 			"Hugo.arg",
-			"Pofka"
+			"Pofka",
+			"Albertas"
 		]
 	},
-	"thanks-thank": "padėkoti",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ačiū}}}}",
 	"thanks-thanked": "{{GENDER:$1|padėkota}}",
 	"thanks-button-thank": "{{GENDER:$1|Padėkoti}}",
 	"thanks-thank-tooltip": "{{GENDER:$1|Nusiųskite}} padėkos žinutę šiam {{GENDER:$2|naudotojui}}",
