@@ -4,11 +4,12 @@
 			"Iwan Novirion",
 			"William Surya Permana",
 			"Raynasution",
-			"Bennylin"
+			"Bennylin",
+			"Kenrick95"
 		]
 	},
 	"thanks-desc": "Menambahkan pranala untuk berterima kasih kepada pengguna atas suntingan, komentar, dll.",
-	"thanks-thank": "trims",
+	"thanks-thank": "{{GENDER:$1|trims}}",
 	"thanks-thanked": "{{GENDER:$1|sudah berterima kasih}}",
 	"thanks-button-thank": "{{GENDER:$1|Berterima kasih}}",
 	"thanks-button-thanked": "{{GENDER:$1|Sudah berterima kasih}}",
