@@ -13,6 +13,7 @@
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|धन्यवाद ज्ञापित}}}}",
 	"thanks-thank-tooltip": "यस {{GENDER:$2|प्रयोगकर्ता}}लाई धन्यवाद अधिसूचना {{GENDER:$1|पठाउने}}।",
 	"thanks-confirmation2": "यो सम्पादनको लागि {{GENDER:$1|पठाउनुहोस्}}",
+	"thanks-thanked-notice": "तपाईंलाई {{GENDER:$2|उसले|उनले|उनिहरूले}} गरेको सम्पादन मन परेको छ भन्ने सूचना $1लाई पठाइएको छ ।",
 	"thanks": "धन्यवाद पठाउनुहोस्",
 	"thanks-submit": "धन्यवाद पठाउनुहोस्",
 	"echo-category-title-edit-thank": "धन्यवाद",
@@ -20,5 +21,6 @@
 	"log-name-thanks": "धन्यवाद लोग",
 	"log-show-hide-thanks": "$1 धन्यवाद लॉग",
 	"thanks-confirmation-special": "के तपाईं यस सम्पादनको लागि धन्यवाद दिन चाहनुहुन्छ ?",
-	"flow-thanks-confirmation-special": "के तपाईं यस प्रतिक्रियाको लागि धन्यवाद पठाउन चाहनुहुन्छ ?"
+	"flow-thanks-confirmation-special": "के तपाईं यस प्रतिक्रियाको लागि धन्यवाद पठाउन चाहनुहुन्छ ?",
+	"flow-thanks-thanked-notice": "तपाईंलाई {{GENDER:$2|उसले|उनले|उनिहरूले}} दिएको प्रतिक्रिया मन परेको छ भन्ने सूचना $1लाई पठाइएको छ ।"
 }
