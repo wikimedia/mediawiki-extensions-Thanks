@@ -2,13 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Xabier Armendaritz",
-			"Subi"
+			"Subi",
+			"Sator"
 		]
 	},
-	"thanks-thank": "eskertu",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|Eskertu}}}}",
 	"thanks-thanked": "{{GENDER:$1|eskertuta}}",
 	"thanks-button-thank": "{{GENDER:$1|Eskertu}}",
 	"thanks-button-thanked": "{{GENDER:$1|Eskertuta}}",
+	"thanks-thank-tooltip": "{{GENDER:$1|Bidali}} eskertze mezua {{GENDER:$2|lankide}} honi",
 	"thanks-confirmation2": "Eskerrak {{GENDER:$1|eman}} edizio honengatik?",
 	"thanks-thanked-notice": "$1 wikilariari {{GENDER:$2|bere}} edizioa atsegin duzula jakinarazi zaio.",
 	"thanks": "Eman eskerrak",
