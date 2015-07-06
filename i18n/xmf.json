@@ -4,6 +4,6 @@
 			"Silovan"
 		]
 	},
-	"thanks-thank": "მარდი",
+	"thanks-thank": "{{GENDER:$1|}} მარდი",
 	"thanks-thank-tooltip": "{{GENDER:$2|თე მახვარებუშა}} ომარდე ნაჭარაშ {{GENDER:$1|ჯღონუა}}"
 }
