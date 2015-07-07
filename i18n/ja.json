@@ -39,7 +39,7 @@
 	"notification-link-text-view-post": "コメントを閲覧",
 	"thanks-error-invalidpostid": "投稿 ID が無効です。",
 	"flow-thanks-confirmation-special": "このコメントに公に感謝を示しますか?",
-	"flow-thanks-thanked-notice": "あなたが $1 のコメントに感謝を示したことを{{GENDER:$2|本人}}に通知しました。",
+	"flow-thanks-thanked-notice": "あなたが $1 のコメントに感謝を示したことを{{GENDER:$2|本人|本人|本人}}に通知しました。",
 	"notification-flow-thanks": "[[User:$1|$1]] が [[:$4]] の「$3」での{{GENDER:$5|あなた}}の$2に{{GENDER:$1|感謝を示しました}}。",
 	"notification-flow-thanks-post-link": "あなたのコメント",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] が $3 の「$2」での{{GENDER:$4|あなた}}のコメントに{{GENDER:$1|感謝を示しました}}。",

@@ -5,7 +5,7 @@
 		]
 	},
 	"thanks-desc": "Saat ferwisangen, am brükern tu soonkin för hör bidracher",
-	"thanks-thank": "soonke",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|soonke}}}}",
 	"thanks-thanked": "{{GENDER:$1|besoonket}}",
 	"thanks-button-thank": "{{GENDER:$1|Besoonke}}",
 	"thanks-button-thanked": "{{GENDER:$1|Besoonket}}",
