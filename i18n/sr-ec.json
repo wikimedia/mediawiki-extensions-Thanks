@@ -6,7 +6,7 @@
 		]
 	},
 	"thanks-desc": "Додаје везе за захваљивање корисницима за њихове измене, коментаре итд.",
-	"thanks-thank": "захвали се",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|захвали се}}}}",
 	"thanks-thanked": "{{GENDER:$1|захваљено}}",
 	"thanks-button-thank": "{{GENDER:$1|Захвали се}}",
 	"thanks-button-thanked": "{{GENDER:$1|Захвалили сте се}}",
