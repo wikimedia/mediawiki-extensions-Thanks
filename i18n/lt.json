@@ -39,8 +39,19 @@
 	"thanks-error-no-id-specified": "Turite nurodyti versijos ID, kad galėtumėte padėkoti.",
 	"thanks-confirmation-special": "Ar norite viešai išsiųsti padėką už šį pakeitimą?",
 	"notification-link-text-view-post": "Rodyti komentarą",
+	"thanks-error-invalidpostid": "Netinkamas įrašo ID.",
 	"flow-thanks-confirmation-special": "Ar norite viešai išsiųsti padėką už šį komentarą?",
 	"flow-thanks-thanked-notice": "$1 gavo Jūsų padėką už {{GENDER:$2|jo|jos|jų}} komentarą.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|padėkojo}} {{GENDER:$5|Jums}} už $2 tema \"$3\" puslapyje [[:$4]].",
-	"notification-flow-thanks-post-link": "jūsų komentaras"
+	"notification-flow-thanks-post-link": "jūsų komentaras",
+	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|padėkojo}} {{GENDER:$4|Jums}} už Jūsų komentarą \"$2\" apie $3.",
+	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|padėkojo}} {{GENDER:$2|Jums}} už Jūsų komentarą {{SITENAME}} tinklapyje",
+	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|padėkojo}} {{GENDER:$4|Jums}} už Jūsų komentarą \"$2\" tema $3 puslapyje.",
+	"apihelp-flowthank-description": "Siųsti viešą padėkos pranešimą už Srauto komentarą.",
+	"apihelp-flowthank-param-postid": "Padėkos įrašo UUID.",
+	"apihelp-flowthank-example-1": "Siųsti padėką už komentarą su UUID xyz789",
+	"apihelp-thank-description": "Siųsti padėkos pranešimą redaktoriui.",
+	"apihelp-thank-param-rev": "ID versijos, už kurią padėkoti.",
+	"apihelp-thank-param-source": "Trumpa eilutė, apibūdinanti užklausos šaltinį, pavyzdžiui, \"skirt\" arba \"istorija\".",
+	"apihelp-thank-example-1": "Siųsti padėką už versiją, kurios ID 456 ir šaltinis yra skirtumų puslapis"
 }

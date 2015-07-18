@@ -6,11 +6,12 @@
 			"Pere prlpz",
 			"KRLS",
 			"Paucabot",
-			"Macofe"
+			"Macofe",
+			"F3RaN"
 		]
 	},
 	"thanks-desc": "Afegeix enllaços per agrair els editors per les seves edicions, comentaris, etc.",
-	"thanks-thank": "agraeix",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|Agraeix}}}}",
 	"thanks-thanked": "{{GENDER:$1|agraït}}",
 	"thanks-button-thank": "{{GENDER:$1|Agraeix}}",
 	"thanks-button-thanked": "{{GENDER:$1|Agraït|Agraïda}}",

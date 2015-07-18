@@ -13,7 +13,7 @@
 			"Alex00728"
 		]
 	},
-	"thanks-desc": "편집, 덧글 등등에 사용자에게 감사 링크를 표시합니다.",
+	"thanks-desc": "편집, 덧글 등등에 사용자에게 감사를 표하기 위한 링크를 추가합니다",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|감사}}}}",
 	"thanks-thanked": "{{GENDER:$1|감사합니다}}",
 	"thanks-button-thank": "{{GENDER:$1|감사}}",
