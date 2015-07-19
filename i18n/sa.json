@@ -4,6 +4,9 @@
 			"NehalDaveND"
 		]
 	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|कृतज्ञता पाठ्यताम्}}}}",
+	"thanks-confirmation2": "एतस्मै योजकाय कृतज्ञतां {{GENDER:$1|पाठयितुम्}} इच्छति ?",
+	"thanks": "कृतज्ञता पाठ्यताम्",
 	"echo-category-title-edit-thank": "धन्यवादः",
 	"notification-thanks-diff-link": "भवतः/भवत्याः सम्पादनम्",
 	"notification-link-text-view-post": "टिप्पणी दृश्यताम्",
