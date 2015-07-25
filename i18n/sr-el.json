@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Milicevic01"
+			"Milicevic01",
+			"Srdjan m"
 		]
 	},
 	"thanks-desc": "Dodaje veze za zahvaljivanje korisnicima za njihove izmene, komentare itd.",
-	"thanks-thank": "zahvali se",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|zahvali se}}}}",
 	"thanks-thanked": "{{GENDER:$1|zahvaljeno}}",
 	"thanks-button-thank": "{{GENDER:$1|Zahvali se}}",
 	"thanks-button-thanked": "{{GENDER:$1|Zahvalili ste se}}",
