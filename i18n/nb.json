@@ -21,6 +21,7 @@
 	"thanks-confirmation2": "{{GENDER:$1|Send}} offentlig takk for denne redigeringen?",
 	"thanks-thanked-notice": "$1 har mottatt din takk for {{GENDER:$2|redigeringen hans|redigeringen hennes|redigeringen sin}}.",
 	"thanks": "Send takk",
+	"thanks-submit": "Send takk",
 	"thanks-form-revid": "Revisjons-ID for redigeringen",
 	"echo-pref-subscription-edit-thank": "Takker meg for en redigering",
 	"echo-pref-tooltip-edit-thank": "Varsle meg når noen takker meg for en redgering jeg har gjort.",
