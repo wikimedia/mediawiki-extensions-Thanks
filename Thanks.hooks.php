@@ -294,7 +294,8 @@ class ThanksHooks {
 	 * @return bool
 	 */
 	public static function onBeforePageDisplay( OutputPage $out, $skin ) {
-		if ( $out->getTitle()->hasContentModel( 'flow-board' ) ) {
+		$title = $out->getTitle();
+		if ( $title instanceof Title && $title->hasContentModel( 'flow-board' ) ) {
 			$out->addModules( 'ext.thanks.flowthank' );
 		}
 		return true;
