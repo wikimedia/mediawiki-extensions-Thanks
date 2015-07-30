@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Edgars2007",
-			"Papuass"
+			"Papuass",
+			"Nitalynx"
 		]
 	},
 	"thanks-desc": "Pievieno pateicības saiti vēstures un atšķirību skatiem",
-	"thanks-thank": "pateikties",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|pateikties}}}}",
 	"thanks-thanked": "{{GENDER:$1|pateicās}}",
 	"thanks-error-undefined": "Pateicības darbība neizdevās. Lūdzu, mēģiniet vēlreiz.",
 	"thanks-error-invalidrevision": "Versijas ID ir nederīgs.",
