@@ -5,11 +5,12 @@
 			"ترجمان05",
 			"زكريا",
 			"مشعل الحربي",
-			"Abanima"
+			"Abanima",
+			"Meno25"
 		]
 	},
 	"thanks-desc": "تضيف روابط للشكر على صفحات التاريخ والفرق",
-	"thanks-thank": "شكر",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|شكر}}}}",
 	"thanks-thanked": "{{GENDER:$1|تم إرسال الشكر}}",
 	"thanks-button-thank": "{{GENDER:$1|شكر}}",
 	"thanks-button-thanked": "{{GENDER:$1|تم إرسال الشكر}}",
@@ -21,7 +22,6 @@
 	"thanks-thanked-notice": "{{GENDER:$2|تلقى|تلقت}} $1 شكرك على التعديل الذي {{GENDER:$2|قام|قامت}} به.",
 	"thanks": "إرسال شكر",
 	"thanks-form-revid": "رقم التعديل",
-	"thanks-already-thanked": "{{GENDER:$1|لقد قمت|لقد قمتِ}} بإرسال شكر على هذا التعديل من قبل.",
 	"echo-pref-subscription-edit-thank": "شكري على تعديلي",
 	"echo-pref-tooltip-edit-thank": "أشعرني عندما يشكرني أحد ما على تعديل قمت به.",
 	"echo-category-title-edit-thank": "شكر",
