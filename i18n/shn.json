@@ -4,5 +4,5 @@
 			"Saimawnkham"
 		]
 	},
-	"thanks-thank": "ၶွပ်ႈၸႂ်ထိုင်"
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ၶွပ်ႈၸႂ်ထိုင်}}}}"
 }
