@@ -11,6 +11,7 @@
 	"thanks": "कृतज्ञता पाठ्यताम्",
 	"echo-category-title-edit-thank": "धन्यवादः",
 	"notification-thanks-diff-link": "भवतः/भवत्याः सम्पादनम्",
+	"logentry-thanks-thank": "$1 इत्यनेन {{GENDER:$4|$3}} इत्यस्य कृते {{GENDER:$2|कृतज्ञता पाठिता ।}}",
 	"notification-link-text-view-post": "टिप्पणी दृश्यताम्",
 	"notification-flow-thanks": "[[:$4]] स्थाने $3 इत्यत्र $2 सम्पादनाय [[User:$1|$1]] इत्यनेन {{GENDER:$5|भवते/भवत्यै}} {{GENDER:$1|कृतज्ञता}} पाठ्यते ।",
 	"notification-flow-thanks-post-link": "भवतः/भवत्याः टिप्पणी",
