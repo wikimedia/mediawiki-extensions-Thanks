@@ -48,7 +48,7 @@ class ApiRevThankTest extends ApiTestCase {
 
 	protected function newRevId(){
 		// You can't thank yourself, kind of hacky
-		$this->setMwGlobals( 'wgUser' , self::$users['uploader']->user );
+		$this->setMwGlobals( 'wgUser', self::$users['uploader']->getUser() );
 
 		/** @var Status $result */
 		$result = $this->editPage( 'thanks' . rand( 0, 100 ), 'thanks' . rand( 0, 100 ), 'thanksSummary' );
@@ -56,7 +56,7 @@ class ApiRevThankTest extends ApiTestCase {
 		/** @var Revision $revision */
 		$revision = $result['revision'];
 
-		$this->setMwGlobals( 'wgUser' , self::$users['sysop']->user );
+		$this->setMwGlobals( 'wgUser', self::$users['sysop']->getUser() );
 
 		return $revision->getId();
 	}

@@ -36,11 +36,11 @@ class ApiFlowThankTest extends ApiTestCase {
 		// mock topic and post
 		$this->topic = $this->generateObject();
 		$this->postByOtherUser = $this->generateObject( array(
-				'tree_orig_user_id' => self::$users[ 'uploader' ]->user->getId(),
+				'tree_orig_user_id' => self::$users[ 'uploader' ]->getUser()->getId(),
 				'tree_parent_id' => $this->topic->getPostId()->getBinary(),
 			), array(), 1 );
 		$this->postByMe = $this->generateObject( array(
-				'tree_orig_user_id' => self::$users[ 'sysop' ]->user->getId(),
+				'tree_orig_user_id' => self::$users[ 'sysop' ]->getUser()->getId(),
 				'tree_parent_id' => $this->topic->getPostId()->getBinary(),
 			), array(), 1 );
 
