@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Maxí"
+			"Maxí",
+			"Snævar"
 		]
 	},
-	"thanks-thank": "þakka"
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|þakka}}}}",
+	"thanks-thank-tooltip": "{{GENDER:$1|Senda}} þakkar skilaboð á þennan {{GENDER:$2|notanda}}"
 }
