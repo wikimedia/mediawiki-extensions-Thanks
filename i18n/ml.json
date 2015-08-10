@@ -45,5 +45,7 @@
 	"notification-flow-thanks-email-subject": "{{SITENAME}} സംരംഭത്തിൽ താങ്കൾ ഇട്ട കുറിപ്പിന് $1 {{GENDER:$2|താങ്കൾക്ക്}}  {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}",
 	"notification-flow-thanks-email-batch-body": "$3 എന്ന താളിലെ \"$2\" എന്ന ഭാഗത്ത് താങ്കൾ ഇട്ട കുറിപ്പിന് $1 {{GENDER:$4|താങ്കൾക്ക്}} {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}",
 	"apihelp-flowthank-description": "ഫ്ലോ കുറിപ്പ് സംബന്ധിച്ച ഒരു പൊതു നന്ദി അറിയിപ്പ് അയയ്ക്കുക.",
-	"apihelp-flowthank-param-postid": "നന്ദി രേഖപ്പെടുത്തുന്ന പോസ്റ്റിന്റെ യു.യു.ഐ.ഡി."
+	"apihelp-flowthank-param-postid": "നന്ദി രേഖപ്പെടുത്തുന്ന പോസ്റ്റിന്റെ യു.യു.ഐ.ഡി.",
+	"apihelp-flowthank-example-1": "യു.യു.ഐ.ഡി. കചട789 ആയുള്ള കുറിപ്പിന് നന്ദിയറിയിക്കുക",
+	"apihelp-thank-description": "ഒരു ലേഖകന് നന്ദി അറിയിപ്പ് അയയ്ക്കുക."
 }

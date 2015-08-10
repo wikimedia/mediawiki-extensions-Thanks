@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Littledogboy",
-			"Mormegil"
+			"Mormegil",
+			"Matěj Suchánek"
 		]
 	},
 	"thanks-desc": "Přidává odkazy pro poděkování uživatelům za editace, komentáře apod.",
@@ -19,6 +20,7 @@
 	"thanks-confirmation2": "Veřejně {{GENDER:$1|poděkovat}} za tuto editaci?",
 	"thanks-thanked-notice": "{{GENDER:$2|Uživatel|Uživatelka}} $1 {{GENDER:$2|obdržel|obdržela}} vaše poděkování za editaci.",
 	"thanks": "Poslat poděkování",
+	"thanks-submit": "Poslat poděkování",
 	"thanks-form-revid": "ID revize",
 	"echo-pref-subscription-edit-thank": "…mi někdo poděkuje za editaci",
 	"echo-pref-tooltip-edit-thank": "Upozorněte mě, když mi někdo poděkuje za editaci.",
