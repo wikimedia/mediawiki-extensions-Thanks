@@ -7,5 +7,8 @@
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|añaychay}}}}",
 	"thanks-button-thank": "{{GENDER:$1|Añaychay}}",
 	"thanks-thank-tooltip": "{{GENDER:$2|Kay ruraqman}} añaychay qillqata {{GENDER:$1|kachay}}",
-	"thanks": "Añaychayta kachamuy"
+	"thanks": "Añaychayta kachamuy",
+	"notification-thanks": "[[User:$1|$1]] sutiyuq ruraqqa {{GENDER:$1|añaychasunkim}} [[:$3]]-pi $2 nisqata rurasqaykipaq.",
+	"notification-thanks-flyout2": "[[User:$1|$1]] sutiyuq ruraqqa {{GENDER:$1|añaychasunkim}} $2-pi rurasqaykipaq.",
+	"notification-thanks-email-batch-body": "$1 sutiyuq ruraqqa {{GENDER:$1|añaychasunkim}} $2-pi rurasqaykipaq."
 }
