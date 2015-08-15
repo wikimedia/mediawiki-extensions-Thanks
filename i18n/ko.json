@@ -10,7 +10,8 @@
 			"Revi",
 			"IRTC1015",
 			"Kwj2772",
-			"Alex00728"
+			"Alex00728",
+			"Hwangjy9"
 		]
 	},
 	"thanks-desc": "편집, 덧글 등등에 사용자에게 감사를 표하기 위한 링크를 추가합니다",
@@ -49,6 +50,6 @@
 	"notification-flow-thanks": "[[User:$1|$1]]이 [[:$4]]의 \"$3\"에 대한 $2 에 {{GENDER:$1|감사를 표했습니다}}.",
 	"notification-flow-thanks-post-link": "당신의 의견",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] 님이 $3의 \"$2\"에 대한 당신의 의견에 {{GENDER:$1|감사를 표했습니다}}.",
-	"notification-flow-thanks-email-subject": "$1님이 {{SITENAME}}에 대한 당신의 의견에 {{GENDER:$1|감사를 표했습니다}}.",
-	"notification-flow-thanks-email-batch-body": "$1 님이 $3의 \"$2\" 에 대한 당신의 의견에 {{GENDER:$1|감사를 표했습니다}}."
+	"notification-flow-thanks-email-subject": "$1님이 {{SITENAME}}에 대한 {{GENDER:$2|당신의}} 의견에 {{GENDER:$1|감사를 표했습니다}}.",
+	"notification-flow-thanks-email-batch-body": "$1 님이 $3의 \"$2\" 에 대한 {{GENDER:$4|당신의}} 의견에 {{GENDER:$1|감사를 표했습니다}}."
 }
