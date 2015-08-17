@@ -16,6 +16,8 @@
 	"thanks-error-ratelimited": "{{GENDER:$1|તમે}} તમારી ગુણાંકન સીમા વટાવી ચૂક્યા છો. કૃપા કરી થોડો સમય રાહ જુઓ અને પછી પ્રયત્ન કરો.",
 	"thanks-thank-tooltip": "{{GENDER:$2|આ સભ્યને}} આભાર સંદેશો {{GENDER:$1|મોકલો}}",
 	"thanks-thanked-notice": "$1 {{GENDER:$2|તેમણે}} કરેલા ફેરફાર માટે તમારા ધન્યવાદ પ્રાપ્ત કરે છે.",
+	"thanks": "આભાર માનો",
+	"thanks-submit": "આભાર માનો",
 	"echo-pref-subscription-edit-thank": "મેં કરેલા ફેરફાર માટે મારો આભાર માને છે",
 	"echo-pref-tooltip-edit-thank": "મેં કરેલા ફેરફાર માટે કોઈ મારો આભાર માને ત્યારે મને જણાવો.",
 	"echo-category-title-edit-thank": "આભાર",
@@ -28,5 +30,7 @@
 	"log-name-thanks": "આભાર નોંધ",
 	"log-description-thanks": "નીચે એવા સભ્યોની યાદિ આપી છે જેમનો અન્ય સભ્યોએ આભાર માન્યો હોય.",
 	"logentry-thanks-thank": "$1એ {{GENDER:$4|$3}}નો {{GENDER:$2|આભાર માન્યો}}",
-	"log-show-hide-thanks": "$1 આભાર નોંધ"
+	"log-show-hide-thanks": "$1 આભાર નોંધ",
+	"notification-link-text-view-post": "ટીપ્પણી જુઓ",
+	"notification-flow-thanks-post-link": "તમારી ટીપ્પણી"
 }
