@@ -19,6 +19,7 @@
 	"thanks-confirmation2": "Желите ли да се {{GENDER:$1|захвалите}} за ову измену?",
 	"thanks-thanked-notice": "$1 је {{GENDER:$2|обавештен да сте му се захвалили|обавештена да сте јој се захвалили}}.",
 	"thanks": "Захвали се",
+	"thanks-submit": "Захвали се",
 	"thanks-form-revid": "ID (број) измене",
 	"echo-pref-tooltip-edit-thank": "Обавештава вас када вам се неко захвали за измену коју сте начинили.",
 	"echo-category-title-edit-thank": "Захвалнице",

@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"C.R."
+			"C.R.",
+			"Chelin"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|grazie}}}}",
-	"thanks-thank-tooltip": "{{GENDER:$1|Manna}} na notifeca 'e rengraziamiente a st'{{GENDER:$2|utente}}"
+	"thanks-thank-tooltip": "{{GENDER:$1|Manna}} na notifeca 'e rengraziamiente a st'{{GENDER:$2|utente}}",
+	"notification-thanks-diff-link": "'o càgnamiento tujo",
+	"notification-flow-thanks-post-link": "'o cummento tujo"
 }
