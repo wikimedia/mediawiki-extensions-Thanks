@@ -8,7 +8,7 @@
 	},
 	"thanks-desc": "Дадае спасылкі для падзякаў удзельнікам за праўкі, камэнтары і г. д.",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|дзякуй}}}}",
-	"thanks-thanked": "{{GENDER:$1|падзякаваў|падзякавала}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|падзякаваў}}|{{GENDER:$2|падзякавала}}}}",
 	"thanks-button-thank": "Дзякуй",
 	"thanks-button-thanked": "{{GENDER:$1|Падзякаваў|Падзякавала}}",
 	"thanks-error-undefined": "Не атрымалася падзякаваць. Паспрабуйце яшчэ раз.",
