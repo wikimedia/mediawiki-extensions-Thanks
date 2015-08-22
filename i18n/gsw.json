@@ -5,7 +5,7 @@
 			"J. 'mach' wust"
 		]
 	},
-	"thanks-thank": "dankschen sage",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|dankschen sage}}}}",
 	"thanks-thank-tooltip": "{{GENDER:$2|Däm Benutzer|Däre Benutzeri}} ne Dankschen {{GENDER:$1|schicke}}",
 	"echo-pref-tooltip-edit-thank": "Hiwyse, we mer öpper für’ne Bearbeitig het merci gseit («dankschen sage»).",
 	"echo-category-title-edit-thank": "Dankschen",
