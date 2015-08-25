@@ -4,7 +4,7 @@
 			"Candalua"
 		]
 	},
-	"thanks-thank": "ringrassia",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ringràsia}}}}",
 	"thanks-thanked": "{{GENDER:$1|ringrassià}}",
 	"thanks-button-thank": "Ringrassia",
 	"thanks-button-thanked": "{{GENDER:$1|Ringrassià}}",
