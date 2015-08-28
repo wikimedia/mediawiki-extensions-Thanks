@@ -31,5 +31,5 @@
 	"log-description-thanks": "Ніжэй знаходзіцца сьпіс удзельнікаў, якія атрымалі падзякі.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$4|удзельніку|удзельніцы}} $3",
 	"log-show-hide-thanks": "Журнал падзякаў $1",
-	"thanks-confirmation-special": "Вы хочаце даслаць падзяку за гэтую праўку?"
+	"thanks-confirmation-special": "Вы хочаце даслаць публічную падзяку за гэтую праўку?"
 }

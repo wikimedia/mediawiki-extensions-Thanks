@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liridon"
+			"Liridon",
+			"Olsi"
 		]
 	},
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|faleminderit}}}}",
-	"thanks-thank-tooltip": "{{GENDER:$1|Dërgo}} një njoftim faleminderimi këtij {{GENDER:$2|përdoruesi}}"
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|falenderoje}}}}",
+	"thanks-thank-tooltip": "{{GENDER:$1|Dërgoji}} një njoftim faleminderimi {{GENDER:$2|këtij përdoruesi|kësaj përdoruesje}}"
 }

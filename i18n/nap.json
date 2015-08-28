@@ -5,13 +5,28 @@
 			"Chelin"
 		]
 	},
+	"thanks-desc": "Azzecca link pe' putè dà grazie a ll'utente pe ne ffà nu cagnamiento, ncu commento, ecc.",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|grazie}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|ringraziato|ringraziata|ringraziato/a}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Ringrazia}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Ringraziato|Ringraziata|Ringraziato/a}}}}",
 	"thanks-error-undefined": "Aziona 'e ringraziamento fallita. Pe' piacere pruvate n'ata vota.",
 	"thanks-error-invalidrevision": "L'ID 'e verziona nun è bbuono.",
+	"thanks-error-ratelimited": "{{GENDER:$1|Vuje}} avit'appassat' 'o lemmeto 'e valutazione vosta. Pe' piacere, aspettate nu mumento e pruvate n'ata vota.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Manna}} na notifeca 'e rengraziamiente a st'{{GENDER:$2|utente}}",
+	"thanks-thank-tooltip-no": "{{GENDER:$1|Scancella}} 'a notifica 'e grazie",
+	"thanks-thank-tooltip-yes": "{{GENDER:$1|Manna}} 'a notifica 'e grazie",
+	"thanks-confirmation2": "{{GENDER:$1|Manna}} grazie pubbreche pe' st'edit?",
+	"thanks-thanked-notice": "$1 ricevette 'e grazie voste pe' ll'edit {{GENDER:$2|suojo|suojo|lloro}}.",
+	"thanks": "Manne 'e rengraziamiente",
+	"thanks-submit": "Manna 'e grazie",
+	"thanks-form-revid": "ID d' 'a revisiona pe' cagnamiento",
+	"echo-pref-subscription-edit-thank": "Damme 'e grazie p' 'o cagnamiento mio",
+	"echo-pref-tooltip-edit-thank": "Famme 'a notifica quanno coccheruno me ringraziasse pe' nu cagnamiento c'aggio fatto.",
+	"echo-category-title-edit-thank": "Grazie",
 	"notification-thanks-diff-link": "'o càgnamiento tujo",
+	"notification-thanks": "[[User:$1|$1]] {{GENDER:$1|ve ringraziaje}} pe' $2 vuosto dint'a [[:$3]].",
+	"notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1|ve ringraziaje}} pe' ll'edit vuosto dint'a $2.",
+	"notification-thanks-email-subject": "$1 {{GENDER:$1|ve ringraziaje}} pe' ll'edit vuosto dint'a {{SITENAME}}",
 	"notification-flow-thanks-post-link": "'o cummento tujo"
 }
