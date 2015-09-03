@@ -10,7 +10,7 @@
 		]
 	},
 	"thanks-desc": "Adiciona link de agradecimento às páginas de histórico e de diferença entre edições",
-	"thanks-thank": "agradecer",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|agradecer}}}}",
 	"thanks-thanked": "{{GENDER:$1|agradecido|agradecida}}",
 	"thanks-button-thank": "{{GENDER:$1|Agradecer}}",
 	"thanks-button-thanked": "{{GENDER:$1|Agradecimento enviado}}",
@@ -21,7 +21,6 @@
 	"thanks-thanked-notice": "$1 foi {{GENDER:$2|notificado|notificada}} de que você apreciou {{GENDER:$2|sua}} edição.",
 	"thanks": "Enviar agradecimento",
 	"thanks-form-revid": "ID de revisão da edição",
-	"thanks-already-thanked": "{{GENDER:$1|Você}} já enviou um agradecimento por esta edição.",
 	"echo-pref-subscription-edit-thank": "Agradeça-me pela minha edição",
 	"echo-pref-tooltip-edit-thank": "Notifique-me quando alguém agradecer por uma edição que fiz.",
 	"echo-category-title-edit-thank": "Agradecimento",
