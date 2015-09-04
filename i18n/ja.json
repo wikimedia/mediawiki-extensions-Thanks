@@ -5,7 +5,8 @@
 			"Penn Station",
 			"Shirayuki",
 			"2nd-player",
-			"Sujiniku"
+			"Sujiniku",
+			"Otokoume"
 		]
 	},
 	"thanks-desc": "利用者の編集やコメントなどに感謝を示すリンクを追加する",
@@ -20,6 +21,7 @@
 	"thanks-confirmation2": "この編集に感謝を公に{{GENDER:$1|示しますか}}?",
 	"thanks-thanked-notice": "あなたが $1 の編集に感謝を示したことを {{GENDER:$2|本人}} に通知しました。",
 	"thanks": "感謝を示す",
+	"thanks-submit": "感謝を示す",
 	"thanks-form-revid": "編集の版 ID",
 	"echo-pref-subscription-edit-thank": "自分の編集に誰かが感謝を示したとき",
 	"echo-pref-tooltip-edit-thank": "自分の編集に誰かが感謝を示したときに通知する。",
