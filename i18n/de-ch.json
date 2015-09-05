@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"J. 'mach' wust"
+		]
+	},
+	"flow-thanks-thanked-notice": "$1 erhielt deine Dankeschön für {{GENDER:$2|seinen|ihren}} Kommentar."
+}

@@ -9,7 +9,8 @@
 			"Wnme",
 			"Schniggendiller",
 			"Inkowik",
-			"Purodha"
+			"Purodha",
+			"J. 'mach' wust"
 		]
 	},
 	"thanks-desc": "Links zum Bedanken bei Benutzern für Bearbeitungen, Kommentare etc.",
@@ -24,7 +25,7 @@
 	"thanks-thank-tooltip-no": "Die Dankeschön-Benachrichtigung {{GENDER:$1|abbrechen}}",
 	"thanks-thank-tooltip-yes": "Die Dankeschön-Benachrichtigung {{GENDER:$1|senden}}",
 	"thanks-confirmation2": "Dankeschön für diese Bearbeitung öffentlich {{GENDER:$1|senden}}?",
-	"thanks-thanked-notice": "$1 erhielt dein Dankeschön für {{GENDER:$2|seine|ihre|seine}} Bearbeitung.",
+	"thanks-thanked-notice": "$1 erhielt dein Dankeschön für {{GENDER:$2|seine|ihre}} Bearbeitung.",
 	"thanks": "Für diese Bearbeitung danken",
 	"thanks-submit": "Dankeschön senden",
 	"thanks-form-revid": "Versionskennung der Bearbeitung",
@@ -46,7 +47,7 @@
 	"notification-link-text-view-post": "Kommentar anzeigen",
 	"thanks-error-invalidpostid": "Die Beitragskennung ist nicht gültig.",
 	"flow-thanks-confirmation-special": "Möchtest du öffentlich ein Dankeschön für diesen Kommentar senden?",
-	"flow-thanks-thanked-notice": "$1 erhielt deine Dankeschöns für {{GENDER:$2|seinen|ihren|seinen}} Kommentar.",
+	"flow-thanks-thanked-notice": "$1 erhielt deine Dankeschöns für {{GENDER:$2|seinen|ihren}} Kommentar.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|dankte}} {{GENDER:$5|dir}} für $2 in „$3“ auf [[:$4]].",
 	"notification-flow-thanks-post-link": "deinen Kommentar",
 	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|dankte}} {{GENDER:$4|dir}} für deinen Kommentar in „$2“ auf $3.",
