@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mashoi7"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|passiboiče}}}}",
+	"thanks-thank-tooltip": "{{GENDER:$1|Työnnä}} passibo-viesti {{GENDER:$2|käyttäjäle}}"
+}
