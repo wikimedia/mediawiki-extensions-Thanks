@@ -37,7 +37,6 @@
 	"notification-thanks-flyout2": "Format for displaying notifications in the flyout when a user is thanked for their edit. Parameters:\n* $1 is the username of the person sending the thanks, as plain text. Can be used for GENDER.\n* $2 is the title of the page the user edited.",
 	"notification-thanks-email-subject": "E-mail subject. Parameters:\n* $1 is the username of the person sending the thanks, as plain text. Can be used for GENDER.",
 	"notification-thanks-email-batch-body": "E-mail notification. Parameters:\n* $1 is the username of the person sending the thanks, as plain text. Can be used for GENDER.\n* $2 the title of the page the user edited.",
-	"notification-link-text-respond-to-user": "Label for button that links to a user page.",
 	"log-name-thanks": "Name of log that appears on [[Special:Log]].",
 	"log-description-thanks": "Description of thanks log",
 	"logentry-thanks-thank": "Log entry that is created when a user thanks another user for an edit. Parameters:\n* $1 is a user link, for example \"Jane Doe (Talk | contribs)\"\n* $2 is a username. Can be used for GENDER.\n* $3 is a user link, for example \"John Doe (Talk | contribs)\n* $4 is the username of the recipient. Can be used for GENDER.\n{{Identical|Thanked}}",
