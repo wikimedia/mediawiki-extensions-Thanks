@@ -27,7 +27,6 @@
 	"notification-thanks-flyout2": "{{GENDER:$1|Ο|Η}} [[User:$1|$1]] σε ευχαρίστησε για την επεξεργασία σου στη $2.",
 	"notification-thanks-email-subject": "{{GENDER:$1|Ο|Η}} $1 σε ευχαρίστησε για την επεξεργασία σου στο {{SITENAME}}.",
 	"notification-thanks-email-batch-body": "{{GENDER:$1|Ο|Η}} $1 σε ευχαρίστησε για την επεξεργασία σου στο $2.",
-	"notification-link-text-respond-to-user": "Απάντηση στο χρήστη",
 	"log-name-thanks": "Καταγραφή ευχαριστηρίων",
 	"log-description-thanks": "Παρακάτω είναι μια λίστα των χρηστών που ευχαριστήθηκαν από άλλους χρήστες.",
 	"logentry-thanks-thank": "{{GENDER:$2|Ο|Η}} $1 ευχαρίστησε {{GENDER:$4|τον|την}} $3",

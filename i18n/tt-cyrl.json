@@ -8,6 +8,12 @@
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|рәхмәт әйтү}}}}",
 	"thanks-thank-tooltip": "{{GENDER:$2|Кулланучыга}} рәхмәт хаты {{GENDER:$1|җибәрү}}",
-	"notification-thanks-flyout2": "$1 сезгә «$2» битендә ясаган кертемегез өчен рәхмәт әйтте.",
-	"notification-thanks-email-batch-body": "$1 сезгә «$2» битендә ясаган кертемегез өчен рәхмәт әйтте."
+	"notification-thanks": "[[User:$1|$1]] «[[:$3]]» битендәге $2 өчен {{GENDER:$1|рәхмәт әйтә}}.",
+	"notification-thanks-flyout2": "[[User:$1|$1]] сезгә «$2» битендә ясаган кертемегез өчен {{GENDER:$1|рәхмәт әйтте}}.",
+	"notification-thanks-email-subject": "$1 «{{SITENAME}}» сәхифәсендәге кертем өчен {{GENDER:$1|рәхмәт әйтә}}.",
+	"notification-thanks-email-batch-body": "$1 сезгә «$2» битендә ясаган кертемегез өчен рәхмәт әйтте.",
+	"notification-flow-thanks": "[[User:$1|$1]] [[:$4]] битендәге «$3» темага $2 өчен сезгә {{GENDER:$5|рәхмәт әйтә}}.",
+	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$4|сезгә}} $3 битендәге «$2» темасына фикер калыруыгыз өчен поблагодарил{{GENDER:$1|рәхмәт әйтә}}.",
+	"notification-flow-thanks-email-subject": "$1 «{{SITENAME}}» сәхифәсендә фикер калдыруыгыз өчен {{GENDER:$2|сезгә}} {{GENDER:$1|рәхмәт әйтә}}.",
+	"notification-flow-thanks-email-batch-body": "$1 «$2» сәхифәсенең $3 битендәге темага карата фикер калдыруыгыз өчен {{GENDER:$4|сезгә}} {{GENDER:$1|рәхмәт әйтә}}."
 }
