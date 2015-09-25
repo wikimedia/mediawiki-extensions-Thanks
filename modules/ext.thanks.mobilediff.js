@@ -1,5 +1,5 @@
 ( function ( mw, M, $ ) {
-	var popup = M.require( 'toast' ),
+	var popup = M.require( 'mobile.toast/toast' ),
 		SchemaMobileWebClickTracking = M.require( 'loggingSchemas/SchemaMobileWebClickTracking' ),
 		schema = new SchemaMobileWebClickTracking( {}, 'MobileWebDiffClickTracking' );
 
