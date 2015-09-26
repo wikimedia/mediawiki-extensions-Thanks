@@ -11,6 +11,7 @@
 	"thanks-error-undefined": "Passiboičendu ei ozavunnuh. Ole hyvä, opi vie kerdu.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Työnnä}} passibo-viesti {{GENDER:$2|käyttäjäle}}",
 	"thanks": "Työnnä passibot",
+	"thanks-submit": "Työnnä passibot",
 	"echo-category-title-edit-thank": "Passibot",
 	"notification-thanks": "[[User:$1|$1]] {{GENDER:$1|passiboiči}} sinuu $2 sivul [[:$3]].",
 	"notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1|passiboiči}} sinuu sinun kohendukses sivul $2.",
