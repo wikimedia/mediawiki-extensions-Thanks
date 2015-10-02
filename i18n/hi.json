@@ -4,11 +4,12 @@
 			"Shubhamkanodia",
 			"Siddhartha Ghai",
 			"संजीव कुमार",
-			"राम प्रसाद जोशी"
+			"राम प्रसाद जोशी",
+			"Angpradesh"
 		]
 	},
 	"thanks-desc": "सदस्यों को उनके सम्पादनों, टिप्पणियों आदि के लिए धन्यवाद देने कड़ियाँ जोड़ें।",
-	"thanks-thank": "धन्यवाद दें",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|धन्यवाद}}}}",
 	"thanks-thanked": "{{GENDER:$1|धन्यवाद दिया}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|धन्यवाद}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|धन्यवाद दिया}}}}",
@@ -28,7 +29,6 @@
 	"notification-thanks-flyout2": "[[User:$1|$1]] ने आपको $2 पर आपके सम्पादन के लिए {{GENDER:$1|धन्यवाद कहा है}}।",
 	"notification-thanks-email-subject": "$1 ने आपको {{SITENAME}} पर आपके सम्पादन के लिये आपको {{GENDER:$1|धन्यवाद कहा है}}।",
 	"notification-thanks-email-batch-body": "$1 ने $2 पर आपके सम्पादन के लिये आपको {{GENDER:$1|धन्यवाद कहा है}}।",
-	"notification-link-text-respond-to-user": "सदस्य को जवाब दें",
 	"log-name-thanks": "धन्यवाद लॉग",
 	"log-description-thanks": "अन्य सदस्यों द्वारा धन्यवाद पाने वाले सदस्यों की सूची निम्न है।",
 	"logentry-thanks-thank": "$1 ने {{GENDER:$4|$3}} को {{GENDER:$2|धन्यवाद कहा है}}",
