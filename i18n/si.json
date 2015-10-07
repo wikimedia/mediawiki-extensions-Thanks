@@ -7,5 +7,9 @@
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ස්තූතිය}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|ස්තුති කළා}}}}",
-	"thanks-thank-tooltip": "මෙම {{GENDER:$2|පරිශීලකයා}} හට ස්තූති කිරීමේ නිවේදනයක් {{GENDER:$1|යවන්න}}"
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|ස්තුති කළා}}}}",
+	"thanks-thank-tooltip": "මෙම {{GENDER:$2|පරිශීලකයා}} හට ස්තූති කිරීමේ නිවේදනයක් {{GENDER:$1|යවන්න}}",
+	"notification-thanks-email-subject": "{{SITENAME}} හි සංස්කරණය සදහා $1 විසින් ඔබට {{GENDER:$1|ස්තූති}} කර ඇත.",
+	"notification-thanks-email-batch-body": "$2 හි සංස්කරණය සදහා $1 විසින් ඔබට {{GENDER:$1|ස්තූති}} කර ඇත.",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|ස්තුති කළා}} {{GENDER:$4|$3}}"
 }
