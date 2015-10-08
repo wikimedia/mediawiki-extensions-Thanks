@@ -6,11 +6,19 @@
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ଧନ୍ୟବାଦ ଦେବେ}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|ସାଧୁବାଦ ଦେଲେ}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|ସାଧୁବାଦ ଦେଲେ}}}}",
 	"thanks-thank-tooltip": "{{GENDER:$2|user}}ଙ୍କୁ ଏକ ଧନ୍ୟବାଦ ସୂଚନା {{GENDER:$1|ପଠାନ୍ତୁ}}",
 	"thanks-confirmation2": "ଏହି ସମ୍ପାଦନା ପାଇଁ ସାଧାରଣରେ {{GENDER:$1|ସାଧୁବାଦ ଜଣାଇବେ}}?",
 	"thanks": "ସାଧୁବାଦ ଜଣାନ୍ତୁ",
 	"thanks-submit": "ସାଧୁବାଦ ଜଣାନ୍ତୁ",
+	"notification-thanks-email-subject": "{{SITENAME}}ରେ ଆପଣଙ୍କ ସମ୍ପାଦନା ପାଇଁ $1 ଆପଣଙ୍କୁ {{GENDER:$1|ସାଧୁବାଦ ଜଣାଇଛନ୍ତି}} ।",
+	"notification-thanks-email-batch-body": "$2ରେ ଆପଣଙ୍କ ସମ୍ପାଦନା ପାଇଁ $1 ଆପଣଙ୍କୁ {{GENDER:$1|ସାଧୁବାଦ ଜଣାଇଛନ୍ତି}} ।",
+	"log-description-thanks": "ବାକି ବ୍ୟବହାରକାରୀଙ୍କ ଦ୍ୱାରା ସାଧୁବାଦ ପାଇଥିବା ସଭ୍ୟଙ୍କ ତାଲିକା ।",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|ସାଧୁବାଦ ଦେଲେ}} {{GENDER:$4|$3}}",
 	"thanks-confirmation-special": "ଏହି ସମ୍ପାଦନା ପାଇଁ ସାଧାରଣରେ ସାଧୁବାଦ ଜଣାଇବେ?",
 	"flow-thanks-confirmation-special": "ଏହି ମତ ପାଇଁ ସାଧାରଣରେ ସାଧୁବାଦ ଜଣାଇବେ?",
-	"flow-thanks-thanked-notice": "$1ଙ୍କୁ {{GENDER:$2|ତାଙ୍କ|ତାଙ୍କ|ସେମାନଙ୍କ}} ସମ୍ପାଦନା ଲାଗି ସାଧୁବାଦ ଜଣାଇଦିଆଗଲା ।"
+	"flow-thanks-thanked-notice": "$1ଙ୍କୁ {{GENDER:$2|ତାଙ୍କ|ତାଙ୍କ|ସେମାନଙ୍କ}} ସମ୍ପାଦନା ଲାଗି ସାଧୁବାଦ ଜଣାଇଦିଆଗଲା ।",
+	"notification-flow-thanks-email-subject": "{{SITENAME}}ରେ ଆପଣଙ୍କ ମତ ଲାଗି $1 {{GENDER:$2|ଆପଣଙ୍କୁ}} {{GENDER:$1|ସାଧୁବାଦ ଦେଲେ}}",
+	"notification-flow-thanks-email-batch-body": " \"$2\"ର  $3ଠାରେ ଆପଣଙ୍କ ମତ ପାଇଁ $1 {{GENDER:$4|ଆପଣଙ୍କୁ}} {{GENDER:$1|ସାଧୁବାଦ ଦେଲେ}} ।"
 }
