@@ -28,7 +28,6 @@
 	"notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1|v-a mulțumit}} pentru modificarea dumnevoastră asupra paginii $2.",
 	"notification-thanks-email-subject": "$1 {{GENDER:$1|v-a mulțumit}} pentru modificarea dumneavoastră de la {{SITENAME}}",
 	"notification-thanks-email-batch-body": "$1 {{GENDER:$1|v-a mulțumit}} pentru modificarea dumneavoastră asupra paginii $2.",
-	"notification-link-text-respond-to-user": "Răspuns către utilizator",
 	"log-name-thanks": "Jurnal mulțumiri",
 	"log-description-thanks": "Mai jos se află o listă a utilizatorilor cărora li s-a mulțumit de către alți utilizatori.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|i-a mulțumit}} {{GENDER:$4|utilizatorului $3|utilizatoarei $3}}",
