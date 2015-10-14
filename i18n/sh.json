@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kolega2357"
+			"Kolega2357",
+			"OC Ripper"
 		]
 	},
 	"thanks-desc": "Dodaje mogućnost zahvaljivanja u pregledu historije i pregledu razlika između izmena",
-	"thanks-thank": "zahvali se",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|zahvali}} se}}",
 	"thanks-thanked": "{{GENDER:$1|zahvalio se|zahvalila se}}",
-	"notification-link-text-respond-to-user": "Odgovori korisniku",
+	"thanks-thank-tooltip": "{{GENDER:$1|Pošalji}} zahvalnicu {{GENDER:$2|ovom korisniku|оvoj korisnici}}",
 	"log-name-thanks": "Evidencija zahvaljivanja",
 	"log-description-thanks": "Ispod se nalazi spisak korisnika kojima su se drugi korisnici zahvalili.",
 	"logentry-thanks-thank": "$1 se {{GENDER:$2|zahvalio|zahvalila}} {{GENDER:$4|korisniku|korisnici}} {{GENDER:$4|$3}}",
