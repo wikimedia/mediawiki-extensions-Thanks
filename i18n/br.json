@@ -19,6 +19,5 @@
 	"thanks-confirmation2": "Un {{GENDER:$1|trugarekaat}} foran evit ar c'hemm-mañ ?",
 	"echo-category-title-edit-thank": "Trugarez",
 	"notification-thanks-diff-link": "ho kemm",
-	"notification-link-text-respond-to-user": "Respont d'an implijer",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|en deus|he deus}} trugarekaet {{GENDER:$4|$3}}"
 }

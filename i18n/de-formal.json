@@ -6,7 +6,6 @@
 	},
 	"thanks-error-ratelimited": "{{GENDER:$1|Sie}} haben Ihr Aktionslimit überschritten. Bitte warten Sie etwas und versuchen Sie es erneut.",
 	"thanks-thanked-notice": "$1 wurde benachrichtigt, dass Ihnen {{GENDER:$2|seine|ihre|ihre}} Bearbeitung gefällt.",
-	"thanks-already-thanked": "{{GENDER:$1|Sie}} haben bereits ein Dankeschön für diese Bearbeitung gesendet.",
 	"notification-thanks-diff-link": "Ihre Bearbeitung",
 	"notification-thanks": "[[User:$1|$1]] {{GENDER:$1|dankt}} Ihnen für $2 auf [[:$3]].",
 	"notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1|dankt}} Ihnen für Ihre Bearbeitung auf „$2“.",

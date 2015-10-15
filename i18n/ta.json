@@ -21,7 +21,6 @@
 	"notification-thanks-flyout2": "நீங்கள் $2இல் செய்த தொகுப்புக்கு [[User:$1|$1]] நன்றி தெரிவித்தார்.",
 	"notification-thanks-email-subject": "நீங்கள் {{SITENAME}}இல் செய்த தொகுப்புக்கு $1 நன்றி தெரிவித்தார்.",
 	"notification-thanks-email-batch-body": "நீங்கள் $2இல் செய்த தொகுப்புக்கு $1 நன்றி தெரிவித்தார்.",
-	"notification-link-text-respond-to-user": "பயனருக்கு பதிலளிக்க",
 	"log-name-thanks": "நன்றிகள் பதிவு",
 	"log-description-thanks": "பிற பயனர்களால் நன்றி தெரிவிக்கப்பட்ட பயனர்களின் பட்டியல் கீழே உள்ளது.",
 	"logentry-thanks-thank": "$1, $4க்கு நன்றி தெரிவித்தார்.",

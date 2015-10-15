@@ -31,7 +31,6 @@
 	"notification-thanks-flyout2": "$2 পাতায় সম্পাদনার জন্য [[User:$1|$1]]  আপনাকে {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
 	"notification-thanks-email-subject": "{{SITENAME}} সম্পাদনার জন্য $1 আপনাকে {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
 	"notification-thanks-email-batch-body": "$2-এ সম্পাদনার জন্য $1 আপনাকে {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
-	"notification-link-text-respond-to-user": "ব্যবহারকারীর প্রতিক্রিয়া",
 	"log-name-thanks": "ধন্যবাদ লগ",
 	"log-description-thanks": "নিচে ব্যবহারকারীদের একটি তালিকা রয়েছে যারা অন্য ব্যবহারকারী হতে ধন্যবাদ পেয়েছেন।",
 	"logentry-thanks-thank": "$1 {{GENDER:$4|$3}}কে {{GENDER:$2|ধন্যবাদ জানিয়েছেন}}",

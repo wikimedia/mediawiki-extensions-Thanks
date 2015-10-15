@@ -22,7 +22,6 @@
 	"notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1|gratias egit}} tibi recensionis in pagina $2 factae causa.",
 	"notification-thanks-email-subject": "$1 {{GENDER:$1|gratias egit}} recensionis apud {{grammar:accusative|{{SITENAME}}}} factae causa",
 	"notification-thanks-email-batch-body": "$1 {{GENDER:$1|gratias egit}} recensionis tuae in $2 factae causa.",
-	"notification-link-text-respond-to-user": "Usori respondere",
 	"log-name-thanks": "Index gratiarum",
 	"log-description-thanks": "Infra est index usorum quibus gratiae ab aliis usoribus actae sunt.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|gratias egit}} {{GENDER:$4|$3}}",

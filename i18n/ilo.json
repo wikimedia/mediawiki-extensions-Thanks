@@ -24,7 +24,6 @@
 	"notification-thanks-flyout2": "Ni [[User:$1|$1]] ket {{GENDER:$1|nagyaman}} kenka para iti inurnosmo iti $2.",
 	"notification-thanks-email-subject": "Ni $1 ket {{GENDER:$1|nagyaman}} kenka para it inurnosmo idiay {{SITENAME}}",
 	"notification-thanks-email-batch-body": "Ni $1 ket {{GENDER:$1n|agyaman}} kenka para iti inurnosmo iti $2.",
-	"notification-link-text-respond-to-user": "Sumungbat iti agar-aramat",
 	"log-name-thanks": "Listaan kadagiti panagyaman",
 	"log-description-thanks": "Dita baba ket listaan dagiti agar-aramat a nayamanan babaen dagiti dadduma nga agar-aramat.",
 	"logentry-thanks-thank": "Ni $1 ket {{GENDER:$2|nagyaman}} kenni {{GENDER:$4|$3}}",

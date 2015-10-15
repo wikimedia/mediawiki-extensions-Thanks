@@ -23,7 +23,6 @@
 	"notification-thanks-flyout2": "{{GENDER:$1|Pinasalamatan}} ka ni [[User:$1|$1]] para sa pagbabago mo sa $2.",
 	"notification-thanks-email-subject": "{{GENDER:$1|Pinasalamatan}} ka ni $1 para sa pagbabago mo sa {{SITENAME}}",
 	"notification-thanks-email-batch-body": "{{GENDER:$1|Pinasalamatan}} ka ni $1 para sa pagbabago mo sa $2.",
-	"notification-link-text-respond-to-user": "Tumugon sa tagagamit",
 	"log-name-thanks": "Tala ng pasasalamat",
 	"log-description-thanks": "Nasa ibaba ang isang tala ng mga tagagamit na pinasalamatan ng ibang tagagamit.",
 	"logentry-thanks-thank": "{{GENDER:$2|Pinasalamatan}} ni $1 si {{GENDER:$4|$3}}",

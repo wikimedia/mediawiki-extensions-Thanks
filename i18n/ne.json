@@ -26,7 +26,6 @@
 	"notification-thanks-flyout2": "[[User:$1|$1]]ले तपाईंलाई $2मा तपाईंको सम्पादनको लागी {{GENDER:$1|धन्यवाद गरेको छ}}।",
 	"notification-thanks-email-subject": "$1ले तपाईंलाई {{SITENAME}}मा तपाईंको सम्पादनको लागी तपाईंलाई {{GENDER:$1|धन्यवाद गरेको छ}}।",
 	"notification-thanks-email-batch-body": "$1ले $2मा तपाईंको सम्पादनको लागी तपाईंलाई {{GENDER:$1|धन्यवाद गरेको छ}}।",
-	"notification-link-text-respond-to-user": "प्रयोगकर्तालाई उत्तर दिने",
 	"log-name-thanks": "धन्यवाद लग",
 	"log-description-thanks": "अन्य प्रयोगकर्ताहरूद्वारा धन्यवाद पाउने प्रयोगकर्ताहरूको सूची निम्न रहेको छ।",
 	"logentry-thanks-thank": "$1ले {{GENDER:$4|$3}}लाई {{GENDER:$2|धन्यवाद गरेको छ}}",

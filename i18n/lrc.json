@@ -16,7 +16,6 @@
 	"echo-category-title-edit-thank": "منمون",
 	"notification-thanks-diff-link": "ویرایشت شما",
 	"notification-thanks-email-subject": "$1 {{GENDER:$1|تشکر کرده}} د شما سی ویرایشتتو د {{نوم سیلجا}}",
-	"notification-link-text-respond-to-user": "جواو دئن د کاریار",
 	"log-name-thanks": "پهرستنومه منمون بیئنی یا",
 	"log-description-thanks": "د هار یه گل نوم که کاروریایی هئ که کاروریا هنی دشو تشکر کردنه",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|منموندار بیه}} {{GENDER:$4|$3}}",

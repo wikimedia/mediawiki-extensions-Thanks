@@ -25,7 +25,6 @@
 	"notification-thanks-flyout2": "მომხმარებელმა [[User:$1|$1]] {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი რედაქტირებისათვის გვერდზე $2.",
 	"notification-thanks-email-subject": "მომხმარებელმა $1 {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი რედაქტირებისათვის საიტზე {{SITENAME}}",
 	"notification-thanks-email-batch-body": "მომხმარებელმა $1 {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი რედაქტირებისათვის $2.",
-	"notification-link-text-respond-to-user": "უპასუხე მომხმარებელს",
 	"log-name-thanks": "„მადლობის“ ჟურნალი",
 	"log-description-thanks": "ქვემოთ მოცემულია მომხმარებელთა სია, რომელთაც სხვა მომხმარებლებმა გადაუხადეს მადლობა",
 	"log-show-hide-thanks": "$1 „მადლობის“ ჟურნალი"

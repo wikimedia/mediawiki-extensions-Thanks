@@ -23,7 +23,6 @@
 	"notification-thanks-flyout2": "[[User:$1|$1]] $2 sahifasidagi tahriringiz uchun sizga {{GENDER:$1|rahmat}} aytdi.",
 	"notification-thanks-email-subject": "$1 {{SITENAME}} tahriri uchun sizga {{GENDER:$1|rahmat}} aytdi",
 	"notification-thanks-email-batch-body": "$1 $2 sahifasidagi tahriringiz uchun sizga {{GENDER:$1|rahmat aytdi}}.",
-	"notification-link-text-respond-to-user": "Foydalanuvchiga javob qil",
 	"log-name-thanks": "Rahmatlar qaydi",
 	"log-description-thanks": "Quyida rahmat aytilgan foydalanuvchilar roʻyxati keltirilgan.",
 	"logentry-thanks-thank": "$1 {{GENDER:$4|$3}}ga {{GENDER:$2|rahmat aytdi}}",

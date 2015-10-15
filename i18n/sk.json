@@ -25,7 +25,6 @@
 	"notification-thanks-flyout2": "[[User:$1|$1]] vám {{GENDER:$1|poďakoval|poďakovala}} za úpravu stránky $2.",
 	"notification-thanks-email-subject": "$1 vám {{GENDER:$1|poďakoval|poďakovala}} za vašu úpravu na {{grammar:6sg|{{SITENAME}}}}",
 	"notification-thanks-email-batch-body": "$1 vám {{GENDER:$1|poďakoval|poďakovala}} za úpravu stránky $2.",
-	"notification-link-text-respond-to-user": "Reagovať na redaktora",
 	"log-name-thanks": "Záznam poďakovaní",
 	"log-description-thanks": "Nižšie je uvedený zoznam redaktorov, ktorým ostatný redaktori poďakovali.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|poďakoval|poďakovala}} {{GENDER:$4|redaktorovi|redaktorke}} $3",

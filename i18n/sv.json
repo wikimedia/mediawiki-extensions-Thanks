@@ -35,7 +35,6 @@
 	"notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1|tackade}} dig för din redigering på $2.",
 	"notification-thanks-email-subject": "$1 {{GENDER:$1|tackade}} dig för din redigering på {{SITENAME}}",
 	"notification-thanks-email-batch-body": "$1 {{GENDER:$1|tackade}} dig för din redigering på $2.",
-	"notification-link-text-respond-to-user": "Svara användare",
 	"log-name-thanks": "Tacklogg",
 	"log-description-thanks": "Nedan är en lista med användare som fått tack från andra användare.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|tackade}} {{GENDER:$4|$3}}",

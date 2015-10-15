@@ -29,7 +29,6 @@
 	"notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1|ve ringraziaje}} pe' ll'edit vuosto dint'a $2.",
 	"notification-thanks-email-subject": "$1 {{GENDER:$1|ve ringraziaje}} pe' ll'edit vuosto dint'a {{SITENAME}}",
 	"notification-thanks-email-batch-body": "$1 {{GENDER:$1|ve ringraziaje}} p' 'o cagnamiento vuosto dint'a $2.",
-	"notification-link-text-respond-to-user": "Rispunne a l'utente",
 	"log-name-thanks": "Riggistro ringraziamente",
 	"log-description-thanks": "Ccà abbascio ce sta n'elenco 'utente c'avessero ringraziato ati utente.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|ringraziaje}} {{GENDER:$4|$3}}",

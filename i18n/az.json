@@ -18,7 +18,6 @@
 	"thanks-thanked-notice": "$1 etdiyi dəyişikliyə görə sizin təşəkkürünüzü aldı.",
 	"thanks": "Təşəkkür et",
 	"thanks-form-revid": "Redaktələr üçün dəyişiklik identifikatoru",
-	"thanks-already-thanked": "{{GENDER:$1|Siz}} artıq bu redaktəyə görə istifadəçiyə təşəkkür etmisiz.",
 	"notification-thanks-diff-link": "redaktəniz",
 	"notification-thanks": "[[User:$1|$1]] [[:$3]] səhifəsindəki $2 üçün {{GENDER:$1|təşəkkür}} etdi.",
 	"notification-thanks-flyout2": "[[User:$1|$1]] \"$2\" səhifəsində etdiyiniz redaktəyə görə {{GENDER:$1|təşəkkür etdi}}.",

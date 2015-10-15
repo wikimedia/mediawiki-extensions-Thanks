@@ -14,6 +14,5 @@
 	"echo-category-title-edit-thank": "Dev borem korum",
 	"notification-thanks-diff-link": "Tujem bodlop",
 	"notification-thanks": "[[:$3]]-ak, $2 khatir, [[User:$1|$1]]-an tuka {{GENDER:$1|dinvaslam}}.",
-	"notification-link-text-respond-to-user": "Vangdiak zobab di",
 	"logentry-thanks-thank": "$1-an {{GENDER:$4|$3}}-ak {{GENDER:$2|dinvaslem}}"
 }

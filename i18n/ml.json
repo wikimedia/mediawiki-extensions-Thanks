@@ -28,7 +28,6 @@
 	"notification-thanks-flyout2": "$2 എന്ന താളിൽ താങ്കൾ ചെയ്ത തിരുത്തിന് [[User:$1|$1]] {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}",
 	"notification-thanks-email-subject": "{{SITENAME}} സംരംഭത്തിൽ താങ്കൾ ചെയ്ത തിരുത്തിന് $1 {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}",
 	"notification-thanks-email-batch-body": "$2 എന്ന താളിൽ താങ്കൾ ചെയ്ത തിരുത്തിന് $1 {{GENDER:$1|നന്ദി രേഖപ്പെടുത്തി}}",
-	"notification-link-text-respond-to-user": "ഉപയോക്താവിനെ ബന്ധപ്പെടുക",
 	"log-name-thanks": "കൃതജ്ഞതാരേഖ",
 	"log-description-thanks": "മറ്റ് ഉപയോക്താക്കളുടെ കൃതജ്ഞത ലഭിച്ച ഉപയോക്താക്കളുടെ പട്ടിക താഴെ കാണാം.",
 	"logentry-thanks-thank": "{{GENDER:$4|$3}} എന്ന ഉപയോക്താവിന് $1 {{GENDER:$2|നന്ദി രേഖപ്പെടുത്തി}}",
