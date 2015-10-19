@@ -8,7 +8,7 @@
 			"Otogi"
 		]
 	},
-	"thanks-thank": "მადლობა",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|მადლობა}}}}",
 	"thanks-thanked": "{{GENDER:$1|მადლობა გადახდილია}}",
 	"thanks-button-thank": "{{GENDER:$1|მადლობა}}",
 	"thanks-button-thanked": "{{GENDER:$1|მადლობა გადახდილია}}",
