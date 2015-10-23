@@ -11,7 +11,8 @@
 			"ZxxZxxZ",
 			"درفش کاویانی",
 			"Alirezaaa",
-			"Mjbmr"
+			"Mjbmr",
+			"Huji"
 		]
 	},
 	"thanks-desc": "پیوندی برای تشکر کاربران برای ویرایش‌ها، توضیحات و ... اضافه می‌کند.",
@@ -50,7 +51,7 @@
 	"flow-thanks-thanked-notice": "$1 تشکر شما را برای دیدگاه {{GENDER:$2|او|او|آنها}} دریافت کرد.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|سپاس}} از {{GENDER:$5|شما}} $2 در «$3» بر [[:$4]].",
 	"notification-flow-thanks-post-link": "نظر شما",
-	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|سپاس}} از {{GENDER:$4|شما}} برای نظرتان در «$2» بر $3.",
+	"notification-flow-thanks-flyout": "[[User:$1|$1]] از {{GENDER:$4|شما}} برای نظرتان در «$2» بر $3 {{GENDER:$1|تشکر کرد}}.",
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|سپاس}} از {{GENDER:$2|شما}} برای نظرتان در {{SITENAME}}",
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|سپاس}} از {{GENDER:$4|شما}} برای نظرتان در «$2» بر $3.",
 	"apihelp-thank-description": "فرستادن یک اعلان تشکر به یک ویراستار.",
