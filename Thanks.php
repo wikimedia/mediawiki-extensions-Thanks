@@ -129,6 +129,13 @@ $wgResourceModules['ext.thanks.mobilediff'] = array(
 	'localBasePath' => __DIR__ . '/modules',
 	'remoteExtPath' => 'Thanks/modules',
 );
+$wgResourceModules['ext.thanks.jquery.findWithParent'] = array(
+	'scripts' => array(
+		'jquery.findWithParent.js',
+	),
+	'localBasePath' => __DIR__ . '/modules',
+	'remoteExtPath' => 'Thanks/modules',
+);
 $wgResourceModules['ext.thanks.flowthank'] = array(
 	'scripts' => array(
 		'ext.thanks.flowthank.js',
@@ -141,6 +148,7 @@ $wgResourceModules['ext.thanks.flowthank'] = array(
 	'dependencies' => array(
 		'mediawiki.jqueryMsg',
 		'mediawiki.api',
+		'ext.thanks.jquery.findWithParent',
 		'ext.thanks',
 	),
 	'localBasePath' => __DIR__ . '/modules',
