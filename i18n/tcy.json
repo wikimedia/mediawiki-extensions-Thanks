@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"VASANTH S.N."
+			"VASANTH S.N.",
+			"రహ్మానుద్దీన్"
 		]
 	},
-	"thanks-thank": "ಧನ್ಯವಾದೊಲು"
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ಸೊಲ್ಮೆಲ್}}}}"
 }
