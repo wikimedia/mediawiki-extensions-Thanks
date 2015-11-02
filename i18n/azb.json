@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Amir a57",
-			"Koroğlu"
+			"Koroğlu",
+			"Mousa"
 		]
 	},
-	"thanks-thank": "تشکور",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|تشکور}}}}",
 	"thanks-thank-tooltip": "{{GENDER:$1|گوندرمک}} تشکور مئساژی بو {{GENDER:$2|ایشلدنه}}",
 	"echo-category-title-edit-thank": "تشکرلر"
 }

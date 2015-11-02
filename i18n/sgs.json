@@ -6,6 +6,5 @@
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|padiekavuotė}}}}",
 	"thanks-button-thank": "Padiekavuotė",
-	"thanks-thank-tooltip": "{{GENDER:$1|Nosiontė}} padiekavuojėma nauduotuojou",
-	"notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1|padiekavuojė}} Tamstā ož Tamstas pakeitėma poslapī $2."
+	"thanks-thank-tooltip": "{{GENDER:$1|Nosiontė}} padiekavuojėma nauduotuojou"
 }
