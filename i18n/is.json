@@ -6,5 +6,6 @@
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|þakka}}}}",
-	"thanks-thank-tooltip": "{{GENDER:$1|Senda}} þakkar skilaboð á þennan {{GENDER:$2|notanda}}"
+	"thanks-thank-tooltip": "{{GENDER:$1|Senda}} þakkar skilaboð á þennan {{GENDER:$2|notanda}}",
+	"notification-header-edit-thank": "$1 {{GENDER:$2|þakkaði}} {{GENDER:$4|þér}} fyrir breytingu þína á $3."
 }

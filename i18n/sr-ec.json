@@ -22,10 +22,12 @@
 	"thanks": "Захвали се",
 	"thanks-submit": "Захвали се",
 	"thanks-form-revid": "ID (број) измене",
+	"echo-pref-subscription-edit-thank": "Захваљивање за измене",
 	"echo-pref-tooltip-edit-thank": "Обавештава вас када вам се неко захвали за измену коју сте начинили.",
 	"echo-category-title-edit-thank": "Захвалнице",
 	"notification-thanks-diff-link": "вашој измени",
 	"notification-thanks": "[[User:$1|$1]] вам се {{GENDER:$1|захваљује}} на $2 странице [[:$3]].",
+	"notification-header-edit-thank": "$1 вам се {{GENDER:$2|захваљује}} на {{GENDER:$4|вашој}} измени странице $3.",
 	"notification-thanks-email-subject": "$1 вам се {{GENDER:$1|захваљује}} за вашу измену на {{SITENAME}}",
 	"notification-thanks-email-batch-body": "$1 вам се {{GENDER:$1|захваљује}} за вашу измену на страници $2.",
 	"log-name-thanks": "Дневник захваљивања",
@@ -39,6 +41,7 @@
 	"flow-thanks-thanked-notice": "$1 је {{GENDER:$2|обавештен да вам се свиђа његов|обавештена да вам се свиђа њен}} коментар.",
 	"notification-flow-thanks": "[[User:$1|$1]] вам {{GENDER:$5|се}} {{GENDER:$1|захваљује}} на $2 у теми „$3“ на страници [[:$4]].",
 	"notification-flow-thanks-post-link": "вашем коментару",
+	"notification-header-flow-thank": "$1 вам се {{GENDER:$2|захваљује}} {{GENDER:$5|на}} вашем коментару у „$3“ на $4.",
 	"notification-flow-thanks-email-subject": "$1 вам се {{GENDER:$1|захваљује}} {{GENDER:$2|на}} вашем коментару на сајту {{SITENAME}}",
 	"notification-flow-thanks-email-batch-body": "$1 вам се {{GENDER:$1|захваљује}} {{GENDER:$4|на}} вашем коментару у теми „$2“ на страници $3."
 }

@@ -6,7 +6,8 @@
 			"Base",
 			"Ата",
 			"Olion",
-			"AS"
+			"AS",
+			"NickK"
 		]
 	},
 	"thanks-desc": "Додає посилання для дякування користувачам за редагування, коментарі тощо.",
@@ -30,6 +31,7 @@
 	"echo-category-title-edit-thank": "вдячність",
 	"notification-thanks-diff-link": "Ваше редагування",
 	"notification-thanks": "[[User:$1|$1]] {{GENDER:$1|подякував|подякувала}} Вам за $2 на [[:$3]].",
+	"notification-header-edit-thank": "$1 {{GENDER:$2|подякував|подякувала}} {{GENDER:$4|вам}} за редагування на сторінці $3.",
 	"notification-thanks-email-subject": "$1 {{GENDER:$1|подякував|подякувала}} Вам за Ваше редагування на {{SITENAME}}",
 	"notification-thanks-email-batch-body": "$1 {{GENDER:$1|подякував|подякувала}} Вам за Ваше редагування на $2.",
 	"log-name-thanks": "Журнал вдячностей",
