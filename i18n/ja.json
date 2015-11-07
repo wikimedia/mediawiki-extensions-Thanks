@@ -6,7 +6,8 @@
 			"Shirayuki",
 			"2nd-player",
 			"Sujiniku",
-			"Otokoume"
+			"Otokoume",
+			"Marine-Blue"
 		]
 	},
 	"thanks-desc": "利用者の編集やコメントなどに感謝を示すリンクを追加する",
@@ -18,6 +19,8 @@
 	"thanks-error-invalidrevision": "版 ID が無効です。",
 	"thanks-error-ratelimited": "{{GENDER:$1|}}速度制限を超えました。しばらくしてからもう一度やり直してください。",
 	"thanks-thank-tooltip": "この{{GENDER:$2|利用者}}に感謝の通知を{{GENDER:$1|送信する}}",
+	"thanks-thank-tooltip-no": "感謝の通知の送信を{{GENDER:$1|キャンセル}}しました。",
+	"thanks-thank-tooltip-yes": "感謝の通知を{{GENDER:$1|送信}}しました。",
 	"thanks-confirmation2": "この編集に感謝を公に{{GENDER:$1|示しますか}}?",
 	"thanks-thanked-notice": "あなたが $1 の編集に感謝を示したことを {{GENDER:$2|本人}} に通知しました。",
 	"thanks": "感謝を示す",
@@ -28,7 +31,7 @@
 	"echo-category-title-edit-thank": "感謝",
 	"notification-thanks-diff-link": "あなたの編集",
 	"notification-thanks": "[[User:$1|$1]] が [[:$3]] での$2に{{GENDER:$1|感謝を示しました}}",
-	"notification-thanks-flyout2": "[[User:$1|$1]] が $2 でのあなたの編集に{{GENDER:$1|感謝を示しました}}。",
+	"notification-header-edit-thank": "$1が$3での{{GENDER:$4|あなた}}の編集に{{GENDER:$2|感謝}}を示しました。",
 	"notification-thanks-email-subject": "$1 が{{SITENAME}}でのあなたの編集に{{GENDER:$1|感謝を示しました}}",
 	"notification-thanks-email-batch-body": "$1 が $2 でのあなたの編集に{{GENDER:$1|感謝を示しました}}",
 	"log-name-thanks": "感謝記録",
@@ -43,7 +46,8 @@
 	"flow-thanks-thanked-notice": "あなたが $1 のコメントに感謝を示したことを{{GENDER:$2|本人|本人|本人}}に通知しました。",
 	"notification-flow-thanks": "[[User:$1|$1]] が [[:$4]] の「$3」での{{GENDER:$5|あなた}}の$2に{{GENDER:$1|感謝を示しました}}。",
 	"notification-flow-thanks-post-link": "あなたのコメント",
-	"notification-flow-thanks-flyout": "[[User:$1|$1]] が $3 の「$2」での{{GENDER:$4|あなた}}のコメントに{{GENDER:$1|感謝を示しました}}。",
+	"notification-header-flow-thank": "$1が「$3」での{{GENDER:$5|あなた}}のコメント$4に{{GENDER:$2|感謝}}を示しました。",
 	"notification-flow-thanks-email-subject": "$1 が{{SITENAME}}での{{GENDER:$2|あなた}}のコメントに{{GENDER:$1|感謝を示しました}}",
-	"notification-flow-thanks-email-batch-body": "$1 が $3 の「$2」での{{GENDER:$4|あなた}}のコメントに{{GENDER:$1|感謝を示しました}}。"
+	"notification-flow-thanks-email-batch-body": "$1 が $3 の「$2」での{{GENDER:$4|あなた}}のコメントに{{GENDER:$1|感謝を示しました}}。",
+	"apihelp-flowthank-description": "以下のコメントに対して感謝の通知（記録は公開されます）を送信する。"
 }
