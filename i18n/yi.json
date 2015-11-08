@@ -24,7 +24,7 @@
 	"echo-category-title-edit-thank": "אַ דאַנק",
 	"notification-thanks-diff-link": "אײַער רעדאקטירונג",
 	"notification-thanks": "[[User:$1|$1]] {{GENDER:$1|האט געדאנקט}} דיך פֿאר $2 אויף [[:$3]].",
-	"notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1|האט געדאנקט}} אײַך פֿאר אײַער רעדאקטירונג אויף $2.",
+	"notification-header-edit-thank": "$1 {{GENDER:$2|האט}} {{GENDER:$4|אייך}} געדאַנקט פֿאר אייער רעדאקטירונג אויף $3.",
 	"notification-thanks-email-subject": "$1 {{GENDER:$1|האט אײַך געדאנקט}} פאר אײַער רעדאקטירונג אויף {{SITENAME}}",
 	"notification-thanks-email-batch-body": "$1 {{GENDER:$1|האט אײַך געדאנקט}} פאר אייר רעדאקטירונג אויף $2",
 	"log-name-thanks": "דאנק־לאגבוך",
@@ -33,8 +33,11 @@
 	"log-show-hide-thanks": "$1 דאנק־לאגבוך",
 	"thanks-confirmation-special": "ווילט איר שיקן עפנטלעך א דאַנק פאר דער רעדאַקטירונג?",
 	"notification-link-text-view-post": "ווייזן הערה",
+	"flow-thanks-confirmation-special": "צי ווילט איר שיקן עפנטלעך א דאַנק פאר דער הערה?",
 	"flow-thanks-thanked-notice": "$1 האט באקומען אייער דאנק פאר {{GENDER:$2|זיין|איר|זייער}} הערה.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|האט געדאַנקט}} {{GENDER:$5|אייך}} פאר $2 אין \"$3\" אויף [[:$4]].",
 	"notification-flow-thanks-post-link": "אייער הערה",
-	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|האט געדאַנקט}} {{GENDER:$4|אייך}} פאר אייער הערה אין \"$2\" אויף $3."
+	"notification-header-flow-thank": "$1 {{GENDER:$2|האט}} {{GENDER:$5|אייך}} געדאַנקט פֿאר אייער הערה אין \"$3\" אויף $4.",
+	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|האט}} {{GENDER:$2|אייך}} געדאַנקט פֿאר אייער הערה אויף {{SITENAME}}",
+	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|האט}} {{GENDER:$4|אייך}} געדאַנקט פֿאר אייער הערה אין \"$2\" אויף $3."
 }
