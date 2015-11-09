@@ -6,7 +6,8 @@
 			"زكريا",
 			"مشعل الحربي",
 			"Abanima",
-			"Meno25"
+			"Meno25",
+			"محمد أحمد عبد الفتاح"
 		]
 	},
 	"thanks-desc": "تضيف روابط للشكر على صفحات التاريخ والفرق",
@@ -21,6 +22,7 @@
 	"thanks-confirmation2": "أتود{{GENDER:$1||ين}} الشكر لهذا التعديل؟",
 	"thanks-thanked-notice": "{{GENDER:$2|تلقى|تلقت}} $1 شكرك على التعديل الذي {{GENDER:$2|قام|قامت}} به.",
 	"thanks": "إرسال شكر",
+	"thanks-submit": "أرسل الشكر",
 	"thanks-form-revid": "رقم التعديل",
 	"echo-pref-subscription-edit-thank": "شكري على تعديلي",
 	"echo-pref-tooltip-edit-thank": "أشعرني عندما يشكرني أحد ما على تعديل قمت به.",

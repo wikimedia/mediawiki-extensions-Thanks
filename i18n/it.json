@@ -50,11 +50,11 @@
 	"notification-header-flow-thank": "$1 {{GENDER:$5|ti}} {{GENDER:$2|ha ringraziato}} per il tuo commento in \"$3\" su $4.",
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$2|ti}} {{GENDER:$1|ha ringraziato}} per il tuo commento su {{SITENAME}}",
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$4|ti}} {{GENDER:$1|ha ringraziato}} per il tuo commento in \"$2\" su $3.",
-	"apihelp-flowthank-description": "Invia una notifica di ringraziamento pubblico per un commento Flow.",
-	"apihelp-flowthank-param-postid": "L'UUID del post da ringraziare.",
+	"apihelp-flowthank-description": "Invia una notifica pubblica di ringraziamento per un commento Flow.",
+	"apihelp-flowthank-param-postid": "L'UUID del messaggio per cui ringraziare.",
 	"apihelp-flowthank-example-1": "Ringrazia per il commento con UUID xyz789",
-	"apihelp-thank-description": "Invia una notifica di ringraziamento a un editor.",
-	"apihelp-thank-param-rev": "ID della revisione per cui ringraziare qualcuno.",
-	"apihelp-thank-param-source": "Una breve stringa che descrive l'origine della richiesta, per esempio, \"diff\" o \"storia\".",
-	"apihelp-thank-example-1": "Invia un ringraziamento per la revisione ID 456, con la sorgente di una pagina confronto"
+	"apihelp-thank-description": "Invia una notifica di ringraziamento a un contributore.",
+	"apihelp-thank-param-rev": "ID della versione per cui ringraziare qualcuno.",
+	"apihelp-thank-param-source": "Una breve stringa che descrive l'origine della richiesta, per esempio, \"diff\" o \"cronologia\".",
+	"apihelp-thank-example-1": "Invia un ringraziamento per la versione ID 456, con la sorgente di una pagina confronto"
 }

@@ -6,7 +6,8 @@
 			"Trần Nguyễn Minh Huy",
 			"Max20091",
 			"Dinhxuanduyet",
-			"KhangND"
+			"KhangND",
+			"Nguyên Lê"
 		]
 	},
 	"thanks-desc": "Thêm các liên kết để cảm ơn người dùng vì sửa đổi, bình luận, v.v.",
@@ -30,7 +31,7 @@
 	"echo-category-title-edit-thank": "Cảm ơn",
 	"notification-thanks-diff-link": "sửa đổi của bạn",
 	"notification-thanks": "[[User:$1|$1]] {{GENDER:$1}}cảm ơn bạn vì $2 tại [[:$3]].",
-	"notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1}}cảm ơn bạn vì sửa đổi của bạn tại $2.",
+	"notification-header-edit-thank": "$1 đã cảm ơn bạn vì sửa đổi tại $3.",
 	"notification-thanks-email-subject": "$1 {{GENDER:$1}}cảm ơn bạn vì sửa đổi của bạn tại {{SITENAME}}",
 	"notification-thanks-email-batch-body": "$1 {{GENDER:$1}}cảm ơn bạn vì sửa đổi của bạn tại $2.",
 	"log-name-thanks": "Nhật trình cảm ơn",
@@ -45,7 +46,7 @@
 	"flow-thanks-thanked-notice": "$1 đã nhận lời cảm ơn của bạn vì lời bình luận của {{GENDER:$2}}họ.",
 	"notification-flow-thanks": "[[User:$1|$1]] cảm ơn {{GENDER:$5}}bạn $2 về “$3” tại [[:$4]].",
 	"notification-flow-thanks-post-link": "đã bình luận",
-	"notification-flow-thanks-flyout": "[[User:$1|$1]] cảm ơn {{GENDER:$4}}bạn đã bình luận về “$2” tại $3.",
+	"notification-header-flow-thank": "$1 đã cảm ơn bạn vì bình luận ở \"$3\" tại $4.",
 	"notification-flow-thanks-email-subject": "$1 cảm ơn {{GENDER:$2}}bạn đã bình luận trên {{SITENAME}}",
 	"notification-flow-thanks-email-batch-body": "$1 cảm ơn {{GENDER:$4}}bạn đã bình luận về “$2” tại $3.",
 	"apihelp-thank-param-rev": "Số thay đổi để cảm ơn ai đó."
