@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sindhu"
+			"Sindhu",
+			"Mehtab ahmed"
 		]
 	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|مهرباني}}}}",
+	"thanks-thank-tooltip": "{{GENDER:$1|موڪليو}} هن ڏانهن توهان جي مهرباني جو اطلاع {{GENDER:$2|يوزر}}",
 	"thanks-submit": "مهربانيون موڪليو"
 }
