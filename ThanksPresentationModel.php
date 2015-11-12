@@ -23,7 +23,7 @@ class EchoThanksPresentationModel extends EchoEventPresentationModel {
 				'oldid' => 'prev',
 				'diff' => $this->event->getExtraParam( 'revid' )
 			) ),
-			$this->msg( 'notification-link-text-view-edit' )
+			$this->msg( 'notification-link-text-view-edit' )->text()
 		);
 	}
 
