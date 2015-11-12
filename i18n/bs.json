@@ -15,6 +15,8 @@
 	"thanks-error-invalidrevision": "Revizioni ID nije validan.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Prekoračili ste}} Vaše ograničenje za ocjenjivanje. Sačekajte neko vrijeme i zatim pokušajte ponovo.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Pošalji}} zahvalnicu {{GENDER:$2|ovom korisniku|оvoj korisnici}}",
+	"thanks-thank-tooltip-no": "{{GENDER:$1|Odustani}} i ne šalji zahvalnicu",
+	"thanks-thank-tooltip-yes": "{{GENDER:$1|Pošalji}} zahvalnicu",
 	"thanks-confirmation2": "Želite li se {{GENDER:$1|zahvaliti}} za ovu izmjenu?",
 	"thanks": "Zahvali se",
 	"echo-pref-subscription-edit-thank": "Neko mi se zahvali za moju izmjenu",
