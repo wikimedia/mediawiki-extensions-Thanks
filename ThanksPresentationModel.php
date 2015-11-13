@@ -12,8 +12,7 @@ class EchoThanksPresentationModel extends EchoEventPresentationModel {
 		$msg = parent::getHeaderMessage();
 		$msg->params( $this->event->getTitle()->getPrefixedText() );
 
-		$user = User::newFromId( $this->event->getExtraParam( 'thanked-user-id' ) );
-		$msg->params( $user ? $user->getName() : '[]' );
+		$msg->params( $this->getViewingUserForGender() );
 		return $msg;
 	}
 
