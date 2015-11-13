@@ -31,7 +31,7 @@ class EchoFlowThanksPresentationModel extends EchoEventPresentationModel {
 			$title->getFullURL( array(
 				'workflow' => $this->event->getExtraParam( 'workflow' )
 			) ),
-			$this->msg( 'notification-link-text-view-post' )
+			$this->msg( 'notification-link-text-view-post' )->text()
 		);
 	}
 
