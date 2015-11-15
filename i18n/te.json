@@ -10,7 +10,7 @@
 		]
 	},
 	"thanks-desc": "చరిత్ర మరియు తేడా వీక్షణాలకు వాడుకరులకు ధన్యవాదములు తెలుపు లంకెలను జత చేస్తుంది",
-	"thanks-thank": "కృతజ్ఞత తెలుపు",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ధన్యవాదాలు}}}}",
 	"thanks-thanked": "{{GENDER:$1|అభినందించారు}}",
 	"thanks-error-undefined": "కృతజ్ఞతల చర్య విఫలమైంది. దయచేసి మళ్ళీ ప్రయత్నించండి.",
 	"thanks-error-invalidrevision": "కూర్పుల ID చెల్లదు",
@@ -21,7 +21,6 @@
 	"echo-category-title-edit-thank": "ధన్యవాదాలు",
 	"notification-thanks-diff-link": "మీ మార్పు",
 	"notification-thanks": "[[వాడుకరి:$1|$1]] ఇక్కడ [[:$3]] మీరు $2 కు {{GENDER:$1|ధన్యవాదాలు పంపారు}}.",
-	"notification-thanks-flyout2": "$2 పై మీరు చేసిన మార్పు కై మీకు [[User:$1|$1]]  {{GENDER:$1|ధన్యవాదాలు పంపారు}}.",
 	"notification-thanks-email-subject": "{{SITENAME}} పై మీరు చేసిన మార్పుకు  $1  {{GENDER:$1|ధన్యవాదాలు పంపారు}}",
 	"notification-thanks-email-batch-body": "$2 పై మీ మార్పుకు $1 మీకు {{GENDER:$1|ధన్యవాదాలు పంపారు}}.",
 	"log-name-thanks": "ధన్యవాదాల చిట్టా",
