@@ -23,7 +23,7 @@ class EchoFlowThanksPresentationModel extends EchoEventPresentationModel {
 		$title = Title::makeTitle(
 			$title->getNamespace(),
 			$title->getDBKey(),
-			'flow-post' . $this->event->getExtraParam( 'post-id' )
+			'flow-post-' . $this->event->getExtraParam( 'post-id' )
 		);
 
 		return array(
