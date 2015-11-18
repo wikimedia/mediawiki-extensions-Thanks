@@ -7,7 +7,9 @@
 			"Meelo",
 			"Sayginer",
 			"McAang",
-			"Diyapazon"
+			"Diyapazon",
+			"Cobija",
+			"HakanIST"
 		]
 	},
 	"thanks-desc": "Tarih ve fark görünümüne teşekkür bağlantısı ekler",
@@ -17,7 +19,7 @@
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Teşekkür edildi}}}}",
 	"thanks-error-undefined": "Teşekkür iletilemedi. Lütfen tekrar deneyin.",
 	"thanks-error-invalidrevision": "Revizyon numarası geçerli değil.",
-	"thanks-error-ratelimited": "Gönderme limitini aştınız. Lütfen bekleyin ve tekrar deneyin.",
+	"thanks-error-ratelimited": "{{GENDER:$1|Siz}} gönderme limitini aştınız. Lütfen bekleyin ve tekrar deneyin.",
 	"thanks-thank-tooltip": "Bu {{GENDER:$2|kullanıcıya}} {{GENDER:$1|teşekkürlerini}} ilet",
 	"thanks-thank-tooltip-no": "Teşekkür bildiriminiz iptal {{GENDER:$1|edildi}}",
 	"thanks-thank-tooltip-yes": "Teşekkür bildiriminiz {{GENDER:$1|gönderildi}}",
@@ -25,6 +27,7 @@
 	"thanks-thanked-notice": "$1 kullanıcısına {{GENDER:$2|onu|onu|onları}} beğendiğiniz iletildi.",
 	"thanks": "Teşekkür et",
 	"thanks-submit": "Teşekkür gönder",
+	"thanks-form-revid": "Düzenlenecek sürüm ID",
 	"echo-pref-subscription-edit-thank": "Katkım için bana teşekkür edildi",
 	"echo-pref-tooltip-edit-thank": "Yaptığım katkılar için yapılan teşekkürleri bana bildir.",
 	"echo-category-title-edit-thank": "Teşekkürler",
@@ -35,7 +38,11 @@
 	"notification-thanks-email-batch-body": "$1, $2 sayfasındaki değişikliğiniz için size {{GENDER:$1|teşekkür etti}}.",
 	"log-name-thanks": "Teşekkür kayıtları",
 	"log-description-thanks": "Diğer teşekkür eden kullanıcılar aşağıda listelenmektedir.",
-	"logentry-thanks-thank": "$1 {{GENDER:$2}}<nowiki>,</nowiki> {{GENDER:$4|$3}} kullanıcısına teşekkür etti.",
+	"logentry-thanks-thank": "$1 {{GENDER:$2}}, {{GENDER:$4|$3}} kullanıcısına teşekkür etti.",
 	"log-show-hide-thanks": "$1 teşekkür kayıtları",
-	"thanks-confirmation-special": "Bu değişiklik için teşekkür etmek istiyor musunuz?"
+	"thanks-error-no-id-specified": "Teşekkür edebilmek için bir sürüm numarası belirtmeniz gerekmektedir.",
+	"thanks-confirmation-special": "Bu değişiklik için teşekkür etmek istiyor musunuz?",
+	"notification-link-text-view-post": "Yorum görüntüle",
+	"thanks-error-invalidpostid": "Konu ID geçerli değil.",
+	"flow-thanks-confirmation-special": "Bu yorum için herkese açık olarak teşekkür göndermek istiyor musunuz?"
 }
