@@ -6,7 +6,7 @@
 			"Sator"
 		]
 	},
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|Eskertu}}}}",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|eskertu}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|eskertuta}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Eskertu}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Eskertuta}}}}",
@@ -18,7 +18,6 @@
 	"thanks-submit": "Bidali eskerrak",
 	"notification-thanks-diff-link": "edizioa",
 	"notification-thanks": "[[User:$1|$1]] {{GENDER:$1|wikilariak}} «[[:$3]]» orrian egin duzun $2 eskertu dizu.",
-	"notification-thanks-flyout2": "[[User:$1|$1]] wikilariak «$2» orrian egin duzun edizioa eskertu dizu.",
 	"notification-thanks-email-subject": "{{SITENAME}} gunean egin duzun edizioa eskertu dizu $1 {{GENDER:$1|wikilariak}}",
 	"notification-thanks-email-batch-body": "«$2» orrian egin duzun edizioa eskertu dizu $1 {{GENDER:$1|wikilariak}}.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|wikilariak}} eskerrak eman dizkio {{GENDER:$4|$3}} wikilariari",
