@@ -101,7 +101,7 @@ class SpecialThanks extends FormSpecialPage {
 	 * @return string
 	 */
 	protected function getDisplayFormat() {
-		return 'vform';
+		return 'ooui';
 	}
 
 	/**
