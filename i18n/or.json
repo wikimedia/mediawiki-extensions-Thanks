@@ -5,10 +5,10 @@
 			"Psubhashish"
 		]
 	},
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ଧନ୍ୟବାଦ ଦେବେ}}}}",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ସାଧୁବାଦ ଦେବେ}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|ସାଧୁବାଦ ଦେଲେ}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|ସାଧୁବାଦ ଦେଲେ}}}}",
-	"thanks-thank-tooltip": "{{GENDER:$2|user}}ଙ୍କୁ ଏକ ଧନ୍ୟବାଦ ସୂଚନା {{GENDER:$1|ପଠାନ୍ତୁ}}",
+	"thanks-thank-tooltip": "{{GENDER:$2|user}}ଙ୍କୁ ଏକ ସାଧୁବାଦ ସୂଚନା {{GENDER:$1|ପଠାନ୍ତୁ}}",
 	"thanks-confirmation2": "ଏହି ସମ୍ପାଦନା ପାଇଁ ସାଧାରଣରେ {{GENDER:$1|ସାଧୁବାଦ ଜଣାଇବେ}}?",
 	"thanks": "ସାଧୁବାଦ ଜଣାନ୍ତୁ",
 	"thanks-submit": "ସାଧୁବାଦ ଜଣାନ୍ତୁ",

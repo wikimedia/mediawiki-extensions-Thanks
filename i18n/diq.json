@@ -7,15 +7,15 @@
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|teşekur bıke}}}}",
-	"thanks-thanked": "{{GENDER:$1|teşekur ke}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|teşekur kerd}}}}",
 	"thanks-button-thank": "{{GENDER:$1|Teşekur kena}}",
-	"thanks-button-thanked": "{{GENDER:$1|teşekur ke}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Teşekur kerd}}}}",
 	"thanks-thank-tooltip": "{{GENDER:$2|Karberi}} ré teşekur {{GENDER:$1|bırışé}}",
 	"thanks": "Teşekur bırışe",
 	"echo-category-title-edit-thank": "Teşekuri",
 	"notification-thanks-diff-link": "vırnayışa to",
 	"log-name-thanks": "Qeydé tşekuran",
-	"logentry-thanks-thank": "$1'i  {{GENDER:$4|$3}}'ré {{GENDER:$2|teşekur ke}}",
+	"logentry-thanks-thank": "$1  {{GENDER:$4|$3}} rê {{GENDER:$2|teşekur kerd}}",
 	"log-show-hide-thanks": "Qeydé teşekuré $1",
 	"notification-link-text-view-post": "Tefsiri bıvêne"
 }
