@@ -88,12 +88,11 @@
 			gender = $user.data( 'user-gender' ),
 			$thankBtn;
 
-		if ( !$user.hasClass( 'mw-mf-anon' ) ) {
-			$thankBtn = createThankLink( username, rev, gender );
-			if ( $thankBtn ) {
-				$thankBtn.prependTo( $container );
-			}
+		$thankBtn = createThankLink( username, rev, gender );
+		if ( $thankBtn ) {
+			$thankBtn.prependTo( $container );
 		}
+
 	}
 
 	$( function () {

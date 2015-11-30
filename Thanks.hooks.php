@@ -41,28 +41,45 @@ class ThanksHooks {
 	 * @return bool
 	 */
 	public static function insertThankLink( $rev, &$links, $oldRev = null ) {
-		global $wgUser, $wgThanksSendToBots;
+		global $wgUser;
+
+		$recipientId = $rev->getUser();
+		$recipient = User::newFromId( $recipientId );
 		// Make sure Echo is turned on.
-		// Exclude anonymous users.
 		// Don't let users thank themselves.
+		// Exclude anonymous users.
 		// Exclude users who are blocked.
+		// Check whether bots are allowed to receive thanks.
 		if ( class_exists( 'EchoNotifier' )
 			&& !$wgUser->isAnon()
-			&& $rev->getUser() !== $wgUser->getId()
+			&& $recipientId !== $wgUser->getId()
 			&& !$wgUser->isBlocked()
+			&& self::canReceiveThanks( $recipient )
 			&& !$rev->isDeleted( Revision::DELETED_TEXT )
 			&& ( !$oldRev || $rev->getParentId() == $oldRev->getId() )
 		) {
-			$recipient = User::newFromId( $rev->getUser() );
-			$recipientAllowed = true;
-			// If bots are not allowed, exclude them as recipients
-			if ( !$wgThanksSendToBots ) {
-				$recipientAllowed = !in_array( 'bot', $recipient->getGroups() );
-			}
-			if ( $recipientAllowed && !$recipient->isAnon() ) {
-				$links[] = self::generateThankElement( $rev, $recipient );
-			}
+			$links[] = self::generateThankElement( $rev, $recipient );
 		}
+		return true;
+	}
+
+	/**
+	 * Check whether a user is allowed to receive thanks or not
+	 *
+	 * @param User $user Recipient
+	 * @return bool true if allowed, false if not
+	 */
+	protected static function canReceiveThanks( User $user ) {
+		global $wgThanksSendToBots;
+
+		if ( $user->isAnon() ) {
+			return false;
+		}
+
+		if ( !$wgThanksSendToBots && in_array( 'bot', $user->getGroups() ) ) {
+			return false;
+		}
+
 		return true;
 	}
 
@@ -239,20 +256,23 @@ class ThanksHooks {
 	 * @return bool true in all cases
 	 */
 	public static function onBeforeSpecialMobileDiffDisplay( &$output, $ctx, $revisions ) {
+		$rev = $revisions[1];
+
 		// If the Echo and MobileFrontend extensions are installed and the user is
-		// logged in, show a 'Thank' link.
-		if ( class_exists( 'EchoNotifier' )
+		// logged in or recipient is not a bot if bots cannot receive thanks, show a 'Thank' link.
+		if ( $rev
+			&& class_exists( 'EchoNotifier' )
 			&& class_exists( 'SpecialMobileDiff' )
+			&& self::canReceiveThanks( User::newFromId( $rev->getUser() ) )
 			&& $output->getUser()->isLoggedIn()
 		) {
 			$output->addModules( array( 'ext.thanks.mobilediff' ) );
-			$rev = $revisions[1];
-			if ( $rev ) {
-				if ( $output->getRequest()->getSessionData( 'thanks-thanked-' . $rev->getId() ) ) {
-					// User already sent thanks for this revision
-					$output->addJsConfigVars( 'wgThanksAlreadySent', true );
-				}
+
+			if ( $output->getRequest()->getSessionData( 'thanks-thanked-' . $rev->getId() ) ) {
+				// User already sent thanks for this revision
+				$output->addJsConfigVars( 'wgThanksAlreadySent', true );
 			}
+
 		}
 		return true;
 	}
