@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Michawiki",
-			"Mikławš"
+			"Mikławš",
+			"J budissin"
 		]
 	},
 	"thanks-desc": "Přidawa dźakne wotkazy historiji a wersijowym rozdźělam",
@@ -20,11 +21,10 @@
 	"echo-pref-subscription-edit-thank": "Dźakuje so mi za moju změnu",
 	"echo-pref-tooltip-edit-thank": "Informuj mje, hdyž něchtó dźakuje so mje za změnu, kotruž sym činił.",
 	"echo-category-title-edit-thank": "Wulki dźak",
-	"notification-thanks-diff-link": "twoja změna",
-	"notification-thanks": "[[User:$1|$1]] je so ći za $2 na [[:$3]] {{GENDER:$1|dźakował|dźakowała}}.",
-	"notification-thanks-flyout2": "[[User:$1|$1]] je so ći za změnu na $2 {{GENDER:$1|dźakował|dźakowała}}.",
-	"notification-thanks-email-subject": "$1 je so ći za twoju změnu na {{GRAMMAR:lokatiw|{{SITENAME}}}} {{GENDER:$1|dźakował|dźakowała}}",
-	"notification-thanks-email-batch-body": "$1 je so ći za twoju změnu na $2 {{GENDER:$1|dźakował|dźakowała}}.",
+	"notification-thanks-diff-link": "twoju změnu",
+	"notification-thanks": "[[User:$1|$1]] je so za $2 na [[:$3]] {{GENDER:$1|podźakował|podźakowała}}.",
+	"notification-thanks-email-subject": "$1 je so za twoju změnu na {{GRAMMAR:lokatiw|{{SITENAME}}}} {{GENDER:$1|podźakował|podźakowała}}",
+	"notification-thanks-email-batch-body": "$1 je so za twoju změnu na $2 {{GENDER:$1|podźakował|podźakowała}}.",
 	"log-name-thanks": "Dźakny protokol",
 	"log-description-thanks": "Deleka je lisćina wužiwarjow, kotrymž su so druzy wužiwarjo dźakowali.",
 	"logentry-thanks-thank": "$1 je {{GENDER:$4|$3}} {{GENDER:$2|dźakował|dźakowała}}",
