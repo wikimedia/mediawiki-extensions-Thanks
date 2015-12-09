@@ -10,6 +10,7 @@
  */
 
 use Flow\Container;
+use Flow\Conversion\Utils;
 use Flow\Data\RootPostLoader;
 use Flow\Exception\FlowException;
 use Flow\Model\PostRevision;
@@ -42,7 +43,7 @@ class ApiFlowThank extends ApiThank {
 
 		$rootPost = $data['root'];
 		$workflowId = $rootPost->getPostId();
-		$rawTopicTitleText = Container::get( 'templating' )->getContent( $rootPost, 'wikitext' );
+		$rawTopicTitleText = Utils::htmlToPlaintext( Container::get( 'templating' )->getContent( $rootPost, 'topic-title-html' ) );
 		// Truncate the title text to prevent issues with database storage.
 		$topicTitleText = $this->getLanguage()->truncate( $rawTopicTitleText, 200 );
 		$pageTitle = $this->getPageTitleFromRootPost( $rootPost );
