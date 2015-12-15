@@ -34,18 +34,19 @@ class EchoFlowThanksPresentationModel extends EchoEventPresentationModel {
 		);
 	}
 
-	// TODO add thanking user as secondary link once we can make that look nice (T115421)
-	/*
 	public function getSecondaryLinks() {
 		$agent = $this->event->getAgent();
 		if ( !$agent || !$this->userCan( Revision::DELETED_USER ) ) {
 			return array();
 		}
 
-		$url = $agent->getUserPage()->getLocalURL();
 		return array(
-			$url => $agent->getName()
+			array(
+				'url' => $agent->getUserPage()->getLocalURL(),
+				'label' => $agent->getName(),
+				'icon' => 'userAvatar',
+				'prioritized' => true,
+			)
 		);
 	}
-	*/
 }
