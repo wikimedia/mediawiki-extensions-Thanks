@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Lloffiwr",
-			"Robin Owain"
+			"Robin Owain",
+			"Diafol"
 		]
 	},
 	"thanks-desc": "Ychwanegu cysylltau er mwyn diolch i'r golygon",
-	"thanks-thank": "diolch",
+	"thanks-thank": "$1 yn diolch $2",
 	"thanks-thanked": "{{GENDER:$1|diolchwyd}}",
 	"thanks-button-thank": "{{GENDER:$1|Diolcher}}",
 	"thanks-button-thanked": "{{GENDER:$1|Diolchwyd}}",
