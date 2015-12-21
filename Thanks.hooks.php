@@ -40,9 +40,7 @@ class ThanksHooks {
 	 * @param $oldRev Revision object of the "old" revision when viewing a diff
 	 * @return bool
 	 */
-	public static function insertThankLink( $rev, &$links, $oldRev = null ) {
-		global $wgUser;
-
+	public static function insertThankLink( $rev, &$links, $oldRev = null, User $user ) {
 		$recipientId = $rev->getUser();
 		$recipient = User::newFromId( $recipientId );
 		// Make sure Echo is turned on.
@@ -51,9 +49,9 @@ class ThanksHooks {
 		// Exclude users who are blocked.
 		// Check whether bots are allowed to receive thanks.
 		if ( class_exists( 'EchoNotifier' )
-			&& !$wgUser->isAnon()
-			&& $recipientId !== $wgUser->getId()
-			&& !$wgUser->isBlocked()
+			&& !$user->isAnon()
+			&& $recipientId !== $user->getId()
+			&& !$user->isBlocked()
 			&& self::canReceiveThanks( $recipient )
 			&& !$rev->isDeleted( Revision::DELETED_TEXT )
 			&& ( !$oldRev || $rev->getParentId() == $oldRev->getId() )
