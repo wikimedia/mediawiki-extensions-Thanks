@@ -46,7 +46,13 @@ class EchoFlowThanksPresentationModel extends EchoEventPresentationModel {
 				'label' => $agent->getName(),
 				'icon' => 'userAvatar',
 				'prioritized' => true,
-			)
+			),
+			array(
+				'url' => $this->event->getTitle()->getLocalURL(),
+				'label' => $this->event->getTitle()->getPrefixedText(),
+				'icon' => 'speechBubbles',
+				'prioritized' => true,
+			),
 		);
 	}
 }
