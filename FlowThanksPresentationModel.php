@@ -35,24 +35,13 @@ class EchoFlowThanksPresentationModel extends EchoEventPresentationModel {
 	}
 
 	public function getSecondaryLinks() {
-		$agent = $this->event->getAgent();
-		if ( !$agent || !$this->userCan( Revision::DELETED_USER ) ) {
-			return array();
-		}
-
-		return array(
-			array(
-				'url' => $agent->getUserPage()->getLocalURL(),
-				'label' => $agent->getName(),
-				'icon' => 'userAvatar',
-				'prioritized' => true,
-			),
-			array(
-				'url' => $this->event->getTitle()->getLocalURL(),
-				'label' => $this->event->getTitle()->getPrefixedText(),
-				'icon' => 'speechBubbles',
-				'prioritized' => true,
-			),
+		$titleLink = array(
+			'url' => $this->event->getTitle()->getLocalURL(),
+			'label' => $this->event->getTitle()->getPrefixedText(),
+			'icon' => 'speechBubbles',
+			'prioritized' => true,
 		);
+
+		return array( $this->getAgentLink(), $titleLink );
 	}
 }
