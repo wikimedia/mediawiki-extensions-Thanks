@@ -54,6 +54,7 @@
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|dankte}} {{GENDER:$4|dir}} für deinen Kommentar in „$2“ auf $3.",
 	"apihelp-flowthank-description": "Ein öffentliches Dankeschön für einen Flow-Beitrag senden.",
 	"apihelp-flowthank-param-postid": "Die UUID des Beitrags, für den gedankt werden soll.",
+	"apihelp-flowthank-example-1": "Sendet Dankeschöns für den Kommentar mit der UUID xyz789",
 	"apihelp-thank-description": "Sendet eine Dankeschön-Benachrichtigung an einen Autor.",
 	"apihelp-thank-param-rev": "Versionskennung, für die gedankt werden soll."
 }
