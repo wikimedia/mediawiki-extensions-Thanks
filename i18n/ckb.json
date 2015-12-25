@@ -22,7 +22,7 @@
 	"echo-category-title-edit-thank": "سپاس",
 	"notification-thanks-diff-link": "دەستکارییەکەت",
 	"notification-thanks": "[[User:$1|$1]] سپاسی {{GENDER:$1|کردی}} بۆ $2 لە [[:$3]]دا.",
-	"notification-thanks-flyout2": "[[User:$1|$1]] سپاسی {{GENDER:$1|کردی}} بۆ دەستکارییەکەت لە $2دا.",
+	"notification-header-edit-thank": "$1 {{GENDER:$2|سپاسی}} {{GENDER:$4|کردی}} بۆ دەستکارییەکەت لە $3 دا.",
 	"notification-thanks-email-subject": "$1 سپاسی {{GENDER:$1|کردی}} بۆ دەستکارییەکەت لە {{SITENAME}}دا.",
 	"notification-thanks-email-batch-body": "$1 سپاسی {{GENDER:$1|کردی}} بۆ دەستکارییەکەت لە $2دا.",
 	"log-name-thanks": "لۆگی سپاس",
@@ -31,7 +31,6 @@
 	"log-show-hide-thanks": "لۆگی سپاس $1",
 	"notification-link-text-view-post": "بۆچوون ببینە",
 	"notification-flow-thanks-post-link": "بۆچوونی تۆ",
-	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|سپاسی}} {{GENDER:$4|تۆی کرد}} بۆ بۆچوونەکەت لە «$2» لە $3دا.",
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|سپاسی}} {{GENDER:$2|تۆی کرد}} بۆ بۆچوونەکەت لە {{SITENAME}}دا",
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|سپاسی}} {{GENDER:$4|تۆی کرد}} بۆ بۆچوونەکەت لە «$2» لە $3دا."
 }
