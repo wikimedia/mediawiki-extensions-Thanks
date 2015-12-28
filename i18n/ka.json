@@ -22,7 +22,7 @@
 	"echo-category-title-edit-thank": "გმადლობ",
 	"notification-thanks-diff-link": "რედაქტირებისათვის",
 	"notification-thanks": "მომხმარებელმა [[User:$1|$1]] {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი $2 გვერდზე [[:$3]].",
-	"notification-thanks-flyout2": "მომხმარებელმა [[User:$1|$1]] {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი რედაქტირებისათვის გვერდზე $2.",
+	"notification-header-edit-thank": "$1 {{GENDER:$2|მადლობა გადაგიხადათ}} {{GENDER:$4|თქვენი}} რედაქტირებისათვის გვერდზე $3.",
 	"notification-thanks-email-subject": "მომხმარებელმა $1 {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი რედაქტირებისათვის საიტზე {{SITENAME}}",
 	"notification-thanks-email-batch-body": "მომხმარებელმა $1 {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი რედაქტირებისათვის $2.",
 	"log-name-thanks": "„მადლობის“ ჟურნალი",
