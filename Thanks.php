@@ -24,161 +24,18 @@
  * @license MIT License
  */
 
-$wgExtensionCredits['other'][] = array(
-	'path' => __FILE__,
-	'name' => 'Thanks',
-	'author' => array(
-		'Ryan Kaldari',
-		'Benjamin Chen',
-		'Wctaiwan',
-	),
-	'version'  => '1.2.0',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:Thanks',
-	'descriptionmsg' => 'thanks-desc',
-	'license-name' => 'MIT',
-);
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'Thanks' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['Thanks'] = __DIR__ . '/i18n';
+	$wgExtensionMessagesFiles['ThanksAlias'] = __DIR__ . '/Thanks.alias.php';
+	/* wfWarn(
+		'Deprecated PHP entry point used for Thanks extension. Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	); */
+} else {
+	die( 'This version of the Thanks extension requires MediaWiki 1.25+' );
+}
 
 
-/* Setup */
 
-// Register files
-$wgAutoloadClasses['ThanksHooks'] = __DIR__ . '/Thanks.hooks.php';
-$wgAutoloadClasses['EchoThanksFormatter'] = __DIR__ . '/ThanksFormatter.php';
-$wgAutoloadClasses['EchoFlowThanksFormatter'] = __DIR__ . '/FlowThanksFormatter.php';
-$wgAutoloadClasses['EchoThanksPresentationModel'] = __DIR__ . '/ThanksPresentationModel.php';
-$wgAutoloadClasses['EchoFlowThanksPresentationModel'] = __DIR__ . '/FlowThanksPresentationModel.php';
-$wgAutoloadClasses['ApiThank'] = __DIR__ . '/ApiThank.php';
-$wgAutoloadClasses['ApiRevThank'] = __DIR__ . '/ApiRevThank.php';
-$wgAutoloadClasses['ApiFlowThank'] = __DIR__ . '/ApiFlowThank.php';
-$wgAutoloadClasses['ThanksLogFormatter'] = __DIR__ . '/ThanksLogFormatter.php';
-$wgAutoloadClasses['SpecialThanks'] = __DIR__ . '/SpecialThanks.php';
-$wgMessagesDirs['Thanks'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['Thanks'] = __DIR__ . '/Thanks.i18n.php';
-$wgExtensionMessagesFiles['ThanksAlias'] = __DIR__ . '/Thanks.alias.php';
-
-// Register APIs
-$wgAPIModules['thank'] = 'ApiRevThank';
-
-// Register special page
-$wgSpecialPages['Thanks'] = 'SpecialThanks';
-
-// Register hooks
-$wgHooks['HistoryRevisionTools'][] = 'ThanksHooks::insertThankLink';
-$wgHooks['DiffRevisionTools'][] = 'ThanksHooks::insertThankLink';
-$wgHooks['PageHistoryBeforeList'][] = 'ThanksHooks::onPageHistoryBeforeList';
-$wgHooks['DiffViewHeader'][] = 'ThanksHooks::onDiffViewHeader';
-$wgHooks['BeforeCreateEchoEvent'][] = 'ThanksHooks::onBeforeCreateEchoEvent';
-$wgHooks['EchoGetDefaultNotifiedUsers'][] = 'ThanksHooks::onEchoGetDefaultNotifiedUsers';
-$wgHooks['AddNewAccount'][] = 'ThanksHooks::onAccountCreated';
-$wgHooks['BeforeSpecialMobileDiffDisplay'][] = 'ThanksHooks::onBeforeSpecialMobileDiffDisplay';
-$wgHooks['UnitTestsList'][] = 'ThanksHooks::registerUnitTests';
-$wgHooks['GetLogTypesOnUser'][] = 'ThanksHooks::onGetLogTypesOnUser';
-$wgHooks['BeforePageDisplay'][] = 'ThanksHooks::onBeforePageDisplay';
-$wgHooks['ResourceLoaderTestModules'][] = 'ThanksHooks::onResourceLoaderTestModules';
-$wgHooks['ApiMain::moduleManager'][] = 'ThanksHooks::onApiMainModuleManager';
-
-// Register modules
-$wgResourceModules['ext.thanks'] = array(
-	'scripts' => array(
-		'ext.thanks.thank.js',
-	),
-	'localBasePath' => __DIR__ . '/modules',
-	'remoteExtPath' => 'Thanks/modules',
-);
-$wgResourceModules['ext.thanks.revthank'] = array(
-	'scripts' => array(
-		'ext.thanks.revthank.js',
-	),
-	'messages' => array(
-		'thanks-thanked',
-		'thanks-error-undefined',
-		'thanks-error-invalidrevision',
-		'thanks-error-ratelimited',
-		'thanks-confirmation2',
-		'thanks-thank-tooltip-no',
-		'thanks-thank-tooltip-yes',
-		'ok',
-		'cancel',
-	),
-	'dependencies' => array(
-		'mediawiki.jqueryMsg',
-		'mediawiki.api',
-		'jquery.confirmable',
-		'ext.thanks',
-	),
-	'localBasePath' => __DIR__ . '/modules',
-	'remoteExtPath' => 'Thanks/modules',
-);
-$wgResourceModules['ext.thanks.mobilediff'] = array(
-	'scripts' => array(
-		'ext.thanks.mobilediff.js',
-	),
-	'messages' => array(
-		'thanks-button-thank',
-		'thanks-button-thanked',
-		'thanks-error-invalidrevision',
-		'thanks-error-ratelimited',
-		'thanks-error-undefined',
-		'thanks-thanked-notice',
-	),
-	'dependencies' => array(
-		// Module name changed in MobileFrontend on 2014-02-25
-		'mobile.special.mobilediff.scripts',
-		'mediawiki.api',
-		'mobile.toast',
-	),
-	'targets' => array( 'desktop', 'mobile' ),
-	'localBasePath' => __DIR__ . '/modules',
-	'remoteExtPath' => 'Thanks/modules',
-);
-$wgResourceModules['ext.thanks.jquery.findWithParent'] = array(
-	'scripts' => array(
-		'jquery.findWithParent.js',
-	),
-	'localBasePath' => __DIR__ . '/modules',
-	'remoteExtPath' => 'Thanks/modules',
-);
-$wgResourceModules['ext.thanks.flowthank'] = array(
-	'scripts' => array(
-		'ext.thanks.flowthank.js',
-	),
-	'messages' => array(
-		'thanks-button-thanked',
-		'thanks-error-undefined',
-		'thanks-error-ratelimited',
-	),
-	'dependencies' => array(
-		'mediawiki.jqueryMsg',
-		'mediawiki.api',
-		'ext.thanks.jquery.findWithParent',
-		'ext.thanks',
-	),
-	'localBasePath' => __DIR__ . '/modules',
-	'remoteExtPath' => 'Thanks/modules',
-);
-
-// Logging
-$wgLogTypes[] = 'thanks';
-$wgLogActionsHandlers['thanks/*'] = 'ThanksLogFormatter';
-$wgFilterLogTypes['thanks'] = true;
-
-/* Configuration */
-
-// Enable sending thanks to bots
-$wgThanksSendToBots = false;
-
-// Whether or not thanks should be logged in Special:Log
-$wgThanksLogging = true;
-
-// Whether or not confirmation is required for sending thanks
-$wgThanksConfirmationRequired = true;
-
-// Set how many thanks can be sent per minute by a single user (default 10)
-$wgRateLimits += array(
-	'thanks-notification' => array( 'user' => array( 10, 60 ) ),
-);
-
-// Set default user options
-$wgDefaultUserOptions['echo-subscriptions-web-edit-thank'] = true;
-// This is overriden for new users in ThanksHooks::onAccountCreated
-$wgDefaultUserOptions['echo-subscriptions-email-edit-thank'] = false;

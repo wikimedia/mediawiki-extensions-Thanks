@@ -1,0 +1,183 @@
+{
+	"name": "Thanks",
+	"version": "1.2.0",
+	"author": [
+		"Ryan Kaldari",
+		"Benjamin Chen",
+		"Wctaiwan"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Thanks",
+	"descriptionmsg": "thanks-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"DefaultUserOptions": {
+		"echo-subscriptions-web-edit-thank": true,
+		"echo-subscriptions-email-edit-thank": false
+	},
+	"RateLimits": {
+		"thanks-notification": {
+			"user": [
+				10,
+				60
+			]
+		}
+	},
+	"SpecialPages": {
+		"Thanks": "SpecialThanks"
+	},
+	"LogTypes": [
+		"thanks"
+	],
+	"FilterLogTypes": {
+		"thanks": true
+	},
+	"LogActionsHandlers": {
+		"thanks/*": "ThanksLogFormatter"
+	},
+	"APIModules": {
+		"thank": "ApiRevThank"
+	},
+	"MessagesDirs": {
+		"Thanks": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ThanksAlias": "Thanks.alias.php"
+	},
+	"AutoloadClasses": {
+		"ThanksHooks": "Thanks.hooks.php",
+		"EchoThanksFormatter": "ThanksFormatter.php",
+		"EchoFlowThanksFormatter": "FlowThanksFormatter.php",
+		"EchoThanksPresentationModel": "ThanksPresentationModel.php",
+		"EchoFlowThanksPresentationModel": "FlowThanksPresentationModel.php",
+		"ApiThank": "ApiThank.php",
+		"ApiRevThank": "ApiRevThank.php",
+		"ApiFlowThank": "ApiFlowThank.php",
+		"ThanksLogFormatter": "ThanksLogFormatter.php",
+		"SpecialThanks": "SpecialThanks.php"
+	},
+	"ResourceModules": {
+		"ext.thanks": {
+			"scripts": [
+				"ext.thanks.thank.js"
+			]
+		},
+		"ext.thanks.revthank": {
+			"scripts": [
+				"ext.thanks.revthank.js"
+			],
+			"messages": [
+				"thanks-thanked",
+				"thanks-error-undefined",
+				"thanks-error-invalidrevision",
+				"thanks-error-ratelimited",
+				"thanks-confirmation2",
+				"thanks-thank-tooltip-no",
+				"thanks-thank-tooltip-yes",
+				"ok",
+				"cancel"
+			],
+			"dependencies": [
+				"mediawiki.jqueryMsg",
+				"mediawiki.api",
+				"jquery.confirmable",
+				"ext.thanks"
+			]
+		},
+		"ext.thanks.mobilediff": {
+			"scripts": [
+				"ext.thanks.mobilediff.js"
+			],
+			"messages": [
+				"thanks-button-thank",
+				"thanks-button-thanked",
+				"thanks-error-invalidrevision",
+				"thanks-error-ratelimited",
+				"thanks-error-undefined",
+				"thanks-thanked-notice"
+			],
+			"dependencies": [
+				"mobile.special.mobilediff.scripts",
+				"mediawiki.api",
+				"mobile.toast"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.thanks.jquery.findWithParent": {
+			"scripts": [
+				"jquery.findWithParent.js"
+			]
+		},
+		"ext.thanks.flowthank": {
+			"scripts": [
+				"ext.thanks.flowthank.js"
+			],
+			"messages": [
+				"thanks-button-thanked",
+				"thanks-error-undefined",
+				"thanks-error-ratelimited"
+			],
+			"dependencies": [
+				"mediawiki.jqueryMsg",
+				"mediawiki.api",
+				"ext.thanks.jquery.findWithParent",
+				"ext.thanks"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "Thanks/modules"
+	},
+	"Hooks": {
+		"HistoryRevisionTools": [
+			"ThanksHooks::insertThankLink"
+		],
+		"DiffRevisionTools": [
+			"ThanksHooks::insertThankLink"
+		],
+		"PageHistoryBeforeList": [
+			"ThanksHooks::onPageHistoryBeforeList"
+		],
+		"DiffViewHeader": [
+			"ThanksHooks::onDiffViewHeader"
+		],
+		"BeforeCreateEchoEvent": [
+			"ThanksHooks::onBeforeCreateEchoEvent"
+		],
+		"EchoGetDefaultNotifiedUsers": [
+			"ThanksHooks::onEchoGetDefaultNotifiedUsers"
+		],
+		"AddNewAccount": [
+			"ThanksHooks::onAccountCreated"
+		],
+		"BeforeSpecialMobileDiffDisplay": [
+			"ThanksHooks::onBeforeSpecialMobileDiffDisplay"
+		],
+		"UnitTestsList": [
+			"ThanksHooks::registerUnitTests"
+		],
+		"GetLogTypesOnUser": [
+			"ThanksHooks::onGetLogTypesOnUser"
+		],
+		"BeforePageDisplay": [
+			"ThanksHooks::onBeforePageDisplay"
+		],
+		"ResourceLoaderTestModules": [
+			"ThanksHooks::onResourceLoaderTestModules"
+		],
+		"ApiMain::moduleManager": [
+			"ThanksHooks::onApiMainModuleManager"
+		]
+	},
+	"config": {
+		"ThanksSendToBots": false,
+		"ThanksLogging": true,
+		"ThanksConfirmationRequired": true
+	},
+	"manifest_version": 1
+}
