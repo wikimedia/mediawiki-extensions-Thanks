@@ -34,7 +34,7 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|Envoyer}} une notification de remerciement à {{GENDER:$2|cet utilisateur|cette utilisatrice}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Annuler}} les remerciements",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Envoyer}} les remerciements",
-	"thanks-confirmation2": "{{GENDER:$1|Envoyer}} des remerciements privés pour cette modification ?",
+	"thanks-confirmation2": "{{GENDER:$1|Envoyer}} des remerciements pour cette modification ?",
 	"thanks-thanked-notice": "$1 a été {{GENDER:$2|averti|avertie|averti(e)}} que vous avez apprécié sa modification.",
 	"thanks": "Envoyer des remerciements",
 	"thanks-submit": "Remercier",
