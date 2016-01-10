@@ -4,5 +4,6 @@
 			"Ninjastrikers"
 		]
 	},
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ကျေးဇူးတင်}}}}"
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ကျေးဇူးတင်}}}}",
+	"thanks-thank-tooltip": "ဤ{{GENDER:$2|အသုံးပြုသူ}}သို့ ကျေးဇူးတင်ကြောင်း {{GENDER:$1|ပို့ခဲ့သည်}}"
 }
