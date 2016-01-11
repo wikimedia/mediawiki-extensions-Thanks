@@ -27,18 +27,6 @@ class EchoThanksPresentationModel extends EchoEventPresentationModel {
 	}
 
 	public function getSecondaryLinks() {
-		$agent = $this->event->getAgent();
-		if ( !$agent || !$this->userCan( Revision::DELETED_USER ) ) {
-			return array();
-		}
-
-		return array(
-			array(
-				'url' => $agent->getUserPage()->getLocalURL(),
-				'label' => $agent->getName(),
-				'icon' => 'userAvatar',
-				'prioritized' => true,
-			)
-		);
+		return array( $this->getAgentLink() );
 	}
 }
