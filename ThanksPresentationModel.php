@@ -18,11 +18,11 @@ class EchoThanksPresentationModel extends EchoEventPresentationModel {
 
 	public function getPrimaryLink() {
 		return array(
-			$this->event->getTitle()->getLocalURL( array(
+			'url' => $this->event->getTitle()->getLocalURL( array(
 				'oldid' => 'prev',
 				'diff' => $this->event->getExtraParam( 'revid' )
 			) ),
-			$this->msg( 'notification-link-text-view-edit' )->text()
+			'label' => $this->msg( 'notification-link-text-view-edit' )->text(),
 		);
 	}
 
