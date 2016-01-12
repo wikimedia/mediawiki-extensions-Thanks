@@ -27,10 +27,10 @@ class EchoFlowThanksPresentationModel extends EchoEventPresentationModel {
 		);
 
 		return array(
-			$title->getFullURL( array(
+			'url' => $title->getFullURL( array(
 				'workflow' => $this->event->getExtraParam( 'workflow' )
 			) ),
-			$this->msg( 'notification-link-text-view-post' )->text()
+			'label' => $this->msg( 'notification-link-text-view-post' )->text(),
 		);
 	}
 
@@ -38,6 +38,7 @@ class EchoFlowThanksPresentationModel extends EchoEventPresentationModel {
 		$titleLink = array(
 			'url' => $this->event->getTitle()->getLocalURL(),
 			'label' => $this->event->getTitle()->getPrefixedText(),
+			'description' => '',
 			'icon' => 'speechBubbles',
 			'prioritized' => true,
 		);
