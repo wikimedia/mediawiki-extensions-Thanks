@@ -10,7 +10,8 @@
 			"Schniggendiller",
 			"Inkowik",
 			"Purodha",
-			"J. 'mach' wust"
+			"J. 'mach' wust",
+			"Predatorix"
 		]
 	},
 	"thanks-desc": "Links zum Bedanken bei Benutzern für Bearbeitungen, Kommentare etc.",
@@ -56,5 +57,6 @@
 	"apihelp-flowthank-param-postid": "Die UUID des Beitrags, für den gedankt werden soll.",
 	"apihelp-flowthank-example-1": "Sendet Dankeschöns für den Kommentar mit der UUID xyz789",
 	"apihelp-thank-description": "Sendet eine Dankeschön-Benachrichtigung an einen Autor.",
-	"apihelp-thank-param-rev": "Versionskennung, für die gedankt werden soll."
+	"apihelp-thank-param-rev": "Versionskennung, für die gedankt werden soll.",
+	"apihelp-thank-param-source": "Eine kurze Zeichenkette, die die Quelle der Anfrage beschreibt. Zum Beispiel, \"diff\" oder \"history\"."
 }
