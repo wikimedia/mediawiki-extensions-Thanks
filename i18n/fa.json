@@ -43,7 +43,7 @@
 	"notification-thanks-email-batch-body": "$1 از شما بابت ویرایش‌تان در $2 {{GENDER:$1|تشکر کرد}}.",
 	"log-name-thanks": "سیاههٔ تشکرها",
 	"log-description-thanks": "این فهرستی است از کاربرانی که کاربران دیگر از آن‌ها تشکر کرده‌اند.",
-	"logentry-thanks-thank": "$1 {{GENDER:$4|$3}} دن {{GENDER:$2|تشکور ائتدی}}",
+	"logentry-thanks-thank": "$1 از {{GENDER:$4|$3}} {{GENDER:$2|تشکر کرد}}",
 	"log-show-hide-thanks": "$1 سیاههٔ تشکرها",
 	"thanks-error-no-id-specified": "شناسهٔ نسخه برای فرستادن تشکر را مشخص کنید.",
 	"thanks-confirmation-special": "می‌خواهید برای این ویرایش علناً تشکر بفرستید؟",
