@@ -56,6 +56,6 @@
 	"apihelp-flowthank-example-1": "A xyz789 UUID-jű komment megköszönése",
 	"apihelp-thank-description": "Köszönet küldése egy szerkesztőnek.",
 	"apihelp-thank-param-rev": "A megköszönendő lapváltozat ID.",
-	"apihelp-thank-param-source": "A forrás rövid megnevezése, pl. \"diff\" vagy \"history\".",
+	"apihelp-thank-param-source": "A forrás rövid megnevezése, pl. \"<kbd>diff</kbd>\" vagy \"<kbd>history</kbd>\".",
 	"apihelp-thank-example-1": "A 456-os ID-jű lapváltozat megköszönése, ahol a köszönet forrása egy diff (változtatás) oldal"
 }

@@ -4,7 +4,8 @@
 			"Danmichaelo",
 			"Jeblad",
 			"Njardarlogar",
-			"Chameleon222"
+			"Chameleon222",
+			"Macofe"
 		]
 	},
 	"thanks-desc": "Legger til lenker for å takke brukere for redigeringer, kommentarer, etc.",
@@ -48,9 +49,9 @@
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|takket}} {{GENDER:$4|deg}} for din kommentar til «$2» på $3.",
 	"apihelp-flowthank-description": "Send en offentlig takk for en Flow-kommentar.",
 	"apihelp-flowthank-param-postid": "UUID-en til posten det skal takkes for.",
-	"apihelp-flowthank-example-1": "Send takk for kommentaren med UUID xyz789",
+	"apihelp-flowthank-example-1": "Send takk for kommentaren med <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Send en takk til en skribent.",
 	"apihelp-thank-param-rev": "Revisjons-ID å takke noen for.",
-	"apihelp-thank-param-source": "En kort streng som beskriver kilden for forespørselen, for eksempel «diff» eller «historikk».",
-	"apihelp-thank-example-1": "Send takk for revisjonen med ID 456, der referansen blir en diff-side"
+	"apihelp-thank-param-source": "En kort streng som beskriver kilden for forespørselen, for eksempel «<kbd>diff</kbd>» eller «<kbd>history</kbd>».",
+	"apihelp-thank-example-1": "Send takk for revisjonen med <kbd>ID 456</kbd>, der referansen blir en diff-side"
 }

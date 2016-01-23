@@ -14,7 +14,8 @@
 			"Mjbmr",
 			"Huji",
 			"Americophile",
-			"Alp Er Tunqa"
+			"Alp Er Tunqa",
+			"Macofe"
 		]
 	},
 	"thanks-desc": "پیوندی برای تشکر کاربران برای ویرایش‌ها، توضیحات و ... اضافه می‌کند.",
@@ -58,9 +59,9 @@
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|سپاس}} از {{GENDER:$4|شما}} برای نظرتان در «$2» بر $3.",
 	"apihelp-flowthank-description": "تشکر کردن علنی در جریان از یک نظر",
 	"apihelp-flowthank-param-postid": "UUIDی پست مشکور",
-	"apihelp-flowthank-example-1": "تشکر کردن از نظر با UUID xyz789",
+	"apihelp-flowthank-example-1": "تشکر کردن از نظر با <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "فرستادن یک اعلان تشکر به یک ویراستار.",
 	"apihelp-thank-param-rev": "شناسهٔ نسخهٔ مشکور.",
-	"apihelp-thank-param-source": "رشته متنی کوتاه برای شرخ مبدأ درخواست، برای مثال «diff» یا «history».",
-	"apihelp-thank-example-1": "تشکر کردن برای نسخهٔ شناسهٔ 456، با صفحهٔ تفاوت به عنوان منبع"
+	"apihelp-thank-param-source": "رشته متنی کوتاه برای شرخ مبدأ درخواست، برای مثال «<kbd>diff</kbd>» یا «<kbd>history</kbd>».",
+	"apihelp-thank-example-1": "تشکر کردن برای نسخهٔ شناسهٔ <kbd>ID 456</kbd، با صفحهٔ تفاوت به عنوان منبع"
 }

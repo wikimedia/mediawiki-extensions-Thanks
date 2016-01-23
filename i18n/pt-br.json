@@ -7,7 +7,8 @@
 			"OTAVIO1981",
 			"Opraco",
 			"Teles",
-			"TheEduGobi"
+			"TheEduGobi",
+			"Macofe"
 		]
 	},
 	"thanks-desc": "Adiciona ligações para agradecer usuários por suas edições, comentários, etc.",
@@ -51,9 +52,9 @@
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|agradeceu}} {{GENDER:$4|você}} por seu comentário em \"$2\" na página $3.",
 	"apihelp-flowthank-description": "Enviar uma notificação de agradecimento pública por um comentário no Flow.",
 	"apihelp-flowthank-param-postid": "O UUID da postagem a ser agradecida.",
-	"apihelp-flowthank-example-1": "Enviar um agradecimento pelo comentário com o UUID xyz789",
+	"apihelp-flowthank-example-1": "Enviar um agradecimento pelo comentário com o <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Enviar uma notificação de agradecimento a um(a) editor(a).",
 	"apihelp-thank-param-rev": "ID de revisão para agradecer alguém.",
-	"apihelp-thank-param-source": "Uma cadeia curta descrevendo a fonte da solicitação, por exemplo, \"dif\" ou \"histórico\".",
-	"apihelp-thank-example-1": "Enviar um agradecimento pela revisão 456, com uma página de comparação de edições como fonte"
+	"apihelp-thank-param-source": "Uma cadeia curta descrevendo a fonte da solicitação, por exemplo, \"<kbd>diff</kbd>\" ou \"<kbd>history</kbd>\".",
+	"apihelp-thank-example-1": "Enviar um agradecimento pela revisão <kbd>ID 456</kbd, com uma página de comparação de edições como fonte"
 }

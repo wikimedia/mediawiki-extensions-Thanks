@@ -48,5 +48,5 @@
 	"notification-flow-thanks-email-batch-body": "$1 us {{GENDER:$1|ha agraït}} el comentari a \"$2\" de $3.",
 	"apihelp-thank-description": "Envieu una notificació d'agraïment a un editor.",
 	"apihelp-thank-param-rev": "Revisió ID per agrair a algú.",
-	"apihelp-thank-example-1": "Doneu les gràcies per la revisió ID 456, i que la font sigui un diff de la pàgina"
+	"apihelp-thank-example-1": "Doneu les gràcies per la revisió <kbd>ID 456</kbd>, i que la font sigui un diff de la pàgina"
 }

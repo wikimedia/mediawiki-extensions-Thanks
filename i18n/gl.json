@@ -4,7 +4,8 @@
 			"Toliño",
 			"Agremon",
 			"Elisardojm",
-			"Banjo"
+			"Banjo",
+			"Macofe"
 		]
 	},
 	"thanks-desc": "Engade ligazóns para agradecer aos usuarios as súas edicións, comentarios etc.",
@@ -48,9 +49,9 @@
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|agradeceu}} {{GENDER:$4|o seu comentario}} en \"$2\" na páxina \"$3\".",
 	"apihelp-flowthank-description": "Enviar unha notificación pública de agradecemento por un comentario en Flow.",
 	"apihelp-flowthank-param-postid": "O UUID da publicación que agradecer.",
-	"apihelp-flowthank-example-1": "Enviar un agradecemento ao comentario co UUID xyz789",
+	"apihelp-flowthank-example-1": "Enviar un agradecemento ao comentario co <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Enviar unha notificación de agradecemento a un editor.",
 	"apihelp-thank-param-rev": "Identificador da revisión que agradecerlle a alguén.",
-	"apihelp-thank-param-source": "Un texto breve que describa a orixe da solicitude. Por exemplo, \"dif\" ou \"historial\".",
-	"apihelp-thank-example-1": "Enviar un agradecemento pola revisión con identificador 456, cuxa orixe sexa unha páxina de diferenzas"
+	"apihelp-thank-param-source": "Un texto breve que describa a orixe da solicitude. Por exemplo, \"<kbd>diff</kbd>\" ou \"<kbd>history</kbd>\".",
+	"apihelp-thank-example-1": "Enviar un agradecemento pola revisión con identificador <kbd>ID 456</kbd, cuxa orixe sexa unha páxina de diferenzas"
 }

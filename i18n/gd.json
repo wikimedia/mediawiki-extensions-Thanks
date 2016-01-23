@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sionnach"
+			"Sionnach",
+			"Akerbeltz"
 		]
 	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|thoir taing}}}}",
 	"thanks-thank-tooltip": "{{GENDER:$1|Cuir}} taing don {{GENDER:$2|chleachdaiche}} seo"
 }

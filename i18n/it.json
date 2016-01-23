@@ -52,9 +52,9 @@
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$4|ti}} {{GENDER:$1|ha ringraziato}} per il tuo commento in \"$2\" su $3.",
 	"apihelp-flowthank-description": "Invia una notifica pubblica di ringraziamento per un commento Flow.",
 	"apihelp-flowthank-param-postid": "L'UUID del messaggio per cui ringraziare.",
-	"apihelp-flowthank-example-1": "Ringrazia per il commento con UUID xyz789",
+	"apihelp-flowthank-example-1": "Ringrazia per il commento con <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Invia una notifica di ringraziamento a un contributore.",
 	"apihelp-thank-param-rev": "ID della versione per cui ringraziare qualcuno.",
-	"apihelp-thank-param-source": "Una breve stringa che descrive l'origine della richiesta, per esempio, \"diff\" o \"cronologia\".",
-	"apihelp-thank-example-1": "Invia un ringraziamento per la versione ID 456, con la sorgente di una pagina confronto"
+	"apihelp-thank-param-source": "Una breve stringa che descrive l'origine della richiesta, per esempio, \"<kbd>diff</kbd>\" o \"<kbd>history</kbd>\".",
+	"apihelp-thank-example-1": "Invia un ringraziamento per la versione <kbd>ID 456</kbd>, con la sorgente di una pagina confronto"
 }

@@ -5,7 +5,8 @@
 			"Guycn1",
 			"Guycn2",
 			"Rotemliss",
-			"ערן"
+			"ערן",
+			"Macofe"
 		]
 	},
 	"thanks-desc": "הוספת קישורים לאמירת \"תודה\" למשתמשים על עריכות, הערות, וכו'.",
@@ -49,9 +50,9 @@
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|הודה|הודתה}} {{GENDER:$4|לך}} על התגובה שלך בנושא \"$2\" בדף $3.",
 	"apihelp-flowthank-description": "לשלוח הודעת תודה פומבית על הערת זרימה.",
 	"apihelp-flowthank-param-postid": "ה־UUID של הרשומהש עליה תישלח תודה.",
-	"apihelp-flowthank-example-1": "לשלוח תודה על הערה ש־xyz789 הוא ה־UUID שלה",
+	"apihelp-flowthank-example-1": "לשלוח תודה על הערה עם <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "שליחת הודעת תודה לעורך.",
 	"apihelp-thank-param-rev": "מזהה גרסה להודות עליה.",
-	"apihelp-thank-param-source": "מחרוזת קצרה שמתארת את מקור הבקשה, למשל \"diff\" או \"history\".",
-	"apihelp-thank-example-1": "שליחת תודה עבור מזהה גרסה 456, שהמקור שלה הוא דף diff."
+	"apihelp-thank-param-source": "מחרוזת קצרה שמתארת את מקור הבקשה, למשל \"<kbd>diff</kbd>\" או \"<kbd>history</kbd>\".",
+	"apihelp-thank-example-1": "שליחת תודה עבור מזהה גרסה <kbd>ID 456</kbd, שהמקור שלה הוא דף diff."
 }

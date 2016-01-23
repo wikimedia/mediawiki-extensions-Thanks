@@ -64,9 +64,9 @@
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$4|vous}} a remercié{{GENDER:||e|(e)}} pour votre commentaire dans « $2 » sur $3.",
 	"apihelp-flowthank-description": "Envoyer des remerciements pour un « contenu Flow ».",
 	"apihelp-flowthank-param-postid": "L’UUID du message pour lequel remercier.",
-	"apihelp-flowthank-example-1": "Remercier pour le commentaire ayant l’UUID xyz789",
+	"apihelp-flowthank-example-1": "Remercier pour le commentaire ayant l’<kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Envoyer des remerciements à un éditeur.",
 	"apihelp-thank-param-rev": "ID de révision pour lequel remercier quelqu’un.",
-	"apihelp-thank-param-source": "Une chaîne courte décrivant la source de la requête, par exemple, « diff » ou « history ».",
-	"apihelp-thank-example-1": "Envoyer des remerciements pour l’ID de révision 456, avec la source étant une page de différence"
+	"apihelp-thank-param-source": "Une chaîne courte décrivant la source de la requête, par exemple, « <kbd>diff</kbd> » ou « <kbd>history</kbd> ».",
+	"apihelp-thank-example-1": "Envoyer des remerciements pour l’ID de révision <kbd>ID 456</kbd, avec la source étant une page de différence"
 }

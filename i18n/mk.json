@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bjankuloski06"
+			"Bjankuloski06",
+			"Macofe"
 		]
 	},
 	"thanks-desc": "Додава врски за заблагодарувања кон корисници за уредувања, коментари и тн.",
@@ -45,9 +46,9 @@
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$4|ви}} {{GENDER:$1|благодари}} за вашиот коментар на „$2“ во $3.",
 	"apihelp-flowthank-description": "Испратете јавна благодарница за коментар во Тек.",
 	"apihelp-flowthank-param-postid": "UUID на објавата за која се заблагодарувате.",
-	"apihelp-flowthank-example-1": "Испрати благодарница за коментарот со UUID xyz789",
+	"apihelp-flowthank-example-1": "Испрати благодарница за коментарот со <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Испрати благодарница на уредник.",
 	"apihelp-thank-param-rev": "Назнака на преработката за која се заблагодарувате.",
-	"apihelp-thank-param-source": "Кратка низа во која го опишувате изворот на барањето. На пр. „разл.“ или „историја“.",
+	"apihelp-thank-param-source": "Кратка низа во која го опишувате изворот на барањето. На пр. „<kbd>diff</kbd>“ или „<kbd>history</kbd>“.",
 	"apihelp-thank-example-1": "Испрати благодарница за праработката со назнака 456, при што изворот е страница со разлика"
 }

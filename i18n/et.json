@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Kyng",
-			"Pikne"
+			"Pikne",
+			"Macofe"
 		]
 	},
 	"thanks-desc": "Lisab lingid kasutajate tänamiseks muudatuste, kommentaaride ja muu eest.",
@@ -46,9 +47,9 @@
 	"notification-flow-thanks-email-batch-body": "$1 tänas {{GENDER:$4|sind}} kommentaari eest teemal \"$2\" leheküljel \"$3\".",
 	"apihelp-flowthank-description": "Avaliku tänuteavituse saatmine voogarutelu kommentaari eest.",
 	"apihelp-flowthank-param-postid": "Postitus, mille eest tänada, UUID.",
-	"apihelp-flowthank-example-1": "Täna postituse eest, selle UUID on xyz789",
+	"apihelp-flowthank-example-1": "Täna postituse eest, selle <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Tänuteavituse saatmine toimetajale.",
 	"apihelp-thank-param-rev": "Redaktsioon, mille eest tänada, selle identifikaator.",
-	"apihelp-thank-param-source": "Lühisõne, mis kirjeldab päringu allikat, näiteks \"diff\" või \"history\".",
-	"apihelp-thank-example-1": "Täna redaktsiooni 456 eest, allikas on erinevuste lehekülg"
+	"apihelp-thank-param-source": "Lühisõne, mis kirjeldab päringu allikat, näiteks \"<kbd>diff</kbd>\" või \"<kbd>history</kbd>\".",
+	"apihelp-thank-example-1": "Täna redaktsiooni <kbd>ID 456</kbd eest, allikas on erinevuste lehekülg"
 }

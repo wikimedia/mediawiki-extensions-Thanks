@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Murma174"
+			"Murma174",
+			"Macofe"
 		]
 	},
 	"thanks-desc": "Saat ferwisangen, am brükern tu soonkin för hör bidracher",
@@ -25,7 +26,6 @@
 	"echo-category-title-edit-thank": "Föl soonk",
 	"notification-thanks-diff-link": "dan bidrach",
 	"notification-thanks": "[[User:$1|$1]] {{GENDER:$1|soonket}} di för $2 üüb [[:$3]].",
-	"notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1|soonket}} di för dan bidrach üüb $2.",
 	"notification-thanks-email-subject": "$1 {{GENDER:$1|soonket}} di för dan bidrach üüb {{SITENAME}}",
 	"notification-thanks-email-batch-body": "$1 {{GENDER:$1|soonket}} di för dan bidrach üüb $2.",
 	"log-name-thanks": "Soonk-logbuk",
@@ -40,14 +40,13 @@
 	"flow-thanks-thanked-notice": "$1 hää bööd füngen, dat dü {{GENDER:$2|sin|hör|hör}} komentaar gud fanjst.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|soonket}} {{GENDER:$5|di}} för $2 uun \"$3\" üüb [[:$4]].",
 	"notification-flow-thanks-post-link": "dan komentaar",
-	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|soonket}} {{GENDER:$4|di}} för dan komentaar uun \"$2\" üüb $3.",
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|soonket}} {{GENDER:$2|di}} för dan komentaar üüb {{SITENAME}}",
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|soonket}} {{GENDER:$4|di}} för dan komentaar uun \"$2\" üüb $3.",
 	"apihelp-flowthank-description": "En öfentelk soonk-bööd för en komentaar schüür.",
 	"apihelp-flowthank-param-postid": "Det UUID faan det besoonket nooracht.",
-	"apihelp-flowthank-example-1": "Schüür en soonk för di komentaar mä det UUID xyz789",
+	"apihelp-flowthank-example-1": "Schüür en soonk för di komentaar mä det <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Schüür en soonk-bööd tu en skriiwer.",
 	"apihelp-thank-param-rev": "Werjuuns-ID huar hoker för soonket woort.",
-	"apihelp-thank-param-source": "En kurten beskriiwangs-tekst, t.b. \"ferskeel\" of \"histoore\".",
-	"apihelp-thank-example-1": "Schüür en soonk för det werjuuns-ID 456, wan det am en ferskeel gongt."
+	"apihelp-thank-param-source": "En kurten beskriiwangs-tekst, t.b. \"<kbd>diff</kbd>\" of \"<kbd>history</kbd>\".",
+	"apihelp-thank-example-1": "Schüür en soonk för det werjuuns-<kbd>ID 456</kbd>, wan det am en ferskeel gongt."
 }

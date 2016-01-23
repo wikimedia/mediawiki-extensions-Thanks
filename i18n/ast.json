@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xuacu"
+			"Xuacu",
+			"Macofe"
 		]
 	},
 	"thanks-desc": "Amiesta enllaces d'agradecimientu a usuarios por ediciones, comentarios, etc.",
@@ -45,9 +46,9 @@
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$4|dióte}} les {{GENDER:$1|gracies}} pol to comentariu en «$2» de $3.",
 	"apihelp-flowthank-description": "Unviar una notificación pública d'agradecimientu por un comentariu en Flow.",
 	"apihelp-flowthank-param-postid": "La UUID de la publicación qu'agradecer.",
-	"apihelp-flowthank-example-1": "Unviar un agradecimientu pol comentariu con UUID xyz789",
+	"apihelp-flowthank-example-1": "Unviar un agradecimientu pol comentariu con <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Unviar una notificación d'agradecimientu a un editor.",
 	"apihelp-thank-param-rev": "ID de la revisión pola que dar les gracies a dalguién.",
-	"apihelp-thank-param-source": "Un testu curtiu que describa l'orixe de la solicitú. Por exemplu, \"diff\" o \"historial\".",
-	"apihelp-thank-example-1": "Dar les gracies pola revisión con ID 456, siendo la fonte una páxina de diff"
+	"apihelp-thank-param-source": "Un testu curtiu que describa l'orixe de la solicitú. Por exemplu, \"<kbd>diff</kbd>\" o \"<kbd>history</kbd>\".",
+	"apihelp-thank-example-1": "Dar les gracies pola revisión con <kbd>ID 456</kbd>, siendo la fonte una páxina de diff"
 }

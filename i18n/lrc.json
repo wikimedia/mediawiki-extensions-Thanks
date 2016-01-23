@@ -24,5 +24,5 @@
 	"notification-link-text-view-post": "دیئن ویر و باور",
 	"flow-thanks-confirmation-special": "آیا میهایت سی ای ویر و باور یه گل تشکر کل بکیت؟",
 	"notification-flow-thanks-post-link": "ویر و باور شما",
-	"apihelp-flowthank-example-1": "سی ای ویر و باور واUUID xyz789 یه گل منمونداری کل بکیت"
+	"apihelp-flowthank-example-1": "سی ای ویر و باور وا<kbd>UUID xyz789</kbd> یه گل منمونداری کل بکیت"
 }

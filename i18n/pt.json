@@ -11,7 +11,8 @@
 			"Titoncio",
 			"Vitorvicentevalente",
 			"He7d3r",
-			"Fúlvio"
+			"Fúlvio",
+			"Macofe"
 		]
 	},
 	"thanks-desc": "Adiciona ligações para agradecer a utilizadores por edições, comentários, etc.",
@@ -55,9 +56,9 @@
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|agradeceu}}{{GENDER:$4|-lhe}} pelo seu comentário em \"$2\" ($3).",
 	"apihelp-flowthank-description": "Enviar notificação de agradecimento público por um comentário no Flow.",
 	"apihelp-flowthank-param-postid": "O UUID da mensagem a qual agradecer.",
-	"apihelp-flowthank-example-1": "Agradeça pelo comentário com o UUID xyz789",
+	"apihelp-flowthank-example-1": "Agradeça pelo comentário com o <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Enviar uma notificação de agradecimento a um editor.",
 	"apihelp-thank-param-rev": "ID de revisão para agradecer a alguém.",
-	"apihelp-thank-param-source": "Uma sequência curta de caracteres que descrevem a origem da solicitação. Por exemplo, \"diff\" ou \"histórico\".",
+	"apihelp-thank-param-source": "Uma sequência curta de caracteres que descrevem a origem da solicitação. Por exemplo, \"<kbd>diff</kbd>\" ou \"<kbd>history</kbd>\".",
 	"apihelp-thank-example-1": "Enviar um agradecimento pelo ID de revisão 456, com uma página de alterações como fonte"
 }

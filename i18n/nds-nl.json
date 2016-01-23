@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Servien"
+			"Servien",
+			"Macofe"
 		]
 	},
 	"thanks-desc": "Voegt verwiezingen toe um gebrukers te bedanken veur bewarkingen, kommentaar, enz.",
@@ -22,7 +23,6 @@
 	"echo-category-title-edit-thank": "Bedankt",
 	"notification-thanks-diff-link": "joew bewarking",
 	"notification-thanks": "[[User:$1|$1]] {{GENDER:$1|hef}} joe bedankt veur $2 op [[:$3]].",
-	"notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1|hef}} joe bedankt veur joew bewarking op $2.",
 	"notification-thanks-email-subject": "$1 {{GENDER:$1|hef}} joe bedankt veur joew bewarking op {{SITENAME}}",
 	"notification-thanks-email-batch-body": "$1 {{GENDER:$1|hef}} joe bedankt veur joew bewarking op $2.",
 	"log-name-thanks": "Bedankjeslogboek",
@@ -37,14 +37,13 @@
 	"flow-thanks-thanked-notice": "$1 hef joew bedankjen ontvangen veur {{GENDER:$2|zien|heur|zien}} reaksie.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|hef}} {{GENDER:$5|joe}} bedankt veur $2 in \"$3\" op [[:$4]].",
 	"notification-flow-thanks-post-link": "joew reaksie",
-	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|hef}} {{GENDER:$4|joe}} bedankt veur joew reaksie in \"$2\" op $3.",
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|hef}} {{GENDER:$2|joe}} bedankt veur joew reaksie op {{SITENAME}}",
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|hef}} {{GENDER:$4|joe}} bedankt veur joew reaksie in \"$2\" op $3.",
 	"apihelp-flowthank-description": "Stuur n bedankjen veur n Flow-reaksie.",
 	"apihelp-flowthank-param-postid": "De UUID van t bericht um veur te bedanken.",
-	"apihelp-flowthank-example-1": "Stuur n bedankjen veur de reaksie mit UUID xyz789",
+	"apihelp-flowthank-example-1": "Stuur n bedankjen veur de reaksie mit <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Stuur n bedankjen naor n bewarker.",
 	"apihelp-thank-param-rev": "Versienummer um ene veur te bedanken.",
-	"apihelp-thank-param-source": "n Korte tekste waormee je de bron veur t verzeuk beschrieven, bieveurbeeld, \"wiezig\" of \"gesch\".",
+	"apihelp-thank-param-source": "n Korte tekste waormee je de bron veur t verzeuk beschrieven, bieveurbeeld, \"<kbd>diff</kbd>\" of \"<kbd>history</kbd>\".",
 	"apihelp-thank-example-1": "Stuur n bedankjen veur versienummer 456, mit n 'wiezig'-zied as bron"
 }

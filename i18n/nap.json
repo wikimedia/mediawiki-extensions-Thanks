@@ -46,9 +46,9 @@
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|ringraziaje}} {{GENDER:$4|a vuje}} p' 'o cummento dint'a \"$2\" ncopp'a $3.",
 	"apihelp-flowthank-description": "Manna 'e grazie pubbreche comm'a na notifica pe' nu cummento d' 'o Flow",
 	"apihelp-flowthank-param-postid": "Ll'UUID d' 'o post pe' ne puté da grazie.",
-	"apihelp-flowthank-example-1": "Manna grazie p' 'o cummento cu ll'UUID xyz789",
+	"apihelp-flowthank-example-1": "Manna grazie p' 'o cummento cu ll'<kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Manna 'e grazie a n'editore.",
 	"apihelp-thank-param-rev": "ID 'e verziona pe' putè dà grazie a coccheruno.",
-	"apihelp-thank-param-source": "Na stringa curta c' 'a descriziona d' 'o source d' 'a request, pe ne dà n'esempie: \"diff\" o \"history\".",
-	"apihelp-thank-example-1": "Manna 'e grazie 'a revisiona ID 456, c' 'o source facenno na diff"
+	"apihelp-thank-param-source": "Na stringa curta c' 'a descriziona d' 'o source d' 'a request, pe ne dà n'esempie: \"<kbd>diff</kbd>\" o \"<kbd>history</kbd>\".",
+	"apihelp-thank-example-1": "Manna 'e grazie 'a revisiona <kbd>ID 456</kbd>, c' 'o source facenno na diff"
 }

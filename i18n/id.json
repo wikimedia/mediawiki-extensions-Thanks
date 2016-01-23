@@ -45,9 +45,9 @@
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|berterima kasih}} kepada {{GENDER:$4|Anda}} atas komentar Anda di \"$2\" pada halaman $3.",
 	"apihelp-flowthank-description": "Kirim pemberitahuan berterima kasih untuk komentar alur utas.",
 	"apihelp-flowthank-param-postid": "UUID dari kiriman yang ingin diberikan ucapan terima kasih.",
-	"apihelp-flowthank-example-1": "Kirim ucapan terima kasih atas komentar dengan UUID xyz789",
+	"apihelp-flowthank-example-1": "Kirim ucapan terima kasih atas komentar dengan <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Kirim pemberitahuan ucapan terima kasih kepada penyunting.",
 	"apihelp-thank-param-rev": "ID Revisi yang ingin diberikan ucapan terima kasih.",
-	"apihelp-thank-param-source": "Sebuah kata singkat yang menjelaskan sumber permintaan, misalnya \"diff\" (beda) arau \"history\" (riwayat).",
+	"apihelp-thank-param-source": "Sebuah kata singkat yang menjelaskan sumber permintaan, misalnya \"<kbd>diff</kbd>\" (beda) arau \"<kbd>history</kbd>\" (riwayat).",
 	"apihelp-thank-example-1": "Kirim ucapan terima kasih atas ID revisi 456, dengan sumber sebagai halaman diff (beda)"
 }

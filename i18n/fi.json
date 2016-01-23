@@ -6,7 +6,8 @@
 			"Pxos",
 			"Samoasambia",
 			"Silvonen",
-			"Stryn"
+			"Stryn",
+			"Macofe"
 		]
 	},
 	"thanks-desc": "Lisää linkkejä käyttäjien kiittämistä varten heidän muokkauksistaan, kommenteistaan ynnä muusta.",
@@ -50,9 +51,9 @@
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|kitti}} {{GENDER:$4|sinua}} kommentistasi aiheessa ”$2” sivulla $3.",
 	"apihelp-flowthank-description": "Lähetä näkyvä kiitoksesi kommentista Flow'ssa.",
 	"apihelp-flowthank-param-postid": "Viestin UUID, josta kiitetään.",
-	"apihelp-flowthank-example-1": "Lähetä kiitokset kommentista, jonka UUID on xyz789",
+	"apihelp-flowthank-example-1": "Lähetä kiitokset kommentista, jonka <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Lähetä kiitokset jollekulle muokkaajalle.",
 	"apihelp-thank-param-rev": "Sivuversion tunnistenumero, josta kiitetään.",
-	"apihelp-thank-param-source": "Lyhyt merkkijono, joka kertoo pyynnön lähteestä. Esimerkiksi \"diffi\" tai \"historia\".",
-	"apihelp-thank-example-1": "Lähetä kiitoksesi sivuversiosta ID 456 niin, että lähteenä on vertailusivu"
+	"apihelp-thank-param-source": "Lyhyt merkkijono, joka kertoo pyynnön lähteestä. Esimerkiksi \"<kbd>diff</kbd>i\" tai \"<kbd>history</kbd>\".",
+	"apihelp-thank-example-1": "Lähetä kiitoksesi sivuversiosta <kbd>ID 456</kbd> niin, että lähteenä on vertailusivu"
 }
