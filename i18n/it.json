@@ -55,6 +55,6 @@
 	"apihelp-flowthank-example-1": "Ringrazia per il commento con <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Invia una notifica di ringraziamento a un contributore.",
 	"apihelp-thank-param-rev": "ID della versione per cui ringraziare qualcuno.",
-	"apihelp-thank-param-source": "Una breve stringa che descrive l'origine della richiesta, per esempio, \"<kbd>diff</kbd>\" o \"<kbd>history</kbd>\".",
+	"apihelp-thank-param-source": "Una breve stringa che descrive l'origine della richiesta, per esempio: \"<kbd>diff</kbd>\" o \"<kbd>history</kbd>\".",
 	"apihelp-thank-example-1": "Invia un ringraziamento per la versione <kbd>ID 456</kbd>, con la sorgente di una pagina confronto"
 }
