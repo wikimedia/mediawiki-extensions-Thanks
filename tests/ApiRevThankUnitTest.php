@@ -6,7 +6,7 @@
  * @group Thanks
  * @group API
  *
- * @author Adam Shorland
+ * @author Addshore
  */
 class ApiRevThankUnitTest extends MediaWikiTestCase {
 

@@ -10,7 +10,7 @@
  * @group medium
  * @group API
  *
- * @author Adam Shorland
+ * @author Addshore
  */
 class ApiRevThankTest extends ApiTestCase {
 
