@@ -7,10 +7,16 @@
 	var $thankedLabel = $( '<span></span>' )
 		.addClass( 'mw-thanks-flow-thanked mw-ui-quiet' );
 
+	function findPostAuthorFromThankLink( $thankLink ) {
+		// We can't use 'closest' directly because .flow-author is a cousin
+		// of $thankLink rather than its ancestor
+		return $( $thankLink.findWithParent( '< .flow-post .flow-author a.mw-userlink' )[0] ).text().trim();
+	}
+
 	function reloadThankedState() {
 		$( 'a.mw-thanks-flow-thank-link' ).each( function ( idx, el ) {
 			var $thankLink = $( el ),
-				author = $thankLink.findWithParent( '< .flow-post .flow-author a.mw-userlink' ).text().trim();
+				author = findPostAuthorFromThankLink( $thankLink );
 			if ( mw.thanks.thanked.contains( $thankLink.closest( '.flow-post' ) ) ) {
 				mw.thanks.getUserGender( author )
 					.done( function ( recipientGender ) {
@@ -35,9 +41,7 @@
 		.then(
 			// Success
 			function ( data ) {
-				// We can't use 'closest' directly because .flow-author is a cousin
-				// of $thankLink rather than its ancestor
-				var author = $thankLink.findWithParent( '< .flow-post .flow-author a.mw-userlink' ).text().trim();
+				var author = findPostAuthorFromThankLink( $thankLink );
 				// Get the user who was thanked (for gender purposes)
 				return mw.thanks.getUserGender( author );
 			},
