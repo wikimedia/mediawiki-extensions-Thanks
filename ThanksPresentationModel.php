@@ -10,8 +10,7 @@ class EchoThanksPresentationModel extends EchoEventPresentationModel {
 
 	public function getHeaderMessage() {
 		$msg = parent::getHeaderMessage();
-		$msg->params( $this->event->getTitle()->getPrefixedText() );
-
+		$msg->params( $this->getTruncatedTitleText( $this->event->getTitle(), true ) );
 		$msg->params( $this->getViewingUserForGender() );
 		return $msg;
 	}
