@@ -10,8 +10,8 @@ class EchoFlowThanksPresentationModel extends EchoEventPresentationModel {
 
 	public function getHeaderMessage() {
 		$msg = parent::getHeaderMessage();
-		$msg->params( $this->event->getExtraParam( 'topic-title' ) );
-		$msg->params( $this->event->getTitle()->getPrefixedText() );
+		$msg->params( $this->language->truncate( $this->event->getExtraParam( 'topic-title' ), self::SECTION_TITLE_RECOMMENDED_LENGTH ) );
+		$msg->params( $this->getTruncatedTitleText( $this->event->getTitle(), true ) );
 
 		$msg->params( $this->getViewingUserForGender() );
 		return $msg;
