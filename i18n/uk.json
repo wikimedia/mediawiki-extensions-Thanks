@@ -7,7 +7,8 @@
 			"Ата",
 			"Olion",
 			"AS",
-			"NickK"
+			"NickK",
+			"Piramidion"
 		]
 	},
 	"thanks-desc": "Додає посилання для дякування користувачам за редагування, коментарі тощо.",
@@ -28,7 +29,7 @@
 	"thanks-form-revid": "ІД редакції для редагування",
 	"echo-pref-subscription-edit-thank": "Дякує мені за мої редагування",
 	"echo-pref-tooltip-edit-thank": "Повідомляти, коли хтось дякує мені за редагування, зроблені мною.",
-	"echo-category-title-edit-thank": "вдячність",
+	"echo-category-title-edit-thank": "Вдячність",
 	"notification-thanks-diff-link": "Ваше редагування",
 	"notification-thanks": "[[User:$1|$1]] {{GENDER:$1|подякував|подякувала}} Вам за $2 на [[:$3]].",
 	"notification-header-edit-thank": "$1 {{GENDER:$2|подякував|подякувала}} {{GENDER:$4|вам}} за редагування на сторінці $3.",
