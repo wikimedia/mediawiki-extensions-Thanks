@@ -14,7 +14,7 @@
 			"Predatorix"
 		]
 	},
-	"thanks-desc": "Links zum Bedanken bei Benutzern für Bearbeitungen, Kommentare etc.",
+	"thanks-desc": "Stellt Links zum Bedanken bei Benutzern für Bearbeitungen, Kommentare und Ähnliches zur Verfügung.",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|danken}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|bereits bedankt}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Danken}}}}",
@@ -58,5 +58,6 @@
 	"apihelp-flowthank-example-1": "Sendet Dankeschöns für den Kommentar mit der <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Sendet eine Dankeschön-Benachrichtigung an einen Autor.",
 	"apihelp-thank-param-rev": "Versionskennung, für die gedankt werden soll.",
-	"apihelp-thank-param-source": "Eine kurze Zeichenkette, die die Quelle der Anfrage beschreibt. Zum Beispiel, \"<kbd>diff</kbd>\" oder \"<kbd>history</kbd>\"."
+	"apihelp-thank-param-source": "Eine kurze Zeichenkette, die die Quelle der Anfrage beschreibt. Zum Beispiel, \"<kbd>diff</kbd>\" oder \"<kbd>history</kbd>\".",
+	"apihelp-thank-example-1": "Sendet ein Dankeschön für die Version mit der <kbd>Kennung 456</kbd>, deren Quelle ein Bearbeitungsunterschied ist."
 }
