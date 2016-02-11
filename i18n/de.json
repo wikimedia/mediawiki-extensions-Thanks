@@ -14,7 +14,7 @@
 			"Predatorix"
 		]
 	},
-	"thanks-desc": "Stellt Links zum Bedanken bei Benutzern für Bearbeitungen, Kommentare und Ähnliches zur Verfügung.",
+	"thanks-desc": "Stellt Links zum Bedanken bei Benutzern für Bearbeitungen, Kommentare und Ähnliches zur Verfügung",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|danken}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|bereits bedankt}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Danken}}}}",
