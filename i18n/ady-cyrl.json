@@ -2,9 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Highlander45temp",
-			"Inyzh"
+			"Inyzh",
+			"Amire80"
 		]
 	},
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|опсэу еIожь}}}}",
-	"thanks-thank-tooltip": "{{GENDER:$2|User}}-м шIуфэс тхыгъэ горэ {{GENDER:$1|фегъэхь}}"
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|опсэу еӀожь}}}}",
+	"thanks-thank-tooltip": "{{GENDER:$2|User}}-м шӀуфэс тхыгъэ горэ {{GENDER:$1|фегъэхь}}"
 }
