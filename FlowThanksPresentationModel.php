@@ -1,5 +1,6 @@
 <?php
-class EchoFlowThanksPresentationModel extends EchoEventPresentationModel {
+
+class EchoFlowThanksPresentationModel extends Flow\FlowPresentationModel {
 	public function canRender() {
 		return (bool)$this->event->getTitle();
 	}
@@ -10,7 +11,9 @@ class EchoFlowThanksPresentationModel extends EchoEventPresentationModel {
 
 	public function getHeaderMessage() {
 		$msg = parent::getHeaderMessage();
-		$msg->params( $this->language->truncate( $this->event->getExtraParam( 'topic-title' ), self::SECTION_TITLE_RECOMMENDED_LENGTH ) );
+
+		$truncatedTopicTitle = $this->getTopicTitle();
+		$msg->plaintextParams( $truncatedTopicTitle );
 		$msg->params( $this->getTruncatedTitleText( $this->event->getTitle(), true ) );
 
 		$msg->params( $this->getViewingUserForGender() );
