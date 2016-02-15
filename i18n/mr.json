@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"V.narsikar"
+			"V.narsikar",
+			"Macofe"
 		]
 	},
 	"thanks-desc": "एखाद्या सदस्यास,त्याच्या संपादनासाठी किंवा शेऱ्यासाठी धन्यवाद देण्यास दुवा जोडते",
@@ -22,7 +23,7 @@
 	"echo-category-title-edit-thank": "धन्यवाद",
 	"notification-thanks-diff-link": "आपल्या या संपादना",
 	"notification-thanks": "[[User:$1|$1]] ने [[:$3]] वर $2 करीता {{GENDER:$1|धन्यवाद दिलेत.}}",
-	"notification-header-edit-thank": "$1 ने {{GENDER:$4|आपणास}} आपल्या $3 वरील संपादनास {{GENDER:$2|धन्यवाद दिलेत}}  .",
+	"notification-header-edit-thank": "$1 ने {{GENDER:$4|आपणास}} आपल्या '''$3''' वरील संपादनास {{GENDER:$2|धन्यवाद दिलेत}}  .",
 	"notification-thanks-email-subject": "$1 ने {{SITENAME}}वर  {{GENDER:$1|धन्यवाद दिलेत}}आपण केलेल्या संपादनाबाबत",
 	"notification-thanks-email-batch-body": "$1 ने आपण $2वर केलेल्या संपादनाबाबत आपणास {{GENDER:$1|धन्यवाद दिलेत.}}",
 	"log-name-thanks": "धन्यवादाच्या नोंदी",
@@ -33,5 +34,5 @@
 	"notification-link-text-view-post": "अभिप्राय बघा",
 	"flow-thanks-confirmation-special": "या अभिप्रायास आपणास सार्वजनिकरित्या धन्यवाद पाठवायचे आहेत काय?",
 	"notification-flow-thanks-post-link": "आपला अभिप्राय",
-	"notification-header-flow-thank": "$1 ने {{GENDER:$5|आपणास}}, \"$3\" मधील आपल्या अभिप्रायाबद्दल, $4 वर{{GENDER:$2|धन्यवाद दिलेत}}"
+	"notification-header-flow-thank": "$1 ने {{GENDER:$5|आपणास}}, \"'''$3'''\" मधील आपल्या अभिप्रायाबद्दल, '''$4''' वर{{GENDER:$2|धन्यवाद दिलेत}}"
 }

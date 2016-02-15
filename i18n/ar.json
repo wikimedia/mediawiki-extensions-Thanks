@@ -7,7 +7,8 @@
 			"مشعل الحربي",
 			"Abanima",
 			"Meno25",
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"Macofe"
 		]
 	},
 	"thanks-desc": "تضيف روابط للشكر على صفحات التاريخ والفرق",
@@ -29,7 +30,7 @@
 	"echo-category-title-edit-thank": "شكر",
 	"notification-thanks-diff-link": "تعديلك",
 	"notification-thanks": "{{GENDER:$1|شكرك|شكرتك}} [[User:$1|$1]] على $2 في [[:$3]].",
-	"notification-header-edit-thank": "$1 شكر{{GENDER:$2||ت}}ك على {{GENDER:$4|تعديلك}} في $3.",
+	"notification-header-edit-thank": "$1 شكر{{GENDER:$2||ت}}ك على {{GENDER:$4|تعديلك}} في '''$3'''.",
 	"notification-thanks-email-subject": "$1 {{GENDER:$1|شكرك|شكرتك}} على تعديلك في {{SITENAME}}",
 	"notification-thanks-email-batch-body": "$1 {{GENDER:$1|شكرك|شكرتك}} على تعديلك في $2.",
 	"log-name-thanks": "سجل الشكر",

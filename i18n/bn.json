@@ -4,7 +4,8 @@
 			"Aftab1995",
 			"Bellayet",
 			"Nasir8891",
-			"Aftabuzzaman"
+			"Aftabuzzaman",
+			"Macofe"
 		]
 	},
 	"thanks-desc": "সম্পাদনা, মতামত, ইত্যাদি জন্য ব্যবহারকারীদের ধন্যবাদের লিংক সংযোজন করে",
@@ -28,7 +29,7 @@
 	"echo-category-title-edit-thank": "ধন্যবাদসমূহ",
 	"notification-thanks-diff-link": "আপনার সম্পাদনা",
 	"notification-thanks": "[[User:$1|$1]] আপনাকে [[:$3]] পাতায় $2-এর জন্য {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
-	"notification-header-edit-thank": "$1 $3-এ আপনার সম্পাদনার জন্য {{GENDER:$4|আপনাকে}} {{GENDER:$2|ধন্যবাদ জানিয়েছেন}}।",
+	"notification-header-edit-thank": "$1 '''$3'''-এ আপনার সম্পাদনার জন্য {{GENDER:$4|আপনাকে}} {{GENDER:$2|ধন্যবাদ জানিয়েছেন}}।",
 	"notification-thanks-email-subject": "{{SITENAME}} সম্পাদনার জন্য $1 আপনাকে {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
 	"notification-thanks-email-batch-body": "$2-এ সম্পাদনার জন্য $1 আপনাকে {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
 	"log-name-thanks": "ধন্যবাদ লগ",
@@ -43,7 +44,7 @@
 	"flow-thanks-thanked-notice": "$1 {{GENDER:$2|তার|তার|তাদের}} মন্তব্যের জন্য আপনার ধন্যবাদ পেয়েছেন।",
 	"notification-flow-thanks": "[[:$4]] পাতায় \"$3\"-এ $2-এর জন্য [[User:$1|$1]] {{GENDER:$5|আপনাকে}} {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
 	"notification-flow-thanks-post-link": "আপনার মন্তব্য",
-	"notification-header-flow-thank": "$4 পাতায় \"$3\"-এ আপনার মন্তব্যের জন্য $1 {{GENDER:$5|আপনাকে}} {{GENDER:$2|ধন্যবাদ}} জানিয়েছেন।",
+	"notification-header-flow-thank": "'''$4''' পাতায় \"'''$3'''\"-এ আপনার মন্তব্যের জন্য $1 {{GENDER:$5|আপনাকে}} {{GENDER:$2|ধন্যবাদ}} জানিয়েছেন।",
 	"notification-flow-thanks-email-subject": "{{SITENAME}} মন্তব্যের জন্য $1 {{GENDER:$2|আপনাকে}} {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
 	"notification-flow-thanks-email-batch-body": "$3 পাতায় \"$2\"-এ মন্তব্যের জন্য $1 {{GENDER:$4|আপনাকে}} {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
 	"apihelp-flowthank-description": "একটি ফ্লো মন্তব্যের জন্য একটি প্রকাশ্য আপনাকে-ধন্যবাদ বিজ্ঞপ্তি পাঠায়।"

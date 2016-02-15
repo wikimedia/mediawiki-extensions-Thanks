@@ -3,7 +3,8 @@
 		"authors": [
 			"Lloffiwr",
 			"Robin Owain",
-			"Diafol"
+			"Diafol",
+			"Macofe"
 		]
 	},
 	"thanks-desc": "Ychwanegu cysylltau er mwyn diolch i'r golygon",
@@ -24,7 +25,7 @@
 	"echo-category-title-edit-thank": "Diolch",
 	"notification-thanks-diff-link": "eich golygiad",
 	"notification-thanks": "{{GENDER:$1|Anfonodd}} [[User:$1|$1]] air o ddiolch i chi am $2 ar [[:$3]].",
-	"notification-header-edit-thank": "$1 Rhododd {{GENDER:$2|air o ddiolch}} i {{GENDER:$4|chi}} am eich golygiad ar $3.",
+	"notification-header-edit-thank": "$1 Rhododd {{GENDER:$2|air o ddiolch}} i {{GENDER:$4|chi}} am eich golygiad ar '''$3'''.",
 	"notification-thanks-email-subject": "{{GENDER:$1|Anfonodd}} $1 air o ddiolch i chi am eich golygiad ar {{SITENAME}}",
 	"notification-thanks-email-batch-body": "{{GENDER:$1|Anfonodd}} $1 air o ddiolch i chi am eich golygiad ar $2.",
 	"log-name-thanks": "Lòg diolchiadau",
