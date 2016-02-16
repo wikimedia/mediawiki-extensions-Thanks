@@ -18,6 +18,7 @@
 	"thanks-confirmation2": "გსურთ ამ რედაქტირებისათვის მადლობა {{GENDER:$1|გააგზავნოთ}}?",
 	"thanks-thanked-notice": "მომხმარებელს/მომხმარებლებს $1 გაეგზავნა(თ) შეტყობინება, რომ თქვენ მოიწონეთ {{GENDER:$2|მისი|მისი|მათი}} რედაქტირება.",
 	"thanks": "გადაუხადე მადლობა",
+	"thanks-submit": "გადაუხადე მადლობა",
 	"echo-pref-subscription-edit-thank": "მადლობა ჩემი რედაქტირებისათვის",
 	"echo-pref-tooltip-edit-thank": "შემატყობინე, როდესაც ვინმე მადლობას გადამიხდის ჩემი რედაქტირებისათვის",
 	"echo-category-title-edit-thank": "გმადლობ",
@@ -28,5 +29,6 @@
 	"notification-thanks-email-batch-body": "მომხმარებელმა $1 {{GENDER:$1|მადლობა გადაგიხადათ}} თქვენი რედაქტირებისათვის $2.",
 	"log-name-thanks": "„მადლობის“ ჟურნალი",
 	"log-description-thanks": "ქვემოთ მოცემულია მომხმარებელთა სია, რომელთაც სხვა მომხმარებლებმა გადაუხადეს მადლობა",
-	"log-show-hide-thanks": "$1 „მადლობის“ ჟურნალი"
+	"log-show-hide-thanks": "$1 „მადლობის“ ჟურნალი",
+	"notification-flow-thanks-post-link": "თქვენი კომენტარი"
 }
