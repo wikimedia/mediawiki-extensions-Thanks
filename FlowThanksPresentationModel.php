@@ -38,14 +38,6 @@ class EchoFlowThanksPresentationModel extends Flow\FlowPresentationModel {
 	}
 
 	public function getSecondaryLinks() {
-		$titleLink = array(
-			'url' => $this->event->getTitle()->getLocalURL(),
-			'label' => $this->event->getTitle()->getPrefixedText(),
-			'description' => '',
-			'icon' => 'speechBubbles',
-			'prioritized' => true,
-		);
-
-		return array( $this->getAgentLink(), $titleLink );
+		return array( $this->getAgentLink(), $this->getBoardLink() );
 	}
 }
