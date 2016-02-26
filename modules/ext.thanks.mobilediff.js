@@ -1,7 +1,5 @@
 ( function ( mw, M, $ ) {
-	var popup = M.require( 'mobile.toast/toast' ),
-		SchemaMobileWebClickTracking = M.require( 'mobile.loggingSchemas/SchemaMobileWebClickTracking' ),
-		schema = new SchemaMobileWebClickTracking( {}, 'MobileWebDiffClickTracking' );
+	var popup = M.require( 'mobile.toast/toast' );
 
 	/**
 	 * Create a thank button for a given edit
@@ -60,10 +58,6 @@
 					)
 					.on( 'click', function () {
 						var $this = $( this );
-						schema.log( {
-							name: 'thank',
-							destination: name
-						} );
 						if ( !$this.hasClass( 'thanked' ) ) {
 							thankUser( name, rev, gender  ).done( function () {
 								$this.addClass( 'thanked' ).prop( 'disabled', true )
