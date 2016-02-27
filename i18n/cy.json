@@ -8,7 +8,7 @@
 		]
 	},
 	"thanks-desc": "Ychwanegu cysylltau er mwyn diolch i'r golygon",
-	"thanks-thank": "$1 yn diolch $2",
+	"thanks-thank": "$1 yn diolch i $2",
 	"thanks-thanked": "{{GENDER:$1|diolchwyd}}",
 	"thanks-button-thank": "{{GENDER:$1|Diolcher}}",
 	"thanks-button-thanked": "{{GENDER:$1|Diolchwyd}}",
