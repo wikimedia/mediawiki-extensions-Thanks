@@ -46,7 +46,7 @@
 	"flow-thanks-thanked-notice": "$1 on saanut lähettämäsi kiitokset {{GENDER:$2|kirjoittamastaan}} kommentista.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|kiitti}} {{GENDER:$5|sinua}} $2 aiheesta ”$3” sivulla [[:$4]].",
 	"notification-flow-thanks-post-link": "kommentistasi",
-	"notification-header-flow-thank": "$1 {{GENDER:$2|kiitti}} {{GENDER:$5|sinua}} kommentistasi osiossa \"'''$3'''\" sivulla '''$4'''.",
+	"notification-header-flow-thank": "$1 {{GENDER:$2|kiitti}} {{GENDER:$5|sinua}} kommentistasi osiossa '''$3''' sivulla '''$4'''.",
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|kiitti}} {{GENDER:$2|sinua}} kommentistasi {{GRAMMAR:inessive|{{SITENAME}}}}",
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|kitti}} {{GENDER:$4|sinua}} kommentistasi aiheessa ”$2” sivulla $3.",
 	"apihelp-flowthank-description": "Lähetä näkyvä kiitoksesi kommentista Flow'ssa.",
@@ -54,6 +54,6 @@
 	"apihelp-flowthank-example-1": "Lähetä kiitokset kommentista, jonka <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Lähetä kiitokset jollekulle muokkaajalle.",
 	"apihelp-thank-param-rev": "Sivuversion tunnistenumero, josta kiitetään.",
-	"apihelp-thank-param-source": "Lyhyt merkkijono, joka kertoo pyynnön lähteestä. Esimerkiksi \"<kbd>diff</kbd>i\" tai \"<kbd>history</kbd>\".",
+	"apihelp-thank-param-source": "Lyhyt merkkijono, joka kertoo pyynnön lähteestä. Esimerkiksi <kbd>diff</kbd>i tai <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "Lähetä kiitoksesi sivuversiosta <kbd>ID 456</kbd> niin, että lähteenä on vertailusivu"
 }

@@ -45,7 +45,7 @@
 	"flow-thanks-thanked-notice": "$1 {{GENDER:$2|קיבל|קיבלה}} את התודה שלך על ההערה {{GENDER:$2|שלו|שלה}}.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|הודה|הודתה}} {{GENDER:$5|לך}} על $2 בנושא \"$3\" בדף [[:$4]].",
 	"notification-flow-thanks-post-link": "התגובה שלך",
-	"notification-header-flow-thank": "$1 {{GENDER:$2|הודה|הודתה}} {{GENDER:$5|לך}} על הערתך בנושא \"'''$3'''\" בדף '''$4'''.",
+	"notification-header-flow-thank": "$1 {{GENDER:$2|הודה|הודתה}} {{GENDER:$5|לך}} על הערתך בנושא '''$3''' בדף '''$4'''.",
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|הודה|הודתה}} {{GENDER:$2|לך}} על התגובה שלך באתר {{SITENAME}}",
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|הודה|הודתה}} {{GENDER:$4|לך}} על התגובה שלך בנושא \"$2\" בדף $3.",
 	"apihelp-flowthank-description": "לשלוח הודעת תודה פומבית על הערת זרימה.",
@@ -53,6 +53,6 @@
 	"apihelp-flowthank-example-1": "לשלוח תודה על הערה עם <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "שליחת הודעת תודה לעורך.",
 	"apihelp-thank-param-rev": "מזהה גרסה להודות עליה.",
-	"apihelp-thank-param-source": "מחרוזת קצרה שמתארת את מקור הבקשה, למשל \"<kbd>diff</kbd>\" או \"<kbd>history</kbd>\".",
+	"apihelp-thank-param-source": "מחרוזת קצרה שמתארת את מקור הבקשה, למשל <kbd>diff</kbd> או <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "שליחת תודה עבור מזהה גרסה <kbd>ID 456</kbd, שהמקור שלה הוא דף diff."
 }

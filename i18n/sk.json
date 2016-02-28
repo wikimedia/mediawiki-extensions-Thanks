@@ -43,7 +43,7 @@
 	"flow-thanks-thanked-notice": "{{GENDER:$2|$1}} {{GENDER:$2|prijal|prijala}} vaše poďakovanie za komentár.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$5|vám}} {{GENDER:$1|poďakoval|poďakovala}} za $2 k „$3“ na stránke [[:$4]].",
 	"notification-flow-thanks-post-link": "váš komentár",
-	"notification-header-flow-thank": "$1 {{GENDER:$5|vám}} {{GENDER:$2|poďakoval|poďakovala}} za komentár k „'''$3'''“ na stránke '''$4'''.",
+	"notification-header-flow-thank": "$1 {{GENDER:$5|vám}} {{GENDER:$2|poďakoval|poďakovala}} za komentár k '''$3''' na stránke '''$4'''.",
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$2|vám}} {{GENDER:$1|poďakoval|poďakovala}} za váš komentár na {{grammar:6sg|{{SITENAME}}}}",
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$4|vám}} {{GENDER:$1|poďakoval|poďakovala}} za váš komentár k „$2“ na stránke $3."
 }

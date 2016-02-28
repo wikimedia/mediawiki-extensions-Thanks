@@ -38,7 +38,7 @@
 	"flow-thanks-thanked-notice": "$1 האט באקומען אייער דאנק פאר {{GENDER:$2|זיין|איר|זייער}} הערה.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|האט געדאַנקט}} {{GENDER:$5|אייך}} פאר $2 אין \"$3\" אויף [[:$4]].",
 	"notification-flow-thanks-post-link": "אייער הערה",
-	"notification-header-flow-thank": "$1 {{GENDER:$2|האט}} {{GENDER:$5|אייך}} געדאַנקט פֿאר אייער הערה אין \"'''$3'''\" אויף '''$4'''.",
+	"notification-header-flow-thank": "$1 {{GENDER:$2|האט}} {{GENDER:$5|אייך}} געדאַנקט פֿאר אייער הערה אין '''$3''' אויף '''$4'''.",
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|האט}} {{GENDER:$2|אייך}} געדאַנקט פֿאר אייער הערה אויף {{SITENAME}}",
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|האט}} {{GENDER:$4|אייך}} געדאַנקט פֿאר אייער הערה אין \"$2\" אויף $3.",
 	"apihelp-thank-description": "שיקן א ייש״כ־מודעה צו א רעדאקטאר."

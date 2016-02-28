@@ -42,7 +42,7 @@
 	"flow-thanks-thanked-notice": "Kasutaja $1 {{GENDER:$2|sai}} kätte sinu tänusõnad kommentaari eest.",
 	"notification-flow-thanks": "[[User:$1|$1]] tänas {{GENDER:$5|sind}} $2 eest teemal \"$3\" leheküljel \"[[:$4]]\".",
 	"notification-flow-thanks-post-link": "kommentaari",
-	"notification-header-flow-thank": "$1 {{GENDER:$2|tänas}} {{GENDER:$5|sind}} kommentaari eest leheküljel '''$4''' teemas \"'''$3'''\".",
+	"notification-header-flow-thank": "$1 {{GENDER:$2|tänas}} {{GENDER:$5|sind}} kommentaari eest leheküljel '''$4''' teemas '''$3'''.",
 	"notification-flow-thanks-email-subject": "$1 tänas {{GENDER:$2|sind}} kommentaari eest {{GRAMMAR:inessive|{{SITENAME}}}}",
 	"notification-flow-thanks-email-batch-body": "$1 tänas {{GENDER:$4|sind}} kommentaari eest teemal \"$2\" leheküljel \"$3\".",
 	"apihelp-flowthank-description": "Avaliku tänuteavituse saatmine voogarutelu kommentaari eest.",
@@ -50,6 +50,6 @@
 	"apihelp-flowthank-example-1": "Täna postituse eest, selle <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Tänuteavituse saatmine toimetajale.",
 	"apihelp-thank-param-rev": "Redaktsioon, mille eest tänada, selle identifikaator.",
-	"apihelp-thank-param-source": "Lühisõne, mis kirjeldab päringu allikat, näiteks \"<kbd>diff</kbd>\" või \"<kbd>history</kbd>\".",
+	"apihelp-thank-param-source": "Lühisõne, mis kirjeldab päringu allikat, näiteks <kbd>diff</kbd> või <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "Täna redaktsiooni <kbd>ID 456</kbd eest, allikas on erinevuste lehekülg"
 }

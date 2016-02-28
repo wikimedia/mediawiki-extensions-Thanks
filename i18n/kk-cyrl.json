@@ -41,7 +41,7 @@
 	"flow-thanks-thanked-notice": "$1 есімді қатысушыға {{GENDER:$2|оның|оның}} пікіріне рахметіңізді білдіруіңіз жіберілді.",
 	"notification-flow-thanks": "{{GENDER:$5|Сізге}} [[User:$1|$1]] [[:$4]] беті «$3» бөліміндегі $2 {{GENDER:$1|рахметін}} білдірді.",
 	"notification-flow-thanks-post-link": "пікіріңізге",
-	"notification-header-flow-thank": "$1 {{GENDER:$5|сізге}} $1 '''$4''' беті «'''$3'''» бөліміндегі пікіріңізге {{GENDER:$2|рахметін}} білдірді.",
+	"notification-header-flow-thank": "$1 {{GENDER:$5|сізге}} $1 '''$4''' беті '''$3''' бөліміндегі пікіріңізге {{GENDER:$2|рахметін}} білдірді.",
 	"notification-flow-thanks-email-subject": "{{GENDER:$2|Сізге}} $1 {{SITENAME}} сайтындағы пікіріңізге {{GENDER:$1|рахметін}} білдірді.",
 	"notification-flow-thanks-email-batch-body": "{{GENDER:$4|Сізге}} $1 $3 беті «$2» бөліміндегі пікіріңізге {{GENDER:$1|рахметін}} білдірді.",
 	"apihelp-flowthank-description": "Flow жұмыс легіндегі пікір үшін жария түрде рахмет ескертпесін жіберу.",

@@ -59,7 +59,7 @@
 	"flow-thanks-thanked-notice": "$1 a été {{GENDER:$2|averti|avertie|averti(e)}} que vous avez apprécié son commentaire.",
 	"notification-flow-thanks": "[[User:$1|$1]] vous a {{GENDER:$5|remercié|remerciée|remercié(e)}} pour $2 dans « $3 » sur [[:$4]].",
 	"notification-flow-thanks-post-link": "votre commentaire",
-	"notification-header-flow-thank": "$1 {{GENDER:$5|vous}} {{GENDER:$2|a remercié|a remerciée|a remercié(e)}} pour votre commentaire de « '''$3''' » sur '''$4'''.",
+	"notification-header-flow-thank": "$1 {{GENDER:$5|vous}} {{GENDER:$2|a remercié|a remerciée|a remercié(e)}} pour votre commentaire de '''$3''' sur '''$4'''.",
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$2|vous}} a remercié{{GENDER:||e|(e)}} pour votre commentaire sur {{SITENAME}}",
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$4|vous}} a remercié{{GENDER:||e|(e)}} pour votre commentaire dans « $2 » sur $3.",
 	"apihelp-flowthank-description": "Envoyer des remerciements pour un « contenu Flow ».",
@@ -67,6 +67,6 @@
 	"apihelp-flowthank-example-1": "Remercier pour le commentaire ayant l’<kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Envoyer des remerciements à un éditeur.",
 	"apihelp-thank-param-rev": "ID de révision pour lequel remercier quelqu’un.",
-	"apihelp-thank-param-source": "Une chaîne courte décrivant la source de la requête, par exemple, « <kbd>diff</kbd> » ou « <kbd>history</kbd> ».",
+	"apihelp-thank-param-source": "Une chaîne courte décrivant la source de la requête. Par exemple, <kbd>diff</kbd> ou <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "Envoyer des remerciements pour l’ID de révision <kbd>ID 456</kbd, avec la source étant une page de différence"
 }

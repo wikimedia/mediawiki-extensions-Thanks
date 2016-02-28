@@ -3,7 +3,8 @@
 		"authors": [
 			"Gmelfi",
 			"Pippinu",
-			"Sarvaturi"
+			"Sarvaturi",
+			"Macofe"
 		]
 	},
 	"thanks-desc": "Agghiunci culligamenti pi ringrazziari a l'utenti pî canciamenti, pî cummenti, ecc.",
@@ -45,6 +46,6 @@
 	"apihelp-flowthank-example-1": "Manna ringrazziamenti pû cummentu cu <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Manna na nutìfica di ringrazziamentu pûn cuntribbuturi.",
 	"apihelp-thank-param-rev": "L'ID dâ virsioni pâ quali si ringrazzia a quarchidunu.",
-	"apihelp-thank-param-source": "Na stringa curta chi discrivi la fonti di l'addumannata, p'esempiu \"<kbd>diff</kbd>\" o \"<kbd>history</kbd>\".",
+	"apihelp-thank-param-source": "Na stringa curta chi discrivi la fonti di l'addumannata. P'esempiu, <kbd>diff</kbd> o <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "Manna ringrazziamenti pâ virsioni di <kbd>ID 456</kbd>, unni la fonti è na pàggina di cunfrontu tra virsioni"
 }

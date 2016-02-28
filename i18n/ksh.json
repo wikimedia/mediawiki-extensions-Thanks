@@ -41,7 +41,7 @@
 	"flow-thanks-thanked-notice": "{{GENDER:$2|Dä|Dat|Dä Metmaacher|De|Dat}} $1 hät Dinge Dangk krähje för wat {{GENDER:$2|hä|et|hä|sei|et}} jeschrevve hät.",
 	"notification-flow-thanks": "{{GENDER:$1|Dä|Dat|Dä Metmaacher|De|Dat}} \n[[User:$1|$1]] hät sesch bei Der bedangk för $2 dä Övverschreff „$3“ op dä Sigg „[[:$4]]“.{{GENDER:$5|}}",
 	"notification-flow-thanks-post-link": "wat de jeschrevve häs",
-	"notification-header-flow-thank": "{{GENDER:$2|Dä|Dat|Dä Metmaacher|De|Dat}} \n$1 hät sesch bei Der bedangk för wat de em Affschnedd „'''$3'''“ op dä Sigg '''$4''' aanjemärk häs.{{GENDER:$5|}}",
+	"notification-header-flow-thank": "{{GENDER:$2|Dä|Dat|Dä Metmaacher|De|Dat}} $1 hät sesch bei Der bedangk för wat de em Affschnedd '''$3''' op dä Sigg '''$4''' aanjemärk häs.{{GENDER:$5|}}",
 	"notification-flow-thanks-email-subject": "{{GENDER:$1|Dä|Dat|Dä Metmaacher|De|Dat}} $1 hät sesch bei Der bedangk för wat de {{GRAMMAR:em|{{ucfirst:{{SITENAME}}}}}} jeschrevve häs.{{GENDER:$2|}}",
 	"notification-flow-thanks-email-batch-body": "{{GENDER:$1|Dä|Dat|Dä Metmaacher|De|Dat}} \n$1 hät sesch bei Der bedangk för wat de em Affschnedd „$2“ op di Sigg „$3“ jeschrevve häs.{{GENDER:$4|}}",
 	"apihelp-flowthank-description": "Schegg en öffentlesche Nohreesch zom Bedanke för ene  Flow Kommäntaa.",
@@ -49,6 +49,6 @@
 	"apihelp-flowthank-example-1": "Donn ene Dank schecke för dä Beijdraach met dä <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"\">UUID</i> „<kbdlang=\"en\" xml:lang=\"en\" dir=\"ltr\">xyz789</kbd>“",
 	"apihelp-thank-description": "Schegg ene Dangk aan ene Schrihver.",
 	"apihelp-thank-param-rev": "De Kännong vun ene Väsjohn för sesch bei einem för ze bedangke.",
-	"apihelp-thank-param-source": "Ene koote Täx öm ze sahre, woh di Frohch hehr küdd, „<code lang=\"en\" xml:lang=\"en\" dir=\"ltr\"><kbd>diff</kbd></code>“ uddder „<code lang=\"en\" xml:lang=\"en\" dir=\"ltr\"><kbd>history</kbd></code>“ för e Beijschpell.\n<!-- \nhttps://translatewiki.net/wiki/Thread:Support/About_MediaWiki:Apihelp-thank-param-source/en\n-->",
+	"apihelp-thank-param-source": "Ene koote Täx öm ze sahre, woh di Frohch hehr küdd, <code lang=\"en\" xml:lang=\"en\" dir=\"ltr\"><kbd>diff</kbd></code> uddder <code lang=\"en\" xml:lang=\"en\" dir=\"ltr\"><kbd>history</kbd></code> för e Beijschpell.\n<!-- \nhttps://translatewiki.net/wiki/Thread:Support/About_MediaWiki:Apihelp-thank-param-source/en\n-->",
 	"apihelp-thank-example-1": "Scheck ene Dangk för de Väsjohn met dä Kännong 456, woh de Quäll en Sigg met Ongerscheide es."
 }

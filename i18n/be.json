@@ -30,6 +30,6 @@
 	"logentry-thanks-thank": "$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$4|удзельніку|ўдзельніцы}} $3",
 	"log-show-hide-thanks": "$1 журнал падзяк",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|падзякаваў|падзякавала}} {{GENDER:$5|вам}} за $2 у \"$3\" на [[:$4]].",
-	"notification-header-flow-thank": "$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$5|вам}} за ваш каментарый у «'''$3'''» на '''$4'''.",
+	"notification-header-flow-thank": "$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$5|вам}} за ваш каментарый у '''$3''' на '''$4'''.",
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|падзякаваў|падзякавала}} {{GENDER:$4|вам}} за ваш каментарый у \"$2\" на $3."
 }

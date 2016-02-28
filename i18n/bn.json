@@ -44,7 +44,7 @@
 	"flow-thanks-thanked-notice": "$1 {{GENDER:$2|তার|তার|তাদের}} মন্তব্যের জন্য আপনার ধন্যবাদ পেয়েছেন।",
 	"notification-flow-thanks": "[[:$4]] পাতায় \"$3\"-এ $2-এর জন্য [[User:$1|$1]] {{GENDER:$5|আপনাকে}} {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
 	"notification-flow-thanks-post-link": "আপনার মন্তব্য",
-	"notification-header-flow-thank": "'''$4''' পাতায় \"'''$3'''\"-এ আপনার মন্তব্যের জন্য $1 {{GENDER:$5|আপনাকে}} {{GENDER:$2|ধন্যবাদ}} জানিয়েছেন।",
+	"notification-header-flow-thank": "'''$4''' পাতায় '''$3'''-এ আপনার মন্তব্যের জন্য $1 {{GENDER:$5|আপনাকে}} {{GENDER:$2|ধন্যবাদ}} জানিয়েছেন।",
 	"notification-flow-thanks-email-subject": "{{SITENAME}} মন্তব্যের জন্য $1 {{GENDER:$2|আপনাকে}} {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
 	"notification-flow-thanks-email-batch-body": "$3 পাতায় \"$2\"-এ মন্তব্যের জন্য $1 {{GENDER:$4|আপনাকে}} {{GENDER:$1|ধন্যবাদ}} জানিয়েছেন।",
 	"apihelp-flowthank-description": "একটি ফ্লো মন্তব্যের জন্য একটি প্রকাশ্য আপনাকে-ধন্যবাদ বিজ্ঞপ্তি পাঠায়।"

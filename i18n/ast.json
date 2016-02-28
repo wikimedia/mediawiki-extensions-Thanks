@@ -41,7 +41,7 @@
 	"flow-thanks-thanked-notice": "$1 recibió'l to agradecimientu {{GENDER:$2|pol so}} comentariu.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$5|dióte}} les {{GENDER:$1|gracies}} por $2 en «$3» de [[:$4]].",
 	"notification-flow-thanks-post-link": "el so comentariu",
-	"notification-header-flow-thank": "$1 {{GENDER:$5|dióte}} les {{GENDER:$2|gracies}} pol to comentariu en «'''$3'''» sobre '''$4'''.",
+	"notification-header-flow-thank": "$1 {{GENDER:$5|dióte}} les {{GENDER:$2|gracies}} pol to comentariu en '''$3''' sobre '''$4'''.",
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$2|dióte}} les {{GENDER:$1|gracies}} pol to comentariu en {{SITENAME}}",
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$4|dióte}} les {{GENDER:$1|gracies}} pol to comentariu en «$2» de $3.",
 	"apihelp-flowthank-description": "Unviar una notificación pública d'agradecimientu por un comentariu en Flow.",
@@ -49,6 +49,6 @@
 	"apihelp-flowthank-example-1": "Unviar un agradecimientu pol comentariu con <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Unviar una notificación d'agradecimientu a un editor.",
 	"apihelp-thank-param-rev": "ID de la revisión pola que dar les gracies a dalguién.",
-	"apihelp-thank-param-source": "Un testu curtiu que describa l'orixe de la solicitú. Por exemplu, \"<kbd>diff</kbd>\" o \"<kbd>history</kbd>\".",
+	"apihelp-thank-param-source": "Un testu curtiu que describa l'orixe de la solicitú. Por exemplu, <kbd>diff</kbd> o <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "Dar les gracies pola revisión con <kbd>ID 456</kbd>, siendo la fonte una páxina de diff"
 }

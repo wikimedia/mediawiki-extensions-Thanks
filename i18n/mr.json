@@ -34,5 +34,5 @@
 	"notification-link-text-view-post": "अभिप्राय बघा",
 	"flow-thanks-confirmation-special": "या अभिप्रायास आपणास सार्वजनिकरित्या धन्यवाद पाठवायचे आहेत काय?",
 	"notification-flow-thanks-post-link": "आपला अभिप्राय",
-	"notification-header-flow-thank": "$1 ने {{GENDER:$5|आपणास}}, \"'''$3'''\" मधील आपल्या अभिप्रायाबद्दल, '''$4''' वर{{GENDER:$2|धन्यवाद दिलेत}}"
+	"notification-header-flow-thank": "$1 ने {{GENDER:$5|आपणास}}, '''$3''' मधील आपल्या अभिप्रायाबद्दल, '''$4''' वर{{GENDER:$2|धन्यवाद दिलेत}}"
 }

@@ -13,7 +13,8 @@
 			"Impersonator 1",
 			"王庭茂",
 			"Northteam",
-			"EagerLin"
+			"EagerLin",
+			"Macofe"
 		]
 	},
 	"thanks-desc": "添加感谢用户进行编辑、评论等行为的链接。",
@@ -52,7 +53,7 @@
 	"flow-thanks-thanked-notice": "$1已收到您对{{GENDER:$2|他|她|他们}}的评论做出的感谢。",
 	"notification-flow-thanks": "[[User:$1|$1]]感谢了{{GENDER:$5|您}}在[[:$4]]的“$3”发表的$2。",
 	"notification-flow-thanks-post-link": "您的评论",
-	"notification-header-flow-thank": "$1{{GENDER:$2|感谢了}}{{GENDER:$5|您}}在'''$4'''的“'''$3'''”发表的评论。",
+	"notification-header-flow-thank": "$1{{GENDER:$2|感谢了}}{{GENDER:$5|您}}在'''$4'''的'''$3'''发表的评论。",
 	"notification-flow-thanks-email-subject": "$1感谢了{{GENDER:$2|您}}在{{SITENAME}}发表的评论",
 	"notification-flow-thanks-email-batch-body": "$1感谢了{{GENDER:$4|您}}在$3的“$2”发表的评论。",
 	"apihelp-flowthank-description": "为一条Flow评论公开发送感谢通知。",
@@ -60,6 +61,6 @@
 	"apihelp-flowthank-example-1": "为<kbd>UUID xyz789</kbd>的评论发送感谢",
 	"apihelp-thank-description": "向一名编辑者发送感谢通知。",
 	"apihelp-thank-param-rev": "要感谢某人的版本ID。",
-	"apihelp-thank-param-source": "一个描述请求来源的短字符串，例如“<kbd>diff</kbd>”或“<kbd>history</kbd>”。",
+	"apihelp-thank-param-source": "一个描述请求来源的短字符串，例如<kbd>diff</kbd>或<kbd>history</kbd>。",
 	"apihelp-thank-example-1": "为修订<kbd>ID 456</kbd>发送感谢，将差异页面作为来源"
 }

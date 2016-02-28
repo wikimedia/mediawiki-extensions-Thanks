@@ -44,7 +44,7 @@
 	"flow-thanks-thanked-notice": "$1 gavo jūsų padėką už {{GENDER:$2|jo|jos|jų}} komentarą.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|padėkojo}} {{GENDER:$5|Jums}} už $2 tema \"$3\" puslapyje [[:$4]].",
 	"notification-flow-thanks-post-link": "jūsų komentaras",
-	"notification-header-flow-thank": "$1 {{GENDER:$2|padėkojo}} {{GENDER:$5|jums}} už jūsų komentarą tema \"'''$3'''\" puslapyje '''$4'''.",
+	"notification-header-flow-thank": "$1 {{GENDER:$2|padėkojo}} {{GENDER:$5|jums}} už jūsų komentarą tema '''$3''' puslapyje '''$4'''.",
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|padėkojo}} {{GENDER:$2|jums}} už jūsų komentarą {{SITENAME}} tinklapyje",
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|padėkojo}} {{GENDER:$4|jums}} už jūsų komentarą \"$2\" tema $3 puslapyje.",
 	"apihelp-flowthank-description": "Siųsti viešą padėkos pranešimą už Srauto komentarą.",
@@ -52,6 +52,6 @@
 	"apihelp-flowthank-example-1": "Siųsti padėką už komentarą su <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Siųsti padėkos pranešimą redaktoriui.",
 	"apihelp-thank-param-rev": "ID versijos, už kurią padėkoti.",
-	"apihelp-thank-param-source": "Trumpa eilutė, apibūdinanti užklausos šaltinį, pavyzdžiui, \"<kbd>diff</kbd>\" arba \"<kbd>history</kbd>\".",
+	"apihelp-thank-param-source": "Trumpa eilutė, apibūdinanti užklausos šaltinį, pavyzdžiui <kbd>diff</kbd> arba <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "Siųsti padėką už versiją, kurios <kbd>ID 456</kbd> ir šaltinis yra skirtumų puslapis"
 }

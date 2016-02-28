@@ -41,7 +41,7 @@
 	"flow-thanks-thanked-notice": "$1 je {{GENDER:$2|obavešten da vam se sviđa njegov|obaveštena da vam se sviđa njen}} komentar.",
 	"notification-flow-thanks": "[[User:$1|$1]] vam {{GENDER:$5|se}} {{GENDER:$1|zahvaljuje}} na $2 u temi „$3“ na stranici [[:$4]].",
 	"notification-flow-thanks-post-link": "vašem komentaru",
-	"notification-header-flow-thank": "$1 Vam se {{GENDER:$2|zahvaljuje}} {{GENDER:$5|na}} vašem komentaru u „'''$3'''“ na '''$4'''.",
+	"notification-header-flow-thank": "$1 Vam se {{GENDER:$2|zahvaljuje}} {{GENDER:$5|na}} vašem komentaru u '''$3''' na '''$4'''.",
 	"notification-flow-thanks-email-subject": "$1 vam se {{GENDER:$1|zahvaljuje}} {{GENDER:$2|na}} vašem komentaru na sajtu {{SITENAME}}",
 	"notification-flow-thanks-email-batch-body": "$1 vam se {{GENDER:$1|zahvaljuje}} {{GENDER:$4|na}} vašem komentaru u temi „$2“ na stranici $3."
 }

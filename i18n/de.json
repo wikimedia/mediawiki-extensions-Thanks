@@ -50,7 +50,7 @@
 	"flow-thanks-thanked-notice": "$1 erhielt deine Dankeschöns für {{GENDER:$2|seinen|ihren}} Kommentar.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|dankte}} {{GENDER:$5|dir}} für $2 in „$3“ auf [[:$4]].",
 	"notification-flow-thanks-post-link": "deinen Kommentar",
-	"notification-header-flow-thank": "$1 {{GENDER:$2|dankte}} {{GENDER:$5|dir}} für deinen Kommentar „'''$3'''“ auf '''$4'''.",
+	"notification-header-flow-thank": "$1 {{GENDER:$2|dankte}} {{GENDER:$5|dir}} für deinen Kommentar '''$3''' auf '''$4'''.",
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|dankte}} {{GENDER:$2|dir}} für deinen Kommentar auf {{SITENAME}}",
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|dankte}} {{GENDER:$4|dir}} für deinen Kommentar in „$2“ auf $3.",
 	"apihelp-flowthank-description": "Ein öffentliches Dankeschön für einen Flow-Beitrag senden.",
@@ -58,6 +58,6 @@
 	"apihelp-flowthank-example-1": "Sendet Dankeschöns für den Kommentar mit der <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Sendet eine Dankeschön-Benachrichtigung an einen Autor.",
 	"apihelp-thank-param-rev": "Versionskennung, für die gedankt werden soll.",
-	"apihelp-thank-param-source": "Eine kurze Zeichenkette, die die Quelle der Anfrage beschreibt. Zum Beispiel, \"<kbd>diff</kbd>\" oder \"<kbd>history</kbd>\".",
+	"apihelp-thank-param-source": "Eine kurze Zeichenfolge, die die Quelle der Anfrage beschreibt, zum Beispiel <kbd>diff</kbd> oder <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "Sendet ein Dankeschön für die Version mit der <kbd>Kennung 456</kbd>, deren Quelle ein Bearbeitungsunterschied ist."
 }
