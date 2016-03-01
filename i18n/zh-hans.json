@@ -14,7 +14,8 @@
 			"王庭茂",
 			"Northteam",
 			"EagerLin",
-			"Macofe"
+			"Macofe",
+			"飞舞回堂前"
 		]
 	},
 	"thanks-desc": "添加感谢用户进行编辑、评论等行为的链接。",
@@ -29,7 +30,7 @@
 	"thanks-thank-tooltip-no": "{{GENDER:$1|取消}}感谢您的通知",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|发送}}感谢您的通知",
 	"thanks-confirmation2": "对此编辑{{GENDER:$1|发送}}公开感谢？",
-	"thanks-thanked-notice": "$1已收到您对{{GENDER:$2|他|她|他们}}的编辑做出的感谢。",
+	"thanks-thanked-notice": "$1已收到您对{{GENDER:$2|他|她|他}}的编辑做出的感谢。",
 	"thanks": "发送感谢",
 	"thanks-submit": "发送感谢",
 	"thanks-form-revid": "编辑的修订ID",
@@ -50,7 +51,7 @@
 	"notification-link-text-view-post": "查看评论",
 	"thanks-error-invalidpostid": "帖子ID无效。",
 	"flow-thanks-confirmation-special": "您希望对此评论公开发送感谢么？",
-	"flow-thanks-thanked-notice": "$1已收到您对{{GENDER:$2|他|她|他们}}的评论做出的感谢。",
+	"flow-thanks-thanked-notice": "$1已收到您对{{GENDER:$2|他|她|他}}的评论做出的感谢。",
 	"notification-flow-thanks": "[[User:$1|$1]]感谢了{{GENDER:$5|您}}在[[:$4]]的“$3”发表的$2。",
 	"notification-flow-thanks-post-link": "您的评论",
 	"notification-header-flow-thank": "$1{{GENDER:$2|感谢了}}{{GENDER:$5|您}}在'''$4'''的'''$3'''发表的评论。",
