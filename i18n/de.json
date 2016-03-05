@@ -19,7 +19,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|bereits bedankt}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Danken}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Bedankt}}}}",
-	"thanks-error-undefined": "Bedanken fehlgeschlagen. Bitte erneut versuchen.",
+	"thanks-error-undefined": "Bedanken fehlgeschlagen (Fehlercode: $1). Bitte erneut versuchen.",
 	"thanks-error-invalidrevision": "Die Versionskennung ist ungültig.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Du}} hast dein Aktionslimit überschritten. Bitte warte etwas und versuche es erneut.",
 	"thanks-thank-tooltip": "{{GENDER:$2|Diesem Benutzer|Dieser Benutzerin}} ein Dankeschön {{GENDER:$1|senden}}",

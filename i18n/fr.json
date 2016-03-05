@@ -20,7 +20,8 @@
 			"Jdforrester",
 			"Kvardek du",
 			"Orlodrim",
-			"The RedBurn"
+			"The RedBurn",
+			"Wladek92"
 		]
 	},
 	"thanks-desc": "Ajoute des liens pour remercier les utilisateurs pour des modifications, des commentaires, etc.",
@@ -28,7 +29,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|remercié|remerciée|remercié(e)}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Remercier}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Remercié|Remerciée|Remercié(e)}}}}",
-	"thanks-error-undefined": "Échec de l’action de remerciement. Veuillez réessayer.",
+	"thanks-error-undefined": "Échec de l’action de remerciement (code d'erreur : $1). Veuillez réessayer.",
 	"thanks-error-invalidrevision": "L’ID de révision n’est pas valide.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Vous}} avez dépassé votre limite de débit. Veuillez attendre un peu et réessayer.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Envoyer}} une notification de remerciement à {{GENDER:$2|cet utilisateur|cette utilisatrice}}",

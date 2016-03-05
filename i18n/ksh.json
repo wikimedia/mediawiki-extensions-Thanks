@@ -10,7 +10,7 @@
 	"thanks-thanked": "bedank{{GENDER:$1|}}{{GENDER:$2|}}",
 	"thanks-button-thank": "Bedangke{{GENDER:$1|}}{{GENDER:$2|}}",
 	"thanks-button-thanked": "Bedangk.{{GENDER:$1|}}{{GENDER:$2|}}",
-	"thanks-error-undefined": "Et Bedangke hät nit jeflupp. Versöhg_et norr_ens.",
+	"thanks-error-undefined": "Et Bedangke hät nit jeflupp. Als Fähler wood „$1“ jemälldt. Versöhg_et norr_ens.",
 	"thanks-error-invalidrevision": "Di Kännong för di Väsjohn es nit jöltesch.",
 	"thanks-error-ratelimited": "Do häß Ding Jränz ärreijsch. Waad e beßje, un versöhg et dann wider.{{GENDER:$1|}}",
 	"thanks-thank-tooltip": "Scheck {{GENDER:$2|däm|däm|däm Metmaacher|dä|däm}} $2 Dinge Dank.{{GENDER:$1}}",

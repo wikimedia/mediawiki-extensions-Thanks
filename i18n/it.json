@@ -16,7 +16,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|ringraziato|ringraziata|ringraziato/a}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Ringrazia}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Ringraziato|Ringraziata|Ringraziato/a}}}}",
-	"thanks-error-undefined": "Errore durante ringraziamento. Riprova ancora.",
+	"thanks-error-undefined": "Errore durante ringraziamento (codice errore: $1). Riprova ancora.",
 	"thanks-error-invalidrevision": "L'ID versione non è valido.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Hai superato}} il limite massimo di ringraziamenti. Aspetta un po' di tempo e riprova.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Invia}} una notifica di ringraziamento a {{GENDER:$2|questo|questa}} utente",

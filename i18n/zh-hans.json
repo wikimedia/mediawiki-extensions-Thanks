@@ -23,7 +23,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|已感谢}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|感谢}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|已感谢}}}}",
-	"thanks-error-undefined": "感谢操作失败，请重试。",
+	"thanks-error-undefined": "感谢操作失败（错误代码：$1）。请重试。",
 	"thanks-error-invalidrevision": "版本ID无效。",
 	"thanks-error-ratelimited": "{{GENDER:$1|您}}的编辑可能已经超频。请等待一段时间后重试。",
 	"thanks-thank-tooltip": "{{GENDER:$1|发送}}感谢通知给该{{GENDER:$2|用户}}",

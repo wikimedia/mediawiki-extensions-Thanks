@@ -17,7 +17,7 @@
 	"thanks-thanked": "{{GENDER:$2|{{GENDER:$1|подякував|подякувала}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Подякувати}}}}",
 	"thanks-button-thanked": "{{GENDER:$2|{{GENDER:$1|Подякував|Подякувала}}}}",
-	"thanks-error-undefined": "Не вдалось подякувати. Спробуйте знову.",
+	"thanks-error-undefined": "Не вдалось подякувати (код помилки: $1). Спробуйте знову.",
 	"thanks-error-invalidrevision": "Неправильний ідентифікатор версії.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Ви}} перевищили свій ліміт частоти. Будь ласка, зачекайте деякий час, і спробуйте знову.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Надіслати}} сповіщення вдячності {{GENDER:$2|цьому користувачу|цій користувачці}}",
