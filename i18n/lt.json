@@ -5,7 +5,8 @@
 			"Hugo.arg",
 			"Pofka",
 			"Albertas",
-			"Macofe"
+			"Macofe",
+			"Zygimantus"
 		]
 	},
 	"thanks-desc": "Pridėti nuorodas, kad padėkotumėte naudotojams už pakeitimus, komentarus ir kt.",
@@ -13,7 +14,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|padėkojo}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Dėkoja}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Padėkojo}}}}",
-	"thanks-error-undefined": "Padėkoti nepavyko. Prašome pabandyti dar kartą.",
+	"thanks-error-undefined": "Padėkoti nepavyko (klaidos kodas: $1). Prašome pabandyti dar kartą.",
 	"thanks-error-invalidrevision": "Netinkamas versijos ID",
 	"thanks-error-ratelimited": "{{GENDER:$1|Jūs}} viršijote vertinimo limitą. Prašome truputį palaukti ir bandyti dar kartą.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Nusiųskite}} padėkos žinutę šiam {{GENDER:$2|naudotojui}}",

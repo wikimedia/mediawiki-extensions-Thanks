@@ -13,7 +13,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|ধন্যবাদ জানিয়েছেন}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|ধন্যবাদ}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|ধন্যবাদ জানিয়েছেন}}}}",
-	"thanks-error-undefined": "ধন্যবাদ পদক্ষেপ ব্যর্থ। অনুগ্রহ করে আবার চেষ্টা করুন।",
+	"thanks-error-undefined": "ধন্যবাদ পদক্ষেপ ব্যর্থ (ত্রুটি কোড: $1)। অনুগ্রহ করে আবার চেষ্টা করুন।",
 	"thanks-error-invalidrevision": "সংশোধনের আইডি বৈধ নয়।",
 	"thanks-error-ratelimited": "{{GENDER:$1|আপনি}} রেট করার সর্বোচ্চ সীমা অতিক্রম করেছেন। অনুগ্রহ করে অপেক্ষা করুন এবং পুনরায় চেষ্টা করুন।",
 	"thanks-thank-tooltip": "এই {{GENDER:$2|ব্যবহারকারীকে}} ধন্যবাদ বিজ্ঞপ্তি {{GENDER:$1|পাঠান}}",
