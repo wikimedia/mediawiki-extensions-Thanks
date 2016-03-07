@@ -16,7 +16,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|agradecido|agradecida}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Agradecer}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Agradecido|Agradecida}}}}",
-	"thanks-error-undefined": "La acción de agradecimiento falló. Inténtalo de nuevo.",
+	"thanks-error-undefined": "La acción de agradecimiento falló (código de error: $1). Inténtalo de nuevo.",
 	"thanks-error-invalidrevision": "El id. de revisión no es válido.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Has}} excedido tu límite. Espera un tiempo e inténtalo de nuevo.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Enviar}} una notificación de agradecimiento a {{GENDER:$2|este usuario|esta usuaria}}",

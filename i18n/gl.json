@@ -13,7 +13,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|agradecido|agradecida}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Agradecer}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Agradecido|Agradecida}}}}",
-	"thanks-error-undefined": "Houbo un erro ao realizar o agradecemento. Inténteo de novo.",
+	"thanks-error-undefined": "Houbo un erro ao realizar o agradecemento (código de erro: $1). Inténteo de novo.",
 	"thanks-error-invalidrevision": "O ID da revisión non é válido.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Superou}} o seu límite de velocidade. Agarde uns minutos e inténteo de novo.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Envía}} unha notificación de agradecemento a {{GENDER:$2|este usuario|esta usuaria}}",
