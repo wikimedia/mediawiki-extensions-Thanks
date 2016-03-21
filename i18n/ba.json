@@ -7,7 +7,7 @@
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|рәхмәт әйтергә}}}}",
-	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|рәхмәт әйтергә}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|рәхмәт әйтелгән}}}}",
 	"thanks-thank-tooltip": "{{GENDER:$2|Был ҡатнашыусыға}} рәхмәт хәбәрен {{GENDER:$1|ебәрергә}}",
 	"thanks-confirmation2": "Был төҙәтеү өсөн рәхмәт {{GENDER:$1|ебәрергә}}ме?",
 	"thanks-confirmation-special": "Был төҙәтеү өсөн рәхмәт ебәрергәме?"
