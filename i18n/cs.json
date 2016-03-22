@@ -12,7 +12,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|poděkováno}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Poděkovat}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Poděkováno}}}}",
-	"thanks-error-undefined": "Poděkování se nezdařilo. Zkuste to prosím znovu.",
+	"thanks-error-undefined": "Poděkování se nezdařilo (kód chyby: $1). Zkuste to prosím znovu.",
 	"thanks-error-invalidrevision": "ID revize je neplatné.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Překročil|Překročila|Překročili}} jste rychlostní limit. Počkejte prosím chvíli a zkuste to znovu.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Poslat}} {{GENDER:$2|tomuto uživateli|této uživatelce}} poděkování",
