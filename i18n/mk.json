@@ -10,7 +10,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|заблагодарено}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Заблагодари се}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Заблагодарено}}}}",
-	"thanks-error-undefined": "Заблагодарувањето не успеа. Обидете се повторно.",
+	"thanks-error-undefined": "Заблагодарувањето не успеа (код на грешката: $1). Обидете се повторно.",
 	"thanks-error-invalidrevision": "Преработката има неважечка назнака.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Ја надминавте}} границата на заблагодарувања. Почекајте некое време, па обидете се подоцна",
 	"thanks-thank-tooltip": "{{GENDER:$1|Испратете}} му благодарност (во порака) на {{GENDER:$2|корисников}}",

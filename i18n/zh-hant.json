@@ -17,7 +17,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|已感謝}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|感謝}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|已感謝}}}}",
-	"thanks-error-undefined": "感謝操作失敗，請再試一次。",
+	"thanks-error-undefined": "感謝操作失敗 (錯誤代碼：$1)，請再試一次。",
 	"thanks-error-invalidrevision": "修訂 ID 無效。",
 	"thanks-error-ratelimited": "{{GENDER:$1|您}}已超出頻率限制，請稍後再試。",
 	"thanks-thank-tooltip": "{{GENDER:$1|傳送}}一則感謝通知給這位{{GENDER:$2|使用者}}",
