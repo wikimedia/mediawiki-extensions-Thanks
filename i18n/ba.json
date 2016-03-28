@@ -3,7 +3,10 @@
 		"authors": [
 			"Рустам Нурыев",
 			"Sagan",
-			"Янмурза Баки"
+			"Янмурза Баки",
+			"Азат Хәлилов",
+			"Гизатуллина",
+			"Танзиля Кутлугильдина"
 		]
 	},
 	"thanks-desc": "Ҡатнашыусыларға мөхәррирләгәнгә рәхмәт әйтергә һ.б., һылтанмалар өҫтәй.",
@@ -13,18 +16,22 @@
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|рәхмәт әйтелгән}}}}",
 	"thanks-error-undefined": "Рәхмәт әйтеү килеп сыҡманы ($1 хата коды). Ҡабатлап эшләп ҡарағыҙ.",
 	"thanks-error-invalidrevision": "ID версия хаталы",
+	"thanks-error-ratelimited": "{{GENDER:$1|Һеҙ}} бындай эштәрҙе башҡарыуҙың сикләнгән тиҙлеген арттырып ебәрҙегеҙ.  Бер аҙ ваҡыт көтөгөҙ һәм яңынан эшләп ҡарағыҙ",
 	"thanks-thank-tooltip": "{{GENDER:$2|Был ҡатнашыусыға}} рәхмәт хәбәрен {{GENDER:$1|ебәрергә}}",
+	"thanks-thank-tooltip-no": "{{GENDER:$1|Cancel}} рәхмәт белдереү хәбәре",
 	"thanks-confirmation2": "Был төҙәтеү өсөн рәхмәт {{GENDER:$1|ебәрергә}}ме?",
 	"thanks-thanked-notice": " {{GENDER:$2|үҙенең}} үҙгәртеүенә $1 һеҙҙең ҡотлауҙы   {{GENDER:$2||а|}} алды .",
 	"thanks": "Ҡотлау ебәререгә",
 	"thanks-submit": "Рәхмәт ебәрергә",
 	"thanks-form-revid": " Мөхәррирләү өсөн үҙгәртеү идентификаторы.",
 	"echo-pref-subscription-edit-thank": "Үҙемдең үҙгәртеүгә миңә рәхмәт.",
-	"echo-pref-tooltip-edit-thank": "\nҠасан да булһа кем мине эшләнгән үҙгәртеүгә ҡотлай, миңә хәбәр итәргә.",
+	"echo-pref-tooltip-edit-thank": "\nМинең эшләнгән үҙгәртеүҙәрем өсөн ҡотларға теләгәндәргә, миңә хәбәр итәргә.",
 	"echo-category-title-edit-thank": "Рәхмәт!",
 	"notification-thanks-diff-link": "Һеҙҙең үҙгәртеүҙәрҙе",
 	"notification-thanks": "[[User:$1|$1]] «[[:$3]]» битендәге $2 өсөн {{GENDER:$1|рәхмәт әйтә}}.",
 	"notification-header-edit-thank": "$1 {{GENDER:$4|һеҙгә}} '''$3''' битендә яһаған үҙгәртеү өсөн {{GENDER:$2|рәхмәт әйтте}}.",
+	"notification-thanks-email-subject": "«{{SITENAME}}» сайт төҙөп үҙгәрткән өсөн $1 {{GENDER:$1|һеҙҙе ҡотланы}}.",
+	"notification-thanks-email-batch-body": "$1 «$2» битендәге төҙәтеү өсөн {{GENDER:$1|рәхмәт белдерҙе}}",
 	"log-name-thanks": "Ҡотлауҙар журналы",
 	"log-description-thanks": "Икенсе ҡатнашыусыларҙан ҡотлау алғандарҙан, аҫта ҡатнашыусылар исемлеге бар",
 	"logentry-thanks-thank": "$3 {{GENDER:$4|ҡатнашыусыны}}  $1 {{GENDER:$2|ҡотланы}}",
@@ -40,8 +47,11 @@
 	"notification-header-flow-thank": "{{GENDER:$5|һеҙҙе}}  комментарий өсөн  '''$3''' тема '''$4''' битендә $1 ҡотланы {{GENDER:$2||а}}",
 	"notification-flow-thanks-email-subject": "$1 «{{SITENAME}}» сайтында фекер ҡалдырған өсөн {{GENDER:$2|һеҙгә}} {{GENDER:$1|рәхмәт әйтә}}.",
 	"notification-flow-thanks-email-batch-body": "$1 «$2» сайтының $3 битендәге темаға ҡарата фекер ҡалдырғанығыҙ өсөн {{GENDER:$4|һеҙгә}} {{GENDER:$1|рәхмәт әйтә}}.",
+	"apihelp-flowthank-description": "Flow comment өсөн йәмәғәтселек алдында рәхмәт белдерергә",
 	"apihelp-flowthank-param-postid": "Ҡотлау кәрәк булған, UUID хәбәрҙәр.",
 	"apihelp-flowthank-example-1": "<kbd>UUID xyz789</kbd> комментарийға ҡотлау ебәрергә",
 	"apihelp-thank-description": "Мөхәрриргә ҡотлау хәбәре ебәрергә.",
-	"apihelp-thank-param-rev": "Авторға рәхмәт әйтергә кәрәк булған, ID версиялар."
+	"apihelp-thank-param-rev": "Авторға рәхмәт әйтергә кәрәк булған, ID версиялар.",
+	"apihelp-thank-param-source": "Сығанаҡҡа һылтанған ҡыҫҡа юл, мәҫәлән <kbd>diff</kbd> йәки <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Версияларҙың айырмаһын күрһәткән битте сығанаҡ итеп алып, <kbd>ID 456</kbd> версияһы өсөн ҡотларға."
 }
