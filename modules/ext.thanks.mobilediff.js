@@ -29,7 +29,7 @@
 					popup.show( mw.msg( 'thanks-error-ratelimited', gender ) );
 					break;
 				default:
-					popup.show( mw.msg( 'thanks-error-undefined' ) );
+					popup.show( mw.msg( 'thanks-error-undefined', errorCode ) );
 			}
 			d.reject();
 		} );

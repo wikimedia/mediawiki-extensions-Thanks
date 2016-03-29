@@ -53,7 +53,7 @@
 						alert( mw.msg( 'thanks-error-ratelimited', mw.user ) );
 						break;
 					default:
-						alert( mw.msg( 'thanks-error-undefined' ) );
+						alert( mw.msg( 'thanks-error-undefined', errorCode ) );
 				}
 			}
 		)
