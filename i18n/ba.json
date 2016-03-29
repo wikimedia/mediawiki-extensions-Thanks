@@ -30,7 +30,7 @@
 	"notification-thanks-diff-link": "Һеҙҙең үҙгәртеүҙәрҙе",
 	"notification-thanks": "[[User:$1|$1]] «[[:$3]]» битендәге $2 өсөн {{GENDER:$1|рәхмәт әйтә}}.",
 	"notification-header-edit-thank": "$1 {{GENDER:$4|һеҙгә}} '''$3''' битендә яһаған үҙгәртеү өсөн {{GENDER:$2|рәхмәт әйтте}}.",
-	"notification-thanks-email-subject": "«{{SITENAME}}» сайт төҙөп үҙгәрткән өсөн $1 {{GENDER:$1|һеҙҙе ҡотланы}}.",
+	"notification-thanks-email-subject": "«{{SITENAME}}» сайттағы  төҙәтеүегеҙ  өсөн $1 {{GENDER:$1|һеҙгә рәхмәт белдерҙе}}.",
 	"notification-thanks-email-batch-body": "$1 «$2» битендәге төҙәтеү өсөн {{GENDER:$1|рәхмәт белдерҙе}}",
 	"log-name-thanks": "Ҡотлауҙар журналы",
 	"log-description-thanks": "Икенсе ҡатнашыусыларҙан ҡотлау алғандарҙан, аҫта ҡатнашыусылар исемлеге бар",
