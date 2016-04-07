@@ -6,7 +6,7 @@
 		]
 	},
 	"thanks-desc": "Voegt verwiezingen toe um gebrukers te bedanken veur bewarkingen, kommentaar, enz.",
-	"thanks-thank": "bedanken",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|bedanken}}}}",
 	"thanks-thanked": "{{GENDER:$1|is bedankt}}",
 	"thanks-button-thank": "{{GENDER:$1|Bedanken}}",
 	"thanks-button-thanked": "{{GENDER:$1|Is bedankt}}",
