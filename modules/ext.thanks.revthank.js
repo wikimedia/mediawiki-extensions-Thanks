@@ -15,6 +15,13 @@
 	// $thankElement is the element to be removed on success
 	function sendThanks( $thankLink, $thankElement ) {
 		var source;
+
+		if ( $thankLink.data( 'clickDisabled' ) ) {
+			// Prevent double clicks while we haven't received a response from API request
+			return false;
+		}
+		$thankLink.data( 'clickDisabled', true );
+
 		if ( mw.config.get( 'wgAction' ) === 'history' ) {
 			source = 'history';
 		} else {
@@ -37,6 +44,8 @@
 			},
 			// Fail
 			function ( errorCode, details ) {
+				// If error occured, enable attempting to thank again
+				$thankLink.data( 'clickDisabled', false );
 				// TODO: use something besides alert for the error messages
 				switch ( errorCode ) {
 					case 'invalidrevision':
