@@ -24,7 +24,7 @@
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Скасувати}} сповіщення про подяку",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Надіслати}} сповіщення про подяку",
 	"thanks-confirmation2": "{{GENDER:$1|Подякувати}} за це редагування публічно?",
-	"thanks-thanked-notice": "$1 {{GENDER:$1|отримав|отримала}} Вашу подяку за {{GENDER:$2|його|її}} редагування.",
+	"thanks-thanked-notice": "$1 {{GENDER:$2|отримав|отримала}} Вашу подяку за {{GENDER:$2|його|її}} редагування.",
 	"thanks": "Надіслати подяку",
 	"thanks-submit": "Надіслати подяку",
 	"thanks-form-revid": "ІД редакції для редагування",
