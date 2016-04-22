@@ -1,9 +1,5 @@
 {
 	"preset": "wikimedia",
 
-	"disallowDanglingUnderscores": null,
-	"requireSpacesInsideBrackets": null,
-	"requireSpaceBeforeKeywords": null,
-	"requireVarDeclFirst": null,
-	"jsDoc": null
+	"disallowDanglingUnderscores": null
 }

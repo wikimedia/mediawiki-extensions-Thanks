@@ -1,16 +1,16 @@
 ( function ( $, mw ) {
 	'use strict';
 
-	mw.thanks.thanked.cookieName = 'flow-thanked';
-	mw.thanks.thanked.attrName = 'data-flow-id';
-
 	var $thankedLabel = $( '<span></span>' )
 		.addClass( 'mw-thanks-flow-thanked mw-ui-quiet' );
+
+	mw.thanks.thanked.cookieName = 'flow-thanked';
+	mw.thanks.thanked.attrName = 'data-flow-id';
 
 	function findPostAuthorFromThankLink( $thankLink ) {
 		// We can't use 'closest' directly because .flow-author is a cousin
 		// of $thankLink rather than its ancestor
-		return $( $thankLink.findWithParent( '< .flow-post .flow-author a.mw-userlink' )[0] ).text().trim();
+		return $( $thankLink.findWithParent( '< .flow-post .flow-author a.mw-userlink' )[ 0 ] ).text().trim();
 	}
 
 	function reloadThankedState() {

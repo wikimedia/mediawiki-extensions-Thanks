@@ -41,7 +41,7 @@
 	/**
 	 * @param {string} selector
 	 * @return {jQuery}
-	 * @see jQuery#findWithParent
+	 * See {@link jQuery#findWithParent}
 	 */
 	$.fn.findWithParent = function ( selector ) {
 		var selectors = selector.split( ',' ),
