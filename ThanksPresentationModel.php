@@ -16,16 +16,16 @@ class EchoThanksPresentationModel extends EchoEventPresentationModel {
 	}
 
 	public function getPrimaryLink() {
-		return array(
-			'url' => $this->event->getTitle()->getLocalURL( array(
+		return [
+			'url' => $this->event->getTitle()->getLocalURL( [
 				'oldid' => 'prev',
 				'diff' => $this->event->getExtraParam( 'revid' )
-			) ),
+			] ),
 			'label' => $this->msg( 'notification-link-text-view-edit' )->text(),
-		);
+		];
 	}
 
 	public function getSecondaryLinks() {
-		return array( $this->getAgentLink() );
+		return [ $this->getAgentLink() ];
 	}
 }

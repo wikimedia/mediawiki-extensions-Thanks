@@ -29,15 +29,15 @@ class EchoFlowThanksPresentationModel extends Flow\FlowPresentationModel {
 			'flow-post-' . $this->event->getExtraParam( 'post-id' )
 		);
 
-		return array(
-			'url' => $title->getFullURL( array(
+		return [
+			'url' => $title->getFullURL( [
 				'workflow' => $this->event->getExtraParam( 'workflow' )
-			) ),
+			] ),
 			'label' => $this->msg( 'notification-link-text-view-post' )->text(),
-		);
+		];
 	}
 
 	public function getSecondaryLinks() {
-		return array( $this->getAgentLink(), $this->getBoardLink() );
+		return [ $this->getAgentLink(), $this->getBoardLink() ];
 	}
 }

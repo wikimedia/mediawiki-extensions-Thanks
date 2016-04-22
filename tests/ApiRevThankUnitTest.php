@@ -10,7 +10,7 @@
  */
 class ApiRevThankUnitTest extends MediaWikiTestCase {
 
-	static $moduleName = 'thank';
+	protected static $moduleName = 'thank';
 
 	protected function getModule() {
 		return new ApiRevThank( new ApiMain(), self::$moduleName );
@@ -25,24 +25,24 @@ class ApiRevThankUnitTest extends MediaWikiTestCase {
 		$method = new ReflectionMethod( $module, 'dieOnBadUser' );
 		$method->setAccessible( true );
 
-		if( $expectedError ) {
+		if ( $expectedError ) {
 			$this->setExpectedException( 'UsageException', $expectedError );
 		}
 
 		$method->invoke( $module, $user );
-		//perhaps the method should return true.. For now we must do this
+		// perhaps the method should return true.. For now we must do this
 		$this->assertTrue( true );
 	}
 
 	public function provideDieOnBadUser() {
-		$testCases = array();
+		$testCases = [];
 
 		$mockUser = $this->getMock( 'User' );
 		$mockUser->expects( $this->once() )
 			->method( 'isAnon' )
 			->will( $this->returnValue( true ) );
 
-		$testCases[ 'anon' ] = array( $mockUser, 'Anonymous users cannot send thanks' );
+		$testCases[ 'anon' ] = [ $mockUser, 'Anonymous users cannot send thanks' ];
 
 		$mockUser = $this->getMock( 'User' );
 		$mockUser->expects( $this->once() )
@@ -52,7 +52,10 @@ class ApiRevThankUnitTest extends MediaWikiTestCase {
 			->method( 'pingLimiter' )
 			->will( $this->returnValue( true ) );
 
-		$testCases[ 'ping' ] = array( $mockUser, "You've exceeded your rate limit. Please wait some time and try again" );
+		$testCases[ 'ping' ] = [
+			$mockUser,
+			"You've exceeded your rate limit. Please wait some time and try again"
+		];
 
 		$mockUser = $this->getMock( 'User' );
 		$mockUser->expects( $this->once() )
@@ -65,17 +68,17 @@ class ApiRevThankUnitTest extends MediaWikiTestCase {
 			->method( 'isBlocked' )
 			->will( $this->returnValue( true ) );
 
-		$testCases[ 'blocked' ] = array( $mockUser, 'You have been blocked from editing' );
+		$testCases[ 'blocked' ] = [ $mockUser, 'You have been blocked from editing' ];
 
 		return $testCases;
 	}
 
-	//@todo test userAlreadySentThanksForRevision
-	//@todo test getRevisionFromParams
-	//@todo test getTitleFromRevision
-	//@todo test getSourceFromParams
-	//@todo test getUserIdFromRevision
-	//@todo test markResultSuccess
-	//@todo test sendThanks
+	// @todo test userAlreadySentThanksForRevision
+	// @todo test getRevisionFromParams
+	// @todo test getTitleFromRevision
+	// @todo test getSourceFromParams
+	// @todo test getUserIdFromRevision
+	// @todo test markResultSuccess
+	// @todo test sendThanks
 
 }

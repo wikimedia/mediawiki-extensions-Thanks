@@ -72,7 +72,7 @@ class ApiRevThank extends ApiThank {
 		return User::newFromId( $recipient );
 	}
 
-	private function sendThanks( User $user, Revision $revision, User $recipient, $source  ) {
+	private function sendThanks( User $user, Revision $revision, User $recipient, $source ) {
 		$uniqueId = "rev-{$revision->getId()}";
 		// Do one last check to make sure we haven't sent Thanks before
 		if ( $this->haveAlreadyThanked( $user, $uniqueId ) ) {
@@ -83,16 +83,16 @@ class ApiRevThank extends ApiThank {
 
 		$title = $this->getTitleFromRevision( $revision );
 		// Create the notification via Echo extension
-		EchoEvent::create( array(
+		EchoEvent::create( [
 			'type' => 'edit-thank',
 			'title' => $title,
-			'extra' => array(
+			'extra' => [
 				'revid' => $revision->getId(),
 				'thanked-user-id' => $recipient->getId(),
 				'source' => $source,
-			),
+			],
 			'agent' => $user,
-		) );
+		] );
 
 		// And mark the thank in session for a cheaper check to prevent duplicates (Bug 46690).
 		$user->getRequest()->setSessionData( "thanks-thanked-{$revision->getId()}", true );
@@ -102,36 +102,36 @@ class ApiRevThank extends ApiThank {
 	}
 
 	public function getAllowedParams() {
-		return array(
-			'rev' => array(
+		return [
+			'rev' => [
 				ApiBase::PARAM_TYPE => 'integer',
 				ApiBase::PARAM_MIN => 1,
 				ApiBase::PARAM_REQUIRED => true,
-			),
-			'token' => array(
+			],
+			'token' => [
 				ApiBase::PARAM_TYPE => 'string',
 				ApiBase::PARAM_REQUIRED => true,
-			),
-			'source' => array(
+			],
+			'source' => [
 				ApiBase::PARAM_TYPE => 'string',
 				ApiBase::PARAM_REQUIRED => false,
-			)
-		);
+			]
+		];
 	}
 
 	public function getHelpUrls() {
-		return array(
+		return [
 			'https://www.mediawiki.org/wiki/Extension:Thanks#API_Documentation',
-		);
+		];
 	}
 
 	/**
 	 * @see ApiBase::getExamplesMessages()
 	 */
 	protected function getExamplesMessages() {
-		return array(
+		return [
 			'action=thank&revid=456&source=diff&token=123ABC'
 				=> 'apihelp-thank-example-1',
-		);
+		];
 	}
 }

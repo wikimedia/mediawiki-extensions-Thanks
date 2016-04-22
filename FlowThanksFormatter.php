@@ -13,14 +13,14 @@ class EchoFlowThanksFormatter extends EchoBasicFormatter {
 			$this->setTitleLink(
 				$event,
 				$message,
-				array(
+				[
 					'class' => 'mw-echo-diff',
 					'linkText' => $this->getMessage( 'notification-flow-thanks-post-link' )->text(),
-					'param' => array(
+					'param' => [
 						'workflow' => $event->getExtraParam( 'workflow' ),
-					),
+					],
 					'fragment' => "flow-post-{$event->getExtraParam( 'post-id' )}",
-				)
+				]
 			);
 		} elseif ( $param === 'topictitle' ) {
 			$message->params( $event->getExtraParam( 'topic-title' ) );
@@ -39,7 +39,7 @@ class EchoFlowThanksFormatter extends EchoBasicFormatter {
 	 */
 	protected function getLinkParams( $event, $user, $destination ) {
 		$target = null;
-		$query = array();
+		$query = [];
 
 		if ( $destination === 'post' ) {
 			$target = $event->getTitle();
@@ -47,7 +47,7 @@ class EchoFlowThanksFormatter extends EchoBasicFormatter {
 				$target->setFragment( '#flow-post-' . $event->getExtraParam( 'post-id' ) );
 				$query['workflow'] = $event->getExtraParam( 'workflow' );
 			}
-			return array( $target, $query );
+			return [ $target, $query ];
 		} else {
 			return parent::getLinkParams( $event, $user, $destination );
 		}

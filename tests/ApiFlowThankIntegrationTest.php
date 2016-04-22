@@ -21,8 +21,7 @@ class ApiFlowThankTest extends ApiTestCase {
 	/**
 	 * @var PostRevision
 	 */
-	public
-		$topic,
+	public $topic,
 		$postByOtherUser,
 		$postByMe;
 
@@ -35,14 +34,14 @@ class ApiFlowThankTest extends ApiTestCase {
 
 		// mock topic and post
 		$this->topic = $this->generateObject();
-		$this->postByOtherUser = $this->generateObject( array(
+		$this->postByOtherUser = $this->generateObject( [
 				'tree_orig_user_id' => self::$users[ 'uploader' ]->getUser()->getId(),
 				'tree_parent_id' => $this->topic->getPostId()->getBinary(),
-			), array(), 1 );
-		$this->postByMe = $this->generateObject( array(
+			], [], 1 );
+		$this->postByMe = $this->generateObject( [
 				'tree_orig_user_id' => self::$users[ 'sysop' ]->getUser()->getId(),
 				'tree_parent_id' => $this->topic->getPostId()->getBinary(),
-			), array(), 1 );
+			], [], 1 );
 
 		// Set up mock classes in Container.
 		$mockLoader = $this->getMockBuilder( '\Flow\Repository\RootPostLoader' )
@@ -57,19 +56,19 @@ class ApiFlowThankTest extends ApiTestCase {
 				function( $postId ) use ( $that ) {
 					switch ( $postId ) {
 						case $that->postByOtherUser->getPostId():
-							return array(
+							return [
 								'post' => $that->postByOtherUser,
 								'root' => $that->topic
-							);
+							];
 
 						case $that->postByMe->getPostId():
-							return array(
+							return [
 								'post' => $that->postByMe,
 								'root' => $that->topic
-							);
+							];
 
 						default:
-							return array( 'post' => null );
+							return [ 'post' => null ];
 					}
 				}
 			) );
@@ -77,7 +76,7 @@ class ApiFlowThankTest extends ApiTestCase {
 		$mockWorkflow = $this->getMock( '\Flow\Model\Workflow' );
 		$mockWorkflow->expects( $this->any() )
 			->method( 'getOwnerTitle' )
-			->will( $this->returnValue( new Title() ));
+			->will( $this->returnValue( new Title() ) );
 
 		$mockStorage = $this->getMockBuilder( '\Flow\Data\ManagerGroup' )
 			->disableOriginalConstructor()
@@ -86,7 +85,6 @@ class ApiFlowThankTest extends ApiTestCase {
 		$mockStorage->expects( $this->any() )
 			->method( 'get' )
 			->will( $this->returnValue( $mockWorkflow ) );
-
 
 		$mockTemplating = $this->getMockBuilder( 'Flow\Templating' )
 			->disableOriginalConstructor()
@@ -106,47 +104,46 @@ class ApiFlowThankTest extends ApiTestCase {
 		\DeferredUpdates::clearPendingUpdates();
 	}
 
-	public function testRequestWithoutToken(){
+	public function testRequestWithoutToken() {
 		$this->setExpectedException( 'UsageException', 'The token parameter must be set' );
-		$this->doApiRequest( array(
+		$this->doApiRequest( [
 			'action' => 'flowthank',
 			'postid' => UUID::create( '42' )->getAlphadecimal(),
-		) );
+		] );
 	}
 
-	public function testInvalidRequest(){
+	public function testInvalidRequest() {
 		$this->setExpectedException( 'UsageException', 'The postid parameter must be set' );
-		$this->doApiRequestWithToken( array( 'action' => 'flowthank' ) );
+		$this->doApiRequestWithToken( [ 'action' => 'flowthank' ] );
 	}
 
-	public function testValidRequest(){
-		list( $result,, ) = $this->doApiRequestWithToken( array(
+	public function testValidRequest() {
+		list( $result,, ) = $this->doApiRequestWithToken( [
 			'action' => 'flowthank',
 			'postid' => $this->postByOtherUser->getPostId()->getAlphadecimal(),
-		) );
+		] );
 		$this->assertSuccess( $result );
 	}
 
-	public function testRequestWithInvalidId(){
+	public function testRequestWithInvalidId() {
 		$this->setExpectedException( 'UsageException', 'Post ID is invalid' );
-		list( $result,, ) = $this->doApiRequestWithToken( array(
+		list( $result,, ) = $this->doApiRequestWithToken( [
 			'action' => 'flowthank',
 			'postid' => UUID::create( '42' )->getAlphadecimal(),
-		) );
+		] );
 	}
 
-	public function testRequestWithOwnId(){
+	public function testRequestWithOwnId() {
 		$this->setExpectedException( 'UsageException', 'You cannot thank yourself' );
-		list( $result,, ) = $this->doApiRequestWithToken( array(
+		list( $result,, ) = $this->doApiRequestWithToken( [
 			'action' => 'flowthank',
 			'postid' => $this->postByMe->getPostId()->getAlphadecimal(),
-		) );
+		] );
 	}
 
-	protected function assertSuccess( $result ){
+	protected function assertSuccess( $result ) {
 		$this->assertEquals( 1, $result[ 'result' ][ 'success' ] );
 	}
-
 
 	/**
 	 * This method is obtained from Flow/tests/PostRevisionTestCase.php
@@ -161,7 +158,7 @@ class ApiFlowThankTest extends ApiTestCase {
 	 * @param array[optional] $row DB row data (only specify override columns)
 	 * @return array
 	 */
-	protected function generateRow( array $row = array() ) {
+	protected function generateRow( array $row = [] ) {
 		$uuidPost = UUID::create();
 		$uuidRevision = UUID::create();
 
@@ -169,7 +166,7 @@ class ApiFlowThankTest extends ApiTestCase {
 		$userId = $user->getId();
 		$userIp = null;
 
-		return $row + array(
+		return $row + [
 			// flow_revision
 			'rev_id' => $uuidRevision->getBinary(),
 			'rev_type' => 'post',
@@ -200,7 +197,7 @@ class ApiFlowThankTest extends ApiTestCase {
 			'tree_orig_user_ip' => $userIp,
 			'tree_orig_user_wiki' => wfWikiId(),
 			'tree_parent_id' => null,
-		);
+		];
 	}
 
 	/**
@@ -217,7 +214,7 @@ class ApiFlowThankTest extends ApiTestCase {
 	 * @param int[optional] $depth Depth of the PostRevision object
 	 * @return PostRevision
 	 */
-	protected function generateObject( array $row = array(), $children = array(), $depth = 0 ) {
+	protected function generateObject( array $row = [], $children = [], $depth = 0 ) {
 		$row = $this->generateRow( $row );
 
 		$revision = PostRevision::fromStorageRow( $row );

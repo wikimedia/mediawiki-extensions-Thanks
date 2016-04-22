@@ -16,9 +16,9 @@ abstract class ApiThank extends ApiBase {
 		if ( $user->isAnon() ) {
 			$this->dieUsage( 'Anonymous users cannot send thanks', 'notloggedin' );
 		} elseif ( $user->pingLimiter( 'thanks-notification' ) ) {
-			$this->dieUsageMsg( array( 'actionthrottledtext' ) );
+			$this->dieUsageMsg( [ 'actionthrottledtext' ] );
 		} elseif ( $user->isBlocked() ) {
-			$this->dieUsageMsg( array( 'blockedtext' ) );
+			$this->dieUsageMsg( [ 'blockedtext' ] );
 		}
 	}
 
@@ -33,10 +33,10 @@ abstract class ApiThank extends ApiBase {
 	}
 
 	protected function markResultSuccess( $recipientName ) {
-		$this->getResult()->addValue( null, 'result', array(
+		$this->getResult()->addValue( null, 'result', [
 			'success' => 1,
 			'recipient' => $recipientName,
-		) );
+		] );
 	}
 
 	/**
@@ -49,16 +49,16 @@ abstract class ApiThank extends ApiBase {
 	protected function haveAlreadyThanked( User $thanker, $uniqueId ) {
 		$dbw = wfGetDB( DB_MASTER );
 		return (bool)$dbw->selectRow(
-			array( 'log_search', 'logging' ),
-			array( 'ls_value' ),
-			array(
+			[ 'log_search', 'logging' ],
+			[ 'ls_value' ],
+			[
 				'log_user' => $thanker->getId(),
 				'ls_field' => 'thankid',
 				'ls_value' => $uniqueId,
-			),
+			],
 			__METHOD__,
-			array(),
-			array( 'logging' => array( 'INNER JOIN', 'ls_log_id=log_id' ) )
+			[],
+			[ 'logging' => [ 'INNER JOIN', 'ls_log_id=log_id' ] ]
 		);
 	}
 
@@ -75,7 +75,7 @@ abstract class ApiThank extends ApiBase {
 		}
 		$logEntry = new ManualLogEntry( 'thanks', 'thank' );
 		$logEntry->setPerformer( $user );
-		$logEntry->setRelations( array( 'thankid' => $uniqueId ) );
+		$logEntry->setRelations( [ 'thankid' => $uniqueId ] );
 		$target = $recipient->getUserPage();
 		$logEntry->setTarget( $target );
 		$logId = $logEntry->insert();

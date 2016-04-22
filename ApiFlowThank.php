@@ -43,7 +43,9 @@ class ApiFlowThank extends ApiThank {
 
 		$rootPost = $data['root'];
 		$workflowId = $rootPost->getPostId();
-		$rawTopicTitleText = Utils::htmlToPlaintext( Container::get( 'templating' )->getContent( $rootPost, 'topic-title-html' ) );
+		$rawTopicTitleText = Utils::htmlToPlaintext(
+			Container::get( 'templating' )->getContent( $rootPost, 'topic-title-html' )
+		);
 		// Truncate the title text to prevent issues with database storage.
 		$topicTitleText = $this->getLanguage()->truncate( $rawTopicTitleText, 200 );
 		$pageTitle = $this->getPageTitleFromRootPost( $rootPost );
@@ -122,17 +124,17 @@ class ApiFlowThank extends ApiThank {
 		}
 
 		// Create the notification via Echo extension
-		EchoEvent::create( array(
+		EchoEvent::create( [
 			'type' => 'flow-thank',
 			'title' => $pageTitle,
-			'extra' => array(
+			'extra' => [
 				'post-id' => $postId->getAlphadecimal(),
 				'workflow' => $workflowId->getAlphadecimal(),
 				'thanked-user-id' => $recipient->getId(),
 				'topic-title' => $topicTitleText,
-			),
+			],
 			'agent' => $user,
-		) );
+		] );
 
 		// And mark the thank in session for a cheaper check to prevent duplicates (Bug 46690).
 		$user->getRequest()->setSessionData( "flow-thanked-{$postId->getAlphadecimal()}", true );
@@ -142,25 +144,25 @@ class ApiFlowThank extends ApiThank {
 	}
 
 	public function getAllowedParams() {
-		return array(
-			'postid' => array(
+		return [
+			'postid' => [
 				ApiBase::PARAM_TYPE => 'string',
 				ApiBase::PARAM_REQUIRED => true,
-			),
-			'token' => array(
+			],
+			'token' => [
 				ApiBase::PARAM_TYPE => 'string',
 				ApiBase::PARAM_REQUIRED => true,
-			),
-		);
+			],
+		];
 	}
 
 	/**
 	 * @see ApiBase::getExamplesMessages()
 	 */
 	protected function getExamplesMessages() {
-		return array(
+		return [
 			'action=flowthank&postid=xyz789&token=123ABC'
 				=> 'apihelp-flowthank-example-1',
-		);
+		];
 	}
 }

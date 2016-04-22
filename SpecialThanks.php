@@ -57,15 +57,15 @@ class SpecialThanks extends FormSpecialPage {
 	 * @return Array
 	 */
 	protected function getFormFields() {
-		return array(
-			'revid' => array(
+		return [
+			'revid' => [
 				'id' => 'mw-thanks-form-revid',
 				'name' => 'revid',
 				'type' => 'hidden',
 				'label-message' => 'thanks-form-revid',
 				'default' => $this->id,
-			)
-		);
+			]
+		];
 	}
 
 	/**
@@ -115,18 +115,18 @@ class SpecialThanks extends FormSpecialPage {
 		}
 
 		if ( $this->type === 'rev' ) {
-			$requestData = array(
+			$requestData = [
 				'action' => 'thank',
 				'rev' => (int)$data['revid'],
 				'source' => 'specialpage',
 				'token' => $this->getUser()->getEditToken(),
-			);
+			];
 		} else {
-			$requestData = array(
+			$requestData = [
 				'action' => 'flowthank',
 				'postid' => $data['revid'],
 				'token' => $this->getUser()->getEditToken(),
-			);
+			];
 		}
 
 		$request = new DerivativeRequest(
@@ -147,7 +147,7 @@ class SpecialThanks extends FormSpecialPage {
 		}
 
 		if ( defined( 'ApiResult::META_CONTENT' ) ) {
-			$this->result = $api->getResult()->getResultData( array( 'result' ) );
+			$this->result = $api->getResult()->getResultData( [ 'result' ] );
 		} else {
 			$result = $api->getResult()->getData();
 			$this->result = $result['result'];
