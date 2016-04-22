@@ -73,8 +73,8 @@
 	/**
 	 * Initialise a thank button in the given container.
 	 *
-	 * @param {jQuery.Object} $user existing element with data attributes associated describing a user.
-	 * @param {jQuery.Object} $container to render button in
+	 * @param {jQuery} $user existing element with data attributes associated describing a user.
+	 * @param {jQuery} $container to render button in
 	 */
 	function init( $user, $container ) {
 		var username = $user.data( 'user-name' ),
