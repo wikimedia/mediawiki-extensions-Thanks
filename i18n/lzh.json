@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"SolidBlock"
+		]
+	},
+	"thanks-thank-tooltip": "{{GENDER:$1|至}}謝于{{GENDER:$2|或}}"
+}
