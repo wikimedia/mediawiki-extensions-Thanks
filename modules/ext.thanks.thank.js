@@ -37,6 +37,7 @@
 
 		/**
 		 * Retrieve user gender
+		 *
 		 * @param {string} username Requested username
 		 * @return {jQuery.Promise} A promise that resolves with the gender string, 'female', 'male', or 'unknown'
 		 */
@@ -50,8 +51,8 @@
 				.then(
 					function ( result ) {
 						return (
-							result.query.users[0] &&
-							result.query.users[0].gender
+							result.query.users[ 0 ] &&
+							result.query.users[ 0 ].gender
 						) || 'unknown';
 					},
 					function () {

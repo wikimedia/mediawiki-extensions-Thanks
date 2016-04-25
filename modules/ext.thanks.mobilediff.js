@@ -4,9 +4,9 @@
 	/**
 	 * Create a thank button for a given edit
 	 *
-	 * @param {String} name The username of the user who made the edit
-	 * @param {String} revision The revision the user created
-	 * @param {String} gender The gender of the user who made the edit
+	 * @param {string} name The username of the user who made the edit
+	 * @param {string} revision The revision the user created
+	 * @param {string} gender The gender of the user who made the edit
 	 */
 	function thankUser( name, revision, gender ) {
 		var d = $.Deferred();
@@ -37,9 +37,9 @@
 	/**
 	 * Create a thank button for a given edit
 	 *
-	 * @param {String} name The username of the user who made the edit
-	 * @param {String} rev The revision the user created
-	 * @param {String} gender The gender of the user who made the edit
+	 * @param {string} name The username of the user who made the edit
+	 * @param {string} rev The revision the user created
+	 * @param {string} gender The gender of the user who made the edit
 	 */
 	function createThankLink( name, rev, gender ) {
 		var thankImg = mw.config.get( 'wgExtensionAssetsPath' ) + '/Thanks/WhiteSmiley.png',
