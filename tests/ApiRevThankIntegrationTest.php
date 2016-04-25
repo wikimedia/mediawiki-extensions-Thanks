@@ -22,38 +22,42 @@ class ApiRevThankTest extends ApiTestCase {
 		$this->newRevId();
 	}
 
-	public function testRequestWithoutToken(){
+	public function testRequestWithoutToken() {
 		$this->setExpectedException( 'UsageException', 'The token parameter must be set' );
-		$this->doApiRequest( array(
+		$this->doApiRequest( [
 			'action' => 'thank',
 			'source' => 'someSource',
 			'rev' => 1,
-		) );
+		] );
 	}
 
-	public function testValidRequest(){
-		list( $result,, ) = $this->doApiRequestWithToken( array(
+	public function testValidRequest() {
+		list( $result,, ) = $this->doApiRequestWithToken( [
 			'action' => 'thank',
 			'rev' => $this->newRevId(),
-		) );
+		] );
 		$this->assertSuccess( $result );
 	}
 
-	public function testValidRequestWithSource(){
-		list( $result,, ) = $this->doApiRequestWithToken( array(
+	public function testValidRequestWithSource() {
+		list( $result,, ) = $this->doApiRequestWithToken( [
 			'action' => 'thank',
 			'source' => 'someSource',
 			'rev' => $this->newRevId(),
-		) );
+		] );
 		$this->assertSuccess( $result );
 	}
 
-	protected function newRevId(){
+	protected function newRevId() {
 		// You can't thank yourself, kind of hacky
 		$this->setMwGlobals( 'wgUser', self::$users['uploader']->getUser() );
 
 		/** @var Status $result */
-		$result = $this->editPage( 'thanks' . rand( 0, 100 ), 'thanks' . rand( 0, 100 ), 'thanksSummary' );
+		$result = $this->editPage(
+			'thanks' . rand( 0, 100 ),
+			'thanks' . rand( 0, 100 ),
+			'thanksSummary'
+		);
 		$result = $result->getValue();
 		/** @var Revision $revision */
 		$revision = $result['revision'];
@@ -63,18 +67,18 @@ class ApiRevThankTest extends ApiTestCase {
 		return $revision->getId();
 	}
 
-	protected function assertSuccess( $result ){
-		$this->assertEquals( array(
-			'result' => array(
+	protected function assertSuccess( $result ) {
+		$this->assertEquals( [
+			'result' => [
 				'success' => 1,
 				'recipient' => self::$users['uploader']->username,
-			),
-		), $result );
+			],
+		], $result );
 	}
 
-	public function testInvalidRequest(){
+	public function testInvalidRequest() {
 		$this->setExpectedException( 'UsageException' );
-		$this->doApiRequestWithToken( array( 'action' => 'thank' ) );
+		$this->doApiRequestWithToken( [ 'action' => 'thank' ] );
 	}
 
 }

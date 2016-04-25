@@ -18,14 +18,14 @@ class EchoThanksFormatter extends EchoBasicFormatter {
 			$this->setTitleLink(
 				$event,
 				$message,
-				array(
+				[
 					'class' => 'mw-echo-diff',
 					'linkText' => wfMessage( 'notification-thanks-diff-link' )->text(),
-					'param' => array(
+					'param' => [
 						'oldid' => $eventData['revid'],
 						'diff' => 'prev',
-					)
-				)
+					]
+				]
 			);
 
 		} else {

@@ -12,9 +12,9 @@ class ThanksLogFormatter extends LogFormatter {
 		$params[3] = $recipient->getName();
 		return $params;
 	}
-	
+
 	public function getPreloadTitles() {
 		// Add the recipient's user talk page to LinkBatch
-		return array( Title::makeTitle( NS_USER_TALK, $this->entry->getTarget()->getText() ) );
+		return [ Title::makeTitle( NS_USER_TALK, $this->entry->getTarget()->getText() ) ];
 	}
 }

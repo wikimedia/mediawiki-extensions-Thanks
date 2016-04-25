@@ -19,15 +19,15 @@ class ThanksHooks {
 		ResourceLoader &$resourceLoader
 	) {
 		if ( class_exists( 'SpecialMobileDiff' ) ) {
-			$testModules['qunit']['tests.ext.thanks.mobilediff'] = array(
+			$testModules['qunit']['tests.ext.thanks.mobilediff'] = [
 				'localBasePath' => __DIR__,
 				'remoteExtPath' => 'Thanks',
-				'dependencies' => array( 'ext.thanks.mobilediff' ),
-				'scripts' => array(
+				'dependencies' => [ 'ext.thanks.mobilediff' ],
+				'scripts' => [
 					'tests/qunit/test_ext.thanks.mobilediff.js',
-				),
-				'targets' => array( 'desktop', 'mobile' ),
-			);
+				],
+				'targets' => [ 'desktop', 'mobile' ],
+			];
 		}
 		return true;
 	}
@@ -94,7 +94,7 @@ class ThanksHooks {
 		if ( $wgUser->getRequest()->getSessionData( "thanks-thanked-{$rev->getId()}" ) ) {
 			return Html::element(
 				'span',
-				array( 'class' => 'mw-thanks-thanked' ),
+				[ 'class' => 'mw-thanks-thanked' ],
 				wfMessage( 'thanks-thanked', $wgUser, $recipient->getName() )->text()
 			);
 		}
@@ -106,12 +106,12 @@ class ThanksHooks {
 
 		return Html::element(
 			'a',
-			array(
+			[
 				'class' => 'mw-thanks-thank-link',
 				'href' => SpecialPage::getTitleFor( 'Thanks', $rev->getId() )->getFullURL(),
 				'title' => $tooltip,
 				'data-revision-id' => $rev->getId(),
-			),
+			],
 			wfMessage( 'thanks-thank', $wgUser, $recipient->getName() )->text()
 		);
 	}
@@ -119,7 +119,8 @@ class ThanksHooks {
 	/**
 	 * Handler for PageHistoryBeforeList hook.
 	 * @see http://www.mediawiki.org/wiki/Manual:Hooks/PageHistoryBeforeList
-	 * @param &$page WikiPage|Article|ImagePage|CategoryPage|Page The page that the history is loading for.
+	 * @param &$page WikiPage|Article|ImagePage|CategoryPage|Page The page for which the history
+	 *   is loading.
 	 * @param $context RequestContext object
 	 * @return bool true in all cases
 	 */
@@ -129,7 +130,7 @@ class ThanksHooks {
 			&& $context->getUser()->isLoggedIn()
 		) {
 			// Load the module for the thank links
-			$context->getOutput()->addModules( array( 'ext.thanks.revthank' ) );
+			$context->getOutput()->addModules( [ 'ext.thanks.revthank' ] );
 			$context->getOutput()->addJsConfigVars( 'thanks-confirmation-required',
 				$wgThanksConfirmationRequired );
 		}
@@ -150,7 +151,7 @@ class ThanksHooks {
 			&& $diff->getUser()->isLoggedIn()
 		) {
 			// Load the module for the thank link
-			$diff->getOutput()->addModules( array( 'ext.thanks.revthank' ) );
+			$diff->getOutput()->addModules( [ 'ext.thanks.revthank' ] );
 			$diff->getOutput()->addJsConfigVars( 'thanks-confirmation-required',
 				$wgThanksConfirmationRequired );
 		}
@@ -165,46 +166,48 @@ class ThanksHooks {
 	 * @param $icons array of icon details
 	 * @return bool
 	 */
-	public static function onBeforeCreateEchoEvent( &$notifications, &$notificationCategories, &$icons ) {
-		$notificationCategories['edit-thank'] = array(
+	public static function onBeforeCreateEchoEvent(
+		&$notifications, &$notificationCategories, &$icons
+	) {
+		$notificationCategories['edit-thank'] = [
 			'priority' => 3,
 			'tooltip' => 'echo-pref-tooltip-edit-thank',
-		);
+		];
 
-		$notifications['edit-thank'] = array(
-			'primary-link' => array( 'message' => 'notification-link-text-view-edit', 'destination' => 'diff' ),
+		$notifications['edit-thank'] = [
+			'primary-link' => [ 'message' => 'notification-link-text-view-edit', 'destination' => 'diff' ],
 			'category' => 'edit-thank',
 			'group' => 'positive',
 			'presentation-model' => 'EchoThanksPresentationModel',
 			'formatter-class' => 'EchoThanksFormatter',
 			'title-message' => 'notification-thanks',
-			'title-params' => array( 'agent', 'difflink', 'title' ),
-			'payload' => array( 'summary' ),
+			'title-params' => [ 'agent', 'difflink', 'title' ],
+			'payload' => [ 'summary' ],
 			'email-subject-message' => 'notification-thanks-email-subject',
-			'email-subject-params' => array( 'agent' ),
+			'email-subject-params' => [ 'agent' ],
 			'email-body-batch-message' => 'notification-thanks-email-batch-body',
-			'email-body-batch-params' => array( 'agent', 'title' ),
+			'email-body-batch-params' => [ 'agent', 'title' ],
 			'icon' => 'thanks',
-		);
+		];
 
-		$notifications['flow-thank'] = array(
-			'primary-link' => array( 'message' => 'notification-link-text-view-post', 'destination' => 'post' ),
+		$notifications['flow-thank'] = [
+			'primary-link' => [ 'message' => 'notification-link-text-view-post', 'destination' => 'post' ],
 			'category' => 'edit-thank',
 			'group' => 'positive',
 			'presentation-model' => 'EchoFlowThanksPresentationModel',
 			'formatter-class' => 'EchoFlowThanksFormatter',
 			'title-message' => 'notification-flow-thanks',
-			'title-params' => array( 'agent', 'postlink', 'topictitle', 'title', 'user' ),
+			'title-params' => [ 'agent', 'postlink', 'topictitle', 'title', 'user' ],
 			'email-subject-message' => 'notification-flow-thanks-email-subject',
-			'email-subject-params' => array( 'agent', 'user' ),
+			'email-subject-params' => [ 'agent', 'user' ],
 			'email-body-batch-message' => 'notification-flow-thanks-email-batch-body',
-			'email-body-batch-params' => array( 'agent', 'topictitle', 'title', 'user' ),
+			'email-body-batch-params' => [ 'agent', 'topictitle', 'title', 'user' ],
 			'icon' => 'thanks',
-		);
+		];
 
-		$icons['thanks'] = array(
+		$icons['thanks'] = [
 			'path' => 'Thanks/ThankYou.png',
-		);
+		];
 
 		return true;
 	}
@@ -264,7 +267,7 @@ class ThanksHooks {
 			&& self::canReceiveThanks( User::newFromId( $rev->getUser() ) )
 			&& $output->getUser()->isLoggedIn()
 		) {
-			$output->addModules( array( 'ext.thanks.mobilediff' ) );
+			$output->addModules( [ 'ext.thanks.mobilediff' ] );
 
 			if ( $output->getRequest()->getSessionData( 'thanks-thanked-' . $rev->getId() ) ) {
 				// User already sent thanks for this revision
