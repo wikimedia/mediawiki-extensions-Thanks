@@ -12,7 +12,7 @@
  *
  * @author Addshore
  */
-class ApiRevThankTest extends ApiTestCase {
+class ApiRevThankIntegrationTest extends ApiTestCase {
 
 	public function setUp() {
 		parent::setUp();
