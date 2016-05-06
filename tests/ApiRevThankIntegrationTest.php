@@ -14,12 +14,25 @@
  */
 class ApiRevThankIntegrationTest extends ApiTestCase {
 
+	/**
+	 * @var int filled in setUp
+	 */
+	private $revId;
+
 	public function setUp() {
 		parent::setUp();
+
+		// You can't thank yourself, kind of hacky but just use this other user
+		$this->doLogin( 'uploader' );
+		$result = $this->editPage( __CLASS__ . rand( 0, 100 ), __CLASS__ . rand( 0, 100 ) );
+		/** @var Status $result */
+		$result = $result->getValue();
+		/** @var Revision $revision */
+		$revision = $result['revision'];
+		$this->revId = $revision->getId();
+
 		$this->doLogin( 'sysop' );
-		\DeferredUpdates::clearPendingUpdates();
-		// Make one edit
-		$this->newRevId();
+		DeferredUpdates::clearPendingUpdates();
 	}
 
 	public function testRequestWithoutToken() {
@@ -34,7 +47,7 @@ class ApiRevThankIntegrationTest extends ApiTestCase {
 	public function testValidRequest() {
 		list( $result,, ) = $this->doApiRequestWithToken( [
 			'action' => 'thank',
-			'rev' => $this->newRevId(),
+			'rev' => $this->revId,
 		] );
 		$this->assertSuccess( $result );
 	}
@@ -43,35 +56,16 @@ class ApiRevThankIntegrationTest extends ApiTestCase {
 		list( $result,, ) = $this->doApiRequestWithToken( [
 			'action' => 'thank',
 			'source' => 'someSource',
-			'rev' => $this->newRevId(),
+			'rev' => $this->revId,
 		] );
 		$this->assertSuccess( $result );
-	}
-
-	protected function newRevId() {
-		// You can't thank yourself, kind of hacky
-		$this->setMwGlobals( 'wgUser', self::$users['uploader']->getUser() );
-
-		/** @var Status $result */
-		$result = $this->editPage(
-			'thanks' . rand( 0, 100 ),
-			'thanks' . rand( 0, 100 ),
-			'thanksSummary'
-		);
-		$result = $result->getValue();
-		/** @var Revision $revision */
-		$revision = $result['revision'];
-
-		$this->setMwGlobals( 'wgUser', self::$users['sysop']->getUser() );
-
-		return $revision->getId();
 	}
 
 	protected function assertSuccess( $result ) {
 		$this->assertEquals( [
 			'result' => [
 				'success' => 1,
-				'recipient' => self::$users['uploader']->username,
+				'recipient' => self::$users['uploader']->getUser()->getName(),
 			],
 		], $result );
 	}
