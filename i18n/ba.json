@@ -39,7 +39,7 @@
 	"logentry-thanks-thank": "$3 {{GENDER:$4|ҡатнашыусыны}}  $1 {{GENDER:$2|ҡотланы}}",
 	"log-show-hide-thanks": "$1 Ҡотлауҙар журналы.",
 	"thanks-error-no-id-specified": "Ҡотлау өсөн үҙгәртеү идентификаторын күрһәтергә.",
-	"thanks-confirmation-special": "Был төҙәтеү өсөн рәхмәт әйтергәме?",
+	"thanks-confirmation-special": "Был төҙәтеү өсөн рәхмәт әйтергә теләйһегеҙме?",
 	"notification-link-text-view-post": "Йөкмәткене ҡарарға",
 	"thanks-error-invalidpostid": "Хәбәрҙең тыйылған идентификаторы.",
 	"flow-thanks-confirmation-special": "Был төҙәтеү өсөн рәхмәт әйтергә теләйһегеҙме?",
