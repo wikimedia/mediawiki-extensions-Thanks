@@ -8,8 +8,9 @@
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|تشکور}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|تشکّور گؤندریلدی}}}}",
 	"thanks-thank-tooltip": "بۇ {{GENDER:$2|ایشلدنه}} بیر تشکّور مساژی {{GENDER:$1|گؤندر}}",
 	"thanks-confirmation2": "بۇ دییشیک‌لیک اۆچون آچیقجا تشکّور {{GENDER:$1|گؤندریلسینمی؟}}",
 	"echo-category-title-edit-thank": "تشکرلر",
-	"notification-header-edit-thank": "$1 '''$3'''-ده ائتدیگینیز دییشیک‌لیک اۆچون {{GENDER:$4|سیزدن}} {{GENDER:$2|تشکّور ائتدی}}."
+	"notification-header-edit-thank": "$1 '''$3''' صفحه‌سینده ائتدیگینیز دییشیک‌لیک اۆچون {{GENDER:$4|سیزدن}} {{GENDER:$2|تشکّور ائتدی}}."
 }
