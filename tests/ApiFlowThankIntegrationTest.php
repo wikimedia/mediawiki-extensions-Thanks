@@ -22,6 +22,8 @@ class ApiFlowThankTest extends ApiTestCase {
 	 * @var PostRevision
 	 */
 	public $topic,
+		$meUser,
+		$otherUser,
 		$postByOtherUser,
 		$postByMe;
 
@@ -33,13 +35,20 @@ class ApiFlowThankTest extends ApiTestCase {
 		}
 
 		// mock topic and post
+		if ( method_exists( $this, 'getTestUser' ) ) {
+			$this->meUser = $this->getTestUser( true )->getUser();
+			$this->otherUser = $this->getTestUser( true )->getUser();
+		} else {
+			$this->meUser = self::$users[ 'sysop' ]->getUser();
+			$this->otherUser = self::$users[ 'uploader' ]->getUser();
+		}
 		$this->topic = $this->generateObject();
 		$this->postByOtherUser = $this->generateObject( [
-				'tree_orig_user_id' => self::$users[ 'uploader' ]->getUser()->getId(),
+				'tree_orig_user_id' => $this->otherUser->getId(),
 				'tree_parent_id' => $this->topic->getPostId()->getBinary(),
 			], [], 1 );
 		$this->postByMe = $this->generateObject( [
-				'tree_orig_user_id' => self::$users[ 'sysop' ]->getUser()->getId(),
+				'tree_orig_user_id' => $this->meUser->getId(),
 				'tree_parent_id' => $this->topic->getPostId()->getBinary(),
 			], [], 1 );
 
@@ -138,7 +147,7 @@ class ApiFlowThankTest extends ApiTestCase {
 		list( $result,, ) = $this->doApiRequestWithToken( [
 			'action' => 'flowthank',
 			'postid' => $this->postByMe->getPostId()->getAlphadecimal(),
-		] );
+		], null, $this->meUser );
 	}
 
 	protected function assertSuccess( $result ) {
@@ -162,7 +171,7 @@ class ApiFlowThankTest extends ApiTestCase {
 		$uuidPost = UUID::create();
 		$uuidRevision = UUID::create();
 
-		$user = User::newFromName( 'UTSysop' );
+		$user = $this->meUser;
 		$userId = $user->getId();
 		$userIp = null;
 
