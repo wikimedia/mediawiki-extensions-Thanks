@@ -36,8 +36,8 @@ class ApiFlowThankTest extends ApiTestCase {
 
 		// mock topic and post
 		if ( method_exists( $this, 'getTestUser' ) ) {
-			$this->meUser = $this->getTestUser( true )->getUser();
-			$this->otherUser = $this->getTestUser( true )->getUser();
+			$this->meUser = $this->getMutableTestUser()->getUser();
+			$this->otherUser = $this->getMutableTestUser()->getUser();
 		} else {
 			$this->meUser = self::$users[ 'sysop' ]->getUser();
 			$this->otherUser = self::$users[ 'uploader' ]->getUser();
