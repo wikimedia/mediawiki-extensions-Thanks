@@ -152,7 +152,7 @@
 		"EchoGetDefaultNotifiedUsers": [
 			"ThanksHooks::onEchoGetDefaultNotifiedUsers"
 		],
-		"AddNewAccount": [
+		"LocalUserCreated": [
 			"ThanksHooks::onAccountCreated"
 		],
 		"BeforeSpecialMobileDiffDisplay": [
