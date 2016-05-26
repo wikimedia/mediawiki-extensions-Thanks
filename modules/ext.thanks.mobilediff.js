@@ -10,7 +10,7 @@
 	 */
 	function thankUser( name, revision, gender ) {
 		var d = $.Deferred();
-		( new mw.Api() ).postWithToken( 'edit', {
+		( new mw.Api() ).postWithToken( 'csrf', {
 			action: 'thank',
 			rev: revision,
 			source: 'mobilediff'

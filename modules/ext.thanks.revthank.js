@@ -28,7 +28,7 @@
 			source = 'diff';
 		}
 
-		( new mw.Api ).postWithToken( 'edit', {
+		( new mw.Api ).postWithToken( 'csrf', {
 			action: 'thank',
 			rev: $thankLink.attr( 'data-revision-id' ),
 			source: source

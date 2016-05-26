@@ -34,7 +34,7 @@
 	}
 
 	function sendFlowThanks( $thankLink ) {
-		( new mw.Api() ).postWithToken( 'edit', {
+		( new mw.Api() ).postWithToken( 'csrf', {
 			action: 'flowthank',
 			postid: $thankLink.closest( '.flow-post' ).attr( mw.thanks.thanked.attrName )
 		} )
