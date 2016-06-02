@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"KuboF"
+			"KuboF",
+			"Robin van der Vliet"
 		]
 	},
 	"thanks-desc": "Aldoni ligilon por danki al uzantoj pro ties redaktoj, komentoj ks.",
@@ -16,12 +17,12 @@
 	"thanks-confirmation2": "{{GENDER:$1|Ĉu sendi}} publikan dankon pro tiu ĉi redakto?",
 	"thanks-thanked-notice": "$1 ricevis vian dankon pro {{GENDER:$2|lia|ŝia|lia}} redakto.",
 	"thanks": "Sendi dankon",
+	"thanks-submit": "Danki",
 	"echo-pref-subscription-edit-thank": "Danki al mi pro miaj redaktoj",
 	"echo-pref-tooltip-edit-thank": "Sciigu min kiam iu dankas al mi pro mia redakto.",
 	"echo-category-title-edit-thank": "Dankoj",
 	"notification-thanks-diff-link": "via redakto",
 	"notification-thanks": "[[User:$1|$1]] {{GENDER:$1|dankis}} al vi pro $2 en [[:$3]].",
-	"notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1|dankis}} al vi pro via redakto en $2.",
 	"notification-thanks-email-subject": "$1 dankis al vi pro via redakto en {{SITENAME}}",
 	"notification-thanks-email-batch-body": "$1 dankis al vi pro via redakto en $2.",
 	"log-name-thanks": "Protokolo de dankoj",
