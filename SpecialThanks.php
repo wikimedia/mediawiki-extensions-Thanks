@@ -24,6 +24,10 @@ class SpecialThanks extends FormSpecialPage {
 		parent::__construct( 'Thanks' );
 	}
 
+	public function doesWrites() {
+		return true;
+	}
+
 	/**
 	 * Set the type and ID or UUID of the request.
 	 * @param string $par
