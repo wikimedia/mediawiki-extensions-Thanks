@@ -10,7 +10,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|махтаныллыбыт}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Махтал}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Махтаныллыбыт}}}}",
-	"thanks-error-undefined": "Махтанар табыллыбата. Хатылаан көр.",
+	"thanks-error-undefined": "Махтанар табыллыбата (алҕас куода: $1). Хатылаан көр.",
 	"thanks-error-invalidrevision": "Нүөмэрэ алҕастаах.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Эн}} маннык дьайыыны кылгас кэм иһигэр наһаа элбэхтэ оҥорбуккун. Бука диэн тохтуу түһэн баран хатылаан көрөөр.",
 	"thanks-thank-tooltip": "Бу {{GENDER:$2|кыттааччыга}} махтал сурук {{GENDER:$1|ыытарга}}",

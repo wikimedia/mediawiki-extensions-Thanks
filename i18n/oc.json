@@ -16,7 +16,7 @@
 	"thanks-confirmation2": "{{GENDER:$1|Mandar}} de mercejaments publics per aquesta modificacion ?",
 	"thanks-thanked-notice": "$1 es estat notificat que vos a agradat {{GENDER:$2|sa}} modificacion.",
 	"echo-pref-subscription-edit-thank": "Me mercejar per ma modificacion",
-	"echo-pref-tooltip-edit-thank": "M'avisar quand qualqu’un me merceja per una modificacion qu’ai facha.",
+	"echo-pref-tooltip-edit-thank": "M'avisar quand qualqu’un me merceja per una modificacion qu’ai faita.",
 	"echo-category-title-edit-thank": "Mercé",
 	"notification-thanks-diff-link": "vòstra modificacion",
 	"notification-thanks": "[[User:$1|$1]] vos {{GENDER:$1|a mercejat}} per $2 sus [[:$3]].",
