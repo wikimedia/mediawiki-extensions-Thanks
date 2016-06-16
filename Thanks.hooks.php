@@ -1,4 +1,6 @@
 <?php
+use Flow\Model\UUID;
+
 /**
  * Hooks for Thanks extension
  *
@@ -188,6 +190,10 @@ class ThanksHooks {
 			'email-body-batch-message' => 'notification-thanks-email-batch-body',
 			'email-body-batch-params' => [ 'agent', 'title' ],
 			'icon' => 'thanks',
+			'bundle' => [
+				'web' => true,
+				'expandable' => true,
+			],
 		];
 
 		$notifications['flow-thank'] = [
@@ -203,6 +209,10 @@ class ThanksHooks {
 			'email-body-batch-message' => 'notification-flow-thanks-email-batch-body',
 			'email-body-batch-params' => [ 'agent', 'topictitle', 'title', 'user' ],
 			'icon' => 'thanks',
+			'bundle' => [
+				'web' => true,
+				'expandable' => true,
+			],
 		];
 
 		$icons['thanks'] = [
@@ -336,6 +346,31 @@ class ThanksHooks {
 				'action',
 				'ApiFlowThank'
 			);
+		}
+		return true;
+	}
+
+	/**
+	 * Handler for EchoGetBundleRule hook, which defines the bundle rules for each notification
+	 *
+	 * @param $event EchoEvent
+	 * @param $bundleString string Determines how the notification should be bundled
+	 * @return boolean True for success
+	 */
+	public static function onEchoGetBundleRules( $event, &$bundleString ) {
+		switch ( $event->getType() ) {
+			case 'edit-thank':
+				$revId = $event->getExtraParam( 'revid' );
+				if ( $revId ) {
+					$bundleString = $event->getExtraParam( 'revid' );
+				}
+				break;
+			case 'flow-thank':
+				$postId = $event->getExtraParam( 'post-id' );
+				if ( $postId ) {
+					$bundleString = $postId;
+				}
+				break;
 		}
 		return true;
 	}
