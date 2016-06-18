@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Kaganer",
-			"HalanTul"
+			"HalanTul",
+			"София"
 		]
 	},
 	"thanks-desc": "Кыттааччыларга суруйууларын, ырытыыларын иһин махталы биллэрэр сигэни эбэр.",
@@ -14,6 +15,8 @@
 	"thanks-error-invalidrevision": "Нүөмэрэ алҕастаах.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Эн}} маннык дьайыыны кылгас кэм иһигэр наһаа элбэхтэ оҥорбуккун. Бука диэн тохтуу түһэн баран хатылаан көрөөр.",
 	"thanks-thank-tooltip": "Бу {{GENDER:$2|кыттааччыга}} махтал сурук {{GENDER:$1|ыытарга}}",
+	"thanks-thank-tooltip-no": "Махтал биллэриилэри {{$1|Уурат}}",
+	"thanks-thank-tooltip-yes": "Махтал биллэриилэри {{$1|Ыыт}}",
 	"thanks-confirmation2": "Махталы дьон көрөрүгэр {{GENDER:$1|ыытаҕын}} дуо?",
 	"thanks-thanked-notice": "$1 кыттааччы {{GENDER:$2|бэйэтин}} суруйуутун иһин эйигиттэн махталы тутта.",
 	"thanks": "Махтанарга",
@@ -42,9 +45,11 @@
 	"notification-header-flow-thank": "$1 '''$4''' сирэйгэ баар '''$3''' ырытыыҥ иһин {{GENDER:$5|эйиэхэ}} {{GENDER:$2|махтаммыт}}.",
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$2|эйиэхэ}} махтаммыт «{{SITENAME}}» ситим-сиргэ быһаарыыҥ иһин.",
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$4|эйиэхэ}} {{GENDER:$1|махтаммыт}} «$2» ситим-сир $3 сирэйигэр тиэмэҕэ быһаарыыҥ иһин.",
+	"apihelp-flowthank-description": "Уопсастыба ырытарын туһугар махтал биллэриилэри ыыт.",
 	"apihelp-flowthank-param-postid": "Махтаныллыахтаах сурук UUID нүөмэрэ.",
 	"apihelp-flowthank-example-1": "<kbd>UUID xyz789</kbd> ырытыы иһин махтаныы",
 	"apihelp-thank-description": "Эрэдээктэргэ махтаныы туһунан биллэр.",
 	"apihelp-thank-param-rev": "Ааптарыгар махтанаары гынар торумуҥ ID-та.",
+	"apihelp-thank-param-source": "Ыйытык төрүтүн ойуулуур кылгас устуруока, холобур < KBD > Diff < / KBD > эбэтэр < KBD > История < / KBD > .",
 	"apihelp-thank-example-1": "Торум иһин махтанарга торумнар ыккардыларыгар баар уратыны көрдөрөр сирэйгэ <kbd>ID 456</kbd> сигэнии."
 }
