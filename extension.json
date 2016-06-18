@@ -98,7 +98,6 @@
 				"thanks-thanked-notice"
 			],
 			"dependencies": [
-				"mobile.special.mobilediff.scripts",
 				"mediawiki.api",
 				"mobile.toast"
 			],
