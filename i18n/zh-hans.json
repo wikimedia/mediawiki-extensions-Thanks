@@ -40,7 +40,7 @@
 	"notification-thanks-diff-link": "编辑",
 	"notification-thanks": "[[User:$1|$1]]{{GENDER:$1|感谢了}}您对[[:$3]]的$2。",
 	"notification-header-edit-thank": "$1{{GENDER:$2|感谢了}}{{GENDER:$4|您}}在'''$3'''的编辑。",
-	"notification-thanks-email-subject": "$1{{GENDER:$1|感谢了}}您在{{SITENAME}}的编辑",
+	"notification-thanks-email-subject": "$1{{GENDER:$1|感谢了}}您对{{SITENAME}}的编辑",
 	"notification-thanks-email-batch-body": "$1{{GENDER:$1|感谢了}}您对$2的编辑。",
 	"log-name-thanks": "感谢日志",
 	"log-description-thanks": "下面是得到其他用户感谢的用户的列表。",
