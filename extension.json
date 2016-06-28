@@ -171,6 +171,9 @@
 		],
 		"ApiMain::moduleManager": [
 			"ThanksHooks::onApiMainModuleManager"
+		],
+		"EchoGetBundleRules": [
+			"ThanksHooks::onEchoGetBundleRules"
 		]
 	},
 	"config": {

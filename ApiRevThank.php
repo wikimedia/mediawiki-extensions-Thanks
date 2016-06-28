@@ -90,6 +90,7 @@ class ApiRevThank extends ApiThank {
 				'revid' => $revision->getId(),
 				'thanked-user-id' => $recipient->getId(),
 				'source' => $source,
+				'excerpt' => EchoDiscussionParser::getEditExcerpt( $revision, $this->getLanguage() ),
 			],
 			'agent' => $user,
 		] );

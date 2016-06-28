@@ -10,14 +10,34 @@ class EchoFlowThanksPresentationModel extends Flow\FlowPresentationModel {
 	}
 
 	public function getHeaderMessage() {
-		$msg = parent::getHeaderMessage();
+		if ( $this->isBundled() ) {
+			$msg = $this->msg( 'notification-bundle-header-flow-thank' );
+			$msg->params( $this->getBundleCount() );
+			$msg->plaintextParams( $this->getTopicTitle() );
+			$msg->params( $this->getViewingUserForGender() );
+			return $msg;
+		} else {
+			$msg = parent::getHeaderMessage();
+			$msg->plaintextParams( $this->getTopicTitle() );
+			$msg->params( $this->getTruncatedTitleText( $this->event->getTitle(), true ) );
+			$msg->params( $this->getViewingUserForGender() );
+			return $msg;
+		}
+	}
 
-		$truncatedTopicTitle = $this->getTopicTitle();
-		$msg->plaintextParams( $truncatedTopicTitle );
-		$msg->params( $this->getTruncatedTitleText( $this->event->getTitle(), true ) );
-
+	public function getCompactHeaderMessage() {
+		$msg = parent::getCompactHeaderMessage();
 		$msg->params( $this->getViewingUserForGender() );
 		return $msg;
+	}
+
+	public function getBodyMessage() {
+		$excerpt = $this->event->getExtraParam( 'excerpt' );
+		if ( $excerpt ) {
+			$msg = new RawMessage( '$1' );
+			$msg->plaintextParams( $excerpt );
+			return $msg;
+		}
 	}
 
 	public function getPrimaryLink() {
@@ -38,6 +58,10 @@ class EchoFlowThanksPresentationModel extends Flow\FlowPresentationModel {
 	}
 
 	public function getSecondaryLinks() {
-		return [ $this->getAgentLink(), $this->getBoardLink() ];
+		if ( $this->isBundled() ) {
+			return [ $this->getBoardLink() ];
+		} else {
+			return [ $this->getAgentLink(), $this->getBoardLink() ];
+		}
 	}
 }
