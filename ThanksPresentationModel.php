@@ -23,6 +23,12 @@ class EchoThanksPresentationModel extends EchoEventPresentationModel {
 		}
 	}
 
+	public function getCompactHeaderMessage() {
+		$msg = parent::getCompactHeaderMessage();
+		$msg->params( $this->getViewingUserForGender() );
+		return $msg;
+	}
+
 	public function getBodyMessage() {
 		$comment = $this->getEditComment();
 		if ( $comment ) {
