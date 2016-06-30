@@ -362,15 +362,17 @@ class ThanksHooks {
 	public static function onEchoGetBundleRules( $event, &$bundleString ) {
 		switch ( $event->getType() ) {
 			case 'edit-thank':
+				$bundleString = 'edit-thank';
 				$revId = $event->getExtraParam( 'revid' );
 				if ( $revId ) {
-					$bundleString = $event->getExtraParam( 'revid' );
+					$bundleString .= $event->getExtraParam( 'revid' );
 				}
 				break;
 			case 'flow-thank':
+				$bundleString = 'flow-thank';
 				$postId = $event->getExtraParam( 'post-id' );
 				if ( $postId ) {
-					$bundleString = $postId;
+					$bundleString .= $postId;
 				}
 				break;
 		}
