@@ -4,7 +4,8 @@
 			"Littledogboy",
 			"Mormegil",
 			"Matěj Suchánek",
-			"Macofe"
+			"Macofe",
+			"Dvorapa"
 		]
 	},
 	"thanks-desc": "Přidává odkazy pro poděkování uživatelům za editace, komentáře apod.",
@@ -28,7 +29,9 @@
 	"echo-category-title-edit-thank": "poděkování",
 	"notification-thanks-diff-link": "vaši úpravu",
 	"notification-thanks": "[[User:$1|$1]] vám {{GENDER:$1|poděkoval|poděkovala}} za $2 stránky [[:$3]].",
-	"notification-header-edit-thank": "$1 {{GENDER:$4|vám}} {{GENDER:$2|poděkoval|poděkovala}} za editaci stránky '''$3'''.",
+	"notification-header-edit-thank": "$1 {{GENDER:$4|vám}} {{GENDER:$2|poděkoval|poděkovala}} za editaci stránky <strong>$3</strong>.",
+	"notification-compact-header-edit-thank": "$1 {{GENDER:$3|vám}} {{GENDER:$2|poděkoval|poděkovala|poděkoval(a)}}.",
+	"notification-bundle-header-edit-thank": "{{PLURAL:$1|Jeden člověk|$1 lidé|$1 lidí|100=Více než 99 lidí}} {{GENDER:$3|vám}} {{PLURAL:$1|poděkoval|poděkovali|poděkovalo}} za vaši editaci stránky <strong>$2</strong>.",
 	"notification-thanks-email-subject": "$1 vám {{GENDER:$1|poděkoval|poděkovala}} za vaši editaci na {{grammar:6sg|{{SITENAME}}}}",
 	"notification-thanks-email-batch-body": "$1 vám {{GENDER:$1|poděkoval|poděkovala}} za vaši úpravu stránky $2.",
 	"log-name-thanks": "Kniha poděkování",
@@ -43,7 +46,9 @@
 	"flow-thanks-thanked-notice": "{{GENDER:$2|Uživatel|Uživatelka}} $1 {{GENDER:$2|obdržel|obdržela}} vaše poděkování za komentář.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$5|vám}} {{GENDER:$1|poděkoval|poděkovala}} za $2 k „$3“ na stránce [[:$4]].",
 	"notification-flow-thanks-post-link": "váš komentář",
-	"notification-header-flow-thank": "$1 {{GENDER:$5|vám}} {{GENDER:$2|poděkoval|poděkovala}} za komentář k '''$3''' na stránce '''$4'''.",
+	"notification-header-flow-thank": "$1 {{GENDER:$5|vám}} {{GENDER:$2|poděkoval|poděkovala}} za komentář k tématu „<strong>$3</strong>“.",
+	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|vám}} {{GENDER:$2|poděkoval|poděkovala}}.",
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Jeden člověk|$1 lidé|$1 lidí|100=Více než 99 lidí}} {{GENDER:$3|vám}} {{PLURAL:$1|poděkoval|poděkovali|poděkovalo}} za váš komentář k tématu „<strong>$2</strong>“.",
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$2|vám}} {{GENDER:$1|poděkoval|poděkovala}} za váš komentář na {{grammar:6sg|{{SITENAME}}}}",
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$4|vám}} {{GENDER:$1|poděkoval|poděkovala}} za váš komentář k „$2“ na stránce $3."
 }

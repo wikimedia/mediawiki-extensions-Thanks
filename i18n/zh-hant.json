@@ -34,7 +34,7 @@
 	"echo-category-title-edit-thank": "感謝",
 	"notification-thanks-diff-link": "您的編輯",
 	"notification-thanks": "[[User:$1|$1]] 已{{GENDER:$1|感謝}}您在 [[:$3]] 中 $2。",
-	"notification-header-edit-thank": "$1{{GENDER:$2|已感謝}}{{GENDER:$4|您}}於'''$3'''的編輯。",
+	"notification-header-edit-thank": "$1{{GENDER:$2|已感謝}}{{GENDER:$4|您}}於<strong>$3</strong>的編輯。",
 	"notification-thanks-email-subject": "$1 {{GENDER:$1|已感謝}}您於 {{SITENAME}} 上的編輯",
 	"notification-thanks-email-batch-body": "$1 {{GENDER:$1|已感謝}}您於 $2 上的編輯。",
 	"log-name-thanks": "感謝日誌",
