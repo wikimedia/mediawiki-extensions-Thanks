@@ -42,6 +42,7 @@
 	"notification-flow-thanks": "{{GENDER:$1|Dä|Dat|Dä Metmaacher|De|Dat}} \n[[User:$1|$1]] hät sesch bei Der bedangk för $2 dä Övverschreff „$3“ op dä Sigg „[[:$4]]“.{{GENDER:$5|}}",
 	"notification-flow-thanks-post-link": "wat de jeschrevve häs",
 	"notification-header-flow-thank": "{{GENDER:$2|Dä|Dat|Dä Metmaacher|De|Dat}} $1 hät sesch bei Der bedangk för wat de em Affschnedd '''$3''' op dä Sigg '''$4''' aanjemärk häs.{{GENDER:$5|}}",
+	"notification-compact-header-flow-thank": "{{GENDER:$2|Dä|Dat|Dä Metmaacher|De|Dat}} $1 sesch beij Deer bedangk.{{GENDER:$3|}}",
 	"notification-flow-thanks-email-subject": "{{GENDER:$1|Dä|Dat|Dä Metmaacher|De|Dat}} $1 hät sesch bei Der bedangk för wat de {{GRAMMAR:em|{{ucfirst:{{SITENAME}}}}}} jeschrevve häs.{{GENDER:$2|}}",
 	"notification-flow-thanks-email-batch-body": "{{GENDER:$1|Dä|Dat|Dä Metmaacher|De|Dat}} \n$1 hät sesch bei Der bedangk för wat de em Affschnedd „$2“ op di Sigg „$3“ jeschrevve häs.{{GENDER:$4|}}",
 	"apihelp-flowthank-description": "Schegg en öffentlesche Nohreesch zom Bedanke för ene  Flow Kommäntaa.",
