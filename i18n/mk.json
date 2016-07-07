@@ -26,7 +26,9 @@
 	"echo-category-title-edit-thank": "Благодарност",
 	"notification-thanks-diff-link": "вашето уредување",
 	"notification-thanks": "[[User:$1|$1]] ви {{GENDER:$1|благодари}} за $2 на [[:$3]].",
-	"notification-header-edit-thank": "$1 {{GENDER:$4|ви}} {{GENDER:$2|благодари}} за вашето уредување на '''$3'''.",
+	"notification-header-edit-thank": "$1 {{GENDER:$4|ви}} {{GENDER:$2|благодари}} за вашето уредување на <strong>$3</strong>.",
+	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|ви}} {{GENDER:$3|благодари}}.",
+	"notification-bundle-header-edit-thank": "{{PLURAL:$1|Едно лице ви благодари|$1 луѓе ви благодарат|100=Преку 99 луѓе ви благодарат}} за {{GENDER:$3|вашето}} уредување на <strong>$2</strong>.",
 	"notification-thanks-email-subject": "$1 ви {{GENDER:$1|благодари}} за вашето уредување на {{SITENAME}}",
 	"notification-thanks-email-batch-body": "$1 {{GENDER:$1|Ви заблагодари}} за вашето уредување на $2.",
 	"log-name-thanks": "Дневник на благодарности",
@@ -41,7 +43,9 @@
 	"flow-thanks-thanked-notice": "$1 ја прими вашата благорадница за {{GENDER:$2|неговиот коментар|нејзиниот коментар|дадениот коментар}}.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$5|ви}} {{GENDER:$1|благодари}} за $2 на „$3“ во [[:$4]].",
 	"notification-flow-thanks-post-link": "вашиот коментар",
-	"notification-header-flow-thank": "$1 {{GENDER:$5|ви}} {{GENDER:$2|благодари}} за вашиот коментар '''$3''' во '''$4'''.",
+	"notification-header-flow-thank": "$1 {{GENDER:$5|ви}} {{GENDER:$2|благодари}} за вашиот коментар на „<strong>$3</strong>“.",
+	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|ви}} се {{GENDER:$2|заблагодари}}.",
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Едно лице ви благодари|$1 луѓе ви благодарат|100=Преку 99 луѓе ви благодарат}} за {{GENDER:$3|вашиот}} коментар на „<strong>$2</strong>“.",
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$2|ви}} {{GENDER:$1|благодари}} за вашиот коментар на {{SITENAME}}",
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$4|ви}} {{GENDER:$1|благодари}} за вашиот коментар на „$2“ во $3.",
 	"apihelp-flowthank-description": "Испратете јавна благодарница за коментар во Тек.",
@@ -50,5 +54,5 @@
 	"apihelp-thank-description": "Испрати благодарница на уредник.",
 	"apihelp-thank-param-rev": "Назнака на преработката за која се заблагодарувате.",
 	"apihelp-thank-param-source": "Кратка низа во која го опишувате изворот на барањето. На пр. <kbd>diff</kbd> или <kbd>history</kbd>.",
-	"apihelp-thank-example-1": "Испрати благодарница за праработката со назнака 456, при што изворот е страница со разлика"
+	"apihelp-thank-example-1": "Испрати благодарница за праработката со <kbd>назнака 456</kbd>, при што изворот е страница со разлика"
 }
