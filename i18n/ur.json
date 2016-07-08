@@ -25,5 +25,6 @@
 	"echo-pref-tooltip-edit-thank": "مجھے مطلع کرنا جب کوئی میری ترمیم پر شکریہ ادا کرے.",
 	"echo-category-title-edit-thank": "شکریہ",
 	"notification-thanks-diff-link": "آپ کی ترمیم",
-	"notification-thanks": "[[User:$1|$1]] نے [[:$3]] صفحہ پر آپ کی [[$2|ترمیم]] کا شکریہ اد کیا ہے."
+	"notification-thanks": "[[User:$1|$1]] نے [[:$3]] صفحہ پر آپ کی [[$2|ترمیم]] کا شکریہ اد کیا ہے.",
+	"notification-header-edit-thank": "$1 نے <strong>$3</strong> پر {{GENDER:$4|آپ}} کی ترمیم پر {{GENDER:$2|شکریہ!}} ادا کیا۔"
 }
