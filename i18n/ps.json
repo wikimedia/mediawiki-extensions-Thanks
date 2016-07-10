@@ -35,5 +35,6 @@
 	"notification-link-text-view-post": "تبصره کتل",
 	"thanks-error-invalidpostid": "د پوست پېژند سم نه دی.",
 	"notification-flow-thanks-post-link": "ستاسې تبصره",
+	"notification-compact-header-flow-thank": "$1 له {{GENDER:$3|تاسو}} څخه {{GENDER:$2|مننه وکړه}}.",
 	"notification-flow-thanks-email-batch-body": "د '''$3''' په مخ کې د \"$2\" تبصرې پخاطر، $1 له {{GENDER:$4|تاسې}} څخه {{GENDER:$2|مننه وکړه}}."
 }
