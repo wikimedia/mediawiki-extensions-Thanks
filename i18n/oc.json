@@ -28,6 +28,6 @@
 	"log-show-hide-thanks": "$1 lo jornal dels mercejaments",
 	"thanks-confirmation-special": "Volètz mandar publicament de mercejaments per aquesta modificacion ?",
 	"notification-flow-thanks": "[[User:$1|$1]] vos a mercejat per $2 dins \"$3\" sus [[:$4]].",
-	"notification-header-flow-thank": "$1 {{GENDER:$5|vos}} {{GENDER:$2|a mercejat|a mercejada}} per vòstre comentari de '''$3''' sur '''$4'''.",
+	"notification-header-flow-thank": "{{GENDER:$2|$1}} {{GENDER:$5|vos a mercejat|vos a mercejada|vos a mercejat(-ada)}} per vòstre comentari dins « <strong>$3</strong> ».",
 	"notification-flow-thanks-email-batch-body": "$1 vos {{GENDER:$1|a mercejat}} per vòstre comentari dins \"$2\" sus $3."
 }
