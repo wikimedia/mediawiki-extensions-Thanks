@@ -49,7 +49,7 @@
 	"flow-thanks-thanked-notice": "$1 {{GENDER:$2|отримав|отримала}} Вашу подяку за {{GENDER:$2|його|її}} коментар.",
 	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|подякував|подякувала}} {{GENDER:$5|Вам}} за $2 у \"$3\" на [[:$4]].",
 	"notification-flow-thanks-post-link": "ваш коментар",
-	"notification-header-flow-thank": "$1 {{GENDER:$2|подякував|подякувала}} {{GENDER:$5|Вам}} за Ваш коментар у '''$3''' на '''$4'''.",
+	"notification-header-flow-thank": "$1 {{GENDER:$2|подякував|подякувала}} {{GENDER:$5|Вам}} за Ваш коментар у <strong>$3</strong>.",
 	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|подякував|подякувала}} {{GENDER:$2|Вам}} за Ваш коментар на {{SITENAME}}",
 	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|подякував|подякувала}} {{GENDER:$4|Вам}} за Ваш коментар у \"$2\" на $3.",
 	"apihelp-flowthank-description": "Надіслати публічне сповіщення про подяку за коментар Flow.",
