@@ -79,6 +79,8 @@
 				"cancel"
 			],
 			"dependencies": [
+				"oojs-ui-core",
+				"oojs-ui-windows",
 				"mediawiki.jqueryMsg",
 				"mediawiki.api",
 				"jquery.confirmable",
@@ -121,6 +123,8 @@
 				"thanks-error-ratelimited"
 			],
 			"dependencies": [
+				"oojs-ui-core",
+				"oojs-ui-windows",
 				"mediawiki.jqueryMsg",
 				"mediawiki.api",
 				"ext.thanks.jquery.findWithParent",
