@@ -1,4 +1,4 @@
-( function ( $, mw ) {
+( function ( $, mw, OO ) {
 	'use strict';
 
 	function reloadThankedState() {
@@ -46,16 +46,15 @@
 			function ( errorCode, details ) {
 				// If error occured, enable attempting to thank again
 				$thankLink.data( 'clickDisabled', false );
-				// TODO: use something besides alert for the error messages
 				switch ( errorCode ) {
 					case 'invalidrevision':
-						alert( mw.msg( 'thanks-error-invalidrevision' ) );
+						OO.ui.alert( mw.msg( 'thanks-error-invalidrevision' ) );
 						break;
 					case 'ratelimited':
-						alert( mw.msg( 'thanks-error-ratelimited', mw.user ) );
+						OO.ui.alert( mw.msg( 'thanks-error-ratelimited', mw.user ) );
 						break;
 					default:
-						alert( mw.msg( 'thanks-error-undefined', errorCode ) );
+						OO.ui.alert( mw.msg( 'thanks-error-undefined', errorCode ) );
 				}
 			}
 		)
@@ -97,4 +96,4 @@
 		}
 	} );
 
-} )( jQuery, mediaWiki );
+} )( jQuery, mediaWiki, OO );

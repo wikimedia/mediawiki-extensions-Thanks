@@ -1,4 +1,4 @@
-( function ( $, mw ) {
+( function ( $, mw, OO ) {
 	'use strict';
 
 	var $thankedLabel = $( '<span></span>' )
@@ -47,13 +47,12 @@
 			},
 			// Failure
 			function ( errorCode, details ) {
-				// TODO: use something besides alert for the error messages
 				switch ( errorCode ) {
 					case 'ratelimited':
-						alert( mw.msg( 'thanks-error-ratelimited', mw.user ) );
+						OO.ui.alert( mw.msg( 'thanks-error-ratelimited', mw.user ) );
 						break;
 					default:
-						alert( mw.msg( 'thanks-error-undefined', errorCode ) );
+						OO.ui.alert( mw.msg( 'thanks-error-undefined', errorCode ) );
 				}
 			}
 		)
@@ -83,4 +82,4 @@
 		sendFlowThanks( $thankLink );
 	} );
 
-} )( jQuery, mediaWiki );
+} )( jQuery, mediaWiki, OO );
