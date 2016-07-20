@@ -177,20 +177,10 @@ class ThanksHooks {
 		];
 
 		$notifications['edit-thank'] = [
-			'primary-link' => [ 'message' => 'notification-link-text-view-edit', 'destination' => 'diff' ],
 			'category' => 'edit-thank',
 			'group' => 'positive',
 			'section' => 'message',
 			'presentation-model' => 'EchoThanksPresentationModel',
-			'formatter-class' => 'EchoThanksFormatter',
-			'title-message' => 'notification-thanks',
-			'title-params' => [ 'agent', 'difflink', 'title' ],
-			'payload' => [ 'summary' ],
-			'email-subject-message' => 'notification-thanks-email-subject',
-			'email-subject-params' => [ 'agent' ],
-			'email-body-batch-message' => 'notification-thanks-email-batch-body',
-			'email-body-batch-params' => [ 'agent', 'title' ],
-			'icon' => 'thanks',
 			'bundle' => [
 				'web' => true,
 				'expandable' => true,
@@ -198,19 +188,10 @@ class ThanksHooks {
 		];
 
 		$notifications['flow-thank'] = [
-			'primary-link' => [ 'message' => 'notification-link-text-view-post', 'destination' => 'post' ],
 			'category' => 'edit-thank',
 			'group' => 'positive',
 			'section' => 'message',
 			'presentation-model' => 'EchoFlowThanksPresentationModel',
-			'formatter-class' => 'EchoFlowThanksFormatter',
-			'title-message' => 'notification-flow-thanks',
-			'title-params' => [ 'agent', 'postlink', 'topictitle', 'title', 'user' ],
-			'email-subject-message' => 'notification-flow-thanks-email-subject',
-			'email-subject-params' => [ 'agent', 'user' ],
-			'email-body-batch-message' => 'notification-flow-thanks-email-batch-body',
-			'email-body-batch-params' => [ 'agent', 'topictitle', 'title', 'user' ],
-			'icon' => 'thanks',
 			'bundle' => [
 				'web' => true,
 				'expandable' => true,

@@ -47,8 +47,6 @@
 	},
 	"AutoloadClasses": {
 		"ThanksHooks": "Thanks.hooks.php",
-		"EchoThanksFormatter": "ThanksFormatter.php",
-		"EchoFlowThanksFormatter": "FlowThanksFormatter.php",
 		"EchoThanksPresentationModel": "ThanksPresentationModel.php",
 		"EchoFlowThanksPresentationModel": "FlowThanksPresentationModel.php",
 		"ApiThank": "ApiThank.php",
