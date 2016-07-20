@@ -20,11 +20,8 @@
 	"echo-pref-tooltip-edit-thank": "Mech Informéieren wann ee mir fir eng Ännerung déi ech gemaach hu Merci seet.",
 	"echo-category-title-edit-thank": "Merci",
 	"notification-thanks-diff-link": "Är Ännerung",
-	"notification-thanks": "[[User:$1|$1]] {{GENDER:$1|huet}} Iech Merci gesot fir $2 op [[:$3]].",
 	"notification-header-edit-thank": "$1 {{GENDER:$2|huet}} {{GENDER:$4|Iech}} fir Är Ännerung op <strong>$3</strong> Merci gesot.",
 	"notification-compact-header-edit-thank": "$1 huet {{GENDER:$3|Iech}} {{GENDER:$2|Merci gesot}}.",
-	"notification-thanks-email-subject": "$1 {{GENDER:$1|seet}} Iech merci fir Är Ännerung op {{SITENAME}}",
-	"notification-thanks-email-batch-body": "$1 {{GENDER:$1|seet}} Iech merci fir Är Ännerung op $2.",
 	"log-name-thanks": "Logbuch vum Merci-soen",
 	"log-description-thanks": "Hei drënner ass eng Lëscht vu Benotzer déi anere Benotzer 'Merci' gesot hunn.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|huet dem}} {{GENDER:$4|$3}} Merci gesot",
@@ -34,7 +31,5 @@
 	"flow-thanks-confirmation-special": "Wëllt Dir ëffentlech fir dës Bemierkung e 'Merci' schécken?",
 	"notification-flow-thanks-post-link": "Är Bemierkung",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|huet}} {{GENDER:$5|Iech}} fir Är Bemierkung op \"<strong>$3</strong>\" Merci gesot.",
-	"notification-compact-header-flow-thank": "$1 huet {{GENDER:$3|Iech}} {{GENDER:$2|Merci gesot}} .",
-	"notification-flow-thanks-email-subject": "{{GENDER:$1|D'|De(n)}} $1 seet {{GENDER:$2|Iech}} Merci fir Är Bemierkung op {{SITENAME}}",
-	"notification-flow-thanks-email-batch-body": "{{GENDER:$1|D'|De(n)}} $1 seet {{GENDER:$4|Iech}} Merci fir Är Bemierkung iwwer \"$2\" betreffend $3."
+	"notification-compact-header-flow-thank": "$1 huet {{GENDER:$3|Iech}} {{GENDER:$2|Merci gesot}} ."
 }

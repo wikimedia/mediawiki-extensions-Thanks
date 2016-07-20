@@ -36,10 +36,7 @@
 	"echo-pref-tooltip-edit-thank": "내게 내 편집에 대해 누군가가 감사를 표했을 때 알립니다.",
 	"echo-category-title-edit-thank": "감사",
 	"notification-thanks-diff-link": "내 편집",
-	"notification-thanks": "[[User:$1|$1]]님이 [[:$3]]에 대한 $2에 {{GENDER:$1|감사를 표했습니다}}.",
 	"notification-header-edit-thank": "$1님이 $3 문서에서의 {{GENDER:$4|당신}}의 편집에 {{GENDER:$2|감사를 표했습니다}}.",
-	"notification-thanks-email-subject": "$1님이 {{SITENAME}}에 대한 내 편집에 {{GENDER:$1|감사를 표했습니다}}",
-	"notification-thanks-email-batch-body": "$1님이 $2에 대한 내 편집에 {{GENDER:$1|감사를 표했습니다}}.",
 	"log-name-thanks": "감사 기록",
 	"log-description-thanks": "아래에는 다른 사용자가 감사를 표한 사용자의 목록입니다.",
 	"logentry-thanks-thank": "$1 사용자가 {{GENDER:$4|$3}} 사용자에게 {{GENDER:$2|감사를 표했습니다}}",
@@ -50,9 +47,6 @@
 	"thanks-error-invalidpostid": "게시물 ID가 올바르지 않습니다.",
 	"flow-thanks-confirmation-special": "이 댓글에 공개적으로 감사를 표하겠습니까?",
 	"flow-thanks-thanked-notice": "$1 사용자가 당신이 {{{{GENDER:$2|그의|그녀의|그의}} 편집에 감사했다는 것을 들었습니다.",
-	"notification-flow-thanks": "[[User:$1|$1]]이 [[:$4]]의 \"$3\"에 대한 $2에 대해 {{GENDER:$5|당신}}에게 {{GENDER:$1|감사를 표했습니다}}.",
 	"notification-flow-thanks-post-link": "당신의 의견",
-	"notification-compact-header-flow-thank": "$1 사용자가 {{GENDER:$3|당신}}에게 {{GENDER:$2|감사를 표했습니다}}.",
-	"notification-flow-thanks-email-subject": "$1님이 {{SITENAME}}에 대한 {{GENDER:$2|당신의}} 의견에 {{GENDER:$1|감사를 표했습니다}}.",
-	"notification-flow-thanks-email-batch-body": "$1 님이 $3의 \"$2\" 에 대한 {{GENDER:$4|당신의}} 의견에 {{GENDER:$1|감사를 표했습니다}}."
+	"notification-compact-header-flow-thank": "$1 사용자가 {{GENDER:$3|당신}}에게 {{GENDER:$2|감사를 표했습니다}}."
 }
