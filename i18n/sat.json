@@ -4,5 +4,6 @@
 			"Albinus"
 		]
 	},
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|aema sarhao}}}}"
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|aema sarhao}}}}",
+	"thanks-thank-tooltip": "{{GENDER:$1|kol}} mit́ṭen sarhao luṭis {{GENDER:$2|beoharić}}"
 }
