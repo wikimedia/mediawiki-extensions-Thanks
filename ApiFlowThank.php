@@ -55,6 +55,8 @@ class ApiFlowThank extends ApiThank {
 		$postText = Utils::htmlToPlaintext( $post->getContent() );
 		$postText = $this->getLanguage()->truncate( $postText, 200 );
 
+		$topicTitle = $this->getTopicTitleFromRootPost( $rootPost );
+
 		$this->sendThanks(
 			$user,
 			$recipient,
@@ -62,7 +64,8 @@ class ApiFlowThank extends ApiThank {
 			$workflowId,
 			$topicTitleText,
 			$pageTitle,
-			$postText
+			$postText,
+			$topicTitle
 		);
 	}
 
@@ -111,6 +114,15 @@ class ApiFlowThank extends ApiThank {
 	}
 
 	/**
+	 * @param PostRevision $rootPost
+	 * @return Title
+	 */
+	private function getTopicTitleFromRootPost( PostRevision $rootPost ) {
+		$workflow = Container::get( 'storage' )->get( 'Workflow', $rootPost->getPostId() );
+		return $workflow->getArticleTitle();
+	}
+
+	/**
 	 * @param User $user
 	 * @param User $recipient
 	 * @param UUID $postId
@@ -118,11 +130,12 @@ class ApiFlowThank extends ApiThank {
 	 * @param string $topicTitleText
 	 * @param Title $pageTitle
 	 * @param string $postTextExcerpt
+	 * @param Title $topicTitle
 	 * @throws FlowException
 	 * @throws MWException
 	 */
 	private function sendThanks( User $user, User $recipient, UUID $postId, UUID $workflowId,
-		$topicTitleText, Title $pageTitle, $postTextExcerpt ) {
+		$topicTitleText, Title $pageTitle, $postTextExcerpt, Title $topicTitle ) {
 
 		$uniqueId = "flow-{$postId->getAlphadecimal()}";
 		// Do one last check to make sure we haven't sent Thanks before
@@ -142,6 +155,7 @@ class ApiFlowThank extends ApiThank {
 				'thanked-user-id' => $recipient->getId(),
 				'topic-title' => $topicTitleText,
 				'excerpt' => $postTextExcerpt,
+				'target-page' => $topicTitle->getArticleID(),
 			],
 			'agent' => $user,
 		] );
