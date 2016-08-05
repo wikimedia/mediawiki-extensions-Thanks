@@ -159,9 +159,6 @@
 		"BeforeSpecialMobileDiffDisplay": [
 			"ThanksHooks::onBeforeSpecialMobileDiffDisplay"
 		],
-		"UnitTestsList": [
-			"ThanksHooks::registerUnitTests"
-		],
 		"GetLogTypesOnUser": [
 			"ThanksHooks::onGetLogTypesOnUser"
 		],

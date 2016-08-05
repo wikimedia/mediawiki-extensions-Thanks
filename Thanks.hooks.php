@@ -274,21 +274,6 @@ class ThanksHooks {
 	}
 
 	/**
-	 * Hook to add PHPUnit test cases.
-	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/UnitTestsList
-	 *
-	 * @param array &$files
-	 *
-	 * @return boolean
-	 */
-	public static function registerUnitTests( array &$files ) {
-		// @codeCoverageIgnoreStart
-		$files[] = __DIR__ . '/tests/';
-		return true;
-		// @codeCoverageIgnoreEnd
-	}
-
-	/**
 	 * So users can just type in a username for target and it'll work
 	 * @param array $types
 	 * @return bool
