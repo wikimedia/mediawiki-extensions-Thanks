@@ -15,7 +15,7 @@
 	"thanks-error-ratelimited": "{{GENDER:$1|Vi}} superis vian laŭtempan limon. Atendu kelkan tempon kaj reprovu.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Danki}} al ĉi tiu {{GENDER:$2|uzanto}}",
 	"thanks-confirmation2": "{{GENDER:$1|Ĉu sendi}} publikan dankon pro tiu ĉi redakto?",
-	"thanks-thanked-notice": "$1 ricevis vian dankon pro {{GENDER:$2|lia|ŝia|lia}} redakto.",
+	"thanks-thanked-notice": "$1 ricevis vian dankon pro {{GENDER:$2|sia}} redakto.",
 	"thanks": "Sendi dankon",
 	"thanks-submit": "Danki",
 	"echo-pref-subscription-edit-thank": "Danki al mi pro miaj redaktoj",
@@ -29,6 +29,6 @@
 	"thanks-confirmation-special": "Ĉu vi volas publike sendi dankon pro tiu ĉi redakto?",
 	"notification-link-text-view-post": "Montri komenton",
 	"flow-thanks-confirmation-special": "Ĉu vi volas publike sendi dankon pro tiu ĉi komento?",
-	"flow-thanks-thanked-notice": "$1 ricevis vian dankon pro {{GENDER:$2|lia|ŝia|lia}} komento.",
+	"flow-thanks-thanked-notice": "$1 ricevis vian dankon pro {{GENDER:$2|sia}} komento.",
 	"notification-flow-thanks-post-link": "via komento"
 }
