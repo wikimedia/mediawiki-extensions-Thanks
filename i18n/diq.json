@@ -15,7 +15,7 @@
 	"thanks": "Teşekur bırışe",
 	"echo-category-title-edit-thank": "Teşekuri",
 	"notification-thanks-diff-link": "vırnayışa to",
-	"notification-header-edit-thank": "$1, perda '''$3''' qandé vurnayışi {{GENDER:$4|şıma}} rê {{GENDER:$2|teşekur kerd}}.",
+	"notification-header-edit-thank": "$1, qandé vurnayışê pera  <strong>$3</strong>i {{GENDER:$4|şıma}} rê {{GENDER:$2|teşekur kerd}}.",
 	"notification-bundle-header-edit-thank": "{{PLURAL:$1|Yew merdım|$1 merdımi|100=99+ merduman}} qandé <strong>$2</strong>  {{GENDER:$3|şıma }} rê   teşekur kerd.",
 	"log-name-thanks": "Qeydê teşekuran",
 	"logentry-thanks-thank": "$1  {{GENDER:$4|$3}} rê {{GENDER:$2|teşekur kerd}}",
