@@ -65,17 +65,9 @@
 		} );
 	}
 
-	if ( $.isReady ) {
-		// This condition is required for soft-reloads
-		// to also trigger the reloadThankedState
-		reloadThankedState();
-	} else {
-		$( document ).ready( reloadThankedState );
-	}
-
-	$( function () {
+	function addActionToLinks( $content ) {
 		if ( mw.config.get( 'thanks-confirmation-required' ) ) {
-			$( 'a.mw-thanks-thank-link' ).confirmable( {
+			$content.find( 'a.mw-thanks-thank-link' ).confirmable( {
 				i18n: {
 					confirm: mw.msg( 'thanks-confirmation2', mw.user ),
 					noTitle: mw.msg( 'thanks-thank-tooltip-no', mw.user ),
@@ -88,12 +80,27 @@
 				}
 			} );
 		} else {
-			$( 'a.mw-thanks-thank-link' ).click( function ( e ) {
+			$content.find( 'a.mw-thanks-thank-link' ).click( function ( e ) {
 				var $thankLink = $( this );
 				e.preventDefault();
 				sendThanks( $thankLink, $thankLink );
 			} );
 		}
+	}
+
+	if ( $.isReady ) {
+		// This condition is required for soft-reloads
+		// to also trigger the reloadThankedState
+		reloadThankedState();
+	} else {
+		$( document ).ready( reloadThankedState );
+	}
+
+	$( function () {
+		addActionToLinks( $( 'body' ) );
 	} );
 
+	mw.hook( 'revslider.diffreload' ).add( function ( $content ) {
+		addActionToLinks( $content );
+	} );
 } )( jQuery, mediaWiki, OO );
