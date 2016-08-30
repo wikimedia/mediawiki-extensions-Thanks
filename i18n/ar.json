@@ -9,7 +9,8 @@
 			"Meno25",
 			"محمد أحمد عبد الفتاح",
 			"Macofe",
-			"Maroen1990"
+			"Maroen1990",
+			"بدارين"
 		]
 	},
 	"thanks-desc": "تضيف روابط للشكر على صفحات التاريخ والفرق",
@@ -41,6 +42,7 @@
 	"flow-thanks-confirmation-special": "هل تريد إرسال شكر بشكل علني على هذا التعليق؟",
 	"flow-thanks-thanked-notice": "{{GENDER:$2|تلقى|تلقت}} $1 شكرك على {{GENDER:$2|تعليقه|تعليقها}}.",
 	"notification-flow-thanks-post-link": "تعليقك",
+	"notification-header-flow-thank": "$1 {{GENDER:$2|شكرك}} {{GENDER:$5|لتعليقك}} على \"<strong>$3</strong>\".",
 	"apihelp-thank-description": "أرسل إخطاراً بالشكر إلى محرر.",
 	"apihelp-thank-param-rev": "معرِّف المراجعة التي تشكر الشخص عليها."
 }
