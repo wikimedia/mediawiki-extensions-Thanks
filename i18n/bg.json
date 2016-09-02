@@ -23,6 +23,7 @@
 	"echo-pref-tooltip-edit-thank": "Известяване, когато някой изкаже благодарност за моя редакция.",
 	"echo-category-title-edit-thank": "Благодарност",
 	"notification-thanks-diff-link": "вашата редакция",
+	"notification-header-edit-thank": "$1 {{GENDER:$4|ви}} {{GENDER:$2|благодари}} за вашата редакция на <strong>$3</strong>.",
 	"log-name-thanks": "Дневник на благодарностите",
 	"log-show-hide-thanks": "$1 на дневника на благодарностите",
 	"thanks-confirmation-special": "Искате ли да благодарите публично за тази редакция?",
