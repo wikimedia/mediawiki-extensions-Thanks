@@ -45,7 +45,7 @@
 	"notification-flow-thanks-post-link": "התגובה שלך",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|הודה|הודתה}} {{GENDER:$5|לך}} על הערתך בנושא \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|הודה|הודתה}} {{GENDER:$3|לך}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|קיבלת הודעת \"תודה\"|$1 משתמשים הודו לך|100=99+ משתמשים הודו לך}} על {{GENDER:$3|הערתך}} בנושא <strong>$2</strong>.",
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|קיבלת הודעת \"תודה\"|$1 משתמשים הודו לך|100=99+ משתמשים הודו לך}} על {{GENDER:$3|הערתך}} בנושא \"<strong>$2</strong>\".",
 	"apihelp-flowthank-description": "לשלוח הודעת תודה פומבית על הערת זרימה.",
 	"apihelp-flowthank-param-postid": "ה־UUID של הרשומהש עליה תישלח תודה.",
 	"apihelp-flowthank-example-1": "לשלוח תודה על הערה עם <kbd>UUID xyz789</kbd>",
