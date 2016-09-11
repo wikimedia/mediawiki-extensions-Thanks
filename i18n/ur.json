@@ -4,7 +4,8 @@
 			"Noor2020",
 			"عثمان خان شاہ",
 			"عرفان ارشد",
-			"Obaid Raza"
+			"Obaid Raza",
+			"Muhammad Shuaib"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|شکریہ}}}}",
@@ -22,9 +23,8 @@
 	"thanks": "شکریہ ارسال کریں",
 	"thanks-submit": "شکریہ ارسال کریں",
 	"echo-pref-subscription-edit-thank": "میری ترمیم کے لیے شکریہ ادا کریں",
-	"echo-pref-tooltip-edit-thank": "مجھے مطلع کرنا جب کوئی میری ترمیم پر شکریہ ادا کرے.",
+	"echo-pref-tooltip-edit-thank": "جب کوئی میری کسی ترمیم پر میرا شکریہ ادا کرے تو مجھے آگاہ کریں۔",
 	"echo-category-title-edit-thank": "شکریہ",
 	"notification-thanks-diff-link": "آپ کی ترمیم",
-	"notification-thanks": "[[User:$1|$1]] نے [[:$3]] صفحہ پر آپ کی [[$2|ترمیم]] کا شکریہ اد کیا ہے.",
 	"notification-header-edit-thank": "$1 نے <strong>$3</strong> پر {{GENDER:$4|آپ}} کی ترمیم پر {{GENDER:$2|شکریہ!}} ادا کیا۔"
 }
