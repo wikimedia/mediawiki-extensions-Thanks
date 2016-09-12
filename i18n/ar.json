@@ -42,11 +42,13 @@
 	"thanks-error-no-id-specified": "يجب عليك تحديد معرِّف المراجعة لإرسال الشكر.",
 	"thanks-confirmation-special": "أتود إرسال  شكرك علنا لصاحب هذا التعديل؟",
 	"notification-link-text-view-post": "أظهر التعليق",
+	"thanks-error-invalidpostid": "رقم الرسالة غير صحيح.",
 	"flow-thanks-confirmation-special": "هل تريد إرسال شكر بشكل علني على هذا التعليق؟",
 	"flow-thanks-thanked-notice": "{{GENDER:$2|تلقى|تلقت}} $1 شكرك على {{GENDER:$2|تعليقه|تعليقها}}.",
 	"notification-flow-thanks-post-link": "تعليقك",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|شكرك}} {{GENDER:$5|لتعليقك}} على \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|شكر}}{{GENDER:$3|ك}}.",
+	"apihelp-flowthank-param-postid": "UUID الخاص بالرسالة للشكر عليها.",
 	"apihelp-flowthank-example-1": "أرسل شكرا للتعليق مع <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "أرسل إخطاراً بالشكر إلى محرر.",
 	"apihelp-thank-param-rev": "معرِّف المراجعة التي تشكر الشخص عليها."
