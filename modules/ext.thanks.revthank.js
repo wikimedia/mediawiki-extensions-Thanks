@@ -103,4 +103,7 @@
 	mw.hook( 'revslider.diffreload' ).add( function ( $content ) {
 		addActionToLinks( $content );
 	} );
+	mw.hook( 'wikipage.diff' ).add( function ( $content ) {
+		addActionToLinks( $content );
+	} );
 } )( jQuery, mediaWiki, OO );
