@@ -150,12 +150,7 @@ class SpecialThanks extends FormSpecialPage {
 			return $this->handleErrorCodes( $e->getCodeString() );
 		}
 
-		if ( defined( 'ApiResult::META_CONTENT' ) ) {
-			$this->result = $api->getResult()->getResultData( [ 'result' ] );
-		} else {
-			$result = $api->getResult()->getData();
-			$this->result = $result['result'];
-		}
+		$this->result = $api->getResult()->getResultData( [ 'result' ] );
 		return Status::newGood();
 	}
 
