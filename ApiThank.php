@@ -90,8 +90,4 @@ abstract class ApiThank extends ApiBase {
 	public function isWriteMode() {
 		return true;
 	}
-
-	public function getTokenSalt() {
-		return '';
-	}
 }
