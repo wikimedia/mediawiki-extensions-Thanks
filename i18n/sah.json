@@ -3,7 +3,8 @@
 		"authors": [
 			"Kaganer",
 			"HalanTul",
-			"София"
+			"София",
+			"Туллук"
 		]
 	},
 	"thanks-desc": "Кыттааччыларга суруйууларын, ырытыыларын иһин махталы биллэрэр сигэни эбэр.",
@@ -27,6 +28,8 @@
 	"echo-category-title-edit-thank": "Махтал",
 	"notification-thanks-diff-link": "көннөрүүҥ иһин",
 	"notification-header-edit-thank": "$1 {{GENDER:$4|эйиэхэ}} '''$3''' сирэйи көннөрбүтүҥ иһин {{GENDER:$2|махтаммыт}}.",
+	"notification-compact-header-edit-thank": "$1 $3 {{GENDER:$4|кыттааччыга}} {{GENDER:$2|махтаммыт}}",
+	"notification-bundle-header-edit-thank": "{{PLURAL:$1|Кыттааччы|$1 people|100=99+ кыттааччылар}}  {{GENDER:$3|эйиэхэ}} <strong>$2</strong>ҥа көннөрүүн иһин махтаммыт/тар",
 	"log-name-thanks": "Махтаныы сурунаала",
 	"log-description-thanks": "Манна атын кыттааччылартан махтал туппут кыттааччылар тиһиликтэрэ көстөр.",
 	"logentry-thanks-thank": "$1 $3 {{GENDER:$4|кыттааччыга}} {{GENDER:$2|махтаммыт}}",
@@ -38,7 +41,9 @@
 	"flow-thanks-confirmation-special": "Бу ырытыы иһин махтанаары гынаҕын дуо?",
 	"flow-thanks-thanked-notice": "$1 кыттааччы {{GENDER:$2|ырытыытыгар}} эйигиттэн махтал тутта.",
 	"notification-flow-thanks-post-link": "эн ырытыыҥ",
-	"notification-header-flow-thank": "$1 '''$4''' сирэйгэ баар '''$3''' ырытыыҥ иһин {{GENDER:$5|эйиэхэ}} {{GENDER:$2|махтаммыт}}.",
+	"notification-header-flow-thank": "$1 {{GENDER:$4|эйиэхэ}} '''$3''' сирэйи көннөрбүтүҥ иһин {{GENDER:$2|махтаммыт}}.",
+	"notification-compact-header-flow-thank": "$1 $3 {{GENDER:$4|кыттааччыга}} {{GENDER:$2|махтаммыт}}",
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Кыттааччы|$1 people|100=99+ кыттааччылар}}  {{GENDER:$3|эйиэхэ}} <strong>$2</strong>ҥа көннөрүүн иһин махтаммыт/тар",
 	"apihelp-flowthank-description": "Сэҥээрбитин иһин аһаҕастык махтаныы.",
 	"apihelp-flowthank-param-postid": "Махтаныллыахтаах сурук UUID нүөмэрэ.",
 	"apihelp-flowthank-example-1": "<kbd>UUID xyz789</kbd> ырытыы иһин махтаныы",
