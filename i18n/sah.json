@@ -42,7 +42,7 @@
 	"flow-thanks-thanked-notice": "$1 кыттааччы {{GENDER:$2|ырытыытыгар}} эйигиттэн махтал тутта.",
 	"notification-flow-thanks-post-link": "эн ырытыыҥ",
 	"notification-header-flow-thank": "$1 {{GENDER:$4|эйиэхэ}} '''$3''' сирэйи көннөрбүтүҥ иһин {{GENDER:$2|махтаммыт}}.",
-	"notification-compact-header-flow-thank": "$1 $3 {{GENDER:$4|кыттааччыга}} {{GENDER:$2|махтаммыт}}",
+	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|кыттааччыга}} {{GENDER:$2|махтаммыт}}",
 	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Кыттааччы|$1 people|100=99+ кыттааччылар}}  {{GENDER:$3|эйиэхэ}} <strong>$2</strong>ҥа көннөрүүн иһин махтаммыт/тар",
 	"apihelp-flowthank-description": "Сэҥээрбитин иһин аһаҕастык махтаныы.",
 	"apihelp-flowthank-param-postid": "Махтаныллыахтаах сурук UUID нүөмэрэ.",
