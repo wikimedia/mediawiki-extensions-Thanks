@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"KuboF",
-			"Robin van der Vliet"
+			"Robin van der Vliet",
+			"Gamliel Fishkin"
 		]
 	},
 	"thanks-desc": "Aldoni ligilon por danki al uzantoj pro ties redaktoj, komentoj ks.",
@@ -31,5 +32,6 @@
 	"notification-link-text-view-post": "Montri komenton",
 	"flow-thanks-confirmation-special": "Ĉu vi volas publike sendi dankon pro tiu ĉi komento?",
 	"flow-thanks-thanked-notice": "$1 ricevis vian dankon pro {{GENDER:$2|sia}} komento.",
-	"notification-flow-thanks-post-link": "via komento"
+	"notification-flow-thanks-post-link": "via komento",
+	"notification-header-flow-thank": "$1 {{GENDER:$2|dankis}} {{GENDER:$5|vin}} pro via komento en «<strong>$3</strong>»."
 }
