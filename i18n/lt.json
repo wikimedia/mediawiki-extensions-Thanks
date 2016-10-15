@@ -7,7 +7,8 @@
 			"Albertas",
 			"Macofe",
 			"Zygimantus",
-			"Eitvys200"
+			"Eitvys200",
+			"Homo"
 		]
 	},
 	"thanks-desc": "Pridėti nuorodas, kad padėkotumėte naudotojams už pakeitimus, komentarus ir kt.",
@@ -30,11 +31,11 @@
 	"echo-pref-tooltip-edit-thank": "Tebūnie pranešta, kai kas nors padėkoja už mano atliktą keitimą.",
 	"echo-category-title-edit-thank": "Ačiū",
 	"notification-thanks-diff-link": "jūsų pakeitimas",
-	"notification-header-edit-thank": "$1 {{GENDER:$2|padėkojo}} {{GENDER:$4|jums}} už jūsų <strong>$3</strong> redagavimą.",
+	"notification-header-edit-thank": "$1 {{GENDER:$2|padėkojo}} {{GENDER:$4|jums}} už pakeitimą puslapyje <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|padėkojo}} {{GENDER:$3|jums}}.",
 	"notification-bundle-header-edit-thank": "{{PLURAL:$1|Vienas žmogus|$1 žmonės|100=99+ žmonės}} padėkojo {{GENDER:$3|jums}} už jūsų „<strong>$2</strong>“ redagavimą.",
-	"log-name-thanks": "Padėkų žurnalas",
-	"log-description-thanks": "Toliau pateikiamas sąrašas naudotojų, kuriems padėkojo kiti naudojai.",
+	"log-name-thanks": "Padėkų sąrašas",
+	"log-description-thanks": "Žemiau pateikiamas sąrašas naudotojų, kuriems padėkojo kiti naudotojai.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|padėkojo}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 padėkų žurnalą",
 	"thanks-error-no-id-specified": "Turite nurodyti versijos ID, kad galėtumėte padėkoti.",
