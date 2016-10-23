@@ -4,7 +4,8 @@
 			"Dbc334",
 			"Eleassar",
 			"Matej1234",
-			"Yerpo"
+			"Yerpo",
+			"Janezdrilc"
 		]
 	},
 	"thanks-desc": "Doda povezave za zahvalo uporabnikom za urejanja, pripombe itn.",
@@ -16,6 +17,7 @@
 	"thanks-error-invalidrevision": "ID-številka redakcije ni veljavna.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Presegli}} ste omejitev hitrosti. Prosimo, počakajte nekaj časa in nato poskusite znova.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Pošljite}} {{GENDER:$2|temu uporabniku|tej uporabnici}} zahvalo",
+	"thanks-confirmation2": "Želiš uporabniku podati javno zahvalo?",
 	"thanks-thanked-notice": "$1 je {{GENDER:$2|prejel|prejela}} vašo zahvalo za {{GENDER:$2|njegovo|njeno}} urejanje.",
 	"thanks": "Pošljite zahvalo",
 	"thanks-form-revid": "ID redakcije za urejanje",
@@ -23,9 +25,6 @@
 	"echo-pref-tooltip-edit-thank": "Obvesti me, kadar se mi kdo zahvali za katero od mojih urejanj.",
 	"echo-category-title-edit-thank": "Zahvala",
 	"notification-thanks-diff-link": "vaše urejanje",
-	"notification-thanks": "[[User:$1|$1]] se vam je {{GENDER:$1|zahvalil|zahvalila}} za $2 strani »[[:$3]]«.",
-	"notification-thanks-email-subject": "$1 se vam je {{GENDER:$1|zahvalil|zahvalila}} za urejanje {{GRAMMAR:rodilnik|{{SITENAME}}}}",
-	"notification-thanks-email-batch-body": "$1 se vam je {{GENDER:$1|zahvalil|zahvalila}} za urejanje strani »$2«.",
 	"log-name-thanks": "Dnevnik zahval",
 	"log-description-thanks": "Prikazan je dnevnik uporabnikov, ki se jim je kdo zahvalil.",
 	"logentry-thanks-thank": "$1 se je {{GENDER:$2|zahvalil|zahvalila}} {{GENDER:$4|uporabniku|uporabnici}} {{GENDER:$4|$3}}",
@@ -36,8 +35,5 @@
 	"thanks-error-invalidpostid": "ID objave ni veljaven.",
 	"flow-thanks-confirmation-special": "Se želite javno zahvaliti za to pripombo?",
 	"flow-thanks-thanked-notice": "$1 je {{GENDER:$2|prejel|prejela}} vašo zahvalo za {{GENDER:$2|njegovo|njeno}} pripombo.",
-	"notification-flow-thanks": "[[User:$1|$1]] se {{GENDER:$5|vam}} je {{GENDER:$1|zahvalil|zahvalila|zahvalil(-a)}} za $2 v »$3« na [[:$4]].",
-	"notification-flow-thanks-post-link": "vašo pripombo",
-	"notification-flow-thanks-email-subject": "$1 se {{GENDER:$2|vam}} je {{GENDER:$1|zahvalil|zahvalila|zahvalil(-a)}} za vašo pripombo na {{GRAMMAR:mestnik|{{SITENAME}}}}",
-	"notification-flow-thanks-email-batch-body": "$1 se {{GENDER:$4|vam}} je {{GENDER:$1|zahvalil|zahvalila|zahvalil(-a)}} za vašo pripombo v »$2« na $3."
+	"notification-flow-thanks-post-link": "vašo pripombo"
 }
