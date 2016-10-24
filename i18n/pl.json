@@ -8,7 +8,8 @@
 			"WTM",
 			"The Polish",
 			"Macofe",
-			"Sethakill"
+			"Sethakill",
+			"Woytecr"
 		]
 	},
 	"thanks-desc": "Dodaje link umożliwiający podziękowanie użytkownikowi za edycję, komentarz itp.",
@@ -31,12 +32,9 @@
 	"echo-pref-tooltip-edit-thank": "Powiadom mnie, kiedy ktoś podziękuje mi za edycję, którą wykonałem.",
 	"echo-category-title-edit-thank": "Podziękowania",
 	"notification-thanks-diff-link": "edycję",
-	"notification-thanks": "[[User:$1|$1]] {{GENDER:$1|podziękował|podziękowała}} Ci za $2 na stronie [[:$3]].",
 	"notification-header-edit-thank": "$1 {{GENDER:$2|podziękował|podziękowała|podziękował(a)}} {{GENDER:$4|ci}} za edycję na stronie <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|podziękował|podziękowała|podziękował(a)}} {{GENDER:$3|ci}}.",
 	"notification-bundle-header-edit-thank": "{{PLURAL:$1|Jedna osoba|$1 osoby|$1 osób|100=Co najmniej 100 osób}} podziękowało {{GENDER:$3|ci}} za twoją edycję strony <strong>$2</strong>.",
-	"notification-thanks-email-subject": "$1 {{GENDER:$1|podziękował|podziękowała}} Ci za edycję w {{GRAMMAR:MS.lp|{{SITENAME}}}}",
-	"notification-thanks-email-batch-body": "$1 {{GENDER:$1|podziękował|podziękowała}} Ci za edycję na stronie $2.",
 	"log-name-thanks": "Rejestr podziękowań",
 	"log-description-thanks": "Poniżej znajduje się lista użytkowników, którym podziękowali inni użytkownicy.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|podziękował|podziękowała}} {{GENDER:$4|użytkownikowi|użytkowniczce}} $3",
@@ -44,13 +42,18 @@
 	"thanks-error-no-id-specified": "Musisz określić wersję strony, aby wysłać podziękowanie.",
 	"thanks-confirmation-special": "Czy chcesz wysłać publiczne podziękowanie za tę edycję?",
 	"notification-link-text-view-post": "Zobacz komentarz",
+	"thanks-error-invalidpostid": "Nieprawidłowy ID postu.",
 	"flow-thanks-confirmation-special": "Czy chcesz wysłać publiczne podziękowanie za ten komentarz?",
 	"flow-thanks-thanked-notice": "$1 {{GENDER:$2|dostał|dostała}} twoje podziękowanie za {{GENDER:$2|jego|jej}} komentarz.",
-	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|podziękował|podziękowała}} {{GENDER:$5|ci}} za $2 w „$3” na stronie [[:$4]].",
 	"notification-flow-thanks-post-link": "twój komentarz",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|podziękował|podziękowała|podziękował(a)}} {{GENDER:$5|ci}} za komentarz w \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|podziękował|podziękowała|podziękował(a)}} {{GENDER:$3|ci}}.",
 	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Jedna osoba|$1 osoby|$1 osób|100=Co najmniej 100 osób}} podziękowało {{GENDER:$3|ci}} za twój komentarz w „<strong>$2</strong>”.",
-	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|podziękował|podziękowała}} {{GENDER:$2|ci}} za twój komentarz w {{GRAMMAR:MS.lp|{{SITENAME}}}}",
-	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|podziękował|podziękowała}} {{GENDER:$4|ci}} za twój komentarz w „$2” na stronie $3."
+	"apihelp-flowthank-description": "Wysyła publiczne powiadomienie z podziękowaniem za komentarz Flow.",
+	"apihelp-flowthank-param-postid": "UUID postu za który podziękować.",
+	"apihelp-flowthank-example-1": "Wyślij podziękowanie za komentarz z <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-description": "Wysyła powiadomienie z podziękowaniem do edytującego.",
+	"apihelp-thank-param-rev": "ID wersji za którą podziękować.",
+	"apihelp-thank-param-source": "Krótki ciąg znaków opisujący źródło żądania, na przykład <kbd>diff</kbd> lub <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Wyślij podziękowanie za wersję o <kbd>ID 456</kbd>, z źródłem będącym stroną porównywania"
 }
