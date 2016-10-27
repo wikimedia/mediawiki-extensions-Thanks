@@ -17,7 +17,7 @@
 	"thanks-error-invalidrevision": "ID-številka redakcije ni veljavna.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Presegli}} ste omejitev hitrosti. Prosimo, počakajte nekaj časa in nato poskusite znova.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Pošljite}} {{GENDER:$2|temu uporabniku|tej uporabnici}} zahvalo",
-	"thanks-confirmation2": "Želiš uporabniku podati javno zahvalo?",
+	"thanks-confirmation2": "{{GENDER:$1|Želiš}} uporabniku poslati javno zahvalo za urejanje?",
 	"thanks-thanked-notice": "$1 je {{GENDER:$2|prejel|prejela}} vašo zahvalo za {{GENDER:$2|njegovo|njeno}} urejanje.",
 	"thanks": "Pošljite zahvalo",
 	"thanks-form-revid": "ID redakcije za urejanje",
