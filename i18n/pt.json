@@ -12,7 +12,8 @@
 			"Vitorvicentevalente",
 			"He7d3r",
 			"Fúlvio",
-			"Macofe"
+			"Macofe",
+			"Hamilton Abreu"
 		]
 	},
 	"thanks-desc": "Adiciona ligações para agradecer a utilizadores por edições, comentários, etc.",
@@ -47,7 +48,7 @@
 	"notification-link-text-view-post": "Ver comentário",
 	"thanks-error-invalidpostid": "ID de mensagem inválido.",
 	"flow-thanks-confirmation-special": "Deseja agradecer publicamente por este comentário?",
-	"flow-thanks-thanked-notice": "$1 foi {{GENDER:$2|informado|informada}} de que você gostou do seu comentário.",
+	"flow-thanks-thanked-notice": "$1 foi {{GENDER:$2|informado|informada}} de que você gostou do comentário {{GENDER:$2|dele|dela}}.",
 	"notification-flow-thanks-post-link": "o seu comentário",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|agradeceu-lhe}} {{GENDER:$5|pelo}} seu comentário em \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|agradeceu}}{{GENDER:$3|-lhe}}.",
