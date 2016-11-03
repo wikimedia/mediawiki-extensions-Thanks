@@ -28,7 +28,7 @@ class ApiFlowThank extends ApiThank {
 		try {
 			$postId = UUID::create( $params['postid'] );
 		} catch ( FlowException $e ) {
-			$this->dieUsage( 'Post ID is invalid', 'invalidpostid' );
+			$this->dieWithError( 'thanks-error-invalidpostid', 'invalidpostid' );
 		}
 
 		$data = $this->getFlowData( $postId );
@@ -83,11 +83,11 @@ class ApiFlowThank extends ApiThank {
 		try {
 			$data = $rootPostLoader->getWithRoot( $postId );
 		} catch ( FlowException $e ) {
-			$this->dieUsage( 'Post ID is invalid', 'invalidpostid' );
+			$this->dieWithError( 'thanks-error-invalidpostid', 'invalidpostid' );
 		}
 
 		if ( $data['post'] === null ) {
-			$this->dieUsage( 'Post ID is invalid', 'invalidpostid' );
+			$this->dieWithError( 'thanks-error-invalidpostid', 'invalidpostid' );
 		}
 		return $data;
 	}
@@ -99,7 +99,7 @@ class ApiFlowThank extends ApiThank {
 	private function getRecipientFromPost( PostRevision $post ) {
 		$recipient = User::newFromId( $post->getCreatorId() );
 		if ( !$recipient->loadFromId() ) {
-			$this->dieUsage( 'Recipient is invalid', 'invalidrecipient' );
+			$this->dieWithError( 'thanks-error-invalidrecipient', 'invalidrecipient' );
 		}
 		return $recipient;
 	}

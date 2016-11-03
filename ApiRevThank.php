@@ -38,9 +38,9 @@ class ApiRevThank extends ApiThank {
 
 		// Revision ID 1 means an invalid argument was passed in.
 		if ( !$revision || $revision->getId() === 1 ) {
-			$this->dieUsage( 'Revision ID is not valid', 'invalidrevision' );
+			$this->dieWithError( 'thanks-error-invalidrevision', 'invalidrevision' );
 		} elseif ( $revision->isDeleted( Revision::DELETED_TEXT ) ) {
-			$this->dieUsage( 'Revision has been deleted', 'revdeleted' );
+			$this->dieWithError( 'thanks-error-revdeleted', 'revdeleted' );
 		}
 		return $revision;
 	}
@@ -48,7 +48,7 @@ class ApiRevThank extends ApiThank {
 	private function getTitleFromRevision( Revision $revision ) {
 		$title = Title::newFromID( $revision->getPage() );
 		if ( !$title instanceof Title ) {
-			$this->dieUsage( 'Page title could not be retrieved', 'notitle' );
+			$this->dieWithError( 'thanks-error-notitle', 'notitle' );
 		}
 		return $title;
 	}
@@ -67,7 +67,7 @@ class ApiRevThank extends ApiThank {
 	private function getUserFromRevision( Revision $revision ) {
 		$recipient = $revision->getUser();
 		if ( !$recipient ) {
-			$this->dieUsage( 'No valid recipient found', 'invalidrecipient' );
+			$this->dieWithError( 'thanks-error-invalidrecipient', 'invalidrecipient' );
 		}
 		return User::newFromId( $recipient );
 	}

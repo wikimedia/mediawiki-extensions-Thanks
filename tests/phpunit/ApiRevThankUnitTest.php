@@ -26,7 +26,7 @@ class ApiRevThankUnitTest extends MediaWikiTestCase {
 		$method->setAccessible( true );
 
 		if ( $expectedError ) {
-			$this->setExpectedException( 'UsageException', $expectedError );
+			$this->setExpectedException( 'ApiUsageException', $expectedError );
 		}
 
 		$method->invoke( $module, $user );
@@ -67,7 +67,7 @@ class ApiRevThankUnitTest extends MediaWikiTestCase {
 		$mockUser->expects( $this->once() )
 			->method( 'isBlocked' )
 			->will( $this->returnValue( true ) );
-		$mockUser->expects( $this->any() )
+		$mockUser->expects( $this->once() )
 			->method( 'getBlock' )
 			->will( $this->returnValue( new Block( [
 				'address' => 'Test user',
