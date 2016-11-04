@@ -187,16 +187,18 @@ class ThanksHooks {
 			],
 		];
 
-		$notifications['flow-thank'] = [
-			'category' => 'edit-thank',
-			'group' => 'positive',
-			'section' => 'message',
-			'presentation-model' => 'EchoFlowThanksPresentationModel',
-			'bundle' => [
-				'web' => true,
-				'expandable' => true,
-			],
-		];
+		if ( class_exists( Flow\FlowPresentationModel::class ) ) {
+			$notifications['flow-thank'] = [
+				'category' => 'edit-thank',
+				'group' => 'positive',
+				'section' => 'message',
+				'presentation-model' => 'EchoFlowThanksPresentationModel',
+				'bundle' => [
+					'web' => true,
+					'expandable' => true,
+				],
+			];
+		}
 
 		$icons['thanks'] = [
 			'path' => 'Thanks/ThankYou.png',
