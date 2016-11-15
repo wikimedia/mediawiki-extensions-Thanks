@@ -67,6 +67,16 @@ class ApiRevThankUnitTest extends MediaWikiTestCase {
 		$mockUser->expects( $this->once() )
 			->method( 'isBlocked' )
 			->will( $this->returnValue( true ) );
+		$mockUser->expects( $this->any() )
+			->method( 'getBlock' )
+			->will( $this->returnValue( new Block( [
+				'address' => 'Test user',
+				'by' => 1,
+				'byText' => 'UTSysop',
+				'reason' => __METHOD__,
+				'timestamp' => wfTimestamp( TS_MW ),
+				'expiry' => 'infinity',
+			] ) ) );
 
 		$testCases[ 'blocked' ] = [ $mockUser, 'You have been blocked from editing' ];
 
