@@ -36,11 +36,7 @@ class ApiRevThankIntegrationTest extends ApiTestCase {
 	}
 
 	public function testRequestWithoutToken() {
-		if ( class_exists( 'ApiUsageException' ) ) {
-			$this->setExpectedException( 'ApiUsageException', 'The "token" parameter must be set.' );
-		} else {
-			$this->setExpectedException( 'UsageException', 'The token parameter must be set' );
-		}
+		$this->setExpectedException( 'ApiUsageException', 'The "token" parameter must be set.' );
 		$this->doApiRequest( [
 			'action' => 'thank',
 			'source' => 'someSource',
@@ -75,7 +71,7 @@ class ApiRevThankIntegrationTest extends ApiTestCase {
 	}
 
 	public function testInvalidRequest() {
-		$this->setExpectedException( 'UsageException' );
+		$this->setExpectedException( 'ApiUsageException' );
 		$this->doApiRequestWithToken( [ 'action' => 'thank' ] );
 	}
 

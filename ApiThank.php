@@ -8,17 +8,17 @@
 abstract class ApiThank extends ApiBase {
 	protected function dieIfEchoNotInstalled() {
 		if ( !class_exists( 'EchoNotifier' ) ) {
-			$this->dieUsage( 'Echo is not installed on this wiki', 'echonotinstalled' );
+			$this->dieWithError( 'thanks-error-echonotinstalled', 'echonotinstalled' );
 		}
 	}
 
 	protected function dieOnBadUser( User $user ) {
 		if ( $user->isAnon() ) {
-			$this->dieUsage( 'Anonymous users cannot send thanks', 'notloggedin' );
+			$this->dieWithError( 'thanks-error-notloggedin', 'notloggedin' );
 		} elseif ( $user->pingLimiter( 'thanks-notification' ) ) {
-			$this->dieUsageMsg( [ 'actionthrottledtext' ] );
+			$this->dieWithError( [ 'thanks-error-ratelimited', $user->getName() ], 'ratelimited' );
 		} elseif ( $user->isBlocked() ) {
-			$this->dieUsageMsg( [ 'blockedtext' ] );
+			$this->dieBlocked( $user->getBlock() );
 		}
 	}
 
@@ -26,9 +26,9 @@ abstract class ApiThank extends ApiBase {
 		global $wgThanksSendToBots;
 
 		if ( $user->getId() === $recipient->getId() ) {
-			$this->dieUsage( 'You cannot thank yourself', 'invalidrecipient' );
+			$this->dieWithError( 'thanks-error-invalidrecipient-self', 'invalidrecipient' );
 		} elseif ( !$wgThanksSendToBots && in_array( 'bot', $recipient->getGroups() ) ) {
-			$this->dieUsage( 'Bots cannot be thanked', 'invalidrecipient' );
+			$this->dieWithError( 'thanks-error-invalidrecipient-bot', 'invalidrecipient' );
 		}
 	}
 

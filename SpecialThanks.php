@@ -146,40 +146,12 @@ class SpecialThanks extends FormSpecialPage {
 
 		try {
 			$api->execute();
-		} catch ( UsageException $e ) {
-			return $this->handleErrorCodes( $e->getCodeString() );
+		} catch ( ApiUsageException $e ) {
+			return Status::wrap( $e->getStatusValue() );
 		}
 
 		$this->result = $api->getResult()->getResultData( [ 'result' ] );
 		return Status::newGood();
-	}
-
-	/**
-	 * Handle error codes returned by the API.
-	 *
-	 * @param $code
-	 * @return Status
-	 */
-	protected function handleErrorCodes( $code ) {
-		$status = new Status;
-		switch ( $code ) {
-			case 'invalidrevision':
-			case 'invalidpostid':
-			case 'ratelimited':
-				// Message keys used here:
-				// * thanks-error-invalidrevision
-				// * thanks-error-invalidpostid
-				// * thanks-error-ratelimited
-				$status->fatal( 'thanks-error-' . $code );
-				break;
-			case 'notloggedin':
-			case 'blockedtext':
-				$status->fatal( $code );
-				break;
-			default:
-				$status->fatal( 'thanks-error-undefined' );
-		}
-		return $status;
 	}
 
 	/**
