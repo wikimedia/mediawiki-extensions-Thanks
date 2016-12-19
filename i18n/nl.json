@@ -40,7 +40,7 @@
 	"echo-pref-tooltip-edit-thank": "Informeer mij wanneer iemand mij bedankt voor een bewerking die ik heb gemaakt.",
 	"echo-category-title-edit-thank": "Bedankt",
 	"notification-thanks-diff-link": "uw bewerking",
-	"notification-header-edit-thank": "$1 {{GENDER:$2|heeft}} {{GENDER:$4|u}} bedankt voor uw bewerking op<strong>$3</strong>.",
+	"notification-header-edit-thank": "$1 {{GENDER:$2|heeft}} {{GENDER:$4|u}} bedankt voor uw bewerking op <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|bedankte}} {{GENDER:$3|u}}.",
 	"log-name-thanks": "Bedankjeslogboek",
 	"log-description-thanks": "Hieronder staat een lijst van gebruikers die door andere gebruikers zijn bedankt.",
