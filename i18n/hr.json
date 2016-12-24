@@ -5,26 +5,27 @@
 			"Roberta F.",
 			"Teoo3",
 			"Srdjan m",
-			"Macofe"
+			"Macofe",
+			"Bugoslav"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|zahvala}}}}",
 	"thanks-thanked": "{{GENDER:$1|zahvala je objavljena}}",
-	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Zahvali se}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Zahvaljeno}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|Zahvala je objavljena|Zahvala je objavljena}}",
 	"thanks-thank-tooltip": "{{GENDER:$1|Pošalji}} zahvalu {{GENDER:$2|ovom suradniku|ovoj suradnici}}",
 	"thanks-confirmation2": "Želite zahvaliti za ovo uređivanje?",
+	"thanks-thanked-notice": "$1 je primio Vašu zahvalu za {{GENDER:$2|njegovo|njezino|predmetno}} uređivanje.",
 	"thanks": "Pošalji zahvalu",
+	"thanks-submit": "Pošalji zahvalu",
 	"echo-pref-tooltip-edit-thank": "Obavijesti me kad mi netko zahvali za moju izmjenu.",
 	"echo-category-title-edit-thank": "Hvala",
 	"notification-thanks-diff-link": "vaše uređivanje",
-	"notification-thanks": "[[User:$1|$1]] vam je {{GENDER:$1|zahvalio|zahvalila}} za $2 na stranici [[:$3]].",
 	"notification-header-edit-thank": "$1 {{GENDER:$4|Vam}} {{GENDER:$2|zahvaljuje}} za uređivanje na stranici '''$3'''.",
-	"notification-thanks-email-subject": "$1 Vam {{GENDER:$1|zahvaljuje|zahvaljuje}} za uređivanje na projektu {{SITENAME}}",
-	"notification-thanks-email-batch-body": "$1 vam {{GENDER:$1|zahvaljuje}} za Vaše uređivanje na stranici $2.",
 	"log-name-thanks": "Evidencija zahvala",
 	"log-description-thanks": "Slijedi popis suradnika koji su drugim suradnicima objavili zahvalu.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|zahvalio|zahvalila}} je {{GENDER:$4|suradniku|suradnici}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 evidenciju zahvala",
-	"thanks-confirmation-special": "Želite li poslati zahvalu za ovo uređivanje?"
+	"thanks-confirmation-special": "Želite li poslati zahvalu za ovo uređivanje?",
+	"flow-thanks-thanked-notice": "$1 je primio Vašu zahvalu za {{GENDER:$2|njegovu|njezinu|predmetnu}} raspravu."
 }
