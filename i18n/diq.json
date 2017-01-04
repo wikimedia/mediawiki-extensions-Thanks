@@ -4,7 +4,8 @@
 			"Gorizon",
 			"Marmase",
 			"Mirzali",
-			"Kumkumuk"
+			"Kumkumuk",
+			"Gambollar"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|teşekur bıke}}}}",
@@ -12,6 +13,7 @@
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Teşekur ke}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Teşekur kerd}}}}",
 	"thanks-thank-tooltip": "{{GENDER:$2|Karberi}} rê teşekur {{GENDER:$1|bırışe}}",
+	"thanks-confirmation2": "Qandê ena vırnayış şıma qayılê teşekur {{GENDER:$1|bırışê}}?",
 	"thanks": "Teşekur bırışe",
 	"thanks-submit": "Teşekur bırışe",
 	"echo-category-title-edit-thank": "Teşekuri",
