@@ -19,7 +19,7 @@
 	"thanks": "Pošalji zahvalu",
 	"thanks-submit": "Pošalji zahvalu",
 	"echo-pref-tooltip-edit-thank": "Obavijesti me kad mi netko zahvali za moju izmjenu.",
-	"echo-category-title-edit-thank": "Hvala",
+	"echo-category-title-edit-thank": "Zahvala",
 	"notification-thanks-diff-link": "vaše uređivanje",
 	"notification-header-edit-thank": "$1 {{GENDER:$4|Vam}} {{GENDER:$2|zahvaljuje}} za uređivanje na stranici '''$3'''.",
 	"log-name-thanks": "Evidencija zahvala",
