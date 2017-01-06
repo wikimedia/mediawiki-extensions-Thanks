@@ -72,7 +72,7 @@
 		// to also trigger the reloadThankedState
 		reloadThankedState();
 	} else {
-		$( document ).ready( reloadThankedState );
+		$( reloadThankedState );
 	}
 
 	// .on() is needed to make the button work for dynamically loaded posts

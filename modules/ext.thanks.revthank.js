@@ -93,7 +93,7 @@
 		// to also trigger the reloadThankedState
 		reloadThankedState();
 	} else {
-		$( document ).ready( reloadThankedState );
+		$( reloadThankedState );
 	}
 
 	$( function () {
