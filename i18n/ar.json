@@ -11,14 +11,15 @@
 			"Macofe",
 			"Maroen1990",
 			"بدارين",
-			"Shbib Al-Subaie"
+			"Shbib Al-Subaie",
+			"ديفيد"
 		]
 	},
 	"thanks-desc": "تضيف روابط للشكر على صفحات التاريخ والفرق",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|شكر}}}}",
-	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|شكر}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|شُكِر}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|شكر}}}}",
-	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|شكر}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|شُكِر}}}}",
 	"thanks-error-undefined": "فشل إرسال الشكر،(رمز الخطأ: $1) الرجاء المحاولة مجددًا.",
 	"thanks-error-invalidrevision": "معرّف المراجعة غير صحيح.",
 	"thanks-error-revdeleted": "المراجعة تم حذفها",
