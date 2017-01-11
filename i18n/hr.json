@@ -21,7 +21,7 @@
 	"echo-pref-tooltip-edit-thank": "Obavijesti me kad mi netko zahvali za moju izmjenu.",
 	"echo-category-title-edit-thank": "Zahvala",
 	"notification-thanks-diff-link": "vaše uređivanje",
-	"notification-header-edit-thank": "$1 {{GENDER:$4|Vam}} {{GENDER:$2|zahvaljuje}} za uređivanje na stranici '''$3'''.",
+	"notification-header-edit-thank": "$1 je {{GENDER:$2|zahvalio|zahvalila}} za {{GENDER:$4|Vaše}} uređivanje na stranici <strong>$3</strong>.",
 	"log-name-thanks": "Evidencija zahvala",
 	"log-description-thanks": "Slijedi popis suradnika koji su drugim suradnicima objavili zahvalu.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|zahvalio|zahvalila}} je {{GENDER:$4|suradniku|suradnici}} {{GENDER:$4|$3}}",
