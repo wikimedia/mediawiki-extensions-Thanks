@@ -47,7 +47,7 @@
 	"notification-thanks-diff-link": "编辑",
 	"notification-header-edit-thank": "$1{{GENDER:$2|感谢了}}{{GENDER:$4|您}}在<strong>$3</strong>的编辑。",
 	"notification-compact-header-edit-thank": "$1{{GENDER:$2|感谢了}}{{GENDER:$3|您}}。",
-	"notification-bundle-header-edit-thank": "{{PLURAL:$1|$1个人|100=超过99个人}}感谢了{{GENDER:$3|您}}在<strong>$2</strong>上的编辑。",
+	"notification-bundle-header-edit-thank": "{{PLURAL:$1|$1个人|100=超过99个人}}对于{{GENDER:$3|您}}在<strong>$2</strong>所作出的编辑表示感谢。",
 	"log-name-thanks": "感谢日志",
 	"log-description-thanks": "下面是得到其他用户感谢的用户的列表。",
 	"logentry-thanks-thank": "$1{{GENDER:$2|感谢了}}{{GENDER:$4|$3}}",
