@@ -10,7 +10,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|धन्यवाद दिलेत}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|धन्यवाद}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|धन्यवाद दिलेत}}}}",
-	"thanks-error-undefined": "धन्यवाद देण्याची क्रिया अयशस्वी झाली.कृपया पुन्हा प्रयत्न करा.",
+	"thanks-error-undefined": "धन्यवाद देण्याची क्रिया अयशस्वी झाली(त्रुटी संकेत: $1).कृपया पुन्हा प्रयत्न करा.",
 	"thanks-error-invalidrevision": "आवृत्तीचा आयडी वैध नाही.",
 	"thanks-error-ratelimited": "{{GENDER:$1|आपण}} दर मर्यादा पार केली आहे.कृपया थोडा वेळ थांबून पुन्हा प्रयत्न करा.",
 	"thanks-thank-tooltip": "{{GENDER:$2|या सदस्याला}} एक धन्यवादाची अधिसूचना {{GENDER:$1|पाठवा}}",
