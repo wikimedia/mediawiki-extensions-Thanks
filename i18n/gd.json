@@ -2,9 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Sionnach",
-			"Akerbeltz"
+			"Akerbeltz",
+			"Caoimhin"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|thoir taing}}}}",
-	"thanks-thank-tooltip": "{{GENDER:$1|Cuir}} taing don {{GENDER:$2|chleachdaiche}} seo"
+	"thanks-thank-tooltip": "{{GENDER:$1|Cuir}} taing don {{GENDER:$2|chleachdaiche}} seo",
+	"thanks-confirmation2": "A bheil thu ag iarraidh taing a chur gu poblach airson a’ mhùthaidh seo?",
+	"thanks-submit": "Cuir taing"
 }
