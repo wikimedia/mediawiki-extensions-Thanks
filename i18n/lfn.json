@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cgboeree"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|grasia}}}}",
+	"thanks-thank-tooltip": "{{GENDER:$1|Envia}} un nota de grasia a esta {{GENDER:$2|usor}}"
+}
