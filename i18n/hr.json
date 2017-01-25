@@ -11,7 +11,7 @@
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|zahvala}}}}",
 	"thanks-thanked": "{{GENDER:$1|zahvala je objavljena}}",
-	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Zahvaljeno}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Pošalji zahvalu}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|Zahvala je objavljena|Zahvala je objavljena}}",
 	"thanks-thank-tooltip": "{{GENDER:$1|Pošalji}} zahvalu {{GENDER:$2|ovom suradniku|ovoj suradnici}}",
 	"thanks-confirmation2": "Želite zahvaliti za ovo uređivanje?",
