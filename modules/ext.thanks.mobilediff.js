@@ -1,6 +1,4 @@
 ( function ( mw, M, $ ) {
-	var popup = M.require( 'mobile.toast/toast' );
-
 	/**
 	 * Create a thank button for a given edit
 	 *
@@ -15,7 +13,7 @@
 			rev: revision,
 			source: 'mobilediff'
 		} ).done( function () {
-			popup.show( mw.msg( 'thanks-thanked-notice', name, gender ) );
+			mw.notify( mw.msg( 'thanks-thanked-notice', name, gender ) );
 			d.resolve();
 		} )
 		.fail( function ( errorCode ) {

@@ -99,7 +99,7 @@
 			],
 			"dependencies": [
 				"mediawiki.api",
-				"mobile.toast"
+				"mediawiki.notification"
 			],
 			"targets": [
 				"desktop",
