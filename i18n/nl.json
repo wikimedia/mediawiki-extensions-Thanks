@@ -56,5 +56,8 @@
 	"flow-thanks-confirmation-special": "Wilt u een openbaar bedankje sturen voor deze reactie?",
 	"flow-thanks-thanked-notice": "$1 heeft uw bedankje ontvangen voor {{GENDER:$2|zijn|haar|zijn/haar}} reactie.",
 	"notification-flow-thanks-post-link": "uw reactie",
-	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|bedankte}} {{GENDER:$3|u}}."
+	"notification-header-flow-thank": "$1 {{GENDER:$2|heeft}} {{GENDER:$5|u}} bedankt voor uw reactie op \"<strong>$3</strong>\".",
+	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|bedankte}} {{GENDER:$3|u}}.",
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Één persoon|$1 personen|100=99+ personsen}} bedankte {{GENDER:$3|u}} voor uw reactie op \"<strong>$2</strong>\".",
+	"apihelp-flowthank-description": "Stuur een openbaar bedankje voor een Flow reactie."
 }
