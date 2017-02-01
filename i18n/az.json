@@ -5,11 +5,12 @@
 			"Khan27",
 			"Dağlı95",
 			"Wertuose",
-			"Serkanland"
+			"Serkanland",
+			"Archaeodontosaurus"
 		]
 	},
 	"thanks-desc": "İstifadəçilərin redaktələrinə, şərhlərinə və s. görə minnətdarlıq üçün keçidləri əlavə edir",
-	"thanks-thank": "təşəkkür",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|təşəkkür}}}}",
 	"thanks-thanked": "{{GENDER:$1|təşəkkür edildi}}",
 	"thanks-button-thank": "{{GENDER:$1|Təşəkkür}}",
 	"thanks-button-thanked": "{{GENDER:$1|Təşəkkür edildi}}",
