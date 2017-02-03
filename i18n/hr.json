@@ -27,5 +27,6 @@
 	"logentry-thanks-thank": "$1 {{GENDER:$2|zahvalio|zahvalila}} je {{GENDER:$4|suradniku|suradnici}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 evidenciju zahvala",
 	"thanks-confirmation-special": "Želite li poslati zahvalu za ovo uređivanje?",
-	"flow-thanks-thanked-notice": "$1 je primio Vašu zahvalu za {{GENDER:$2|njegovu|njezinu|predmetnu}} raspravu."
+	"flow-thanks-thanked-notice": "$1 je primio Vašu zahvalu za {{GENDER:$2|njegovu|njezinu|predmetnu}} raspravu.",
+	"notification-header-flow-thank": "$1 Vam {{GENDER:$2|je zahvalio|je zahvalila|zahvaljuje}} na  {{GENDER:$5|Vašem}} komentaru u temi »<strong>$3</strong>«."
 }
