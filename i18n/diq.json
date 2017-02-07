@@ -5,10 +5,11 @@
 			"Marmase",
 			"Mirzali",
 			"Kumkumuk",
-			"Gambollar"
+			"Gambollar",
+			"Gırd"
 		]
 	},
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|teşekur bıke}}}}",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|teşekur ke}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|teşekur kerd}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Teşekur ke}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Teşekur kerd}}}}",
