@@ -13,7 +13,8 @@
 			"He7d3r",
 			"Fúlvio",
 			"Macofe",
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"Chicocvenancio"
 		]
 	},
 	"thanks-desc": "Adiciona ligações para agradecer a utilizadores por edições, comentários, etc.",
@@ -28,7 +29,7 @@
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Cancelar}} a notificação de agradecimento",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Enviar}} a notificação de agradecimento",
 	"thanks-confirmation2": "{{GENDER:$1|Enviar}} um agradecimento público por esta edição?",
-	"thanks-thanked-notice": "$1 foi {{GENDER:$2|informado|informada|informado(a)}} de que gostou da sua edição.",
+	"thanks-thanked-notice": "$1 foi {{GENDER:$2|informado|informada|informado(a)}} de que você gostou da edição {{GENDER:$2|dele|dela|dele(a)}}.",
 	"thanks": "Enviar agradecimento",
 	"thanks-submit": "Enviar agradecimento",
 	"thanks-form-revid": "ID de revisão para editar",
