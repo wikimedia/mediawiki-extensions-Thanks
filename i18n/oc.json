@@ -19,6 +19,7 @@
 	"echo-pref-tooltip-edit-thank": "M'avisar quand qualqu’un me merceja per una modificacion qu’ai faita.",
 	"echo-category-title-edit-thank": "Mercé",
 	"notification-thanks-diff-link": "vòstra modificacion",
+	"notification-header-edit-thank": "$1 vos {{GENDER:$2|a}} {{GENDER:$4|mercejat|mercejada|remercejat(ejada)}} per vòstra modificacion sus <strong>$3</strong>.",
 	"log-name-thanks": "Entrada mercejaments",
 	"log-description-thanks": "Trobaretz çaijós una lista d'utilizaires que son estats mercejats per d'autres.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|a mercejat}} {{GENDER:$4|$3}}",
