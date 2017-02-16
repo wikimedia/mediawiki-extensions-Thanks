@@ -21,6 +21,7 @@
 	"echo-category-title-edit-thank": "Mercé",
 	"notification-thanks-diff-link": "vòstra modificacion",
 	"notification-header-edit-thank": "$1 vos {{GENDER:$2|a}} {{GENDER:$4|mercejat|mercejada|remercejat(ejada)}} per vòstra modificacion sus <strong>$3</strong>.",
+	"notification-bundle-header-edit-thank": "{{PLURAL:$1|Una persona|$1 personas|100=Al mens 100 personas}} vos {{PLURAL:$1|a|an}} {{GENDER:$3|mercejat|mercejada}} per vòstra modificacion sus <strong>$2</strong>.",
 	"log-name-thanks": "Entrada mercejaments",
 	"log-description-thanks": "Trobaretz çaijós una lista d'utilizaires que son estats mercejats per d'autres.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|a mercejat}} {{GENDER:$4|$3}}",
