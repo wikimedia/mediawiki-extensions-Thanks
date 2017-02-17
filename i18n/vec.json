@@ -17,12 +17,10 @@
 	"echo-pref-tooltip-edit-thank": "Avìseme co che qualcheduni me ringrassia par na modifica che gò fato.",
 	"echo-category-title-edit-thank": "Ringrassiamenti",
 	"notification-thanks-diff-link": "la to modifica",
-	"notification-thanks": "[[User:$1|$1]] {{GENDER:$1|el|la}} te gà ringrassià par $2 su [[:$3]].",
-	"notification-thanks-flyout2": "[[User:$1|$1]] {{GENDER:$1|el|la}} te gà ringrassià par la to modifica su $2.",
-	"notification-thanks-email-subject": "$1 {{GENDER:$1|el|la}} te gà ringrassià par la to modifica su {{SITENAME}}.",
-	"notification-thanks-email-batch-body": "$1 {{GENDER:$1|el|la}} te gà ringrassià par la to modifica su $2.",
+	"notification-header-edit-thank": "$1 {{GENDER:$4|el|la}} te gà {{GENDER:$2|ringrassià}} par la to modifica su <strong>$3</strong>.",
 	"log-name-thanks": "Registro dei ringrassiamenti",
 	"log-description-thanks": "Sta qua xe na lista dei utenti ringrassià da altri utenti.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|el|la}} gà ringrassià {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 registro dei ringrassiamenti"
+	"log-show-hide-thanks": "$1 registro dei ringrassiamenti",
+	"notification-header-flow-thank": "$1 {{GENDER:$1|el|la}} te gà {{GENDER:$5|ringrassià}} par el to comento in \"<strong>$3</strong>\"."
 }
