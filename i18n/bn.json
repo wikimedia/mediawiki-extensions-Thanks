@@ -7,7 +7,8 @@
 			"Aftabuzzaman",
 			"Macofe",
 			"Bodhisattwa",
-			"আজিজ"
+			"আজিজ",
+			"Elias Ahmmad"
 		]
 	},
 	"thanks-desc": "সম্পাদনা, মতামত, ইত্যাদি জন্য ব্যবহারকারীদের ধন্যবাদের লিংক সংযোজন করে",
@@ -18,7 +19,7 @@
 	"thanks-error-undefined": "ধন্যবাদ পদক্ষেপ ব্যর্থ (ত্রুটি কোড: $1)। অনুগ্রহ করে আবার চেষ্টা করুন।",
 	"thanks-error-invalidrevision": "সংশোধনের আইডি বৈধ নয়।",
 	"thanks-error-revdeleted": "সংশোধনটি অপসারণ করা হয়েছে",
-	"thanks-error-notitle": "পৃষ্ঠার শিরোনাম আহরন করা যাবে না",
+	"thanks-error-notitle": "পৃষ্ঠার শিরোনাম উদ্ধার করা যাবে না",
 	"thanks-error-invalidrecipient": "কোন বৈধ প্রাপক পাওয়া যায়নি",
 	"thanks-error-invalidrecipient-bot": "বটকে ধন্যবাদ দেয়া যাবে না",
 	"thanks-error-invalidrecipient-self": "আপনি নিজেকে নিজে ধন্যবাদ দিতে পারবেন না",
@@ -29,7 +30,7 @@
 	"thanks-thank-tooltip-no": "আপনাকে ধন্যবাদ বিজ্ঞপ্তি {{GENDER:$1|বাতিল করুন}}",
 	"thanks-thank-tooltip-yes": "ধন্যবাদের বিজ্ঞপ্তি {{GENDER:$1|পাঠান}}",
 	"thanks-confirmation2": "এই সম্পাদনার জন্য সর্বজনীন ধন্যবাদ {{GENDER:$1|দিবেন}}?",
-	"thanks-thanked-notice": "$1 {{GENDER:$2|তার|তার|তাদের}} সম্পাদনার জন্য আপনার ধন্যবাদ পেয়েছেন।",
+	"thanks-thanked-notice": "$1 {{GENDER:$2|তার}} সম্পাদনার জন্য আপনার ধন্যবাদ পেয়েছেন।",
 	"thanks": "ধন্যবাদ পাঠান",
 	"thanks-submit": "ধন্যবাদ পাঠান",
 	"thanks-form-revid": "সম্পাদনা জন্য সংশোধন আইডি",
