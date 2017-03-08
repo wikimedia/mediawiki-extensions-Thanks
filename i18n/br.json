@@ -16,7 +16,7 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|Kas}} ur c'hemenn trugarekaat d'an {{GENDER:$2|implijer-mañ|implijerez-mañ}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Nullañ}} ar c'hemenn trugarekaat",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Kas}} ar c'hemenn trugarekaat",
-	"thanks-confirmation2": "Un {{GENDER:$1|trugarekaat}} foran evit ar c'hemm-mañ ?",
+	"thanks-confirmation2": "{{GENDER:$1|Trugarekaat}} evit ar c'hemm-mañ ?",
 	"echo-category-title-edit-thank": "Trugarez",
 	"notification-thanks-diff-link": "ho kemm",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|en deus|he deus}} trugarekaet {{GENDER:$4|$3}}"
