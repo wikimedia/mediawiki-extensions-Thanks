@@ -10,7 +10,7 @@
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ಸೊಲ್ಮೆಲು}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|ಸೊಲ್ಮೆಲು}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|ಸೊಲ್ಮೆಲು}}}}",
-	"thanks-thank-tooltip": "{{GENDER:$1|ಕಡಪುಡ್ಲೆ}} ಈ ಸೂಚನೆಗಾತ್ರೊ ಈರೆಗೊಂಜಿ ಸೊಲ್ಮೆಲು {{GENDER:$2|ಬಳಕೆದಾರೆರ್}}",
+	"thanks-thank-tooltip": "ಈ ವಿಸಯೋಗಾತ್ {{GENDER:$2|ಬಳಕೆದಾರೆರ್}}ಗೊಂಜಿ ಸೊಲ್ಮೆಲೇನ್ {{GENDER:$1|ಕಡಪುಡ್ಲೆ}}",
 	"thanks": "ಸೊಲ್ಮೆ ಸಂದಲೇ",
 	"thanks-submit": "ಸೊಲ್ಮೆ ಸಂದಲೇ",
 	"echo-pref-subscription-edit-thank": "ಎನ್ನ ಬೇಲೆಗ್ ಸೊಲ್ಮೆಲೋ",
