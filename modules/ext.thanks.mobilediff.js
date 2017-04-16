@@ -1,4 +1,4 @@
-( function ( mw, M, $ ) {
+( function ( mw, $ ) {
 	/**
 	 * Create a thank button for a given edit
 	 *
@@ -95,4 +95,4 @@
 	mw.thanks = $.extend( {}, mw.thanks || {}, {
 		_mobileDiffInit: init
 	} );
-} )( mediaWiki, mw.mobileFrontend, jQuery );
+} )( mediaWiki, jQuery );
