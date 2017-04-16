@@ -2,10 +2,10 @@
 
 class SpecialThanks extends FormSpecialPage {
 
-	 /**
-	  * API result
-	  * @var array $result
-	  */
+	/**
+	 * API result
+	 * @var array $result
+	 */
 	protected $result;
 
 	/**

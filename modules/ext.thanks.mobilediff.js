@@ -57,7 +57,7 @@
 					.on( 'click', function () {
 						var $this = $( this );
 						if ( !$this.hasClass( 'thanked' ) ) {
-							thankUser( name, rev, gender  ).done( function () {
+							thankUser( name, rev, gender ).done( function () {
 								$this.addClass( 'thanked' ).prop( 'disabled', true )
 									.html( thankImgTag + mw.message( 'thanks-button-thanked', mw.user, gender ).escaped() );
 							} );
