@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"شیخ"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|تشکۊر}}}}",
+	"thanks-thank-tooltip": "اي {{GENDER:$2|کارگير}}ˇ ئبه تشکۊرˇ پيغؤم {{GENDER:$1|خسأنئن}}"
+}
