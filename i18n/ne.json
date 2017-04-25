@@ -4,14 +4,15 @@
 			"बिप्लब आनन्द",
 			"Nirjal stha",
 			"NehalDaveND",
-			"राम प्रसाद जोशी"
+			"राम प्रसाद जोशी",
+			"सरोज कुमार ढकाल"
 		]
 	},
 	"thanks-desc": "प्रयोगकर्ताहरूलाई तिनीहरूको सम्पादन, टिप्पणी आदिको लागि धन्यवाद दिने लिङ्क जोड्ने।",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|धन्यवाद दिनुहोस्}}}}",
-	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|धन्यवाद ज्ञापित}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|धन्यवाद दिइयो}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|धन्यवाद}}}}",
-	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|धन्यवाद ज्ञापित}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|धन्यवाद दिइयो}}}}",
 	"thanks-error-undefined": "धन्यवाद दिने कार्य विफल भयो। कृपया पुनः प्रयास गर्नुहोस।",
 	"thanks-error-invalidrevision": "अवतरण आइडी मान्य छैन।",
 	"thanks-error-ratelimited": "{{GENDER:$1|तपाईं}} आफ्नो दर सीमा पार गरिसक्नु भएको छ। कृपया केही समय पछी पुनः प्रयास गर्नुहोला।",
