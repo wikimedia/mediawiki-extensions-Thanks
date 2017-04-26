@@ -41,18 +41,17 @@ class EchoFlowThanksPresentationModel extends Flow\FlowPresentationModel {
 	}
 
 	public function getPrimaryLink() {
-		$title = $this->event->getTitle();
+		$title = Title::makeTitleSafe( NS_TOPIC, $this->event->getExtraParam( 'workflow' ) );
+		if ( !$title ) {
+			// Workflow IDs that are invalid titles should never happen; we can try
+			// falling back on the page title and hope the #flow-post- anchor will be there.
+			$title = $this->event->getTitle();
+		}
 		// Make a link to #flow-post-{postid}
-		$title = Title::makeTitle(
-			$title->getNamespace(),
-			$title->getDBKey(),
-			'flow-post-' . $this->event->getExtraParam( 'post-id' )
-		);
+		$title->setFragment( '#flow-post-' . $this->event->getExtraParam( 'post-id' ) );
 
 		return [
-			'url' => $title->getFullURL( [
-				'workflow' => $this->event->getExtraParam( 'workflow' )
-			] ),
+			'url' => $title->getFullURL(),
 			'label' => $this->msg( 'notification-link-text-view-post' )->text(),
 		];
 	}
