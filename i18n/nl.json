@@ -24,6 +24,8 @@
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Bedankt}}}}",
 	"thanks-error-undefined": "Bedanken is mislukt (foutmelding: $1). Probeer het opnieuw.",
 	"thanks-error-invalidrevision": "Het versienummer is niet geldig.",
+	"thanks-error-revdeleted": "Versie is verwijderd",
+	"thanks-error-notitle": "De paginatitel kon niet worden bepaald",
 	"thanks-error-invalidrecipient": "Geen geldig ontvanger gevonden",
 	"thanks-error-invalidrecipient-bot": "Bots kunnen geen bedankjes ontvangen",
 	"thanks-error-invalidrecipient-self": "U kunt zichzelf niet bedanken.",
