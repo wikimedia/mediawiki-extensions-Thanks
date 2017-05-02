@@ -13,7 +13,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|zahvaljeno}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Zahvali se}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Zahvalili ste se}}}}",
-	"thanks-error-undefined": "Nije bilo moguće zahvaliti se. Pokušajte ponovo.",
+	"thanks-error-undefined": "Zahvaljivanje nije uspjelo (kôd greške: $1). Pokušajte ponovo.",
 	"thanks-error-invalidrevision": "Revizioni ID nije validan.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Prekoračili ste}} Vaše ograničenje za ocjenjivanje. Sačekajte neko vrijeme i zatim pokušajte ponovo.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Pošalji}} zahvalnicu {{GENDER:$2|ovom korisniku|оvoj korisnici}}",
