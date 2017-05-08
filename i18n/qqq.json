@@ -38,7 +38,7 @@
 	"thanks-submit": "The text of the submit button on the Special:Thanks page. {{Identical|Send thanks}}",
 	"thanks-form-revid": "Label for form field where the user inputs the revision ID.",
 	"echo-pref-subscription-edit-thank": "Option for getting notifications when someone thanks the user for their edit.\n\nThis is the conclusion of the sentence begun by the header: {{msg-mw|Prefs-echosubscriptions}}.",
-	"echo-pref-tooltip-edit-thank": "This is a short description of the edit-thank notification category.\n{{Related|Echo-pref-tooltip}}",
+	"echo-pref-tooltip-edit-thank": "This is a short description of the edit-thank notification category. You can use parameterless <code><nowiki>{{GENDER:}}</nowiki></code> here.\n{{Related|Echo-pref-tooltip}}",
 	"echo-category-title-edit-thank": "This is a short title for the notification category.\n\nUsed as <code>$1</code> in {{msg-mw|Echo-dismiss-message}} and as <code>$2</code> in {{msg-mw|Echo-email-batch-category-header}}\n{{Related|Echo-category-title}}\n{{Identical|Thank}}",
 	"notification-thanks-diff-link": "The text of a link to the user's edit.\n\nUsed for <code>$2</code> in {{msg-mw|Notification-thanks}}. Should have capitalization appropriate for the middle of a sentence.\n\nThis is an object in a sentence so it should be in object case in languages where there is a special object form for words.",
 	"notification-header-edit-thank": "Header text for a notification when a user is thanked for their edit. Parameters:\n* $1 is the username of the user sending the thanks (not suitable for GENDER).\n* $2 is the thanking user's name for use in GENDER.\n* $3 is the title of the page the thanked user edited.\n* $4 is the username of the user being thanked, for use in GENDER.",
