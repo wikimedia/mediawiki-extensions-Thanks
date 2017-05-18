@@ -4,7 +4,8 @@
 			"Milicevic01",
 			"Милан Јелисавчић",
 			"Сербијана",
-			"Macofe"
+			"Macofe",
+			"Obsuser"
 		]
 	},
 	"thanks-desc": "Додаје везе за захваљивање корисницима за њихове измене, коментаре итд.",
@@ -27,10 +28,8 @@
 	"echo-pref-tooltip-edit-thank": "Обавештава вас када вам се неко захвали за измену коју сте начинили.",
 	"echo-category-title-edit-thank": "Захвалнице",
 	"notification-thanks-diff-link": "вашој измени",
-	"notification-thanks": "[[User:$1|$1]] вам се {{GENDER:$1|захваљује}} на $2 странице [[:$3]].",
 	"notification-header-edit-thank": "$1 Вам се {{GENDER:$2|захваљује}} на {{GENDER:$4|Вашој}} измени странице <strong>$3</strong>.",
-	"notification-thanks-email-subject": "$1 вам се {{GENDER:$1|захваљује}} за вашу измену на {{SITENAME}}",
-	"notification-thanks-email-batch-body": "$1 вам се {{GENDER:$1|захваљује}} за вашу измену на страници $2.",
+	"notification-bundle-header-edit-thank": "{{PLURAL:$1|Једна особа Вам се захвалила|$1 особе су Вам се захвалиле|$1 особа Вам се захвалило|100=>&thinsp;99 особа Вам се захвалило}} за {{GENDER:$3|Вашу}} измену на страници <strong>$2</strong>.",
 	"log-name-thanks": "Дневник захваљивања",
 	"log-description-thanks": "Испод се налази списак корисника којима су се други корисници захвалили.",
 	"logentry-thanks-thank": "$1 се {{GENDER:$2|захвалио|захвалила}} {{GENDER:$4|кориснику|корисници}} {{GENDER:$4|$3}}",
@@ -40,9 +39,6 @@
 	"notification-link-text-view-post": "Види коментар",
 	"flow-thanks-confirmation-special": "Желите ли да се захвалите за овај коментар?",
 	"flow-thanks-thanked-notice": "$1 је {{GENDER:$2|обавештен да вам се свиђа његов|обавештена да вам се свиђа њен}} коментар.",
-	"notification-flow-thanks": "[[User:$1|$1]] вам {{GENDER:$5|се}} {{GENDER:$1|захваљује}} на $2 у теми „$3“ на страници [[:$4]].",
 	"notification-flow-thanks-post-link": "вашем коментару",
-	"notification-header-flow-thank": "$1 Вам се {{GENDER:$2|захваљује}} {{GENDER:$5|на}} вашем коментару у „<strong>$3</strong>”.",
-	"notification-flow-thanks-email-subject": "$1 вам се {{GENDER:$1|захваљује}} {{GENDER:$2|на}} вашем коментару на сајту {{SITENAME}}",
-	"notification-flow-thanks-email-batch-body": "$1 вам се {{GENDER:$1|захваљује}} {{GENDER:$4|на}} вашем коментару у теми „$2“ на страници $3."
+	"notification-header-flow-thank": "$1 Вам се {{GENDER:$2|захваљује}} {{GENDER:$5|на}} вашем коментару у „<strong>$3</strong>”."
 }

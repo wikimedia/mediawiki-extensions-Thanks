@@ -16,6 +16,9 @@
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|धन्यवाद दिया}}}}",
 	"thanks-error-undefined": "धन्यवाद देने का कार्य विफल रहा। कृपया पुनः प्रयास करें।",
 	"thanks-error-invalidrevision": "अवतरण आई॰डी॰ मान्य नहीं है।",
+	"thanks-error-revdeleted": "Revision has been deleted",
+	"thanks-error-notitle": "Page title could not be retrieved",
+	"thanks-error-invalidrecipient": "No valid recipient found",
 	"thanks-error-invalidrecipient-bot": "बॉट को धन्यवाद नहीं दिया जा सकता",
 	"thanks-error-invalidrecipient-self": "आप अपने आप को धन्यवाद नहीं बोल सकते",
 	"thanks-error-echonotinstalled": "इस विकि में इको स्थापित नहीं है",
@@ -35,6 +38,7 @@
 	"notification-thanks-diff-link": "आपके सम्पादन",
 	"notification-header-edit-thank": "$1 जी ने {{GENDER:$4|आपको}} <strong>$3</strong> में सम्पादन हेतु {{GENDER:$2|धन्यवाद}} दिया है।",
 	"notification-compact-header-edit-thank": "$1 ने {{GENDER:$3|आपको}} {{GENDER:$2|धन्यवाद दिया}}।",
+	"notification-bundle-header-edit-thank": "{{PLURAL:$1|One person|$1 people|100=99+ people}} thanked {{GENDER:$3|you}} for your edit on <strong>$2</strong>.",
 	"log-name-thanks": "धन्यवाद लॉग",
 	"log-description-thanks": "अन्य सदस्यों द्वारा धन्यवाद पाने वाले सदस्यों की सूची निम्न है।",
 	"logentry-thanks-thank": "$1 ने {{GENDER:$4|$3}} को {{GENDER:$2|धन्यवाद कहा है}}",
@@ -46,5 +50,14 @@
 	"flow-thanks-confirmation-special": "क्या आप इस टिप्पणी के लिए धन्यवाद भेजना चाहते हो?",
 	"flow-thanks-thanked-notice": "$1 को अधिसूचित किया गया है कि आपको {{GENDER:$2|उनकी|उनकी|उनकी}} टिप्पणियाँ पसन्द आयीं।",
 	"notification-flow-thanks-post-link": "आपकी टिप्पणी",
-	"notification-compact-header-flow-thank": "$1 ने {{GENDER:$3|आपको}} {{GENDER:$2|धन्यवाद दिया}}।"
+	"notification-header-flow-thank": "$1 {{GENDER:$2|thanked}} {{GENDER:$5|you}} for your comment in \"<strong>$3</strong>\".",
+	"notification-compact-header-flow-thank": "$1 ने {{GENDER:$3|आपको}} {{GENDER:$2|धन्यवाद दिया}}।",
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|One person|$1 people|100=99+ people}} thanked {{GENDER:$3|you}} for your comment in \"<strong>$2</strong>\".",
+	"apihelp-flowthank-description": "Send a public thank-you notification for a Flow comment.",
+	"apihelp-flowthank-param-postid": "The UUID of the post to thank for.",
+	"apihelp-flowthank-example-1": "Send thanks for the comment with <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-description": "Send a thank-you notification to an editor.",
+	"apihelp-thank-param-rev": "Revision ID to thank someone for.",
+	"apihelp-thank-param-source": "A short string describing the source of the request, for example <kbd>diff</kbd> or <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Send thanks for revision <kbd>ID 456</kbd>, with the source being a diff page"
 }
