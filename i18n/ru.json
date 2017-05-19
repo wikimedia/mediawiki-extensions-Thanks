@@ -10,8 +10,7 @@
 			"Sagan",
 			"Putnik",
 			"Macofe",
-			"Mailman",
-			"Facenapalm"
+			"Mailman"
 		]
 	},
 	"thanks-desc": "Добавляет ссылки для благодарности участников за правки, комментарии и т.д.",
@@ -23,7 +22,6 @@
 	"thanks-error-invalidrevision": "Некорректный номер версии.",
 	"thanks-error-revdeleted": "Версия была удалена",
 	"thanks-error-notitle": "Заголовок страницы не может быть получен",
-	"thanks-error-invalidrecipient": "Не найдено корректного получателя",
 	"thanks-error-invalidrecipient-bot": "Нельзя поблагодарить ботов",
 	"thanks-error-invalidrecipient-self": "Вы не можете поблагодарить сами себя",
 	"thanks-error-echonotinstalled": "Расширение Echo не установлено в этой вики",
@@ -58,11 +56,9 @@
 	"notification-header-flow-thank": "$1 поблагодарил{{GENDER:$2||а}} {{GENDER:$5|вас}} за комментарий в теме <storng>$3</stong>.",
 	"notification-compact-header-flow-thank": "$1 поблагодарил{{GENDER:$2||а}} {{GENDER:$3|вас}}.",
 	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Один участник|$1 участника|100=99+ участников}} поблагодарили {{GENDER:$3|вас}} за ваш комментарий в \"<strong>$2</strong>\".",
-	"apihelp-flowthank-description": "Отправка публичной благодарности за комментарий Flow.",
 	"apihelp-flowthank-param-postid": "UUID сообщения, за который необходимо поблагодарить.",
 	"apihelp-flowthank-example-1": "Отправить благодарность за комментарий с <kbd>UUID xyz789</kbd>",
-	"apihelp-thank-description": "Отправка редактору уведомления о благодарности.",
+	"apihelp-thank-description": "Отправить редактору уведомление о благодарности.",
 	"apihelp-thank-param-rev": "ID версии, за которую требуется поблагодарить автора.",
-	"apihelp-thank-param-source": "Короткая строка, описывающая источник запроса, например, <kbd>diff</kbd> или <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "Отправить благодарность за версию с <kbd>ID 456</kbd>, в качестве источника указав страницу различий между версиями."
 }
