@@ -39,7 +39,7 @@
 	"thanks-form-revid": "Идентификатор правки для редактирования",
 	"echo-pref-subscription-edit-thank": "Спасибо мне за мою правку",
 	"echo-pref-tooltip-edit-thank": "Сообщать мне, когда кто-то благодарит меня за сделанную мной правку.",
-	"echo-category-title-edit-thank": "благодарность",
+	"echo-category-title-edit-thank": "Благодарность",
 	"notification-thanks-diff-link": "вашу правку",
 	"notification-header-edit-thank": "$1 {{GENDER:$2|поблагодарил|поблагодарила}} {{GENDER:$4|вас}} за вашу правку на странице <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 поблагодарил{{GENDER:$2||а}} {{GENDER:$3|вас}}.",
