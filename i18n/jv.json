@@ -9,7 +9,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|wis matur nuwun}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Matur nuwun}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Wis matur nuwun}}}}",
-	"thanks-error-undefined": "Wurung matur nuwun (kodhe cacad: $1). Mangga jajal manèh.",
+	"thanks-error-undefined": "Tumindak atur panuwun wurung (kodhe masalah: $1). Mangga jajalen manèh.",
 	"thanks-error-invalidrevision": "ID révisian ora sah.",
 	"thanks-error-revdeleted": "Révisian wis dibusak",
 	"thanks-error-notitle": "Sesirah kaca ora bisa dijupuk",
