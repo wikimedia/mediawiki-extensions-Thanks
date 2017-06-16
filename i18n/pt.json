@@ -62,9 +62,11 @@
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|agradeceu}}{{GENDER:$3|-lhe}}.",
 	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Uma pessoa agradeceu-lhe|$1 pessoas agradeceram-lhe|100=Mais de 99 pessoas agradeceram-lhe}} pelo {{GENDER:$3|seu}} comentário em \"<strong>$2</strong>\".",
 	"apihelp-flowthank-description": "Enviar notificação de agradecimento público por um comentário no Flow.",
+	"apihelp-flowthank-summary": "Enviar notificação de agradecimento público por um comentário no Flow.",
 	"apihelp-flowthank-param-postid": "O UUID da mensagem a agradecer.",
 	"apihelp-flowthank-example-1": "Agradeça o comentário com o <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Enviar uma notificação de agradecimento a um editor.",
+	"apihelp-thank-summary": "Enviar uma notificação de agradecimento a um editor.",
 	"apihelp-thank-param-rev": "Identificador da revisão a agradecer a alguém.",
 	"apihelp-thank-param-source": "Um texto breve que descreve a origem do pedido. Por exemplo, <kbd>diff</kbd> ou <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "Enviar um agradecimento pela revisão <kbd>ID 456</kbd>, com uma página de diferenças como fonte"
