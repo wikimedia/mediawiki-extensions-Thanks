@@ -5,171 +5,170 @@
  * @file
  * @ingroup Extensions
  */
-// @codingStandardsIgnoreFile
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English (English) */
-$specialPageAliases['en'] = array(
-	'Thanks' => array( 'Thanks' ),
-);
+$specialPageAliases['en'] = [
+	'Thanks' => [ 'Thanks' ],
+];
 
 /** Afrikaans (Afrikaans) */
-$specialPageAliases['af'] = array(
-	'Thanks' => array( 'Dankie' ),
-);
+$specialPageAliases['af'] = [
+	'Thanks' => [ 'Dankie' ],
+];
 
 /** Arabic (العربية) */
-$specialPageAliases['ar'] = array(
-	'Thanks' => array( 'شكرا' ),
-);
+$specialPageAliases['ar'] = [
+	'Thanks' => [ 'شكرا' ],
+];
 
 /** Egyptian Arabic (مصرى) */
-$specialPageAliases['arz'] = array(
-	'Thanks' => array( 'شكرا' ),
-);
+$specialPageAliases['arz'] = [
+	'Thanks' => [ 'شكرا' ],
+];
 
 /** Western Balochi (بلوچی رخشانی) */
-$specialPageAliases['bgn'] = array(
-	'Thanks' => array( 'سپاس', 'منتوارن', 'تشکر' ),
-);
+$specialPageAliases['bgn'] = [
+	'Thanks' => [ 'سپاس', 'منتوارن', 'تشکر' ],
+];
 
 /** German (Deutsch) */
-$specialPageAliases['de'] = array(
-	'Thanks' => array( 'Danke' ),
-);
+$specialPageAliases['de'] = [
+	'Thanks' => [ 'Danke' ],
+];
 
 /** Zazaki (Zazaki) */
-$specialPageAliases['diq'] = array(
-	'Thanks' => array( 'Teşekuri' ),
-);
+$specialPageAliases['diq'] = [
+	'Thanks' => [ 'Teşekuri' ],
+];
 
 /** Spanish (español) */
-$specialPageAliases['es'] = array(
-	'Thanks' => array( 'Gracias' ),
-);
+$specialPageAliases['es'] = [
+	'Thanks' => [ 'Gracias' ],
+];
 
 /** Estonian (eesti) */
-$specialPageAliases['et'] = array(
-	'Thanks' => array( 'Tänu' ),
-);
+$specialPageAliases['et'] = [
+	'Thanks' => [ 'Tänu' ],
+];
 
 /** Persian (فارسی) */
-$specialPageAliases['fa'] = array(
-	'Thanks' => array( 'تشکر' ),
-);
+$specialPageAliases['fa'] = [
+	'Thanks' => [ 'تشکر' ],
+];
 
 /** Hebrew (עברית) */
-$specialPageAliases['he'] = array(
-	'Thanks' => array( 'תודה', 'תודות' ),
-);
+$specialPageAliases['he'] = [
+	'Thanks' => [ 'תודה', 'תודות' ],
+];
 
 /** Hindi (हिन्दी) */
-$specialPageAliases['hi'] = array(
-	'Thanks' => array( 'धन्यवाद' ),
-);
+$specialPageAliases['hi'] = [
+	'Thanks' => [ 'धन्यवाद' ],
+];
 
 /** Croatian (hrvatski) */
-$specialPageAliases['hr'] = array(
-	'Thanks' => array( 'Zahvale' ),
-);
+$specialPageAliases['hr'] = [
+	'Thanks' => [ 'Zahvale' ],
+];
 
 /** Upper Sorbian (hornjoserbsce) */
-$specialPageAliases['hsb'] = array(
-	'Thanks' => array( 'Dźak' ),
-);
+$specialPageAliases['hsb'] = [
+	'Thanks' => [ 'Dźak' ],
+];
 
 /** Italian (italiano) */
-$specialPageAliases['it'] = array(
-	'Thanks' => array( 'Ringrazia' ),
-);
+$specialPageAliases['it'] = [
+	'Thanks' => [ 'Ringrazia' ],
+];
 
 /** Georgian (ქართული) */
-$specialPageAliases['ka'] = array(
-	'Thanks' => array( 'მადლობა' ),
-);
+$specialPageAliases['ka'] = [
+	'Thanks' => [ 'მადლობა' ],
+];
 
 /** Korean (한국어) */
-$specialPageAliases['ko'] = array(
-	'Thanks' => array( '감사' ),
-);
+$specialPageAliases['ko'] = [
+	'Thanks' => [ '감사' ],
+];
 
 /** Luxembourgish (Lëtzebuergesch) */
-$specialPageAliases['lb'] = array(
-	'Thanks' => array( 'Merci' ),
-);
+$specialPageAliases['lb'] = [
+	'Thanks' => [ 'Merci' ],
+];
 
 /** Literary Chinese (文言) */
-$specialPageAliases['lzh'] = array(
-	'Thanks' => array( '謝' ),
-);
+$specialPageAliases['lzh'] = [
+	'Thanks' => [ '謝' ],
+];
 
 /** Macedonian (македонски) */
-$specialPageAliases['mk'] = array(
-	'Thanks' => array( 'Благодарења' ),
-);
+$specialPageAliases['mk'] = [
+	'Thanks' => [ 'Благодарења' ],
+];
 
 /** Malayalam (മലയാളം) */
-$specialPageAliases['ml'] = array(
-	'Thanks' => array( 'കൃത്ജ്ഞതകൾ' ),
-);
+$specialPageAliases['ml'] = [
+	'Thanks' => [ 'കൃത്ജ്ഞതകൾ' ],
+];
 
 /** Marathi (मराठी) */
-$specialPageAliases['mr'] = array(
-	'Thanks' => array( 'धन्यवाद' ),
-);
+$specialPageAliases['mr'] = [
+	'Thanks' => [ 'धन्यवाद' ],
+];
 
 /** Malay (Bahasa Melayu) */
-$specialPageAliases['ms'] = array(
-	'Thanks' => array( 'Berterima_kasih' ),
-);
+$specialPageAliases['ms'] = [
+	'Thanks' => [ 'Berterima_kasih' ],
+];
 
 /** Norwegian Bokmål (norsk bokmål) */
-$specialPageAliases['nb'] = array(
-	'Thanks' => array( 'Takk' ),
-);
+$specialPageAliases['nb'] = [
+	'Thanks' => [ 'Takk' ],
+];
 
 /** Dutch (Nederlands) */
-$specialPageAliases['nl'] = array(
-	'Thanks' => array( 'Bedanken' ),
-);
+$specialPageAliases['nl'] = [
+	'Thanks' => [ 'Bedanken' ],
+];
 
 /** Portuguese (português) */
-$specialPageAliases['pt'] = array(
-	'Thanks' => array( 'Agradecer' ),
-);
+$specialPageAliases['pt'] = [
+	'Thanks' => [ 'Agradecer' ],
+];
 
 /** Quechua (Runa Simi) */
-$specialPageAliases['qu'] = array(
-	'Thanks' => array( 'Uspalay' ),
-);
+$specialPageAliases['qu'] = [
+	'Thanks' => [ 'Uspalay' ],
+];
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎) */
-$specialPageAliases['sr-ec'] = array(
-	'Thanks' => array( 'Хвала' ),
-);
+$specialPageAliases['sr-ec'] = [
+	'Thanks' => [ 'Хвала' ],
+];
 
 /** Swedish (svenska) */
-$specialPageAliases['sv'] = array(
-	'Thanks' => array( 'Tack' ),
-);
+$specialPageAliases['sv'] = [
+	'Thanks' => [ 'Tack' ],
+];
 
 /** Vietnamese (Tiếng Việt) */
-$specialPageAliases['vi'] = array(
-	'Thanks' => array( 'Cảm_ơn', 'Cám_ơn' ),
-);
+$specialPageAliases['vi'] = [
+	'Thanks' => [ 'Cảm_ơn', 'Cám_ơn' ],
+];
 
 /** Chinese (中文) */
-$specialPageAliases['zh'] = array(
-	'Thanks' => array( '感谢', '感謝' ),
-);
+$specialPageAliases['zh'] = [
+	'Thanks' => [ '感谢', '感謝' ],
+];
 
 /** Simplified Chinese (中文（简体）‎) */
-$specialPageAliases['zh-hans'] = array(
-	'Thanks' => array( '感谢' ),
-);
+$specialPageAliases['zh-hans'] = [
+	'Thanks' => [ '感谢' ],
+];
 
 /** Traditional Chinese (中文（繁體）‎) */
-$specialPageAliases['zh-hant'] = array(
-	'Thanks' => array( '感謝' ),
-);
+$specialPageAliases['zh-hant'] = [
+	'Thanks' => [ '感謝' ],
+];
