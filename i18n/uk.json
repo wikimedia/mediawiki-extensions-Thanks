@@ -58,9 +58,11 @@
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|подякував|подякувала}} {{GENDER:$3|Вам}}.",
 	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Одна людина подякувала|$1 людей подякувало|100=99+ людей подякували}} {{GENDER:$3|Вам}} за коментар на «<strong>$2</strong>».",
 	"apihelp-flowthank-description": "Надіслати публічне сповіщення про подяку за коментар Flow.",
+	"apihelp-flowthank-summary": "Надіслати публічне сповіщення про подяку за коментар Flow.",
 	"apihelp-flowthank-param-postid": "UUID допису, за який дякувати.",
 	"apihelp-flowthank-example-1": "Надіслати подяку за коментар з <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Надіслати редактору сповіщення про подяку.",
+	"apihelp-thank-summary": "Надіслати редактору сповіщення про подяку.",
 	"apihelp-thank-param-rev": "ID версії, за яку комусь подякувати.",
 	"apihelp-thank-param-source": "Короткий рядок опису джерела запиту, наприклад, <kbd>diff</kbd> або <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "Надіслати подяку за версію <kbd>ID 456</kbd> зі сторінкою дифу як джерело"
