@@ -134,9 +134,16 @@ class ApiFlowThank extends ApiThank {
 	 * @throws FlowException
 	 * @throws MWException
 	 */
-	private function sendThanks( User $user, User $recipient, UUID $postId, UUID $workflowId,
-		$topicTitleText, Title $pageTitle, $postTextExcerpt, Title $topicTitle ) {
-
+	private function sendThanks(
+		User $user,
+		User $recipient,
+		UUID $postId,
+		UUID $workflowId,
+		$topicTitleText,
+		Title $pageTitle,
+		$postTextExcerpt,
+		Title $topicTitle
+	) {
 		$uniqueId = "flow-{$postId->getAlphadecimal()}";
 		// Do one last check to make sure we haven't sent Thanks before
 		if ( $this->haveAlreadyThanked( $user, $uniqueId ) ) {

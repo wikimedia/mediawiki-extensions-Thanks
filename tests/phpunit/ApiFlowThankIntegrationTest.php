@@ -62,7 +62,7 @@ class ApiFlowThankTest extends ApiTestCase {
 			->will( $this->returnCallback(
 				// Hard to work with class variables or callbacks,
 				// using anonymous function instead.
-				function( $postId ) use ( $that ) {
+				function ( $postId ) use ( $that ) {
 					switch ( $postId ) {
 						case $that->postByOtherUser->getPostId():
 							return [

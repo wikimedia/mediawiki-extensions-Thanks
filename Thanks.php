@@ -36,6 +36,3 @@ if ( function_exists( 'wfLoadExtension' ) ) {
 } else {
 	die( 'This version of the Thanks extension requires MediaWiki 1.25+' );
 }
-
-
-
