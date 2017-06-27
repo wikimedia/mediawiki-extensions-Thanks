@@ -59,6 +59,9 @@
 		"ext.thanks": {
 			"scripts": [
 				"ext.thanks.thank.js"
+			],
+			"dependencies": [
+				"mediawiki.api"
 			]
 		},
 		"ext.thanks.revthank": {
@@ -99,7 +102,7 @@
 			],
 			"dependencies": [
 				"mediawiki.api",
-				"mediawiki.notification"
+				"mediawiki.notify"
 			],
 			"targets": [
 				"desktop",
