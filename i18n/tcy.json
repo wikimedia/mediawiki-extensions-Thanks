@@ -4,13 +4,14 @@
 			"VASANTH S.N.",
 			"రహ్మానుద్దీన్",
 			"Vishwanatha Badikana",
-			"BHARATHESHA ALASANDEMAJALU"
+			"BHARATHESHA ALASANDEMAJALU",
+			"Kiranpoojary"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ಸೊಲ್ಮೆಲು}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|ಸೊಲ್ಮೆಲು}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|ಸೊಲ್ಮೆಲು}}}}",
-	"thanks-thank-tooltip": "ಈ ವಿಸಯೋಗಾತ್ {{GENDER:$2|ಬಳಕೆದಾರೆರ್}}ಗೊಂಜಿ ಸೊಲ್ಮೆಲೇನ್ {{GENDER:$1|ಕಡಪುಡ್ಲೆ}}",
+	"thanks-thank-tooltip": "ಈ {{GENDER:$2|ಸದಸ್ಯೆರ್‌ಗ್}} ಒಂಜಿ ಸೊಲ್ಮೆ ಸಂದಾಯಿನ ಸೂಚನೆನ್ {{GENDER:$1|ಕಡಪುಡ್ಲೆ}}",
 	"thanks": "ಸೊಲ್ಮೆ ಸಂದಲೇ",
 	"thanks-submit": "ಸೊಲ್ಮೆ ಸಂದಲೇ",
 	"echo-pref-subscription-edit-thank": "ಎನ್ನ ಬೇಲೆಗ್ ಸೊಲ್ಮೆಲೋ",
