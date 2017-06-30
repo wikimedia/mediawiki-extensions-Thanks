@@ -4,16 +4,16 @@
 	 *
 	 * @param {string} name The username of the user who made the edit
 	 * @param {string} revision The revision the user created
-	 * @param {string} gender The gender of the user who made the edit
+	 * @param {string} recipientGender The gender of the user who made the edit
 	 */
-	function thankUser( name, revision, gender ) {
+	function thankUser( name, revision, recipientGender ) {
 		var d = $.Deferred();
 		( new mw.Api() ).postWithToken( 'csrf', {
 			action: 'thank',
 			rev: revision,
 			source: 'mobilediff'
 		} ).done( function () {
-			mw.notify( mw.msg( 'thanks-thanked-notice', name, gender ) );
+			mw.notify( mw.msg( 'thanks-thanked-notice', name, recipientGender, mw.user ) );
 			d.resolve();
 		} )
 		.fail( function ( errorCode ) {
@@ -22,7 +22,7 @@
 					popup.show( mw.msg( 'thanks-error-invalidrevision' ) );
 					break;
 				case 'ratelimited':
-					popup.show( mw.msg( 'thanks-error-ratelimited', gender ) );
+					popup.show( mw.msg( 'thanks-error-ratelimited', recipientGender ) );
 					break;
 				default:
 					popup.show( mw.msg( 'thanks-error-undefined', errorCode ) );

@@ -158,6 +158,7 @@ class SpecialThanks extends FormSpecialPage {
 	 * Display a message to the user.
 	 */
 	public function onSuccess() {
+		$sender = $this->getUser();
 		$recipient = User::newFromName( $this->result['recipient'] );
 		$link = Linker::userLink( $recipient->getId(), $recipient->getName() );
 
@@ -169,7 +170,7 @@ class SpecialThanks extends FormSpecialPage {
 
 		$this->getOutput()->addHTML( $this->msg( $msgKey )
 			->rawParams( $link )
-			->params( $recipient->getName() )->parse()
+			->params( $recipient->getName(), $sender->getName() )->parse()
 		);
 	}
 
