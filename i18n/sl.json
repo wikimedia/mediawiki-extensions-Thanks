@@ -18,7 +18,7 @@
 	"thanks-error-ratelimited": "{{GENDER:$1|Presegli}} ste omejitev hitrosti. Prosimo, počakajte nekaj časa in nato poskusite znova.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Pošljite}} {{GENDER:$2|temu uporabniku|tej uporabnici}} zahvalo",
 	"thanks-confirmation2": "{{GENDER:$1|Želiš}} uporabniku poslati javno zahvalo za urejanje?",
-	"thanks-thanked-notice": "$1 je {{GENDER:$2|prejel|prejela}} vašo zahvalo za {{GENDER:$2|njegovo|njeno}} urejanje.",
+	"thanks-thanked-notice": "{{GENDER:$3|Zahvalili}} ste se $1 za {{GENDER:$2|njegovo|njeno}} urejanje.",
 	"thanks": "Pošljite zahvalo",
 	"thanks-form-revid": "ID redakcije za urejanje",
 	"echo-pref-subscription-edit-thank": "Se mi zahvali za urejanje",
@@ -35,6 +35,6 @@
 	"notification-link-text-view-post": "Ogled pripombe",
 	"thanks-error-invalidpostid": "ID objave ni veljaven.",
 	"flow-thanks-confirmation-special": "Se želite javno zahvaliti za to pripombo?",
-	"flow-thanks-thanked-notice": "$1 je {{GENDER:$2|prejel|prejela}} vašo zahvalo za {{GENDER:$2|njegovo|njeno}} pripombo.",
+	"flow-thanks-thanked-notice": "{{GENDER:$3|Zahvalili}} ste se $1 za {{GENDER:$2|njegovo|njeno}} pripombo.",
 	"notification-flow-thanks-post-link": "tvojo pripombo"
 }
