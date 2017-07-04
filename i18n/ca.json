@@ -7,7 +7,8 @@
 			"KRLS",
 			"Paucabot",
 			"Macofe",
-			"F3RaN"
+			"F3RaN",
+			"Ssola"
 		]
 	},
 	"thanks-desc": "Afegeix enllaços per agrair els editors per les seves edicions, comentaris, etc.",
@@ -54,10 +55,12 @@
 	"notification-header-flow-thank": "$1 {{GENDER:$5|us}} {{GENDER:$2|agraeix}} el comentari a «<strong>$3</strong>».",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|us}} {{GENDER:$2|ha agraït}}.",
 	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Una persona|$1 persones|100=Més de 100 persones}} {{GENDER:$3|us}} {{PLURAL:$1|ha|han}} agraït el comentari a «<strong>$2</strong>».",
-	"apihelp-flowthank-description": "Envia una notificació pública d'agraïment per un comentari de Flow",
+	"apihelp-flowthank-description": "Envia una notificació pública d'agraïment per un comentari de Flow.",
+	"apihelp-flowthank-summary": "Envia una notificació pública d'agraïment per un comentari de Flow.",
 	"apihelp-flowthank-param-postid": "La UUID de l'apunt a agrair.",
 	"apihelp-flowthank-example-1": "Enviar un agraïment pel comentari amb <kbd>UUID xyz789</kbd>",
-	"apihelp-thank-description": "Envieu una notificació d'agraïment a un editor.",
+	"apihelp-thank-description": "Envia una notificació d'agraïment a un editor.",
+	"apihelp-thank-summary": "Envia una notificació d'agraïment a un editor.",
 	"apihelp-thank-param-rev": "Revisió ID per agrair a algú.",
 	"apihelp-thank-param-source": "Un breu comentari que descrigui l'origen de la petició, per exemple <kbd>diff</kbd> o <kbd>historial</kbd>.",
 	"apihelp-thank-example-1": "Doneu les gràcies per la revisió <kbd>ID 456</kbd>, i que la font sigui un diff de la pàgina"
