@@ -40,10 +40,10 @@
 	"log-show-hide-thanks": "$1 log atur panuwun",
 	"thanks-error-no-id-specified": "Panjenengan kudu nemtokaké ID révisian saperlu ngirim atur panuwun.",
 	"thanks-confirmation-special": "Arep ngirim atur panuwun tinarbuka tumrap besutan iki?",
-	"notification-link-text-view-post": "Deleng tanggapan",
+	"notification-link-text-view-post": "Deleng tanggepan",
 	"thanks-error-invalidpostid": "ID kiriman ora sah.",
-	"flow-thanks-confirmation-special": "Arep ngirim atur panuwun tinarbuka tumrap tanggapan iki?",
-	"flow-thanks-thanked-notice": "$1 nampa atur panuwunmu marang tanggapan{{GENDER:$2|é}}.",
+	"flow-thanks-confirmation-special": "Arep ngirim atur panuwun tinarbuka tumrap tanggepan iki?",
+	"flow-thanks-thanked-notice": "{{GENDER:$3|Panjenengan}} matur nuwun marang $1 awit tanggepan{{GENDER:$2|é}}.",
 	"notification-flow-thanks-post-link": "tanggapané panjenengan",
-	"apihelp-flowthank-description": "Kirim pariwara atur panuwun tinarbuka tumrap tanggapan Flow."
+	"apihelp-flowthank-description": "Kirim pariwara atur panuwun tinarbuka tumrap tanggepan Flow."
 }
