@@ -17,6 +17,7 @@
 	"thanks-error-echonotinstalled": "Echo ass op dëser Wiki net installéiert",
 	"thanks-thank-tooltip": "{{GENDER:$2|Dësem Benotzer|Dëser Benotzerin}} ee \"Merci\" {{GENDER:$1|schécken}}",
 	"thanks-confirmation2": "Merci fir dës Ännerung ëffentlech {{GENDER:$1|schécken}}?",
+	"thanks-thanked-notice": "{{GENDER:$3|Dir}} hutt dem $1 fir {{GENDER:$2|seng|seng|hier}} Ännerung Merci gesot.",
 	"thanks": "Merci soen",
 	"thanks-submit": "Merci soen",
 	"echo-pref-subscription-edit-thank": "'Mercie' fir meng Ännerung",

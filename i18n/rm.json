@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kazu89"
+			"Kazu89",
+			"Terfili"
 		]
 	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|engraziar}}}}",
 	"log-name-thanks": "Protocol d'engraziaments",
 	"log-show-hide-thanks": "$1 il protocol d'engraziaments"
 }
