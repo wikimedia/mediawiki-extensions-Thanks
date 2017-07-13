@@ -30,7 +30,7 @@
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Cancelar}} la notificación de agradecimiento",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Enviar}} la notificación de agradecimiento",
 	"thanks-confirmation2": "¿{{GENDER:$1|Agradecer}} públicamente esta edición?",
-	"thanks-thanked-notice": "$1 recibió tu agradecimiento por {{GENDER:$2|su}} edición.",
+	"thanks-thanked-notice": "{{GENDER:$3|Agradeciste}} a $1 por {{GENDER:$2|su}} edición.",
 	"thanks": "Enviar agradecimiento",
 	"thanks-submit": "Enviar agradecimiento",
 	"thanks-form-revid": "Identificador de la revisión",
