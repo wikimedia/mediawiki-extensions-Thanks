@@ -50,7 +50,7 @@
 	"notification-link-text-view-post": "Ver comentario",
 	"thanks-error-invalidpostid": "El identificador de publicación no es válido.",
 	"flow-thanks-confirmation-special": "¿Deseas agradecer públicamente este comentario?",
-	"flow-thanks-thanked-notice": "$1 recibió tu agradecimiento por {{GENDER:$2|su}} comentario.",
+	"flow-thanks-thanked-notice": "{{GENDER:$3|Agradeciste}} a $1 por {{GENDER:$2|su}} comentario.",
 	"notification-flow-thanks-post-link": "tu comentario",
 	"notification-header-flow-thank": "$1 {{GENDER:$5|te}} {{GENDER:$2|agradeció}} por tu comentario en \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|te}} {{GENDER:$2|agradeció}}.",

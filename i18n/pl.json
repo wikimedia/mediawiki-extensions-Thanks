@@ -23,7 +23,7 @@
 	"thanks-error-invalidrecipient-bot": "Botom nie można dziękować",
 	"thanks-error-invalidrecipient-self": "Nie możesz sobie podziękować",
 	"thanks-error-notloggedin": "Niezarejestrowani użytkownicy nie mogą wysyłać podziękowań",
-	"thanks-error-ratelimited": "{{GENDER:$1|Przekroczyłeś|Przekroczyłaś}} limit podziękowań. Poczekaj chwilę i spróbuj ponownie.",
+	"thanks-error-ratelimited": "{{GENDER:$1|Przekroczyłeś|Przekroczyłaś}} limit podziękowań. Poczekaj jakiś czas i spróbuj ponownie.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Wyślij}} podziękowanie do {{GENDER:$2|tego użytkownika|tej użytkowniczki}}",
 	"thanks-thank-tooltip-no": "Nie {{GENDER:$1|wysyłaj}} podziękowania",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Wyślij}} podziękowanie",
