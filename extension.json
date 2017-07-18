@@ -102,6 +102,7 @@
 			],
 			"dependencies": [
 				"mediawiki.api",
+				"mediawiki.jqueryMsg",
 				"mediawiki.notify"
 			],
 			"targets": [
