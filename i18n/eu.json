@@ -4,7 +4,8 @@
 			"Xabier Armendaritz",
 			"Subi",
 			"Sator",
-			"Macofe"
+			"Macofe",
+			"Mikel Ibaiba"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|eskertu}}}}",
@@ -21,15 +22,13 @@
 	"echo-pref-tooltip-edit-thank": "Abisatu norbaitek egin dudan aldaketa bat eskertzen duenean.",
 	"echo-category-title-edit-thank": "Eskerrak",
 	"notification-thanks-diff-link": "edizioa",
-	"notification-thanks": "[[User:$1|$1]] {{GENDER:$1|wikilariak}} «[[:$3]]» orrian egin duzun $2 eskertu dizu.",
 	"notification-header-edit-thank": "$1 lankideak '''$3''' orrian egin {{GENDER:$4|duzun}} aldaketa {{GENDER:$2|eskertzen}} dizu.",
-	"notification-thanks-email-subject": "{{SITENAME}} gunean egin duzun edizioa eskertu dizu $1 {{GENDER:$1|wikilariak}}",
-	"notification-thanks-email-batch-body": "«$2» orrian egin duzun edizioa eskertu dizu $1 {{GENDER:$1|wikilariak}}.",
 	"log-name-thanks": "Eskertza erregistroa",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|wikilariak}} eskerrak eman dizkio {{GENDER:$4|$3}} wikilariari",
 	"log-show-hide-thanks": "$1 eskertza erregistroa",
 	"thanks-confirmation-special": "Edizio hau eskertu nahi duzu?",
 	"notification-link-text-view-post": "Erakutsi iruzkina",
 	"flow-thanks-confirmation-special": "Iruzkin hau eskertu nahi duzu?",
+	"flow-thanks-thanked-notice": "{{GENEROA:$3|Zu}} eskerrak $1 {{GENEROA:$2|mutilarena|neskarena|haiena}}agatik oharra.",
 	"notification-flow-thanks-post-link": "Zure iruzkina"
 }
