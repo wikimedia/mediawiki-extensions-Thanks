@@ -328,7 +328,7 @@ class ThanksHooks {
 	 *
 	 * @param $event EchoEvent
 	 * @param $bundleString string Determines how the notification should be bundled
-	 * @return boolean True for success
+	 * @return bool True for success
 	 */
 	public static function onEchoGetBundleRules( $event, &$bundleString ) {
 		switch ( $event->getType() ) {
