@@ -16,7 +16,7 @@
 	"thanks-thank-tooltip-no": "{{GENDER:$1|אנולירן}} די דאנק־מודעה",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|שיקן}} די דאנק־מודעה",
 	"thanks-confirmation2": "{{GENDER:$1|שיקן}} אן עפנטלעכער ייש\"כ פאר דער רעדאקטירונג?",
-	"thanks-thanked-notice": "$1 האט באקומען אייער דאנק פאר {{GENDER:$2|זיין|איר|זייער}} רעדאקטירונג.",
+	"thanks-thanked-notice": "{{GENDER:$3|איר}} האט געדאנקט $1 פאר {{GENDER:$2|זיין|איר|זייער}} רעדאקטירונג.",
 	"thanks": "שיקן א דאנק",
 	"thanks-submit": "שיקן א דאנק",
 	"thanks-form-revid": "ווערסיע־אידענטיפיצירער פאר רעדאקטירונג",
@@ -32,7 +32,7 @@
 	"thanks-confirmation-special": "ווילט איר שיקן עפנטלעך א דאַנק פאר דער רעדאַקטירונג?",
 	"notification-link-text-view-post": "ווייזן הערה",
 	"flow-thanks-confirmation-special": "צי ווילט איר שיקן עפנטלעך א דאַנק פאר דער הערה?",
-	"flow-thanks-thanked-notice": "$1 האט באקומען אייער דאנק פאר {{GENDER:$2|זיין|איר|זייער}} הערה.",
+	"flow-thanks-thanked-notice": "{{GENDER:$3|איר}} האט געדאנקט $1 פאר {{GENDER:$2|זיין|איר|זייער}} הערה.",
 	"notification-flow-thanks-post-link": "אייער הערה",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|האט}} {{GENDER:$5|אייך}} געדאַנקט פֿאר אייער הערה אין <strong>$3</strong>.",
 	"apihelp-thank-description": "שיקן א ייש״כ־מודעה צו א רעדאקטאר."
