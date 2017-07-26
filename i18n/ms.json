@@ -5,7 +5,8 @@
 			"Aurora",
 			"Aviator",
 			"Pizza1016",
-			"Kurniasan"
+			"Kurniasan",
+			"Jeluang Terluang"
 		]
 	},
 	"thanks-desc": "Menambah pautan yang membolehkan pengguna mengirim ucapan terima kasih atas suntingan, ulasan, dan sebagainya.",
@@ -25,11 +26,8 @@
 	"echo-pref-tooltip-edit-thank": "Beritahu saya apabila seseorang berterima kasih kepada saya atas suntingan saya.",
 	"echo-category-title-edit-thank": "Terima kasih",
 	"notification-thanks-diff-link": "suntingan anda",
-	"notification-thanks": "[[User:$1|$1]] telah {{GENDER:$1|berterima kasih}} kepada anda atas $2 di [[:$3]].",
-	"notification-thanks-email-subject": "$1 mengucapkan terima kasih kepada anda atas suntingan anda di {{SITENAME}}",
-	"notification-thanks-email-batch-body": "$1 telah {{GENDER:$1|berterima kasih}} kepada anda atas suntingan anda di $2.",
 	"log-name-thanks": "Log ucapan terima kasih",
-	"log-description-thanks": "Yang berikut adalah senarai pengguna yang menerima ucapan terima kasih daripada pengguna lain.",
+	"log-description-thanks": "Yang berikut ialah senarai pengguna yang menerima ucapan terima kasih daripada pengguna lain.",
 	"logentry-thanks-thank": "$1 ucap terima kasih kepada $3",
 	"log-show-hide-thanks": "$1 log ucapan terima kasih",
 	"thanks-error-no-id-specified": "Anda hendaklah menyatakan ID semakan untuk mengirim ucapan terima kasih.",
@@ -38,8 +36,5 @@
 	"thanks-error-invalidpostid": "ID kiriam tak sah.",
 	"flow-thanks-confirmation-special": "Adakah anda mahu mengirim ucapan terima kasih atas ulasan ini?",
 	"flow-thanks-thanked-notice": "$1 telah diberitahu bahawa anda menyukai ulasan beliau.",
-	"notification-flow-thanks": "[[User:$1|$1]] mengucapkan terima kasih kepada anda atas $2 pada \"$3\" dalam [[:$4]].",
-	"notification-flow-thanks-post-link": "ulasan anda",
-	"notification-flow-thanks-email-subject": "$1 mengucapkan terima kasih kepada anda atas ulasan anda di {{SITENAME}}",
-	"notification-flow-thanks-email-batch-body": "$1 mengucapkan terima kasih kepada anda atas ulasan anda pada \"$2\" dalam $3."
+	"notification-flow-thanks-post-link": "ulasan anda"
 }
