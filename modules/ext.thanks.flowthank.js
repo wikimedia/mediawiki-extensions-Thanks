@@ -38,33 +38,33 @@
 			action: 'flowthank',
 			postid: $thankLink.closest( '.flow-post' ).attr( mw.thanks.thanked.attrName )
 		} )
-		.then(
-			// Success
-			function ( data ) {
-				var author = findPostAuthorFromThankLink( $thankLink );
-				// Get the user who was thanked (for gender purposes)
-				return mw.thanks.getUserGender( author );
-			},
-			// Failure
-			function ( errorCode, details ) {
-				switch ( errorCode ) {
-					case 'ratelimited':
-						OO.ui.alert( mw.msg( 'thanks-error-ratelimited', mw.user ) );
-						break;
-					default:
-						OO.ui.alert( mw.msg( 'thanks-error-undefined', errorCode ) );
+			.then(
+				// Success
+				function () {
+					var author = findPostAuthorFromThankLink( $thankLink );
+					// Get the user who was thanked (for gender purposes)
+					return mw.thanks.getUserGender( author );
+				},
+				// Failure
+				function ( errorCode ) {
+					switch ( errorCode ) {
+						case 'ratelimited':
+							OO.ui.alert( mw.msg( 'thanks-error-ratelimited', mw.user ) );
+							break;
+						default:
+							OO.ui.alert( mw.msg( 'thanks-error-undefined', errorCode ) );
+					}
 				}
-			}
-		)
-		.then( function ( recipientGender ) {
-			var $thankUserLabel = $thankedLabel.clone();
-			$thankUserLabel.append(
-				mw.msg( 'thanks-button-thanked', mw.user, recipientGender )
-			);
-			mw.thanks.thanked.push( $thankLink.closest( '.flow-post' ) );
-			$thankLink.before( $thankUserLabel );
-			$thankLink.remove();
-		} );
+			)
+			.then( function ( recipientGender ) {
+				var $thankUserLabel = $thankedLabel.clone();
+				$thankUserLabel.append(
+					mw.msg( 'thanks-button-thanked', mw.user, recipientGender )
+				);
+				mw.thanks.thanked.push( $thankLink.closest( '.flow-post' ) );
+				$thankLink.before( $thankUserLabel );
+				$thankLink.remove();
+			} );
 	}
 
 	if ( $.isReady ) {
@@ -82,4 +82,4 @@
 		sendFlowThanks( $thankLink );
 	} );
 
-} )( jQuery, mediaWiki, OO );
+}( jQuery, mediaWiki, OO ) );

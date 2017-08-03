@@ -1,10 +1,11 @@
 ( function ( mw, $ ) {
 	/**
-	 * Create a thank button for a given edit
+	 * Attempt to execute a thank operation for a given edit
 	 *
 	 * @param {string} name The username of the user who made the edit
 	 * @param {string} revision The revision the user created
 	 * @param {string} recipientGender The gender of the user who made the edit
+	 * @return {Promise} The thank operation's status.
 	 */
 	function thankUser( name, revision, recipientGender ) {
 		var d = $.Deferred();
@@ -16,19 +17,22 @@
 			mw.notify( mw.msg( 'thanks-thanked-notice', name, recipientGender, mw.user ) );
 			d.resolve();
 		} )
-		.fail( function ( errorCode ) {
-			switch ( errorCode ) {
-				case 'invalidrevision':
-					popup.show( mw.msg( 'thanks-error-invalidrevision' ) );
-					break;
-				case 'ratelimited':
-					popup.show( mw.msg( 'thanks-error-ratelimited', recipientGender ) );
-					break;
-				default:
-					popup.show( mw.msg( 'thanks-error-undefined', errorCode ) );
-			}
-			d.reject();
-		} );
+			.fail( function ( errorCode ) {
+				// FIXME: What is "popup" and where is it defined?
+				/* eslint-disable no-undef */
+				switch ( errorCode ) {
+					case 'invalidrevision':
+						popup.show( mw.msg( 'thanks-error-invalidrevision' ) );
+						break;
+					case 'ratelimited':
+						popup.show( mw.msg( 'thanks-error-ratelimited', recipientGender ) );
+						break;
+					default:
+						popup.show( mw.msg( 'thanks-error-undefined', errorCode ) );
+				}
+				/* eslint-enable no-undef */
+				d.reject();
+			} );
 		return d;
 	}
 
@@ -38,11 +42,13 @@
 	 * @param {string} name The username of the user who made the edit
 	 * @param {string} rev The revision the user created
 	 * @param {string} gender The gender of the user who made the edit
+	 * @return {html} The HTML of the button.
 	 */
 	function createThankLink( name, rev, gender ) {
 		var thankImg = mw.config.get( 'wgExtensionAssetsPath' ) + '/Thanks/WhiteSmiley.png',
 			thankImgTag = '<img width="25" height="20" src="' + thankImg + '" class="mw-mf-action-button-icon"/>',
 			$thankBtn;
+
 		// Don't make thank button for self
 		if ( name !== mw.config.get( 'wgUserName' ) ) {
 			// See if user has already been thanked for this edit
@@ -95,4 +101,4 @@
 	mw.thanks = $.extend( {}, mw.thanks || {}, {
 		_mobileDiffInit: init
 	} );
-} )( mediaWiki, jQuery );
+}( mediaWiki, jQuery ) );

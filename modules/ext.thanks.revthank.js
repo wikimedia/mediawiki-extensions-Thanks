@@ -28,41 +28,41 @@
 			source = 'diff';
 		}
 
-		( new mw.Api ).postWithToken( 'csrf', {
+		( new mw.Api() ).postWithToken( 'csrf', {
 			action: 'thank',
 			rev: $thankLink.attr( 'data-revision-id' ),
 			source: source
 		} )
-		.then(
-			// Success
-			function ( data ) {
-				var username = $thankLink.closest(
+			.then(
+				// Success
+				function () {
+					var username = $thankLink.closest(
 						source === 'history' ? 'li' : 'td'
 					).find( 'a.mw-userlink' ).text();
-				// Get the user who was thanked (for gender purposes)
-				return mw.thanks.getUserGender( username );
-			},
-			// Fail
-			function ( errorCode, details ) {
-				// If error occured, enable attempting to thank again
-				$thankLink.data( 'clickDisabled', false );
-				switch ( errorCode ) {
-					case 'invalidrevision':
-						OO.ui.alert( mw.msg( 'thanks-error-invalidrevision' ) );
-						break;
-					case 'ratelimited':
-						OO.ui.alert( mw.msg( 'thanks-error-ratelimited', mw.user ) );
-						break;
-					default:
-						OO.ui.alert( mw.msg( 'thanks-error-undefined', errorCode ) );
+					// Get the user who was thanked (for gender purposes)
+					return mw.thanks.getUserGender( username );
+				},
+				// Fail
+				function ( errorCode ) {
+					// If error occured, enable attempting to thank again
+					$thankLink.data( 'clickDisabled', false );
+					switch ( errorCode ) {
+						case 'invalidrevision':
+							OO.ui.alert( mw.msg( 'thanks-error-invalidrevision' ) );
+							break;
+						case 'ratelimited':
+							OO.ui.alert( mw.msg( 'thanks-error-ratelimited', mw.user ) );
+							break;
+						default:
+							OO.ui.alert( mw.msg( 'thanks-error-undefined', errorCode ) );
+					}
 				}
-			}
-		)
-		.then( function ( recipientGender ) {
-			$thankElement.before( mw.message( 'thanks-thanked', mw.user, recipientGender ).escaped() );
-			$thankElement.remove();
-			mw.thanks.thanked.push( $thankLink );
-		} );
+			)
+			.then( function ( recipientGender ) {
+				$thankElement.before( mw.message( 'thanks-thanked', mw.user, recipientGender ).escaped() );
+				$thankElement.remove();
+				mw.thanks.thanked.push( $thankLink );
+			} );
 	}
 
 	function addActionToLinks( $content ) {
@@ -103,4 +103,4 @@
 	mw.hook( 'wikipage.diff' ).add( function ( $content ) {
 		addActionToLinks( $content );
 	} );
-} )( jQuery, mediaWiki, OO );
+}( jQuery, mediaWiki, OO ) );

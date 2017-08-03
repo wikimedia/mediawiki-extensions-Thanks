@@ -1,4 +1,4 @@
-( function ( $ ) {
+( function ( $, mw ) {
 	QUnit.module( 'Thanks mobilediff' );
 
 	QUnit.test( 'render button for logged in users', 1, function ( assert ) {
@@ -7,8 +7,9 @@
 				.data( 'revision-id', 1 )
 				.data( 'user-gender', 'male' );
 
+		// eslint-disable-next-line no-underscore-dangle
 		mw.thanks._mobileDiffInit( $user, $container );
 		assert.strictEqual( $container.find( 'button' ).length, 1, 'Thanks button was created.' );
 	} );
 
-}( jQuery ) );
+}( jQuery, mediaWiki ) );
