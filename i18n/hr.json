@@ -10,7 +10,7 @@
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|zahvala}}}}",
-	"thanks-thanked": "{{GENDER:$1|zahvala je objavljena}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|je zahvalio.|je zahvalila.}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Pošalji zahvalu}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|Zahvala je objavljena|Zahvala je objavljena}}",
 	"thanks-error-invalidrecipient": "Nije pronađen vrijedeći primatelj",
