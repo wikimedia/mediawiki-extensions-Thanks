@@ -5,7 +5,8 @@
 			"Mormegil",
 			"Matěj Suchánek",
 			"Macofe",
-			"Dvorapa"
+			"Dvorapa",
+			"Tchoř"
 		]
 	},
 	"thanks-desc": "Přidává odkazy pro poděkování uživatelům za editace, komentáře apod.",
@@ -20,7 +21,7 @@
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Stornovat}} oznámení o poděkování",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Poslat}} oznámení o poděkování",
 	"thanks-confirmation2": "Veřejně {{GENDER:$1|poděkovat}} za tuto editaci?",
-	"thanks-thanked-notice": "{{GENDER:$2|Uživatel|Uživatelka|Uživatel(ka)}} $1 {{GENDER:$2|obdržel|obdržela|obdržel(a)}} {{GENDER:$3|vaše}} poděkování za {{GENDER:$2|jeho|její|jeho/její}} komentář.",
+	"thanks-thanked-notice": "{{GENDER:$2|Uživatel|Uživatelka|Uživatel(ka)}} $1 {{GENDER:$2|obdržel|obdržela|obdržel(a)}} {{GENDER:$3|vaše}} poděkování za svůj komentář.",
 	"thanks": "Poslat poděkování",
 	"thanks-submit": "Poslat poděkování",
 	"thanks-form-revid": "ID revize",
@@ -40,7 +41,7 @@
 	"notification-link-text-view-post": "Zobrazit komentář",
 	"thanks-error-invalidpostid": "ID komentáře není platné.",
 	"flow-thanks-confirmation-special": "Chcete veřejně poděkovat za tento komentář?",
-	"flow-thanks-thanked-notice": "{{GENDER:$2|Uživatel|Uživatelka|Uživatel(ka)}} $1 {{GENDER:$2|obdržel|obdržela|obdržel(a)}} {{GENDER:$3|vaše}} poděkování za {{GENDER:$2|jeho|její|jeho/její}} komentář.",
+	"flow-thanks-thanked-notice": "{{GENDER:$2|Uživatel|Uživatelka|Uživatel(ka)}} $1 {{GENDER:$2|obdržel|obdržela|obdržel(a)}} {{GENDER:$3|vaše}} poděkování za svůj komentář.",
 	"notification-flow-thanks-post-link": "váš komentář",
 	"notification-header-flow-thank": "$1 {{GENDER:$5|vám}} {{GENDER:$2|poděkoval|poděkovala}} za komentář k tématu „<strong>$3</strong>“.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|vám}} {{GENDER:$2|poděkoval|poděkovala}}.",
