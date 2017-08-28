@@ -60,9 +60,11 @@
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|شكر}}{{GENDER:$3|ك}}.",
 	"notification-bundle-header-flow-thank": "{{PLURAL:$1|شخص واحد|$1 شخص|100=99+ شخص}} {{GENDER:$3|شكرك}} على تعليقك في \"<strong>$2</strong>\".",
 	"apihelp-flowthank-description": "أرسل إخطار شكر علني لتعليق Flow.",
+	"apihelp-flowthank-summary": "أرسل إخطار شكر علني لتعليق Flow.",
 	"apihelp-flowthank-param-postid": "UUID الخاص بالرسالة للشكر عليها.",
 	"apihelp-flowthank-example-1": "أرسل شكرا للتعليق مع <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "أرسل إخطاراً بالشكر إلى محرر.",
+	"apihelp-thank-summary": "أرسل إخطار بالشكر لمحرر.",
 	"apihelp-thank-param-rev": "معرِّف المراجعة التي تشكر الشخص عليها.",
 	"apihelp-thank-param-source": "سلسلة حروف قصيرة تصف مصدر الطلب، على سبيل المثال  <kbd>diff</kbd> أو <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "أرسل الشكر للمراجعة <kbd>ID 456</kbd>، مع كون المصدر صفحة فرق"
