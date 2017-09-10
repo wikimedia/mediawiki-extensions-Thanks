@@ -48,7 +48,7 @@ class EchoFlowThanksPresentationModel extends Flow\FlowPresentationModel {
 			$title = $this->event->getTitle();
 		}
 		// Make a link to #flow-post-{postid}
-		$title->setFragment( '#flow-post-' . $this->event->getExtraParam( 'post-id' ) );
+		$title = $title->createFragmentTarget( 'flow-post-' . $this->event->getExtraParam( 'post-id' ) );
 
 		return [
 			'url' => $title->getFullURL(),
