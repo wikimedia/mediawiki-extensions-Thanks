@@ -7,7 +7,7 @@
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|مهرباني}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|مھرباني ڪيل}}}}",
-	"thanks-thank-tooltip": "{{GENDER:$1|موڪليو}} هن ڏانهن توهان جي مهرباني جو اطلاع {{GENDER:$2|يوزر}}",
+	"thanks-thank-tooltip": "هن {{GENDER:$2|واھپ}} ڏانهن توهان جي مهرباني جو اطلاع {{GENDER:$1|موڪليو}}",
 	"thanks-confirmation2": "ھن ترميم لاءِ عوامي مھربانيون {{GENDER:$1|موڪليو}}؟",
 	"thanks-submit": "مهربانيون موڪليو"
 }
