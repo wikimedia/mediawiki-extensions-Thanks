@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Sindhu",
-			"Mehtab ahmed"
+			"Mehtab ahmed",
+			"Indus Asia"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|مهرباني}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|مھرباني ڪيل}}}}",
-	"thanks-thank-tooltip": "هن {{GENDER:$2|واھپ}} ڏانهن توهان جي مهرباني جو اطلاع {{GENDER:$1|موڪليو}}",
+	"thanks-thank-tooltip": "هن {{GENDER:$2|واھپ (يوزر)}} ڏانهن توهان جي مهرباني جو اطلاع {{GENDER:$1|موڪليو}}",
 	"thanks-confirmation2": "ھن ترميم لاءِ عوامي مھربانيون {{GENDER:$1|موڪليو}}؟",
 	"thanks-submit": "مهربانيون موڪليو"
 }
