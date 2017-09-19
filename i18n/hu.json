@@ -49,9 +49,9 @@
 	"notification-header-flow-thank": "$1 {{GENDER:$2|megköszönte}} {{GENDER:$5|a hozzászólásodat}} a(z) '''$3''' szálban a(z) '''$4''' lapon.",
 	"apihelp-flowthank-description": "Nyilvános köszönet küldése egy Flow hozzászólásért.",
 	"apihelp-flowthank-param-postid": "A megköszönendő hozzászólás UUID-je.",
-	"apihelp-flowthank-example-1": "A <kbd>UUID xyz789<kbd>azonosítós komment megköszönése",
+	"apihelp-flowthank-example-1": "Az <kbd>xyz789<kbd> UUID-jű komment megköszönése",
 	"apihelp-thank-description": "Köszönet küldése egy szerkesztőnek.",
 	"apihelp-thank-param-rev": "A megköszönendő lapváltozat ID.",
 	"apihelp-thank-param-source": "A forrás rövid megnevezése, pl. <kbd>diff</kbd> vagy <kbd>history</kbd>.",
-	"apihelp-thank-example-1": "A <kbd>ID 456</kbd> jelű lapváltozat megköszönése, ahol a köszönet alapja egy diff (változtatás) oldal"
+	"apihelp-thank-example-1": "A <kbd>456</kbd>-os ID-jű lapváltozat megköszönése, ahol a köszönet forrása egy diff (változtatás) oldal"
 }

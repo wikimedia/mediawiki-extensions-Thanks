@@ -54,9 +54,11 @@
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|takket}} {{GENDER:$3|deg}}.",
 	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Én person|$1 personer|100=99+ personer}} takket for kommentaren {{GENDER:$3|din}} under «<strong>$2</strong>».",
 	"apihelp-flowthank-description": "Send en offentlig takk for en Flow-kommentar.",
+	"apihelp-flowthank-summary": "Send en offentlig takk for en Flow-kommentar.",
 	"apihelp-flowthank-param-postid": "UUID-en til posten det skal takkes for.",
 	"apihelp-flowthank-example-1": "Send takk for kommentaren med <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Send en takk til en skribent.",
+	"apihelp-thank-summary": "Send et takkevarsel til en bidragsyter.",
 	"apihelp-thank-param-rev": "Revisjons-ID å takke noen for.",
 	"apihelp-thank-param-source": "En kort streng som beskriver kilden for forespørselen, for eksempel <kbd>diff</kbd> eller <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "Send takk for revisjonen med <kbd>ID 456</kbd>, der referansen blir en diff-side"

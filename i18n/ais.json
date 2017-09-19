@@ -6,10 +6,14 @@
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|kukay}}}}",
+	"thanks-error-invalidrevision": "misumad nu ayaway ID inayi’ ku laheci",
 	"thanks-thank-tooltip": "{{GENDER:$1|pabahel}} u mikukayay a tigami patakus tu {{GENDER:$2| misaungayay}}",
 	"thanks": "pabahel kukay",
+	"thanks-form-revid": "mikawaway-kalumyitiay a sumad ID",
+	"echo-pref-subscription-edit-thank": "mikukay takuwanan ku mikawaway-kalumyiti nu maku",
 	"log-name-thanks": "nasulitan nazipa’an nu sapikukay",
 	"log-show-hide-thanks": "$1 kukay nasulitan nazipa’an",
 	"notification-link-text-view-post": "ciwsace tu buhci tu kamu",
+	"thanks-error-invalidpostid": "pazepit ID inayi’ ku laheci.",
 	"notification-flow-thanks-post-link": "u misuay a buhci tu kamu"
 }
