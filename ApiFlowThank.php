@@ -188,6 +188,7 @@ class ApiFlowThank extends ApiThank {
 
 	/**
 	 * @see ApiBase::getExamplesMessages()
+	 * @return array
 	 */
 	protected function getExamplesMessages() {
 		return [

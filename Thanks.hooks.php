@@ -12,8 +12,8 @@ class ThanksHooks {
 	 * ResourceLoaderTestModules hook handler
 	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/ResourceLoaderTestModules
 	 *
-	 * @param array $testModules
-	 * @param ResourceLoader $resourceLoader
+	 * @param array &$testModules
+	 * @param ResourceLoader &$resourceLoader
 	 * @return bool
 	 */
 	public static function onResourceLoaderTestModules( array &$testModules,
@@ -36,9 +36,10 @@ class ThanksHooks {
 	/**
 	 * Handler for HistoryRevisionTools and DiffRevisionTools hooks.
 	 * Inserts 'thank' link into revision interface
-	 * @param $rev Revision object to add the thank link for
-	 * @param &$links array Links to add to the revision interface
-	 * @param $oldRev Revision object of the "old" revision when viewing a diff
+	 * @param Revision $rev Revision object to add the thank link for
+	 * @param array &$links Links to add to the revision interface
+	 * @param Revision $oldRev Revision object of the "old" revision when viewing a diff
+	 * @param User $user
 	 * @return bool
 	 */
 	public static function insertThankLink( $rev, &$links, $oldRev = null, User $user ) {
@@ -85,8 +86,8 @@ class ThanksHooks {
 	/**
 	 * Helper for self::insertThankLink
 	 * Creates either a thank link or thanked span based on users session
-	 * @param $rev Revision object to generate the thank element for
-	 * @param $recipient User who receives thanks notification
+	 * @param Revision $rev Revision object to generate the thank element for
+	 * @param User $recipient User who receives thanks notification
 	 * @return string
 	 */
 	protected static function generateThankElement( $rev, $recipient ) {
@@ -120,9 +121,9 @@ class ThanksHooks {
 	/**
 	 * Handler for PageHistoryBeforeList hook.
 	 * @see http://www.mediawiki.org/wiki/Manual:Hooks/PageHistoryBeforeList
-	 * @param &$page WikiPage|Article|ImagePage|CategoryPage|Page The page for which the history
+	 * @param WikiPage|Article|ImagePage|CategoryPage|Page &$page The page for which the history
 	 *   is loading.
-	 * @param $context RequestContext object
+	 * @param RequestContext $context RequestContext object
 	 * @return bool true in all cases
 	 */
 	public static function onPageHistoryBeforeList( &$page, $context ) {
@@ -141,9 +142,9 @@ class ThanksHooks {
 	/**
 	 * Handler for DiffViewHeader hook.
 	 * @see http://www.mediawiki.org/wiki/Manual:Hooks/DiffViewHeader
-	 * @param $diff DifferenceEngine
-	 * @param $oldRev Revision object of the "old" revision (may be null/invalid)
-	 * @param $newRev Revision object of the "new" revision
+	 * @param DifferenceEngine $diff
+	 * @param Revision $oldRev Revision object of the "old" revision (may be null/invalid)
+	 * @param Revision $newRev Revision object of the "new" revision
 	 * @return bool true in all cases
 	 */
 	public static function onDiffViewHeader( $diff, $oldRev, $newRev ) {
@@ -162,9 +163,9 @@ class ThanksHooks {
 	/**
 	 * Add Thanks events to Echo
 	 *
-	 * @param $notifications array of Echo notifications
-	 * @param $notificationCategories array of Echo notification categories
-	 * @param $icons array of icon details
+	 * @param array &$notifications array of Echo notifications
+	 * @param array &$notificationCategories array of Echo notification categories
+	 * @param array &$icons array of icon details
 	 * @return bool
 	 */
 	public static function onBeforeCreateEchoEvent(
@@ -211,8 +212,8 @@ class ThanksHooks {
 
 	/**
 	 * Add user to be notified on echo event
-	 * @param $event EchoEvent
-	 * @param $users array
+	 * @param EchoEvent $event
+	 * @param array &$users
 	 * @return bool
 	 */
 	public static function onEchoGetDefaultNotifiedUsers( $event, &$users ) {
@@ -234,8 +235,8 @@ class ThanksHooks {
 	/**
 	 * Handler for LocalUserCreated hook
 	 * @see http://www.mediawiki.org/wiki/Manual:Hooks/LocalUserCreated
-	 * @param $user User object that was created.
-	 * @param $autocreated bool True when account was auto-created
+	 * @param User $user User object that was created.
+	 * @param bool $autocreated True when account was auto-created
 	 * @return bool
 	 */
 	public static function onAccountCreated( $user, $autocreated ) {
@@ -250,9 +251,9 @@ class ThanksHooks {
 
 	/**
 	 * Add thanks button to SpecialMobileDiff page
-	 * @param &$output OutputPage object
-	 * @param $ctx MobileContext object
-	 * @param $revisions Array of the two revisions that are being compared in the diff
+	 * @param OutputPage &$output OutputPage object
+	 * @param MobileContext $ctx MobileContext object
+	 * @param array $revisions Array of the two revisions that are being compared in the diff
 	 * @return bool true in all cases
 	 */
 	public static function onBeforeSpecialMobileDiffDisplay( &$output, $ctx, $revisions ) {
@@ -279,7 +280,7 @@ class ThanksHooks {
 
 	/**
 	 * So users can just type in a username for target and it'll work
-	 * @param array $types
+	 * @param array &$types
 	 * @return bool
 	 */
 	public static function onGetLogTypesOnUser( array &$types ) {
@@ -325,8 +326,8 @@ class ThanksHooks {
 	/**
 	 * Handler for EchoGetBundleRule hook, which defines the bundle rules for each notification
 	 *
-	 * @param $event EchoEvent
-	 * @param $bundleString string Determines how the notification should be bundled
+	 * @param EchoEvent $event
+	 * @param string &$bundleString Determines how the notification should be bundled
 	 * @return bool True for success
 	 */
 	public static function onEchoGetBundleRules( $event, &$bundleString ) {
