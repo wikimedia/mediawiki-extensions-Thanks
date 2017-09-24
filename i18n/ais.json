@@ -15,5 +15,6 @@
 	"log-show-hide-thanks": "$1 kukay nasulitan nazipa’an",
 	"notification-link-text-view-post": "ciwsace tu buhci tu kamu",
 	"thanks-error-invalidpostid": "pazepit ID inayi’ ku laheci.",
-	"notification-flow-thanks-post-link": "u misuay a buhci tu kamu"
+	"notification-flow-thanks-post-link": "u misuay a buhci tu kamu",
+	"apihelp-thank-description": "pasayza cacay a mikawaway-kalumyitiay pabahel kukay patakus."
 }
