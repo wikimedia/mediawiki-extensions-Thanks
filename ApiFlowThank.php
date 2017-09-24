@@ -11,7 +11,6 @@
 
 use Flow\Container;
 use Flow\Conversion\Utils;
-use Flow\Data\RootPostLoader;
 use Flow\Exception\FlowException;
 use Flow\Model\PostRevision;
 use Flow\Model\UUID;

@@ -1,5 +1,4 @@
 <?php
-use Flow\Model\UUID;
 
 /**
  * Hooks for Thanks extension
