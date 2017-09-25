@@ -86,8 +86,8 @@ abstract class ApiThank extends ApiBase {
 		return 'csrf';
 	}
 
-	// Writes to the Echo database and sometimes log tables.
 	public function isWriteMode() {
+		// Writes to the Echo database and sometimes log tables.
 		return true;
 	}
 }
