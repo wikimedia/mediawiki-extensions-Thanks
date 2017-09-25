@@ -13,8 +13,10 @@
 	"echo-pref-subscription-edit-thank": "mikukay takuwanan ku mikawaway-kalumyiti nu maku",
 	"log-name-thanks": "nasulitan nazipa’an nu sapikukay",
 	"log-show-hide-thanks": "$1 kukay nasulitan nazipa’an",
+	"thanks-confirmation-special": "amikukay tina mikawaway-kalumyiti pabinawlan sakamu tu nizateng?",
 	"notification-link-text-view-post": "ciwsace tu buhci tu kamu",
 	"thanks-error-invalidpostid": "pazepit ID inayi’ ku laheci.",
+	"flow-thanks-confirmation-special": "amikukay tina buhci tu kamu pabinawlan sakamu tu nizateng haw?",
 	"notification-flow-thanks-post-link": "u misuay a buhci tu kamu",
 	"apihelp-thank-description": "pasayza cacay a mikawaway-kalumyitiay pabahel kukay patakus."
 }
