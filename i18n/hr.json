@@ -28,7 +28,7 @@
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Otkaži}} vijestice o zahvaljivanju",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Pošalji}} mi vijestice o zahvaljivanju",
 	"thanks-confirmation2": "Želite li {{GENDER:$1|zahvaliti}} za ovo uređivanje?",
-	"thanks-thanked-notice": "Zahvalili {{GENDER:$3|ste}} $1 za {{GENDER:$2|njegovo|njezino|predmetno}} uređivanje.",
+	"thanks-thanked-notice": "$1 {{GENDER:$2|primio|primila|primio/la}} je \n{{GENDER:$3|Vašu}} zahvalu za {{GENDER:$2|njegovo|njezino|predmetno}} uređivanje.",
 	"thanks": "Pošalji zahvalu",
 	"thanks-submit": "Pošalji zahvalu",
 	"thanks-form-revid": "ID identifikator inačice uređivanja",
@@ -46,8 +46,10 @@
 	"thanks-error-no-id-specified": "Morate navesti identifikator (ID) izmjene za koju želite poslati zahvalu.",
 	"thanks-confirmation-special": "Želite li javno zahvaliti za ovo uređivanje?",
 	"notification-link-text-view-post": "Pogledaj komentar",
+	"thanks-error-invalidpostid": "ID objave nije valjan.",
 	"flow-thanks-confirmation-special": "Želite li javno zahvaliti za ovo uređivanje?",
-	"flow-thanks-thanked-notice": "Zahvalili {{GENDER:$3|ste}} $1 za {{GENDER:$2|njegov|njezin|predmetni}} komentar.",
+	"flow-thanks-thanked-notice": "$1 {{GENDER:$2|primio|primila|primio/la}} je \n{{GENDER:$3|Vašu}} zahvalu za {{GENDER:$2|njegovo|njezino|predmetni}} komentar.",
 	"notification-flow-thanks-post-link": "Vašem komentaru",
-	"notification-header-flow-thank": "$1 Vam {{GENDER:$2|je zahvalio|je zahvalila|zahvaljuje}} na  {{GENDER:$5|Vašem}} komentaru u temi »<strong>$3</strong>«."
+	"notification-header-flow-thank": "$1 Vam {{GENDER:$2|je zahvalio|je zahvalila|zahvaljuje}} na  {{GENDER:$5|Vašem}} komentaru u temi »<strong>$3</strong>«.",
+	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|Vam}} šalje {{GENDER:$2|zahvalu}}."
 }
