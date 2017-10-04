@@ -7,7 +7,8 @@
 			"Borislav",
 			"StanProg",
 			"Vodnokon4e",
-			"V111P"
+			"V111P",
+			"ShockD"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|благодарност}}}}",
@@ -25,9 +26,12 @@
 	"notification-thanks-diff-link": "вашата редакция",
 	"notification-header-edit-thank": "$1 {{GENDER:$4|ви}} {{GENDER:$2|благодари}} за вашата редакция на <strong>$3</strong>.",
 	"log-name-thanks": "Дневник на благодарностите",
+	"log-description-thanks": "По-долу е показан списък с потребители, получили благодарност от други потребители.",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|изпрати благодарност на}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 на дневника на благодарностите",
 	"thanks-confirmation-special": "Искате ли да благодарите публично за тази редакция?",
 	"notification-link-text-view-post": "Виж коментар",
 	"flow-thanks-confirmation-special": "Искате ли да благодарите за тази редакция?",
-	"notification-header-flow-thank": "$1 Ви {{GENDER:$2|благодари}} за вашия коментар в раздела '''$3''' на '''$4'''."
+	"notification-header-flow-thank": "$1 Ви {{GENDER:$2|благодари}} за вашия коментар в раздела '''$3''' на '''$4'''.",
+	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|Ви}} {{GENDER:$2|благодари}}."
 }
