@@ -12,7 +12,8 @@
 			"Maroen1990",
 			"بدارين",
 			"Shbib Al-Subaie",
-			"ديفيد"
+			"ديفيد",
+			"علاء"
 		]
 	},
 	"thanks-desc": "تضيف روابط للشكر على صفحات التاريخ والفرق",
@@ -20,7 +21,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|شكر|شكرت}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|شكر}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|شكر|شكرت}}}}",
-	"thanks-error-undefined": "فشل إرسال الشكر،(رمز الخطأ: $1) الرجاء المحاولة مجددًا.",
+	"thanks-error-undefined": "فشل إرسال الشكر، (رمز الخطأ: $1) الرجاء المحاولة مجددًا.",
 	"thanks-error-invalidrevision": "معرّف المراجعة غير صحيح.",
 	"thanks-error-revdeleted": "المراجعة تم حذفها",
 	"thanks-error-notitle": "عنوان الصفحة لم يمكن استرجاعه",
