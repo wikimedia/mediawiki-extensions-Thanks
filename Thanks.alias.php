@@ -153,6 +153,11 @@ $specialPageAliases['sv'] = [
 	'Thanks' => [ 'Tack' ],
 ];
 
+/** Urdu (اردو) */
+$specialPageAliases['ur'] = [
+	'Thanks' => [ 'شکریہ' ],
+];
+
 /** Vietnamese (Tiếng Việt) */
 $specialPageAliases['vi'] = [
 	'Thanks' => [ 'Cảm_ơn', 'Cám_ơn' ],
