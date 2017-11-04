@@ -7,6 +7,7 @@
 	},
 	"thanks-desc": "pabeli taneng misaungayay mikukay mikawaway-kalumyiti, buhci tu kamu... a siket",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|kukay}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|mamikukay tuway}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|kukay}}}}",
 	"thanks-error-undefined": "mikukay saungay mungangaw (mungangaw kodo: $1), pitaneng aca.",
 	"thanks-error-invalidrevision": "misumad nu ayaway ID inayi’ ku laheci",
