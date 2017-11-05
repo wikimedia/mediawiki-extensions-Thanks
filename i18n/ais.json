@@ -20,8 +20,10 @@
 	"thanks-form-revid": "mikawaway-kalumyitiay a sumad ID",
 	"echo-pref-subscription-edit-thank": "mikukay takuwanan ku mikawaway-kalumyiti nu maku",
 	"echo-pref-tooltip-edit-thank": "anu izaw mikukayay tu  mikawaway-kalumyiti nu maku sa，pitakusen takuwan.",
+	"notification-compact-header-edit-thank": "$1{{GENDER:$2|makukay}} {{GENDER:$3|kisu}}.",
 	"log-name-thanks": "nasulitan nazipa’an nu sapikukay",
 	"log-description-thanks": "isasa’ sa u makilac zumaay tatemaw mikukayay a misaungayay  piazihan-tu-sulit.",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|makukay tuway}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 kukay nasulitan-nazipa’an",
 	"thanks-error-no-id-specified": "kanca kisu matuzu’ay masumad nu ayaway ID amipabahel tu kukay.",
 	"thanks-confirmation-special": "amikukay tina mikawaway-kalumyiti pabinawlan sakamu tu nizateng?",
@@ -29,6 +31,7 @@
 	"thanks-error-invalidpostid": "pazepit ID inayi’ ku laheci.",
 	"flow-thanks-confirmation-special": "amikukay tina buhci tu kamu pabinawlan sakamu tu nizateng haw?",
 	"notification-flow-thanks-post-link": "u misuay a buhci tu kamu",
+	"notification-compact-header-flow-thank": "$1{{GENDER:$2|makukay}} {{GENDER:$3|kisu}}.",
 	"apihelp-flowthank-description": "pabahel pabinawlan a patakus nu mikukayay pabeli Flow a buhci tu kamuㄡ",
 	"apihelp-thank-description": "pasayza cacay a mikawaway-kalumyitiay pabahel kukay patakus."
 }
