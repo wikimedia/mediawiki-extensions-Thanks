@@ -15,6 +15,8 @@
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Pateicās}}}}",
 	"thanks-error-undefined": "Pateicības darbība neizdevās (kļūdas kods: $1). Lūdzu, mēģini vēlreiz.",
 	"thanks-error-invalidrevision": "Versijas ID ir nederīgs.",
+	"thanks-error-revdeleted": "Versija ir tikusi izdzēsta",
+	"thanks-error-notitle": "Nevarēja iegūt lapas nosaukumu",
 	"thanks-error-invalidrecipient-bot": "Botiem nevar pateikties",
 	"thanks-error-invalidrecipient-self": "Tu nevari pateikties sev",
 	"thanks-error-echonotinstalled": "Echo šajā vikivietnē nav uzstādīts",
@@ -23,6 +25,7 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|Nosūtīt}} pateicības ziņojumu {{GENDER:$2|šim dalībniekam|šai dalībniecei}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Atcelt}} pateicības paziņojumu",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Nosūtīt}} pateicības paziņojumu",
+	"thanks-confirmation2": "{{GENDER:$1|Nosūtīt}} publisku pateicību par šo labojumu?",
 	"thanks-thanked-notice": "$1 saņēma pateicību par {{GENDER:$2|savu}} labojumu.",
 	"thanks": "Sūtīt pateicību",
 	"thanks-submit": "Sūtīt pateicību",
@@ -38,6 +41,7 @@
 	"logentry-thanks-thank": "$1 {{GENDER:$2|pateicās}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 pateicību žurnāls",
 	"notification-link-text-view-post": "Skatīt komentāru",
+	"thanks-error-invalidpostid": "Ieraksta ID nav derīgs.",
 	"notification-flow-thanks-post-link": "tavs komentārs",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|pateicās}} {{GENDER:$3|tev}}."
 }
