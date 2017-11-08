@@ -8,7 +8,7 @@
 			"Silraks"
 		]
 	},
-	"thanks-desc": "Pievieno pateicības saiti vēstures un atšķirību skatiem",
+	"thanks-desc": "Pievieno saites, lai pateiktos dalībniekiem par labojumiem, komentāriem, u.t.t.",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|pateikties}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|pateicās}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Pateikties}}}}",
@@ -42,6 +42,7 @@
 	"log-show-hide-thanks": "$1 pateicību žurnāls",
 	"notification-link-text-view-post": "Skatīt komentāru",
 	"thanks-error-invalidpostid": "Ieraksta ID nav derīgs.",
+	"flow-thanks-thanked-notice": "{{GENDER:$3|Tu}} pateicies $1 par {{GENDER:$2|viņa|viņas|viņa}} komentāru.",
 	"notification-flow-thanks-post-link": "tavs komentārs",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|pateicās}} {{GENDER:$3|tev}}."
 }
