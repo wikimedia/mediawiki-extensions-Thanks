@@ -44,5 +44,7 @@
 	"thanks-error-invalidpostid": "Ieraksta ID nav derīgs.",
 	"flow-thanks-thanked-notice": "{{GENDER:$3|Tu}} pateicies $1 par {{GENDER:$2|viņa|viņas|viņa}} komentāru.",
 	"notification-flow-thanks-post-link": "tavs komentārs",
-	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|pateicās}} {{GENDER:$3|tev}}."
+	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|pateicās}} {{GENDER:$3|tev}}.",
+	"apihelp-flowthank-param-postid": "Ieraksta UUID, par ko pateikties.",
+	"apihelp-flowthank-example-1": "Nosūtīt pateicību par komentāru ar <kbd>UUID xyz789</kbd>"
 }

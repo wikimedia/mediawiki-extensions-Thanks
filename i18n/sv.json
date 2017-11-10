@@ -10,7 +10,8 @@
 			"Dan Koehl",
 			"Hannibal-reserv",
 			"Hangsna",
-			"Macofe"
+			"Macofe",
+			"Lejonel"
 		]
 	},
 	"thanks-desc": "Lägger till länkar för att tacka användare för redigeringar, kommentarer, etc.",
@@ -32,7 +33,7 @@
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Avbryt}} tackmeddelandet",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Skicka}} tackmeddelandet",
 	"thanks-confirmation2": "{{GENDER:$1|Skicka}} tack för denna redigering?",
-	"thanks-thanked-notice": "{{GENDER:$3|Du}} tackade $1 för {{GENDER:$2|hans|hennes|sin}} redigering.",
+	"thanks-thanked-notice": "{{GENDER:$3|Du}} tackade $1 för {{GENDER:$2|hans|hennes|hans/hennes}} redigering.",
 	"thanks": "Skicka tack",
 	"thanks-submit": "Skicka tack",
 	"thanks-form-revid": "Versions-ID för redigering",
@@ -52,7 +53,7 @@
 	"notification-link-text-view-post": "Visa kommentar",
 	"thanks-error-invalidpostid": "Inläggs-ID är inte giltigt.",
 	"flow-thanks-confirmation-special": "Vill du skicka ett offentligt tack för denna kommentar?",
-	"flow-thanks-thanked-notice": "{{GENDER:$3|Du}} tackade $1 för {{GENDER:$2|hans|hennes|sin}} kommentar.",
+	"flow-thanks-thanked-notice": "{{GENDER:$3|Du}} tackade $1 för {{GENDER:$2|hans|hennes|hans/hennes}} kommentar.",
 	"notification-flow-thanks-post-link": "din kommentar",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|tackade}} {{GENDER:$5|dig}} för din kommentar på \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|tackade}} {{GENDER:$3|dig}}.",
