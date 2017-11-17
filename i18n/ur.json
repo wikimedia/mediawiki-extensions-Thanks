@@ -5,7 +5,8 @@
 			"عثمان خان شاہ",
 			"عرفان ارشد",
 			"Obaid Raza",
-			"Muhammad Shuaib"
+			"Muhammad Shuaib",
+			"BukhariSaeed"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|شکریہ}}}}",
@@ -19,8 +20,8 @@
 	"thanks-thank-tooltip": "$1 نے $2 کا شکریہ ادا کیا",
 	"thanks-thank-tooltip-no": "شکریہ کی ادائیگی {{GENDER:$1|منسوخ}} کریں",
 	"thanks-thank-tooltip-yes": "شکریے کا پیغام {{GENDER:$1|ارسال}} کریں",
-	"thanks-confirmation2": "اِس ترمیم کے لیے عوامی طور پر شکریہ ادا کریں؟",
-	"thanks-thanked-notice": "$1 کو انکی ترمیم پر آپ کا شکریہ موصول ہوچکا ہے.",
+	"thanks-confirmation2": "اِس ترمیم کے لیے عوامی طور پر شکریہ {{GENDER:$1|ادا کریں}}؟",
+	"thanks-thanked-notice": "$1 کو {{GENDER:$2|ان کو|ان کو|انہیں}} ترمیم پر {{GENDER:$3|آپ}} کا شکریہ موصول ہوچکا ہے۔",
 	"thanks": "شکریہ ارسال کریں",
 	"thanks-submit": "شکریہ ارسال کریں",
 	"echo-pref-subscription-edit-thank": "میری ترمیم کے لیے شکریہ ادا کریں",
