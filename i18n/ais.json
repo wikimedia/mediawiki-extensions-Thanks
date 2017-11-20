@@ -9,6 +9,7 @@
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|kukay}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|mamikukay tuway}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|kukay}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|mamikukay tuway}}}}",
 	"thanks-error-undefined": "mikukay saungay mungangaw (mungangaw kodo: $1), pitaneng aca.",
 	"thanks-error-invalidrevision": "misumad nu ayaway ID inayi’ ku laheci",
 	"thanks-error-ratelimited": "{{GENDER:$1|kisu}}mangasiw pasatezepan tu, sawsawni pitaneng aca.",
