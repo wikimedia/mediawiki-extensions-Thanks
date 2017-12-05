@@ -8,9 +8,5 @@
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|thank}}}}",
 	"thanks-thank-tooltip": "{{GENDER:$1|Send}} a thank ye notification to this {{GENDER:$2|uiser}}",
 	"notification-link-text-view-post": "See comment",
-	"notification-flow-thanks": "[[User:$1|$1]] {{GENDER:$1|thankt}} {{GENDER:$5|ye}} fer $2 in \"$3\" oan [[:$4]].",
-	"notification-flow-thanks-post-link": "yer comment",
-	"notification-flow-thanks-flyout": "[[User:$1|$1]] {{GENDER:$1|thankt}} {{GENDER:$4|ye}} fer yer comment in \"$2\" oan $3.",
-	"notification-flow-thanks-email-subject": "$1 {{GENDER:$1|thankt}} {{GENDER:$2|ye}} fer yer comment oan {{SITENAME}}",
-	"notification-flow-thanks-email-batch-body": "$1 {{GENDER:$1|thankt}} {{GENDER:$4|ye}} fer yer comment in \"$2\" oan $3."
+	"notification-flow-thanks-post-link": "yer comment"
 }

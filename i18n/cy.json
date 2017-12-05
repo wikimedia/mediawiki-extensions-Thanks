@@ -24,10 +24,7 @@
 	"echo-pref-tooltip-edit-thank": "Hysbyser fi pan fo rhywun yn fy niolch am un o'm golygiadau.",
 	"echo-category-title-edit-thank": "Diolch",
 	"notification-thanks-diff-link": "eich golygiad",
-	"notification-thanks": "{{GENDER:$1|Anfonodd}} [[User:$1|$1]] air o ddiolch i chi am $2 ar [[:$3]].",
 	"notification-header-edit-thank": "$1 Rhododd {{GENDER:$2|air o ddiolch}} i {{GENDER:$4|chi}} am eich golygiad ar '''$3'''.",
-	"notification-thanks-email-subject": "{{GENDER:$1|Anfonodd}} $1 air o ddiolch i chi am eich golygiad ar {{SITENAME}}",
-	"notification-thanks-email-batch-body": "{{GENDER:$1|Anfonodd}} $1 air o ddiolch i chi am eich golygiad ar $2.",
 	"log-name-thanks": "Lòg diolchiadau",
 	"log-description-thanks": "Dyma restr o ddefnyddwyr yr anfonwyd gair o ddiolch atynt gan ddefnyddwyr eraill.",
 	"logentry-thanks-thank": "{{GENDER:$2|Anfonodd}} $1 air o ddiolch i {{GENDER:$4|$3}}",
@@ -38,9 +35,6 @@
 	"thanks-error-invalidpostid": "Dydy'r ID ddim yn ddilys.",
 	"flow-thanks-confirmation-special": "Ydych chi'n dymuno danfon gair o ddiolch am y sylw hwn?",
 	"flow-thanks-thanked-notice": "Derbyniodd $1 eich diolch am {{GENDER:$2|ei|ei|eu}} sylw.",
-	"notification-flow-thanks": "Diolchodd [[User:$1|$1]] {{GENDER:$1|i chi}} am $2 yn \"$3\" ar [[:$4]].",
 	"notification-flow-thanks-post-link": "eich sylw",
-	"notification-flow-thanks-email-subject": "Diolchodd $1 {{GENDER:$1|}} am eich sylw ar {{SITENAME}}\n\nDiolchodd $1 {{GENDER:$1|}} {{GENDER:$2|i chi}} am eich sylw ar {{SITENAME}}",
-	"notification-flow-thanks-email-batch-body": "Diolchodd $1 {{GENDER:$1|}} {{GENDER:$4|i chi}} am eich sylw \"$2\" ar $3.",
 	"apihelp-thank-description": "Danfonwch air o ddiolch at y golygydd."
 }
