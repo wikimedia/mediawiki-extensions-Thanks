@@ -40,6 +40,7 @@
 	"log-description-thanks": "Zemāk ir saraksts ar lietotājiem, kuriem citi lietotāji ir pateikušies.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|pateicās}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 pateicību žurnāls",
+	"thanks-error-no-id-specified": "Tev jānorāda versijas ID, lai nosūtītu pateicību.",
 	"notification-link-text-view-post": "Skatīt komentāru",
 	"thanks-error-invalidpostid": "Ieraksta ID nav derīgs.",
 	"flow-thanks-thanked-notice": "{{GENDER:$3|Tu}} pateicies $1 par {{GENDER:$2|viņa|viņas|viņa}} komentāru.",
