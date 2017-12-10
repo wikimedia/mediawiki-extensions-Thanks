@@ -60,6 +60,7 @@
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|dankte}} {{GENDER:$3|dir}}.",
 	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Eine Person dankte|$1 Personen dankten|100=Mehr als 99 Personen dankten}} {{GENDER:$3|dir}} für deinen Kommentar in „<strong>$2</strong>“.",
 	"apihelp-flowthank-description": "Ein öffentliches Dankeschön für einen Flow-Beitrag senden.",
+	"apihelp-flowthank-summary": "Sendet eine öffentliche Dankeschön-Benachrichtigung für einen Flow-Kommentar.",
 	"apihelp-flowthank-param-postid": "Die UUID des Beitrags, für den gedankt werden soll.",
 	"apihelp-flowthank-example-1": "Ein Dankeschön für den Kommentar mit der <kbd>UUID xyz789</kbd> senden",
 	"apihelp-thank-description": "Sendet eine Dankeschön-Benachrichtigung an einen Autor.",
