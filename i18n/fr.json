@@ -24,7 +24,8 @@
 			"Wladek92",
 			"Trizek (WMF)",
 			"Verdy p",
-			"Trial"
+			"Trial",
+			"Thibaut120094"
 		]
 	},
 	"thanks-desc": "Ajoute des liens pour remercier les utilisateurs pour des modifications, des commentaires, etc.",
@@ -45,7 +46,7 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|Envoyer}} une notification de remerciement à {{GENDER:$2|cet utilisateur|cette utilisatrice}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Annuler}} les remerciements",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Envoyer}} les remerciements",
-	"thanks-confirmation2": "{{GENDER:$1|Envoyer}} des remerciements pour cette modification ?",
+	"thanks-confirmation2": "{{GENDER:$1|Envoyer}} des remerciements pour cette modification  ?",
 	"thanks-thanked-notice": "{{GENDER:$3|Vous}} avez remercié $1 pour {{GENDER:$2|sa|sa|sa}} modification.",
 	"thanks": "Envoyer des remerciements",
 	"thanks-submit": "Remercier",
@@ -62,7 +63,7 @@
 	"logentry-thanks-thank": "$1 {{GENDER:$2|a remercié}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 le journal des remerciements",
 	"thanks-error-no-id-specified": "Vous devez spécifier un ID de révision pour envoyer des remerciements.",
-	"thanks-confirmation-special": "Voulez-vous envoyer publiquement des remerciements pour cette modification ?",
+	"thanks-confirmation-special": "Voulez-vous envoyer publiquement des remerciements pour cette modification  ?",
 	"notification-link-text-view-post": "Afficher le commentaire",
 	"thanks-error-invalidpostid": "L’ID de la note n’est pas valide.",
 	"flow-thanks-confirmation-special": "Voulez-vous envoyer publiquement des remerciements pour ce commentaire ?",
