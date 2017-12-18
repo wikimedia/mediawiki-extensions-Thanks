@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"MokaAkashiyaPT"
+			"MokaAkashiyaPT",
+			"Athena in Wonderland"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|agradecer}}}}",
