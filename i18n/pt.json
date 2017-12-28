@@ -17,7 +17,7 @@
 			"Chicocvenancio"
 		]
 	},
-	"thanks-desc": "Adiciona ligações para agradecer a utilizadores por edições, comentários, etc.",
+	"thanks-desc": "Adiciona hiperligações para agradecer a utilizadores por edições, comentários, etc.",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|agradecer}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|agradecimento enviado}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Agradecer}}}}",
