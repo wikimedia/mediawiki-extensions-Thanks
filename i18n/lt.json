@@ -8,7 +8,8 @@
 			"Macofe",
 			"Zygimantus",
 			"Eitvys200",
-			"Homo"
+			"Homo",
+			"Manvydasz"
 		]
 	},
 	"thanks-desc": "Pridėti nuorodas, kad padėkotumėte naudotojams už pakeitimus, komentarus ir kt.",
@@ -18,9 +19,11 @@
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Padėkojo}}}}",
 	"thanks-error-undefined": "Padėkoti nepavyko (klaidos kodas: $1). Prašome pabandyti dar kartą.",
 	"thanks-error-invalidrevision": "Netinkamas versijos ID",
+	"thanks-error-revdeleted": "Versija buvo ištrinta",
 	"thanks-error-notitle": "Nepavyko gauti puslapio pavadinimo",
 	"thanks-error-invalidrecipient": "Nerastas tinkamas recipientas",
 	"thanks-error-invalidrecipient-bot": "Negalima padėkoti robotams",
+	"thanks-error-invalidrecipient-self": "Negalite padėkoti sau",
 	"thanks-error-echonotinstalled": "Echo nėra įdiegtas šioje viki",
 	"thanks-error-notloggedin": "Anoniminiai vartotojai negali siųsti padėkų",
 	"thanks-error-ratelimited": "{{GENDER:$1|Jūs}} viršijote vertinimo limitą. Prašome truputį palaukti ir bandyti dar kartą.",
@@ -28,7 +31,7 @@
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Atšaukti}} padėkų pranešimus",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Siųsti}} padėkos pranešimą",
 	"thanks-confirmation2": "{{GENDER:$1|Siųsti}} viešą padėką už pakeitimą?",
-	"thanks-thanked-notice": "$1 gauta padėka už {{GENDER:$2|jo|jos|jų}} pakeitimą.",
+	"thanks-thanked-notice": "{{GENDER:$3|Jūs}} padėkojote $1 už {{GENDER:$2|jo|jos|jų}} pakeitimą.",
 	"thanks": "Siųsti padėką",
 	"thanks-submit": "Siųsti padėką",
 	"thanks-form-revid": "Redaguojamos versijos ID",
@@ -48,7 +51,7 @@
 	"notification-link-text-view-post": "Rodyti komentarą",
 	"thanks-error-invalidpostid": "Netinkamas įrašo ID.",
 	"flow-thanks-confirmation-special": "Ar norite viešai išsiųsti padėką už šį komentarą?",
-	"flow-thanks-thanked-notice": "$1 gavo jūsų padėką už {{GENDER:$2|jo|jos|jų}} komentarą.",
+	"flow-thanks-thanked-notice": "{{GENDER:$3|Jūs}} padėkojote $1 už {{GENDER:$2|jo|jos|jų}} komentarą.",
 	"notification-flow-thanks-post-link": "jūsų komentaras",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|padėkojo}} {{GENDER:$5|jums}} už jūsų komentarą „<strong>$3</strong>“.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|padėkojo}} {{GENDER:$3|jums}}.",
@@ -57,6 +60,7 @@
 	"apihelp-flowthank-param-postid": "Padėkos įrašo UUID.",
 	"apihelp-flowthank-example-1": "Siųsti padėką už komentarą su <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Siųsti padėkos pranešimą redaktoriui.",
+	"apihelp-thank-summary": "Siųsti padėkos pranešimą redaktoriui.",
 	"apihelp-thank-param-rev": "ID versijos, už kurią padėkoti.",
 	"apihelp-thank-param-source": "Trumpa eilutė, apibūdinanti užklausos šaltinį, pavyzdžiui <kbd>diff</kbd> arba <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "Siųsti padėką už versiją, kurios <kbd>ID 456</kbd> ir šaltinis yra skirtumų puslapis"
