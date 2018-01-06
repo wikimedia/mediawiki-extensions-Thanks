@@ -20,7 +20,7 @@
 	"thanks-desc": "تضيف روابط لتوجيه الشكر إلى المستخدمين على التعديلات و التعليقات، إلخ.",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|اشكر|اشكري|اشكروا}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|شكر|شكرت|شكروا}}}}",
-	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|اشكر|اشكري\"اشكروا}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|شكر}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|شكر|شكرت|شكروا}}}}",
 	"thanks-error-undefined": "فشل الشكر، (رمز العطل: $1) {{GENDER:|حاول|حاولي|حاولوا}} مجددًا.",
 	"thanks-error-invalidrevision": "مُعرِّف المراجعة غير صحيح.",
