@@ -3,12 +3,13 @@
 		"authors": [
 			"Horus",
 			"Octahedron80",
-			"Pilarbini"
+			"Pilarbini",
+			"Ans"
 		]
 	},
 	"thanks-desc": "เพิ่มลิงก์ขอบคุณไปยังประวัติและการดูผลต่าง",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ขอบคุณ}}}}",
-	"thanks-thanked": "กล่าวขอบคุณ",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|กล่าวขอบคุณแล้ว}}}}",
 	"thanks-button-thank": "ขอบคุณ",
 	"thanks-button-thanked": "กล่าวขอบคุณแล้ว",
 	"thanks-error-undefined": "ปฏิบัติการขอบคุณล้มเหลว โปรดลองอีกครั้ง",
