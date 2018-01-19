@@ -18,14 +18,21 @@ use Flow\Model\UUID;
  * @author Benjamin Chen
  */
 class ApiFlowThankTest extends ApiTestCase {
-	/**
-	 * @var PostRevision
-	 */
-	public $topic,
-		$meUser,
-		$otherUser,
-		$postByOtherUser,
-		$postByMe;
+
+	/** @var PostRevision */
+	public $topic;
+
+	/** @var User */
+	public $meUser;
+
+	/** @var User */
+	public $otherUser;
+
+	/** @var PostRevision */
+	public $postByOtherUser;
+
+	/** @var PostRevision */
+	public $postByMe;
 
 	public function setUp() {
 		parent::setUp();
