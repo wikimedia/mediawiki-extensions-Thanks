@@ -64,7 +64,9 @@
 			$thankLink.confirmable( {
 				i18n: {
 					confirm: mw.msg( 'thanks-confirmation2', mw.user ),
+					no: mw.msg( 'cancel' ),
 					noTitle: mw.msg( 'thanks-thank-tooltip-no', mw.user ),
+					yes: mw.msg( 'thanks-button-thank', mw.user, $thankLink.data( 'recipient-gender' ) ),
 					yesTitle: mw.msg( 'thanks-thank-tooltip-yes', mw.user )
 				},
 				handler: function ( e ) {
