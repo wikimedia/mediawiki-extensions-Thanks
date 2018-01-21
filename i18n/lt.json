@@ -12,7 +12,7 @@
 			"Manvydasz"
 		]
 	},
-	"thanks-desc": "Pridėti nuorodas, kad padėkotumėte naudotojams už pakeitimus, komentarus ir kt.",
+	"thanks-desc": "Prideda nuorodas, kad padėkotumėte naudotojams už pakeitimus, komentarus ir kt.",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ačiū}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|padėkojo}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Dėkoja}}}}",
