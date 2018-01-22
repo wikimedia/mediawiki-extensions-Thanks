@@ -19,7 +19,7 @@
 		]
 	},
 	"thanks-desc": "تضيف روابط لشكر المستخدمين على التعديلات والتعليقات، إلخ.",
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|شكر|شكرت}}}}",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|شكر}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|شكر|شكرت}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|شكر}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|شكر|شكرت}}}}",
