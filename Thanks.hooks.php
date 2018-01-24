@@ -113,6 +113,7 @@ class ThanksHooks {
 				'href' => SpecialPage::getTitleFor( 'Thanks', $rev->getId() )->getFullURL(),
 				'title' => $tooltip,
 				'data-revision-id' => $rev->getId(),
+				'data-recipient-gender' => $recipient->getOption( 'gender' ) ?: 'unknown',
 			],
 			wfMessage( 'thanks-thank', $wgUser, $recipient->getName() )->text()
 		);

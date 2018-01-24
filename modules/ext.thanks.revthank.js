@@ -36,11 +36,9 @@
 			.then(
 				// Success
 				function () {
-					var username = $thankLink.closest(
-						source === 'history' ? 'li' : 'td'
-					).find( 'a.mw-userlink' ).text();
-					// Get the user who was thanked (for gender purposes)
-					return mw.thanks.getUserGender( username );
+					$thankElement.before( mw.message( 'thanks-thanked', mw.user, $thankLink.data( 'recipient-gender' ) ).escaped() );
+					$thankElement.remove();
+					mw.thanks.thanked.push( $thankLink );
 				},
 				// Fail
 				function ( errorCode ) {
@@ -57,31 +55,25 @@
 							OO.ui.alert( mw.msg( 'thanks-error-undefined', errorCode ) );
 					}
 				}
-			)
-			.then( function ( recipientGender ) {
-				$thankElement.before( mw.message( 'thanks-thanked', mw.user, recipientGender ).escaped() );
-				$thankElement.remove();
-				mw.thanks.thanked.push( $thankLink );
-			} );
+			);
 	}
 
 	function addActionToLinks( $content ) {
+		var $thankLink = $content.find( 'a.mw-thanks-thank-link' );
 		if ( mw.config.get( 'thanks-confirmation-required' ) ) {
-			$content.find( 'a.mw-thanks-thank-link' ).confirmable( {
+			$thankLink.confirmable( {
 				i18n: {
 					confirm: mw.msg( 'thanks-confirmation2', mw.user ),
 					noTitle: mw.msg( 'thanks-thank-tooltip-no', mw.user ),
 					yesTitle: mw.msg( 'thanks-thank-tooltip-yes', mw.user )
 				},
 				handler: function ( e ) {
-					var $thankLink = $( this );
 					e.preventDefault();
 					sendThanks( $thankLink, $thankLink.closest( '.jquery-confirmable-wrapper' ) );
 				}
 			} );
 		} else {
-			$content.find( 'a.mw-thanks-thank-link' ).click( function ( e ) {
-				var $thankLink = $( this );
+			$thankLink.click( function ( e ) {
 				e.preventDefault();
 				sendThanks( $thankLink, $thankLink );
 			} );
