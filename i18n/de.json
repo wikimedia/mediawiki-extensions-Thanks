@@ -33,7 +33,7 @@
 	"thanks-thank-tooltip": "{{GENDER:$2|Diesem Benutzer|Dieser Benutzerin}} ein Dankeschön {{GENDER:$1|senden}}",
 	"thanks-thank-tooltip-no": "Die Dankeschön-Benachrichtigung {{GENDER:$1|abbrechen}}",
 	"thanks-thank-tooltip-yes": "Die Dankeschön-Benachrichtigung {{GENDER:$1|senden}}",
-	"thanks-confirmation2": "Öffentlich einsehbares Dankeschön für diese Bearbeitung {{GENDER:$1|senden}}?",
+	"thanks-confirmation2": "Alle Dankeschöns sind öffentlich. Dankeschöns {{GENDER:$1|senden}}?",
 	"thanks-thanked-notice": "{{GENDER:$3|Du}} danktest $1 für {{GENDER:$2|seine|ihre}} Bearbeitung.",
 	"thanks": "Für diese Bearbeitung danken",
 	"thanks-submit": "Dankeschön senden",
