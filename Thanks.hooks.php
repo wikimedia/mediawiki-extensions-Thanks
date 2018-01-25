@@ -101,6 +101,7 @@ class ThanksHooks {
 			);
 		}
 
+		$genderCache = MediaWikiServices::getInstance()->getGenderCache();
 		// Add 'thank' link
 		$tooltip = wfMessage( 'thanks-thank-tooltip' )
 				->params( $wgUser->getName(), $recipient->getName() )
@@ -113,7 +114,7 @@ class ThanksHooks {
 				'href' => SpecialPage::getTitleFor( 'Thanks', $rev->getId() )->getFullURL(),
 				'title' => $tooltip,
 				'data-revision-id' => $rev->getId(),
-				'data-recipient-gender' => $recipient->getOption( 'gender' ) ?: 'unknown',
+				'data-recipient-gender' => $genderCache->getGenderOf( $recipient->getName(), __METHOD__ ),
 			],
 			wfMessage( 'thanks-thank', $wgUser, $recipient->getName() )->text()
 		);
