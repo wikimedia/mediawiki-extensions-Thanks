@@ -32,7 +32,7 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|Skicka}} ett tackmeddelande till denna {{GENDER:$2|användare}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Avbryt}} tackmeddelandet",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Skicka}} tackmeddelandet",
-	"thanks-confirmation2": "{{GENDER:$1|Skicka}} tack för denna redigering?",
+	"thanks-confirmation2": "Alla tack är offentliga. {{GENDER:$1|Skicka}} tack?",
 	"thanks-thanked-notice": "{{GENDER:$3|Du}} tackade $1 för {{GENDER:$2|hans|hennes|dennes}} redigering.",
 	"thanks": "Skicka tack",
 	"thanks-submit": "Skicka tack",

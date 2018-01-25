@@ -8,7 +8,8 @@
 			"Paucabot",
 			"Macofe",
 			"F3RaN",
-			"Ssola"
+			"Ssola",
+			"Fitoschido"
 		]
 	},
 	"thanks-desc": "Afegeix enllaços per agrair els editors per les seves edicions, comentaris, etc.",
@@ -29,7 +30,7 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|Envia}} una notificació d'agraïment a {{GENDER:$2|aquest usuari|aquesta usuària}}.",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Cancel·la}} la notificació d'agraïment",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Envia}} la notificació d'agraïment",
-	"thanks-confirmation2": "{{GENDER:$1|Voleu}} enviar un agraïment públic per aquesta edició?",
+	"thanks-confirmation2": "Tots els agraïments són públics. Voleu {{GENDER:$1|enviar-ne}} un?",
 	"thanks-thanked-notice": "$1 ha rebut el vostre agraïment per {{GENDER:$2|la seva}} edició.",
 	"thanks": "Agraeix",
 	"thanks-submit": "Agraeix",

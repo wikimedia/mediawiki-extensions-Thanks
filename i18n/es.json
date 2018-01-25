@@ -29,7 +29,7 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|Enviar}} una notificación de agradecimiento a {{GENDER:$2|este usuario|esta usuaria}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Cancelar}} la notificación de agradecimiento",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Enviar}} la notificación de agradecimiento",
-	"thanks-confirmation2": "¿{{GENDER:$1|Agradecer}} públicamente esta edición?",
+	"thanks-confirmation2": "Los agradecimientos son públicos. ¿Quieres {{GENDER:$1|agradecerlo|agradecerla}}?",
 	"thanks-thanked-notice": "{{GENDER:$3|Agradeciste}} a $1 por {{GENDER:$2|su}} edición.",
 	"thanks": "Enviar agradecimiento",
 	"thanks-submit": "Enviar agradecimiento",
