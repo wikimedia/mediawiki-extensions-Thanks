@@ -6,7 +6,8 @@
 			"संजीव कुमार",
 			"राम प्रसाद जोशी",
 			"Angpradesh",
-			"Sfic"
+			"Sfic",
+			"Bhatakati aatma"
 		]
 	},
 	"thanks-desc": "सदस्यों को उनके सम्पादनों, टिप्पणियों आदि के लिए धन्यवाद देने कड़ियाँ जोड़ें।",
@@ -27,7 +28,7 @@
 	"thanks-thank-tooltip": "इस {{GENDER:$2|सदस्य}} को धन्यवाद अधिसूचना {{GENDER:$1|भेजें}}।",
 	"thanks-thank-tooltip-no": "धन्यवाद की सूचना {{GENDER:$1|न भेजें}}",
 	"thanks-thank-tooltip-yes": "धन्यवाद की सूचना {{GENDER:$1|भेजें}}",
-	"thanks-confirmation2": "इस सम्पादन के लिए सार्वजनिक धन्यवाद {{GENDER:$1|भेजें}}?",
+	"thanks-confirmation2": "\nसभी धन्यवाद सार्वजनिक हैं। {{GENDER:$1|धन्यवाद}} भेजें?",
 	"thanks-thanked-notice": "$1 को सूचित किया गया है कि आपको {{GENDER:$2|उनका}} सम्पादन अच्छा लगा।",
 	"thanks": "धन्यवाद दें",
 	"thanks-submit": "धन्यवाद दें",
