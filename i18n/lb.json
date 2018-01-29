@@ -13,10 +13,15 @@
 	"thanks-error-undefined": "'Merci soen' huet net funktionéiert (Feelercode: $1). Probéiert w.e.g. nach eng Kéier.",
 	"thanks-error-invalidrevision": "Versiounsnummer (ID) ass net valabel.",
 	"thanks-error-revdeleted": "Versioun gouf geläscht",
+	"thanks-error-notitle": "Säitentitel konnt net ofgeruff ginn",
+	"thanks-error-invalidrecipient": "Kee valabelen Destinataire fonnt",
 	"thanks-error-invalidrecipient-bot": "Botte kann een net Merci soen",
+	"thanks-error-invalidrecipient-self": "Dir kënnt Iech net selwer Merci soen",
 	"thanks-error-echonotinstalled": "Echo ass op dëser Wiki net installéiert",
+	"thanks-error-notloggedin": "Anonym Benotzer kënne kee Merci schécken",
 	"thanks-thank-tooltip": "{{GENDER:$2|Dësem Benotzer|Dëser Benotzerin}} ee \"Merci\" {{GENDER:$1|schécken}}",
-	"thanks-confirmation2": "Merci fir dës Ännerung ëffentlech {{GENDER:$1|schécken}}?",
+	"thanks-thank-tooltip-yes": "De Merci-Message {{GENDER:$1|schécken}}",
+	"thanks-confirmation2": "All Merci-Message sinn ëffentlech- Merci {{GENDER:$1|schécken}}?",
 	"thanks-thanked-notice": "{{GENDER:$3|Dir}} hutt dem $1 fir {{GENDER:$2|seng|seng|hier}} Ännerung Merci gesot.",
 	"thanks": "Merci soen",
 	"thanks-submit": "Merci soen",
@@ -35,5 +40,6 @@
 	"flow-thanks-confirmation-special": "Wëllt Dir ëffentlech fir dës Bemierkung e 'Merci' schécken?",
 	"notification-flow-thanks-post-link": "Är Bemierkung",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|huet}} {{GENDER:$5|Iech}} fir Är Bemierkung op \"<strong>$3</strong>\" Merci gesot.",
-	"notification-compact-header-flow-thank": "$1 huet {{GENDER:$3|Iech}} {{GENDER:$2|Merci gesot}} ."
+	"notification-compact-header-flow-thank": "$1 huet {{GENDER:$3|Iech}} {{GENDER:$2|Merci gesot}} .",
+	"apihelp-thank-description": "Engem Auteur e Merci-Message schécken."
 }
