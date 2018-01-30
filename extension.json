@@ -46,14 +46,14 @@
 		"ThanksAlias": "Thanks.alias.php"
 	},
 	"AutoloadClasses": {
-		"ThanksHooks": "Thanks.hooks.php",
-		"EchoThanksPresentationModel": "ThanksPresentationModel.php",
-		"EchoFlowThanksPresentationModel": "FlowThanksPresentationModel.php",
-		"ApiThank": "ApiThank.php",
-		"ApiRevThank": "ApiRevThank.php",
-		"ApiFlowThank": "ApiFlowThank.php",
-		"ThanksLogFormatter": "ThanksLogFormatter.php",
-		"SpecialThanks": "SpecialThanks.php"
+		"ThanksHooks": "includes/ThanksHooks.php",
+		"EchoThanksPresentationModel": "includes/EchoThanksPresentationModel.php",
+		"EchoFlowThanksPresentationModel": "includes/EchoFlowThanksPresentationModel.php",
+		"ApiThank": "includes/ApiThank.php",
+		"ApiRevThank": "includes/ApiRevThank.php",
+		"ApiFlowThank": "includes/ApiFlowThank.php",
+		"ThanksLogFormatter": "includes/ThanksLogFormatter.php",
+		"SpecialThanks": "includes/SpecialThanks.php"
 	},
 	"ResourceModules": {
 		"ext.thanks": {

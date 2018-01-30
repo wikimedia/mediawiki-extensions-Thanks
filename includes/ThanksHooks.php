@@ -21,7 +21,7 @@ class ThanksHooks {
 	) {
 		if ( class_exists( 'SpecialMobileDiff' ) ) {
 			$testModules['qunit']['tests.ext.thanks.mobilediff'] = [
-				'localBasePath' => __DIR__,
+				'localBasePath' => dirname( __DIR__ ),
 				'remoteExtPath' => 'Thanks',
 				'dependencies' => [ 'ext.thanks.mobilediff' ],
 				'scripts' => [

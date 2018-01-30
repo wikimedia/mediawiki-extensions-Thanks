@@ -17,7 +17,7 @@ use Flow\Model\UUID;
  *
  * @author Benjamin Chen
  */
-class ApiFlowThankTest extends ApiTestCase {
+class ApiFlowThankIntegrationTest extends ApiTestCase {
 
 	/** @var PostRevision */
 	public $topic;
