@@ -8,32 +8,27 @@
 	 * @return {Promise} The thank operation's status.
 	 */
 	function thankUser( name, revision, recipientGender ) {
-		var d = $.Deferred();
-		( new mw.Api() ).postWithToken( 'csrf', {
+		return ( new mw.Api() ).postWithToken( 'csrf', {
 			action: 'thank',
 			rev: revision,
 			source: 'mobilediff'
-		} ).done( function () {
+		} ).then( function () {
 			mw.notify( mw.msg( 'thanks-thanked-notice', name, recipientGender, mw.user ) );
-			d.resolve();
-		} )
-			.fail( function ( errorCode ) {
-				// FIXME: What is "popup" and where is it defined?
-				/* eslint-disable no-undef */
-				switch ( errorCode ) {
-					case 'invalidrevision':
-						popup.show( mw.msg( 'thanks-error-invalidrevision' ) );
-						break;
-					case 'ratelimited':
-						popup.show( mw.msg( 'thanks-error-ratelimited', recipientGender ) );
-						break;
-					default:
-						popup.show( mw.msg( 'thanks-error-undefined', errorCode ) );
-				}
-				/* eslint-enable no-undef */
-				d.reject();
-			} );
-		return d;
+		}, function ( errorCode ) {
+			// FIXME: What is "popup" and where is it defined?
+			/* eslint-disable no-undef */
+			switch ( errorCode ) {
+				case 'invalidrevision':
+					popup.show( mw.msg( 'thanks-error-invalidrevision' ) );
+					break;
+				case 'ratelimited':
+					popup.show( mw.msg( 'thanks-error-ratelimited', recipientGender ) );
+					break;
+				default:
+					popup.show( mw.msg( 'thanks-error-undefined', errorCode ) );
+			}
+			/* eslint-enable no-undef */
+		} );
 	}
 
 	/**
