@@ -26,7 +26,7 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|Nosūtīt}} pateicības ziņojumu {{GENDER:$2|šim dalībniekam|šai dalībniecei}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Atcelt}} pateicības paziņojumu",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Nosūtīt}} pateicības paziņojumu",
-	"thanks-confirmation2": "{{GENDER:$1|Nosūtīt}} publisku pateicību par šo labojumu?",
+	"thanks-confirmation2": "Visas pateicības ir publiskas. {{GENDER:$1|Nosūtīt}} pateicību?",
 	"thanks-thanked-notice": "{{GENDER:$3|Tu}} pateicies $1 par {{GENDER:$2|viņa|viņas}} labojumu.",
 	"thanks": "Sūtīt pateicību",
 	"thanks-submit": "Sūtīt pateicību",
