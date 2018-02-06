@@ -143,9 +143,14 @@ $specialPageAliases['qu'] = [
 	'Thanks' => [ 'Uspalay' ],
 ];
 
-/** Serbian (Cyrillic script) (српски (ћирилица)‎) */
+/** Serbian (Cyrillic script) (српски (ћирилица)) */
 $specialPageAliases['sr-ec'] = [
 	'Thanks' => [ 'Хвала' ],
+];
+
+/** Serbian (Latin script) (srpski (latinica)) */
+$specialPageAliases['sr-el'] = [
+	'Thanks' => [ 'Hvala' ],
 ];
 
 /** Swedish (svenska) */
