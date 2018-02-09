@@ -8,14 +8,14 @@ use MediaWiki\MediaWikiServices;
  * @file
  * @ingroup Extensions
  */
-
 class ThanksHooks {
+
 	/**
 	 * ResourceLoaderTestModules hook handler
 	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/ResourceLoaderTestModules
 	 *
-	 * @param array &$testModules
-	 * @param ResourceLoader &$resourceLoader
+	 * @param array &$testModules The modules array to add to.
+	 * @param ResourceLoader &$resourceLoader The resource loader.
 	 * @return bool
 	 */
 	public static function onResourceLoaderTestModules( array &$testModules,
@@ -41,7 +41,7 @@ class ThanksHooks {
 	 * @param Revision $rev Revision object to add the thank link for
 	 * @param array &$links Links to add to the revision interface
 	 * @param Revision $oldRev Revision object of the "old" revision when viewing a diff
-	 * @param User $user
+	 * @param User $user The user performing the thanks.
 	 * @return bool
 	 */
 	public static function insertThankLink( $rev, &$links, $oldRev = null, User $user ) {
@@ -146,7 +146,7 @@ class ThanksHooks {
 	/**
 	 * Handler for DiffViewHeader hook.
 	 * @see http://www.mediawiki.org/wiki/Manual:Hooks/DiffViewHeader
-	 * @param DifferenceEngine $diff
+	 * @param DifferenceEngine $diff DifferenceEngine object that's calling.
 	 * @param Revision $oldRev Revision object of the "old" revision (may be null/invalid)
 	 * @param Revision $newRev Revision object of the "new" revision
 	 * @return bool true in all cases
@@ -216,8 +216,8 @@ class ThanksHooks {
 
 	/**
 	 * Add user to be notified on echo event
-	 * @param EchoEvent $event
-	 * @param array &$users
+	 * @param EchoEvent $event The event.
+	 * @param User[] &$users The user list to add to.
 	 * @return bool
 	 */
 	public static function onEchoGetDefaultNotifiedUsers( $event, &$users ) {
@@ -283,8 +283,10 @@ class ThanksHooks {
 	}
 
 	/**
-	 * So users can just type in a username for target and it'll work
-	 * @param array &$types
+	 * Handler for GetLogTypesOnUser.
+	 * So users can just type in a username for target and it'll work.
+	 * @link https://www.mediawiki.org/wiki/Manual:Hooks/GetLogTypesOnUser
+	 * @param string[] &$types The list of log types, to add to.
 	 * @return bool
 	 */
 	public static function onGetLogTypesOnUser( array &$types ) {
@@ -296,9 +298,9 @@ class ThanksHooks {
 	 * Handler for BeforePageDisplay.  Inserts javascript to enhance thank
 	 * links from static urls to in-page dialogs along with reloading
 	 * the previously thanked state.
-	 *
+	 * @link https://www.mediawiki.org/wiki/Manual:Hooks/BeforePageDisplay
 	 * @param OutputPage $out OutputPage object
-	 * @param Skin $skin
+	 * @param Skin $skin The skin in use.
 	 * @return bool
 	 */
 	public static function onBeforePageDisplay( OutputPage $out, $skin ) {
@@ -328,10 +330,10 @@ class ThanksHooks {
 	}
 
 	/**
-	 * Handler for EchoGetBundleRule hook, which defines the bundle rules for each notification
+	 * Handler for EchoGetBundleRule hook, which defines the bundle rules for each notification.
 	 *
-	 * @param EchoEvent $event
-	 * @param string &$bundleString Determines how the notification should be bundled
+	 * @param EchoEvent $event The event being notified.
+	 * @param string &$bundleString Determines how the notification should be bundled.
 	 * @return bool True for success
 	 */
 	public static function onEchoGetBundleRules( $event, &$bundleString ) {
