@@ -40,27 +40,34 @@
 	 * @return {html} The HTML of the button.
 	 */
 	function createThankLink( name, rev, gender ) {
-		var thankImg = mw.config.get( 'wgExtensionAssetsPath' ) + '/Thanks/WhiteSmiley.png',
-			thankImgTag = '<img width="25" height="20" src="' + thankImg + '" class="mw-mf-action-button-icon"/>',
-			$thankBtn;
+		var $thankBtn,
+			$thankImg = $( '<img>' ).attr( {
+				width: 25,
+				height: 20,
+				src: mw.config.get( 'wgExtensionAssetsPath' ) + '/Thanks/WhiteSmiley.png'
+			} ).addClass( 'mw-mf-action-button-icon' );
 
 		// Don't make thank button for self
 		if ( name !== mw.config.get( 'wgUserName' ) ) {
 			// See if user has already been thanked for this edit
 			if ( mw.config.get( 'wgThanksAlreadySent' ) ) {
-				$thankBtn = $( '<button class="mw-mf-action-button mw-ui-button mw-ui-progressive thanked">' )
+				$thankBtn = $( '<button>' )
+					.addClass( 'mw-mf-action-button mw-ui-button mw-ui-progressive thanked' )
 					.prop( 'disabled', true )
-					.html( thankImgTag + mw.message( 'thanks-button-thanked', mw.user ).escaped() );
+					.text( mw.message( 'thanks-button-thanked', mw.user ).text() )
+					.prepend( $thankImg );
 			} else {
-				$thankBtn = $( '<button class="mw-mf-action-button mw-ui-button mw-ui-progressive">' )
-					.html( thankImgTag + mw.message( 'thanks-button-thank', mw.user, gender ).escaped()
-					)
+				$thankBtn = $( '<button>' )
+					.addClass( 'mw-mf-action-button mw-ui-button mw-ui-progressive' )
+					.text( mw.message( 'thanks-button-thank', mw.user, gender ).text() )
+					.prepend( $thankImg )
 					.on( 'click', function () {
 						var $this = $( this );
 						if ( !$this.hasClass( 'thanked' ) ) {
 							thankUser( name, rev, gender ).done( function () {
 								$this.addClass( 'thanked' ).prop( 'disabled', true )
-									.html( thankImgTag + mw.message( 'thanks-button-thanked', mw.user, gender ).escaped() );
+									.text( mw.message( 'thanks-button-thanked', mw.user, gender ).text() )
+									.prepend( $thankImg );
 							} );
 						}
 					} );
