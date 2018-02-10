@@ -37,43 +37,41 @@
 	 * @param {string} name The username of the user who made the edit
 	 * @param {string} rev The revision the user created
 	 * @param {string} gender The gender of the user who made the edit
-	 * @return {html} The HTML of the button.
+	 * @return {jQuery|null} The HTML of the button.
 	 */
 	function createThankLink( name, rev, gender ) {
-		var $thankBtn,
-			$thankImg = $( '<img>' ).attr( {
-				width: 25,
-				height: 20,
-				src: mw.config.get( 'wgExtensionAssetsPath' ) + '/Thanks/WhiteSmiley.png'
-			} ).addClass( 'mw-mf-action-button-icon' );
+		var $thankImg = $( '<img>' ).attr( {
+			width: 25,
+			height: 20,
+			src: mw.config.get( 'wgExtensionAssetsPath' ) + '/Thanks/WhiteSmiley.png'
+		} ).addClass( 'mw-mf-action-button-icon' );
 
 		// Don't make thank button for self
-		if ( name !== mw.config.get( 'wgUserName' ) ) {
-			// See if user has already been thanked for this edit
-			if ( mw.config.get( 'wgThanksAlreadySent' ) ) {
-				$thankBtn = $( '<button>' )
-					.addClass( 'mw-mf-action-button mw-ui-button mw-ui-progressive thanked' )
-					.prop( 'disabled', true )
-					.text( mw.message( 'thanks-button-thanked', mw.user ).text() )
-					.prepend( $thankImg );
-			} else {
-				$thankBtn = $( '<button>' )
-					.addClass( 'mw-mf-action-button mw-ui-button mw-ui-progressive' )
-					.text( mw.message( 'thanks-button-thank', mw.user, gender ).text() )
-					.prepend( $thankImg )
-					.on( 'click', function () {
-						var $this = $( this );
-						if ( !$this.hasClass( 'thanked' ) ) {
-							thankUser( name, rev, gender ).done( function () {
-								$this.addClass( 'thanked' ).prop( 'disabled', true )
-									.text( mw.message( 'thanks-button-thanked', mw.user, gender ).text() )
-									.prepend( $thankImg );
-							} );
-						}
-					} );
-			}
-			return $thankBtn;
+		if ( name === mw.config.get( 'wgUserName' ) ) {
+			return null;
 		}
+		// See if user has already been thanked for this edit
+		if ( mw.config.get( 'wgThanksAlreadySent' ) ) {
+			return $( '<button>' )
+				.addClass( 'mw-mf-action-button mw-ui-button mw-ui-progressive thanked' )
+				.prop( 'disabled', true )
+				.text( mw.message( 'thanks-button-thanked', mw.user ).text() )
+				.prepend( $thankImg );
+		}
+		return $( '<button>' )
+			.addClass( 'mw-mf-action-button mw-ui-button mw-ui-progressive' )
+			.text( mw.message( 'thanks-button-thank', mw.user, gender ).text() )
+			.prepend( $thankImg )
+			.on( 'click', function () {
+				var $this = $( this );
+				if ( !$this.hasClass( 'thanked' ) ) {
+					thankUser( name, rev, gender ).done( function () {
+						$this.addClass( 'thanked' ).prop( 'disabled', true )
+							.text( mw.message( 'thanks-button-thanked', mw.user, gender ).text() )
+							.prepend( $thankImg );
+					} );
+				}
+			} );
 	}
 
 	/**
