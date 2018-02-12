@@ -40,10 +40,10 @@ abstract class ApiThank extends ApiBase {
 	}
 
 	/**
-	 * This checks the log_search data
+	 * This checks the log_search data.
 	 *
-	 * @param User $thanker
-	 * @param string $uniqueId
+	 * @param User $thanker The user sending the thanks.
+	 * @param string $uniqueId The identifier for the thanks.
 	 * @return bool Whether thanks has already been sent
 	 */
 	protected function haveAlreadyThanked( User $thanker, $uniqueId ) {
@@ -63,8 +63,8 @@ abstract class ApiThank extends ApiBase {
 	}
 
 	/**
-	 * @param User $user
-	 * @param User $recipient
+	 * @param User $user The user performing the thanks (and the log entry).
+	 * @param User $recipient The target of the thanks (and the log entry).
 	 * @param string $uniqueId A unique Id to identify the event being thanked for, to use
 	 *                         when checking for duplicate thanks
 	 */

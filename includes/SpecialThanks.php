@@ -30,7 +30,7 @@ class SpecialThanks extends FormSpecialPage {
 
 	/**
 	 * Set the type and ID or UUID of the request.
-	 * @param string $par
+	 * @param string $par The subpage name.
 	 */
 	protected function setParameter( $par ) {
 		if ( $par === null || $par === '' ) {
@@ -58,7 +58,7 @@ class SpecialThanks extends FormSpecialPage {
 
 	/**
 	 * HTMLForm fields
-	 * @return Array
+	 * @return string[][]
 	 */
 	protected function getFormFields() {
 		return [
@@ -91,7 +91,7 @@ class SpecialThanks extends FormSpecialPage {
 
 	/**
 	 * Format the submission form.
-	 * @param HTMLForm $form
+	 * @param HTMLForm $form The form object to modify.
 	 */
 	protected function alterForm( HTMLForm $form ) {
 		if ( $this->type === null || $this->type === 'rev' && $this->id === '0' ) {
@@ -110,7 +110,7 @@ class SpecialThanks extends FormSpecialPage {
 
 	/**
 	 * Call the API internally.
-	 * @param array $data
+	 * @param string[] $data The form data.
 	 * @return Status
 	 */
 	public function onSubmit( array $data ) {
