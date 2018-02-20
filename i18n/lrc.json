@@ -5,7 +5,7 @@
 			"Mogoeilor"
 		]
 	},
-	"thanks-thank": "منمۊن",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|منمۊن}}}}",
 	"thanks-thanked": "{{GENDER:$1|منموندار بیه}}",
 	"thanks-button-thank": "{{GENDER:$1|منمون}}",
 	"thanks-button-thanked": "{{GENDER:$1|منموندار بیه}}",
