@@ -58,24 +58,33 @@
 			);
 	}
 
+	/**
+	 * Add interactive handlers to all 'thank' links in $content
+	 *
+	 * @param {jQuery} $content
+	 */
 	function addActionToLinks( $content ) {
-		var $thankLink = $content.find( 'a.mw-thanks-thank-link' );
+		var $thankLinks = $content.find( 'a.mw-thanks-thank-link' );
 		if ( mw.config.get( 'thanks-confirmation-required' ) ) {
-			$thankLink.confirmable( {
-				i18n: {
-					confirm: mw.msg( 'thanks-confirmation2', mw.user ),
-					no: mw.msg( 'cancel' ),
-					noTitle: mw.msg( 'thanks-thank-tooltip-no', mw.user ),
-					yes: mw.msg( 'thanks-button-thank', mw.user, $thankLink.data( 'recipient-gender' ) ),
-					yesTitle: mw.msg( 'thanks-thank-tooltip-yes', mw.user )
-				},
-				handler: function ( e ) {
-					e.preventDefault();
-					sendThanks( $thankLink, $thankLink.closest( '.jquery-confirmable-wrapper' ) );
-				}
+			$thankLinks.each( function () {
+				var $thankLink = $( this );
+				$thankLink.confirmable( {
+					i18n: {
+						confirm: mw.msg( 'thanks-confirmation2', mw.user ),
+						no: mw.msg( 'cancel' ),
+						noTitle: mw.msg( 'thanks-thank-tooltip-no', mw.user ),
+						yes: mw.msg( 'thanks-button-thank', mw.user, $thankLink.data( 'recipient-gender' ) ),
+						yesTitle: mw.msg( 'thanks-thank-tooltip-yes', mw.user )
+					},
+					handler: function ( e ) {
+						e.preventDefault();
+						sendThanks( $thankLink, $thankLink.closest( '.jquery-confirmable-wrapper' ) );
+					}
+				} );
 			} );
 		} else {
-			$thankLink.click( function ( e ) {
+			$thankLinks.click( function ( e ) {
+				var $thankLink = $( this );
 				e.preventDefault();
 				sendThanks( $thankLink, $thankLink );
 			} );
