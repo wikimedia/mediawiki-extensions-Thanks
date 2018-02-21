@@ -8,12 +8,12 @@
  *
  * @author Addshore
  */
-class ApiRevThankUnitTest extends MediaWikiTestCase {
+class ApiCoreThankUnitTest extends MediaWikiTestCase {
 
 	protected static $moduleName = 'thank';
 
 	protected function getModule() {
-		return new ApiRevThank( new ApiMain(), self::$moduleName );
+		return new ApiCoreThank( new ApiMain(), self::$moduleName );
 	}
 
 	/**

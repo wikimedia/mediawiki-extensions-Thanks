@@ -35,7 +35,7 @@
 		"thanks/*": "ThanksLogFormatter"
 	},
 	"APIModules": {
-		"thank": "ApiRevThank"
+		"thank": "ApiCoreThank"
 	},
 	"MessagesDirs": {
 		"Thanks": [
@@ -47,10 +47,10 @@
 	},
 	"AutoloadClasses": {
 		"ThanksHooks": "includes/ThanksHooks.php",
-		"EchoThanksPresentationModel": "includes/EchoThanksPresentationModel.php",
+		"EchoCoreThanksPresentationModel": "includes/EchoCoreThanksPresentationModel.php",
 		"EchoFlowThanksPresentationModel": "includes/EchoFlowThanksPresentationModel.php",
 		"ApiThank": "includes/ApiThank.php",
-		"ApiRevThank": "includes/ApiRevThank.php",
+		"ApiCoreThank": "includes/ApiCoreThank.php",
 		"ApiFlowThank": "includes/ApiFlowThank.php",
 		"ThanksLogFormatter": "includes/ThanksLogFormatter.php",
 		"SpecialThanks": "includes/SpecialThanks.php"
@@ -64,9 +64,9 @@
 				"mediawiki.api"
 			]
 		},
-		"ext.thanks.revthank": {
+		"ext.thanks.corethank": {
 			"scripts": [
-				"ext.thanks.revthank.js"
+				"ext.thanks.corethank.js"
 			],
 			"messages": [
 				"thanks-thanked",
@@ -85,6 +85,7 @@
 				"mediawiki.jqueryMsg",
 				"mediawiki.api",
 				"jquery.confirmable",
+				"jquery.cookie",
 				"ext.thanks"
 			]
 		},

@@ -1,5 +1,5 @@
 <?php
-class EchoThanksPresentationModel extends EchoEventPresentationModel {
+class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 	public function canRender() {
 		return (bool)$this->event->getTitle();
 	}

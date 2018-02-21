@@ -136,7 +136,7 @@ class ThanksHooks {
 			&& $context->getUser()->isLoggedIn()
 		) {
 			// Load the module for the thank links
-			$context->getOutput()->addModules( [ 'ext.thanks.revthank' ] );
+			$context->getOutput()->addModules( [ 'ext.thanks.corethank' ] );
 			$context->getOutput()->addJsConfigVars( 'thanks-confirmation-required',
 				$wgThanksConfirmationRequired );
 		}
@@ -157,7 +157,7 @@ class ThanksHooks {
 			&& $diff->getUser()->isLoggedIn()
 		) {
 			// Load the module for the thank link
-			$diff->getOutput()->addModules( [ 'ext.thanks.revthank' ] );
+			$diff->getOutput()->addModules( [ 'ext.thanks.corethank' ] );
 			$diff->getOutput()->addJsConfigVars( 'thanks-confirmation-required',
 				$wgThanksConfirmationRequired );
 		}
@@ -184,7 +184,7 @@ class ThanksHooks {
 			'category' => 'edit-thank',
 			'group' => 'positive',
 			'section' => 'message',
-			'presentation-model' => 'EchoThanksPresentationModel',
+			'presentation-model' => 'EchoCoreThanksPresentationModel',
 			'bundle' => [
 				'web' => true,
 				'expandable' => true,

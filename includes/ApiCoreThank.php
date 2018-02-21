@@ -5,7 +5,7 @@
  * @ingroup API
  * @ingroup Extensions
  */
-class ApiRevThank extends ApiThank {
+class ApiCoreThank extends ApiThank {
 	public function execute() {
 		$this->dieIfEchoNotInstalled();
 

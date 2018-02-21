@@ -3,7 +3,7 @@
 /**
  * Integration tests for the Thanks API module
  *
- * @covers ApiRevThank
+ * @covers ApiCoreThank
  *
  * @group Thanks
  * @group Database
@@ -12,7 +12,7 @@
  *
  * @author Addshore
  */
-class ApiRevThankIntegrationTest extends ApiTestCase {
+class ApiCoreThankIntegrationTest extends ApiTestCase {
 
 	/**
 	 * @var int filled in setUp
