@@ -15,7 +15,7 @@
 	"thanks-desc": "Prideda nuorodas, kad padėkotumėte naudotojams už pakeitimus, komentarus ir kt.",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ačiū}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|padėkojo}}}}",
-	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Dėkoja}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Padėkoti}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Padėkojo}}}}",
 	"thanks-error-undefined": "Padėkoti nepavyko (klaidos kodas: $1). Prašome pabandyti dar kartą.",
 	"thanks-error-invalidrevision": "Netinkamas versijos ID",
