@@ -23,7 +23,7 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|Unviar}} una nota d'agradecimientu a {{GENDER:$2|esti usuariu|esta usuaria}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Encaboxar}} la notificación d'agradecimientu",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Unviar}} la notificación d'agradecimientu",
-	"thanks-confirmation2": "¿{{GENDER:$1|Unviar}} un agradecimientu públicu por esta edición?",
+	"thanks-confirmation2": "Tolos agradecimientos son públicos. ¿{{GENDER:$1|Unviar}} l'agradecimientu?",
 	"thanks-thanked-notice": "{{GENDER:$3|Agradecisti}} a $1 la {{GENDER:$2|so}} edición.",
 	"thanks": "Agradecer",
 	"thanks-submit": "Unviar agradecimientu",
