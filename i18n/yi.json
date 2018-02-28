@@ -15,7 +15,7 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|שיקן}} א דאנק מודעה צו {{GENDER:$2|דעם באניצער}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|אנולירן}} די דאנק־מודעה",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|שיקן}} די דאנק־מודעה",
-	"thanks-confirmation2": "{{GENDER:$1|שיקן}} אן עפנטלעכער ייש\"כ פאר דער רעדאקטירונג?",
+	"thanks-confirmation2": "אלע דאנקען זענען עפֿנטלעך. {{GENDER:$1|שיקן}}?",
 	"thanks-thanked-notice": "{{GENDER:$3|איר}} האט געדאנקט $1 פאר {{GENDER:$2|זיין|איר|זייער}} רעדאקטירונג.",
 	"thanks": "שיקן א דאנק",
 	"thanks-submit": "שיקן א דאנק",
