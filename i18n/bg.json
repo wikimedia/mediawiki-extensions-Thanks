@@ -16,8 +16,8 @@
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Благодарност}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Изказана благодарност}}}}",
 	"thanks-thank-tooltip": "С препратката „благодарност“ можете да {{GENDER:$1|изкажете}} на {{GENDER:$2|този потребител|тази потребителка|този потребител}} благодарност за редакцията.",
-	"thanks-confirmation2": "{{GENDER:$1|}}Искате ли да изпратите публична благодарност за тази редакция?",
-	"thanks-thanked-notice": "$1 получи Вашата благодарност за {{GENDER:$2|неговата|нейната|своята}} редакция.",
+	"thanks-confirmation2": "Всички благодарности са публични. {{GENDER:$1|Ще изпратите ли }} благодарност?",
+	"thanks-thanked-notice": "{{GENDER:$3|Вие}} благодарихте на $1 за {{GENDER:$2|неговата|нейната|тяхната}} редакция.",
 	"thanks": "Изпращане на благодарност",
 	"thanks-submit": "Изпратете благодарност",
 	"echo-pref-subscription-edit-thank": "Благодари за моята редакция",
@@ -31,7 +31,7 @@
 	"log-show-hide-thanks": "$1 на дневника на благодарностите",
 	"thanks-confirmation-special": "Искате ли да благодарите публично за тази редакция?",
 	"notification-link-text-view-post": "Виж коментар",
-	"flow-thanks-confirmation-special": "Искате ли да благодарите за тази редакция?",
-	"notification-header-flow-thank": "$1 Ви {{GENDER:$2|благодари}} за вашия коментар в раздела '''$3''' на '''$4'''.",
+	"flow-thanks-confirmation-special": "Искате ли публично да благодарите за този коментар?",
+	"notification-header-flow-thank": "$1 {{GENDER:$5|ви}} {{GENDER:$2|благодари}} за коментара в „<strong>$3</strong>“.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|Ви}} {{GENDER:$2|благодари}}."
 }
