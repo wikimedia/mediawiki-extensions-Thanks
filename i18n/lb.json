@@ -29,7 +29,7 @@
 	"echo-pref-tooltip-edit-thank": "Mech Informéiere wann ee mir fir eng Ännerung déi ech gemaach hu Merci seet.",
 	"echo-category-title-edit-thank": "Merci",
 	"notification-thanks-diff-link": "Är Ännerung",
-	"notification-header-edit-thank": "$1 {{GENDER:$2|huet}} {{GENDER:$4|Iech}} fir Är Ännerung op <strong>$3</strong> Merci gesot.",
+	"notification-header-rev-thank": "$1 {{GENDER:$2|huet}} {{GENDER:$4|Iech}} fir Är Ännerung op <strong>$3</strong> Merci gesot.",
 	"notification-compact-header-edit-thank": "$1 huet {{GENDER:$3|Iech}} {{GENDER:$2|Merci gesot}}.",
 	"log-name-thanks": "Logbuch vum Merci-soen",
 	"log-description-thanks": "Hei drënner ass eng Lëscht vu Benotzer déi anere Benotzer 'Merci' gesot hunn.",

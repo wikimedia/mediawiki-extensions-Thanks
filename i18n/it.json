@@ -31,9 +31,9 @@
 	"echo-pref-tooltip-edit-thank": "Avvisami quando qualcuno mi ringrazia per una modifica che ho fatto.",
 	"echo-category-title-edit-thank": "Ringraziamenti",
 	"notification-thanks-diff-link": "la tua modifica",
-	"notification-header-edit-thank": "$1 {{GENDER:$4|ti}} {{GENDER:$2|ha ringraziato}} per la tua modifica su <strong>$3</strong>.",
+	"notification-header-rev-thank": "$1 {{GENDER:$4|ti}} {{GENDER:$2|ha ringraziato}} per la tua modifica su <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$3|ti}} {{GENDER:$2|ha ringraziato}}.",
-	"notification-bundle-header-edit-thank": "{{PLURAL:$1|Una persona|$1 persone|100=Più di 99 persone}} {{GENDER:$3|ti}} hanno ringraziato per la tua modifica su strong>$2</strong>.",
+	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Una persona|$1 persone|100=Più di 99 persone}} {{GENDER:$3|ti}} hanno ringraziato per la tua modifica su strong>$2</strong>.",
 	"log-name-thanks": "Ringraziamenti",
 	"log-description-thanks": "Di seguito è riportato un elenco di utenti ringraziati da altri utenti.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|ha ringraziato}} {{GENDER:$4|$3}}",
@@ -53,7 +53,7 @@
 	"apihelp-flowthank-param-postid": "L'UUID del messaggio per cui ringraziare.",
 	"apihelp-flowthank-example-1": "Ringrazia per il commento con <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Invia una notifica di ringraziamento a un contributore.",
-	"apihelp-thank-param-rev": "ID della versione per cui ringraziare qualcuno.",
+	"apihelp-thank-param-rev": "ID della versione per cui ringraziare qualcuno. Questo o 'log' deve essere fornito.",
 	"apihelp-thank-param-source": "Una breve stringa che descrive l'origine della richiesta. Per esempio, <kbd>diff</kbd> o <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "Invia un ringraziamento per la versione <kbd>ID 456</kbd>, con la sorgente di una pagina confronto"
 }

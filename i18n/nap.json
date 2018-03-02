@@ -26,7 +26,7 @@
 	"echo-pref-tooltip-edit-thank": "Famme 'a notifica quanno coccheruno me ringraziasse pe' nu cagnamiento c'aggio fatto.",
 	"echo-category-title-edit-thank": "Grazie",
 	"notification-thanks-diff-link": "'o càgnamiento tujo",
-	"notification-header-edit-thank": "$1 {{GENDER:$4|ve}} {{GENDER:$2|ringraziaje}} p' 'o cagnamiento ncopp'a '''$3'''.",
+	"notification-header-rev-thank": "$1 {{GENDER:$4|ve}} {{GENDER:$2|ringraziaje}} p' 'o cagnamiento ncopp'a '''$3'''.",
 	"log-name-thanks": "Riggistro ringraziamente",
 	"log-description-thanks": "Ccà abbascio ce sta n'elenco 'utente c'avessero ringraziato ati utente.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|ringraziaje}} {{GENDER:$4|$3}}",

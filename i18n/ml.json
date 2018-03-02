@@ -32,7 +32,7 @@
 	"echo-pref-tooltip-edit-thank": "ഞാൻ ചെയ്ത തിരുത്തിന് ആരെങ്കിലും നന്ദി രേഖപ്പെടുത്തിയാൽ എന്നെ അറിയിക്കുക.",
 	"echo-category-title-edit-thank": "നന്ദി",
 	"notification-thanks-diff-link": "താങ്കൾ ചെയ്ത തിരുത്തിന്",
-	"notification-header-edit-thank": "'''$3''' താളിൽ താങ്കൾ ചെയ്ത തിരുത്തിന്  $1 {{GENDER:$4|താങ്കൾക്ക്}} {{GENDER:$2|നന്ദി രേഖപ്പെടുത്തി}}.",
+	"notification-header-rev-thank": "'''$3''' താളിൽ താങ്കൾ ചെയ്ത തിരുത്തിന്  $1 {{GENDER:$4|താങ്കൾക്ക്}} {{GENDER:$2|നന്ദി രേഖപ്പെടുത്തി}}.",
 	"log-name-thanks": "കൃതജ്ഞതാരേഖ",
 	"log-description-thanks": "മറ്റ് ഉപയോക്താക്കളുടെ കൃതജ്ഞത ലഭിച്ച ഉപയോക്താക്കളുടെ പട്ടിക താഴെ കാണാം.",
 	"logentry-thanks-thank": "{{GENDER:$4|$3}} എന്ന ഉപയോക്താവിന് $1 {{GENDER:$2|നന്ദി രേഖപ്പെടുത്തി}}",

@@ -25,7 +25,7 @@
 	"echo-pref-tooltip-edit-thank": "Sciigu min kiam iu dankas al mi pro mia redakto.",
 	"echo-category-title-edit-thank": "Dankoj",
 	"notification-thanks-diff-link": "via redakto",
-	"notification-header-edit-thank": "$1 {{GENDER:$2|dankis}} {{GENDER:$4|vin}} pro via redakto en <strong>$3</strong>.",
+	"notification-header-rev-thank": "$1 {{GENDER:$2|dankis}} {{GENDER:$4|vin}} pro via redakto en <strong>$3</strong>.",
 	"log-name-thanks": "Protokolo de dankoj",
 	"log-description-thanks": "Sube estas listo de uzantoj al kiuj aliaj uzantoj dankis.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|dankis}} al {{GENDER:$4|$3}}",
