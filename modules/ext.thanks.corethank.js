@@ -51,6 +51,9 @@
 						case 'ratelimited':
 							OO.ui.alert( mw.msg( 'thanks-error-ratelimited', mw.user ) );
 							break;
+						case 'revdeleted':
+							OO.ui.alert( mw.msg( 'thanks-error-revdeleted' ) );
+							break;
 						default:
 							OO.ui.alert( mw.msg( 'thanks-error-undefined', errorCode ) );
 					}
