@@ -340,9 +340,13 @@ class ThanksHooks {
 		switch ( $event->getType() ) {
 			case 'edit-thank':
 				$bundleString = 'edit-thank';
-				$revId = $event->getExtraParam( 'revid' );
-				if ( $revId ) {
-					$bundleString .= $event->getExtraParam( 'revid' );
+				// Try to get either the revid (old name) or id (new name) parameter.
+				$revOrLogId = $event->getExtraParam( 'revid' );
+				if ( !$revOrLogId ) {
+					$revOrLogId = $event->getExtraParam( 'id' );
+				}
+				if ( $revOrLogId ) {
+					$bundleString .= $revOrLogId;
 				}
 				break;
 			case 'flow-thank':
