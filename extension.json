@@ -184,18 +184,7 @@
 	"config": {
 		"ThanksSendToBots": false,
 		"ThanksLogging": true,
-		"ThanksConfirmationRequired": true,
-		"ThanksLogTypeWhitelist": [
-			"contentmodel",
-			"delete",
-			"import",
-			"merge",
-			"patrol",
-			"protect",
-			"tag",
-			"managetags",
-			"rights"
-		]
+		"ThanksConfirmationRequired": true
 	},
 	"manifest_version": 1
 }
