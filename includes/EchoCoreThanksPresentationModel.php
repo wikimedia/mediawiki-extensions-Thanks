@@ -9,15 +9,14 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 	}
 
 	public function getHeaderMessage() {
-		$type = $this->event->getExtraParam( 'logid' ) ? 'log' : 'rev';
 		if ( $this->isBundled() ) {
-			$msg = $this->msg( "notification-bundle-header-$type-thank" );
+			$msg = $this->msg( 'notification-bundle-header-edit-thank' );
 			$msg->params( $this->getBundleCount() );
 			$msg->params( $this->getTruncatedTitleText( $this->event->getTitle(), true ) );
 			$msg->params( $this->getViewingUserForGender() );
 			return $msg;
 		} else {
-			$msg = $this->getMessageWithAgent( "notification-header-$type-thank" );
+			$msg = $this->getMessageWithAgent( 'notification-header-edit-thank' );
 			$msg->params( $this->getTruncatedTitleText( $this->event->getTitle(), true ) );
 			$msg->params( $this->getViewingUserForGender() );
 			return $msg;
@@ -31,7 +30,7 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 	}
 
 	public function getBodyMessage() {
-		$comment = $this->getRevOrLogComment();
+		$comment = $this->getEditComment();
 		if ( $comment ) {
 			$msg = new RawMessage( '$1' );
 			$msg->plaintextParams( $comment );
@@ -58,48 +57,26 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 		return $summary ?: false;
 	}
 
-	/**
-	 * Get the comment/summary/excerpt of the log entry or revision,
-	 * for use in the notification body.
-	 * @return string|bool The comment or false if it could not be retrieved.
-	 */
-	protected function getRevOrLogComment() {
-		if ( $this->event->getExtraParam( 'logid' ) ) {
-			// Use the saved log entry excerpt.
-			$excerpt = $this->event->getExtraParam( 'excerpt', false );
-			// Turn wikitext into plaintext
-			$excerpt = Linker::formatComment( $excerpt );
-			$excerpt = Sanitizer::stripAllTags( $excerpt );
-			return $excerpt;
-		} else {
-			// Try to get edit summary.
-			$summary = $this->getRevisionEditSummary();
-			if ( $summary ) {
-				return $summary;
-			}
-			// Fallback on edit excerpt.
-			if ( $this->userCan( Revision::DELETED_TEXT ) ) {
-				return $this->event->getExtraParam( 'excerpt', false );
-			}
+	private function getEditComment() {
+		// try to get edit summary
+		$summary = $this->getRevisionEditSummary();
+		if ( $summary ) {
+			return $summary;
+		}
+
+		// fallback on edit excerpt
+		if ( $this->userCan( Revision::DELETED_TEXT ) ) {
+			return $this->event->getExtraParam( 'excerpt', false );
 		}
 	}
 
 	public function getPrimaryLink() {
-		if ( $this->event->getExtraParam( 'logid' ) ) {
-			$logId = $this->event->getExtraParam( 'logid' );
-			$url = Title::newFromText( "Special:Redirect/logid/$logId" )->getCanonicalURL();
-			$label = 'notification-link-text-view-logentry';
-		} else {
-			$url = $this->event->getTitle()->getLocalURL( [
+		return [
+			'url' => $this->event->getTitle()->getLocalURL( [
 				'oldid' => 'prev',
 				'diff' => $this->event->getExtraParam( 'revid' )
-			] );
-			$label = 'notification-link-text-view-edit';
-		}
-		return [
-			'url' => $url,
-			// Label is only used for non-JS clients.
-			'label' => $this->msg( $label )->text(),
+			] ),
+			'label' => $this->msg( 'notification-link-text-view-edit' )->text(),
 		];
 	}
 
