@@ -25,7 +25,7 @@
 	"echo-pref-tooltip-edit-thank": "Giv mig besked, når nogen takker mig for en redigering jeg har lavet.",
 	"echo-category-title-edit-thank": "Tak!",
 	"notification-thanks-diff-link": "din redigering",
-	"notification-header-rev-thank": "$1 {{GENDER:$2|takkede}} {{GENDER:$4|dig}} for din redigering på '''$3'''.",
+	"notification-header-edit-thank": "$1 {{GENDER:$2|takkede}} {{GENDER:$4|dig}} for din redigering på '''$3'''.",
 	"log-name-thanks": "Takkelog",
 	"log-description-thanks": "Nedenfor er en liste over brugere, som er blevet takket af andre brugere.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|takkede}} {{GENDER:$4|$3}}",

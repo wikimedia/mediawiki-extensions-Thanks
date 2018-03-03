@@ -25,7 +25,7 @@
 	"echo-pref-tooltip-edit-thank": "Տեղեկացնել, երբ ինչ–որ մեկը շնորհակալ է իմ կատարած խմբագրման համար։",
 	"echo-category-title-edit-thank": "Շնորհակալ է",
 	"notification-thanks-diff-link": "Ձեր խմբագրման",
-	"notification-header-rev-thank": "$1 մասնակիցը շնորհակալ է Ձեզ $3 էջում Ձեր խմբագրման համար։",
+	"notification-header-edit-thank": "$1 մասնակիցը շնորհակալ է Ձեզ $3 էջում Ձեր խմբագրման համար։",
 	"log-name-thanks": "Շնորհակալությունների գրանցամատյան",
 	"log-description-thanks": "Ստորև «շնորհակալություներ» ստացած մասնակիցների ցանկն է։",
 	"logentry-thanks-thank": "$1 մասնակիցը {{GENDER:$2|շնորհակալություն է}} հայտնել {{GENDER:$4|$3}} մասնակցին",

@@ -24,7 +24,7 @@
 	"echo-pref-tooltip-edit-thank": "मी केलेल्या संपादनाबद्दल जर कोणी मला धन्यवाद देत असेल तर मला सूचना द्या.",
 	"echo-category-title-edit-thank": "धन्यवाद",
 	"notification-thanks-diff-link": "आपल्या या संपादना",
-	"notification-header-rev-thank": "$1 ने {{GENDER:$4|आपणास}} आपल्या <strong>$3</strong> वरील संपादनास {{GENDER:$2|धन्यवाद दिलेत}}.",
+	"notification-header-edit-thank": "$1 ने {{GENDER:$4|आपणास}} आपल्या <strong>$3</strong> वरील संपादनास {{GENDER:$2|धन्यवाद दिलेत}}.",
 	"log-name-thanks": "धन्यवादाच्या नोंदी",
 	"log-description-thanks": "खाली त्या सदस्यांची यादी आहे ज्यांना इतर सदस्यांनी धन्यवाद दिलेत.",
 	"logentry-thanks-thank": "$1 ने {{GENDER:$4|$3}} ला {{GENDER:$2|धन्यवाद दिलेत}}",

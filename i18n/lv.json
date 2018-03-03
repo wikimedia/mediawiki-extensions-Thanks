@@ -35,7 +35,7 @@
 	"echo-pref-tooltip-edit-thank": "Paziņot man, kad kāds man izsaka pateicību par labojumu.",
 	"echo-category-title-edit-thank": "Paldies",
 	"notification-thanks-diff-link": "tavu labojumu",
-	"notification-header-rev-thank": "$1 {{GENDER:$2|pateicās}} {{GENDER:$4|tev}} par tavu labojumu rakstā <strong>$3</strong>.",
+	"notification-header-edit-thank": "$1 {{GENDER:$2|pateicās}} {{GENDER:$4|tev}} par tavu labojumu rakstā <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|pateicās}} {{GENDER:$3|tev}}.",
 	"log-name-thanks": "Pateicību žurnāls",
 	"log-description-thanks": "Zemāk ir saraksts ar lietotājiem, kuriem citi lietotāji ir pateikušies.",

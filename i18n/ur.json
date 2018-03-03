@@ -28,8 +28,8 @@
 	"echo-pref-tooltip-edit-thank": "جب کوئی میری کسی ترمیم پر میرا شکریہ ادا کرے تو مجھے آگاہ کریں۔",
 	"echo-category-title-edit-thank": "شکریہ",
 	"notification-thanks-diff-link": "آپ کی ترمیم",
-	"notification-header-rev-thank": "$1 نے <strong>$3</strong> پر {{GENDER:$4|آپ}} کی ترمیم پر {{GENDER:$2|شکریہ!}} ادا کیا۔",
-	"notification-bundle-header-rev-thank": "{{GENDER:$3|آپ}} کی <strong>$2</strong> ترمیم پر {{PLURAL:$1|1 صارف|$1 صارف|100=99+ صارفین}} نے آپ کا شکریہ ادا کیا ہے۔",
+	"notification-header-edit-thank": "$1 نے <strong>$3</strong> پر {{GENDER:$4|آپ}} کی ترمیم پر {{GENDER:$2|شکریہ!}} ادا کیا۔",
+	"notification-bundle-header-edit-thank": "{{GENDER:$3|آپ}} کی <strong>$2</strong> ترمیم پر {{PLURAL:$1|1 صارف|$1 صارف|100=99+ صارفین}} نے آپ کا شکریہ ادا کیا ہے۔",
 	"notification-header-flow-thank": "$1 نے {{GENDER:$5|آپ}} کی \"<strong>$3</strong>\" رائے پر {{GENDER:$5|آپ}} کا {{GENDER:$2|شکریہ}} ادا کیا ہے۔",
 	"notification-compact-header-flow-thank": "$1 نے {{GENDER:$3|آپ}} کا {{GENDER:$2|شکریہ}} ادا کیا۔"
 }

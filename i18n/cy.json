@@ -24,7 +24,7 @@
 	"echo-pref-tooltip-edit-thank": "Hysbyser fi pan fo rhywun yn fy niolch am un o'm golygiadau.",
 	"echo-category-title-edit-thank": "Diolch",
 	"notification-thanks-diff-link": "eich golygiad",
-	"notification-header-rev-thank": "$1 Rhododd {{GENDER:$2|air o ddiolch}} i {{GENDER:$4|chi}} am eich golygiad ar '''$3'''.",
+	"notification-header-edit-thank": "$1 Rhododd {{GENDER:$2|air o ddiolch}} i {{GENDER:$4|chi}} am eich golygiad ar '''$3'''.",
 	"log-name-thanks": "Lòg diolchiadau",
 	"log-description-thanks": "Dyma restr o ddefnyddwyr yr anfonwyd gair o ddiolch atynt gan ddefnyddwyr eraill.",
 	"logentry-thanks-thank": "{{GENDER:$2|Anfonodd}} $1 air o ddiolch i {{GENDER:$4|$3}}",

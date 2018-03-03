@@ -21,7 +21,7 @@
 	"thanks": "Təşəkkür et",
 	"thanks-form-revid": "Redaktələr üçün dəyişiklik identifikatoru",
 	"notification-thanks-diff-link": "redaktəniz",
-	"notification-header-rev-thank": "$1 '''$3''' səhifəsindəki redaktənizə görə {{GENDER:$4|sizə}} {{GENDER:$2|təşəkkür etdi}}.",
+	"notification-header-edit-thank": "$1 '''$3''' səhifəsindəki redaktənizə görə {{GENDER:$4|sizə}} {{GENDER:$2|təşəkkür etdi}}.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2}}, {{GENDER:$4|$3}} istifadəçisinə təşəkkür etdi.",
 	"thanks-confirmation-special": "Siz bu redaktəyə görə təşəkkür göndərmək istəyirsiz?"
 }

@@ -27,7 +27,7 @@
 	"echo-pref-tooltip-edit-thank": "Obaveštava vas kada vam se neko zahvali za izmenu koju ste napravili.",
 	"echo-category-title-edit-thank": "Zahvalnice",
 	"notification-thanks-diff-link": "vašoj izmeni",
-	"notification-header-rev-thank": "$1 Vam se {{GENDER:$2|zahvalio|zahvalila}} na {{GENDER:$4|Vašoj}} izmeni stranice <strong>$3</strong>.",
+	"notification-header-edit-thank": "$1 Vam se {{GENDER:$2|zahvalio|zahvalila}} na {{GENDER:$4|Vašoj}} izmeni stranice <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$3|Vam se}} {{GENDER:$2|zahvalio|zahvalila|zahvalio}}.",
 	"log-name-thanks": "Dnevnik zahvaljivanja",
 	"log-description-thanks": "Ispod se nalazi spisak korisnika kojima su se drugi korisnici zahvalili.",

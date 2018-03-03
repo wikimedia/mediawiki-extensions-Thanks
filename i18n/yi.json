@@ -24,7 +24,7 @@
 	"echo-pref-tooltip-edit-thank": "זיי מיך מודיע ווען איינער דאנקט מיך פאר א רעדאקטירונג מיינע.",
 	"echo-category-title-edit-thank": "אַ דאַנק",
 	"notification-thanks-diff-link": "אײַער רעדאקטירונג",
-	"notification-header-rev-thank": "$1 {{GENDER:$2|האט}} {{GENDER:$4|אייך}} געדאַנקט פֿאר אייער רעדאקטירונג אויף <strong>$3</strong>.",
+	"notification-header-edit-thank": "$1 {{GENDER:$2|האט}} {{GENDER:$4|אייך}} געדאַנקט פֿאר אייער רעדאקטירונג אויף <strong>$3</strong>.",
 	"log-name-thanks": "דאנק־לאגבוך",
 	"log-description-thanks": "אונטן איז רשימה פון באניצער געדאַנקט דורך אנדערע באניצער.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|האט געדאנקט}} {{GENDER:$4|$3}}",

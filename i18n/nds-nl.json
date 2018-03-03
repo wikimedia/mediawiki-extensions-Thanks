@@ -22,7 +22,7 @@
 	"echo-pref-tooltip-edit-thank": "Stuur m'n n melding as der ene mien bedankt veur n bewarking die'k an-ebröcht hebbe.",
 	"echo-category-title-edit-thank": "Bedankt",
 	"notification-thanks-diff-link": "joew bewarking",
-	"notification-header-rev-thank": "$1 {{GENDER:$2|hef}} {{GENDER:$4|joe}} bedankt veur joew bewarking op '''$3'''.",
+	"notification-header-edit-thank": "$1 {{GENDER:$2|hef}} {{GENDER:$4|joe}} bedankt veur joew bewarking op '''$3'''.",
 	"log-name-thanks": "Bedankjeslogboek",
 	"log-description-thanks": "Hieronder zie'j n lieste mit gebrukers die deur aandere gebrukers bedankt bin.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|hef}} {{GENDER:$4|$3}} bedankt",
