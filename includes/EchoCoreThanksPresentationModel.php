@@ -1,6 +1,13 @@
 <?php
 class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
+	/** @var LogEntry */
+	private $logEntry;
+
 	public function canRender() {
+		if ( $this->getThankType() === 'log' ) {
+			$logEntry = $this->getLogEntry();
+			return $logEntry && !$logEntry->getDeleted();
+		}
 		return (bool)$this->event->getTitle();
 	}
 
@@ -9,14 +16,15 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 	}
 
 	public function getHeaderMessage() {
+		$type = $this->event->getExtraParam( 'logid' ) ? 'log' : 'rev';
 		if ( $this->isBundled() ) {
-			$msg = $this->msg( 'notification-bundle-header-edit-thank' );
+			$msg = $this->msg( "notification-bundle-header-$type-thank" );
 			$msg->params( $this->getBundleCount() );
 			$msg->params( $this->getTruncatedTitleText( $this->event->getTitle(), true ) );
 			$msg->params( $this->getViewingUserForGender() );
 			return $msg;
 		} else {
-			$msg = $this->getMessageWithAgent( 'notification-header-edit-thank' );
+			$msg = $this->getMessageWithAgent( "notification-header-$type-thank" );
 			$msg->params( $this->getTruncatedTitleText( $this->event->getTitle(), true ) );
 			$msg->params( $this->getViewingUserForGender() );
 			return $msg;
@@ -30,7 +38,7 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 	}
 
 	public function getBodyMessage() {
-		$comment = $this->getEditComment();
+		$comment = $this->getRevOrLogComment();
 		if ( $comment ) {
 			$msg = new RawMessage( '$1' );
 			$msg->plaintextParams( $comment );
@@ -57,26 +65,52 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 		return $summary ?: false;
 	}
 
-	private function getEditComment() {
-		// try to get edit summary
-		$summary = $this->getRevisionEditSummary();
-		if ( $summary ) {
-			return $summary;
-		}
-
-		// fallback on edit excerpt
-		if ( $this->userCan( Revision::DELETED_TEXT ) ) {
-			return $this->event->getExtraParam( 'excerpt', false );
+	/**
+	 * Get the comment/summary/excerpt of the log entry or revision,
+	 * for use in the notification body.
+	 * @return string|bool The comment or false if it could not be retrieved.
+	 */
+	protected function getRevOrLogComment() {
+		if ( $this->event->getExtraParam( 'logid' ) ) {
+			$logEntry = $this->getLogEntry();
+			if ( !$logEntry ) {
+				return '';
+			}
+			$formatter = LogFormatter::newFromEntry( $logEntry );
+			$excerpt = $formatter->getPlainActionText();
+			// Turn wikitext into plaintext
+			$excerpt = Linker::formatComment( $excerpt );
+			$excerpt = Sanitizer::stripAllTags( $excerpt );
+			return $excerpt;
+		} else {
+			// Try to get edit summary.
+			$summary = $this->getRevisionEditSummary();
+			if ( $summary ) {
+				return $summary;
+			}
+			// Fallback on edit excerpt.
+			if ( $this->userCan( Revision::DELETED_TEXT ) ) {
+				return $this->event->getExtraParam( 'excerpt', false );
+			}
 		}
 	}
 
 	public function getPrimaryLink() {
-		return [
-			'url' => $this->event->getTitle()->getLocalURL( [
+		if ( $this->event->getExtraParam( 'logid' ) ) {
+			$logId = $this->event->getExtraParam( 'logid' );
+			$url = Title::newFromText( "Special:Redirect/logid/$logId" )->getCanonicalURL();
+			$label = 'notification-link-text-view-logentry';
+		} else {
+			$url = $this->event->getTitle()->getLocalURL( [
 				'oldid' => 'prev',
 				'diff' => $this->event->getExtraParam( 'revid' )
-			] ),
-			'label' => $this->msg( 'notification-link-text-view-edit' )->text(),
+			] );
+			$label = 'notification-link-text-view-edit';
+		}
+		return [
+			'url' => $url,
+			// Label is only used for non-JS clients.
+			'label' => $this->msg( $label )->text(),
 		];
 	}
 
@@ -87,5 +121,33 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 		} else {
 			return [ $this->getAgentLink(), $pageLink ];
 		}
+	}
+
+	/**
+	 * @return LogEntry|false
+	 */
+	private function getLogEntry() {
+		if ( $this->logEntry !== null ) {
+			return $this->logEntry;
+		}
+		$logId = $this->event->getExtraParam( 'logid' );
+		if ( !$logId ) {
+			$this->logEntry = false;
+		} else {
+			$this->logEntry = DatabaseLogEntry::newFromId( $logId, wfGetDB( DB_REPLICA ) );
+			if ( !$this->logEntry ) {
+				$this->logEntry = false;
+			}
+		}
+		return $this->logEntry;
+	}
+
+	/**
+	 * Returns thank type
+	 *
+	 * @return string 'log' or 'rev'
+	 */
+	private function getThankType() {
+		return $this->event->getExtraParam( 'logid' ) ? 'log' : 'rev';
 	}
 }
