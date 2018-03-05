@@ -59,7 +59,7 @@
 	"apihelp-flowthank-example-1": "לשלוח תודה על הערה עם <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "שליחת הודעת תודה לעורך.",
 	"apihelp-thank-summary": "שליחת התראת תודה לעורך.",
-	"apihelp-thank-param-rev": "מזהה גרסה להודות עליה. צריך לספק את זה או \"log\".",
+	"apihelp-thank-param-rev": "מזהה גרסה להודות עליה.",
 	"apihelp-thank-param-source": "מחרוזת קצרה שמתארת את מקור הבקשה, למשל <kbd>diff</kbd> או <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "שליחת תודה עבור מזהה גרסה <kbd>ID 456</kbd, שהמקור שלה הוא דף diff."
 }
