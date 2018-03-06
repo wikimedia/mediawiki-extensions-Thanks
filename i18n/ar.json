@@ -68,7 +68,7 @@
 	"apihelp-flowthank-example-1": "أرسل شكرا للتعليق مع <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "أرسل إخطاراً بالشكر إلى محرر.",
 	"apihelp-thank-summary": "أرسل إخطار بالشكر لمحرر.",
-	"apihelp-thank-param-rev": "معرِّف المراجعة التي يُشكر المستخدم عليها. هذا أو 'log' ينبغي توفيره.",
+	"apihelp-thank-param-rev": "معرف المراجعة لشكر شخص ما عليه.",
 	"apihelp-thank-param-source": "نصّ قصير يصف مصدر الطلب، مثلا <kbd>diff</kbd> أو <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "أرسل الشكر للمراجعة <kbd>ID 456</kbd>، مع كون المصدر صفحة فرق"
 }
