@@ -12,6 +12,6 @@
 	"thanks-confirmation2": "Әлеге төзәтмә өчен рәхмәт {{GENDER:$1|әйтергәме}}?",
 	"thanks": "Рәхмәт әйтү",
 	"echo-category-title-edit-thank": "Рәхмәтләр",
-	"notification-header-edit-thank": "$1 {{GENDER:$4|сезгә}} <strong>$3</strong> битендә ясаган кертемегез өчен {{GENDER:$2|рәхмәт әйтте}}.",
+	"notification-header-rev-thank": "$1 {{GENDER:$4|сезгә}} <strong>$3</strong> битендә ясаган кертемегез өчен {{GENDER:$2|рәхмәт әйтте}}.",
 	"thanks-confirmation-special": "Әлеге төзәтмә өчен рәхмәт әйтергә телисезме?"
 }

@@ -26,7 +26,7 @@
 	"echo-pref-tooltip-edit-thank": "وقتی کسی از ویرایش‌های من تشکر می‌کند مرا آگاه کن.",
 	"echo-category-title-edit-thank": " سپاسگزاریةل",
 	"notification-thanks-diff-link": "دةسکاری هؤمة",
-	"notification-header-edit-thank": "$1 به خاطر ویرایشتان در $3 از {{GENDER:$4|شما}} {{GENDER:$2|تشکر کرد}}.",
+	"notification-header-rev-thank": "$1 به خاطر ویرایشتان در $3 از {{GENDER:$4|شما}} {{GENDER:$2|تشکر کرد}}.",
 	"log-name-thanks": "سیاههٔ تشکرها",
 	"log-description-thanks": "این فهرستی است از کاربرانی که کاربران دیگر از آن‌ها تشکر کرده‌اند.",
 	"logentry-thanks-thank": "$1  {{GENDER:$4|$3}}دن {{GENDER:$2|تشکور ائتدی}}",

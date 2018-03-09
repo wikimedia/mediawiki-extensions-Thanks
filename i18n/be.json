@@ -22,7 +22,7 @@
 	"echo-pref-tooltip-edit-thank": "Паведамляць мне, калі хтосьці дзякуе мяне за зробленую мной праўку.",
 	"echo-category-title-edit-thank": "Дзякуй",
 	"notification-thanks-diff-link": "вашу праўку",
-	"notification-header-edit-thank": "$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$4|вам}} за вашу праўку на старонцы <strong>$3</strong>.",
+	"notification-header-rev-thank": "$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$4|вам}} за вашу праўку на старонцы <strong>$3</strong>.",
 	"log-name-thanks": "Часопіс падазяк",
 	"log-description-thanks": "Ніжэй прыведзены спіс удзельнікаў, якія атрымалі падзякі ад іншых удзельнікаў.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$4|удзельніку|ўдзельніцы}} $3",
