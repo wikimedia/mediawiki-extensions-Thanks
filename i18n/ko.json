@@ -13,7 +13,8 @@
 			"Alex00728",
 			"Hwangjy9",
 			"HDNua",
-			"Ykhwong"
+			"Ykhwong",
+			"In2acous"
 		]
 	},
 	"thanks-desc": "편집, 댓글 등등에 사용자에게 감사를 표하기 위한 링크를 추가합니다",
@@ -22,6 +23,7 @@
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|감사}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|감사를 표했습니다}}}}",
 	"thanks-error-undefined": "감사 표시 작업(오류 코드: $1)에 실패했습니다. 다시 시도하세요.",
+	"thanks-error-invalid-log-id": "기록 항목이 발견되지 않습니다",
 	"thanks-error-log-deleted": "요청된 기록 항목은 삭제되어 있으므로 이에 감사를 표할 수 없습니다.",
 	"thanks-error-invalidrevision": "판 ID가 올바르지 않습니다.",
 	"thanks-error-revdeleted": "판이 삭제됨",
@@ -31,7 +33,7 @@
 	"thanks-error-echonotinstalled": "Echo가 이 위키에 설치되어 있지 않습니다",
 	"thanks-error-notloggedin": "익명 사용자는 감사를 표할 수 없습니다",
 	"thanks-error-ratelimited": "{{GENDER:$1|당신은}} 속도 제한을 초과했습니다. 잠시 기다리고 나서 다시 시도하세요.",
-	"thanks-error-api-params": "'revid' 또는 'logid' 변수를 지정해야 합니다",
+	"thanks-error-api-params": "'revid' 또는 'logid' 변수는 반드시 지정해야 합니다",
 	"thanks-thank-tooltip": "이 {{GENDER:$2|사용자}}에게 감사의 알림을 {{GENDER:$1|보냅니다}}",
 	"thanks-thank-tooltip-no": "감사 알림을 {{GENDER:$1|취소}}",
 	"thanks-thank-tooltip-yes": "감사 알림을 {{GENDER:$1|보내기}}",
@@ -62,7 +64,8 @@
 	"notification-compact-header-flow-thank": "$1님이 {{GENDER:$3|당신}}에게 {{GENDER:$2|감사를 표했습니다}}.",
 	"apihelp-thank-description": "편집자에게 감사 알림을 보냅니다.",
 	"apihelp-thank-summary": "편집자에게 감사 알림을 보냅니다.",
-	"apihelp-thank-param-rev": "누군가에게 감사를 표할 판의 ID입니다.",
+	"apihelp-thank-param-rev": "누군가에게 감사를 표할 판의 ID입니다. 이것 또는 'log'는 반드시 제공되어야 합니다.",
+	"apihelp-thank-param-log": "누군가에게 감사를 표하는 로그 ID입니다. 이것 또는 'rev'는 반드시 지정되어야 합니다.",
 	"apihelp-thank-param-source": "이를테면 <kbd>diff</kbd> 또는 <kbd>history</kbd>처럼 요청의 원본을 기술하는 짧은 문자열입니다.",
 	"apihelp-thank-example-1": "diff 문서의 원본과 함께 <kbd>ID 456</kbd> 판에 대해 감사를 보냅니다."
 }
