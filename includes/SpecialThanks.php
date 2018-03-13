@@ -9,13 +9,14 @@ class SpecialThanks extends FormSpecialPage {
 	protected $result;
 
 	/**
-	 * 'rev' for revision or 'flow' for Flow comment, null if no ID is specified
+	 * 'rev' for revision, 'log' for log entry, or 'flow' for Flow comment,
+	 * null if no ID is specified
 	 * @var string $type
 	 */
 	protected $type;
 
 	/**
-	 * Revision ID ('0' = invalid) or Flow UUID
+	 * Revision or Log ID ('0' = invalid) or Flow UUID
 	 * @var string $id
 	 */
 	protected $id;
@@ -46,6 +47,14 @@ class SpecialThanks extends FormSpecialPage {
 				$this->type = 'flow';
 				$this->id = $tokens[1];
 			}
+		} elseif ( strtolower( $tokens[0] ) === 'log' ) {
+			$this->type = 'log';
+			// Make sure there's a numeric ID specified as the subpage.
+			if ( count( $tokens ) === 1 || $tokens[1] === '' || !( ctype_digit( $tokens[1] ) ) ) {
+				$this->id = '0';
+			} else {
+				$this->id = $tokens[1];
+			}
 		} else {
 			$this->type = 'rev';
 			if ( !( ctype_digit( $par ) ) ) { // Revision ID is not an integer.
@@ -62,13 +71,18 @@ class SpecialThanks extends FormSpecialPage {
 	 */
 	protected function getFormFields() {
 		return [
-			'revid' => [
-				'id' => 'mw-thanks-form-revid',
-				'name' => 'revid',
+			'id' => [
+				'id' => 'mw-thanks-form-id',
+				'name' => 'id',
 				'type' => 'hidden',
-				'label-message' => 'thanks-form-revid',
 				'default' => $this->id,
-			]
+			],
+			'type' => [
+				'id' => 'mw-thanks-form-type',
+				'name' => 'type',
+				'type' => 'hidden',
+				'default' => $this->type,
+			],
 		];
 	}
 
@@ -81,10 +95,12 @@ class SpecialThanks extends FormSpecialPage {
 			$msgKey = 'thanks-error-no-id-specified';
 		} elseif ( $this->type === 'rev' && $this->id === '0' ) {
 			$msgKey = 'thanks-error-invalidrevision';
+		} elseif ( $this->type === 'log' && $this->id === '0' ) {
+			$msgKey = 'thanks-error-invalid-log-id';
 		} elseif ( $this->type === 'flow' ) {
 			$msgKey = 'flow-thanks-confirmation-special';
 		} else {
-			$msgKey = 'thanks-confirmation-special';
+			$msgKey = 'thanks-confirmation-special-' . $this->type;
 		}
 		return '<p>' . $this->msg( $msgKey )->escaped() . '</p>';
 	}
@@ -94,7 +110,9 @@ class SpecialThanks extends FormSpecialPage {
 	 * @param HTMLForm $form The form object to modify.
 	 */
 	protected function alterForm( HTMLForm $form ) {
-		if ( $this->type === null || $this->type === 'rev' && $this->id === '0' ) {
+		if ( $this->type === null
+			|| ( in_array( $this->type, [ 'rev', 'log', ] ) && $this->id === '0' )
+		) {
 			$form->suppressDefaultSubmit( true );
 		} else {
 			$form->setSubmitText( $this->msg( 'thanks-submit' )->escaped() );
@@ -114,14 +132,14 @@ class SpecialThanks extends FormSpecialPage {
 	 * @return Status
 	 */
 	public function onSubmit( array $data ) {
-		if ( !isset( $data['revid'] ) ) {
+		if ( !isset( $data['id'] ) ) {
 			return Status::newFatal( 'thanks-error-invalidrevision' );
 		}
 
-		if ( $this->type === 'rev' ) {
+		if ( in_array( $this->type, [ 'rev', 'log' ] ) ) {
 			$requestData = [
 				'action' => 'thank',
-				'rev' => (int)$data['revid'],
+				$this->type => (int)$data['id'],
 				'source' => 'specialpage',
 				'token' => $this->getUser()->getEditToken(),
 			];
@@ -162,16 +180,16 @@ class SpecialThanks extends FormSpecialPage {
 		$recipient = User::newFromName( $this->result['recipient'] );
 		$link = Linker::userLink( $recipient->getId(), $recipient->getName() );
 
-		if ( $this->type === 'rev' ) {
-			$msgKey = 'thanks-thanked-notice';
+		if ( in_array( $this->type, [ 'rev', 'log' ] ) ) {
+			$msg = $this->msg( 'thanks-thanked-notice' )
+				->rawParams( $link )
+				->params( $sender->getName() );
 		} else {
-			$msgKey = 'flow-thanks-thanked-notice';
+			$msg = $this->msg( 'flow-thanks-thanked-notice' )
+				->rawParams( $link )
+				->params( $recipient->getName(), $sender->getName() );
 		}
-
-		$this->getOutput()->addHTML( $this->msg( $msgKey )
-			->rawParams( $link )
-			->params( $recipient->getName(), $sender->getName() )->parse()
-		);
+		$this->getOutput()->addHTML( $msg->parse() );
 	}
 
 	public function isListed() {
