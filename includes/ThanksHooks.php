@@ -123,17 +123,6 @@ class ThanksHooks {
 	}
 
 	/**
-	 * @param OutputPage $outputPage The OutputPage to add the module to.
-	 */
-	protected static function addThanksModule( OutputPage $outputPage ) {
-		$confirmationRequired = MediaWikiServices::getInstance()
-			->getMainConfig()
-			->get( 'ThanksConfirmationRequired' );
-		$outputPage->addModules( [ 'ext.thanks.corethank' ] );
-		$outputPage->addJsConfigVars( 'thanks-confirmation-required', $confirmationRequired );
-	}
-
-	/**
 	 * Handler for PageHistoryBeforeList hook.
 	 * @see http://www.mediawiki.org/wiki/Manual:Hooks/PageHistoryBeforeList
 	 * @param WikiPage|Article|ImagePage|CategoryPage|Page &$page The page for which the history
@@ -142,10 +131,14 @@ class ThanksHooks {
 	 * @return bool true in all cases
 	 */
 	public static function onPageHistoryBeforeList( &$page, $context ) {
+		global $wgThanksConfirmationRequired;
 		if ( class_exists( 'EchoNotifier' )
 			&& $context->getUser()->isLoggedIn()
 		) {
-			static::addThanksModule( $context->getOutput() );
+			// Load the module for the thank links
+			$context->getOutput()->addModules( [ 'ext.thanks.corethank' ] );
+			$context->getOutput()->addJsConfigVars( 'thanks-confirmation-required',
+				$wgThanksConfirmationRequired );
 		}
 		return true;
 	}
@@ -159,10 +152,14 @@ class ThanksHooks {
 	 * @return bool true in all cases
 	 */
 	public static function onDiffViewHeader( $diff, $oldRev, $newRev ) {
+		global $wgThanksConfirmationRequired;
 		if ( class_exists( 'EchoNotifier' )
 			&& $diff->getUser()->isLoggedIn()
 		) {
-			static::addThanksModule( $diff->getOutput() );
+			// Load the module for the thank link
+			$diff->getOutput()->addModules( [ 'ext.thanks.corethank' ] );
+			$diff->getOutput()->addJsConfigVars( 'thanks-confirmation-required',
+				$wgThanksConfirmationRequired );
 		}
 		return true;
 	}
@@ -308,13 +305,8 @@ class ThanksHooks {
 	 */
 	public static function onBeforePageDisplay( OutputPage $out, $skin ) {
 		$title = $out->getTitle();
-		// Add to Flow boards.
 		if ( $title instanceof Title && $title->hasContentModel( 'flow-board' ) ) {
 			$out->addModules( 'ext.thanks.flowthank' );
-		}
-		// Add to Special:Log.
-		if ( $title->isSpecial( 'Log' ) ) {
-			static::addThanksModule( $out );
 		}
 		return true;
 	}
@@ -366,41 +358,5 @@ class ThanksHooks {
 				break;
 		}
 		return true;
-	}
-
-	/**
-	 * @link https://www.mediawiki.org/wiki/Manual:Hooks/LogEventsListLineEnding
-	 * @param LogEventsList $page The log events list.
-	 * @param string &$ret The lineending HTML, to modify.
-	 * @param DatabaseLogEntry $entry The log entry.
-	 * @param string[] &$classes CSS classes to add to the line.
-	 * @param string[] &$attribs HTML attributes to add to the line.
-	 * @throws ConfigException
-	 */
-	public static function onLogEventsListLineEnding(
-		LogEventsList $page, &$ret, DatabaseLogEntry $entry, &$classes, &$attribs
-	) {
-		global $wgUser;
-
-		// Make sure this log type is whitelisted.
-		$logTypeWhitelist = MediaWikiServices::getInstance()
-			->getMainConfig()
-			->get( 'ThanksLogTypeWhitelist' );
-		if ( !in_array( $entry->getType(), $logTypeWhitelist ) ) {
-			return;
-		}
-
-		// If there is an associated revision ID, add a link to give thanks for that.
-		if ( $entry->getAssociatedRevId() ) {
-			// Create the thank element for the revision.
-			$revision = Revision::newFromId( $entry->getAssociatedRevId() );
-			static::insertThankLink( $revision, $links, null, $wgUser );
-			if ( !isset( $links[0] ) ) {
-				return;
-			}
-			// Add parentheses to match what's done with Thanks in revision lists and diff displays.
-			$ret .= ' ' . wfMessage( 'parentheses' )->rawParams( $links[0] )->escaped();
-			return;
-		}
 	}
 }
