@@ -179,9 +179,6 @@
 		],
 		"EchoGetBundleRules": [
 			"ThanksHooks::onEchoGetBundleRules"
-		],
-		"LogEventsListLineEnding": [
-			"ThanksHooks::onLogEventsListLineEnding"
 		]
 	},
 	"config": {
@@ -193,7 +190,6 @@
 			"delete",
 			"import",
 			"merge",
-			"move",
 			"patrol",
 			"protect",
 			"tag",
