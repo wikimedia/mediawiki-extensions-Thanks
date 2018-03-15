@@ -11,6 +11,8 @@
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Agradecer}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Agradecíu|Agradecida}}}}",
 	"thanks-error-undefined": "Falló l'aición d'agradecimientu (códigu d'error: $1). Vuelve a probar.",
+	"thanks-error-invalid-log-id": "Nun s'alcontró la entrada del rexistru",
+	"thanks-error-invalid-log-type": "El tipu de rexistru '$1' nun ta na llista blanca de tipos de rexistru permitíos.",
 	"thanks-error-invalidrevision": "La ID de la revisión nun ye válida.",
 	"thanks-error-revdeleted": "Desanicióse la revisión",
 	"thanks-error-notitle": "Nun pudo recuperase'l títulu de la páxina",
@@ -42,6 +44,7 @@
 	"thanks-error-no-id-specified": "Tienes d'especificar una ID de revisión pa unviar agradecimientos.",
 	"thanks-confirmation-special": "¿Quies agradecer públicamente esta edición?",
 	"notification-link-text-view-post": "Ver el comentariu",
+	"notification-link-text-view-logentry": "Ver entrada del rexistru",
 	"thanks-error-invalidpostid": "La ID de publicación nun ye válida.",
 	"flow-thanks-confirmation-special": "¿Quies agradecer públicamente esti comentariu?",
 	"flow-thanks-thanked-notice": "{{GENDER:$3|Agradecisti}} a $1 el {{GENDER:$2|so}} comentariu.",
@@ -55,7 +58,8 @@
 	"apihelp-flowthank-example-1": "Unviar un agradecimientu pol comentariu con <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Unviar una notificación d'agradecimientu a un editor.",
 	"apihelp-thank-summary": "Unviar una notificación d'agradecimientu a un editor.",
-	"apihelp-thank-param-rev": "ID de la revisión pola que dar les gracies a dalguién.",
+	"apihelp-thank-param-rev": "ID de la revisión pola que dar les gracies a dalguién. Tien de dase esto o 'log'.",
+	"apihelp-thank-param-log": "ID del rexistru pol que dar les gracies a dalguién. Tien de dase esto o 'rev'.",
 	"apihelp-thank-param-source": "Un testu curtiu que describa l'orixe de la solicitú. Por exemplu, <kbd>diff</kbd> o <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "Dar les gracies pola revisión con <kbd>ID 456</kbd>, siendo la fonte una páxina de diff"
 }

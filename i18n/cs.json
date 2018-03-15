@@ -16,6 +16,7 @@
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Poděkovat}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Poděkováno}}}}",
 	"thanks-error-undefined": "Poděkování se nezdařilo (kód chyby: $1). Zkuste to prosím znovu.",
+	"thanks-error-invalid-log-id": "Protokolovací záznam nebyl nalezen",
 	"thanks-error-log-deleted": "Požadovaný protokolovací záznam byl smazán a nemůže být za něj poděkováno.",
 	"thanks-error-invalidrevision": "ID revize je neplatné.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Překročil|Překročila|Překročili}} jste rychlostní limit. Počkejte prosím chvíli a zkuste to znovu.",
@@ -51,6 +52,6 @@
 	"notification-header-flow-thank": "$1 {{GENDER:$5|vám}} {{GENDER:$2|poděkoval|poděkovala}} za komentář k tématu „<strong>$3</strong>“.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|vám}} {{GENDER:$2|poděkoval|poděkovala}}.",
 	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Jeden člověk|$1 lidé|$1 lidí|100=Více než 99 lidí}} {{GENDER:$3|vám}} {{PLURAL:$1|poděkoval|poděkovali|poděkovalo}} za váš komentář k tématu „<strong>$2</strong>“.",
-	"apihelp-thank-param-rev": "ID revize, za kterou se má někomu poděkovat.",
+	"apihelp-thank-param-rev": "ID revize, za kterou se má někomu poděkovat. Toto nebo 'záznam' musí být uvedeno.",
 	"apihelp-thank-param-log": "Přihlašte ID, abyste někomu poděkovali. Toto nebo 'rev' musí být uvedeno."
 }
