@@ -20,7 +20,6 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|Send}} en takkemeddelelse til denne {{GENDER:$2|bruger}}",
 	"thanks-thanked-notice": "$1 fik at vide, at du kan lide {{GENDER:$2|hans|hendes|deres}} redigering.",
 	"thanks": "Send tak",
-	"thanks-form-revid": "Versions-ID for redigering",
 	"echo-pref-subscription-edit-thank": "Takker mig for min redigering",
 	"echo-pref-tooltip-edit-thank": "Giv mig besked, når nogen takker mig for en redigering jeg har lavet.",
 	"echo-category-title-edit-thank": "Tak!",

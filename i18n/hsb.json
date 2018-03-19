@@ -19,7 +19,6 @@
 	"thanks-confirmation2": "Chceš so za tule změnu zjawnje {{GENDER:$1|podźakować}}?",
 	"thanks-thanked-notice": "$1 je so {{GENDER:$1|informował|informowała}}, zo {{GENDER:$2|jeho|jeje}} změna je ći spodobała.",
 	"thanks": "Dźak pósłać",
-	"thanks-form-revid": "Wersijowy ID za změnu",
 	"echo-pref-subscription-edit-thank": "Dźakuje so mi za moju změnu",
 	"echo-pref-tooltip-edit-thank": "Informuj mje, hdyž něchtó dźakuje so mje za změnu, kotruž sym činił.",
 	"echo-category-title-edit-thank": "Wulki dźak",

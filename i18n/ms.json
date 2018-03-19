@@ -31,7 +31,6 @@
 	"logentry-thanks-thank": "$1 ucap terima kasih kepada $3",
 	"log-show-hide-thanks": "$1 log ucapan terima kasih",
 	"thanks-error-no-id-specified": "Anda hendaklah menyatakan ID semakan untuk mengirim ucapan terima kasih.",
-	"thanks-confirmation-special": "Adakah anda mahu mengirim ucapan terima kasih atas suntingan ini?",
 	"notification-link-text-view-post": "Lihat ulasan",
 	"thanks-error-invalidpostid": "ID kiriam tak sah.",
 	"flow-thanks-confirmation-special": "Adakah anda mahu mengirim ucapan terima kasih atas ulasan ini?",

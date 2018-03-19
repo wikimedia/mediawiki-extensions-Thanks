@@ -16,7 +16,6 @@
 	"thanks-confirmation2": "Tote le regratiamentos es public. {{GENDER:$1|Inviar}} un regratiamento?",
 	"thanks-thanked-notice": "$1 ha recipite tu regratiamento pro {{GENDER:$2|su}} modification.",
 	"thanks": "Inviar regratiamento",
-	"thanks-form-revid": "ID de version del modification",
 	"echo-pref-subscription-edit-thank": "Me regratia pro mi modification",
 	"echo-pref-tooltip-edit-thank": "Notificar me quando un persona me regratia pro un modification que io ha facite.",
 	"echo-category-title-edit-thank": "Regratiamentos",
@@ -26,7 +25,6 @@
 	"logentry-thanks-thank": "$1 {{GENDER:$2|regratiava}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 registro de regratiamentos",
 	"thanks-error-no-id-specified": "Tu debe specificar le ID de un version pro inviar un regratiamento.",
-	"thanks-confirmation-special": "Vole tu regratiar publicamente le autor de iste modification?",
 	"thanks-error-invalidpostid": "Le ID del message non es valide.",
 	"flow-thanks-confirmation-special": "Vole tu regratiar publicamente le autor de iste commento?",
 	"flow-thanks-thanked-notice": "$1 ha recipite tu regratiamento pro {{GENDER:$2|su}} commento."

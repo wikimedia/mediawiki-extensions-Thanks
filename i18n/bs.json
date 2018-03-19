@@ -28,7 +28,6 @@
 	"thanks-thanked-notice": "$1 je {{GENDER:$2|primio|primila}} Vašu zahvalnicu.",
 	"thanks": "Zahvali se",
 	"thanks-submit": "Zahvali se",
-	"thanks-form-revid": "ID verzije izmjene",
 	"echo-pref-subscription-edit-thank": "Neko mi se zahvali za moju izmjenu",
 	"echo-pref-tooltip-edit-thank": "Obavijesti me ako mi se neko zahvali za moju izmjenu.",
 	"echo-category-title-edit-thank": "Zahvale",
@@ -40,7 +39,6 @@
 	"logentry-thanks-thank": "$1 {{GENDER:$2|zahvalio|zahvalila}} se {{GENDER:$4|korisniku|korisnici}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 zapisnik zahvala",
 	"thanks-error-no-id-specified": "Morate navesti ID izmjene za koju se želite zahvaliti.",
-	"thanks-confirmation-special": "Želite se javno zahvaliti za ovu izmjenu?",
 	"notification-link-text-view-post": "Pogledaj komentar",
 	"thanks-error-invalidpostid": "ID objave nije ispravan.",
 	"flow-thanks-confirmation-special": "Želite se javno zahvaliti za ovaj komentar?"

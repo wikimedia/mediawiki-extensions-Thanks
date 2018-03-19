@@ -8,7 +8,8 @@
 			"PoLuX124",
 			"Sethladan",
 			"Themasterriot",
-			"Macofe"
+			"Macofe",
+			"MarcoAurelio"
 		]
 	},
 	"thanks-desc": "Añade enlaces para agradecer a los usuarios por ediciones, comentarios, etc.",
@@ -17,6 +18,8 @@
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Agradecer}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Agradecido|Agradecida}}}}",
 	"thanks-error-undefined": "La acción de agradecimiento falló (código de error: $1). Inténtalo de nuevo.",
+	"thanks-error-invalid-log-id": "No se ha encontrado la entrada en el registro",
+	"thanks-error-invalid-log-type": "El tipo de registro «$1» no se encuentra en la lista blanca de tipos permitidos.",
 	"thanks-error-invalidrevision": "El id. de revisión no es válido.",
 	"thanks-error-revdeleted": "Se ha eliminado la revisión",
 	"thanks-error-notitle": "No se pudo recuperar el título de la página",
@@ -34,7 +37,6 @@
 	"thanks-thanked-notice": "{{GENDER:$3|Agradeciste}} a $1 por {{GENDER:$2|su}} edición.",
 	"thanks": "Enviar agradecimiento",
 	"thanks-submit": "Enviar agradecimiento",
-	"thanks-form-revid": "Identificador de la revisión",
 	"echo-pref-subscription-edit-thank": "Me agradece por mi edición",
 	"echo-pref-tooltip-edit-thank": "Notificarme cuando alguien me agradezca por una edición que haya realizado.",
 	"echo-category-title-edit-thank": "Agradecimientos",
@@ -47,7 +49,6 @@
 	"logentry-thanks-thank": "$1 {{GENDER:$2|agradeció}} a {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 registro de agradecimientos",
 	"thanks-error-no-id-specified": "Debes especificar un identificador de revisión para agradecer.",
-	"thanks-confirmation-special": "¿Deseas agradecer públicamente esta edición?",
 	"notification-link-text-view-post": "Ver comentario",
 	"notification-link-text-view-logentry": "Ver entrada de registro",
 	"thanks-error-invalidpostid": "El identificador de publicación no es válido.",

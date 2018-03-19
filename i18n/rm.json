@@ -12,6 +12,5 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|Engraziar}} quest {{GENDER:$2|utilisader}}",
 	"thanks-confirmation2": "{{GENDER:$1|Engraziar}} publicamain per questa contribuziun?",
 	"log-name-thanks": "Protocol d'engraziaments",
-	"log-show-hide-thanks": "$1 il protocol d'engraziaments",
-	"thanks-confirmation-special": "Lessas ti engraziar publicamain per questa contribuziun?"
+	"log-show-hide-thanks": "$1 il protocol d'engraziaments"
 }

@@ -16,7 +16,6 @@
 	"thanks-confirmation2": "Tutte le rengraziaminde so pubbleche. {{GENDER:$1|Manne}} le rengraziaminde?",
 	"thanks-thanked-notice": "{{GENDER:$3|E'}} ditte grazie a $1 pu cangiamende {{GENDER:$2|sue|sue|lore}}.",
 	"thanks": "Manne le rengraziaminde",
-	"thanks-form-revid": "ID d'a revisione pu cangiamende",
 	"echo-pref-subscription-edit-thank": "Ringraziame pu cangiamende mije",
 	"echo-pref-tooltip-edit-thank": "Notificame quanne quacchedune me ringrazie pe 'nu cangiamende ca agghie fatte.",
 	"echo-category-title-edit-thank": "Grazie!",

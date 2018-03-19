@@ -30,7 +30,6 @@
 	"log-description-thanks": "Ստորև «շնորհակալություներ» ստացած մասնակիցների ցանկն է։",
 	"logentry-thanks-thank": "$1 մասնակիցը {{GENDER:$2|շնորհակալություն է}} հայտնել {{GENDER:$4|$3}} մասնակցին",
 	"log-show-hide-thanks": "$1 շնորհակալությունների գրանցամատյան",
-	"thanks-confirmation-special": "Ուզո՞ւմ եք շնորհակալություն հայտնել այս խմբագրման համար:",
 	"notification-link-text-view-post": "Դիտել մեկնաբանությունը",
 	"flow-thanks-confirmation-special": "Ուզո՞ւմ եք շնորհակալություն հայտնել այս մեկնաբանման համար:",
 	"notification-flow-thanks-post-link": "Ձեր մեկնաբանությունը"

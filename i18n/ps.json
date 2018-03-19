@@ -19,7 +19,6 @@
 	"thanks-thanked-notice": "$1 د {{GENDER:$2|هغه|هغې|هغوی}} سمونونو پخاطر ستاسې مننه ترلاسه کړه.",
 	"thanks": "مننه لېږل",
 	"thanks-submit": "مننه لېږل",
-	"thanks-form-revid": "د سمون د مخکتنې پېژند",
 	"echo-pref-subscription-edit-thank": "زه د سمون پخاطر زما منندوی شه",
 	"echo-pref-tooltip-edit-thank": "خبر مې کړه کله چې يو څوک زما د يو سمون په خاطر له ما څخه مننه کوي.",
 	"echo-category-title-edit-thank": "مننه",
