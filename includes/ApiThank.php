@@ -48,17 +48,18 @@ abstract class ApiThank extends ApiBase {
 	 */
 	protected function haveAlreadyThanked( User $thanker, $uniqueId ) {
 		$dbw = wfGetDB( DB_MASTER );
+		$logWhere = ActorMigration::newMigration()->getWhere( $dbw, 'log_user', $thanker );
 		return (bool)$dbw->selectRow(
-			[ 'log_search', 'logging' ],
+			[ 'log_search', 'logging' ] + $logWhere['tables'],
 			[ 'ls_value' ],
 			[
-				'log_user' => $thanker->getId(),
+				$logWhere['conds'],
 				'ls_field' => 'thankid',
 				'ls_value' => $uniqueId,
 			],
 			__METHOD__,
 			[],
-			[ 'logging' => [ 'INNER JOIN', 'ls_log_id=log_id' ] ]
+			[ 'logging' => [ 'INNER JOIN', 'ls_log_id=log_id' ] ] + $logWhere['joins']
 		);
 	}
 
