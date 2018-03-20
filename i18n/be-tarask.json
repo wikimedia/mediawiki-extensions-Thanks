@@ -17,7 +17,7 @@
 	"thanks-error-ratelimited": "{{GENDER:$1|Вы}} перавысілі абмежаваньне хуткасьці выкананьня. Калі ласка, пачакайце крыху і паўтарыце спробу.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Адаслаць}} {{GENDER:$2|гэтаму карыстальніку|гэтай карыстальніцы}} падзяку",
 	"thanks-confirmation2": "Усе падзякі зьяўляюцца публічнымі. {{GENDER:$1|Даслаць}} падзяку?",
-	"thanks-thanked-notice": "{{GENDER:$3|Вы}} падзякавалі $1 за {{GENDER:$2|яго|яе|іх}} праўку.",
+	"thanks-thanked-notice": "{{GENDER:$2|Вы}} падзякавалі $1.",
 	"thanks": "Даслаць падзяку",
 	"echo-pref-subscription-edit-thank": "Дзякуе мне за маю праўку",
 	"echo-pref-tooltip-edit-thank": "Паведаміць мне, калі нехта дзякуе за мае праўкі.",

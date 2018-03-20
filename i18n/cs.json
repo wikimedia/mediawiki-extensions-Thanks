@@ -24,7 +24,7 @@
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Stornovat}} oznámení o poděkování",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Poslat}} oznámení o poděkování",
 	"thanks-confirmation2": "Všechna poděkování jsou veřejná. {{GENDER:$1|Poslat}} poděkování?",
-	"thanks-thanked-notice": "{{GENDER:$2|Uživatel|Uživatelka|Uživatel(ka)}} $1 {{GENDER:$2|obdržel|obdržela|obdržel(a)}} {{GENDER:$3|vaše}} poděkování za svoji editaci.",
+	"thanks-thanked-notice": "{{GENDER:$2|Poděkoval|Poděkovala|Poděkovali}} jste uživateli $1.",
 	"thanks": "Poslat poděkování",
 	"thanks-submit": "Poslat poděkování",
 	"echo-pref-subscription-edit-thank": "…mi někdo poděkuje za editaci",
@@ -50,6 +50,6 @@
 	"notification-header-flow-thank": "$1 {{GENDER:$5|vám}} {{GENDER:$2|poděkoval|poděkovala}} za komentář k tématu „<strong>$3</strong>“.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|vám}} {{GENDER:$2|poděkoval|poděkovala}}.",
 	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Jeden člověk|$1 lidé|$1 lidí|100=Více než 99 lidí}} {{GENDER:$3|vám}} {{PLURAL:$1|poděkoval|poděkovali|poděkovalo}} za váš komentář k tématu „<strong>$2</strong>“.",
-	"apihelp-thank-param-rev": "ID revize, za kterou se má někomu poděkovat. Toto nebo 'záznam' musí být uvedeno.",
+	"apihelp-thank-param-rev": "ID revize, za kterou se má někomu poděkovat. Toto nebo 'log' musí být uvedeno.",
 	"apihelp-thank-param-log": "ID záznamu, za který se má poděkovat. Nutné uvést buď toto, nebo 'rev'."
 }
