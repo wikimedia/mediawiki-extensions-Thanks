@@ -29,7 +29,16 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 
 		// You can't thank yourself, kind of hacky but just use this other user
 		$this->doLogin( 'uploader' );
-		$result = $this->editPage( __CLASS__ . rand( 0, 100 ), __CLASS__ . rand( 0, 100 ) );
+
+		$pageName = __CLASS__;
+		$content = __CLASS__;
+		$pageTitle = Title::newFromText( $pageName );
+		// If the page already exists, delete it, otherwise our edit will not result in a new revision
+		if ( $pageTitle->exists() ) {
+			$wikiPage = WikiPage::factory( $pageTitle );
+			$wikiPage->doDeleteArticleReal( '' );
+		}
+		$result = $this->editPage( $pageName, $content );
 		/** @var Status $result */
 		$result = $result->getValue();
 		/** @var Revision $revision */
