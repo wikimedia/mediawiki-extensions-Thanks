@@ -28,7 +28,7 @@
 	"thanks-thank-tooltip-no": "{{GENDER:$1|ביטול}} הודעת התודה",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|שליחת}} הודעת תודה",
 	"thanks-confirmation2": "כל התודות מוצגות באופן ציבורי. {{GENDER:$1|לשלוח}} תודה?",
-	"thanks-thanked-notice": "{{GENDER:$3|הודית}} ל{{GRAMMAR:תחילית|$1}} על העריכה {{GENDER:$2|שלו|שלה}}",
+	"thanks-thanked-notice": "{{GENDER:$2|הודית}} ל־$1.",
 	"thanks": "שליחת תודה",
 	"thanks-submit": "שליחת תודה",
 	"echo-pref-subscription-edit-thank": "מודה לי על עריכה שלי",

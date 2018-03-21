@@ -8,7 +8,8 @@
 			"Dinhxuanduyet",
 			"KhangND",
 			"Nguyên Lê",
-			"Macofe"
+			"Macofe",
+			"Harriettruong3"
 		]
 	},
 	"thanks-desc": "Thêm các liên kết để cảm ơn người dùng vì sửa đổi, bình luận, v.v.",
@@ -45,6 +46,8 @@
 	"logentry-thanks-thank": "$1 {{GENDER:$2}}đã cảm ơn {{GENDER:$4}}$3",
 	"log-show-hide-thanks": "$1 nhật trình cảm ơn",
 	"thanks-error-no-id-specified": "Bạn phải định rõ số phiên bản để gửi cảm ơn.",
+	"thanks-confirmation-special-log": "Bạn có muốn công khai cám ơn cho hành động này không?",
+	"thanks-confirmation-special-rev": "Bạn có muốn cám ơn một cách công khai về sửa đổi này không?",
 	"notification-link-text-view-post": "Xem bình luận",
 	"thanks-error-invalidpostid": "Số bài đăng không hợp lệ.",
 	"flow-thanks-confirmation-special": "Bạn có muốn gửi lời cảm ơn cho lời bình luận này?",
