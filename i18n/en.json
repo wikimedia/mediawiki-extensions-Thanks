@@ -27,7 +27,7 @@
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Cancel}} the thank you notification",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Send}} the thank you notification",
 	"thanks-confirmation2": "All thanks are public. {{GENDER:$1|Send}} thanks?",
-	"thanks-thanked-notice": "{{GENDER:$2|You}} thanked $1.",
+	"thanks-thanked-notice": "{{GENDER:$3|You}} thanked {{GENDER:$2|$1}}.",
 	"thanks": "Send thanks",
 	"thanks-submit": "Send thanks",
 	"echo-pref-subscription-edit-thank": "Thanks me for my edit",
