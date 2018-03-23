@@ -28,7 +28,7 @@
 	"thanks-error-invalid-log-id": "기록 항목이 발견되지 않습니다",
 	"thanks-error-log-deleted": "요청된 기록 항목은 삭제되어 있으므로 이에 감사를 표할 수 없습니다.",
 	"thanks-error-invalidrevision": "판 ID가 올바르지 않습니다.",
-	"thanks-error-revdeleted": "판이 삭제됨",
+	"thanks-error-revdeleted": "판이 삭제되었기 때문에 감사를 표할 수 없습니다.",
 	"thanks-error-notitle": "페이지 제목을 찾을 수 없습니다",
 	"thanks-error-invalidrecipient-bot": "봇은 감사를 받을 수 없습니다",
 	"thanks-error-invalidrecipient-self": "자기 자신에게 감사를 표할 수 없습니다",

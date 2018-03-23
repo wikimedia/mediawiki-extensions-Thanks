@@ -25,7 +25,7 @@
 	"thanks-error-invalid-log-type": "Der Logbuchtyp „$1“ ist nicht in der weißen Liste der erlaubten Logbuchtypen.",
 	"thanks-error-log-deleted": "Der gewünschte Logbucheintrag wurde gelöscht und Dankeschöns können nicht für ihn vergeben werden.",
 	"thanks-error-invalidrevision": "Die Versionskennung ist ungültig.",
-	"thanks-error-revdeleted": "Die Version wurde gelöscht",
+	"thanks-error-revdeleted": "Es können keine Dankeschöns versandt werden, da die Version gelöscht wurde.",
 	"thanks-error-notitle": "Der Seitentitel konnte nicht abgerufen werden",
 	"thanks-error-invalidrecipient": "Keinen gültigen Empfänger gefunden",
 	"thanks-error-invalidrecipient-bot": "Bots kann nicht gedankt werden",

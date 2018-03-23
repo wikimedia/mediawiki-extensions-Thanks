@@ -28,7 +28,7 @@
 	"thanks-error-invalid-log-type": "日志类型“$1”没有在允许的日志类型白名单中。",
 	"thanks-error-log-deleted": "请求的日志记录已删除，且不能给它提供感谢。",
 	"thanks-error-invalidrevision": "版本ID无效。",
-	"thanks-error-revdeleted": "修订版本已删除",
+	"thanks-error-revdeleted": "无法发送感谢，因为修订版本已删除。",
 	"thanks-error-notitle": "页面标题无法取回",
 	"thanks-error-invalidrecipient": "找不到有效的接收者",
 	"thanks-error-invalidrecipient-bot": "机器人不能被感谢",
