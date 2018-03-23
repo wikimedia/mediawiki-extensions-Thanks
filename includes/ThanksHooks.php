@@ -60,7 +60,7 @@ class ThanksHooks {
 			&& !$rev->isDeleted( Revision::DELETED_TEXT )
 			&& ( !$oldRev || $rev->getParentId() == $oldRev->getId() )
 		) {
-			$links[] = self::generateThankElement( $rev, $recipient );
+			$links[] = self::generateThankElement( $rev->getId(), $recipient );
 		}
 		return true;
 	}
@@ -88,14 +88,14 @@ class ThanksHooks {
 	/**
 	 * Helper for self::insertThankLink
 	 * Creates either a thank link or thanked span based on users session
-	 * @param Revision $rev Revision object to generate the thank element for
+	 * @param int $revId Revision ID to generate the thank element for.
 	 * @param User $recipient User who receives thanks notification
 	 * @return string
 	 */
-	protected static function generateThankElement( $rev, $recipient ) {
+	protected static function generateThankElement( $revId, $recipient ) {
 		global $wgUser;
 		// User has already thanked for revision
-		if ( $wgUser->getRequest()->getSessionData( "thanks-thanked-{$rev->getId()}" ) ) {
+		if ( $wgUser->getRequest()->getSessionData( "thanks-thanked-$revId" ) ) {
 			return Html::element(
 				'span',
 				[ 'class' => 'mw-thanks-thanked' ],
@@ -113,13 +113,24 @@ class ThanksHooks {
 			'a',
 			[
 				'class' => 'mw-thanks-thank-link',
-				'href' => SpecialPage::getTitleFor( 'Thanks', $rev->getId() )->getFullURL(),
+				'href' => SpecialPage::getTitleFor( 'Thanks', $revId )->getFullURL(),
 				'title' => $tooltip,
-				'data-revision-id' => $rev->getId(),
+				'data-revision-id' => $revId,
 				'data-recipient-gender' => $genderCache->getGenderOf( $recipient->getName(), __METHOD__ ),
 			],
 			wfMessage( 'thanks-thank', $wgUser, $recipient->getName() )->text()
 		);
+	}
+
+	/**
+	 * @param OutputPage $outputPage The OutputPage to add the module to.
+	 */
+	protected static function addThanksModule( OutputPage $outputPage ) {
+		$confirmationRequired = MediaWikiServices::getInstance()
+			->getMainConfig()
+			->get( 'ThanksConfirmationRequired' );
+		$outputPage->addModules( [ 'ext.thanks.corethank' ] );
+		$outputPage->addJsConfigVars( 'thanks-confirmation-required', $confirmationRequired );
 	}
 
 	/**
@@ -131,14 +142,10 @@ class ThanksHooks {
 	 * @return bool true in all cases
 	 */
 	public static function onPageHistoryBeforeList( &$page, $context ) {
-		global $wgThanksConfirmationRequired;
 		if ( class_exists( 'EchoNotifier' )
 			&& $context->getUser()->isLoggedIn()
 		) {
-			// Load the module for the thank links
-			$context->getOutput()->addModules( [ 'ext.thanks.corethank' ] );
-			$context->getOutput()->addJsConfigVars( 'thanks-confirmation-required',
-				$wgThanksConfirmationRequired );
+			static::addThanksModule( $context->getOutput() );
 		}
 		return true;
 	}
@@ -152,14 +159,10 @@ class ThanksHooks {
 	 * @return bool true in all cases
 	 */
 	public static function onDiffViewHeader( $diff, $oldRev, $newRev ) {
-		global $wgThanksConfirmationRequired;
 		if ( class_exists( 'EchoNotifier' )
 			&& $diff->getUser()->isLoggedIn()
 		) {
-			// Load the module for the thank link
-			$diff->getOutput()->addModules( [ 'ext.thanks.corethank' ] );
-			$diff->getOutput()->addJsConfigVars( 'thanks-confirmation-required',
-				$wgThanksConfirmationRequired );
+			static::addThanksModule( $diff->getOutput() );
 		}
 		return true;
 	}
@@ -305,8 +308,13 @@ class ThanksHooks {
 	 */
 	public static function onBeforePageDisplay( OutputPage $out, $skin ) {
 		$title = $out->getTitle();
+		// Add to Flow boards.
 		if ( $title instanceof Title && $title->hasContentModel( 'flow-board' ) ) {
 			$out->addModules( 'ext.thanks.flowthank' );
+		}
+		// Add to Special:Log.
+		if ( $title->isSpecial( 'Log' ) ) {
+			static::addThanksModule( $out );
 		}
 		return true;
 	}
@@ -358,5 +366,55 @@ class ThanksHooks {
 				break;
 		}
 		return true;
+	}
+
+	/**
+	 * @link https://www.mediawiki.org/wiki/Manual:Hooks/LogEventsListLineEnding
+	 * @param LogEventsList $page The log events list.
+	 * @param string &$ret The lineending HTML, to modify.
+	 * @param DatabaseLogEntry $entry The log entry.
+	 * @param string[] &$classes CSS classes to add to the line.
+	 * @param string[] &$attribs HTML attributes to add to the line.
+	 * @throws ConfigException
+	 */
+	public static function onLogEventsListLineEnding(
+		LogEventsList $page, &$ret, DatabaseLogEntry $entry, &$classes, &$attribs
+	) {
+		global $wgUser;
+
+		// Don't thank if anonymous or Echo is not installed.
+		if ( !class_exists( 'EchoNotifier' ) || $wgUser->isAnon() || $wgUser->isBlocked() ) {
+			return;
+		}
+
+		// Make sure this log type is whitelisted.
+		$logTypeWhitelist = MediaWikiServices::getInstance()
+			->getMainConfig()
+			->get( 'ThanksLogTypeWhitelist' );
+		if ( !in_array( $entry->getType(), $logTypeWhitelist ) ) {
+			return;
+		}
+
+		// If there is an associated revision ID, add a link to give thanks for that.
+		if ( $entry->getAssociatedRevId() ) {
+			$recipient = $entry->getPerformer();
+
+			// Don't thank if no recipient,
+			// or if recipient is the current user or unable to receive thanks.
+			// Don't check for deleted revision (this avoids extraneous queries from Special:Log).
+			if ( !$recipient
+				|| $recipient->getId() === $wgUser->getId()
+				|| !self::canReceiveThanks( $recipient )
+			) {
+				return;
+			}
+
+			// Create thank link.
+			$thankLink = self::generateThankElement( $entry->getAssociatedRevId(), $recipient );
+
+			// Add parentheses to match what's done with Thanks in revision lists and diff displays.
+			$ret .= ' ' . wfMessage( 'parentheses' )->rawParams( $thankLink )->escaped();
+			return;
+		}
 	}
 }

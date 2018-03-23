@@ -14,7 +14,7 @@
 	"thanks-error-invalid-log-type": "Log type '$1' is not in the whitelist of permitted log types.",
 	"thanks-error-log-deleted": "The requested log entry has been deleted and thanks cannot be given for it.",
 	"thanks-error-invalidrevision": "Revision ID is not valid.",
-	"thanks-error-revdeleted": "Revision has been deleted",
+	"thanks-error-revdeleted": "Unable to send thanks because the revision has been deleted.",
 	"thanks-error-notitle": "Page title could not be retrieved",
 	"thanks-error-invalidrecipient": "No valid recipient found",
 	"thanks-error-invalidrecipient-bot": "Bots cannot be thanked",
