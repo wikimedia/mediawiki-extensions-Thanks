@@ -69,7 +69,7 @@
 	"log-show-hide-thanks": "$1 le journal des remerciements",
 	"thanks-error-no-id-specified": "Vous devez spécifier un ID de révision ou de journal pour envoyer des remerciements.",
 	"thanks-confirmation-special-log": "Voulez-vous envoyer publiquement des remerciements pour cette action du journal ?",
-	"thanks-confirmation-special-rev": "Voulez-vous envoyer publiquement des remerciements pour cette modification ?",
+	"thanks-confirmation-special-rev": "Voulez-vous envoyer publiquement des remerciements pour cette modification ?",
 	"notification-link-text-view-post": "Afficher le commentaire",
 	"notification-link-text-view-logentry": "Afficher l’entrée du journal",
 	"thanks-error-invalidpostid": "L’ID de la note n’est pas valide.",

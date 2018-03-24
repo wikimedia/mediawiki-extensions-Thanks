@@ -8,7 +8,8 @@
 			"Sujiniku",
 			"Otokoume",
 			"Marine-Blue",
-			"Macofe"
+			"Macofe",
+			"Omotecho"
 		]
 	},
 	"thanks-desc": "利用者の編集やコメントなどに感謝を示すリンクを追加する",
@@ -18,7 +19,7 @@
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|感謝を示しました}}}}",
 	"thanks-error-undefined": "感謝の操作に失敗しました (エラーコード: $1)。もう一度やり直してください。",
 	"thanks-error-invalidrevision": "版 ID が無効です。",
-	"thanks-error-revdeleted": "指定した版は削除されています",
+	"thanks-error-revdeleted": "指定した版が削除されたため感謝を送れません",
 	"thanks-error-notitle": "ページ名を取得できませんでした",
 	"thanks-error-invalidrecipient-bot": "ボットに感謝することはできません",
 	"thanks-error-invalidrecipient-self": "自分自身を感謝することはできません",
@@ -28,8 +29,8 @@
 	"thanks-thank-tooltip": "この{{GENDER:$2|利用者}}に感謝の通知を{{GENDER:$1|送信する}}",
 	"thanks-thank-tooltip-no": "感謝の通知の送信を{{GENDER:$1|取り消し}}ました。",
 	"thanks-thank-tooltip-yes": "感謝の通知を{{GENDER:$1|送信}}しました。",
-	"thanks-confirmation2": "この編集への感謝を公に{{GENDER:$1|示しますか}}?",
-	"thanks-thanked-notice": "{{GENDER:$3|あなた}}が $1 の編集に感謝を示したことを{{GENDER:$2|本人}}に通知しました。",
+	"thanks-confirmation2": "感謝はすべて公開です。感謝を{{GENDER:$1|示しますか}}?",
+	"thanks-thanked-notice": "{{GENDER:$2|あなた}}から$1の編集に感謝を示しました。",
 	"thanks": "感謝を示す",
 	"thanks-submit": "感謝を示す",
 	"echo-pref-subscription-edit-thank": "自分の編集に誰かが感謝を示したとき",
@@ -43,7 +44,7 @@
 	"log-description-thanks": "以下に、他の利用者から感謝を示された利用者を列挙します。",
 	"logentry-thanks-thank": "$1 が {{GENDER:$4|$3}} に{{GENDER:$2|感謝を示しました}}",
 	"log-show-hide-thanks": "感謝記録を$1",
-	"thanks-error-no-id-specified": "感謝を示す版の ID を指定してください。",
+	"thanks-error-no-id-specified": "感謝を示す版もしくはログ IDを指定してください。",
 	"notification-link-text-view-post": "コメントを閲覧",
 	"thanks-error-invalidpostid": "投稿 ID が無効です。",
 	"flow-thanks-confirmation-special": "このコメントに公に感謝を示しますか?",
