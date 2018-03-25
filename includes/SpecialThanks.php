@@ -181,14 +181,13 @@ class SpecialThanks extends FormSpecialPage {
 		$link = Linker::userLink( $recipient->getId(), $recipient->getName() );
 
 		if ( in_array( $this->type, [ 'rev', 'log' ] ) ) {
-			$msg = $this->msg( 'thanks-thanked-notice' )
-				->rawParams( $link )
-				->params( $sender->getName() );
+			$msgKey = 'thanks-thanked-notice';
 		} else {
-			$msg = $this->msg( 'flow-thanks-thanked-notice' )
-				->rawParams( $link )
-				->params( $recipient->getName(), $sender->getName() );
+			$msgKey = 'flow-thanks-thanked-notice';
 		}
+		$msg = $this->msg( $msgKey )
+			->rawParams( $link )
+			->params( $recipient->getName(), $sender->getName() );
 		$this->getOutput()->addHTML( $msg->parse() );
 	}
 
