@@ -23,7 +23,7 @@
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Annulla}} la notifica di ringraziamento",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Invia}} la notifica di ringraziamento",
 	"thanks-confirmation2": "Tutti i ringraziamenti sono pubblici. Vuoi {{GENDER:$1|inviare}} un ringraziamento?",
-	"thanks-thanked-notice": "{{GENDER:$2|Hai ringraziato}} $1.",
+	"thanks-thanked-notice": "{{GENDER:$3|Hai ringraziato}} {{GENDER:$2|$1}}.",
 	"thanks": "Invia ringraziamento",
 	"thanks-submit": "Invia ringraziamento",
 	"echo-pref-subscription-edit-thank": "Mi ringrazia per una mia modifica",

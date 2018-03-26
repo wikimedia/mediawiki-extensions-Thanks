@@ -41,7 +41,7 @@
 	"thanks-thank-tooltip-no": "{{GENDER:$1|取消}}感谢您的通知",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|发送}}感谢您的通知",
 	"thanks-confirmation2": "所有感谢都是公开的。{{GENDER:$1|发送}}感谢么？",
-	"thanks-thanked-notice": "{{GENDER:$2|您}}感谢了$1。",
+	"thanks-thanked-notice": "{{GENDER:$3|您}}感谢了{{GENDER:$2|$1}}。",
 	"thanks": "发送感谢",
 	"thanks-submit": "发送感谢",
 	"echo-pref-subscription-edit-thank": "对我的编辑的感谢",

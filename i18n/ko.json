@@ -16,7 +16,8 @@
 			"Ykhwong",
 			"In2acous",
 			"Garam",
-			"Ellif"
+			"Ellif",
+			"Nuevo Paso"
 		]
 	},
 	"thanks-desc": "편집, 댓글 등등에 사용자에게 감사를 표하기 위한 링크를 추가합니다",
@@ -40,7 +41,7 @@
 	"thanks-thank-tooltip-no": "감사 알림을 {{GENDER:$1|취소}}",
 	"thanks-thank-tooltip-yes": "감사 알림을 {{GENDER:$1|보내기}}",
 	"thanks-confirmation2": "모든 감사 표현은 공개됩니다. 감사를 {{GENDER:$1|표현하시겠습니까}}?",
-	"thanks-thanked-notice": "{{GENDER:$2|내가}} $1님께 감사했습니다.",
+	"thanks-thanked-notice": "{{GENDER:$3|내가}}{{GENDER:$2|$1}}님께 감사를 표했습니다.",
 	"thanks": "감사 표현하기",
 	"thanks-submit": "감사 표현하기",
 	"echo-pref-subscription-edit-thank": "내 편집에 대해 감사를 표했습니다",
