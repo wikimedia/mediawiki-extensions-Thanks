@@ -21,7 +21,7 @@
 	"thanks-error-invalid-log-id": "No se ha encontrado la entrada en el registro",
 	"thanks-error-invalid-log-type": "El tipo de registro «$1» no se encuentra en la lista blanca de tipos permitidos.",
 	"thanks-error-invalidrevision": "El id. de revisión no es válido.",
-	"thanks-error-revdeleted": "Se ha eliminado la revisión",
+	"thanks-error-revdeleted": "No se puede enviar el agradecimiento porque se eliminó la revisión.",
 	"thanks-error-notitle": "No se pudo recuperar el título de la página",
 	"thanks-error-invalidrecipient": "No se encontró un destinatario válido",
 	"thanks-error-invalidrecipient-bot": "No se puede agradecer a bots",
