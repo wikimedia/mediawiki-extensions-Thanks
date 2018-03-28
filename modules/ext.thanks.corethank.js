@@ -5,7 +5,7 @@
 		$( 'a.mw-thanks-thank-link' ).each( function ( idx, el ) {
 			var $thankLink = $( el );
 			if ( mw.thanks.thanked.contains( $thankLink ) ) {
-				$thankLink.before( mw.msg( 'thanks-thanked' ) );
+				$thankLink.before( mw.message( 'thanks-thanked', mw.user, $thankLink.data( 'recipient-gender' ) ).escaped() );
 				$thankLink.remove();
 			}
 		} );
