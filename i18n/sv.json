@@ -37,7 +37,7 @@
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Avbryt}} tackmeddelandet",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Skicka}} tackmeddelandet",
 	"thanks-confirmation2": "Alla tack är offentliga. {{GENDER:$1|Skicka}} tack?",
-	"thanks-thanked-notice": "{{GENDER:$2|Du}} tackade $1.",
+	"thanks-thanked-notice": "{{GENDER:$3|Du}} tackade {{GENDER:$2|$1}}.",
 	"thanks": "Skicka tack",
 	"thanks-submit": "Skicka tack",
 	"echo-pref-subscription-edit-thank": "Tackar mig för min redigering",

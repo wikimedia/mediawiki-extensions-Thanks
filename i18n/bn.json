@@ -32,7 +32,7 @@
 	"thanks-thank-tooltip-no": "আপনাকে ধন্যবাদ বিজ্ঞপ্তি {{GENDER:$1|বাতিল করুন}}",
 	"thanks-thank-tooltip-yes": "ধন্যবাদের বিজ্ঞপ্তি {{GENDER:$1|পাঠান}}",
 	"thanks-confirmation2": "সকল ধন্যবাদ প্রকাশ্য। ধন্যবাদ {{GENDER:$1|দিবেন}}?",
-	"thanks-thanked-notice": "{{GENDER:$2|আপনি}} $1 কে ধন্যবাদ দিয়েছেন।",
+	"thanks-thanked-notice": "{{GENDER:$3|আপনি}} {{GENDER:$2|$1}} কে ধন্যবাদ দিয়েছেন।",
 	"thanks": "ধন্যবাদ পাঠান",
 	"thanks-submit": "ধন্যবাদ পাঠান",
 	"echo-pref-subscription-edit-thank": "আমার সম্পাদনার জন্য আমার ধন্যবাদসমূহ",
