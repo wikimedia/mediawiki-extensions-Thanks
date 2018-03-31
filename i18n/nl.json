@@ -51,7 +51,7 @@
 	"log-description-thanks": "Hieronder staat een lijst van gebruikers die door andere gebruikers zijn bedankt.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|heeft}} {{GENDER:$4|$3}} bedankt",
 	"log-show-hide-thanks": "bedankjeslogboek $1",
-	"thanks-error-no-id-specified": "U dient een versie- of aanmeldidentificatie in te geven om iemand te bedanken.",
+	"thanks-error-no-id-specified": "U dient een versie- of logboek-ID in te geven om iemand te bedanken.",
 	"thanks-confirmation-special-log": "Wilt u openbaar bedanken voor deze logboekactie?",
 	"thanks-confirmation-special-rev": "Wilt u openbaar bedanken voor deze bewerking?",
 	"notification-link-text-view-post": "Reactie weergeven",
