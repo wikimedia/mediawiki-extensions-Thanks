@@ -19,7 +19,7 @@
 	"thanks-button-thanked": "{{GENDER:$2|{{GENDER:$1|Podziękowałeś|Podziękowałaś}}}}",
 	"thanks-error-undefined": "Operacja podziękowania nie powiodła się (kod błędu: $1). Proszę spróbować ponownie.",
 	"thanks-error-invalidrevision": "Nieprawidłowy identyfikator wersji.",
-	"thanks-error-revdeleted": "Wersja została usunięta",
+	"thanks-error-revdeleted": "Nie można wysłać podziękowań, ponieważ wersja została usunięta.",
 	"thanks-error-notitle": "Nie udało się pobrać tytułu strony",
 	"thanks-error-invalidrecipient": "Nie znaleziono odbiorcy",
 	"thanks-error-invalidrecipient-bot": "Botom nie można dziękować",
