@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cedric31"
+			"Cedric31",
+			"Guilhelma"
 		]
 	},
 	"thanks-desc": "Apond de ligams per mercejar los utilizaires per de modificacions, de comentaris, etc.",
@@ -14,7 +15,7 @@
 	"thanks-error-ratelimited": "{{GENDER:$1|Avètz}} depassat vòstre limit de debit. Esperatz un pauc e tornatz ensajar.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Mandar}} una notificacion de mercejament a {{GENDER:$2|aqueste utilizaire|aquesta utilizaira}}",
 	"thanks-confirmation2": "{{GENDER:$1|Mandar}} de mercejaments publics per aquesta modificacion ?",
-	"thanks-thanked-notice": "$1 es {{GENDER:$2|estat avisat|estada avisada}} que vos a agradat sa modificacion.",
+	"thanks-thanked-notice": "{{GENDER:$3|Vous}} mercegètz {{GENDER:$2|$1}}.",
 	"echo-pref-subscription-edit-thank": "Me mercejar per ma modificacion",
 	"echo-pref-tooltip-edit-thank": "M'avisar quand qualqu’un me merceja per una modificacion qu’ai faita.",
 	"echo-category-title-edit-thank": "Mercé",
