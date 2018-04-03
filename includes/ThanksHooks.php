@@ -88,14 +88,17 @@ class ThanksHooks {
 	/**
 	 * Helper for self::insertThankLink
 	 * Creates either a thank link or thanked span based on users session
-	 * @param int $revId Revision ID to generate the thank element for.
-	 * @param User $recipient User who receives thanks notification
+	 * @param int $id Revision or log ID to generate the thank element for.
+	 * @param User $recipient User who receives thanks notification.
+	 * @param string $type Either 'revision' or 'log'.
 	 * @return string
 	 */
-	protected static function generateThankElement( $revId, $recipient ) {
+	protected static function generateThankElement( $id, $recipient, $type = 'revision' ) {
 		global $wgUser;
-		// User has already thanked for revision
-		if ( $wgUser->getRequest()->getSessionData( "thanks-thanked-$revId" ) ) {
+		// Check if the user has already thanked for this revision or log entry.
+		// Session keys are backwards-compatible, and are also used in the ApiCoreThank class.
+		$sessionKey = ( $type === 'revision' ) ? $id : $type . $id;
+		if ( $wgUser->getRequest()->getSessionData( "thanks-thanked-$sessionKey" ) ) {
 			return Html::element(
 				'span',
 				[ 'class' => 'mw-thanks-thanked' ],
@@ -109,13 +112,14 @@ class ThanksHooks {
 				->params( $wgUser->getName(), $recipient->getName() )
 				->text();
 
+		$subpage = ( $type === 'revision' ) ? '' : 'Log/';
 		return Html::element(
 			'a',
 			[
 				'class' => 'mw-thanks-thank-link',
-				'href' => SpecialPage::getTitleFor( 'Thanks', $revId )->getFullURL(),
+				'href' => SpecialPage::getTitleFor( 'Thanks', $subpage . $id )->getFullURL(),
 				'title' => $tooltip,
-				'data-revision-id' => $revId,
+				'data-' . $type . '-id' => $id,
 				'data-recipient-gender' => $genderCache->getGenderOf( $recipient->getName(), __METHOD__ ),
 			],
 			wfMessage( 'thanks-thank', $wgUser, $recipient->getName() )->text()
@@ -395,26 +399,24 @@ class ThanksHooks {
 			return;
 		}
 
-		// If there is an associated revision ID, add a link to give thanks for that.
-		if ( $entry->getAssociatedRevId() ) {
-			$recipient = $entry->getPerformer();
-
-			// Don't thank if no recipient,
-			// or if recipient is the current user or unable to receive thanks.
-			// Don't check for deleted revision (this avoids extraneous queries from Special:Log).
-			if ( !$recipient
-				|| $recipient->getId() === $wgUser->getId()
-				|| !self::canReceiveThanks( $recipient )
-			) {
-				return;
-			}
-
-			// Create thank link.
-			$thankLink = self::generateThankElement( $entry->getAssociatedRevId(), $recipient );
-
-			// Add parentheses to match what's done with Thanks in revision lists and diff displays.
-			$ret .= ' ' . wfMessage( 'parentheses' )->rawParams( $thankLink )->escaped();
+		// Don't thank if no recipient,
+		// or if recipient is the current user or unable to receive thanks.
+		// Don't check for deleted revision (this avoids extraneous queries from Special:Log).
+		$recipient = $entry->getPerformer();
+		if ( !$recipient
+			|| $recipient->getId() === $wgUser->getId()
+			|| !self::canReceiveThanks( $recipient )
+		) {
 			return;
 		}
+
+		// Create thank link either for the revision (if there is an associated revision ID)
+		// or the log entry.
+		$type = $entry->getAssociatedRevId() ? 'revision' : 'log';
+		$id = $entry->getAssociatedRevId() ? $entry->getAssociatedRevId() : $entry->getId();
+		$thankLink = self::generateThankElement( $id, $recipient, $type );
+
+		// Add parentheses to match what's done with Thanks in revision lists and diff displays.
+		$ret .= ' ' . wfMessage( 'parentheses' )->rawParams( $thankLink )->escaped();
 	}
 }
