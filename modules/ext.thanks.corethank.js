@@ -14,7 +14,7 @@
 	// $thankLink is the element with the data-revision-id attribute
 	// $thankElement is the element to be removed on success
 	function sendThanks( $thankLink, $thankElement ) {
-		var source;
+		var source, apiParams;
 
 		if ( $thankLink.data( 'clickDisabled' ) ) {
 			// Prevent double clicks while we haven't received a response from API request
@@ -22,17 +22,28 @@
 		}
 		$thankLink.data( 'clickDisabled', true );
 
+		// Determine the thank source (history, diff, or log).
 		if ( mw.config.get( 'wgAction' ) === 'history' ) {
 			source = 'history';
+		} else if ( mw.config.get( 'wgCanonicalSpecialPageName' ) === 'Log' ) {
+			source = 'log';
 		} else {
 			source = 'diff';
 		}
 
-		( new mw.Api() ).postWithToken( 'csrf', {
+		// Construct the API parameters.
+		apiParams = {
 			action: 'thank',
-			rev: $thankLink.attr( 'data-revision-id' ),
 			source: source
-		} )
+		};
+		if ( $thankLink.data( 'log-id' ) ) {
+			apiParams.log = $thankLink.data( 'log-id' );
+		} else {
+			apiParams.rev = $thankLink.data( 'revision-id' );
+		}
+
+		// Send the API request.
+		( new mw.Api() ).postWithToken( 'csrf', apiParams )
 			.then(
 				// Success
 				function () {
