@@ -16,7 +16,8 @@
 			"Americophile",
 			"Alp Er Tunqa",
 			"Macofe",
-			"4nn1l2"
+			"4nn1l2",
+			"Mardetanha"
 		]
 	},
 	"thanks-desc": "پیوندی برای تشکر کاربران برای ویرایش‌ها، توضیحات و ... اضافه می‌کند.",
@@ -25,6 +26,7 @@
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|تشکر}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|تشکر شد}}}}",
 	"thanks-error-undefined": "عمل تشکر ناموفق بود (پیام خطا: $1). لطفاً دوباره تلاش کنید.",
+	"thanks-error-invalid-log-id": "سیاهه ورودی‌ها یافته نشد",
 	"thanks-error-invalidrevision": "شناسهٔ نسخه معتبر نیست.",
 	"thanks-error-revdeleted": "نسخه حذف شده‌است",
 	"thanks-error-notitle": "امکان دریافت عنوان صفحه وجود نداشت",
@@ -54,6 +56,7 @@
 	"log-show-hide-thanks": "$1 سیاههٔ تشکرها",
 	"thanks-error-no-id-specified": "شناسهٔ نسخه برای فرستادن تشکر را مشخص کنید.",
 	"notification-link-text-view-post": "مشاهده نظر",
+	"notification-link-text-view-logentry": "مشاهده سیاهه ورودی",
 	"thanks-error-invalidpostid": "شناسهٔ پست معتبر نیست.",
 	"flow-thanks-confirmation-special": "می‌خواهید برای این نظر علناً تشکر بفرستید؟",
 	"flow-thanks-thanked-notice": "{{GENDER:$3|شما}} از $1 بابت {{GENDER:$2|نظرش}} تشکر کردید.",

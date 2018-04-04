@@ -36,7 +36,7 @@
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Отменить}} уведомление с благодарностью",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Отправить}} уведомление с благодарностью",
 	"thanks-confirmation2": "Все благодарности публичные. {{GENDER:$1|Отправить}} благодарность?",
-	"thanks-thanked-notice": "{{GENDER:$3|Вы}} поблагодарили $1 за {{GENDER:$2|его|её}} правку.",
+	"thanks-thanked-notice": "{{GENDER:$3|Вы}} поблагодарили {{GENDER:$2|$1}}.",
 	"thanks": "Отправить благодарность",
 	"thanks-submit": "Отправить благодарность",
 	"echo-pref-subscription-edit-thank": "Спасибо мне за мою правку",
