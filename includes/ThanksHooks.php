@@ -40,11 +40,11 @@ class ThanksHooks {
 	 * Inserts 'thank' link into revision interface
 	 * @param Revision $rev Revision object to add the thank link for
 	 * @param array &$links Links to add to the revision interface
-	 * @param Revision $oldRev Revision object of the "old" revision when viewing a diff
+	 * @param Revision|null $oldRev Revision object of the "old" revision when viewing a diff
 	 * @param User $user The user performing the thanks.
 	 * @return bool
 	 */
-	public static function insertThankLink( $rev, &$links, $oldRev = null, User $user ) {
+	public static function insertThankLink( $rev, &$links, $oldRev, User $user ) {
 		$recipientId = $rev->getUser();
 		$recipient = User::newFromId( $recipientId );
 		// Make sure Echo is turned on.
