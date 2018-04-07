@@ -5,7 +5,8 @@
 			"Agremon",
 			"Elisardojm",
 			"Banjo",
-			"Macofe"
+			"Macofe",
+			"Navhy"
 		]
 	},
 	"thanks-desc": "Engade ligazóns para agradecer aos usuarios as súas edicións, comentarios etc.",
@@ -42,7 +43,7 @@
 	"logentry-thanks-thank": "$1 {{GENDER:$2|deu as grazas a}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 o rexistro de agradecementos",
 	"thanks-error-no-id-specified": "Cómpre especificar un identificador de revisión para enviar o agradecemento.",
-	"notification-link-text-view-post": "Mostrar o comentario",
+	"notification-link-text-view-post": "Amosar o comentario",
 	"thanks-error-invalidpostid": "O identificador de publicación non é válido.",
 	"flow-thanks-confirmation-special": "Quere agradecer publicamente este comentario?",
 	"flow-thanks-thanked-notice": "{{GENDER:$3|Agradeceu}} a $1 polo {{GENDER:$2|seu}} comentario.",
