@@ -14,7 +14,8 @@
 			"Facenapalm",
 			"Mouse21",
 			"Smigles",
-			"Sunpriat"
+			"Sunpriat",
+			"Happy13241"
 		]
 	},
 	"thanks-desc": "Добавляет ссылки для благодарности участников за правки, комментарии и т.д.",
@@ -24,7 +25,7 @@
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Поблагодарён|Поблагодарена}}}}",
 	"thanks-error-undefined": "Попытка поблагодарить не удалась (код ошибки: $1). Пожалуйста, пробуйте ещё раз.",
 	"thanks-error-invalidrevision": "Некорректный номер версии.",
-	"thanks-error-revdeleted": "Версия была удалена",
+	"thanks-error-revdeleted": "Не удалось отправить благодарность, поскольку ревизия была удалена.",
 	"thanks-error-notitle": "Заголовок страницы не может быть получен",
 	"thanks-error-invalidrecipient": "Не найдено корректного получателя",
 	"thanks-error-invalidrecipient-bot": "Нельзя поблагодарить ботов",
