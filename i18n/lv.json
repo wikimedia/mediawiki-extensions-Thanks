@@ -16,7 +16,7 @@
 	"thanks-error-undefined": "Pateicības darbība neizdevās (kļūdas kods: $1). Lūdzu, mēģini vēlreiz.",
 	"thanks-error-invalid-log-id": "Žurnāla ieraksts nav atrasts",
 	"thanks-error-invalidrevision": "Versijas ID ir nederīgs.",
-	"thanks-error-revdeleted": "Versija ir tikusi izdzēsta",
+	"thanks-error-revdeleted": "Neizdevās nosūtīt pateicību, jo versija ir tikusi izdzēsta.",
 	"thanks-error-notitle": "Nevarēja iegūt lapas nosaukumu",
 	"thanks-error-invalidrecipient": "Nav atrasts derīgs saņēmējs",
 	"thanks-error-invalidrecipient-bot": "Botiem nevar pateikties",
