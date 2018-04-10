@@ -199,7 +199,8 @@
 			"protect",
 			"tag",
 			"managetags",
-			"rights"
+			"rights",
+			"lock"
 		]
 	},
 	"manifest_version": 1
