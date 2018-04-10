@@ -32,7 +32,7 @@
 	"echo-category-title-edit-thank": "Ringraziamenti",
 	"notification-thanks-diff-link": "la tua modifica",
 	"notification-header-rev-thank": "$1 {{GENDER:$4|ti}} {{GENDER:$2|ha ringraziato}} per la tua modifica su <strong>$3</strong>.",
-	"notification-header-log-thank": "$1 {{GENDER:$4|ti}} ha {{GENDER:$2|ringraziato|ringraziata|ringraziato/a}} per la tua azione su <strong>$3</strong>.",
+	"notification-header-log-thank": "$1 {{GENDER:$2|ti}} ha {{GENDER:$4|ringraziato|ringraziata|ringraziato/a}} per la tua azione su <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$3|ti}} {{GENDER:$2|ha ringraziato}}.",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Una persona|$1 persone|100=Più di 99 persone}} {{GENDER:$3|ti}} hanno ringraziato per la tua modifica su strong>$2</strong>.",
 	"log-name-thanks": "Ringraziamenti",
