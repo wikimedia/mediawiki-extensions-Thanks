@@ -26,7 +26,6 @@
 	"thanks-error-invalidrecipient": "No se encontró un destinatario válido",
 	"thanks-error-invalidrecipient-bot": "No se puede agradecer a bots",
 	"thanks-error-invalidrecipient-self": "No puedes agradecerte a ti mismo",
-	"thanks-error-echonotinstalled": "No está instalado Echo en este wiki",
 	"thanks-error-notloggedin": "Los usuarios anónimos no pueden agradecer",
 	"thanks-error-ratelimited": "{{GENDER:$1|Has}} excedido tu límite. Espera un tiempo e inténtalo de nuevo.",
 	"thanks-error-api-params": "Se debe proporcionar, bien el parámetro «revid», bien el parámetro «logid»",

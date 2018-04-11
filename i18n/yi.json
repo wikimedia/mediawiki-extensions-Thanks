@@ -16,7 +16,7 @@
 	"thanks-thank-tooltip-no": "{{GENDER:$1|אנולירן}} די דאנק־מודעה",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|שיקן}} די דאנק־מודעה",
 	"thanks-confirmation2": "אלע דאנקען זענען עפֿנטלעך. {{GENDER:$1|שיקן}}?",
-	"thanks-thanked-notice": "{{GENDER:$3|איר}} האט געדאנקט $1 פאר {{GENDER:$2|זיין|איר|זייער}} רעדאקטירונג.",
+	"thanks-thanked-notice": "{{GENDER:$3|איר}} האט געדאנקט {{GENDER:$2|$1}}.",
 	"thanks": "שיקן א דאנק",
 	"thanks-submit": "שיקן א דאנק",
 	"echo-pref-subscription-edit-thank": "דאנקט מיך פאר מיין רעדאקטירונג",
@@ -24,6 +24,8 @@
 	"echo-category-title-edit-thank": "אַ דאַנק",
 	"notification-thanks-diff-link": "אײַער רעדאקטירונג",
 	"notification-header-rev-thank": "$1 {{GENDER:$2|האט}} {{GENDER:$4|אייך}} געדאַנקט פֿאר אייער רעדאקטירונג אויף <strong>$3</strong>.",
+	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|האט געדאנקט}} {{GENDER:$3|אייך}}",
+	"notification-bundle-header-rev-thank": "{{PLURAL:$1|איין מענטש|$1 מענטשן|100=99+ מענטשן}} האבן געדאנקט {{GENDER:$3|אייך}} פאר אייער רעדאקטירונג אויף <strong>$2</strong>.",
 	"log-name-thanks": "דאנק־לאגבוך",
 	"log-description-thanks": "אונטן איז רשימה פון באניצער געדאַנקט דורך אנדערע באניצער.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|האט געדאנקט}} {{GENDER:$4|$3}}",
@@ -33,5 +35,6 @@
 	"flow-thanks-thanked-notice": "{{GENDER:$3|איר}} האט געדאנקט $1 פאר {{GENDER:$2|זיין|איר|זייער}} הערה.",
 	"notification-flow-thanks-post-link": "אייער הערה",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|האט}} {{GENDER:$5|אייך}} געדאַנקט פֿאר אייער הערה אין <strong>$3</strong>.",
+	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|האט געדאנקט}} {{GENDER:$3|אייך}}.",
 	"apihelp-thank-description": "שיקן א ייש״כ־מודעה צו א רעדאקטאר."
 }

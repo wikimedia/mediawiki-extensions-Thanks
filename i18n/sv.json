@@ -29,7 +29,6 @@
 	"thanks-error-invalidrecipient": "Ingen giltig mottagare hittades",
 	"thanks-error-invalidrecipient-bot": "Robotar kan inte tackas",
 	"thanks-error-invalidrecipient-self": "Du kan inte tacka dig själv",
-	"thanks-error-echonotinstalled": "Echo är inte installerat på denna wiki",
 	"thanks-error-notloggedin": "Anonyma användare kan inte skicka tack",
 	"thanks-error-ratelimited": "{{GENDER:$1|Du}} har överskridit din frekvensgräns. Var god vänta en stund och försök igen.",
 	"thanks-error-api-params": "Antingen parametern \"revid\" eller \"logid\" måste anges",

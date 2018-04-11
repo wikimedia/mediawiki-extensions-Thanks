@@ -30,7 +30,6 @@
 	"thanks-error-invalidrecipient": "Geen geldige ontvanger gevonden",
 	"thanks-error-invalidrecipient-bot": "Bots kunnen geen bedankjes ontvangen",
 	"thanks-error-invalidrecipient-self": "U kunt niet uzelf bedanken",
-	"thanks-error-echonotinstalled": "Echo is niet geïnstalleerd op deze wiki",
 	"thanks-error-notloggedin": "Anonieme gebruikers kunnen geen bedankjes versturen",
 	"thanks-error-ratelimited": "{{GENDER:$1|U}} hebt uw limiet voor bedankjes overschreden. Wacht even en probeer het dan opnieuw.",
 	"thanks-thank-tooltip": "Deze {{GENDER:$2|gebruiker}} een bedankje {{GENDER:$1|sturen}}",

@@ -25,7 +25,6 @@
 	"thanks-error-invalidrecipient": "Не знайдено дійсного одержувача",
 	"thanks-error-invalidrecipient-bot": "Не можна дякувати ботам",
 	"thanks-error-invalidrecipient-self": "Ви не можете подякувати собі",
-	"thanks-error-echonotinstalled": "Розширення Echo не встановлене в цій вікі",
 	"thanks-error-notloggedin": "Анонімні користувачі не можуть надсилати подяк",
 	"thanks-error-ratelimited": "{{GENDER:$1|Ви}} перевищили свій ліміт частоти. Будь ласка, зачекайте деякий час, і спробуйте знову.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Надіслати}} сповіщення вдячності {{GENDER:$2|цьому користувачу|цій користувачці}}",

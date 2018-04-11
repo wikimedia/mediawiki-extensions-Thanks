@@ -24,7 +24,6 @@
 	"thanks-error-invalidrecipient": "לא נמצא נמען חוקי",
 	"thanks-error-invalidrecipient-bot": "לא ניתן לשלוח הודעות תודה לבוטים",
 	"thanks-error-invalidrecipient-self": "לא ניתן לשלוח הודעות תודה לעצמך",
-	"thanks-error-echonotinstalled": "הרחבת ההודעות (Echo) אינה מותקנת באתר זה",
 	"thanks-error-notloggedin": "משתמשים אנונימיים לא יכולים לשלוח הודעות תודה",
 	"thanks-error-ratelimited": "{{GENDER:$1|עברת}} את מגבלת הקצב שלך. נא להמתין ולנסות שוב.",
 	"thanks-error-api-params": "יש לציין את אחד הפרמטרים 'revid' או 'logid'",

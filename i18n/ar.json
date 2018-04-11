@@ -33,7 +33,6 @@
 	"thanks-error-invalidrecipient": "لم يتم العثور على مستقبل صحيح",
 	"thanks-error-invalidrecipient-bot": "البوتات لا يمكن شكرها",
 	"thanks-error-invalidrecipient-self": "لا يمكنك شكر نفسك",
-	"thanks-error-echonotinstalled": "إشعار غير منصب على هذه الويكي",
 	"thanks-error-notloggedin": "المستخدمون المجهولون لا يمكنهم إرسال شكر",
 	"thanks-error-ratelimited": "لقد {{GENDER:$1|تجاوزت}} حد التقييم، انتظر لبعض الوقت ثم حاول مجددًا.",
 	"thanks-error-api-params": "يجب توفير معامل 'revid' أو 'logid'",

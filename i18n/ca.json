@@ -24,7 +24,6 @@
 	"thanks-error-invalidrecipient": "No s'ha trobat un destinatari vàlid",
 	"thanks-error-invalidrecipient-bot": "No es pot agrair els bots",
 	"thanks-error-invalidrecipient-self": "No es pot agrair a un mateix",
-	"thanks-error-echonotinstalled": "Echo no està instal·lat en aquest wiki",
 	"thanks-error-notloggedin": "Els usuaris anònims no poden enviar agraïments",
 	"thanks-error-ratelimited": "{{GENDER:$1|Heu}} excedit el límit d'agraïments. Si us plau espereu una mica abans de tornar-hi.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Envia}} una notificació d'agraïment a {{GENDER:$2|aquest usuari|aquesta usuària}}.",

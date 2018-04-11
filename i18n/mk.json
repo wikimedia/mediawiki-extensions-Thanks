@@ -20,7 +20,6 @@
 	"thanks-error-invalidrecipient": "Не пронајдов важечки примач",
 	"thanks-error-invalidrecipient-bot": "Не можете да им се заблагодарувате на ботови",
 	"thanks-error-invalidrecipient-self": "Не можете да си се заблагодарувате себеси",
-	"thanks-error-echonotinstalled": "Ехо не е воспоставен на ова вики",
 	"thanks-error-notloggedin": "Анонимните корисници не можат да испраќаат благодарници",
 	"thanks-error-ratelimited": "{{GENDER:$1|Ја надминавте}} границата на благодарници. Почекајте некое време, па обидете се подоцна",
 	"thanks-error-api-params": "Мора да се укаже параметарот „revid“ или „logid“",

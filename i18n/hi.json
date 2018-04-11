@@ -23,7 +23,6 @@
 	"thanks-error-invalidrecipient": "कोई मान्य प्राप्त करने वाले नहीं मिले",
 	"thanks-error-invalidrecipient-bot": "बॉट को धन्यवाद नहीं दिया जा सकता",
 	"thanks-error-invalidrecipient-self": "आप अपने आप को धन्यवाद नहीं बोल सकते",
-	"thanks-error-echonotinstalled": "इस विकि में इको स्थापित नहीं है",
 	"thanks-error-notloggedin": "बिना खाते के सदस्य धन्यवाद नहीं दे सकते",
 	"thanks-error-ratelimited": "{{GENDER:$1|आप}} अपनी दर सीमा पार कर चुके हैं। कृपया थोड़ी देर बाद पुनः प्रयास करें।",
 	"thanks-thank-tooltip": "इस {{GENDER:$2|सदस्य}} को धन्यवाद अधिसूचना {{GENDER:$1|भेजें}}।",

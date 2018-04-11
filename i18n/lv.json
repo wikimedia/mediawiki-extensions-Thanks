@@ -21,7 +21,6 @@
 	"thanks-error-invalidrecipient": "Nav atrasts derīgs saņēmējs",
 	"thanks-error-invalidrecipient-bot": "Botiem nevar pateikties",
 	"thanks-error-invalidrecipient-self": "Tu nevari pateikties sev",
-	"thanks-error-echonotinstalled": "Echo šajā vikivietnē nav uzstādīts",
 	"thanks-error-notloggedin": "Anonīmi dalībnieki nevar sūtīt pateicības",
 	"thanks-error-ratelimited": "{{GENDER:$1|Tu esi pārsniedzis|Tu esi pārsniegusi}} skaita ierobežojumu. Lūdzu, uzgaidi un mēģini vēlreiz.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Nosūtīt}} pateicības ziņojumu {{GENDER:$2|šim dalībniekam|šai dalībniecei}}",

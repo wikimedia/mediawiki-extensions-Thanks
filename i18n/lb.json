@@ -17,7 +17,6 @@
 	"thanks-error-invalidrecipient": "Kee valabelen Destinataire fonnt",
 	"thanks-error-invalidrecipient-bot": "Botte kann een net Merci soen",
 	"thanks-error-invalidrecipient-self": "Dir kënnt Iech net selwer Merci soen",
-	"thanks-error-echonotinstalled": "Echo ass op dëser Wiki net installéiert",
 	"thanks-error-notloggedin": "Anonym Benotzer kënne kee Merci schécken",
 	"thanks-thank-tooltip": "{{GENDER:$2|Dësem Benotzer|Dëser Benotzerin}} ee \"Merci\" {{GENDER:$1|schécken}}",
 	"thanks-thank-tooltip-yes": "De Merci-Message {{GENDER:$1|schécken}}",

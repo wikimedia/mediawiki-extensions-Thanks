@@ -16,7 +16,6 @@
 	"thanks-error-invalidrecipient": "Ora ana rèsipièn sing sah",
 	"thanks-error-invalidrecipient-bot": "Ora bisa matur nuwun marang bot",
 	"thanks-error-invalidrecipient-self": "Panjenengan ora bisa matur nuwun marang panjenengan dhéwé",
-	"thanks-error-echonotinstalled": "Echo durung kapasang ing wiki iki",
 	"thanks-error-notloggedin": "Panganggo anonim ora bisa ngirimi atur panuwun",
 	"thanks-error-ratelimited": "{{GENDER:$1|Panjenengan}} wis munjuli sing dicumpi kanggo panjenengan. Entènana sadhéla nuli jajalana manèh.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Kirim}} tandha panuwun marang {{GENDER:$2|panganggo}} iki",

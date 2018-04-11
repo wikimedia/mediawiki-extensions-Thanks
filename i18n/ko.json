@@ -33,7 +33,6 @@
 	"thanks-error-notitle": "페이지 제목을 찾을 수 없습니다",
 	"thanks-error-invalidrecipient-bot": "봇은 감사를 받을 수 없습니다",
 	"thanks-error-invalidrecipient-self": "자기 자신에게 감사를 표할 수 없습니다",
-	"thanks-error-echonotinstalled": "Echo가 이 위키에 설치되어 있지 않습니다",
 	"thanks-error-notloggedin": "익명 사용자는 감사를 표할 수 없습니다",
 	"thanks-error-ratelimited": "{{GENDER:$1|당신은}} 속도 제한을 초과했습니다. 잠시 기다리고 나서 다시 시도하세요.",
 	"thanks-error-api-params": "'revid' 또는 'logid' 변수는 반드시 지정해야 합니다",

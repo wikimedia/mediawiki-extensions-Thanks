@@ -24,7 +24,6 @@
 	"thanks-error-invalidrecipient": "Ingen gyldig mottaker funnet",
 	"thanks-error-invalidrecipient-bot": "Botter kan ikke takkes",
 	"thanks-error-invalidrecipient-self": "Du kan ikke takke deg selv",
-	"thanks-error-echonotinstalled": "Echo er ikke installert på denne wikien",
 	"thanks-error-notloggedin": "Anonyme brukere kan ikke sende takk",
 	"thanks-error-ratelimited": "{{GENDER:$1|Du}} har overskredet frekvensbegrensingen din. Vent litt og prøv igjen.",
 	"thanks-error-api-params": "En av 'revid' og 'logid' må oppgis.",

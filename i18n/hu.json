@@ -26,7 +26,6 @@
 	"thanks-error-invalidrecipient": "Nem található érvényes címzett",
 	"thanks-error-invalidrecipient-bot": "Botoknak nem lehet köszönetet küldeni",
 	"thanks-error-invalidrecipient-self": "Nem küldhetsz köszönetet saját magadnak",
-	"thanks-error-echonotinstalled": "Az Echo nincs telepítve ezen a wikin",
 	"thanks-error-notloggedin": "Anonim szerkesztők nem küldhetnek köszönetet",
 	"thanks-error-ratelimited": "{{GENDER:$1|Túllépted}} a meghatározott limitet. Kérlek várj egy kicsit, és próbáld újra.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Küldj}} köszönetet ennek a {{GENDER:$2|szerkesztőnek}}",

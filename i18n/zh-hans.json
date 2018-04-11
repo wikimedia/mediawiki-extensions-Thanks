@@ -33,7 +33,6 @@
 	"thanks-error-invalidrecipient": "找不到有效的接收者",
 	"thanks-error-invalidrecipient-bot": "机器人不能被感谢",
 	"thanks-error-invalidrecipient-self": "您不能感谢您自己",
-	"thanks-error-echonotinstalled": "Echo未在此wiki安装",
 	"thanks-error-notloggedin": "匿名用户不能发送感谢",
 	"thanks-error-ratelimited": "{{GENDER:$1|您}}已超过您的速率限制。请等待一段时间再试。",
 	"thanks-error-api-params": "必须提供“revid”或“logid”参数",

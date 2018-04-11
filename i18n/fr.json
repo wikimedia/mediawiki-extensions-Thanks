@@ -43,7 +43,6 @@
 	"thanks-error-invalidrecipient": "Pas de destinataire valide trouvé",
 	"thanks-error-invalidrecipient-bot": "Les robots ne peuvent pas être remerciés",
 	"thanks-error-invalidrecipient-self": "Vous ne pouvez pas vous remercier vous-même.",
-	"thanks-error-echonotinstalled": "Echo n'est pas installé sur ce wiki",
 	"thanks-error-notloggedin": "Les utilisateurs anonymes ne peuvent pas envoyer de merci",
 	"thanks-error-ratelimited": "{{GENDER:$1|Vous}} avez dépassé votre limite de débit. Veuillez attendre un peu et réessayer.",
 	"thanks-error-api-params": "Il faut fournir soit le paramètre 'revid', soit 'logid'",

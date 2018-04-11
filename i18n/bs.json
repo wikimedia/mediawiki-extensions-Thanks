@@ -18,7 +18,6 @@
 	"thanks-error-invalidrecipient": "Nije pronađen ispravan primalac",
 	"thanks-error-invalidrecipient-bot": "Ne možete se zahvaliti botovima",
 	"thanks-error-invalidrecipient-self": "Ne možete se zahvaliti sami sebi",
-	"thanks-error-echonotinstalled": "Echo nije instaliran na ovom wikiju",
 	"thanks-error-notloggedin": "Anonimni korisnici ne mogu se zahvaljivati",
 	"thanks-error-ratelimited": "{{GENDER:$1|Prekoračili ste}} Vaše ograničenje za ocjenjivanje. Sačekajte neko vrijeme i zatim pokušajte ponovo.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Pošalji}} zahvalnicu {{GENDER:$2|ovom korisniku|оvoj korisnici}}",

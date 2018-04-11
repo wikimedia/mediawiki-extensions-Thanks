@@ -27,7 +27,6 @@
 	"thanks-error-invalidrecipient": "Nie znaleziono odbiorcy",
 	"thanks-error-invalidrecipient-bot": "Botom nie można dziękować",
 	"thanks-error-invalidrecipient-self": "Nie możesz sobie podziękować",
-	"thanks-error-echonotinstalled": "Na tej wiki nie jest zainstalowane rozszerzenie Echo",
 	"thanks-error-notloggedin": "Niezarejestrowani użytkownicy nie mogą wysyłać podziękowań",
 	"thanks-error-ratelimited": "{{GENDER:$1|Przekroczyłeś|Przekroczyłaś}} limit podziękowań. Poczekaj jakiś czas i spróbuj ponownie.",
 	"thanks-error-api-params": "Musi być podany parametr 'revid' lub 'logid'",

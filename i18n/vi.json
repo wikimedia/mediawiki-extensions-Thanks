@@ -24,7 +24,6 @@
 	"thanks-error-invalidrecipient": "Không tìm thấy người nhận hợp lệ",
 	"thanks-error-invalidrecipient-bot": "Không thể cảm ơn bot",
 	"thanks-error-invalidrecipient-self": "Bạn không thể cảm ơn chính mình",
-	"thanks-error-echonotinstalled": "Echo không được cài đặt vào wiki này",
 	"thanks-error-notloggedin": "Người dùng vô danh không thể gửi lời cảm ơn",
 	"thanks-error-ratelimited": "{{GENDER:$1}}Bạn đã vượt quá giới hạn tốc độ. Xin vui lòng thử lại lát nữa.",
 	"thanks-thank-tooltip": "{{GENDER:$1}}Gửi thông báo cảm ơn cho {{GENDER:$2}}người dùng này",

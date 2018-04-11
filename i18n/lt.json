@@ -24,7 +24,6 @@
 	"thanks-error-invalidrecipient": "Nerastas tinkamas recipientas",
 	"thanks-error-invalidrecipient-bot": "Negalima padėkoti robotams",
 	"thanks-error-invalidrecipient-self": "Negalite padėkoti sau",
-	"thanks-error-echonotinstalled": "Echo nėra įdiegtas šioje viki",
 	"thanks-error-notloggedin": "Anoniminiai vartotojai negali siųsti padėkų",
 	"thanks-error-ratelimited": "{{GENDER:$1|Jūs}} viršijote vertinimo limitą. Prašome truputį palaukti ir bandyti dar kartą.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Nusiųskite}} padėkos žinutę šiam {{GENDER:$2|naudotojui}}",

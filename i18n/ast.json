@@ -20,7 +20,6 @@
 	"thanks-error-invalidrecipient": "Nun s'atopó un destinatariu válidu",
 	"thanks-error-invalidrecipient-bot": "Nun pueden dase les gracies a bots",
 	"thanks-error-invalidrecipient-self": "Nun pues date les gracies tu mesmu.",
-	"thanks-error-echonotinstalled": "Echo nun ta instaláu nesta wiki",
 	"thanks-error-notloggedin": "Los usuarios anónimos nun pueden dar les gracies",
 	"thanks-error-ratelimited": "{{GENDER:$1|Pasó}} la llende d'agradecimientos. Espere un tiempu y vuelva a intentalo.",
 	"thanks-error-api-params": "Tien d'apurrise o bien el parámetru «revid» o bien el parámetru «logid»",
