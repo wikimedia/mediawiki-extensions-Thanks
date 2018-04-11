@@ -10,6 +10,11 @@
 	"descriptionmsg": "thanks-desc",
 	"license-name": "MIT",
 	"type": "other",
+	"requires": {
+		"extensions": {
+			"Echo": "*"
+		}
+	},
 	"DefaultUserOptions": {
 		"echo-subscriptions-web-edit-thank": true,
 		"echo-subscriptions-email-edit-thank": false

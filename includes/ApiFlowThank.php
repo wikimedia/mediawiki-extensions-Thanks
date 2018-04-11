@@ -17,8 +17,6 @@ use Flow\Model\UUID;
 
 class ApiFlowThank extends ApiThank {
 	public function execute() {
-		$this->dieIfEchoNotInstalled();
-
 		$user = $this->getUser();
 		$this->dieOnBadUser( $user );
 

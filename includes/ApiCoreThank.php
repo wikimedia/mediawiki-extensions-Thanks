@@ -13,7 +13,6 @@ class ApiCoreThank extends ApiThank {
 	 */
 	public function execute() {
 		// Initial setup.
-		$this->dieIfEchoNotInstalled();
 		$user = $this->getUser();
 		$this->dieOnBadUser( $user );
 		$params = $this->extractRequestParams();

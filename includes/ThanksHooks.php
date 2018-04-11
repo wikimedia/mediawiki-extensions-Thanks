@@ -47,13 +47,11 @@ class ThanksHooks {
 	public static function insertThankLink( $rev, &$links, $oldRev, User $user ) {
 		$recipientId = $rev->getUser();
 		$recipient = User::newFromId( $recipientId );
-		// Make sure Echo is turned on.
 		// Don't let users thank themselves.
 		// Exclude anonymous users.
 		// Exclude users who are blocked.
 		// Check whether bots are allowed to receive thanks.
-		if ( class_exists( 'EchoNotifier' )
-			&& !$user->isAnon()
+		if ( !$user->isAnon()
 			&& $recipientId !== $user->getId()
 			&& !$user->isBlocked()
 			&& self::canReceiveThanks( $recipient )
@@ -146,9 +144,7 @@ class ThanksHooks {
 	 * @return bool true in all cases
 	 */
 	public static function onPageHistoryBeforeList( &$page, $context ) {
-		if ( class_exists( 'EchoNotifier' )
-			&& $context->getUser()->isLoggedIn()
-		) {
+		if ( $context->getUser()->isLoggedIn() ) {
 			static::addThanksModule( $context->getOutput() );
 		}
 		return true;
@@ -163,9 +159,7 @@ class ThanksHooks {
 	 * @return bool true in all cases
 	 */
 	public static function onDiffViewHeader( $diff, $oldRev, $newRev ) {
-		if ( class_exists( 'EchoNotifier' )
-			&& $diff->getUser()->isLoggedIn()
-		) {
+		if ( $diff->getUser()->isLoggedIn() ) {
 			static::addThanksModule( $diff->getOutput() );
 		}
 		return true;
@@ -270,10 +264,9 @@ class ThanksHooks {
 	public static function onBeforeSpecialMobileDiffDisplay( &$output, $ctx, $revisions ) {
 		$rev = $revisions[1];
 
-		// If the Echo and MobileFrontend extensions are installed and the user is
+		// If the MobileFrontend extension is installed and the user is
 		// logged in or recipient is not a bot if bots cannot receive thanks, show a 'Thank' link.
 		if ( $rev
-			&& class_exists( 'EchoNotifier' )
 			&& class_exists( 'SpecialMobileDiff' )
 			&& self::canReceiveThanks( User::newFromId( $rev->getUser() ) )
 			&& $output->getUser()->isLoggedIn()
@@ -386,8 +379,8 @@ class ThanksHooks {
 	) {
 		global $wgUser;
 
-		// Don't thank if anonymous or Echo is not installed.
-		if ( !class_exists( 'EchoNotifier' ) || $wgUser->isAnon() || $wgUser->isBlocked() ) {
+		// Don't thank if anonymous or blocked
+		if ( $wgUser->isAnon() || $wgUser->isBlocked() ) {
 			return;
 		}
 

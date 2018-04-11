@@ -6,12 +6,6 @@
  * @ingroup Extensions
  */
 abstract class ApiThank extends ApiBase {
-	protected function dieIfEchoNotInstalled() {
-		if ( !class_exists( 'EchoNotifier' ) ) {
-			$this->dieWithError( 'thanks-error-echonotinstalled', 'echonotinstalled' );
-		}
-	}
-
 	protected function dieOnBadUser( User $user ) {
 		if ( $user->isAnon() ) {
 			$this->dieWithError( 'thanks-error-notloggedin', 'notloggedin' );

@@ -19,7 +19,6 @@
 	"thanks-error-invalidrecipient": "No valid recipient found",
 	"thanks-error-invalidrecipient-bot": "Bots cannot be thanked",
 	"thanks-error-invalidrecipient-self": "You cannot thank yourself",
-	"thanks-error-echonotinstalled": "Echo is not installed on this wiki",
 	"thanks-error-notloggedin": "Anonymous users cannot send thanks",
 	"thanks-error-ratelimited": "{{GENDER:$1|You}}'ve exceeded your rate limit. Please wait some time and try again.",
 	"thanks-error-api-params": "Either the 'revid' or the 'logid' parameter must be provided",
