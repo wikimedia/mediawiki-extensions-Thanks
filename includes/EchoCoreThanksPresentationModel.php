@@ -1,6 +1,6 @@
 <?php
 class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
-	/** @var LogEntry */
+	/** @var LogEntry|bool|null */
 	private $logEntry;
 
 	public function canRender() {
