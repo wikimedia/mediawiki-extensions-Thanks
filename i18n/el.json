@@ -3,7 +3,8 @@
 		"authors": [
 			"Geraki",
 			"Glavkos",
-			"Protnet"
+			"Protnet",
+			"Nikosgranturismogt"
 		]
 	},
 	"thanks-desc": "Προσθέτει συνδέσμους για να ευχαριστείτε χρήστες για επεξεργασίες, σχόλια, κλπ.",
@@ -18,7 +19,7 @@
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Ακύρωση}} της κοινοποίησης ευχαριστίας",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Αποστολή}} της κοινοποίησης ευχαριστίας",
 	"thanks-confirmation2": "{{GENDER:$1|Αποστολή}} δημόσιας ευχαριστίας γι' αυτή την επεξεργασία;",
-	"thanks-thanked-notice": "{{GENDER:$2|Ο|Η}} $1 έλαβε τις ευχαριστίες σας για την επεξεργασία {{GENDER:$2|του|της}}.",
+	"thanks-thanked-notice": "{{GENDER:$2|Εσείς}} ευχαριστήσατε τον {{GENDER:$2|$1}}.",
 	"thanks": "Αποστολή ευχαριστίας",
 	"thanks-submit": "Αποστολή ευχαριστίας",
 	"echo-pref-subscription-edit-thank": "Με ευχαριστεί για την επεξεργασία μου",
