@@ -9,7 +9,8 @@
 			"The Polish",
 			"Macofe",
 			"Sethakill",
-			"Woytecr"
+			"Woytecr",
+			"Railfail536"
 		]
 	},
 	"thanks-desc": "Dodaje link umożliwiający podziękowanie użytkownikowi za edycję, komentarz itp.",
@@ -57,7 +58,7 @@
 	"notification-link-text-view-logentry": "Zobacz wpis rejestru",
 	"thanks-error-invalidpostid": "Nieprawidłowy ID postu.",
 	"flow-thanks-confirmation-special": "Czy chcesz wysłać publiczne podziękowanie za ten komentarz?",
-	"flow-thanks-thanked-notice": "{GENDER:$3|Podziękowałeś|Podziękowałaś}} $1 za {{GENDER:$2|jego|jej}} komentarz.",
+	"flow-thanks-thanked-notice": "{{GENDER:$3|Podziękowałeś|Podziękowałaś}} $1 za {{GENDER:$2|jego|jej}} komentarz.",
 	"notification-flow-thanks-post-link": "twój komentarz",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|podziękował|podziękowała|podziękował(a)}} {{GENDER:$5|ci}} za komentarz w \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|podziękował|podziękowała|podziękował(a)}} {{GENDER:$3|ci}}.",
