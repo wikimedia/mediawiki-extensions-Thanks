@@ -15,6 +15,7 @@
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Agradecer}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Agradecido|Agradecida}}}}",
 	"thanks-error-undefined": "Houbo un erro ao realizar o agradecemento (código de erro: $1). Inténteo de novo.",
+	"thanks-error-invalid-log-id": "A entrada do rexisto non foi atopada",
 	"thanks-error-invalidrevision": "O ID da revisión non é válido.",
 	"thanks-error-revdeleted": "Borrouse a revisión",
 	"thanks-error-notitle": "Non se puido recuperar o título da páxina",
@@ -43,6 +44,7 @@
 	"log-show-hide-thanks": "$1 o rexistro de agradecementos",
 	"thanks-error-no-id-specified": "Cómpre especificar un identificador de revisión para enviar o agradecemento.",
 	"notification-link-text-view-post": "Amosar o comentario",
+	"notification-link-text-view-logentry": "Ollar entrada do rexistro",
 	"thanks-error-invalidpostid": "O identificador de publicación non é válido.",
 	"flow-thanks-confirmation-special": "Quere agradecer publicamente este comentario?",
 	"flow-thanks-thanked-notice": "{{GENDER:$3|Agradeceu}} a $1 polo {{GENDER:$2|seu}} comentario.",
@@ -56,7 +58,8 @@
 	"apihelp-flowthank-example-1": "Enviar un agradecemento ao comentario co <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Enviar unha notificación de agradecemento a un editor.",
 	"apihelp-thank-summary": "Enviar unha notificación de agradecemento a un editor.",
-	"apihelp-thank-param-rev": "Identificador da revisión que agradecerlle a alguén.",
+	"apihelp-thank-param-rev": "Identificador (ID) da revisión a agradecer a alguén. Ten que ser fornecido este identificador, ou 'log'.",
+	"apihelp-thank-param-log": "Identificador (ID) do rexisto a agradecer a alguén. Ten que ser fornecido este identificador, ou 'rev'.",
 	"apihelp-thank-param-source": "Un texto breve que describa a orixe da solicitude. Por exemplo, <kbd>diff</kbd> ou <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "Enviar un agradecemento pola revisión con identificador <kbd>ID 456</kbd, cuxa orixe sexa unha páxina de diferenzas"
 }
