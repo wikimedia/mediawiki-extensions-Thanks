@@ -29,7 +29,9 @@
 	"echo-category-title-edit-thank": "شکریہ",
 	"notification-thanks-diff-link": "آپ کی ترمیم",
 	"notification-header-rev-thank": "$1 نے <strong>$3</strong> پر {{GENDER:$4|آپ}} کی ترمیم پر {{GENDER:$2|شکریہ!}} ادا کیا۔",
+	"notification-header-log-thank": "$1 نے {{GENDER:$4|آپ}} کو <strong>$2</strong> سے متعلق عمل کے لیے {{GENDER:$2|شکریہ}} ادا کیا۔",
 	"notification-bundle-header-rev-thank": "{{GENDER:$3|آپ}} کی <strong>$2</strong> ترمیم پر {{PLURAL:$1|1 صارف|$1 صارف|100=99+ صارفین}} نے آپ کا شکریہ ادا کیا ہے۔",
+	"notification-bundle-header-log-thank": "{{PLURAL:$1|ایک شخص|$1 لوگوں|100=99+ لوگوں}} نے {{GENDER:$3|آپ}} کو <strong>$2</strong> سے متعلق عمل کے لیے شکریہ ادا کیا۔",
 	"notification-header-flow-thank": "$1 نے {{GENDER:$5|آپ}} کی \"<strong>$3</strong>\" رائے پر {{GENDER:$5|آپ}} کا {{GENDER:$2|شکریہ}} ادا کیا ہے۔",
 	"notification-compact-header-flow-thank": "$1 نے {{GENDER:$3|آپ}} کا {{GENDER:$2|شکریہ}} ادا کیا۔"
 }

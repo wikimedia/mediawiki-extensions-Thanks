@@ -53,6 +53,8 @@
 	"logentry-thanks-thank": "$1 {{GENDER:$2|поблагодарил|поблагодарила}} {{GENDER:$4|участника|участницу}} $3",
 	"log-show-hide-thanks": "$1 журнал благодарностей",
 	"thanks-error-no-id-specified": "Необходимо указать идентификатор правки для отправки благодарности.",
+	"thanks-confirmation-special-log": "Вы хотите отправить публичную благодарность за это действие?",
+	"thanks-confirmation-special-rev": "Вы хотите отправить публичную благодарность за эту правку?",
 	"notification-link-text-view-post": "Посмотреть комментарий",
 	"thanks-error-invalidpostid": "Недопустимый идентификатор сообщения.",
 	"flow-thanks-confirmation-special": "Вы хотите отправить публичную благодарность за этот комментарий?",
