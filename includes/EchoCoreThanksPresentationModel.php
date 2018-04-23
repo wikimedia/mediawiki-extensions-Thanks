@@ -4,11 +4,12 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 	private $logEntry;
 
 	public function canRender() {
+		$hasTitle = (bool)$this->event->getTitle();
 		if ( $this->getThankType() === 'log' ) {
 			$logEntry = $this->getLogEntry();
-			return $logEntry && !$logEntry->getDeleted();
+			return $hasTitle && $logEntry && !$logEntry->getDeleted();
 		}
-		return (bool)$this->event->getTitle();
+		return $hasTitle;
 	}
 
 	public function getIconType() {
@@ -18,12 +19,15 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 	public function getHeaderMessage() {
 		$type = $this->event->getExtraParam( 'logid' ) ? 'log' : 'rev';
 		if ( $this->isBundled() ) {
+			// Message is either notification-bundle-header-rev-thank
+			// or notification-bundle-header-log-thank.
 			$msg = $this->msg( "notification-bundle-header-$type-thank" );
 			$msg->params( $this->getBundleCount() );
 			$msg->params( $this->getTruncatedTitleText( $this->event->getTitle(), true ) );
 			$msg->params( $this->getViewingUserForGender() );
 			return $msg;
 		} else {
+			// Message is either notification-header-rev-thank or notification-header-log-thank.
 			$msg = $this->getMessageWithAgent( "notification-header-$type-thank" );
 			$msg->params( $this->getTruncatedTitleText( $this->event->getTitle(), true ) );
 			$msg->params( $this->getViewingUserForGender() );
