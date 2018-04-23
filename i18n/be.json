@@ -5,7 +5,8 @@
 			"Чаховіч Уладзіслаў",
 			"Mikalai Udodau",
 			"Macofe",
-			"Mechanizatar"
+			"Mechanizatar",
+			"Artsiom91"
 		]
 	},
 	"thanks-desc": "Дадае спасылкі для падзякаў удзельнікам за праўкі, каментары і г. д.",
@@ -23,7 +24,7 @@
 	"echo-category-title-edit-thank": "Дзякуй",
 	"notification-thanks-diff-link": "вашу праўку",
 	"notification-header-rev-thank": "$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$4|вам}} за вашу праўку на старонцы <strong>$3</strong>.",
-	"log-name-thanks": "Часопіс падазяк",
+	"log-name-thanks": "Журнал падзяк",
 	"log-description-thanks": "Ніжэй прыведзены спіс удзельнікаў, якія атрымалі падзякі ад іншых удзельнікаў.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$4|удзельніку|ўдзельніцы}} $3",
 	"log-show-hide-thanks": "$1 журнал падзяк",
