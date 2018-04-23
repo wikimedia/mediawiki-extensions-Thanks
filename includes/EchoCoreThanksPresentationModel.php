@@ -96,9 +96,9 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 	}
 
 	public function getPrimaryLink() {
-		if ( $this->event->getExtraParam( 'logid' ) ) {
-			$logId = $this->event->getExtraParam( 'logid' );
-			$url = Title::newFromText( "Special:Redirect/logid/$logId" )->getCanonicalURL();
+		$logId = $this->event->getExtraParam( 'logid' );
+		if ( $logId ) {
+			$url = SpecialPage::getTitleFor( 'Log' )->getLocalURL( [ 'logid' => $logId ] );
 			$label = 'notification-link-text-view-logentry';
 		} else {
 			$url = $this->event->getTitle()->getLocalURL( [
