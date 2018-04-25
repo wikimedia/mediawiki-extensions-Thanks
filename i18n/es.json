@@ -9,7 +9,8 @@
 			"Sethladan",
 			"Themasterriot",
 			"Macofe",
-			"MarcoAurelio"
+			"MarcoAurelio",
+			"Savh"
 		]
 	},
 	"thanks-desc": "Añade enlaces para agradecer a los usuarios por ediciones, comentarios, etc.",
@@ -41,6 +42,7 @@
 	"echo-category-title-edit-thank": "Agradecimientos",
 	"notification-thanks-diff-link": "tu edición",
 	"notification-header-rev-thank": "$1 {{GENDER:$4|te}} {{GENDER:$2|agradeció}} por tu edición en <strong>$3</strong>.",
+	"notification-header-log-thank": "$1 {{GENDER:$4|te}} {{GENDER:$2|agradeció}} tu acción relacionada a <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$3|te}} {{GENDER:$2|agradeció}}.",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Una persona|$1 personas|100=99+ personas}} {{GENDER:$3|te}} {{PLURAL:$1|agradeció|agradecieron}} por tu edición en <strong>$2</strong>.",
 	"notification-bundle-header-log-thank": "{{PLURAL:$1|Una persona|$1 personas|100=Más de 99 personas}} {{GENDER:$3|te}} agradecieron por tu acción relativa a <strong>$2</strong>.",
