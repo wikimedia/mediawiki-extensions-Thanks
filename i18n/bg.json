@@ -31,6 +31,7 @@
 	"log-description-thanks": "По-долу е показан списък с потребители, получили благодарност от други потребители.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|изпрати благодарност на}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 на дневника на благодарностите",
+	"thanks-confirmation-special-rev": "Искате ли да благодарите публично за тази редакция?",
 	"notification-link-text-view-post": "Виж коментар",
 	"flow-thanks-confirmation-special": "Искате ли публично да благодарите за този коментар?",
 	"notification-header-flow-thank": "$1 {{GENDER:$5|ви}} {{GENDER:$2|благодари}} за коментара в „<strong>$3</strong>“.",
