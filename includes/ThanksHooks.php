@@ -207,8 +207,8 @@ class ThanksHooks {
 
 		$icons['thanks'] = [
 			'path' => [
-				'ltr' => 'Thanks/thanks-green-ltr.svg',
-				'rtl' => 'Thanks/thanks-green-rtl.svg'
+				'ltr' => 'Thanks/userTalk-constructive-ltr.svg',
+				'rtl' => 'Thanks/userTalk-constructive-rtl.svg'
 			]
 		];
 
