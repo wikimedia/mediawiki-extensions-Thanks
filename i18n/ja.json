@@ -9,7 +9,8 @@
 			"Otokoume",
 			"Marine-Blue",
 			"Macofe",
-			"Omotecho"
+			"Omotecho",
+			"Takot"
 		]
 	},
 	"thanks-desc": "利用者の編集やコメントなどに感謝を示すリンクを追加する",
@@ -44,6 +45,7 @@
 	"logentry-thanks-thank": "$1 が {{GENDER:$4|$3}} に{{GENDER:$2|感謝を示しました}}",
 	"log-show-hide-thanks": "感謝記録を$1",
 	"thanks-error-no-id-specified": "感謝を示す版もしくはログ IDを指定してください。",
+	"thanks-confirmation-special-rev": "この編集について、公開の場で感謝を示しますか?",
 	"notification-link-text-view-post": "コメントを閲覧",
 	"thanks-error-invalidpostid": "投稿 ID が無効です。",
 	"flow-thanks-confirmation-special": "このコメントに公に感謝を示しますか?",

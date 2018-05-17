@@ -6,7 +6,8 @@
 			"Thomsen",
 			"Sarrus",
 			"Simeondahl",
-			"SimmeD"
+			"SimmeD",
+			"EeveeSylveon"
 		]
 	},
 	"thanks-desc": "Tilføjer links til at takke brugerne for ændringer, kommentarer, osv.",
@@ -18,8 +19,10 @@
 	"thanks-error-invalidrevision": "Versions-ID er ikke gyldigt.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Du}} har overskredet din frekvensgrænse. Vent et stykke tid og prøv igen.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Send}} en takkemeddelelse til denne {{GENDER:$2|bruger}}",
+	"thanks-confirmation2": "Alle takker er offentlige. Vil du {{GENDER:$1|sende}} tak?",
 	"thanks-thanked-notice": "$1 fik at vide, at du kan lide {{GENDER:$2|hans|hendes|deres}} redigering.",
 	"thanks": "Send tak",
+	"thanks-submit": "Send tak",
 	"echo-pref-subscription-edit-thank": "Takker mig for min redigering",
 	"echo-pref-tooltip-edit-thank": "Giv mig besked, når nogen takker mig for en redigering jeg har lavet.",
 	"echo-category-title-edit-thank": "Tak!",
