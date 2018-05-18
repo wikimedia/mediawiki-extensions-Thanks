@@ -19,5 +19,8 @@
 		"doc": [
 			"doxygen"
 		]
+	},
+	"extra": {
+		"phan-taint-check-plugin": "1.2.0"
 	}
 }
