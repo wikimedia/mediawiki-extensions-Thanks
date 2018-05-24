@@ -14,7 +14,7 @@
 	"thanks-error-ratelimited": "{{GENDER:$1|Tu}} è sbunnate le limite de valutazione tune. Pe piacere aspitte 'nu picche e pruève arrete.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Manne}} 'na notifiche de rengraziamende a stu {{GENDER:$2|utende}}",
 	"thanks-confirmation2": "Tutte le rengraziaminde so pubbleche. {{GENDER:$1|Manne}} le rengraziaminde?",
-	"thanks-thanked-notice": "{{GENDER:$3|E'}} ditte grazie a $1 pu cangiamende {{GENDER:$2|sue|sue|lore}}.",
+	"thanks-thanked-notice": "{{GENDER:$3|E'}} ditte grazie a {{GENDER:$2|$1}}.",
 	"thanks": "Manne le rengraziaminde",
 	"echo-pref-subscription-edit-thank": "Ringraziame pu cangiamende mije",
 	"echo-pref-tooltip-edit-thank": "Notificame quanne quacchedune me ringrazie pe 'nu cangiamende ca agghie fatte.",
