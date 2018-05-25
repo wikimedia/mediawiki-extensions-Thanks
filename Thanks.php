@@ -21,7 +21,7 @@
  * @file
  * @ingroup Extensions
  * @author Ryan Kaldari
- * @license MIT License
+ * @license MIT
  */
 
 if ( function_exists( 'wfLoadExtension' ) ) {
