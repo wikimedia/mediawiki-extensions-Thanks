@@ -40,7 +40,7 @@
 	"thanks-thank-tooltip-no": "{{GENDER:$1|ألغ|ألغي}} إخطار الشكر",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|أرسل}} إخطار الشكر",
 	"thanks-confirmation2": "كل عمليات الشكر علنية. أتود{{GENDER:$1||ين}} الشكر؟",
-	"thanks-thanked-notice": "{{GENDER:$3|أنت}} شكرت $1 على {{GENDER:$2|$1}}.",
+	"thanks-thanked-notice": "{{GENDER:$3|أنت}} شكرت {{GENDER:$2|$1}}.",
 	"thanks": "إرسال شكر",
 	"thanks-submit": "أرسل الشكر",
 	"echo-pref-subscription-edit-thank": "شكري على تعديلي",

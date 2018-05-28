@@ -20,6 +20,7 @@
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Köszönet}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Megköszönve}}}}",
 	"thanks-error-undefined": "A megköszönés sikertelen (hibakód: $1). Kérlek, próbáld meg újra!",
+	"thanks-error-invalid-log-id": "A naplóbejegyzés nem található",
 	"thanks-error-invalidrevision": "A lapváltozat azonosítója érvénytelen.",
 	"thanks-error-revdeleted": "A lapváltozatot törölték",
 	"thanks-error-notitle": "A lap címének lekérése sikertelen",

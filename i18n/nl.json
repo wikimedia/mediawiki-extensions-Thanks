@@ -15,7 +15,8 @@
 			"Robin van der Vliet",
 			"Macofe",
 			"Mainframe98",
-			"Patio"
+			"Patio",
+			"Mbch331"
 		]
 	},
 	"thanks-desc": "Voegt koppelingen toe voor het bedanken van gebruikers voor bewerkingen, reacties, enzovoort.",
@@ -44,8 +45,10 @@
 	"echo-category-title-edit-thank": "Bedankjes",
 	"notification-thanks-diff-link": "uw bewerking",
 	"notification-header-rev-thank": "$1 {{GENDER:$2|heeft}} {{GENDER:$4|u}} bedankt voor uw bewerking op <strong>$3</strong>.",
+	"notification-header-log-thank": "$1 {{GENDER:$2|heeft}} {{GENDER:$4|u}} bedankt voor uw bewerking op <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|bedankte}} {{GENDER:$3|u}}.",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Eén persoon bedankte|$1 personen bedankten|100=99+ personen bedankten}} {{GENDER:$3|u}} voor uw bewerking op <strong>$2</strong>.",
+	"notification-bundle-header-log-thank": "{{PLURAL:$1|Eén persoon bedankte|$1 personen bedankten|100=99+ personen bedankten}} {{GENDER:$3|u}} voor uw bewerking op <strong>$2</strong>.",
 	"log-name-thanks": "Bedankjeslogboek",
 	"log-description-thanks": "Hieronder staat een lijst van gebruikers die door andere gebruikers zijn bedankt.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|heeft}} {{GENDER:$4|$3}} bedankt",
