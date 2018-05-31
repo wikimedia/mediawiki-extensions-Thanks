@@ -6,6 +6,8 @@
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|баркал áла}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Баркал áла}}}}",
 	"thanks-thank-tooltip": "{{GENDER:$1|ДIадахьийта}} {{GENDER:$2|укх доакъашхочунна}} баркал",
+	"thanks-confirmation2": "ХӀара баркал алар массанена гу йиш йолаш хул. {{GENDER:$1|ДӀадахьийта баркал}}?",
 	"echo-category-title-edit-thank": "Баркал алар"
 }
