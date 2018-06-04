@@ -10,7 +10,7 @@ use Flow\Model\UUID;
  * @covers ApiFlowThank
  *
  * @group Thanks
- * @gropu Database
+ * @group Database
  * @group medium
  * @group API
  * @group Flow
