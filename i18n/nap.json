@@ -3,7 +3,8 @@
 		"authors": [
 			"C.R.",
 			"Chelin",
-			"Macofe"
+			"Macofe",
+			"Ruthven"
 		]
 	},
 	"thanks-desc": "Azzecca link pe' putè dà grazie a ll'utente pe ne ffà nu cagnamiento, ncu commento, ecc.",
@@ -42,6 +43,6 @@
 	"apihelp-flowthank-example-1": "Manna grazie p' 'o cummento cu ll'<kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Manna 'e grazie a n'editore.",
 	"apihelp-thank-param-rev": "ID 'e verziona pe' putè dà grazie a coccheruno.",
-	"apihelp-thank-param-source": "Na stringa curta c' 'a descriziona d' 'o source d' 'a request. Pe ne dà n'esempie, <kbd>diff</kbd> o <kbd>history</kbd>.",
+	"apihelp-thank-param-source": "Na stringa curta c' 'a descriziona d' 'o fonte d' 'a riquesta. Pe ne dà n'esempie, <kbd>diff</kbd> o <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "Manna 'e grazie 'a revisiona <kbd>ID 456</kbd>, c' 'o source facenno na diff"
 }
