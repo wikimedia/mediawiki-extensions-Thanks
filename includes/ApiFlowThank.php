@@ -44,13 +44,13 @@ class ApiFlowThank extends ApiThank {
 			Container::get( 'templating' )->getContent( $rootPost, 'topic-title-html' )
 		);
 		// Truncate the title text to prevent issues with database storage.
-		$topicTitleText = $this->getLanguage()->truncate( $rawTopicTitleText, 200 );
+		$topicTitleText = $this->getLanguage()->truncateForDatabase( $rawTopicTitleText, 200 );
 		$pageTitle = $this->getPageTitleFromRootPost( $rootPost );
 
 		/** @var PostRevision $post */
 		$post = $data['post'];
 		$postText = Utils::htmlToPlaintext( $post->getContent() );
-		$postText = $this->getLanguage()->truncate( $postText, 200 );
+		$postText = $this->getLanguage()->truncateForDatabase( $postText, 200 );
 
 		$topicTitle = $this->getTopicTitleFromRootPost( $rootPost );
 
