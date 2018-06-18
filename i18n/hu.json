@@ -71,7 +71,7 @@
 	"apihelp-thank-description": "Köszönet küldése egy szerkesztőnek.",
 	"apihelp-thank-summary": "Köszönet küldése egy szerkesztőnek.",
 	"apihelp-thank-param-rev": "A megköszönendő lapváltozat-azonosító. Ezt vagy a <var>log</var> paramétert kötelező megadni.",
-	"apihelp-thank-param-log": "A megköszönendő naplóbejegyzés-azonosító. Ez vagy a <var>rev</var> paramétert kötelező megadni.",
+	"apihelp-thank-param-log": "A megköszönendő naplóbejegyzés-azonosító. Ezt vagy a <var>rev</var> paramétert kötelező megadni.",
 	"apihelp-thank-param-source": "A forrás rövid megnevezése, pl. <kbd>diff</kbd> vagy <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "A <kbd>456</kbd>-os ID-jű lapváltozat megköszönése, ahol a köszönet forrása egy diff (változtatás) oldal"
 }
