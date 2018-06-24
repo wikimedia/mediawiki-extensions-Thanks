@@ -3,7 +3,8 @@
 		"authors": [
 			"Calak",
 			"Asoxor",
-			"Macofe"
+			"Macofe",
+			"Épine"
 		]
 	},
 	"thanks-desc": "ھەندێک بەستەر زیاد دەکات بۆ سپاس کردنی بەکارھێنەران بۆ دەستکارییەکان، بۆچوونەکان و ھتد.",
@@ -26,6 +27,7 @@
 	"echo-category-title-edit-thank": "سپاس",
 	"notification-thanks-diff-link": "دەستکارییەکەت",
 	"notification-header-rev-thank": "$1 {{GENDER:$2|سپاسی}} {{GENDER:$4|کردی}} بۆ دەستکارییەکەت لە '''$3''' دا.",
+	"notification-header-log-thank": "$1 سپاسی کردیت بۆ کردارەکەت لەسەر <strong>$3</strong>.",
 	"log-name-thanks": "لۆگی سپاس",
 	"log-description-thanks": "ژێرەوە پێرستێکی لەو بەکارھێنەرانەن کە لە لایەن بەکارھێنەرانی ترەوە سپاسیان لێ کراوە.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|سپاسی کرد}} لە {{GENDER:$4|$3}}",
