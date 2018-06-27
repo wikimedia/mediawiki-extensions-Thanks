@@ -115,7 +115,13 @@
 			"scripts": [
 				"ext.thanks.mobilediff.js"
 			],
+			"styles": [
+				"ext.thanks.mobilediff.css"
+			],
 			"messages": [
+				"thanks-button-action-queued",
+				"thanks-button-action-cancel",
+				"thanks-button-action-completed",
 				"thanks-button-thank",
 				"thanks-button-thanked",
 				"thanks-error-invalidrevision",

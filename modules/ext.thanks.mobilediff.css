@@ -1,0 +1,10 @@
+.mw-thanks-notification a {
+	background: #fff;
+	padding: 6px 14px;
+	border-radius: 2px;
+	font-weight: bold;
+	font-size: 0.9em;
+	position: absolute;
+	right: 7px;
+	top: 8px;
+}

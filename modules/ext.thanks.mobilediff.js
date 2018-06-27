@@ -1,4 +1,10 @@
 ( function () {
+	// To allow users to cancel a thanks in the event of an accident, the action is delayed.
+	var THANKS_DELAY = 2000,
+		msgOptions = {
+			// tag ensures that only one message in workflow is shown at any time
+			tag: 'thanks'
+		};
 	/**
 	 * Attempt to execute a thank operation for a given edit
 	 *
@@ -13,17 +19,18 @@
 			rev: revision,
 			source: 'mobilediff'
 		} ).then( function () {
-			mw.notify( mw.msg( 'thanks-thanked-notice', name, recipientGender, mw.user ) );
+			mw.notify( mw.msg( 'thanks-button-action-completed', name, recipientGender, mw.user ),
+				msgOptions );
 		}, function ( errorCode ) {
 			switch ( errorCode ) {
 				case 'invalidrevision':
-					mw.notify( mw.msg( 'thanks-error-invalidrevision' ) );
+					mw.notify( mw.msg( 'thanks-error-invalidrevision' ), msgOptions );
 					break;
 				case 'ratelimited':
-					mw.notify( mw.msg( 'thanks-error-ratelimited', recipientGender ) );
+					mw.notify( mw.msg( 'thanks-error-ratelimited', recipientGender ), msgOptions );
 					break;
 				default:
-					mw.notify( mw.msg( 'thanks-error-undefined', errorCode ) );
+					mw.notify( mw.msg( 'thanks-error-undefined', errorCode ), msgOptions );
 			}
 		} );
 	}
@@ -51,8 +58,8 @@
 	 * @return {jQuery|null} The HTML of the button.
 	 */
 	function createThankLink( name, rev, gender ) {
-		var $button = $( '<button>' )
-			.addClass(
+		var timeout,
+			$button = $( '<button>' ).addClass(
 				'mw-mf-action-button mw-ui-button mw-ui-progressive mw-ui-icon mw-ui-icon-before mw-ui-icon-userTalk'
 			).text( mw.message( 'thanks-button-thank', mw.user, gender ).text() );
 
@@ -64,15 +71,41 @@
 		if ( mw.config.get( 'wgThanksAlreadySent' ) ) {
 			return disableThanks( $button, gender );
 		}
-		return $button
-			.on( 'click', function () {
-				var $this = $( this );
-				if ( !$this.hasClass( 'thanked' ) ) {
-					thankUser( name, rev, gender ).done( function () {
-						disableThanks( $this, gender );
-					} );
-				}
+
+		function cancelThanks( $btn ) {
+			// Hide the notification
+			$( '.mw-notification' ).hide();
+			// Clear the queued thanks!
+			clearTimeout( timeout );
+			timeout = null;
+			$btn.prop( 'disabled', false );
+		}
+
+		function queueThanks( $btn ) {
+			var $msg = $( '<div class="mw-thanks-notification">' ).text(
+				mw.msg( 'thanks-button-action-queued', name, gender )
+			);
+			$( '<a>' ).text( mw.msg( 'thanks-button-action-cancel' ) ).appendTo( $msg );
+			mw.notify( $msg, msgOptions );
+			// Make it possible to cancel
+			$msg.find( 'a' ).on( 'click', function () {
+				cancelThanks( $btn );
 			} );
+			timeout = setTimeout( function () {
+				timeout = null;
+				thankUser( name, rev, gender ).then( function () {
+					disableThanks( $btn, gender );
+				} );
+			}, THANKS_DELAY );
+		}
+
+		return $button.on( 'click', function () {
+			var $this = $( this );
+			$this.prop( 'disabled', true );
+			if ( !$this.hasClass( 'thanked' ) && !timeout ) {
+				queueThanks( $this );
+			}
+		} );
 	}
 
 	/**
