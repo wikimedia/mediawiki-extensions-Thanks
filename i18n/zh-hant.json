@@ -11,7 +11,8 @@
 			"EagerLin",
 			"飞舞回堂前",
 			"Bowleerin",
-			"Hello903hello"
+			"Hello903hello",
+			"Kly"
 		]
 	},
 	"thanks-desc": "提供可讓使用者感謝編輯、評論..等的連結。",
@@ -40,7 +41,7 @@
 	"log-description-thanks": "以下是得到其他人表示感謝的使用者清單。",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|已感謝}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 感謝日誌",
-	"thanks-error-no-id-specified": "您必須指定修訂 ID 以傳送感謝",
+	"thanks-error-no-id-specified": "您必須指定修訂或日誌 ID 以傳送感謝訊息。",
 	"notification-link-text-view-post": "檢視評論",
 	"thanks-error-invalidpostid": "張貼 ID 無效。",
 	"flow-thanks-confirmation-special": "您是否要對此評論公開表達感謝？",
