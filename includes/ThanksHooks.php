@@ -21,7 +21,7 @@ class ThanksHooks {
 	public static function onResourceLoaderTestModules( array &$testModules,
 		ResourceLoader &$resourceLoader
 	) {
-		if ( class_exists( 'SpecialMobileDiff' ) ) {
+		if ( ExtensionRegistry::getInstance()->isLoaded( 'MobileFrontend' ) ) {
 			$testModules['qunit']['tests.ext.thanks.mobilediff'] = [
 				'localBasePath' => dirname( __DIR__ ),
 				'remoteExtPath' => 'Thanks',
@@ -206,7 +206,7 @@ class ThanksHooks {
 			],
 		];
 
-		if ( class_exists( Flow\FlowPresentationModel::class ) ) {
+		if ( ExtensionRegistry::getInstance()->isLoaded( 'Flow' ) ) {
 			$notifications['flow-thank'] = [
 				'category' => 'edit-thank',
 				'group' => 'positive',
@@ -281,7 +281,7 @@ class ThanksHooks {
 		// If the MobileFrontend extension is installed and the user is
 		// logged in or recipient is not a bot if bots cannot receive thanks, show a 'Thank' link.
 		if ( $rev
-			&& class_exists( 'SpecialMobileDiff' )
+			&& ExtensionRegistry::getInstance()->isLoaded( 'MobileFrontend' )
 			&& self::canReceiveThanks( User::newFromId( $rev->getUser() ) )
 			&& $output->getUser()->isLoggedIn()
 		) {
@@ -338,7 +338,7 @@ class ThanksHooks {
 	 * @return bool
 	 */
 	public static function onApiMainModuleManager( ApiModuleManager $moduleManager ) {
-		if ( class_exists( 'FlowHooks' ) ) {
+		if ( ExtensionRegistry::getInstance()->isLoaded( 'Flow' ) ) {
 			$moduleManager->addModule(
 				'flowthank',
 				'action',
