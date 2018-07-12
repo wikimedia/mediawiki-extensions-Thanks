@@ -54,6 +54,7 @@ class ThanksHooks {
 		if ( !$user->isAnon()
 			&& $recipientId !== $user->getId()
 			&& !$user->isBlocked()
+			&& !$user->isBlockedGlobally()
 			&& self::canReceiveThanks( $recipient )
 			&& !$rev->isDeleted( Revision::DELETED_TEXT )
 			&& ( !$oldRev || $rev->getParentId() == $oldRev->getId() )
@@ -383,7 +384,7 @@ class ThanksHooks {
 		global $wgUser;
 
 		// Don't thank if anonymous or blocked
-		if ( $wgUser->isAnon() || $wgUser->isBlocked() ) {
+		if ( $wgUser->isAnon() || $wgUser->isBlocked() || $wgUser->isBlockedGlobally() ) {
 			return;
 		}
 
