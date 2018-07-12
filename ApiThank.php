@@ -19,6 +19,8 @@ abstract class ApiThank extends ApiBase {
 			$this->dieUsageMsg( [ 'actionthrottledtext' ] );
 		} elseif ( $user->isBlocked() ) {
 			$this->dieUsageMsg( [ 'blockedtext' ] );
+		} elseif ( $user->isBlockedGlobally() ) {
+			$this->dieBlocked( $user->getGlobalBlock() );
 		}
 	}
 
