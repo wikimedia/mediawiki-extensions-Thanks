@@ -54,6 +54,7 @@ class ThanksHooks {
 			&& !$user->isAnon()
 			&& $recipientId !== $user->getId()
 			&& !$user->isBlocked()
+			&& !$user->isBlockedGlobally()
 			&& self::canReceiveThanks( $recipient )
 			&& !$rev->isDeleted( Revision::DELETED_TEXT )
 			&& ( !$oldRev || $rev->getParentId() == $oldRev->getId() )
