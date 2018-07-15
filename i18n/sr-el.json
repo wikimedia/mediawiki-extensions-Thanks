@@ -19,8 +19,8 @@
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Otkaži}} zahvaljivanje",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Pošalji}} zahvalnicu",
 	"thanks-confirmation2": "Želite li da se {{GENDER:$1|zahvalite}} za ovu izmenu?",
-	"thanks-thanked-notice": "$1 je {{GENDER:$2|obavešten da ste mu|obaveštena da ste joj}} se zahvalili.",
-	"thanks": "Zahvali se",
+	"thanks-thanked-notice": "{{GENDER:$3|Zahvalili}} ste se {{GENDER:$2|korisniku|korisnici}} $1.",
+	"thanks": "Zahvalili ste se",
 	"thanks-submit": "Zahvali se",
 	"echo-pref-subscription-edit-thank": "Zahvaljivanje za izmene",
 	"echo-pref-tooltip-edit-thank": "Obaveštava vas kada vam se neko zahvali za izmenu koju ste napravili.",
@@ -33,9 +33,10 @@
 	"logentry-thanks-thank": "$1 se {{GENDER:$2|zahvalio|zahvalila}} {{GENDER:$4|korisniku|korisnici}} {{GENDER:$4|$3}}",
 	"log-show-hide-thanks": "$1 dnevnik zahvaljivanja",
 	"thanks-error-no-id-specified": "Morate navesti broj izmene da biste se zahvalili.",
+	"thanks-confirmation-special-log": "Da li želite da javno pošaljete zahvaljivanje za ovu dnevničku akciju?",
 	"notification-link-text-view-post": "Vidi komentar",
 	"flow-thanks-confirmation-special": "Želite li da se zahvalite za ovaj komentar?",
-	"flow-thanks-thanked-notice": "$1 je {{GENDER:$2|obavešten da vam se sviđa njegov|obaveštena da vam se sviđa njen}} komentar.",
+	"flow-thanks-thanked-notice": "{{GENDER:$3|Zahvalili}} ste se {{GENDER:$2|korisniku|korisnici}} $1 za {{GENDER:$2|njegov|njen}} komentar.",
 	"notification-flow-thanks-post-link": "vašem komentaru",
 	"notification-header-flow-thank": "$1 Vam se {{GENDER:$2|zahvaljuje}} {{GENDER:$5|na}} vašem komentaru u '''$3''' na '''$4'''."
 }
