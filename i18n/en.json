@@ -41,7 +41,7 @@
 	"log-name-thanks": "Thanks log",
 	"log-description-thanks": "Below is a list of users thanked by other users.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|thanked}} {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 thanks log",
+	"logeventslist-thanks-log": "Thanks log",
 	"thanks-error-no-id-specified": "You must specify a revision or log ID to send thanks.",
 	"thanks-confirmation-special-log": "Do you want to publicly send thanks for this log action?",
 	"thanks-confirmation-special-rev": "Do you want to publicly send thanks for this edit?",
