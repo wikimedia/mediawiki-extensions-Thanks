@@ -22,6 +22,5 @@
 	"notification-thanks-diff-link": "recensione tua",
 	"log-name-thanks": "Index gratiarum",
 	"log-description-thanks": "Infra est index usorum quibus gratiae ab aliis usoribus actae sunt.",
-	"logentry-thanks-thank": "$1 {{GENDER:$2|gratias egit}} {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 indicem gratiarum"
+	"logentry-thanks-thank": "$1 {{GENDER:$2|gratias egit}} {{GENDER:$4|$3}}"
 }

@@ -20,6 +20,5 @@
 	"notification-thanks-diff-link": "汝其編輯",
 	"log-name-thanks": "感謝日誌",
 	"log-description-thanks": "下底是乞其他用戶感謝過其用戶其蜀萆單單。",
-	"logentry-thanks-thank": "$1{{GENDER:$2|感謝}}{{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1感謝日誌"
+	"logentry-thanks-thank": "$1{{GENDER:$2|感謝}}{{GENDER:$4|$3}}"
 }

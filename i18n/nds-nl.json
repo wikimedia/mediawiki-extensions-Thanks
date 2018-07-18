@@ -25,7 +25,6 @@
 	"log-name-thanks": "Bedankjeslogboek",
 	"log-description-thanks": "Hieronder zie'j n lieste mit gebrukers die deur aandere gebrukers bedankt bin.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|hef}} {{GENDER:$4|$3}} bedankt",
-	"log-show-hide-thanks": "bedankjeslogboek $1",
 	"thanks-error-no-id-specified": "Je mutten n versienummer opgeven um n bedankjen te sturen.",
 	"notification-link-text-view-post": "Reaksie bekieken",
 	"thanks-error-invalidpostid": "Berichtnummer is niet geldig.",

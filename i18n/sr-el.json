@@ -31,7 +31,6 @@
 	"log-name-thanks": "Dnevnik zahvaljivanja",
 	"log-description-thanks": "Ispod se nalazi spisak korisnika kojima su se drugi korisnici zahvalili.",
 	"logentry-thanks-thank": "$1 se {{GENDER:$2|zahvalio|zahvalila}} {{GENDER:$4|korisniku|korisnici}} {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 dnevnik zahvaljivanja",
 	"thanks-error-no-id-specified": "Morate navesti broj izmene da biste se zahvalili.",
 	"thanks-confirmation-special-log": "Da li želite da javno pošaljete zahvaljivanje za ovu dnevničku akciju?",
 	"notification-link-text-view-post": "Vidi komentar",

@@ -25,6 +25,5 @@
 	"log-name-thanks": "Entrada mercejaments",
 	"log-description-thanks": "Trobaretz çaijós una lista d'utilizaires que son estats mercejats per d'autres.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|a mercejat}} {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 lo jornal dels mercejaments",
 	"notification-header-flow-thank": "{{GENDER:$2|$1}} {{GENDER:$5|vos a mercejat|vos a mercejada|vos a mercejat(-ada)}} per vòstre comentari dins « <strong>$3</strong> »."
 }

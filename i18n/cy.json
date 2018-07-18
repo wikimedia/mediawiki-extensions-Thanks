@@ -27,7 +27,6 @@
 	"log-name-thanks": "Lòg diolchiadau",
 	"log-description-thanks": "Dyma restr o ddefnyddwyr yr anfonwyd gair o ddiolch atynt gan ddefnyddwyr eraill.",
 	"logentry-thanks-thank": "{{GENDER:$2|Anfonodd}} $1 air o ddiolch i {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 y lòg diolchiadau",
 	"thanks-error-no-id-specified": "Dylech ddewis adolygiad",
 	"notification-link-text-view-post": "Gweler y sylw",
 	"thanks-error-invalidpostid": "Dydy'r ID ddim yn ddilys.",

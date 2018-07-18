@@ -28,7 +28,6 @@
 	"log-name-thanks": "Dnevnik zahval",
 	"log-description-thanks": "Prikazan je dnevnik uporabnikov, ki se jim je kdo zahvalil.",
 	"logentry-thanks-thank": "$1 se je {{GENDER:$2|zahvalil|zahvalila}} {{GENDER:$4|uporabniku|uporabnici}} {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 dnevnik zahval",
 	"thanks-error-no-id-specified": "Določiti morate ID redakcije ali dnevnika, da se lahko zahvalite.",
 	"notification-link-text-view-post": "Ogled pripombe",
 	"thanks-error-invalidpostid": "ID objave ni veljaven.",

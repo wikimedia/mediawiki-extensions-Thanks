@@ -29,7 +29,6 @@
 	"log-name-thanks": "سیاههٔ تشکرها",
 	"log-description-thanks": "این فهرستی است از کاربرانی که کاربران دیگر از آن‌ها تشکر کرده‌اند.",
 	"logentry-thanks-thank": "$1  {{GENDER:$4|$3}}دن {{GENDER:$2|تشکور ائتدی}}",
-	"log-show-hide-thanks": "$1 سیاههٔ تشکرها",
 	"thanks-error-no-id-specified": "شناسهٔ نسخه برای فرستادن تشکر را مشخص کنید.",
 	"notification-link-text-view-post": "نمایش گةپةل-قسةل",
 	"thanks-error-invalidpostid": "شناسهٔ پست معتبر نیست.",

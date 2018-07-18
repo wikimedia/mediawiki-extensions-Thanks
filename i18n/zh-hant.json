@@ -52,7 +52,7 @@
 	"log-name-thanks": "感謝日誌",
 	"log-description-thanks": "以下是得到其他人表示感謝的使用者清單。",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|已感謝}} {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 感謝日誌",
+	"logeventslist-thanks-log": "感謝日誌",
 	"thanks-error-no-id-specified": "您必須指定修訂或日誌 ID 以傳送感謝訊息。",
 	"thanks-confirmation-special-log": "您是否要對此日誌操作公開表達感謝？",
 	"thanks-confirmation-special-rev": "您是否要對此編輯公開表達感謝？",

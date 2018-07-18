@@ -43,7 +43,6 @@
 	"log-name-thanks": "感謝記録",
 	"log-description-thanks": "以下に、他の利用者から感謝を示された利用者を列挙します。",
 	"logentry-thanks-thank": "$1 が {{GENDER:$4|$3}} に{{GENDER:$2|感謝を示しました}}",
-	"log-show-hide-thanks": "感謝記録を$1",
 	"thanks-error-no-id-specified": "感謝を示す版もしくはログ IDを指定してください。",
 	"thanks-confirmation-special-rev": "この編集について、公開の場で感謝を示しますか?",
 	"notification-link-text-view-post": "コメントを閲覧",

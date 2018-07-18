@@ -26,7 +26,6 @@
 	"log-name-thanks": "Riggistru dî ringrazziamenti",
 	"log-description-thanks": "Ccassutta c'è na lista di l'utenti chi foru ringrazziati di àutri utenti.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|ringrazziau}} a {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 lu riggistru dî ringrazziamenti",
 	"thanks-error-no-id-specified": "Hai a spicificari n'ID di virsioni pi ringrazziari.",
 	"notification-link-text-view-post": "Talìa lu cummentu",
 	"thanks-error-invalidpostid": "L'ID dû missaggiu nun è vàlidu.",

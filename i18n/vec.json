@@ -21,6 +21,5 @@
 	"log-name-thanks": "Registro dei ringrassiamenti",
 	"log-description-thanks": "Sta qua xe na lista dei utenti ringrassià da altri utenti.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|el|la}} gà ringrassià {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 registro dei ringrassiamenti",
 	"notification-header-flow-thank": "$1 {{GENDER:$1|el|la}} te gà {{GENDER:$5|ringrassià}} par el to comento in \"<strong>$3</strong>\"."
 }

@@ -14,6 +14,5 @@
 	"thanks-confirmation2": "ХӀара баркал алар массанена гу йиш йолаш хул. {{GENDER:$1|ДӀадахьийта баркал}}?",
 	"echo-category-title-edit-thank": "Баркал алар",
 	"log-name-thanks": "Баркал аларий тептар",
-	"logentry-thanks-thank": "доакъашхочо $1 {{GENDER:$2|баркал аьннад}} {{GENDER:$4|доакъашхочунна}} $3",
-	"log-show-hide-thanks": "$1 баркал аларий тептар"
+	"logentry-thanks-thank": "доакъашхочо $1 {{GENDER:$2|баркал аьннад}} {{GENDER:$4|доакъашхочунна}} $3"
 }

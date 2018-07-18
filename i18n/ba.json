@@ -33,7 +33,6 @@
 	"log-name-thanks": "Ҡотлауҙар журналы",
 	"log-description-thanks": "Икенсе ҡатнашыусыларҙан ҡотлау алғандарҙан, аҫта ҡатнашыусылар исемлеге бар",
 	"logentry-thanks-thank": "$3 {{GENDER:$4|ҡатнашыусыны}}  $1 {{GENDER:$2|ҡотланы}}",
-	"log-show-hide-thanks": "$1 Ҡотлауҙар журналы.",
 	"thanks-error-no-id-specified": "Ҡотлау өсөн үҙгәртеү идентификаторын күрһәтергә.",
 	"notification-link-text-view-post": "Йөкмәткене ҡарарға",
 	"thanks-error-invalidpostid": "Хәбәрҙең тыйылған идентификаторы.",

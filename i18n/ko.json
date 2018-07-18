@@ -54,7 +54,6 @@
 	"log-name-thanks": "감사 기록",
 	"log-description-thanks": "아래에는 다른 사용자가 감사를 표한 사용자의 목록입니다.",
 	"logentry-thanks-thank": "$1님이 {{GENDER:$4|$3}}님에게 {{GENDER:$2|감사를 표했습니다}}",
-	"log-show-hide-thanks": "감사 기록을 $1",
 	"thanks-error-no-id-specified": "감사를 표할 판 또는 기록 ID를 지정해야 합니다.",
 	"thanks-confirmation-special-log": "이 기록 조치에 공개적으로 감사를 표하겠습니까?",
 	"thanks-confirmation-special-rev": "이 편집에 공개적으로 감사를 표하겠습니까?",

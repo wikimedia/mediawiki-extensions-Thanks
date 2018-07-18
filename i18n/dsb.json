@@ -22,6 +22,5 @@
 	"notification-thanks-diff-link": "twója změna",
 	"log-name-thanks": "Źěkowy protokol",
 	"log-description-thanks": "Dołojce jo lisćina wužywarjow, kótarymž druge wužywarje su se źěkowali.",
-	"logentry-thanks-thank": "$1 jo {{GENDER:$4|$3}} {{GENDER:$2|źěkował|źěkowała}}",
-	"log-show-hide-thanks": "Źěkowy protokol $1"
+	"logentry-thanks-thank": "$1 jo {{GENDER:$4|$3}} {{GENDER:$2|źěkował|źěkowała}}"
 }

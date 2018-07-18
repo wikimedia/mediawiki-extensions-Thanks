@@ -57,7 +57,6 @@
 	"log-name-thanks": "سیاههٔ تشکرها",
 	"log-description-thanks": "این فهرستی است از کاربرانی که کاربران دیگر از آن‌ها تشکر کرده‌اند.",
 	"logentry-thanks-thank": "$1 از {{GENDER:$4|$3}} {{GENDER:$2|تشکر کرد}}",
-	"log-show-hide-thanks": "$1 سیاههٔ تشکرها",
 	"thanks-error-no-id-specified": "شناسهٔ نسخه یا سیاهه برای فرستادن تشکر را مشخص کنید.",
 	"thanks-confirmation-special-log": "آيا قصد دارید که به صورت عمومی برای عمل بر روی این سیاهه تشکر کنید؟",
 	"thanks-confirmation-special-rev": "آيا قصد دارید که به صورت عمومی برای این ویرایش تشکر کنید؟",

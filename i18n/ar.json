@@ -55,7 +55,6 @@
 	"log-name-thanks": "سجل الشكر",
 	"log-description-thanks": "بالأسفل قائمة مستخدمين تلقوا شكرًا من مستخدمين آخرين.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|شكر|شكرت}} {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 سجل الشكر",
 	"thanks-error-no-id-specified": "يجب عليك تحديد معرِّف مراجعة أو سجل لإرسال الشكر.",
 	"thanks-confirmation-special-log": "هل ترغب في إرسال شكري علنيا إلى إجراء السجل هذا؟",
 	"thanks-confirmation-special-rev": "هل تريد أن ترسل علانية شكرا على هذا التعديل؟",

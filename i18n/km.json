@@ -26,6 +26,5 @@
 	"notification-bundle-header-log-thank": "{{PLURAL:$1|មនុស្សម្នាក់|មនុស្ស$1នាក់|100=មនុស្សជាង១០០នាក់}}បានថ្លែងអំណរគុណ{{GENDER:$3|អ្នក}}សម្រាប់សកម្មភាពនានារបស់អ្នកនៅ<strong>$2</strong>។",
 	"log-name-thanks": "កំណត់ត្រាការថ្លែងអំណរគុណ",
 	"log-description-thanks": "ខាងក្រោយនេះជាបញ្ជីអ្នកប្រើប្រាស់ដែលទទួលការថ្លែងអំណរគុណពីអ្នកប្រើប្រាស់ដទៃ។",
-	"logentry-thanks-thank": "$1 {{GENDER:$2|បានថ្លែងអំណរគុណ}} {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 កំណត់ត្រាការថ្លែងអំណរគុណ"
+	"logentry-thanks-thank": "$1 {{GENDER:$2|បានថ្លែងអំណរគុណ}} {{GENDER:$4|$3}}"
 }

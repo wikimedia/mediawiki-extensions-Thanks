@@ -37,7 +37,6 @@
 	"log-name-thanks": "കൃതജ്ഞതാരേഖ",
 	"log-description-thanks": "മറ്റ് ഉപയോക്താക്കളുടെ കൃതജ്ഞത ലഭിച്ച ഉപയോക്താക്കളുടെ പട്ടിക താഴെ കാണാം.",
 	"logentry-thanks-thank": "{{GENDER:$4|$3}} എന്ന ഉപയോക്താവിന് $1 {{GENDER:$2|നന്ദി രേഖപ്പെടുത്തി}}",
-	"log-show-hide-thanks": "കൃതജ്ഞതാരേഖ $1",
 	"thanks-error-no-id-specified": "നന്ദി രേഖപ്പെടുത്താൻ താങ്കൾ നാൾപ്പതിപ്പ് ഐ.ഡി. അല്ലെങ്കിൽ രേഖയുടെ ഐ.ഡി. വ്യക്തമാക്കിയിരിക്കണം.",
 	"notification-link-text-view-post": "അഭിപ്രായം കാണുക",
 	"thanks-error-invalidpostid": "കുറിപ്പിന്റെ ഐ.ഡി. സാധുവല്ല.",

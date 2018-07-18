@@ -22,6 +22,5 @@
 	"notification-thanks-diff-link": "ang pagbabago mo",
 	"log-name-thanks": "Tala ng pasasalamat",
 	"log-description-thanks": "Nasa ibaba ang isang tala ng mga tagagamit na pinasalamatan ng ibang tagagamit.",
-	"logentry-thanks-thank": "{{GENDER:$2|Pinasalamatan}} ni $1 si {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 ang tala ng pasasalamat"
+	"logentry-thanks-thank": "{{GENDER:$2|Pinasalamatan}} ni $1 si {{GENDER:$4|$3}}"
 }

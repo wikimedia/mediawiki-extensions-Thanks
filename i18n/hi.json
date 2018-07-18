@@ -41,7 +41,6 @@
 	"log-name-thanks": "धन्यवाद लॉग",
 	"log-description-thanks": "अन्य सदस्यों द्वारा धन्यवाद पाने वाले सदस्यों की सूची निम्न है।",
 	"logentry-thanks-thank": "$1 ने {{GENDER:$4|$3}} को {{GENDER:$2|धन्यवाद कहा है}}",
-	"log-show-hide-thanks": "$1 धन्यवाद लॉग",
 	"thanks-error-no-id-specified": "धन्यवाद कहने के लिए आपको कोई एक पुनरीक्षण पता निर्दिष्ट करना चाहिए।",
 	"notification-link-text-view-post": "टिप्पणी देखें",
 	"thanks-error-invalidpostid": "पोस्ट पता वैध नहीं है।",

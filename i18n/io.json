@@ -10,6 +10,5 @@
 	"echo-category-title-edit-thank": "Danki",
 	"notification-header-rev-thank": "$1 {{GENDER:$2|Dankis}} {{GENDER:$4|vu}} pro vua redakto en <strong>$3</strong>.",
 	"log-name-thanks": "Protokolo pri danko",
-	"log-show-hide-thanks": "$1 protokolo ('log') pri danko",
 	"notification-link-text-view-post": "Videz komento"
 }

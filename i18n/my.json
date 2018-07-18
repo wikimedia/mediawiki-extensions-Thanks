@@ -12,6 +12,5 @@
 	"notification-header-rev-thank": "<strong>$3</strong> ရှိ သင့်တည်းဖြတ်မှုအတွက် {{GENDER:$4|သင့်အား}} $1 က {{GENDER:$2|ကျေးဇူးတင်ခဲ့သည်}}။",
 	"log-name-thanks": "ကျေးဇူးတင်ခြင်း မှတ်တမ်း",
 	"log-description-thanks": "အောက်ပါ အသုံးပြုသူ စာရင်းသည် အခြားအသုံးပြုသူများက ကျေးဇူးတင်ခြင်း ခံခဲ့ရသူများ ဖြစ်သည်။",
-	"logentry-thanks-thank": "$1 သည် {{GENDER:$4|$3}} ကို {{GENDER:$2|ကျေးဇူးတင်ခဲ့သည်}}",
-	"log-show-hide-thanks": "ကျေးဇူးတင်ခြင်း မှတ်တမ်း $1"
+	"logentry-thanks-thank": "$1 သည် {{GENDER:$4|$3}} ကို {{GENDER:$2|ကျေးဇူးတင်ခဲ့သည်}}"
 }

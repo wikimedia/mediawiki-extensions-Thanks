@@ -21,6 +21,5 @@
 	"notification-thanks-diff-link": "tahriringiz",
 	"log-name-thanks": "Rahmatlar qaydi",
 	"log-description-thanks": "Quyida rahmat aytilgan foydalanuvchilar roʻyxati keltirilgan.",
-	"logentry-thanks-thank": "$1 {{GENDER:$4|$3}}ga {{GENDER:$2|rahmat aytdi}}",
-	"log-show-hide-thanks": "Rahmatlar qaydini $1"
+	"logentry-thanks-thank": "$1 {{GENDER:$4|$3}}ga {{GENDER:$2|rahmat aytdi}}"
 }

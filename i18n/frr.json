@@ -27,7 +27,6 @@
 	"log-name-thanks": "Soonk-logbuk",
 	"log-description-thanks": "Oner stäänt en list faan brükern, diar faan ööder brükern soonk saad wurden as.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|besoonket}} ham bi {{Gender:$4|$3}}",
-	"log-show-hide-thanks": "Föl-soonk-logbuk $1",
 	"thanks-error-no-id-specified": "Dü skel en werjuuns-ID uundu, am en soonk tu schüüren.",
 	"notification-link-text-view-post": "Komentaar uunwise",
 	"thanks-error-invalidpostid": "Det ID faan di bidrach as ferkiard.",

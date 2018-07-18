@@ -14,6 +14,5 @@
 	"notification-thanks-diff-link": "redakam olik",
 	"log-name-thanks": "Jenotalised danas",
 	"log-description-thanks": "Dono binon lised gebanas fa gebans votik pedanöls.",
-	"logentry-thanks-thank": "$1 {{GENDER:$2|edanon}} {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 jenotalisedi danas"
+	"logentry-thanks-thank": "$1 {{GENDER:$2|edanon}} {{GENDER:$4|$3}}"
 }

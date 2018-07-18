@@ -23,7 +23,6 @@
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Yew merdım|$1 merdımi|100=99+ merduman}} qandé <strong>$2</strong>  {{GENDER:$3|şıma }} rê   teşekur kerd.",
 	"log-name-thanks": "Qeydê teşekuran",
 	"logentry-thanks-thank": "$1  {{GENDER:$4|$3}} rê {{GENDER:$2|teşekur kerd}}",
-	"log-show-hide-thanks": "Qeydé teşekuré $1",
 	"notification-link-text-view-post": "Tefsiri bıvêne",
 	"notification-flow-thanks-post-link": "raweyê şıma"
 }

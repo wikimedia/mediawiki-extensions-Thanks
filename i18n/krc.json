@@ -20,6 +20,5 @@
 	"notification-thanks-diff-link": "тюрлендириуюгюз",
 	"log-name-thanks": "Сау бол айтыу журнал",
 	"log-description-thanks": "Тюбюрекде, башха къошулуучуладан ыспас алгъан къошулуучуланы тизмесиди.",
-	"logentry-thanks-thank": "$1, $3 {{GENDER:$4|къошулуучугъа}} {{GENDER:$2|сау бол айтды}}",
-	"log-show-hide-thanks": "$1 сай бол айтыу журнал"
+	"logentry-thanks-thank": "$1, $3 {{GENDER:$4|къошулуучугъа}} {{GENDER:$2|сау бол айтды}}"
 }

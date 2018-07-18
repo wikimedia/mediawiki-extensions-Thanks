@@ -37,7 +37,6 @@
 	"log-name-thanks": "Teşekkür günlüğü",
 	"log-description-thanks": "Diğer teşekkür eden kullanıcılar aşağıda listelenmektedir.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2}}, {{GENDER:$4|$3}} kullanıcısına teşekkür etti.",
-	"log-show-hide-thanks": "teşekkür günlüğünü $1",
 	"thanks-error-no-id-specified": "Teşekkür edebilmek için bir sürüm numarası belirtmeniz gerekmektedir.",
 	"notification-link-text-view-post": "Yorum görüntüle",
 	"thanks-error-invalidpostid": "Konu ID geçerli değil.",

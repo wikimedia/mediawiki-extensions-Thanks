@@ -30,7 +30,6 @@
 	"log-name-thanks": "Riggistro ringraziamente",
 	"log-description-thanks": "Ccà abbascio ce sta n'elenco 'utente c'avessero ringraziato ati utente.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|ringraziaje}} {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 riggistro 'e ringraziamente",
 	"thanks-error-no-id-specified": "Avit'a specificà l'ID 'e verziona pe' putè mannà grazie.",
 	"notification-link-text-view-post": "Vide cummente",
 	"thanks-error-invalidpostid": "L'ID d' 'a mmasciata è invalido.",

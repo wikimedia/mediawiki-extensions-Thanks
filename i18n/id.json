@@ -43,7 +43,6 @@
 	"log-name-thanks": "Catatan ucapan terima kasih",
 	"log-description-thanks": "Di bawah ini adalah daftar pengguna yang menerima terima kasih dari pengguna lain.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|berterima kasih}} kepada {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 log terima kasih",
 	"thanks-error-no-id-specified": "Anda harus menentukan perubahan ID untuk mengirimkan ucapan terima kasih.",
 	"notification-link-text-view-post": "Tampilkan komentar",
 	"thanks-error-invalidpostid": "ID posting tidak sah.",

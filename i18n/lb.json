@@ -33,7 +33,6 @@
 	"log-name-thanks": "Logbuch vum Merci-soen",
 	"log-description-thanks": "Hei drënner ass eng Lëscht vu Benotzer déi anere Benotzer 'Merci' gesot hunn.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|huet dem}} {{GENDER:$4|$3}} Merci gesot",
-	"log-show-hide-thanks": "Logbuch vum 'Merci' $1",
 	"thanks-confirmation-special-rev": "Wëllt Dir de 'Merci' fir dës Ännerung ëffentlech schécken?",
 	"notification-link-text-view-post": "Bemierkung weisen",
 	"flow-thanks-confirmation-special": "Wëllt Dir ëffentlech fir dës Bemierkung e 'Merci' schécken?",

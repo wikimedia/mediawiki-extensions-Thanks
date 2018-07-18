@@ -47,7 +47,7 @@
 	"log-name-thanks": "ধন্যবাদ লগ",
 	"log-description-thanks": "নিচে ব্যবহারকারীদের একটি তালিকা রয়েছে যারা অন্য ব্যবহারকারী হতে ধন্যবাদ পেয়েছেন।",
 	"logentry-thanks-thank": "$1 {{GENDER:$4|$3}} কে {{GENDER:$2|ধন্যবাদ জানিয়েছেন}}",
-	"log-show-hide-thanks": "ধন্যবাদ লগ $1",
+	"logeventslist-thanks-log": "ধন্যবাদ লগ",
 	"thanks-error-no-id-specified": "ধন্যবাদ পাঠাতে আপনাকে একটি সংস্করণ আইডি বা লগ উল্লেখ করা আবশ্যক।",
 	"thanks-confirmation-special-log": "আপনি কি এই লগ কর্মের জন্য সর্বজনীনভাবে ধন্যবাদ দিতে চান?",
 	"thanks-confirmation-special-rev": "আপনি কি এই সম্পাদনার জন্য সর্বজনীনভাবে ধন্যবাদ দিতে চান?",

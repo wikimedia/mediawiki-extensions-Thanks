@@ -27,7 +27,6 @@
 	"log-name-thanks": "د مننې يادښت",
 	"log-description-thanks": "دا لاندې د هغو کارنانو يو لړليک دی چې نور کارنان ترې منندوی دي.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|منندوی شو}} له {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "د مننې يادښت $1",
 	"notification-link-text-view-post": "تبصره کتل",
 	"thanks-error-invalidpostid": "د پوست پېژند سم نه دی.",
 	"notification-flow-thanks-post-link": "ستاسې تبصره",

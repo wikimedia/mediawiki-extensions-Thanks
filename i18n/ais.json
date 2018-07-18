@@ -26,7 +26,6 @@
 	"log-name-thanks": "nasulitan nazipa’an nu sapikukay",
 	"log-description-thanks": "isasa’ sa u makilac zumaay tatemaw mikukayay a misaungayay  piazihan-tu-sulit.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|makukay tuway}} {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 kukay nasulitan-nazipa’an",
 	"thanks-error-no-id-specified": "kanca kisu matuzu’ay masumad nu ayaway ID amipabahel tu kukay.",
 	"notification-link-text-view-post": "ciwsace tu buhci tu kamu",
 	"thanks-error-invalidpostid": "pazepit ID inayi’ ku laheci.",

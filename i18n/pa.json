@@ -24,7 +24,6 @@
 	"log-name-thanks": "ਮਿਹਰਬਾਨੀਆਂ ਦਾ ਇੰਦਰਾਜ",
 	"log-description-thanks": "ਹੇਠਾਂ ਦੂਜੇ ਵਰਤੋਂਕਾਰਾਂ ਦੁਆਰਾ ਧੰਨਵਾਦ ਕੀਤੇ ਵਰਤੋਂਕਾਰਾਂ ਦੀ ਇੱਕ ਲਿਸਟ ਹੈ।",
 	"logentry-thanks-thank": "$1 ਨੇ {{GENDER:$4|$3}} ਦਾ {{GENDER:$2|ਧੰਨਵਾਦ}} ਕੀਤਾ ਹੈ",
-	"log-show-hide-thanks": "ਧੰਨਵਾਦੀ ਇੰਦਰਾਜ $1",
 	"notification-link-text-view-post": "ਟਿੱਪਣੀ ਵੇਖੋ",
 	"notification-flow-thanks-post-link": "ਤੁਹਾਡੀ ਟਿੱਪਣੀ"
 }

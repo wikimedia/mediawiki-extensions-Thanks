@@ -28,7 +28,6 @@
 	"log-name-thanks": "धन्यवादाच्या नोंदी",
 	"log-description-thanks": "खाली त्या सदस्यांची यादी आहे ज्यांना इतर सदस्यांनी धन्यवाद दिलेत.",
 	"logentry-thanks-thank": "$1 ने {{GENDER:$4|$3}} ला {{GENDER:$2|धन्यवाद दिलेत}}",
-	"log-show-hide-thanks": "$1 धन्यवादाच्या नोंदी",
 	"notification-link-text-view-post": "अभिप्राय बघा",
 	"flow-thanks-confirmation-special": "या अभिप्रायास आपणास सार्वजनिकरित्या धन्यवाद पाठवायचे आहेत काय?",
 	"notification-flow-thanks-post-link": "आपला अभिप्राय",

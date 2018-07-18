@@ -25,7 +25,6 @@
 	"notification-header-rev-thank": "$1 lankideak '''$3''' orrian egin {{GENDER:$4|duzun}} aldaketa {{GENDER:$2|eskertzen}} dizu.",
 	"log-name-thanks": "Eskertza erregistroa",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|wikilariak}} eskerrak eman dizkio {{GENDER:$4|$3}} wikilariari",
-	"log-show-hide-thanks": "$1 eskertza erregistroa",
 	"notification-link-text-view-post": "Erakutsi iruzkina",
 	"flow-thanks-confirmation-special": "Iruzkin hau eskertu nahi duzu?",
 	"flow-thanks-thanked-notice": "{{GENEROA:$3|Zu}} eskerrak $1 {{GENEROA:$2|mutilarena|neskarena|haiena}}agatik oharra.",

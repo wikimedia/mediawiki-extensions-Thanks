@@ -22,6 +22,5 @@
 	"notification-thanks-diff-link": "soa modìfica",
 	"log-name-thanks": "Argistr dj'aringrassiament",
 	"log-description-thanks": "Sì-sota a-i é na lista d'utent aringrassià da d'àutri utent.",
-	"logentry-thanks-thank": "$1 a l'ha {{GENDER:$2|aringrassià}} {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 l'argistr ëd j'aringrassiament"
+	"logentry-thanks-thank": "$1 a l'ha {{GENDER:$2|aringrassià}} {{GENDER:$4|$3}}"
 }

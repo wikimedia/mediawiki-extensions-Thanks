@@ -26,6 +26,5 @@
 	"notification-header-rev-thank": "$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$4|вам}} за вашую праўку на старонцы <strong>$3</strong>.",
 	"log-name-thanks": "Журнал падзякаў",
 	"log-description-thanks": "Ніжэй знаходзіцца сьпіс удзельнікаў, якія атрымалі падзякі.",
-	"logentry-thanks-thank": "$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$4|удзельніку|удзельніцы}} $3",
-	"log-show-hide-thanks": "Журнал падзякаў $1"
+	"logentry-thanks-thank": "$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$4|удзельніку|удзельніцы}} $3"
 }

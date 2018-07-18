@@ -43,7 +43,6 @@
 	"log-name-thanks": "Padėkų sąrašas",
 	"log-description-thanks": "Žemiau pateikiamas sąrašas naudotojų, kuriems padėkojo kiti naudotojai.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|padėkojo}} {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 padėkų žurnalą",
 	"thanks-error-no-id-specified": "Turite nurodyti versijos ID, kad galėtumėte padėkoti.",
 	"notification-link-text-view-post": "Rodyti komentarą",
 	"thanks-error-invalidpostid": "Netinkamas įrašo ID.",

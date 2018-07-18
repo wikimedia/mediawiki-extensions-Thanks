@@ -27,6 +27,5 @@
 	"log-name-thanks": "Журнал падзяк",
 	"log-description-thanks": "Ніжэй прыведзены спіс удзельнікаў, якія атрымалі падзякі ад іншых удзельнікаў.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|падзякаваў удзель|падзякавала ўдзель}}{{GENDER:$4|ніку|ніцы}} $3",
-	"log-show-hide-thanks": "$1 журнал падзяк",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$5|вам}} за ваш каментарый у <strong>$3</strong>."
 }

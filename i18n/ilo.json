@@ -22,7 +22,6 @@
 	"log-name-thanks": "Listaan kadagiti panagyaman",
 	"log-description-thanks": "Dita baba ket listaan dagiti agar-aramat a nayamanan babaen dagiti dadduma nga agar-aramat.",
 	"logentry-thanks-thank": "Ni $1 ket {{GENDER:$2|nagyaman}} kenni {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 ti listaan dagiti panagyaman",
 	"thanks-error-no-id-specified": "Nasken a mainaganan ti ID ti panagbaliw tapno makaipatulod kadagiti panagyaman.",
 	"notification-link-text-view-post": "Kitaen ti komentario",
 	"thanks-error-invalidpostid": "Ti ID ti pablaak ket saan nga umiso.",

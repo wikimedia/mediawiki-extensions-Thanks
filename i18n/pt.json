@@ -55,7 +55,7 @@
 	"log-name-thanks": "Registo de agradecimentos",
 	"log-description-thanks": "Abaixo está uma lista de utilizadores que receberam agradecimentos de outros utilizadores.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|agradeceu}} a {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 registo de agradecimentos",
+	"logeventslist-thanks-log": "Registo de agradecimentos",
 	"thanks-error-no-id-specified": "Tem de especificar um identificador de revisão ou de registo para enviar o agradecimento.",
 	"thanks-confirmation-special-log": "Deseja agradecer publicamente esta entrada do registo?",
 	"thanks-confirmation-special-rev": "Deseja agradecer publicamente esta edição?",

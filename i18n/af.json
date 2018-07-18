@@ -23,7 +23,6 @@
 	"log-name-thanks": "Bedankingslogboek",
 	"log-description-thanks": "Hieronder is 'n lys van gebruikers wat deur ander gebruikers bedank is.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|het}} {{GENDER:$4|$3}} bedank",
-	"log-show-hide-thanks": "bedankingslogboek $1",
 	"thanks-error-no-id-specified": "U moet 'n WysigingID verskaf om iemand te bedank.",
 	"notification-link-text-view-post": "Wys opmerking",
 	"thanks-error-invalidpostid": "PosID is ongeldig",

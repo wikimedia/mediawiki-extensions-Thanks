@@ -31,7 +31,6 @@
 	"log-name-thanks": "Takkelog",
 	"log-description-thanks": "Nedenfor er en liste over brugere, som er blevet takket af andre brugere.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|takkede}} {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 takkelog",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|takkede}} {{GENDER:$5|dig}} for din kommentar i \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|takkede}} {{GENDER:$3|dig}}."
 }

@@ -25,6 +25,5 @@
 	"notification-thanks-diff-link": "twoju změnu",
 	"log-name-thanks": "Dźakny protokol",
 	"log-description-thanks": "Deleka je lisćina wužiwarjow, kotrymž su so druzy wužiwarjo dźakowali.",
-	"logentry-thanks-thank": "$1 je {{GENDER:$4|$3}} {{GENDER:$2|dźakował|dźakowała}}",
-	"log-show-hide-thanks": "Dźakny protokol $1"
+	"logentry-thanks-thank": "$1 je {{GENDER:$4|$3}} {{GENDER:$2|dźakował|dźakowała}}"
 }

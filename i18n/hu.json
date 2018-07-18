@@ -51,7 +51,6 @@
 	"log-name-thanks": "Köszönési napló",
 	"log-description-thanks": "Az alábbi szerkesztők köszönetet kaptak más szerkesztőktől.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|köszönetet mondott}} {{GENDER:$4|$3}} szerkesztőnek",
-	"log-show-hide-thanks": "Köszönetnapló $1",
 	"thanks-error-no-id-specified": "A köszönet elküldéséhez ki kell töltened a lapváltozat- vagy naplóazonosítót.",
 	"thanks-confirmation-special-log": "Küldesz nyilvános köszönetet ezért a naplózott műveletért?",
 	"thanks-confirmation-special-rev": "Küldesz nyilvános köszönetet ezért a szerkesztésért?",

@@ -43,7 +43,6 @@
 	"log-name-thanks": "Registre d'agraïments",
 	"log-description-thanks": "A continuació teniu una llista d'usuaris agraïts per part d'altres usuaris.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|ha agraït}} {{GENDER:$4|$3}}",
-	"log-show-hide-thanks": "$1 el registre d'agraïments",
 	"thanks-error-no-id-specified": "Heu d'especificar una revisió ID per enviar les gràcies.",
 	"notification-link-text-view-post": "Mostra el comentari",
 	"thanks-error-invalidpostid": "Post ID no és vàlid.",

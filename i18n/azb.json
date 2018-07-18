@@ -19,7 +19,6 @@
 	"log-name-thanks": "تشکورلر ژورنالی",
 	"log-description-thanks": "بو، ایشلدنلرین بیر-بیریلریندن تشکور ائتمه لیستیدیر.",
 	"logentry-thanks-thank": "$1، {{GENDER:$4|$3}}-دن {{GENDER:$2|تشکور ائتدی}}",
-	"log-show-hide-thanks": "تشکورلر ژورنالی $1",
 	"flow-thanks-thanked-notice": "$1 {{GENDER:$2|بو}} باخیشی اۆچون سیزدن تشکّور مساژی آلدی.",
 	"notification-header-flow-thank": "$1 {{GENDER:$5|سیزدن}} \"<strong>$3</strong>\"-ده ائتدیگینیز دییشیک‌لیک اۆچون {{GENDER:$2|تشکّور}} ائتدی."
 }
