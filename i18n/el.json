@@ -32,6 +32,7 @@
 	"log-name-thanks": "Καταγραφή ευχαριστηρίων",
 	"log-description-thanks": "Παρακάτω είναι μια λίστα των χρηστών που ευχαριστήθηκαν από άλλους χρήστες.",
 	"logentry-thanks-thank": "{{GENDER:$2|Ο|Η}} $1 ευχαρίστησε {{GENDER:$4|τον|την}} $3",
+	"logeventslist-thanks-log": "Καταγραφή ευχαριστηρίων",
 	"thanks-error-no-id-specified": "Πρέπει να καθορίσετε ένα ID αναθεώρησης ή μητρώου για να στείλετε ευχαριστία.",
 	"notification-link-text-view-post": "Προβολή σχολίου",
 	"thanks-error-invalidpostid": "Το Post ID δεν είναι έγκυρο.",

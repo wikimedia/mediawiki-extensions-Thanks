@@ -44,6 +44,7 @@
 	"log-name-thanks": "Kiitosloki",
 	"log-description-thanks": "Alla on luettelo niistä käyttäjistä, jotka ovat saaneet kiitoksia toisilta käyttäjiltä.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|kiitti}} käyttäjää {{GENDER:$4|$3}}",
+	"logeventslist-thanks-log": "Kiitosloki",
 	"thanks-error-no-id-specified": "Sinun on määritettävä sivuversio tai lokin tunnistenumero, jotta voit lähettää kiitoksia.",
 	"notification-link-text-view-post": "Näytä kommentti",
 	"notification-link-text-view-logentry": "Näytä lokitapahtuma",

@@ -65,6 +65,7 @@
 	"log-name-thanks": "Journal des remerciements",
 	"log-description-thanks": "Ci-dessous se trouve une liste d'utilisateurs qui ont été remerciés par d'autres.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|a remercié}} {{GENDER:$4|$3}}",
+	"logeventslist-thanks-log": "Journal des remerciements",
 	"thanks-error-no-id-specified": "Vous devez spécifier un ID de révision ou de journal pour envoyer des remerciements.",
 	"thanks-confirmation-special-log": "Voulez-vous envoyer publiquement des remerciements pour cette action du journal ?",
 	"thanks-confirmation-special-rev": "Voulez-vous envoyer publiquement des remerciements pour cette modification ?",

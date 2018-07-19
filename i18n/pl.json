@@ -50,6 +50,7 @@
 	"log-name-thanks": "Rejestr podziękowań",
 	"log-description-thanks": "Poniżej znajduje się lista użytkowników, którym podziękowali inni użytkownicy.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|podziękował|podziękowała}} {{GENDER:$4|użytkownikowi|użytkowniczce}} $3",
+	"logeventslist-thanks-log": "Rejestr podziękowań",
 	"thanks-error-no-id-specified": "Musisz określić wersję strony lub identyfikator wpisu rejestru, aby wysłać podziękowanie.",
 	"thanks-confirmation-special-log": "Czy chcesz wysłać publiczne podziękowanie za tę akcję?",
 	"thanks-confirmation-special-rev": "Czy chcesz wysłać publiczne podziękowanie za tę edycję?",

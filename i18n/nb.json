@@ -46,6 +46,7 @@
 	"log-name-thanks": "Takkelogg",
 	"log-description-thanks": "Under er en liste over brukere som har blitt takket av andre brukere.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|takket}} {{GENDER:$4|$3}}",
+	"logeventslist-thanks-log": "Takkelogg",
 	"thanks-error-no-id-specified": "Du må angi en revisjons-ID eller logg-ID å takke for.",
 	"thanks-confirmation-special-log": "Vil du takke offentlig for denne logghandlingen?",
 	"thanks-confirmation-special-rev": "Vil du sende en offentlig takk for denne redigeringen?",
