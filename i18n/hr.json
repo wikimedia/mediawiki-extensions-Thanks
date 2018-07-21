@@ -40,6 +40,7 @@
 	"log-name-thanks": "Evidencija zahvala",
 	"log-description-thanks": "Slijedi popis suradnika koji su drugim suradnicima objavili zahvalu.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|zahvalio|zahvalila}} je {{GENDER:$4|suradniku|suradnici}} {{GENDER:$4|$3}}",
+	"logeventslist-thanks-log": "Evidencija zahvala",
 	"thanks-error-no-id-specified": "Morate navesti identifikator (ID) izmjene za koju želite poslati zahvalu.",
 	"thanks-confirmation-special-log": "Želite li javno zahvaliti za ovu evidencijsku radnju?",
 	"notification-link-text-view-post": "Pogledaj komentar",
