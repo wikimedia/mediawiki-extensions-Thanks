@@ -45,6 +45,7 @@
 	"log-name-thanks": "יומן תודות",
 	"log-description-thanks": "להלן רשימת משתמשים שאנשים אחרים הודו להם.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|הודה|הודתה}} ל{{GRAMMAR:תחילית|{{GENDER:$4|$3}}}}",
+	"logeventslist-thanks-log": "יומן תודות",
 	"thanks-error-no-id-specified": "יש לציין מזהה גרסה או פעולת יומן כדי לשלוח תודה.",
 	"thanks-confirmation-special-log": "האם ברצונך לשלוח תודה על פעולת היומן הזו באופן ציבורי?",
 	"thanks-confirmation-special-rev": "האם ברצונך לשלוח תודה על העריכה הזו באופן ציבורי?",
