@@ -11,7 +11,8 @@
 			"Dj",
 			"Tgr",
 			"Macofe",
-			"Rodrigo"
+			"Rodrigo",
+			"Bencemac"
 		]
 	},
 	"thanks-desc": "Linkeket helyez el, amikkel meg lehet köszönni a szerkesztéseket, hozzászólásokat stb.",
@@ -51,6 +52,7 @@
 	"log-name-thanks": "Köszönési napló",
 	"log-description-thanks": "Az alábbi szerkesztők köszönetet kaptak más szerkesztőktől.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|köszönetet mondott}} {{GENDER:$4|$3}} szerkesztőnek",
+	"logeventslist-thanks-log": "Köszönési napló",
 	"thanks-error-no-id-specified": "A köszönet elküldéséhez ki kell töltened a lapváltozat- vagy naplóazonosítót.",
 	"thanks-confirmation-special-log": "Küldesz nyilvános köszönetet ezért a naplózott műveletért?",
 	"thanks-confirmation-special-rev": "Küldesz nyilvános köszönetet ezért a szerkesztésért?",
