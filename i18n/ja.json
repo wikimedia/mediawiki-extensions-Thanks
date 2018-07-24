@@ -10,7 +10,8 @@
 			"Marine-Blue",
 			"Macofe",
 			"Omotecho",
-			"Takot"
+			"Takot",
+			"Kkairri"
 		]
 	},
 	"thanks-desc": "利用者の編集やコメントなどに感謝を示すリンクを追加する",
@@ -44,6 +45,7 @@
 	"log-description-thanks": "以下に、他の利用者から感謝を示された利用者を列挙します。",
 	"logentry-thanks-thank": "$1 が {{GENDER:$4|$3}} に{{GENDER:$2|感謝を示しました}}",
 	"thanks-error-no-id-specified": "感謝を示す版もしくはログ IDを指定してください。",
+	"thanks-confirmation-special-log": "この記録の操作について、公開の場で感謝を示しますか?",
 	"thanks-confirmation-special-rev": "この編集について、公開の場で感謝を示しますか?",
 	"notification-link-text-view-post": "コメントを閲覧",
 	"thanks-error-invalidpostid": "投稿 ID が無効です。",
