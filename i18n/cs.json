@@ -7,7 +7,8 @@
 			"Macofe",
 			"Dvorapa",
 			"Tchoř",
-			"Ilimanaq29"
+			"Ilimanaq29",
+			"Martin Urbanec"
 		]
 	},
 	"thanks-desc": "Přidává odkazy pro poděkování uživatelům za editace, komentáře apod.",
@@ -39,6 +40,7 @@
 	"log-name-thanks": "Kniha poděkování",
 	"log-description-thanks": "Níže je seznam uživatelů, kterým ostatní uživatelé poděkovali.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|poděkoval|poděkovala}} {{GENDER:$4|uživateli|uživatelce}} $3",
+	"logeventslist-thanks-log": "Kniha poděkování",
 	"thanks-error-no-id-specified": "Abyste {{GENDER:|mohl|mohla|mohli}} poděkovat, musíte zadat ID revize nebo protokolovacího záznamu.",
 	"thanks-confirmation-special-log": "Chcete veřejně poděkovat za tento protokolovací záznam?",
 	"thanks-confirmation-special-rev": "Chcete veřejně poděkovat za tuto editaci?",

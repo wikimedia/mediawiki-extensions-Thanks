@@ -29,7 +29,7 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|Lähetä}} kiitoksesi tälle {{GENDER:$2|käyttäjälle}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Älä lähetä}} kiitoksia",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Lähetä}} kiitokset käyttäjälle",
-	"thanks-confirmation2": "Kaikki kiitokset ovat julkisia. {{GENDER:$1|Lähetä}} kiitokset?",
+	"thanks-confirmation2": "Kaikki kiitokset ovat julkisia. {{GENDER:$1|Lähetetäänkö}} kiitokset?",
 	"thanks-thanked-notice": "{{GENDER:$3|Kiitit}} käyttäjää {{GENDER:$2|$1}}.",
 	"thanks": "Lähetä kiitokset",
 	"thanks-submit": "Lähetä kiitokset",

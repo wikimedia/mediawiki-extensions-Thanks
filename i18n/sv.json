@@ -51,6 +51,7 @@
 	"log-name-thanks": "Tacklogg",
 	"log-description-thanks": "Nedan är en lista med användare som fått tack från andra användare.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|tackade}} {{GENDER:$4|$3}}",
+	"logeventslist-thanks-log": "Tacklogg",
 	"thanks-error-no-id-specified": "Du måste ange ett ID till en sidversion eller logg för att skicka tack.",
 	"thanks-confirmation-special-log": "Vill du skicka ett offentligt tack för denna logghandling?",
 	"thanks-confirmation-special-rev": "Vill du skicka ett offentligt tack för denna redigering?",
