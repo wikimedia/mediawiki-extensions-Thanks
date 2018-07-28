@@ -43,6 +43,7 @@
 	"log-name-thanks": "Tänulogi",
 	"log-description-thanks": "Allpool on nimekiri kasutajatest, keda teised kasutajad on tänanud.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|tänas}} kasutajat {{GENDER:$4|$3}}",
+	"logeventslist-thanks-log": "Tänulogi",
 	"thanks-error-no-id-specified": "Pead määrama redaktsiooni või logisündmuse identifikaatori, et tänu avaldada.",
 	"thanks-confirmation-special-log": "Kas soovid saata selle logitoimingu eest avaliku tänuteavituse?",
 	"thanks-confirmation-special-rev": "Kas soovid saata selle muudatuse eest avaliku tänuteavituse?",
