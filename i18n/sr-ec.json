@@ -46,7 +46,7 @@
 	"logeventslist-thanks-log": "Дневник захваљивања",
 	"thanks-error-no-id-specified": "Морате навести ID измене или радње да бисте се захвалили.",
 	"thanks-confirmation-special-log": "Да ли желите да јавно пошаљете захваљивање за ову дневничку акцију?",
-	"thanks-confirmation-special-rev": "Желите ли да јавно пошаљете захваљивање за ову измену?",
+	"thanks-confirmation-special-rev": "Да ли желите да јавно пошаљете захваљивање за ову измену?",
 	"notification-link-text-view-post": "Види коментар",
 	"notification-link-text-view-logentry": "Погледај унос у дневнику",
 	"thanks-error-invalidpostid": "ID објаве није валидан.",
