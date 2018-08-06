@@ -42,6 +42,7 @@
 	"log-name-thanks": "Rexistru d'agradecimientos",
 	"log-description-thanks": "Mas abaxo ta la llista d'usuarios a los qu'otros usuarios dieron les gracies.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|dio les gracies a}} {{GENDER:$4|$3}}",
+	"logeventslist-thanks-log": "Rexistru d'agradecimientos",
 	"thanks-error-no-id-specified": "Tienes d'especificar una ID de revisión o de rexistru pa unviar agradecimientos.",
 	"thanks-confirmation-special-log": "¿Quies agradecer públicamente esta aición del rexistru?",
 	"thanks-confirmation-special-rev": "¿Quies agradecer públicamente esta edición?",

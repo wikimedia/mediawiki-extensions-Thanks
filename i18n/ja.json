@@ -44,6 +44,7 @@
 	"log-name-thanks": "感謝記録",
 	"log-description-thanks": "以下に、他の利用者から感謝を示された利用者を列挙します。",
 	"logentry-thanks-thank": "$1 が {{GENDER:$4|$3}} に{{GENDER:$2|感謝を示しました}}",
+	"logeventslist-thanks-log": "感謝記録",
 	"thanks-error-no-id-specified": "感謝を示す版もしくはログ IDを指定してください。",
 	"thanks-confirmation-special-log": "この記録の操作について、公開の場で感謝を示しますか?",
 	"thanks-confirmation-special-rev": "この編集について、公開の場で感謝を示しますか?",
