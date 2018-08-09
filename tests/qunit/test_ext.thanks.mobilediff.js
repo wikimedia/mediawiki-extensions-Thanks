@@ -9,7 +9,7 @@
 
 		// eslint-disable-next-line no-underscore-dangle
 		mw.thanks._mobileDiffInit( $user, $container );
-		assert.strictEqual( $container.find( 'button' ).length, 1, 'Thanks button was created.' );
+		assert.strictEqual( $container.find( '.mw-ui-button' ).length, 1, 'Thanks button was created.' );
 	} );
 
 }( jQuery, mediaWiki ) );

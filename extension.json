@@ -62,6 +62,19 @@
 		"SpecialThanks": "includes/SpecialThanks.php"
 	},
 	"ResourceModules": {
+		"ext.thanks.images": {
+			"class": "ResourceLoaderImageModule",
+			"selector": ".mw-ui-icon-{name}:before",
+			"defaultColor": "#fff",
+			"images": {
+				"userTalk": {
+					"file": {
+							"ltr": "userTalk-ltr.svg",
+							"rtl": "userTalk-rtl.svg"
+					}
+				}
+			}
+		},
 		"ext.thanks": {
 			"scripts": [
 				"ext.thanks.thank.js"
@@ -110,6 +123,7 @@
 				"thanks-thanked-notice"
 			],
 			"dependencies": [
+				"ext.thanks.images",
 				"mediawiki.api",
 				"mediawiki.jqueryMsg",
 				"mediawiki.notify"
