@@ -15,7 +15,8 @@
 			"Northteam",
 			"EagerLin",
 			"Macofe",
-			"飞舞回堂前"
+			"飞舞回堂前",
+			"A2093064"
 		]
 	},
 	"thanks-desc": "添加感谢用户进行编辑、评论等行为的链接。",
@@ -55,6 +56,7 @@
 	"log-name-thanks": "感谢日志",
 	"log-description-thanks": "下面是得到其他用户感谢的用户的列表。",
 	"logentry-thanks-thank": "$1{{GENDER:$2|感谢了}}{{GENDER:$4|$3}}",
+	"logeventslist-thanks-log": "感谢日志",
 	"thanks-error-no-id-specified": "您必须指定发送感谢的版本或日志ID。",
 	"thanks-confirmation-special-log": "您希望对此日志操作公开发送感谢么？",
 	"thanks-confirmation-special-rev": "您希望对此编辑公开发送感谢么？",
