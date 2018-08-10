@@ -22,7 +22,7 @@
 	"thanks-error-ratelimited": "{{GENDER:$1|Du}} har overskredet din frekvensgrænse. Vent et stykke tid og prøv igen.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Send}} en takkemeddelelse til denne {{GENDER:$2|bruger}}",
 	"thanks-confirmation2": "Alle takker er offentlige. Vil du {{GENDER:$1|sende}} tak?",
-	"thanks-thanked-notice": "$1 fik at vide, at du kan lide {{GENDER:$2|hans|hendes|deres}} redigering.",
+	"thanks-thanked-notice": "{{GENDER:$3|Du}} takkede {{GENDER:$2|$1}}.",
 	"thanks": "Send tak",
 	"thanks-submit": "Send tak",
 	"echo-pref-subscription-edit-thank": "Takker mig for min redigering",
@@ -33,6 +33,7 @@
 	"log-name-thanks": "Takkelog",
 	"log-description-thanks": "Nedenfor er en liste over brugere, som er blevet takket af andre brugere.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|takkede}} {{GENDER:$4|$3}}",
+	"notification-link-text-view-post": "Vis kommentar",
 	"notification-flow-thanks-post-link": "din kommentar",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|takkede}} {{GENDER:$5|dig}} for din kommentar i \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|takkede}} {{GENDER:$3|dig}}."
