@@ -69,8 +69,8 @@
 			"images": {
 				"userTalk": {
 					"file": {
-							"ltr": "userTalk-ltr.svg",
-							"rtl": "userTalk-rtl.svg"
+						"ltr": "userTalk-ltr.svg",
+						"rtl": "userTalk-rtl.svg"
 					}
 				}
 			}
