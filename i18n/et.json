@@ -7,7 +7,7 @@
 		]
 	},
 	"thanks-desc": "Lisab lingid kasutajate tänamiseks muudatuste, kommentaaride ja muu eest.",
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|täna}}}}",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|avalda tänu}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|tänatud}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Täna}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Tänatud}}}}",
