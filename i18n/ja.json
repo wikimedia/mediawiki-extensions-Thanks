@@ -11,7 +11,8 @@
 			"Macofe",
 			"Omotecho",
 			"Takot",
-			"Kkairri"
+			"Kkairri",
+			"Suyama"
 		]
 	},
 	"thanks-desc": "利用者の編集やコメントなどに感謝を示すリンクを追加する",
@@ -31,7 +32,7 @@
 	"thanks-thank-tooltip-no": "感謝の通知の送信を{{GENDER:$1|取り消し}}ました。",
 	"thanks-thank-tooltip-yes": "感謝の通知を{{GENDER:$1|送信}}しました。",
 	"thanks-confirmation2": "感謝はすべて公開です。感謝を{{GENDER:$1|示しますか}}?",
-	"thanks-thanked-notice": "{{GENDER:$2|あなた}}から$1の編集に感謝を示しました。",
+	"thanks-thanked-notice": "{{GENDER:$3|あなた}}から{{GENDER:$2|$1}}の編集に感謝を示しました。",
 	"thanks": "感謝を示す",
 	"thanks-submit": "感謝を示す",
 	"echo-pref-subscription-edit-thank": "自分の編集に誰かが感謝を示したとき",
@@ -39,6 +40,7 @@
 	"echo-category-title-edit-thank": "感謝",
 	"notification-thanks-diff-link": "あなたの編集",
 	"notification-header-rev-thank": "$1 が <strong>$3</strong> での{{GENDER:$4|あなた}}の編集に{{GENDER:$2|感謝}}を示しました。",
+	"notification-header-log-thank": "$1が<strong>$3</strong>での{{GENDER:$4|あなた}}の編集に{{GENDER:$2|感謝}}を示しました。",
 	"notification-compact-header-edit-thank": "$1 が{{GENDER:$3|あなた}}に{{GENDER:$2|感謝}}を示しました。",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|1人|$1人|100=99人以上}}が <strong>$2</strong> での{{GENDER:$3|あなた}}の編集に感謝を示しています。",
 	"log-name-thanks": "感謝記録",

@@ -1,16 +1,34 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ninjastrikers"
+			"Ninjastrikers",
+			"Dr Lotus Black"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ကျေးဇူးတင်}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|ကျေးဇူးတင်ပြီးပြီ}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|ကျေးဇူးတင်}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|ကျေးဇူးတင်ခဲ့သည်}}}}",
+	"thanks-error-invalidrecipient-bot": "ဘော့များသည် ကျေးဇူးတင်မခံနိုင်ပါ",
+	"thanks-error-invalidrecipient-self": "သင့်ကိုယ်သင် ကျေးဇူးမတင်နိုင်ပါ",
+	"thanks-error-notloggedin": "အမည်မသိအသုံးပြုသူများ ကျေးဇူးတင်စကား မပို့နိုင်ပါ",
 	"thanks-thank-tooltip": "ဤ{{GENDER:$2|အသုံးပြုသူ}}သို့ ကျေးဇူးတင်ကြောင်း {{GENDER:$1|ပို့ခဲ့သည်}}",
-	"thanks-confirmation2": "ဤတည်းဖြတ်မှုအတွက် ကျေးဇူးတင်ခြင်းကို {{GENDER:$1|ပြုလုပ်မည်}}လော?",
+	"thanks-thank-tooltip-no": "ကျေးဇူးတင်ခြင်း အသိပေးချက်ကို {{GENDER:$1|ပယ်ဖျက်}}မည်",
+	"thanks-thank-tooltip-yes": "ကျေးဇူးတင်ခြင်း အသိပေးချက်ကို {{GENDER:$1|ပို့ပေး}}ရန်",
+	"thanks-confirmation2": "ကျေးဇူးတင်ခြင်းအားလုံးသည် လူအများကြည့်နိုင်သည်။ ကျေးဇူးတင်ခြင်း {{GENDER:$1|ပို့မည်}}လော?",
+	"thanks-thanked-notice": "{{GENDER:$3|သင်}} သည် {{GENDER:$2|$1}} ကို ကျေးဇူးတင်ခဲ့သည်။",
+	"thanks": "ကျေးဇူးတင်မှု ပို့ရန်",
+	"thanks-submit": "ကျေးဇူးတင်မှု ပို့ရန်",
+	"echo-pref-subscription-edit-thank": "မိမိ၏တည်းဖြတ်မှုအတွက် ကျေးဇူးတင်ပါ",
+	"echo-category-title-edit-thank": "ကျေးဇူးတင်ပါသည်",
+	"notification-thanks-diff-link": "သင်၏ တည်းဖြတ်မှု",
 	"notification-header-rev-thank": "<strong>$3</strong> ရှိ သင့်တည်းဖြတ်မှုအတွက် {{GENDER:$4|သင့်အား}} $1 က {{GENDER:$2|ကျေးဇူးတင်ခဲ့သည်}}။",
+	"notification-compact-header-edit-thank": "$1 က {{GENDER:$3|သင့်}}ကို {{GENDER:$2|ကျေးဇူးတင်ခဲ့}} သည်။",
 	"log-name-thanks": "ကျေးဇူးတင်ခြင်း မှတ်တမ်း",
 	"log-description-thanks": "အောက်ပါ အသုံးပြုသူ စာရင်းသည် အခြားအသုံးပြုသူများက ကျေးဇူးတင်ခြင်း ခံခဲ့ရသူများ ဖြစ်သည်။",
-	"logentry-thanks-thank": "$1 သည် {{GENDER:$4|$3}} ကို {{GENDER:$2|ကျေးဇူးတင်ခဲ့သည်}}"
+	"logentry-thanks-thank": "$1 သည် {{GENDER:$4|$3}} ကို {{GENDER:$2|ကျေးဇူးတင်ခဲ့သည်}}",
+	"logeventslist-thanks-log": "ကျေးဇူးတင်ခြင်း မှတ်တမ်း",
+	"notification-link-text-view-post": "မှတ်ချက်ကြည့်ရန်",
+	"notification-flow-thanks-post-link": "သင်၏မှတ်ချက်",
+	"notification-header-flow-thank": "$1 က \"<strong>$3</strong>\" ရှိ သင်၏မှတ်ချက်အတွက် {{GENDER:$5|သင့်ကို}} {{GENDER:$2|ကျေးဇူးတင်ခဲ့သည်}}။"
 }
