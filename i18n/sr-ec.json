@@ -43,7 +43,7 @@
 	"log-name-thanks": "Евиденција захваљивања",
 	"log-description-thanks": "Испод се налази списак корисника којима су се други корисници захвалили.",
 	"logentry-thanks-thank": "$1 се {{GENDER:$2|захвалио|захвалила}} {{GENDER:$4|кориснику|корисници}} {{GENDER:$4|$3}}",
-	"logeventslist-thanks-log": "Дневник захваљивања",
+	"logeventslist-thanks-log": "Евиденција захваљивања",
 	"thanks-error-no-id-specified": "Морате навести ID измене или радње да бисте се захвалили.",
 	"thanks-confirmation-special-log": "Желите ли да јавно пошаљете захваљивање за ову дневничку радњу?",
 	"thanks-confirmation-special-rev": "Да ли желите да јавно пошаљете захваљивање за ову измену?",
