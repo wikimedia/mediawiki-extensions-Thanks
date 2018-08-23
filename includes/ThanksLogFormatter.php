@@ -3,6 +3,10 @@
  * This class formats log entries for thanks
  */
 class ThanksLogFormatter extends LogFormatter {
+	/**
+	 * @inheritDoc
+	 * @suppress SecurityCheck-DoubleEscaped Problem with makeUserLink, see T201565
+	 */
 	protected function getMessageParameters() {
 		$params = parent::getMessageParameters();
 		// Convert target from a pageLink to a userLink since the target is
