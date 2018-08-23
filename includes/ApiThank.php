@@ -13,6 +13,8 @@ abstract class ApiThank extends ApiBase {
 			$this->dieWithError( [ 'thanks-error-ratelimited', $user->getName() ], 'ratelimited' );
 		} elseif ( $user->isBlocked() ) {
 			$this->dieBlocked( $user->getBlock() );
+		} elseif ( $user->isBlockedGlobally() ) {
+			$this->dieBlocked( $user->getGlobalBlock() );
 		}
 	}
 
