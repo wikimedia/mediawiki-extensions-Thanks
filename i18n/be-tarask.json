@@ -16,7 +16,7 @@
 	"thanks-error-invalidrevision": "Няслушны ідэнтыфікатар вэрсіі",
 	"thanks-error-ratelimited": "{{GENDER:$1|Вы}} перавысілі абмежаваньне хуткасьці выкананьня. Калі ласка, пачакайце крыху і паўтарыце спробу.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Адаслаць}} {{GENDER:$2|гэтаму карыстальніку|гэтай карыстальніцы}} падзяку",
-	"thanks-confirmation2": "Усе падзякі зьяўляюцца публічнымі. {{GENDER:$1|Даслаць}} падзяку?",
+	"thanks-confirmation2": "Публічна {{GENDER:$1|даслаць}} падзяку?",
 	"thanks-thanked-notice": "{{GENDER:$3|Вы}} падзякавалі {{GENDER:$2|$1}}.",
 	"thanks": "Даслаць падзяку",
 	"echo-pref-subscription-edit-thank": "Дзякуе мне за маю праўку",

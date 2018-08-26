@@ -27,7 +27,7 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|Пошаљите}} захваљивање {{GENDER:$2|овом кориснику|овој корисници}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Откажите}} захваљивање",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Пошаљите}} захваљивање",
-	"thanks-confirmation2": "Сва захваљивања су јавна. {{GENDER:$1|Пошаљи}} захваљивање?",
+	"thanks-confirmation2": "Јавно {{GENDER:$1|пошаљите}} захваљивање?",
 	"thanks-thanked-notice": "{{GENDER:$3|Захвалили}} сте се {{GENDER:$2|кориснику|корисници}} $1.",
 	"thanks": "Захваљивање",
 	"thanks-submit": "Захвали се",

@@ -20,7 +20,7 @@
 	"thanks-error-notloggedin": "Anonym Benotzer kënne kee Merci schécken",
 	"thanks-thank-tooltip": "{{GENDER:$2|Dësem Benotzer|Dëser Benotzerin}} ee \"Merci\" {{GENDER:$1|schécken}}",
 	"thanks-thank-tooltip-yes": "De Merci-Message {{GENDER:$1|schécken}}",
-	"thanks-confirmation2": "All Merci-Message sinn ëffentlech- Merci {{GENDER:$1|schécken}}?",
+	"thanks-confirmation2": "Mercien ëffentlech schécken {{GENDER:$1|schécken}}?",
 	"thanks-thanked-notice": "{{GENDER:$3|Dir}} hutt dem {{GENDER:$2|$1}} Merci gesot.",
 	"thanks": "Merci soen",
 	"thanks-submit": "Merci soen",
