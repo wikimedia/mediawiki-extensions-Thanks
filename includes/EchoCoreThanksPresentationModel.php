@@ -17,7 +17,7 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 	}
 
 	public function getHeaderMessage() {
-		$type = $this->event->getExtraParam( 'logid' ) ? 'log' : 'rev';
+		$type = $this->getThankType();
 		if ( $this->isBundled() ) {
 			// Message is either notification-bundle-header-rev-thank
 			// or notification-bundle-header-log-thank.
