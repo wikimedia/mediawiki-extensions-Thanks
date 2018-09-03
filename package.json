@@ -1,8 +1,5 @@
 {
-	"name": "thanks",
-	"version": "0.0.0",
 	"private": true,
-	"description": "Build tools for Thanks.",
 	"scripts": {
 		"test": "grunt test"
 	},
