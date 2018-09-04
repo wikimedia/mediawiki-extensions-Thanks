@@ -27,8 +27,13 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 			$msg->params( $this->getViewingUserForGender() );
 			return $msg;
 		} else {
-			// Message is either notification-header-rev-thank or notification-header-log-thank.
-			$msg = $this->getMessageWithAgent( "notification-header-$type-thank" );
+			if ( $this->event->getExtraParam( 'revcreation', null ) ) {
+				// This is a thank on a page creation revision.
+				$msg = $this->getMessageWithAgent( "notification-header-creation-thank" );
+			} else {
+				// Message is either notification-header-rev-thank or notification-header-log-thank.
+				$msg = $this->getMessageWithAgent( "notification-header-$type-thank" );
+			}
 			$msg->params( $this->getTruncatedTitleText( $this->event->getTitle(), true ) );
 			$msg->params( $this->getViewingUserForGender() );
 			return $msg;

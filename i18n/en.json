@@ -34,6 +34,7 @@
 	"echo-category-title-edit-thank": "Thanks",
 	"notification-thanks-diff-link": "your edit",
 	"notification-header-rev-thank": "$1 {{GENDER:$2|thanked}} {{GENDER:$4|you}} for your edit on <strong>$3</strong>.",
+	"notification-header-creation-thank": "$1 {{GENDER:$2|thanked}} {{GENDER:$4|you}} for your creation of <strong>$3</strong>.",
 	"notification-header-log-thank": "$1 {{GENDER:$2|thanked}} {{GENDER:$4|you}} for your action relating to <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|thanked}} {{GENDER:$3|you}}.",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|One person|$1 people|100=99+ people}} thanked {{GENDER:$3|you}} for your edit on <strong>$2</strong>.",
