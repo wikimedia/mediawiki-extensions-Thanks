@@ -16,10 +16,11 @@
 	"thanks-thank-tooltip-no": "ကျေးဇူးတင်ခြင်း အသိပေးချက်ကို {{GENDER:$1|ပယ်ဖျက်}}မည်",
 	"thanks-thank-tooltip-yes": "ကျေးဇူးတင်ခြင်း အသိပေးချက်ကို {{GENDER:$1|ပို့ပေး}}ရန်",
 	"thanks-confirmation2": "လူအများကြည့်နိုင်သော ကျေးဇူးတင်မှုကို {{GENDER:$1|ပို့မည်}}လော?",
-	"thanks-thanked-notice": "{{GENDER:$3|သင်}} သည် {{GENDER:$2|$1}} ကို ကျေးဇူးတင်ခဲ့သည်။",
+	"thanks-thanked-notice": "{{GENDER:$3|သင်}}သည် {{GENDER:$2|$1}} ကို ကျေးဇူးတင်ခဲ့သည်။",
 	"thanks": "ကျေးဇူးတင်မှု ပို့ရန်",
 	"thanks-submit": "ကျေးဇူးတင်မှု ပို့ရန်",
 	"echo-pref-subscription-edit-thank": "မိမိ၏တည်းဖြတ်မှုအတွက် ကျေးဇူးတင်ပါ",
+	"echo-pref-tooltip-edit-thank": "ကျွန်ုပ်ပြုလုပ်သော တည်းဖြတ်မှုအတွက် တစ်စုံတစ်ယောက်က ကျေးဇူးတင်လျင် အသိပေးရန်။",
 	"echo-category-title-edit-thank": "ကျေးဇူးတင်ပါသည်",
 	"notification-thanks-diff-link": "သင်၏ တည်းဖြတ်မှု",
 	"notification-header-rev-thank": "<strong>$3</strong> ရှိ သင့်တည်းဖြတ်မှုအတွက် {{GENDER:$4|သင့်အား}} $1 က {{GENDER:$2|ကျေးဇူးတင်ခဲ့သည်}}။",
@@ -29,6 +30,7 @@
 	"logentry-thanks-thank": "$1 သည် {{GENDER:$4|$3}} ကို {{GENDER:$2|ကျေးဇူးတင်ခဲ့သည်}}",
 	"logeventslist-thanks-log": "ကျေးဇူးတင်ခြင်း မှတ်တမ်း",
 	"notification-link-text-view-post": "မှတ်ချက်ကြည့်ရန်",
+	"flow-thanks-thanked-notice": "{{GENDER:$3|သင်}}သည် {{GENDER:$2|သူ၏|သူမ၏|သူတို့၏}} မှတ်ချက်အတွက် $1 ကို ကျေးဇူးတင်ခဲ့သည်။",
 	"notification-flow-thanks-post-link": "သင်၏မှတ်ချက်",
 	"notification-header-flow-thank": "$1 က \"<strong>$3</strong>\" ရှိ သင်၏မှတ်ချက်အတွက် {{GENDER:$5|သင့်ကို}} {{GENDER:$2|ကျေးဇူးတင်ခဲ့သည်}}။"
 }
