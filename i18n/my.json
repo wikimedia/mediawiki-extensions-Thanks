@@ -21,7 +21,7 @@
 	"thanks-submit": "ကျေးဇူးတင်မှု ပို့ရန်",
 	"echo-pref-subscription-edit-thank": "မိမိ၏တည်းဖြတ်မှုအတွက် ကျေးဇူးတင်ပါ",
 	"echo-pref-tooltip-edit-thank": "ကျွန်ုပ်ပြုလုပ်သော တည်းဖြတ်မှုအတွက် တစ်စုံတစ်ယောက်က ကျေးဇူးတင်လျင် အသိပေးရန်။",
-	"echo-category-title-edit-thank": "ကျေးဇူးတင်ပါသည်",
+	"echo-category-title-edit-thank": "ကျေးဇူးတင်မှုများ",
 	"notification-thanks-diff-link": "သင်၏ တည်းဖြတ်မှု",
 	"notification-header-rev-thank": "<strong>$3</strong> ရှိ သင့်တည်းဖြတ်မှုအတွက် {{GENDER:$4|သင့်အား}} $1 က {{GENDER:$2|ကျေးဇူးတင်ခဲ့သည်}}။",
 	"notification-compact-header-edit-thank": "$1 က {{GENDER:$3|သင့်}}ကို {{GENDER:$2|ကျေးဇူးတင်ခဲ့}} သည်။",
