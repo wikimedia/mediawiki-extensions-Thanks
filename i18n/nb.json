@@ -30,7 +30,7 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|Send}} en takkemelding til denne {{GENDER:$2|brukeren}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Avbryt}} takkemeldingen",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Send}} takkemeldingen",
-	"thanks-confirmation2": "All takking er offentlig. Vil du {{GENDER:$1|sende}} takk?",
+	"thanks-confirmation2": "Vil du {{GENDER:$1|sende}} takk offentlig?",
 	"thanks-thanked-notice": "{{GENDER:$3|Du}} takket {{GENDER:$2|$1}}.",
 	"thanks": "Send takk",
 	"thanks-submit": "Send takk",

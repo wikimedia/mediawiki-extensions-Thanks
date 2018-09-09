@@ -35,7 +35,7 @@
 	"thanks-submit": "Siųsti padėką",
 	"echo-pref-subscription-edit-thank": "Padėkokite man už mano pakeitimą",
 	"echo-pref-tooltip-edit-thank": "Tebūnie pranešta, kai kas nors padėkoja už mano atliktą keitimą.",
-	"echo-category-title-edit-thank": "Ačiū",
+	"echo-category-title-edit-thank": "Padėkos",
 	"notification-thanks-diff-link": "jūsų pakeitimas",
 	"notification-header-rev-thank": "$1 {{GENDER:$2|padėkojo}} {{GENDER:$4|jums}} už pakeitimą puslapyje <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|padėkojo}} {{GENDER:$3|jums}}.",

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rul1902"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ဆ်ုခၠုံး}}}}",
+	"thanks-thank-tooltip": "ယိုဝ်{{GENDER:$2|ဆ်ုသုံ့က်ုဆာ}}အိုဝ် ဆ်ုခၠုံးဆ်ုခၠါင် {{GENDER:$1|သုံ့ဖှ်ေဝေ့ဆေဝ်ႋလှ်}}"
+}
