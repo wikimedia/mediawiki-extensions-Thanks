@@ -16,6 +16,7 @@ class ApiCoreThank extends ApiThank {
 		$user = $this->getUser();
 		$this->dieOnBadUser( $user );
 		$params = $this->extractRequestParams();
+		$revcreation = false;
 
 		$this->requireOnlyOneParameter( $params, 'rev', 'log' );
 
@@ -50,6 +51,11 @@ class ApiCoreThank extends ApiThank {
 			$title = $this->getTitleFromRevision( $revision );
 			$recipient = $this->getUserFromRevision( $revision );
 			$recipientUsername = $revision->getUserText();
+
+			// If there is no parent revid of this revision, it's a page creation.
+			if ( !(bool)$revision->getPrevious() ) {
+				$revcreation = true;
+			}
 		}
 
 		// Send thanks.
@@ -64,7 +70,8 @@ class ApiCoreThank extends ApiThank {
 				$excerpt,
 				$recipient,
 				$this->getSourceFromParams( $params ),
-				$title
+				$title,
+				$revcreation
 			);
 		}
 	}
@@ -170,9 +177,10 @@ class ApiCoreThank extends ApiThank {
 	 * @param User $recipient The recipient of the thanks.
 	 * @param string $source Where the thanks was given.
 	 * @param Title $title The title of the page for which thanks is given.
+	 * @param bool $revcreation True if the linked revision is a page creation.
 	 */
 	protected function sendThanks(
-		User $user, $type, $id, $excerpt, User $recipient, $source, Title $title
+		User $user, $type, $id, $excerpt, User $recipient, $source, Title $title, $revcreation
 	) {
 		$uniqueId = $type . '-' . $id;
 		// Do one last check to make sure we haven't sent Thanks before
@@ -191,6 +199,7 @@ class ApiCoreThank extends ApiThank {
 				'thanked-user-id' => $recipient->getId(),
 				'source' => $source,
 				'excerpt' => $excerpt,
+				'revcreation' => $revcreation,
 			],
 			'agent' => $user,
 		] );
