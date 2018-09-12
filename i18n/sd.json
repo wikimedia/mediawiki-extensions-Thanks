@@ -11,7 +11,7 @@
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|مھرباني چئو}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|مھرباني چئي}}}}",
 	"thanks-thank-tooltip": "هن {{GENDER:$2|واپرائيندڙ}} ڏانهن '''توهان جي مهرباني''' جو اطلاع {{GENDER:$1|موڪليو}}",
-	"thanks-confirmation2": "سڀ مھربانيون عوامي آھن. مھربانيون {{GENDER:$1|موڪليو}}؟",
+	"thanks-confirmation2": "مھربانيون عوامي طور {{GENDER:$1|موڪليو}}؟",
 	"thanks-submit": "مھربانيون موڪليو",
 	"notification-header-rev-thank": "$1 {{GENDER:$4|توھان کي}} <strong>$3</strong>\nتي توھان جي سنوار لاءِ {{GENDER:$2|مھرباني چئي}}.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$3|توھان کي}} {{GENDER:$2|مھرباني چئي}}."
