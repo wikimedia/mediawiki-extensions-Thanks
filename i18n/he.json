@@ -38,6 +38,7 @@
 	"echo-category-title-edit-thank": "תודות",
 	"notification-thanks-diff-link": "עריכה שלך",
 	"notification-header-rev-thank": "$1 {{GENDER:$2|הודה|הודתה}} {{GENDER:$4|לך}} על עריכה שלך בדף <strong>$3</strong>.",
+	"notification-header-creation-thank": "$1 {{GENDER:$2|הודה|הודתה}} {{GENDER:$4|לך}} על כך שיצרת את הדף <strong>$3</strong>.",
 	"notification-header-log-thank": "$1 {{GENDER:$2|הודה|הודתה}} {{GENDER:$4|לך}} על פעולה שעשית בדף <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|הודה|הודתה}} {{GENDER:$3|לך}}.",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|קיבלת הודעת \"תודה\"|$1 משתמשים הודו לך|100=99+ משתמשים הודו לך}} על עריכה {{GENDER:$3|שלך}} בדף <strong>$2</strong>.",

@@ -58,6 +58,7 @@
 	"echo-category-title-edit-thank": "Remerciements",
 	"notification-thanks-diff-link": "votre modification",
 	"notification-header-rev-thank": "$1 vous {{GENDER:$2|a}} {{GENDER:$4|remercié|remerciée|remercié(e)}} pour votre modification sur <strong>$3</strong>.",
+	"notification-header-creation-thank": "$1 {{GENDER:$4|vous}} {{GENDER:$2|a remercié}} pour la création de <strong>$3</strong>.",
 	"notification-header-log-thank": "$1 {{GENDER:$4|vous}} {{GENDER:$2|a remercié}} pour votre action concernant <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|vous}} {{GENDER:$3|a remercié|a remerciée}}.",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Une personne|$1 personnes|100=Au moins 100 personnes}} vous {{PLURAL:$1|a|ont}} {{GENDER:$3|remercié|remerciée}} pour votre modification sur <strong>$2</strong>.",

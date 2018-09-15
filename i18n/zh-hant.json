@@ -46,6 +46,7 @@
 	"echo-category-title-edit-thank": "感謝",
 	"notification-thanks-diff-link": "您的編輯",
 	"notification-header-rev-thank": "$1對於{{GENDER:$4|您}}在<strong>$3</strong>所作出的編輯表示{{GENDER:$2|感謝}}。",
+	"notification-header-creation-thank": "$1對於{{GENDER:$4|您}}所創建的<strong>$3</strong>表示{{GENDER:$2|感謝}}。",
 	"notification-header-log-thank": "$1 {{GENDER:$2|已感謝}}{{GENDER:$4|您}}對於 <strong>$3</strong>」的相關操作。",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|已感謝}}{{GENDER:$3|您}}。",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|有$1位|100=有99+位}}對於{{GENDER:$3|您}}在 <strong>$2</strong> 所作出的編輯表示感謝。",
