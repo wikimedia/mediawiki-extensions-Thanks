@@ -47,17 +47,21 @@ class ThanksHooks {
 	public static function insertThankLink( $rev, &$links, $oldRev, User $user ) {
 		$recipientId = $rev->getUser();
 		$recipient = User::newFromId( $recipientId );
+		$prev = $rev->getPrevious();
 		// Don't let users thank themselves.
 		// Exclude anonymous users.
 		// Exclude users who are blocked.
 		// Check whether bots are allowed to receive thanks.
+		// Check if there's other revisions between $prev and $oldRev
+		// (It supports discontinuous history created by Import or CX but
+		// prevents thanking diff across multiple revisions)
 		if ( !$user->isAnon()
 			&& $recipientId !== $user->getId()
 			&& !$user->isBlocked()
 			&& !$user->isBlockedGlobally()
 			&& self::canReceiveThanks( $recipient )
 			&& !$rev->isDeleted( Revision::DELETED_TEXT )
-			&& ( !$oldRev || $rev->getParentId() == $oldRev->getId() )
+			&& ( !$oldRev || !$prev || $prev->getId() === $oldRev->getId() )
 		) {
 			$links[] = self::generateThankElement( $rev->getId(), $recipient );
 		}
