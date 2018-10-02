@@ -23,7 +23,7 @@ abstract class ApiThank extends ApiBase {
 
 		if ( $user->getId() === $recipient->getId() ) {
 			$this->dieWithError( 'thanks-error-invalidrecipient-self', 'invalidrecipient' );
-		} elseif ( !$wgThanksSendToBots && in_array( 'bot', $recipient->getGroups() ) ) {
+		} elseif ( !$wgThanksSendToBots && $recipient->isBot() ) {
 			$this->dieWithError( 'thanks-error-invalidrecipient-bot', 'invalidrecipient' );
 		}
 	}

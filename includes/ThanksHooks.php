@@ -81,7 +81,7 @@ class ThanksHooks {
 			return false;
 		}
 
-		if ( !$wgThanksSendToBots && in_array( 'bot', $user->getGroups() ) ) {
+		if ( !$wgThanksSendToBots && $user->isBot() ) {
 			return false;
 		}
 
