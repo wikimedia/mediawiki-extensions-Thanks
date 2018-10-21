@@ -11,7 +11,8 @@
 			"Macofe",
 			"MarcoAurelio",
 			"Savh",
-			"Jelou"
+			"Jelou",
+			"Peter Bowman"
 		]
 	},
 	"thanks-desc": "Añade enlaces para agradecer a los usuarios las ediciones, comentarios, etc.",
@@ -43,6 +44,7 @@
 	"echo-category-title-edit-thank": "Agradecimientos",
 	"notification-thanks-diff-link": "tu edición",
 	"notification-header-rev-thank": "$1 {{GENDER:$2|agradeció}} {{GENDER:$4|tu}} edición en <strong>$3</strong>.",
+	"notification-header-creation-thank": "$1 {{GENDER:$2|agradeció}} {{GENDER:$4|tu}} creación de <strong>$3</strong>.",
 	"notification-header-log-thank": "$1 {{GENDER:$2|agradeció}} {{GENDER:$4|tu}} acción relacionada con <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$3|te}} {{GENDER:$2|lo agradeció}}.",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Una persona|$1 personas|100=Más de 99 personas}} {{PLURAL:$1|agradeció|agradecieron}} {{GENDER:$3|tu}} edición en <strong>$2</strong>.",
