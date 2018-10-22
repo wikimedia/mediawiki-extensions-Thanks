@@ -40,6 +40,7 @@
 	"echo-category-title-edit-thank": "ধন্যবাদসমূহ",
 	"notification-thanks-diff-link": "আপনার সম্পাদনা",
 	"notification-header-rev-thank": "$1 <strong>$3</strong>-এ আপনার সম্পাদনার জন্য {{GENDER:$4|আপনাকে}} {{GENDER:$2|ধন্যবাদ জানিয়েছেন}}।",
+	"notification-header-creation-thank": "$1 {{GENDER:$4|আপনাকে}} <strong>$3</strong> পাতাটি সৃষ্টির জন্য {{GENDER:$2|ধন্যবাদ জানিয়েছেন}}।",
 	"notification-header-log-thank": "<strong>$3</strong> সম্পর্কিত কর্মের জন্য $1 {{GENDER:$4|আপনাকে}} {{GENDER:$2|ধন্যবাদ জানিয়েছেন}}।",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$3|আপনাকে}} {{GENDER:$2|ধন্যবাদ দিয়েছেন}}।",
 	"notification-bundle-header-rev-thank": "<strong>$2</strong>-এ আপনার সম্পাদনার জন্য {{PLURAL:$1|একজন ব্যক্তি|$1 জন ব্যক্তি|100=৯৯+ জন ব্যক্তি}} {{GENDER:$3|আপনাকে}} ধন্যবাদ জানিয়েছেন।",
