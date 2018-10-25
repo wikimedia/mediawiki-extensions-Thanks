@@ -146,7 +146,7 @@ class SpecialThanks extends FormSpecialPage {
 		} else {
 			$requestData = [
 				'action' => 'flowthank',
-				'postid' => $data['revid'],
+				'postid' => $data['id'],
 				'token' => $this->getUser()->getEditToken(),
 			];
 		}
