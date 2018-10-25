@@ -29,6 +29,7 @@
 	"notification-header-rev-thank": "$1 {{GENDER:$2|سپاسی}} {{GENDER:$4|کردی}} بۆ دەستکارییەکەت لە '''$3''' دا.",
 	"notification-header-creation-thank": "$1 لەبەر دروستکدنی <strong>$3</strong> سوپاسی کردیت.",
 	"notification-header-log-thank": "$1 سپاسی کردیت بۆ کردارەکەت لەسەر <strong>$3</strong>.",
+	"notification-bundle-header-rev-thank": "$1 کەس سوپاسیان کردیت بۆ دەستکارییەکەت لە <strong>$2</strong>دا.",
 	"log-name-thanks": "لۆگی سپاس",
 	"log-description-thanks": "ژێرەوە پێرستێکی لەو بەکارھێنەرانەن کە لە لایەن بەکارھێنەرانی ترەوە سپاسیان لێ کراوە.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|سپاسی کرد}} لە {{GENDER:$4|$3}}",
@@ -36,5 +37,6 @@
 	"flow-thanks-confirmation-special": "دەتھەوێت بەئاشکرایی سپاسی ئەم بۆچوونە بکەیت؟",
 	"flow-thanks-thanked-notice": "$1 سپاسەکەتی وەرگرت لەبەر بۆچوونەکە{{GENDER:$2|ی|ی|ی}}.",
 	"notification-flow-thanks-post-link": "بۆچوونەکەت",
-	"notification-header-flow-thank": "$1 {{GENDER:$5|سپاسی}} {{GENDER:$2|کردی}} بۆ بۆچوونەکەت لە '''$3'''ی '''$4'''دا."
+	"notification-header-flow-thank": "$1 {{GENDER:$5|سپاسی}} {{GENDER:$2|کردی}} بۆ بۆچوونەکەت لە '''$3'''ی '''$4'''دا.",
+	"notification-bundle-header-flow-thank": "$1 کەس سوپاسیان کردیت بۆ لێدوانەکەت لە «<strong>$2</strong>»دا."
 }

@@ -17,7 +17,8 @@
 			"Alp Er Tunqa",
 			"Macofe",
 			"4nn1l2",
-			"Mardetanha"
+			"Mardetanha",
+			"AzorAhai"
 		]
 	},
 	"thanks-desc": "پیوندی برای تشکر کاربران برای ویرایش‌ها، توضیحات و ... اضافه می‌کند.",
@@ -50,6 +51,7 @@
 	"echo-category-title-edit-thank": "تشکرها",
 	"notification-thanks-diff-link": "ویرایش‌تان",
 	"notification-header-rev-thank": "$1 از {{GENDER:$4|شما}}به خاطر ویرایشتان در <strong>$3</strong> {{GENDER:$2|تشکر کرد}}.",
+	"notification-header-creation-thank": "$1 از شما به خاطر ایجاد صفحه $3 تشکر کرد.",
 	"notification-header-log-thank": "\n$1 {{GENDER:$2|از شما}} برای عمل مرتبط با <strong>$3</strong> {{GENDER:$4|تشکر کرد}}.",
 	"notification-compact-header-edit-thank": "$1 از {{GENDER:$3|شما}} {{GENDER:$2|تشکر کرد}}.",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|یک نفر|$1 نفر|بیش از ۹۹ نفر}} از {{GENDER:$3|شما}} برای ویرایشتان روی <strong>$2</strong> {{PLURAL:$1|تشکر کرد|تشکر کردند|100=تشکر کردند}}.",
