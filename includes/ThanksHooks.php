@@ -142,7 +142,7 @@ class ThanksHooks {
 
 	/**
 	 * Handler for PageHistoryBeforeList hook.
-	 * @see http://www.mediawiki.org/wiki/Manual:Hooks/PageHistoryBeforeList
+	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/PageHistoryBeforeList
 	 * @param WikiPage|Article|ImagePage|CategoryPage|Page &$page The page for which the history
 	 *   is loading.
 	 * @param RequestContext $context RequestContext object
@@ -157,7 +157,7 @@ class ThanksHooks {
 
 	/**
 	 * Handler for DiffViewHeader hook.
-	 * @see http://www.mediawiki.org/wiki/Manual:Hooks/DiffViewHeader
+	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/DiffViewHeader
 	 * @param DifferenceEngine $diff DifferenceEngine object that's calling.
 	 * @param Revision $oldRev Revision object of the "old" revision (may be null/invalid)
 	 * @param Revision $newRev Revision object of the "new" revision
@@ -244,7 +244,7 @@ class ThanksHooks {
 
 	/**
 	 * Handler for LocalUserCreated hook
-	 * @see http://www.mediawiki.org/wiki/Manual:Hooks/LocalUserCreated
+	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/LocalUserCreated
 	 * @param User $user User object that was created.
 	 * @param bool $autocreated True when account was auto-created
 	 * @return bool
