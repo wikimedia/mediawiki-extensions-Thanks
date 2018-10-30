@@ -4,7 +4,7 @@
  *
  * This extension adds 'thank' links that allow users to thank other users for
  * specific revisions. It relies on the Echo extension to send the actual thanks.
- * For more info see http://mediawiki.org/wiki/Extension:Thanks
+ * For more info see https://mediawiki.org/wiki/Extension:Thanks
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
