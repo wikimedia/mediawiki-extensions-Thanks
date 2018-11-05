@@ -41,6 +41,7 @@
 	"log-name-thanks": "Rexistro de agradecementos",
 	"log-description-thanks": "A continuación hai unha lista dos usuarios que recibiron agradecementos doutros usuarios.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|deu as grazas a}} {{GENDER:$4|$3}}",
+	"logeventslist-thanks-log": "Rexistro de agradecementos",
 	"thanks-error-no-id-specified": "Cómpre especificar un identificador de revisión para enviar o agradecemento.",
 	"notification-link-text-view-post": "Amosar o comentario",
 	"notification-link-text-view-logentry": "Ollar entrada do rexistro",
