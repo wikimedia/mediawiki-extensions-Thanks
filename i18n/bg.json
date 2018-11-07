@@ -25,6 +25,7 @@
 	"echo-category-title-edit-thank": "Благодарност",
 	"notification-thanks-diff-link": "вашата редакция",
 	"notification-header-rev-thank": "$1 {{GENDER:$4|Ви}} {{GENDER:$2|благодари}} за вашата редакция на <strong>$3</strong>.",
+	"notification-header-creation-thank": "$1 Ви благодари за създадената от Вас <strong>$3</strong>.",
 	"notification-header-log-thank": "$1 {{GENDER:$4|Ви}} {{GENDER:$2|благодари}} за действието свързано с <strong>$3</strong>.",
 	"notification-bundle-header-log-thank": "{{PLURAL:$1|Един човек Ви благодари|$1 души {{GENDER:$3|Ви}} благодарят|100=над 99 души Ви благодарят}} за действието ви в <strong>$2</strong>.",
 	"log-name-thanks": "Дневник на благодарностите",
