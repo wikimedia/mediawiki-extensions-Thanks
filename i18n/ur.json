@@ -21,7 +21,7 @@
 	"thanks-thank-tooltip-no": "شکریہ کی ادائیگی {{GENDER:$1|منسوخ}} کریں",
 	"thanks-thank-tooltip-yes": "شکریے کا پیغام {{GENDER:$1|ارسال}} کریں",
 	"thanks-confirmation2": "اِس ترمیم کے لیے عوامی طور پر شکریہ {{GENDER:$1|ادا کرنا چاہتے ہیں}}؟",
-	"thanks-thanked-notice": "$1 کو {{GENDER:$2|ان کو|ان کو|انہیں}} ترمیم پر {{GENDER:$3|آپ}} کا شکریہ موصول ہوچکا ہے۔",
+	"thanks-thanked-notice": "{{GENDER:$3|آپ}} کی جانب سے {{GENDER:$2|$1}} کو شکریہ ادا کیا جا چکا ہے۔",
 	"thanks": "اظہار تشکر",
 	"thanks-submit": "شکریہ ارسال کریں",
 	"echo-pref-subscription-edit-thank": "میری ترمیم کے لیے شکریہ ادا کریں",
@@ -35,6 +35,7 @@
 	"notification-bundle-header-log-thank": "{{PLURAL:$1|ایک شخص|$1 لوگوں|100=99+ لوگوں}} نے {{GENDER:$3|آپ}} کو <strong>$2</strong> سے متعلق عمل کے لیے شکریہ ادا کیا۔",
 	"thanks-confirmation-special-rev": "اِس ترمیم کے لیے عوامی طور پر شکریہ ادا کرنا چاہتے ہیں؟",
 	"flow-thanks-confirmation-special": "کیا آپ عوامی طور پر اس بات کے لیے شکریہ ادا کرنا چاہتے ہیں؟",
+	"flow-thanks-thanked-notice": "{{GENDER:$3|آپ}} کی جانب سے «$1» کو {{GENDER:$2|ان کے}} تبصرے کے لیے شکریہ ادا کیا جا چکا ہے۔",
 	"notification-header-flow-thank": "$1 نے {{GENDER:$5|آپ}} کی «<strong>$3</strong>» رائے پر {{GENDER:$5|آپ}} کا {{GENDER:$2|شکریہ}} ادا کیا ہے۔",
 	"notification-compact-header-flow-thank": "$1 نے {{GENDER:$3|آپ}} کا {{GENDER:$2|شکریہ}} ادا کیا۔"
 }
