@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This class formats log entries for thanks
  */
