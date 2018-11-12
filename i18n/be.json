@@ -25,6 +25,8 @@
 	"notification-thanks-diff-link": "вашу праўку",
 	"notification-header-rev-thank": "$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$4|вам}} за вашу праўку на старонцы <strong>$3</strong>.",
 	"notification-header-creation-thank": "$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$4|вам}} за стварэнне старонкі <strong>$3</strong>.",
+	"notification-header-log-thank": "$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$4|Вам}} за дзеянне на старонцы <strong>$3</strong>.",
+	"notification-bundle-header-log-thank": "{{PLURAL:$1|$1 чалавек падзякаваў|$1 чалавекі падзякавалі|$1 чалавек падзякавала|100=99+ чалавек падзякавала}} {{GENDER:$3|Вам}} за дзеянне, якое адносіцца да старонцы «<strong>$2</strong>».",
 	"log-name-thanks": "Журнал падзяк",
 	"log-description-thanks": "Ніжэй прыведзены спіс удзельнікаў, якія атрымалі падзякі ад іншых удзельнікаў.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|падзякаваў удзель|падзякавала ўдзель}}{{GENDER:$4|ніку|ніцы}} $3",

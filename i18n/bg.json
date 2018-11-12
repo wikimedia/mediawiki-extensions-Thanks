@@ -16,6 +16,7 @@
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Благодарност}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Изказана благодарност}}}}",
 	"thanks-thank-tooltip": "С препратката „благодарност“ можете да {{GENDER:$1|изкажете}} на {{GENDER:$2|този потребител|тази потребителка|този потребител}} благодарност за редакцията.",
+	"thanks-thank-tooltip-yes": "Изпратете известие за благодарност",
 	"thanks-confirmation2": "{{GENDER:$1|Ще изпратите ли}} благодарност публично?",
 	"thanks-thanked-notice": "{{GENDER:$3|Вие}} благодарихте на {{GENDER:$2|$1}}.",
 	"thanks": "Изпращане на благодарност",
