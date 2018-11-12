@@ -1,4 +1,4 @@
-( function ( $, mw ) {
+( function () {
 	QUnit.module( 'Thanks mobilediff' );
 
 	QUnit.test( 'render button for logged in users', function ( assert ) {
@@ -12,4 +12,4 @@
 		assert.strictEqual( $container.find( '.mw-ui-button' ).length, 1, 'Thanks button was created.' );
 	} );
 
-}( jQuery, mediaWiki ) );
+}() );

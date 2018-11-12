@@ -1,4 +1,4 @@
-( function ( $, mw ) {
+( function () {
 	'use strict';
 
 	mw.thanks = {
@@ -62,4 +62,4 @@
 		}
 	};
 
-}( jQuery, mediaWiki ) );
+}() );
