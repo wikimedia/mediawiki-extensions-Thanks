@@ -32,6 +32,15 @@ class ThanksHooks {
 				'targets' => [ 'desktop', 'mobile' ],
 			];
 		}
+		$testModules['qunit']['tests.ext.thanks.thank'] = [
+			'localBasePath' => dirname( __DIR__ ),
+			'remoteExtPath' => 'Thanks',
+			'dependencies' => [ 'ext.thanks' ],
+			'scripts' => [
+				'tests/qunit/test_ext.thanks.thank.js',
+			],
+			'targets' => [ 'desktop' ],
+		];
 		return true;
 	}
 
