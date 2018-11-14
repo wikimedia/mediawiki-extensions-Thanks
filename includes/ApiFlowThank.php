@@ -1,4 +1,11 @@
 <?php
+
+use Flow\Container;
+use Flow\Conversion\Utils;
+use Flow\Exception\FlowException;
+use Flow\Model\PostRevision;
+use Flow\Model\UUID;
+
 /**
  * API module to send Flow thanks notifications
  *
@@ -8,12 +15,6 @@
  * @ingroup API
  * @ingroup Extensions
  */
-
-use Flow\Container;
-use Flow\Conversion\Utils;
-use Flow\Exception\FlowException;
-use Flow\Model\PostRevision;
-use Flow\Model\UUID;
 
 class ApiFlowThank extends ApiThank {
 	public function execute() {

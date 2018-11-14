@@ -1,4 +1,5 @@
 <?php
+
 class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 	/** @var LogEntry|bool|null */
 	private $logEntry;

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Base API module for Thanks
  *
