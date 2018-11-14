@@ -1,4 +1,4 @@
-( function ( $, mw, OO ) {
+( function () {
 	'use strict';
 
 	function reloadThankedState() {
@@ -120,4 +120,4 @@
 	mw.hook( 'wikipage.diff' ).add( function ( $content ) {
 		addActionToLinks( $content );
 	} );
-}( jQuery, mediaWiki, OO ) );
+}() );

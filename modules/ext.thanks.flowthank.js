@@ -1,4 +1,4 @@
-( function ( $, mw, OO ) {
+( function () {
 	'use strict';
 
 	var $thankedLabel = $( '<span></span>' )
@@ -82,4 +82,4 @@
 		sendFlowThanks( $thankLink );
 	} );
 
-}( jQuery, mediaWiki, OO ) );
+}() );

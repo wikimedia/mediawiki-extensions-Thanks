@@ -1,4 +1,4 @@
-( function ( mw, $ ) {
+( function () {
 	/**
 	 * Attempt to execute a thank operation for a given edit
 	 *
@@ -105,4 +105,4 @@
 	mw.thanks = $.extend( {}, mw.thanks || {}, {
 		_mobileDiffInit: init
 	} );
-}( mediaWiki, jQuery ) );
+}() );
