@@ -33,6 +33,7 @@
 	"notification-header-log-thank": "$1 نے {{GENDER:$4|آپ}} کو <strong>$2</strong> سے متعلق عمل کے لیے {{GENDER:$2|شکریہ}} ادا کیا۔",
 	"notification-bundle-header-rev-thank": "{{GENDER:$3|آپ}} کی <strong>$2</strong> ترمیم پر {{PLURAL:$1|1 صارف|$1 صارف|100=99+ صارفین}} نے آپ کا شکریہ ادا کیا ہے۔",
 	"notification-bundle-header-log-thank": "{{PLURAL:$1|ایک شخص|$1 لوگوں|100=99+ لوگوں}} نے {{GENDER:$3|آپ}} کو <strong>$2</strong> سے متعلق عمل کے لیے شکریہ ادا کیا۔",
+	"thanks-confirmation-special-log": "کیا آپ اس عمل کے لیے عوامی طور پر شکریہ ادا کرنا چاہتے ہیں؟",
 	"thanks-confirmation-special-rev": "اِس ترمیم کے لیے عوامی طور پر شکریہ ادا کرنا چاہتے ہیں؟",
 	"flow-thanks-confirmation-special": "کیا آپ عوامی طور پر اس بات کے لیے شکریہ ادا کرنا چاہتے ہیں؟",
 	"flow-thanks-thanked-notice": "{{GENDER:$3|آپ}} کی جانب سے «$1» کو {{GENDER:$2|ان کے}} تبصرے کے لیے شکریہ ادا کیا جا چکا ہے۔",
