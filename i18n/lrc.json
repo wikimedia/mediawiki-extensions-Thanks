@@ -19,6 +19,5 @@
 	"logentry-thanks-thank": "$1 {{GENDER:$2|منموندار بیه}} {{GENDER:$4|$3}}",
 	"notification-link-text-view-post": "دیئن ویر و باور",
 	"flow-thanks-confirmation-special": "آیا میهایت سی ای ویر و باور یه گل تشکر کل بکیت؟",
-	"notification-flow-thanks-post-link": "ویر و باور شما",
-	"apihelp-flowthank-example-1": "سی ای ویر و باور وا<kbd>UUID xyz789</kbd> یه گل منمونداری کل بکیت"
+	"notification-flow-thanks-post-link": "ویر و باور شما"
 }

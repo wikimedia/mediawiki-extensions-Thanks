@@ -52,13 +52,5 @@
 	"notification-flow-thanks-post-link": "il tuo commento",
 	"notification-header-flow-thank": "$1 {{GENDER:$5|ti}} {{GENDER:$2|ha ringraziato}} per il tuo commento in \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|ti}} {{GENDER:$2|ha ringraziato}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Una persona ti ha|$1 persone ti hanno|100=Più di 99 persone ti hanno}} {{GENDER:$3|ringraziato|ringraziata|ringraziato/a}} per il tuo commento in \"<strong>$2</strong>\".",
-	"apihelp-flowthank-description": "Invia una notifica pubblica di ringraziamento per un commento Flow.",
-	"apihelp-flowthank-summary": "Invia una notifica pubblica di ringraziamento per un commento Flow.",
-	"apihelp-flowthank-param-postid": "L'UUID del messaggio per cui ringraziare.",
-	"apihelp-flowthank-example-1": "Ringrazia per il commento con <kbd>UUID xyz789</kbd>",
-	"apihelp-thank-description": "Invia una notifica di ringraziamento a un contributore.",
-	"apihelp-thank-param-rev": "ID della versione per cui ringraziare qualcuno. Questo o 'log' deve essere fornito",
-	"apihelp-thank-param-source": "Una breve stringa che descrive l'origine della richiesta. Per esempio, <kbd>diff</kbd> o <kbd>history</kbd>.",
-	"apihelp-thank-example-1": "Invia un ringraziamento per la versione <kbd>ID 456</kbd>, con la sorgente di una pagina confronto"
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Una persona ti ha|$1 persone ti hanno|100=Più di 99 persone ti hanno}} {{GENDER:$3|ringraziato|ringraziata|ringraziato/a}} per il tuo commento in \"<strong>$2</strong>\"."
 }

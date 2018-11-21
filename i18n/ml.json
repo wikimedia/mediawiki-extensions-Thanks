@@ -45,12 +45,5 @@
 	"notification-flow-thanks-post-link": "താങ്കളുടെ അഭിപ്രായം",
 	"notification-header-flow-thank": "\"<strong>$3</strong>\" എന്ന ഭാഗത്ത് താങ്കൾ ഇട്ട കുറിപ്പിന് {{GENDER:$5|താങ്കൾക്ക്}} $1 {{GENDER:$2|നന്ദി രേഖപ്പെടുത്തി}}.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|താങ്കൾക്ക്}} {{GENDER:$2|നന്ദി രേഖപ്പെടുത്തി}}",
-	"notification-bundle-header-flow-thank": "\"<strong>$2</strong>\" താളിലെ അഭിപ്രായത്തിന് {{PLURAL:$1|ഒരാൾ|$1 ആൾക്കാർ|100=99+ ആൾക്കാർ}} {{GENDER:$3|താങ്കൾക്ക്}} നന്ദി രേഖപ്പെടുത്തി.",
-	"apihelp-flowthank-description": "ഫ്ലോ കുറിപ്പ് സംബന്ധിച്ച ഒരു പൊതു നന്ദി അറിയിപ്പ് അയയ്ക്കുക.",
-	"apihelp-flowthank-param-postid": "നന്ദി രേഖപ്പെടുത്തുന്ന പോസ്റ്റിന്റെ യു.യു.ഐ.ഡി.",
-	"apihelp-flowthank-example-1": "<kbd>UUID കചട789</kbd> ആയുള്ള കുറിപ്പിന് നന്ദിയറിയിക്കുക",
-	"apihelp-thank-description": "ഒരു ലേഖകന് നന്ദി അറിയിപ്പ് അയയ്ക്കുക.",
-	"apihelp-thank-param-rev": "നന്ദി രേഖപ്പെടുത്താനുള്ള നാൾപ്പതിപ്പ് ഐ.ഡി. ഇതോ 'രേഖ'യോ നൽകിയിരിക്കണം.",
-	"apihelp-thank-param-source": "അഭ്യർത്ഥനയുടെ സ്രോതസ്സ് അടയാളപ്പെടുത്താനുള്ള ഒരു ചെറുപദം, ഉദാഹരണത്തിന്  <kbd>diff</kbd> അല്ലെങ്കിൽ <kbd>history</kbd>.",
-	"apihelp-thank-example-1": "നാൾപ്പതിപ്പ് <kbd>ഐ.ഡി. 456</kbd>-ന് നന്ദി രേഖപ്പെടുത്തുക, അഭ്യർത്ഥനാ സ്രോതസ്സ് വ്യത്യാസം താളാണ്"
+	"notification-bundle-header-flow-thank": "\"<strong>$2</strong>\" താളിലെ അഭിപ്രായത്തിന് {{PLURAL:$1|ഒരാൾ|$1 ആൾക്കാർ|100=99+ ആൾക്കാർ}} {{GENDER:$3|താങ്കൾക്ക്}} നന്ദി രേഖപ്പെടുത്തി."
 }

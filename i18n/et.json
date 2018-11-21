@@ -55,12 +55,5 @@
 	"notification-flow-thanks-post-link": "kommentaari",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|tänas}} {{GENDER:$5|sind}} kommentaari eest teemas \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|tänas}} {{GENDER:$3|sind}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Üks inimene|$1 inimest|100=Üle 99 inimese}} tänas {{GENDER:$3|sind}} kommentaari eest arutelus \"<strong>$2</strong>\".",
-	"apihelp-flowthank-description": "Avaliku tänuteavituse saatmine voogarutelu kommentaari eest.",
-	"apihelp-flowthank-param-postid": "Postitus, mille eest tänada, UUID.",
-	"apihelp-flowthank-example-1": "Täna postituse eest (<kbd>UUID xyz789</kbd>)",
-	"apihelp-thank-description": "Tänuteavituse saatmine toimetajale.",
-	"apihelp-thank-param-rev": "Redaktsioon, mille eest tänada, selle identifikaator. Tuleb ära tuua kas see või \"log\".",
-	"apihelp-thank-param-source": "Lühisõne, mis kirjeldab päringu allikat, näiteks <kbd>diff</kbd> või <kbd>history</kbd>.",
-	"apihelp-thank-example-1": "Täna redaktsiooni <kbd>ID 456</kbd eest, allikas on erinevuste lehekülg"
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Üks inimene|$1 inimest|100=Üle 99 inimese}} tänas {{GENDER:$3|sind}} kommentaari eest arutelus \"<strong>$2</strong>\"."
 }

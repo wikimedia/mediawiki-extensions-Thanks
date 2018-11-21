@@ -68,14 +68,5 @@
 	"notification-flow-thanks-post-link": "uw reactie",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|heeft}} {{GENDER:$5|u}} bedankt voor uw reactie op \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|bedankte}} {{GENDER:$3|u}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Eén persoon bedankte|$1 personen bedankten|100=99+ personen bedankten}} {{GENDER:$3|u}} voor uw reactie op \"<strong>$2</strong>\".",
-	"apihelp-flowthank-description": "Stuur een openbaar bedankje voor een Flow-reactie.",
-	"apihelp-flowthank-summary": "Stuur een openbaar bedankje voor een Flow-reactie.",
-	"apihelp-flowthank-param-postid": "De UUID van het bericht waarvoor u wilt bedanken.",
-	"apihelp-flowthank-example-1": "Stuur een bedankje voor de reactie met <kbd>UUID xyz789</kbd>",
-	"apihelp-thank-description": "Stuur een bedankje naar een bewerker.",
-	"apihelp-thank-summary": "Stuur een bedankje naar een bewerker.",
-	"apihelp-thank-param-rev": "Versie-ID waarvoor u iemand wilt bedanken.",
-	"apihelp-thank-param-source": "Een korte tekenreeks die de bron van het verzoek beschrijft, bijvoorbeeld <kbd>diff</kbd> of <kbd>history</kbd>.",
-	"apihelp-thank-example-1": "Stuur een bedankje voor versie-<kbd>ID 456</kbd>, waarbij de bron een diff-pagina is"
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Eén persoon bedankte|$1 personen bedankten|100=99+ personen bedankten}} {{GENDER:$3|u}} voor uw reactie op \"<strong>$2</strong>\"."
 }

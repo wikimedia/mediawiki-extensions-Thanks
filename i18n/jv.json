@@ -40,6 +40,5 @@
 	"thanks-error-invalidpostid": "ID kiriman ora sah.",
 	"flow-thanks-confirmation-special": "Arep ngirim atur panuwun tinarbuka tumrap tanggepan iki?",
 	"flow-thanks-thanked-notice": "{{GENDER:$3|Panjenengan}} matur nuwun marang $1 awit tanggepan{{GENDER:$2|é}}.",
-	"notification-flow-thanks-post-link": "tanggapané panjenengan",
-	"apihelp-flowthank-description": "Kirim pariwara atur panuwun tinarbuka tumrap tanggepan Flow."
+	"notification-flow-thanks-post-link": "tanggapané panjenengan"
 }

@@ -32,6 +32,5 @@
 	"thanks-error-invalidpostid": "Dydy'r ID ddim yn ddilys.",
 	"flow-thanks-confirmation-special": "Ydych chi'n dymuno danfon gair o ddiolch am y sylw hwn?",
 	"flow-thanks-thanked-notice": "Derbyniodd $1 eich diolch am {{GENDER:$2|ei|ei|eu}} sylw.",
-	"notification-flow-thanks-post-link": "eich sylw",
-	"apihelp-thank-description": "Danfonwch air o ddiolch at y golygydd."
+	"notification-flow-thanks-post-link": "eich sylw"
 }

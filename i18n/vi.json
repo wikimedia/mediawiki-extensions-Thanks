@@ -61,7 +61,5 @@
 	"notification-flow-thanks-post-link": "đã bình luận",
 	"notification-header-flow-thank": "$1 {{GENDER:$2}}đã cảm ơn {{GENDER:$5}}bạn vì bình luận ở “<strong>$3</strong>”.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2}}đã cảm ơn {{GENDER:$3}}bạn.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Một người|$1 người|100=99+ người}} đã cảm ơn {{GENDER:$3}}bạn vì lời bình luận của bạn trong “<strong>$2</strong>”.",
-	"apihelp-flowthank-description": "Gửi lời cảm ơn công khai vì một bình luận Flow.",
-	"apihelp-thank-param-rev": "Số thay đổi để cảm ơn ai đó. Cần cung cấp số này hoặc “log”."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Một người|$1 người|100=99+ người}} đã cảm ơn {{GENDER:$3}}bạn vì lời bình luận của bạn trong “<strong>$2</strong>”."
 }

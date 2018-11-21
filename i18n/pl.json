@@ -63,15 +63,5 @@
 	"notification-flow-thanks-post-link": "twój komentarz",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|podziękował|podziękowała|podziękował(a)}} {{GENDER:$5|ci}} za komentarz w \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|podziękował|podziękowała|podziękował(a)}} {{GENDER:$3|ci}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Jedna osoba|$1 osoby|$1 osób|100=Co najmniej 100 osób}} podziękowało {{GENDER:$3|ci}} za twój komentarz w „<strong>$2</strong>”.",
-	"apihelp-flowthank-description": "Wysyła publiczne powiadomienie z podziękowaniem za komentarz Flow.",
-	"apihelp-flowthank-summary": "Wysyła publiczne powiadomienie z podziękowaniem za komentarz Flow.",
-	"apihelp-flowthank-param-postid": "UUID postu, za który chcesz podziękować.",
-	"apihelp-flowthank-example-1": "Wyślij podziękowanie za komentarz z <kbd>UUID xyz789</kbd>",
-	"apihelp-thank-description": "Wysyła powiadomienie z podziękowaniem do edytującego.",
-	"apihelp-thank-summary": "Wysyła powiadomienie z podziękowaniem do edytującego.",
-	"apihelp-thank-param-rev": "ID wersji za którą podziękować. Musi być podany albo ten parametr albo parametr 'log'.",
-	"apihelp-thank-param-log": "Identyfikator wpisu rejestru czynności, którego tyczy się podziękowanie. Musi być podany albo ten parametr albo parametr 'rev'.",
-	"apihelp-thank-param-source": "Krótki ciąg znaków opisujący źródło żądania, na przykład <kbd>diff</kbd> lub <kbd>history</kbd>.",
-	"apihelp-thank-example-1": "Wyślij podziękowanie za wersję o <kbd>ID 456</kbd>, z źródłem będącym stroną porównywania"
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Jedna osoba|$1 osoby|$1 osób|100=Co najmniej 100 osób}} podziękowało {{GENDER:$3|ci}} za twój komentarz w „<strong>$2</strong>”."
 }

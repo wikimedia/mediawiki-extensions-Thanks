@@ -39,12 +39,5 @@
 	"flow-thanks-confirmation-special": "Был төҙәтеү өсөн рәхмәт әйтергә теләйһегеҙме?",
 	"flow-thanks-thanked-notice": "{{GENDER:$3|Һеҙ}} $1 {{GENDER:$2|уның}} аңлатмаһы өсөн рәхмәт әйттегеҙ.",
 	"notification-flow-thanks-post-link": "Һеҙҙең комментарий.",
-	"notification-header-flow-thank": "$1 {{GENDER:$5|һеҙгә}} \"<strong>$3</strong>\" комментарий өсөн {{GENDER:$2|рәхмәт әйтте}}.",
-	"apihelp-flowthank-description": "Flow comment өсөн йәмәғәтселек алдында рәхмәт белдерергә",
-	"apihelp-flowthank-param-postid": "Ҡотлау кәрәк булған, UUID хәбәрҙәр.",
-	"apihelp-flowthank-example-1": "<kbd>UUID xyz789</kbd> комментарийға ҡотлау ебәрергә",
-	"apihelp-thank-description": "Мөхәрриргә ҡотлау хәбәре ебәрергә.",
-	"apihelp-thank-param-rev": "Авторға рәхмәт әйтергә кәрәк булған, ID версиялар.",
-	"apihelp-thank-param-source": "Сығанаҡҡа һылтанған ҡыҫҡа юл, мәҫәлән <kbd>diff</kbd> йәки <kbd>history</kbd>.",
-	"apihelp-thank-example-1": "Версияларҙың айырмаһын күрһәткән битте сығанаҡ итеп алып, <kbd>ID 456</kbd> версияһы өсөн ҡотларға."
+	"notification-header-flow-thank": "$1 {{GENDER:$5|һеҙгә}} \"<strong>$3</strong>\" комментарий өсөн {{GENDER:$2|рәхмәт әйтте}}."
 }

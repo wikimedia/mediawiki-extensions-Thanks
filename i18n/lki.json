@@ -34,12 +34,5 @@
 	"thanks-error-invalidpostid": "شناسهٔ پست معتبر نیست.",
 	"flow-thanks-confirmation-special": "می‌خواهید برای این نظر علناً تشکر بفرستید؟",
 	"flow-thanks-thanked-notice": "$1 تشکر شما را برای دیدگاه {{GENDER:$2|او|او|آنها}} دریافت کرد.",
-	"notification-flow-thanks-post-link": "گةپ/قِسة هؤمة",
-	"apihelp-flowthank-description": "تشکر کردن علنی در جریان از یک نظر",
-	"apihelp-flowthank-param-postid": "UUIDی پست مشکور",
-	"apihelp-flowthank-example-1": "تشکر کردن از نظر با <kbd>UUID xyz789</kbd>",
-	"apihelp-thank-description": "فرستادن یک اعلان تشکر به یک ویراستار.",
-	"apihelp-thank-param-rev": "شناسهٔ نسخهٔ مشکور.",
-	"apihelp-thank-param-source": "رشته متنی کوتاه برای شرخ مبدأ درخواست، برای مثال <kbd>diff</kbd> یا <kbd>history</kbd>.",
-	"apihelp-thank-example-1": "تشکر کردن برای نسخهٔ شناسهٔ 456، با صفحهٔ تفاوت به عنوان منبع"
+	"notification-flow-thanks-post-link": "گةپ/قِسة هؤمة"
 }

@@ -32,12 +32,5 @@
 	"thanks-error-invalidpostid": "Det ID faan di bidrach as ferkiard.",
 	"flow-thanks-confirmation-special": "Maadst dü öfentelk en soonk för didiar komentaar schüür?",
 	"flow-thanks-thanked-notice": "$1 hää bööd füngen, dat dü {{GENDER:$2|sin|hör|hör}} komentaar gud fanjst.",
-	"notification-flow-thanks-post-link": "dan komentaar",
-	"apihelp-flowthank-description": "En öfentelk soonk-bööd för en komentaar schüür.",
-	"apihelp-flowthank-param-postid": "Det UUID faan det besoonket nooracht.",
-	"apihelp-flowthank-example-1": "Schüür en soonk för di komentaar mä det <kbd>UUID xyz789</kbd>",
-	"apihelp-thank-description": "Schüür en soonk-bööd tu en skriiwer.",
-	"apihelp-thank-param-rev": "Werjuuns-ID huar hoker för soonket woort.",
-	"apihelp-thank-param-source": "En kurten beskriiwangs-tekst, t.b. <kbd>diff</kbd> of <kbd>history</kbd>.",
-	"apihelp-thank-example-1": "Schüür en soonk för det werjuuns-<kbd>ID 456</kbd>, wan det am en ferskeel gongt."
+	"notification-flow-thanks-post-link": "dan komentaar"
 }

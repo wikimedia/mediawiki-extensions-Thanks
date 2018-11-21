@@ -64,15 +64,5 @@
 	"notification-flow-thanks-post-link": "din kommentar",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|tackade}} {{GENDER:$5|dig}} för din kommentar på \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|tackade}} {{GENDER:$3|dig}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|En person|$1 personer|100=99+ personer}} tackade {{GENDER:$3|dig}} för din kommentar på \"<strong>$2</strong>\".",
-	"apihelp-flowthank-description": "Skicka ett tack-meddelande för en Flow-kommentar.",
-	"apihelp-flowthank-summary": "Skicka en offentlig tack-avisering för en Flow-kommentar.",
-	"apihelp-flowthank-param-postid": "UUID:et för det inlägg du vill tacka för.",
-	"apihelp-flowthank-example-1": "Skicka tack för kommentaren med <kbd>UUID xyz789</kbd>",
-	"apihelp-thank-description": "Skicka ett tack till en redigerare.",
-	"apihelp-thank-summary": "Skicka ett tack-avisering till en redigerare.",
-	"apihelp-thank-param-rev": "Sidversionens ID att tacka någon för. Detta eller \"log\" måste anges.",
-	"apihelp-thank-param-log": "Logg-ID att tacka någon för. Detta eller \"rev\" måste anges.",
-	"apihelp-thank-param-source": "En kort sträng som beskriver källan för begäran, till exempel, <kbd>diff</kbd> eller <kbd>history</kbd>.",
-	"apihelp-thank-example-1": "Skicka tack för version med <kbd>ID 456</kbd>, med en diff-sida som källa"
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|En person|$1 personer|100=99+ personer}} tackade {{GENDER:$3|dig}} för din kommentar på \"<strong>$2</strong>\"."
 }

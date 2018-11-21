@@ -37,12 +37,5 @@
 	"notification-flow-thanks-post-link": "wat de jeschrevve häs",
 	"notification-header-flow-thank": "{{GENDER:$2|Dä|Dat|Dä Metmaacher|De|Dat}} $1 hät sesch bei Der bedangk för wat de em Affschnedd '''$3''' op dä Sigg '''$4''' aanjemärk häs.{{GENDER:$5|}}",
 	"notification-compact-header-flow-thank": "{{GENDER:$2|Dä|Dat|Dä Metmaacher|De|Dat}} $1 hät sesch beij Der bedangk.{{GENDER:$3|}}",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Eijne|$1 Lük|100=mih wi 99 Lük}} han sesch beij Der bedangk för Dinge Bemärkong en dä Sigg <strong>$2</strong>.{{GENDER:$3|}}",
-	"apihelp-flowthank-description": "Schegg en öffentlesche Nohreesch zom Bedanke för ene  Flow Kommäntaa.",
-	"apihelp-flowthank-param-postid": "De <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Universally unique identifier\">UUID</i> vun däm Beijdraach för devör ze dangke.",
-	"apihelp-flowthank-example-1": "Donn ene Dank schecke för dä Beijdraach met dä <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"\">UUID</i> „<kbdlang=\"en\" xml:lang=\"en\" dir=\"ltr\">xyz789</kbd>“",
-	"apihelp-thank-description": "Schegg ene Dangk aan ene Schrihver.",
-	"apihelp-thank-param-rev": "De Kännong vun ene Väsjohn för sesch bei einem för ze bedangke.",
-	"apihelp-thank-param-source": "Ene koote Täx öm ze sahre, woh di Frohch hehr küdd, <code lang=\"en\" xml:lang=\"en\" dir=\"ltr\"><kbd>diff</kbd></code> uddder <code lang=\"en\" xml:lang=\"en\" dir=\"ltr\"><kbd>history</kbd></code> för e Beijschpell.\n<!-- \nhttps://translatewiki.net/wiki/Thread:Support/About_MediaWiki:Apihelp-thank-param-source/en\n-->",
-	"apihelp-thank-example-1": "Scheck ene Dangk för de Väsjohn met dä Kännong 456, woh de Quäll en Sigg met Ongerscheide es."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Eijne|$1 Lük|100=mih wi 99 Lük}} han sesch beij Der bedangk för Dinge Bemärkong en dä Sigg <strong>$2</strong>.{{GENDER:$3|}}"
 }

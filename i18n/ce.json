@@ -31,9 +31,5 @@
 	"thanks-error-invalidpostid": "Хааман магийна доцу ID.",
 	"flow-thanks-confirmation-special": "Лаьий хьуна баркалла ала?",
 	"flow-thanks-thanked-notice": "$1 {{GENDER:$2|хаам бина}}, хьуна {{GENDER:$2|цуна|цера}} къамел хаза хетта аьлла.",
-	"notification-flow-thanks-post-link": "хьан коммент",
-	"apihelp-flowthank-param-postid": "Баркалла ала деза UUID хаам.",
-	"apihelp-thank-description": "Тадархочуна дӀахаийта баркаллах лаьцна.",
-	"apihelp-thank-param-rev": "Авторан баркалла ала деза ID верси.",
-	"apihelp-thank-example-1": "<kbd>ID 456</kbd> верси нисъярна баркалла дӀадахьийта, версийн башхалла гойтуш йолу хьажорг цани."
+	"notification-flow-thanks-post-link": "хьан коммент"
 }

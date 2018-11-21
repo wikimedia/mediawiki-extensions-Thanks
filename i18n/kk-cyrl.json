@@ -38,8 +38,5 @@
 	"notification-flow-thanks-post-link": "пікіріңізге",
 	"notification-header-flow-thank": "$1 {{GENDER:$5|сізге}} \"<strong>$3</strong>\" бөліміндегі пікіріңізге {{GENDER:$2|рахметін}} білдірді.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|сізге}} {{GENDER:$2|рахметін}} білдірді.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Бір адам|$1 адам|100=99+ адам}} <strong>$2</strong> бетіндегі пікіріңіз үшін {{GENDER:$3|сізге}} рахметін білдірді.",
-	"apihelp-flowthank-description": "Flow жұмыс легіндегі пікір үшін жария түрде рахмет ескертпесін жіберу.",
-	"apihelp-thank-description": "Өңдеушіге рахмет ескертпесін жіберу.",
-	"apihelp-thank-param-rev": "Әлдебіреуге жіберілген рахмет ескертпесінің нұсқа сәйкестендіргіші."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Бір адам|$1 адам|100=99+ адам}} <strong>$2</strong> бетіндегі пікіріңіз үшін {{GENDER:$3|сізге}} рахметін білдірді."
 }

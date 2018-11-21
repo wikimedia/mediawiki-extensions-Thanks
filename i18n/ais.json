@@ -32,7 +32,5 @@
 	"flow-thanks-confirmation-special": "amikukay tina buhci tu kamu pabinawlan sakamu tu nizateng haw?",
 	"notification-flow-thanks-post-link": "u misuay a buhci tu kamu",
 	"notification-header-flow-thank": "$1{{GENDER:$2|mikukay tisuwan}} {{GENDER:$5|kisu}} i \"<strong>$3</strong>\" a buhci tu kamu.",
-	"notification-compact-header-flow-thank": "$1{{GENDER:$2|makukay}} {{GENDER:$3|kisu}}.",
-	"apihelp-flowthank-description": "pabahel pabinawlan a patakus nu mikukayay pabeli Flow a buhci tu kamuㄡ",
-	"apihelp-thank-description": "pasayza cacay a mikawaway-kalumyitiay pabahel kukay patakus."
+	"notification-compact-header-flow-thank": "$1{{GENDER:$2|makukay}} {{GENDER:$3|kisu}}."
 }

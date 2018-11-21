@@ -60,7 +60,5 @@
 	"notification-flow-thanks-post-link": "váš komentář",
 	"notification-header-flow-thank": "$1 {{GENDER:$5|vám}} {{GENDER:$2|poděkoval|poděkovala}} za komentář k tématu „<strong>$3</strong>“.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|vám}} {{GENDER:$2|poděkoval|poděkovala}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Jeden člověk|$1 lidé|$1 lidí|100=Více než 99 lidí}} {{GENDER:$3|vám}} {{PLURAL:$1|poděkoval|poděkovali|poděkovalo}} za váš komentář k tématu „<strong>$2</strong>“.",
-	"apihelp-thank-param-rev": "ID revize, za kterou se má někomu poděkovat. Toto nebo 'log' musí být uvedeno.",
-	"apihelp-thank-param-log": "ID záznamu, za který se má poděkovat. Nutné uvést buď toto, nebo 'rev'."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Jeden člověk|$1 lidé|$1 lidí|100=Více než 99 lidí}} {{GENDER:$3|vám}} {{PLURAL:$1|poděkoval|poděkovali|poděkovalo}} za váš komentář k tématu „<strong>$2</strong>“."
 }

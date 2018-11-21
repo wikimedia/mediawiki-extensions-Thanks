@@ -65,15 +65,5 @@
 	"notification-flow-thanks-post-link": "a hozzászólásodat",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|megköszönte}} a {{GENDER:$5|hozzászólásodat}} a(z) „<strong>$3</strong>” témában.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|köszönetet}} {{GENDER:$2|küldött}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Valaki köszönetet küldött|$1 felhasználó köszönetet küldött|100=Több mint 99 felhasználó küldött köszönetet}} a {{GENDER:$3|hozzászólásodért}} a(z) „<strong>$2</strong>” témában.",
-	"apihelp-flowthank-description": "Nyilvános köszönet küldése egy Flow-hozzászólásért.",
-	"apihelp-flowthank-summary": "Nyilvános köszönet küldése egy Flow-hozzászólásért.",
-	"apihelp-flowthank-param-postid": "A megköszönendő hozzászólás UUID-je.",
-	"apihelp-flowthank-example-1": "Az <kbd>xyz789<kbd> UUID-jű komment megköszönése",
-	"apihelp-thank-description": "Köszönet küldése egy szerkesztőnek.",
-	"apihelp-thank-summary": "Köszönet küldése egy szerkesztőnek.",
-	"apihelp-thank-param-rev": "A megköszönendő lapváltozat-azonosító. Ezt vagy a <var>log</var> paramétert kötelező megadni.",
-	"apihelp-thank-param-log": "A megköszönendő naplóbejegyzés-azonosító. Ezt vagy a <var>rev</var> paramétert kötelező megadni.",
-	"apihelp-thank-param-source": "A forrás rövid megnevezése, pl. <kbd>diff</kbd> vagy <kbd>history</kbd>.",
-	"apihelp-thank-example-1": "A <kbd>456</kbd>-os ID-jű lapváltozat megköszönése, ahol a köszönet forrása egy diff (változtatás) oldal"
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Valaki köszönetet küldött|$1 felhasználó köszönetet küldött|100=Több mint 99 felhasználó küldött köszönetet}} a {{GENDER:$3|hozzászólásodért}} a(z) „<strong>$2</strong>” témában."
 }
