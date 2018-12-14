@@ -12,6 +12,7 @@
 	"thanks-error-undefined": "Azione de ringraziamende fallite (codece de errore: $1). Pe piacere pruéve arrete.",
 	"thanks-error-invalid-log-id": "Vôsce de l'archivije none acchiate",
 	"thanks-error-invalidrevision": "ID d'a revisione non g'è valide.",
+	"thanks-error-invalidrecipient-self": "Non ge te puè rengrazià da sule",
 	"thanks-error-ratelimited": "{{GENDER:$1|Tu}} è sbunnate le limite de valutazione tune. Pe piacere aspitte 'nu picche e pruève arrete.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Manne}} 'na notifiche de rengraziamende a stu {{GENDER:$2|utende}}",
 	"thanks-confirmation2": "{{GENDER:$1|Manne}} le rengraziaminde pubblicamende?",

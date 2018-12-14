@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"apihelp-flowthank-description": "Manne 'na notifeche de rengraziamende pubbleche pe 'nu commende Flow.",
+	"apihelp-flowthank-summary": "Manne 'na notifeche de rengraziamende pubbleche pe 'nu commende Flow.",
+	"apihelp-flowthank-param-postid": "L'UUID d'u messàgge da rengrazià."
+}
