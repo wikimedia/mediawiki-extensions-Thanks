@@ -8,7 +8,8 @@
 			"Simeondahl",
 			"SimmeD",
 			"EeveeSylveon",
-			"Saederup92"
+			"Saederup92",
+			"Weblars"
 		]
 	},
 	"thanks-desc": "Tilføjer links til at takke brugerne for ændringer, kommentarer, osv.",
@@ -30,6 +31,7 @@
 	"echo-category-title-edit-thank": "Tak!",
 	"notification-thanks-diff-link": "din redigering",
 	"notification-header-rev-thank": "$1 {{GENDER:$2|takkede}} {{GENDER:$4|dig}} for din redigering på '''$3'''.",
+	"notification-header-creation-thank": "$1 {{GENDER:$2|takkede}} {{GENDER:$4|dig}} for din oprettelse af <strong>$3</strong>.",
 	"log-name-thanks": "Takkelog",
 	"log-description-thanks": "Nedenfor er en liste over brugere, som er blevet takket af andre brugere.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|takkede}} {{GENDER:$4|$3}}",
