@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Axel xadolik"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|grewar}}}}"
+}
