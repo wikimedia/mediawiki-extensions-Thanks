@@ -36,6 +36,8 @@
 	"echo-category-title-edit-thank": "Agradecemento",
 	"notification-thanks-diff-link": "a súa edición",
 	"notification-header-rev-thank": "$1 {{GENDER:$2|agradeceu}} {{GENDER:$4|a súa edición}} en <strong>$3</strong>.",
+	"notification-header-creation-thank": "$1 {{GENDER:$2|agradeceu}}{{GENDER:$4|lle}} a creación de <strong>$3</strong>.",
+	"notification-header-log-thank": "$1 {{GENDER:$2|agradeceu}}{{GENDER:$4|lle}} a súa acción relacionada con <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|agradeceu}}{{GENDER:$3|che}}.",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Unha persoa|$1 persoas|100=Máis de 99 persoas}} {{GENDER:$3|agradeceron}} a túa edición en <strong>$2</strong>.",
 	"log-name-thanks": "Rexistro de agradecementos",
