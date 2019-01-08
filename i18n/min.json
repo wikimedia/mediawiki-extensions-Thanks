@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ardzun"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|batarimo kasih}}}}",
+	"thanks-thank-tooltip": "{{GENDER:$1|Kirim}} sabuah pambaritahuan tarimo kasih kapado {{GENDER:$2|pangguno}} ko"
+}
