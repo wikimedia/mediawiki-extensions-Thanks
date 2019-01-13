@@ -41,8 +41,8 @@
 	"notification-header-creation-thank": "$1 se {{GENDER:$4|ti}} {{GENDER:$2|zahvaljuje}} za ustvaritev <strong>$3</strong>.",
 	"notification-header-log-thank": "$1 se {{GENDER:$4|ti}} {{GENDER:$2|zahvaljuje}} za tvoj poseg glede <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 se {{GENDER:$3|ti}} {{GENDER:$2|zahvaljuje}}.",
-	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Ena oseba se ti zahvaljuje|$1 osebi se ti zahvaljujeta|$1 osebe se ti zahvaljujejo|100=99+ oseb se ti zahvaljuje}} za urejanje <strong>$2</strong>.",
-	"notification-bundle-header-log-thank": "{{PLURAL:$1|Ena oseba se ti zahvaljuje|$1 osebi se ti zahvaljujeta|$1 osebe se ti zahvaljujejo|100=99+ oseb se ti zahvaljuje}} za tvoj poseg glede <strong>$2</strong>.",
+	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Ena oseba se {{GENDER:$3|ti}} zahvaljuje|$1 osebi se ti zahvaljujeta|$1 osebe se ti zahvaljujejo|100=99+ oseb se ti zahvaljuje}} za urejanje <strong>$2</strong>.",
+	"notification-bundle-header-log-thank": "{{PLURAL:$1|Ena oseba se {{GENDER:$3|ti}} zahvaljuje|$1 osebi se ti zahvaljujeta|$1 osebe se ti zahvaljujejo|100=99+ oseb se ti zahvaljuje}} za tvoj poseg glede <strong>$2</strong>.",
 	"log-name-thanks": "Dnevnik zahval",
 	"log-description-thanks": "Prikazan je dnevnik uporabnikov, ki se jim je kdo zahvalil.",
 	"logentry-thanks-thank": "$1 se je {{GENDER:$2|zahvalil|zahvalila}} {{GENDER:$4|uporabniku|uporabnici}} {{GENDER:$4|$3}}",
@@ -58,5 +58,5 @@
 	"notification-flow-thanks-post-link": "tvojo pripombo",
 	"notification-header-flow-thank": "$1 se {{GENDER:$5|ti}} {{GENDER:$2|zahvaljuje}} za tvoj komentar v \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "$1 se {{GENDER:$3|ti}} {{GENDER:$2|zahvaljuje}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Ena oseba se ti zahvaljuje|$1 osebi se ti zahvaljujeta|$1 osebe se ti zahvaljujejo|100=99+ oseb se ti zahvaljuje}} za tvoj komentar v \"<strong>$2</strong>\"."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Ena oseba se {{GENDER:$3|ti}} zahvaljuje|$1 osebi se ti zahvaljujeta|$1 osebe se ti zahvaljujejo|100=99+ oseb se ti zahvaljuje}} za tvoj komentar v »<strong>$2</strong>«."
 }
