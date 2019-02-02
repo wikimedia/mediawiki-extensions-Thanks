@@ -16,7 +16,6 @@ class ThanksHooks {
 	 *
 	 * @param array &$testModules The modules array to add to.
 	 * @param ResourceLoader &$resourceLoader The resource loader.
-	 * @return bool
 	 */
 	public static function onResourceLoaderTestModules( array &$testModules,
 		ResourceLoader &$resourceLoader
@@ -41,7 +40,6 @@ class ThanksHooks {
 			],
 			'targets' => [ 'desktop' ],
 		];
-		return true;
 	}
 
 	/**
@@ -51,7 +49,6 @@ class ThanksHooks {
 	 * @param array &$links Links to add to the revision interface
 	 * @param Revision|null $oldRev Revision object of the "old" revision when viewing a diff
 	 * @param User $user The user performing the thanks.
-	 * @return bool
 	 */
 	public static function insertThankLink( $rev, &$links, $oldRev, User $user ) {
 		$recipientId = $rev->getUser();
@@ -74,7 +71,6 @@ class ThanksHooks {
 		) {
 			$links[] = self::generateThankElement( $rev->getId(), $recipient );
 		}
-		return true;
 	}
 
 	/**
@@ -155,13 +151,11 @@ class ThanksHooks {
 	 * @param WikiPage|Article|ImagePage|CategoryPage|Page &$page The page for which the history
 	 *   is loading.
 	 * @param RequestContext $context RequestContext object
-	 * @return bool true in all cases
 	 */
 	public static function onPageHistoryBeforeList( &$page, $context ) {
 		if ( $context->getUser()->isLoggedIn() ) {
 			static::addThanksModule( $context->getOutput() );
 		}
-		return true;
 	}
 
 	/**
@@ -170,13 +164,11 @@ class ThanksHooks {
 	 * @param DifferenceEngine $diff DifferenceEngine object that's calling.
 	 * @param Revision $oldRev Revision object of the "old" revision (may be null/invalid)
 	 * @param Revision $newRev Revision object of the "new" revision
-	 * @return bool true in all cases
 	 */
 	public static function onDiffViewHeader( $diff, $oldRev, $newRev ) {
 		if ( $diff->getUser()->isLoggedIn() ) {
 			static::addThanksModule( $diff->getOutput() );
 		}
-		return true;
 	}
 
 	/**
@@ -185,7 +177,6 @@ class ThanksHooks {
 	 * @param array &$notifications array of Echo notifications
 	 * @param array &$notificationCategories array of Echo notification categories
 	 * @param array &$icons array of icon details
-	 * @return bool
 	 */
 	public static function onBeforeCreateEchoEvent(
 		&$notifications, &$notificationCategories, &$icons
@@ -225,15 +216,12 @@ class ThanksHooks {
 				'rtl' => 'Thanks/userTalk-constructive-rtl.svg'
 			]
 		];
-
-		return true;
 	}
 
 	/**
 	 * Add user to be notified on echo event
 	 * @param EchoEvent $event The event.
 	 * @param User[] &$users The user list to add to.
-	 * @return bool
 	 */
 	public static function onEchoGetDefaultNotifiedUsers( $event, &$users ) {
 		switch ( $event->getType() ) {
@@ -248,7 +236,6 @@ class ThanksHooks {
 				$users[$recipientId] = $recipient;
 				break;
 		}
-		return true;
 	}
 
 	/**
@@ -256,7 +243,6 @@ class ThanksHooks {
 	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/LocalUserCreated
 	 * @param User $user User object that was created.
 	 * @param bool $autocreated True when account was auto-created
-	 * @return bool
 	 */
 	public static function onAccountCreated( $user, $autocreated ) {
 		// New users get echo preferences set that are not the default settings for existing users.
@@ -265,7 +251,6 @@ class ThanksHooks {
 			$user->setOption( 'echo-subscriptions-email-edit-thank', true );
 			$user->saveSettings();
 		}
-		return true;
 	}
 
 	/**
@@ -273,7 +258,6 @@ class ThanksHooks {
 	 * @param OutputPage &$output OutputPage object
 	 * @param MobileContext $ctx MobileContext object
 	 * @param array $revisions Array of the two revisions that are being compared in the diff
-	 * @return bool true in all cases
 	 */
 	public static function onBeforeSpecialMobileDiffDisplay( &$output, $ctx, $revisions ) {
 		$rev = $revisions[1];
@@ -293,7 +277,6 @@ class ThanksHooks {
 			}
 
 		}
-		return true;
 	}
 
 	/**
@@ -301,11 +284,9 @@ class ThanksHooks {
 	 * So users can just type in a username for target and it'll work.
 	 * @link https://www.mediawiki.org/wiki/Manual:Hooks/GetLogTypesOnUser
 	 * @param string[] &$types The list of log types, to add to.
-	 * @return bool
 	 */
 	public static function onGetLogTypesOnUser( array &$types ) {
 		$types[] = 'thanks';
-		return true;
 	}
 
 	/**
@@ -315,7 +296,6 @@ class ThanksHooks {
 	 * @link https://www.mediawiki.org/wiki/Manual:Hooks/BeforePageDisplay
 	 * @param OutputPage $out OutputPage object
 	 * @param Skin $skin The skin in use.
-	 * @return bool
 	 */
 	public static function onBeforePageDisplay( OutputPage $out, $skin ) {
 		$title = $out->getTitle();
@@ -327,7 +307,6 @@ class ThanksHooks {
 		if ( $title->isSpecial( 'Log' ) ) {
 			static::addThanksModule( $out );
 		}
-		return true;
 	}
 
 	/**
@@ -335,7 +314,6 @@ class ThanksHooks {
 	 * Flow is installed.
 	 *
 	 * @param ApiModuleManager $moduleManager Module manager instance
-	 * @return bool
 	 */
 	public static function onApiMainModuleManager( ApiModuleManager $moduleManager ) {
 		if ( ExtensionRegistry::getInstance()->isLoaded( 'Flow' ) ) {
@@ -345,7 +323,6 @@ class ThanksHooks {
 				'ApiFlowThank'
 			);
 		}
-		return true;
 	}
 
 	/**
@@ -353,7 +330,6 @@ class ThanksHooks {
 	 *
 	 * @param EchoEvent $event The event being notified.
 	 * @param string &$bundleString Determines how the notification should be bundled.
-	 * @return bool True for success
 	 */
 	public static function onEchoGetBundleRules( $event, &$bundleString ) {
 		switch ( $event->getType() ) {
@@ -379,7 +355,6 @@ class ThanksHooks {
 				}
 				break;
 		}
-		return true;
 	}
 
 	/**
