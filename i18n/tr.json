@@ -42,6 +42,7 @@
 	"logentry-thanks-thank": "$1 {{GENDER:$2}}, {{GENDER:$4|$3}} kullanıcısına teşekkür etti.",
 	"logeventslist-thanks-log": "Teşekkür günlüğü",
 	"thanks-error-no-id-specified": "Teşekkür edebilmek için bir sürüm numarası belirtmeniz gerekmektedir.",
+	"thanks-confirmation-special-rev": "Bu değişiklik için teşekkür etmek istiyor musunuz?",
 	"notification-link-text-view-post": "Yorum görüntüle",
 	"thanks-error-invalidpostid": "Konu ID geçerli değil.",
 	"flow-thanks-confirmation-special": "Bu yorum için herkese açık olarak teşekkür göndermek istiyor musunuz?"
