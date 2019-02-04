@@ -6,16 +6,17 @@
 			"Mirzali",
 			"Kumkumuk",
 			"Gambollar",
-			"Gırd"
+			"Gırd",
+			"Orbot707"
 		]
 	},
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|teşekur ke}}}}",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|teşekur bıkerê }}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|teşekur kerd}}}}",
-	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Teşekur ke}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Teşekur bıkerê}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Teşekur kerd}}}}",
 	"thanks-thank-tooltip": "{{GENDER:$2|Karberi}} rê teşekur {{GENDER:$1|bırışe}}",
 	"thanks-confirmation2": "Qandê ena vırnayış şıma qayılê teşekur {{GENDER:$1|bırışê}}?",
-	"thanks": "Teşekur bırışe",
+	"thanks": "Teşekur bıkerê",
 	"thanks-submit": "Teşekur bırışe",
 	"echo-category-title-edit-thank": "Teşekuri",
 	"notification-thanks-diff-link": "vırnayışê şıma",
