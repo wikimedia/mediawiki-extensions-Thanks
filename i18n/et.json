@@ -36,6 +36,7 @@
 	"echo-category-title-edit-thank": "Tänamine",
 	"notification-thanks-diff-link": "muudatuse",
 	"notification-header-rev-thank": "$1 {{GENDER:$2|tänas}} {{GENDER:$4|sind}} muudatuse eest leheküljel \"<strong>$3</strong>\".",
+	"notification-header-creation-thank": "$1 {{GENDER:$2|tänas}} {{GENDER:$4|sind}} lehekülje \"<strong>$3</strong>\" alustamise eest.",
 	"notification-header-log-thank": "$1 {{GENDER:$2|tänas}} {{GENDER:$4|sind}} lehekülje \"<strong>$3</strong>\" suhtes rakendatud toimingu eest.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|tänas}} {{GENDER:$3|sind}}.",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Üks inimene|$1 inimest|100=Üle 99 inimese}} tänas {{GENDER:$3|sind}} muudatuse eest leheküljel \"<strong>$2</strong>\".",
