@@ -15,19 +15,16 @@
 		} ).then( function () {
 			mw.notify( mw.msg( 'thanks-thanked-notice', name, recipientGender, mw.user ) );
 		}, function ( errorCode ) {
-			// FIXME: What is "popup" and where is it defined?
-			/* eslint-disable no-undef */
 			switch ( errorCode ) {
 				case 'invalidrevision':
-					popup.show( mw.msg( 'thanks-error-invalidrevision' ) );
+					mw.notify( mw.msg( 'thanks-error-invalidrevision' ) );
 					break;
 				case 'ratelimited':
-					popup.show( mw.msg( 'thanks-error-ratelimited', recipientGender ) );
+					mw.notify( mw.msg( 'thanks-error-ratelimited', recipientGender ) );
 					break;
 				default:
-					popup.show( mw.msg( 'thanks-error-undefined', errorCode ) );
+					mw.notify( mw.msg( 'thanks-error-undefined', errorCode ) );
 			}
-			/* eslint-enable no-undef */
 		} );
 	}
 
