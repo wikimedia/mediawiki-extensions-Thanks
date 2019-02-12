@@ -8,13 +8,16 @@
 			"StanProg",
 			"Vodnokon4e",
 			"V111P",
-			"ShockD"
+			"ShockD",
+			"Vlad5250"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|благодарност}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|изказана благодарност}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Благодарност}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Изказана благодарност}}}}",
+	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|Благодарност към}}}} $1…",
+	"thanks-button-action-cancel": "Отказ",
 	"thanks-thank-tooltip": "С препратката „благодарност“ можете да {{GENDER:$1|изкажете}} на {{GENDER:$2|този потребител|тази потребителка|този потребител}} благодарност за редакцията.",
 	"thanks-thank-tooltip-yes": "Изпратете известие за благодарност",
 	"thanks-confirmation2": "{{GENDER:$1|Ще изпратите ли}} благодарност публично?",
