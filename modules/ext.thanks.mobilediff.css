@@ -4,7 +4,6 @@
 	border-radius: 2px;
 	font-weight: bold;
 	font-size: 0.9em;
-	position: absolute;
-	right: 7px;
-	top: 8px;
+	display: inline-block;
+	margin: 10px 0 0 10px;
 }
