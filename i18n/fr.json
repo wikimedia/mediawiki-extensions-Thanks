@@ -34,7 +34,7 @@
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Remercier}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Remercié|Remerciée|Remercié(e)}}}}",
 	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|Remercie}}}} $1…",
-	"thanks-button-action-cancel": "annuler",
+	"thanks-button-action-cancel": "Annuler",
 	"thanks-button-action-completed": "Vous avez {{GENDER:$1|{{GENDER:$2|remercié}}}} $1",
 	"thanks-error-undefined": "Échec de l’action de remerciement (code d'erreur : $1). Veuillez réessayer.",
 	"thanks-error-invalid-log-id": "Entrée non trouvée dans le journal",

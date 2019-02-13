@@ -13,6 +13,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|pateicās}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Pateikties}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Pateicās}}}}",
+	"thanks-button-action-cancel": "Atcelt",
 	"thanks-error-undefined": "Pateicības darbība neizdevās (kļūdas kods: $1). Lūdzu, mēģini vēlreiz.",
 	"thanks-error-invalid-log-id": "Žurnāla ieraksts nav atrasts",
 	"thanks-error-invalidrevision": "Versijas ID ir nederīgs.",
