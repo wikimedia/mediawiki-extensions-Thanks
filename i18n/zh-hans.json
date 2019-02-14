@@ -17,7 +17,8 @@
 			"Macofe",
 			"飞舞回堂前",
 			"A2093064",
-			"Phenolla"
+			"Phenolla",
+			"Angrydog001"
 		]
 	},
 	"thanks-desc": "添加感谢用户进行编辑、评论等行为的链接。",
@@ -25,6 +26,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|已感谢}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|感谢}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|已感谢}}}}",
+	"thanks-button-action-cancel": "取消",
 	"thanks-error-undefined": "感谢操作失败（错误代码：$1）。请重试。",
 	"thanks-error-invalid-log-id": "找不到日志记录",
 	"thanks-error-invalid-log-type": "日志类型“$1”没有在允许的日志类型白名单中。",

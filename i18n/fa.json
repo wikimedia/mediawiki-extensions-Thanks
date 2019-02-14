@@ -18,7 +18,8 @@
 			"Macofe",
 			"4nn1l2",
 			"Mardetanha",
-			"AzorAhai"
+			"AzorAhai",
+			"Amirsara"
 		]
 	},
 	"thanks-desc": "پیوندی برای تشکر از کاربران بابت ویرایش‌ها، نظرات و غیره اضافه می‌کند.",
@@ -26,6 +27,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|تشکر شد}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|تشکر}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|تشکر شد}}}}",
+	"thanks-button-action-cancel": "لغو",
 	"thanks-error-undefined": "عمل تشکر ناموفق بود (پیام خطا: $1). لطفاً دوباره تلاش کنید.",
 	"thanks-error-invalid-log-id": "مورد سیاهه یافته نشد",
 	"thanks-error-invalid-log-type": "نوع سیاههٔ «$1» در فهرست سفید انواع سیاههٔ مجاز نیست.",
