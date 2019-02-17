@@ -5,6 +5,7 @@
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|dankar}}}}",
+	"thanks-button-action-cancel": "Nuligar",
 	"thanks-thank-tooltip": "{{GENDER:$1|Sendez}} avizo 'danko' ad ica {{GENDER:$2|uzero}}",
 	"thanks-confirmation2": "Sendar {{GENDER:$1|publika}} danki?",
 	"echo-category-title-edit-thank": "Danki",
