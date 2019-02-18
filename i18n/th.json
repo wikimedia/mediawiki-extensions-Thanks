@@ -5,7 +5,8 @@
 			"Octahedron80",
 			"Pilarbini",
 			"Ans",
-			"Aefgh39622"
+			"Aefgh39622",
+			"B20180"
 		]
 	},
 	"thanks-desc": "เพิ่มลิงก์ขอบคุณผู้ใช้สำหรับการแก้ไข ความคิดเห็น ฯลฯ",
@@ -13,6 +14,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|กล่าวขอบคุณแล้ว}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|ขอบคุณ}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|กล่าวขอบคุณแล้ว}}}}",
+	"thanks-button-action-cancel": "ยกเลิก",
 	"thanks-error-undefined": "ปฏิบัติการขอบคุณล้มเหลว (รหัสข้อผิดพลาด: $1) โปรดลองอีกครั้ง",
 	"thanks-error-invalid-log-id": "ไม่พบรายการบันทึก",
 	"thanks-error-invalidrevision": "หมายเลขประจำรุ่นไม่ถูกต้อง",
