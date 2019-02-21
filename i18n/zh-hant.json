@@ -13,7 +13,8 @@
 			"Bowleerin",
 			"Hello903hello",
 			"Kly",
-			"A2093064"
+			"A2093064",
+			"WQL"
 		]
 	},
 	"thanks-desc": "提供可讓使用者感謝編輯、評論..等的連結。",
@@ -21,7 +22,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|已感謝}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|感謝}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|已感謝}}}}",
-	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|感謝}}}}$1…",
+	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|正在感謝}}}}$1…",
 	"thanks-button-action-cancel": "取消",
 	"thanks-button-action-completed": "您{{GENDER:$1|{{GENDER:$2|已感謝}}}}$1",
 	"thanks-error-undefined": "感謝操作失敗 (錯誤代碼：$1)，請再試一次。",
