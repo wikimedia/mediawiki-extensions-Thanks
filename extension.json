@@ -218,6 +218,7 @@
 		"ThanksConfirmationRequired": true,
 		"ThanksLogTypeWhitelist": [
 			"contentmodel",
+			"create",
 			"delete",
 			"import",
 			"merge",
