@@ -6,7 +6,8 @@
 			"عرفان ارشد",
 			"Obaid Raza",
 			"Muhammad Shuaib",
-			"BukhariSaeed"
+			"BukhariSaeed",
+			"Sajidkhan"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|شکریہ}}}}",
@@ -20,7 +21,7 @@
 	"thanks-error-invalid-log-id": "نوشتہ میں کوئی اندراج نہیں ملا",
 	"thanks-error-invalidrevision": "نسخے کا پتہ درست نہیں ہے",
 	"thanks-error-revdeleted": "شکریہ بھیجنے میں ناکامی کیونکہ نظر ثانی حذف ہو چکی ہے۔",
-	"thanks-error-invalidrecipient-bot": "روبہ جات کو شکریہ ادا نہیں کیا جا سکتا۔",
+	"thanks-error-invalidrecipient-bot": "بوٹس کو شکریہ ادا نہیں کیا جا سکتا۔",
 	"thanks-error-invalidrecipient-self": "آپ خود کا شکریہ ادا نہیں کر سکتے",
 	"thanks-error-notloggedin": "گمنام صارفین شکریہ ادا نہیں کر سکتے",
 	"thanks-error-ratelimited": "{{GENDER:$1|آپ}} ضرورت سے زیادہ کوشش کرچکے ہیں۔ براہ مہربانی کچھ دیر انتظار کے بعد دوبارہ کوشش کریں۔",

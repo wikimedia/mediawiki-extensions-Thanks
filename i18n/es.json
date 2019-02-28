@@ -20,6 +20,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|agradecido|agradecida}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Agradecer}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Agradecido|Agradecida}}}}",
+	"thanks-button-action-cancel": "Cancelar",
 	"thanks-error-undefined": "El agradecimiento falló (código de error: $1). Inténtalo de nuevo.",
 	"thanks-error-invalid-log-id": "No se ha encontrado la entrada en el registro",
 	"thanks-error-invalid-log-type": "El tipo de registro «$1» no se encuentra en la lista blanca de tipos permitidos.",
