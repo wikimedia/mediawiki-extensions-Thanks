@@ -37,7 +37,7 @@ class ApiFlowThankIntegrationTest extends ApiTestCase {
 	public function setUp() {
 		parent::setUp();
 
-		if ( !class_exists( 'FlowHooks' ) ) {
+		if ( !ExtensionRegistry::getInstance()->isLoaded( 'Flow' ) ) {
 			$this->markTestSkipped( 'Flow is not installed' );
 		}
 
