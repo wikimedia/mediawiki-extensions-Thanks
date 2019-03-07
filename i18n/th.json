@@ -6,7 +6,8 @@
 			"Pilarbini",
 			"Ans",
 			"Aefgh39622",
-			"B20180"
+			"B20180",
+			"Geonuch"
 		]
 	},
 	"thanks-desc": "เพิ่มลิงก์ขอบคุณผู้ใช้สำหรับการแก้ไข ความคิดเห็น ฯลฯ",
@@ -44,6 +45,7 @@
 	"log-name-thanks": "ปูมการขอบคุณ",
 	"log-description-thanks": "ด้านล่างนี้เป็นรายการผู้ใช้ที่ผู้ใช้อื่นกล่าวขอบคุณ",
 	"logentry-thanks-thank": "$1 ได้{{GENDER:$2|กล่าวขอบคุณ}} {{GENDER:$4|$3}}",
+	"logeventslist-thanks-log": "ปูมขอบคุณ",
 	"thanks-error-no-id-specified": "คุณต้องเจาะจงเลขประจำรุ่นหรือปูมเพื่อส่งคำขอบคุณ",
 	"thanks-confirmation-special-log": "คุณต้องการส่งคำขอบคุณสำหรับการกระทำบันทึกนี้แบบสาธารณะหรือไม่",
 	"thanks-confirmation-special-rev": "คุณต้องการส่งคำขอบคุณสำหรับการแก้ไขนี้แบบสาธารณะหรือไม่",
