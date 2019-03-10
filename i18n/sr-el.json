@@ -4,7 +4,8 @@
 			"Milicevic01",
 			"Srdjan m",
 			"Macofe",
-			"Obsuser"
+			"Obsuser",
+			"Zoranzoki21"
 		]
 	},
 	"thanks-desc": "Dodaje veze za zahvaljivanje korisnicima za njihove izmene, komentare itd.",
@@ -12,6 +13,7 @@
 	"thanks-thanked": "{{GENDER:$1|zahvaljeno}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Zahvali se}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|Zahvalili ste se}}",
+	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|Zahvaljivanje}}}} $1…",
 	"thanks-error-undefined": "Zahvaljivanje nije uspelo (kod greške: $1). Pokušajte ponovo.",
 	"thanks-error-invalidrevision": "ID izmene je pogrešan.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Prekoračili ste}} vaše ograničenje za ocenjivanje. Sačekajte neko vreme i zatim pokušajte ponovo.",
