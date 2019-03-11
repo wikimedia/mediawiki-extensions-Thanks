@@ -398,7 +398,7 @@ class ThanksHooks {
 		// Create thank link either for the revision (if there is an associated revision ID)
 		// or the log entry.
 		$type = $entry->getAssociatedRevId() ? 'revision' : 'log';
-		$id = $entry->getAssociatedRevId() ? $entry->getAssociatedRevId() : $entry->getId();
+		$id = $entry->getAssociatedRevId() ?: $entry->getId();
 		$thankLink = self::generateThankElement( $id, $recipient, $type );
 
 		// Add parentheses to match what's done with Thanks in revision lists and diff displays.
