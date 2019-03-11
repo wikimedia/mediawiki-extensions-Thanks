@@ -53,7 +53,7 @@
 				},
 				// Fail
 				function ( errorCode ) {
-					// If error occured, enable attempting to thank again
+					// If error occurred, enable attempting to thank again
 					$thankLink.data( 'clickDisabled', false );
 					switch ( errorCode ) {
 						case 'invalidrevision':
