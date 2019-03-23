@@ -39,6 +39,8 @@
 	"notification-thanks-diff-link": "din redigering",
 	"notification-header-rev-thank": "$1 {{GENDER:$2|takkede}} {{GENDER:$4|dig}} for din redigering på '''$3'''.",
 	"notification-header-creation-thank": "$1 {{GENDER:$2|takkede}} {{GENDER:$4|dig}} for din oprettelse af <strong>$3</strong>.",
+	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|takkede}} {{GENDER:$3|dig}}.",
+	"notification-bundle-header-rev-thank": "{{PLURAL:$1|En person|$1 personer|100=mere end 99 personer}} takkede {{GENDER:$3|dig}} for din redigering af <strong>$2</strong>.",
 	"log-name-thanks": "Takkelog",
 	"log-description-thanks": "Nedenfor er en liste over brugere, som er blevet takket af andre brugere.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|takkede}} {{GENDER:$4|$3}}",
@@ -46,5 +48,6 @@
 	"notification-link-text-view-post": "Vis kommentar",
 	"notification-flow-thanks-post-link": "din kommentar",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|takkede}} {{GENDER:$5|dig}} for din kommentar i \"<strong>$3</strong>\".",
-	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|takkede}} {{GENDER:$3|dig}}."
+	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|takkede}} {{GENDER:$3|dig}}.",
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|En person|$1 personer|100=mere end 99 personer}} takkede {{GENDER:$3|dig}} for din kommentar i \"<strong>$2</strong>\"."
 }
