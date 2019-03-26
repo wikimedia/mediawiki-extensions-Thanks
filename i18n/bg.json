@@ -9,7 +9,8 @@
 			"Vodnokon4e",
 			"V111P",
 			"ShockD",
-			"Vlad5250"
+			"Vlad5250",
+			"Ted Masters"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|благодарност}}}}",
@@ -19,7 +20,7 @@
 	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|Благодарност към}}}} $1…",
 	"thanks-button-action-cancel": "Отказ",
 	"thanks-thank-tooltip": "С препратката „благодарност“ можете да {{GENDER:$1|изкажете}} на {{GENDER:$2|този потребител|тази потребителка|този потребител}} благодарност за редакцията.",
-	"thanks-thank-tooltip-yes": "Изпратете известие за благодарност",
+	"thanks-thank-tooltip-yes": "{{GENDER:$1|Изпратете}} известие за благодарност",
 	"thanks-confirmation2": "{{GENDER:$1|Ще изпратите ли}} благодарност публично?",
 	"thanks-thanked-notice": "{{GENDER:$3|Вие}} благодарихте на {{GENDER:$2|$1}}.",
 	"thanks": "Изпращане на благодарност",

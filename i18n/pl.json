@@ -18,6 +18,7 @@
 	"thanks-thanked": "{{GENDER:$2|{{GENDER:$1|podziękowałeś|podziękowałaś}}}}",
 	"thanks-button-thank": "{{GENDER:$2|{{GENDER:$1|Podziękuj}}}}",
 	"thanks-button-thanked": "{{GENDER:$2|{{GENDER:$1|Podziękowałeś|Podziękowałaś}}}}",
+	"thanks-button-action-cancel": "Anuluj",
 	"thanks-error-undefined": "Operacja podziękowania nie powiodła się (kod błędu: $1). Proszę spróbować ponownie.",
 	"thanks-error-invalid-log-id": "Nie znaleziono wpisu rejestru",
 	"thanks-error-invalid-log-type": "Rodzaj czynności z rejestru '$1' nie znajduje się na białej liście dozwolonych rodzajów akcji.",

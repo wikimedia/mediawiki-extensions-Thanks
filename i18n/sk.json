@@ -4,7 +4,8 @@
 			"Sudo77(new)",
 			"Teslaton",
 			"Mikulas1",
-			"Macofe"
+			"Macofe",
+			"Robert Važan"
 		]
 	},
 	"thanks-desc": "Pridáva odkazy na poďakovanie do histórie a zobrazenia rozdielov",
@@ -33,6 +34,7 @@
 	"log-name-thanks": "Záznam poďakovaní",
 	"log-description-thanks": "Nižšie je uvedený zoznam redaktorov, ktorým ostatný redaktori poďakovali.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|poďakoval|poďakovala}} {{GENDER:$4|redaktorovi|redaktorke}} $3",
+	"logeventslist-thanks-log": "Kniha poďakovaní",
 	"thanks-error-no-id-specified": "Aby ste {{GENDER:|mohol|mohla|mohli}} poďakovať, musíte zadať ID úpravy.",
 	"notification-link-text-view-post": "Zobraziť komentár",
 	"thanks-error-invalidpostid": "ID komentára nie je platné.",
