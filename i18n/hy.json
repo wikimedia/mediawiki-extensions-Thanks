@@ -6,7 +6,8 @@
 			"Xelgen",
 			"Դավիթ Սարոյան",
 			"Աշոտ1997",
-			"Aram1985"
+			"Aram1985",
+			"Kareyac"
 		]
 	},
 	"thanks-desc": "Ավելացնում է «Շնորհակալ եմ» հղումը էջի պատմության և խմբագրումների տարբերությունների մեջ",
@@ -14,6 +15,7 @@
 	"thanks-thanked": "{{GENDER:$1|մասնակցին շնորհակալություն է հայտնված}}",
 	"thanks-button-thank": "{{GENDER:$1|Շնորհակալություն հայտնել}}",
 	"thanks-button-thanked": "{{GENDER:$1|մասնակցին շնորհակալություն  է հայտնված:}}",
+	"thanks-button-action-cancel": "Չեղարկել",
 	"thanks-error-undefined": "Չստացվեց շնորհակալություն հայտնել։ Փորձեք կրկին։",
 	"thanks-error-invalidrevision": "Խմբագրման համարանիշը վավեր չէ։",
 	"thanks-error-ratelimited": "{{GENDER:$1|Դուք}} շատ եք շնորհակալություն հայտնել։ Սպասեք որոշ ժամանակ և նորից փորձեք։",
@@ -29,7 +31,9 @@
 	"log-name-thanks": "Շնորհակալությունների գրանցամատյան",
 	"log-description-thanks": "Ստորև «շնորհակալություներ» ստացած մասնակիցների ցանկն է։",
 	"logentry-thanks-thank": "$1 մասնակիցը {{GENDER:$2|շնորհակալություն է}} հայտնել {{GENDER:$4|$3}} մասնակցին",
+	"thanks-confirmation-special-rev": "Ուզո՞ւմ եք շնորհակալություն հայտնել այս խմբագրման համար:",
 	"notification-link-text-view-post": "Դիտել մեկնաբանությունը",
 	"flow-thanks-confirmation-special": "Ուզո՞ւմ եք շնորհակալություն հայտնել այս մեկնաբանման համար:",
-	"notification-flow-thanks-post-link": "Ձեր մեկնաբանությունը"
+	"notification-flow-thanks-post-link": "Ձեր մեկնաբանությունը",
+	"notification-compact-header-flow-thank": "$1 մասնակիցը {{GENDER:$2|շնորհակալություն է}} հայտնել {{GENDER:$3|ձեզ}}"
 }
