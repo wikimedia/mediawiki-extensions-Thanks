@@ -6,7 +6,8 @@
 			"Dağlı95",
 			"Wertuose",
 			"Serkanland",
-			"Archaeodontosaurus"
+			"Archaeodontosaurus",
+			"Toghrul Rahimli"
 		]
 	},
 	"thanks-desc": "İstifadəçilərin redaktələrinə, şərhlərinə və s. görə minnətdarlıq üçün keçidləri əlavə edir",
@@ -21,5 +22,8 @@
 	"thanks": "Təşəkkür et",
 	"notification-thanks-diff-link": "redaktəniz",
 	"notification-header-rev-thank": "$1 '''$3''' səhifəsindəki redaktənizə görə {{GENDER:$4|sizə}} {{GENDER:$2|təşəkkür etdi}}.",
+	"notification-header-creation-thank": "$1 <strong>$3</strong> səhifəsini yaratdığınıza görə  sizə {{GENDER:$2|təşəkkür etdi}}.",
+	"notification-header-log-thank": "$1 <strong>$3</strong> səhifəsi ilə əlaqəli etdiyiniz fəaliyyətə görə {{GENDER:$4|sizə}} {{GENDER:$2|təşəkkür etdi}}.",
+	"notification-bundle-header-log-thank": "{{PLURAL:$1|$1 nəfər|$1 nəfər|$1 nəfər|100=99+ nəfər}} <strong>$2</strong> səhifəsi ilə əlaqəli etdiyiniz fəaliyyətə görə {{GENDER:$4|sizə}} təşəkkür etdi..",
 	"logentry-thanks-thank": "$1 {{GENDER:$2}}, {{GENDER:$4|$3}} istifadəçisinə təşəkkür etdi."
 }
