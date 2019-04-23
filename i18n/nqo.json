@@ -2,8 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Lanciné.kounfantoh.fofana",
-			"Babamamadidianee"
+			"Babamamadidianee",
+			"Lancine.kounfantoh.fofana"
 		]
 	},
-	"thanks-thank": "{{ߖߊ߲߬ߕߌ߮:$1|{{ߖߊ߲߬ߕߌ߮:$2|ߌ ߣߌ߫ ߗߋ߫}}}}"
+	"thanks-thank": "{{ߖߊ߲߬ߕߌ߮:$1|{{ߖߊ߲߬ߕߌ߮:$2|ߌ ߣߌ߫ ߗߋ߫}}}}",
+	"thanks-thank-tooltip": "{{ߞߊ߬ߘߌ߬ߛߊ߬:$1|ߗߋ߫}} ߞߎ߲ߟߎ߲ߖߋߟߌ߫ ߗߋߛߓߍ ߗߋ߫ {{ߞߊ߬ߘߌ߬ߛߊ߫$2|ߟߊ߬ߓߊ߰ߙߊ߬ߟߊ}} ߡߊ߬"
 }
