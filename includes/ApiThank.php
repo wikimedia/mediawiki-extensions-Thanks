@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * Base API module for Thanks
  *
@@ -12,10 +14,40 @@ abstract class ApiThank extends ApiBase {
 			$this->dieWithError( 'thanks-error-notloggedin', 'notloggedin' );
 		} elseif ( $user->pingLimiter( 'thanks-notification' ) ) {
 			$this->dieWithError( [ 'thanks-error-ratelimited', $user->getName() ], 'ratelimited' );
-		} elseif ( $user->isBlocked() ) {
-			$this->dieBlocked( $user->getBlock() );
 		} elseif ( $user->isBlockedGlobally() ) {
 			$this->dieBlocked( $user->getGlobalBlock() );
+		}
+	}
+
+	/**
+	 * Check whether the user is blocked from this title. (This is not the same
+	 * as checking whether they are sitewide blocked, because a sitewide blocked
+	 * user may still be allowed to thank on their own talk page.)
+	 *
+	 * This is separate from dieOnBadUser because we need to know the title.
+	 *
+	 * @param User $user
+	 * @param Title $title
+	 */
+	protected function dieOnBlockedUser( User $user, Title $title ) {
+		$permissionManager = MediaWikiServices::getInstance()->getPermissionManager();
+		if ( $permissionManager->isBlockedFrom( $user, $title ) ) {
+			$this->dieBlocked( $user->getBlock() );
+		}
+	}
+
+	/**
+	 * Check whether the user is sitewide blocked.
+	 *
+	 * This is separate from dieOnBlockedUser because we need to know if the thank
+	 * is related to a revision. (If it is, then use dieOnBlockedUser instead.)
+	 *
+	 * @param User $user
+	 */
+	protected function dieOnSitewideBlockedUser( User $user ) {
+		$block = $user->getBlock();
+		if ( $block && $block->isSitewide() ) {
+			$this->dieBlocked( $block );
 		}
 	}
 

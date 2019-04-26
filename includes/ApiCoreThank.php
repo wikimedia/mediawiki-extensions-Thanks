@@ -42,6 +42,8 @@ class ApiCoreThank extends ApiThank {
 				$type = 'rev';
 				$id = $logEntry->getAssociatedRevId();
 			} else {
+				// If there's no associated revision, die if the user is sitewide blocked
+				$this->dieOnSitewideBlockedUser( $user );
 				$excerpt = '';
 				$title = $logEntry->getTarget();
 				$recipient = $this->getUserFromLog( $logEntry );
@@ -52,6 +54,8 @@ class ApiCoreThank extends ApiThank {
 			$revision = $this->getRevisionFromId( $id );
 			$excerpt = EchoDiscussionParser::getEditExcerpt( $revision, $this->getLanguage() );
 			$title = $this->getTitleFromRevision( $revision );
+			$this->dieOnBlockedUser( $user, $title );
+
 			$recipient = $this->getUserFromRevision( $revision );
 			$recipientUsername = $revision->getUser()->getName();
 
