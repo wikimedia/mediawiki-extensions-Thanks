@@ -3,9 +3,10 @@
 		"authors": [
 			"Lanciné.kounfantoh.fofana",
 			"Babamamadidianee",
-			"Lancine.kounfantoh.fofana"
+			"Lancine.kounfantoh.fofana",
+			"Amire80"
 		]
 	},
-	"thanks-thank": "{{ߖߊ߲߬ߕߌ߮:$1|{{ߖߊ߲߬ߕߌ߮:$2|ߌ ߣߌ߫ ߗߋ߫}}}}",
-	"thanks-thank-tooltip": "{{ߞߊ߬ߘߌ߬ߛߊ߬:$1|ߗߋ߫}} ߞߎ߲ߟߎ߲ߖߋߟߌ߫ ߗߋߛߓߍ ߗߋ߫ {{ߞߊ߬ߘߌ߬ߛߊ߫$2|ߟߊ߬ߓߊ߰ߙߊ߬ߟߊ}} ߡߊ߬"
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ߌ ߣߌ߫ ߗߋ߫}}}}",
+	"thanks-thank-tooltip": "{{GENDER:$1|ߗߋ߫}} ߞߎ߲ߟߎ߲ߖߋߟߌ߫ ߗߋߛߓߍ ߗߋ߫ {{GENDER:$2|ߟߊ߬ߓߊ߰ߙߊ߬ߟߊ}} ߡߊ߬"
 }
