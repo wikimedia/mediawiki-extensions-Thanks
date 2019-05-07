@@ -3,6 +3,7 @@ docs
 composer.lock
 vendor
 doc
+.eslintcache
 
 # Editors
 *.kate-swp
