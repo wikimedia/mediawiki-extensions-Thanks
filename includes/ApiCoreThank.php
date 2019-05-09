@@ -1,5 +1,8 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+use MediaWiki\Revision\RevisionRecord;
+
 /**
  * API module to send thanks notifications for revisions and log entries.
  *
@@ -50,10 +53,11 @@ class ApiCoreThank extends ApiThank {
 			$excerpt = EchoDiscussionParser::getEditExcerpt( $revision, $this->getLanguage() );
 			$title = $this->getTitleFromRevision( $revision );
 			$recipient = $this->getUserFromRevision( $revision );
-			$recipientUsername = $revision->getUserText();
+			$recipientUsername = $revision->getUser()->getName();
 
 			// If there is no parent revid of this revision, it's a page creation.
-			if ( !(bool)$revision->getPrevious() ) {
+			$store = MediaWikiServices::getInstance()->getRevisionStore();
+			if ( !(bool)$store->getPreviousRevision( $revision ) ) {
 				$revcreation = true;
 			}
 		}
@@ -92,11 +96,12 @@ class ApiCoreThank extends ApiThank {
 	}
 
 	private function getRevisionFromId( $revId ) {
-		$revision = Revision::newFromId( $revId );
+		$store = MediaWikiServices::getInstance()->getRevisionStore();
+		$revision = $store->getRevisionById( $revId );
 		// Revision ID 1 means an invalid argument was passed in.
 		if ( !$revision || $revision->getId() === 1 ) {
 			$this->dieWithError( 'thanks-error-invalidrevision', 'invalidrevision' );
-		} elseif ( $revision->isDeleted( Revision::DELETED_TEXT ) ) {
+		} elseif ( $revision->isDeleted( RevisionRecord::DELETED_TEXT ) ) {
 			$this->dieWithError( 'thanks-error-revdeleted', 'revdeleted' );
 		}
 		return $revision;
@@ -129,8 +134,8 @@ class ApiCoreThank extends ApiThank {
 		return $logEntry;
 	}
 
-	private function getTitleFromRevision( Revision $revision ) {
-		$title = Title::newFromID( $revision->getPage() );
+	private function getTitleFromRevision( RevisionRecord $revision ) {
+		$title = Title::newFromID( $revision->getPageId() );
 		if ( !$title instanceof Title ) {
 			$this->dieWithError( 'thanks-error-notitle', 'notitle' );
 		}
@@ -150,8 +155,8 @@ class ApiCoreThank extends ApiThank {
 		}
 	}
 
-	private function getUserFromRevision( Revision $revision ) {
-		$recipient = $revision->getUser();
+	private function getUserFromRevision( RevisionRecord $revision ) {
+		$recipient = $revision->getUser()->getId();
 		if ( !$recipient ) {
 			$this->dieWithError( 'thanks-error-invalidrecipient', 'invalidrecipient' );
 		}
