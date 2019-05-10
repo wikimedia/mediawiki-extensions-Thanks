@@ -100,7 +100,8 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 		// Mark our test log entry as deleted.
 		// To do this we briefly switch back to our 'uploader' test user.
 		$this->doLogin( 'uploader' );
-		$wgUser->mRights[] = 'deletelogentry';
+		// XXX: mRights[] = .. will lead to issues due __set magic in User
+		$wgUser->mRights = [ 'read', 'writeapi', 'deletelogentry' ];
 		$this->doApiRequestWithToken( [
 			'action' => 'revisiondelete',
 			'type'   => 'logging',
