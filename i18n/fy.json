@@ -8,6 +8,7 @@
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|betankje}}}}",
 	"thanks-thank-tooltip": "Dizze {{GENDER:$2|meidogger|meidochster}} in betankje {{GENDER:$1|stjoere}}",
+	"echo-category-title-edit-thank": "Betankje",
 	"log-name-thanks": "Betankloch",
 	"logeventslist-thanks-log": "Betankloch"
 }
