@@ -7,7 +7,7 @@
 			if ( mw.thanks.thanked.contains( $thankLink ) ) {
 				$thankLink.before(
 					$( '<span class="mw-thanks-thank-confirmation">' ).text(
-						mw.message( 'thanks-thanked', mw.user, $thankLink.data( 'recipient-gender' ) ).escaped() )
+						mw.msg( 'thanks-thanked', mw.user, $thankLink.data( 'recipient-gender' ) ) )
 				);
 				$thankLink.remove();
 			}

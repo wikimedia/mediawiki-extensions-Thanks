@@ -49,7 +49,7 @@
 		return $button
 			.addClass( 'thanked' )
 			.prop( 'disabled', true )
-			.text( mw.message( 'thanks-button-thanked', mw.user, gender ).text() );
+			.text( mw.msg( 'thanks-button-thanked', mw.user, gender ) );
 	}
 
 	/**
@@ -73,7 +73,7 @@
 			name: 'userTalk',
 			glyphPrefix: 'thanks',
 			hasText: true,
-			label: mw.message( 'thanks-button-thank', mw.user, gender ).text()
+			label: mw.msg( 'thanks-button-thank', mw.user, gender )
 		} ).$el.appendTo( $button );
 
 		// Don't make thank button for self
