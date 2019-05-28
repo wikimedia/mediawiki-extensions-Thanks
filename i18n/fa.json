@@ -19,7 +19,8 @@
 			"4nn1l2",
 			"Mardetanha",
 			"AzorAhai",
-			"Amirsara"
+			"Amirsara",
+			"Iriman"
 		]
 	},
 	"thanks-desc": "پیوندی برای تشکر از کاربران بابت ویرایش‌ها، نظرات و غیره اضافه می‌کند.",
@@ -52,7 +53,7 @@
 	"echo-pref-tooltip-edit-thank": "وقتی کسی از ویرایش‌های من تشکر می‌کند مرا آگاه کن.",
 	"echo-category-title-edit-thank": "تشکرها",
 	"notification-thanks-diff-link": "ویرایش‌تان",
-	"notification-header-rev-thank": "$1 از {{GENDER:$4|شما}}به خاطر ویرایشتان در <strong>$3</strong> {{GENDER:$2|تشکر کرد}}.",
+	"notification-header-rev-thank": "$1 از {{GENDER:$4|شما}} به‌خاطر ویرایشتان در <strong>$3</strong> {{GENDER:$2|تشکر کرد}}.",
 	"notification-header-creation-thank": "$1 از {{GENDER:$4|شما}} به خاطر ایجاد <strong>$3</strong> {{GENDER:$2|تشکر کرد}}.",
 	"notification-header-log-thank": "\n$1 {{GENDER:$2|از شما}} برای عمل مرتبط با <strong>$3</strong> {{GENDER:$4|تشکر کرد}}.",
 	"notification-compact-header-edit-thank": "$1 از {{GENDER:$3|شما}} {{GENDER:$2|تشکر کرد}}.",
