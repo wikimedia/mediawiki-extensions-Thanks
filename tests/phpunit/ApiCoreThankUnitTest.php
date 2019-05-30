@@ -16,13 +16,25 @@ class ApiCoreThankUnitTest extends MediaWikiTestCase {
 		return new ApiCoreThank( new ApiMain(), self::$moduleName );
 	}
 
+	private function createBlock( $options ) {
+		$options = array_merge( [
+			'address' => 'Test user',
+			'by' => 1,
+			'reason' => __METHOD__,
+			'timestamp' => wfTimestamp( TS_MW ),
+			'expiry' => 'infinity',
+		], $options );
+		return new Block( $options );
+	}
+
 	/**
 	 * @dataProvider provideDieOnBadUser
 	 * @covers ApiThank::dieOnBadUser
+	 * @covers ApiThank::dieOnSitewideBlockedUser
 	 */
-	public function testDieOnBadUser( $user, $expectedError ) {
+	public function testDieOnBadUser( $user, $dieMethod, $expectedError ) {
 		$module = $this->getModule();
-		$method = new ReflectionMethod( $module, 'dieOnBadUser' );
+		$method = new ReflectionMethod( $module, $dieMethod );
 		$method->setAccessible( true );
 
 		if ( $expectedError ) {
@@ -42,7 +54,11 @@ class ApiCoreThankUnitTest extends MediaWikiTestCase {
 			->method( 'isAnon' )
 			->will( $this->returnValue( true ) );
 
-		$testCases[ 'anon' ] = [ $mockUser, 'Anonymous users cannot send thanks' ];
+		$testCases[ 'anon' ] = [
+			$mockUser,
+			'dieOnBadUser',
+			'Anonymous users cannot send thanks'
+		];
 
 		$mockUser = $this->getMock( 'User' );
 		$mockUser->expects( $this->once() )
@@ -54,6 +70,7 @@ class ApiCoreThankUnitTest extends MediaWikiTestCase {
 
 		$testCases[ 'ping' ] = [
 			$mockUser,
+			'dieOnBadUser',
 			"You've exceeded your rate limit. Please wait some time and try again"
 		];
 
@@ -65,20 +82,47 @@ class ApiCoreThankUnitTest extends MediaWikiTestCase {
 			->method( 'pingLimiter' )
 			->will( $this->returnValue( false ) );
 		$mockUser->expects( $this->once() )
-			->method( 'isBlocked' )
+			->method( 'isBlockedGlobally' )
 			->will( $this->returnValue( true ) );
 		$mockUser->expects( $this->once() )
-			->method( 'getBlock' )
-			->will( $this->returnValue( new Block( [
-				'address' => 'Test user',
-				'by' => 1,
-				'byText' => 'UTSysop',
-				'reason' => __METHOD__,
-				'timestamp' => wfTimestamp( TS_MW ),
-				'expiry' => 'infinity',
-			] ) ) );
+			->method( 'getGlobalBlock' )
+			->will( $this->returnValue(
+				$this->createBlock( [] )
+			) );
 
-		$testCases[ 'blocked' ] = [ $mockUser, 'You have been blocked from editing' ];
+		$testCases[ 'globally blocked' ] = [
+			$mockUser,
+			'dieOnBadUser',
+			'You have been blocked from editing'
+		];
+
+		$mockUser = $this->getMock( 'User' );
+		$mockUser->expects( $this->once() )
+			->method( 'getBlock' )
+			->will( $this->returnValue(
+				$this->createBlock( [] )
+			) );
+
+		$testCases[ 'sitewide blocked' ] = [
+			$mockUser,
+			'dieOnSitewideBlockedUser',
+			'You have been blocked from editing'
+		];
+
+		$mockUser = $this->getMock( 'User' );
+		$mockUser->expects( $this->once() )
+			->method( 'getBlock' )
+			->will( $this->returnValue(
+				$this->createBlock( [
+					'sitewide' => false
+				] )
+			) );
+
+		$testCases[ 'partial blocked' ] = [
+			$mockUser,
+			'dieOnSitewideBlockedUser',
+			false
+		];
 
 		return $testCases;
 	}

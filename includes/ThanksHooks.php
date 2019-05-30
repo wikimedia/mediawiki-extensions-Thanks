@@ -63,7 +63,7 @@ class ThanksHooks {
 		// prevents thanking diff across multiple revisions)
 		if ( !$user->isAnon()
 			&& $recipientId !== $user->getId()
-			&& !$user->isBlocked()
+			&& !self::isUserBlockedFromTitle( $user, $rev->getTitle() )
 			&& !$user->isBlockedGlobally()
 			&& self::canReceiveThanks( $recipient )
 			&& !$rev->isDeleted( Revision::DELETED_TEXT )
@@ -71,6 +71,18 @@ class ThanksHooks {
 		) {
 			$links[] = self::generateThankElement( $rev->getId(), $recipient );
 		}
+	}
+
+	/**
+	 * Check whether the user is blocked from the title associated with the revision.
+	 *
+	 * @param User $user
+	 * @param Title $title
+	 * @return bool
+	 */
+	private static function isUserBlockedFromTitle( User $user, Title $title ) {
+		return MediaWikiServices::getInstance()->getPermissionManager()
+			->isBlockedFrom( $user, $title );
 	}
 
 	/**
@@ -372,7 +384,11 @@ class ThanksHooks {
 		global $wgUser;
 
 		// Don't thank if anonymous or blocked
-		if ( $wgUser->isAnon() || $wgUser->isBlocked() || $wgUser->isBlockedGlobally() ) {
+		if (
+			$wgUser->isAnon()
+			|| self::isUserBlockedFromTitle( $wgUser, $entry->getTarget() )
+			|| $wgUser->isBlockedGlobally()
+		) {
 			return;
 		}
 
