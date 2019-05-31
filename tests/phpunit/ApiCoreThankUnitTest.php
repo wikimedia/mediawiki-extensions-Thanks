@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\Block\DatabaseBlock;
+
 /**
  * Unit tests for the Thanks API module
  *
@@ -24,7 +26,7 @@ class ApiCoreThankUnitTest extends MediaWikiTestCase {
 			'timestamp' => wfTimestamp( TS_MW ),
 			'expiry' => 'infinity',
 		], $options );
-		return new Block( $options );
+		return new DatabaseBlock( $options );
 	}
 
 	/**
