@@ -7,8 +7,11 @@
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|betankje}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|al betanke}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Betankje}}}}",
 	"thanks-thank-tooltip": "Dizze {{GENDER:$2|meidogger|meidochster}} in betankje {{GENDER:$1|stjoere}}",
-	"echo-category-title-edit-thank": "Betankjes",
+	"thanks-confirmation2": "Publyklik in betankje {{GENDER:$1|stjoere}}?",
+	"echo-category-title-edit-thank": "{{PLURAL:$1|Betankje|Betankjes}}",
 	"log-name-thanks": "Betankloch",
 	"logeventslist-thanks-log": "Betankloch"
 }
