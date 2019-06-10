@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jun Misugi"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ringratzià}}}}",
+	"thanks-thank-tooltip": "{{GENDER:$1|Ringratzià}} kisthu {{GENDER:$2|utenti}}"
+}
