@@ -10,6 +10,8 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|al betanke}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Betankje}}}}",
 	"thanks-thank-tooltip": "Dizze {{GENDER:$2|meidogger|meidochster}} in betankje {{GENDER:$1|stjoere}}",
+	"thanks-thank-tooltip-no": "De betankmelding {{GENDER:$1|annulearje}}",
+	"thanks-thank-tooltip-yes": "De betankmelding {{GENDER:$1|ferstjoere}}",
 	"thanks-confirmation2": "Publyklik in betankje {{GENDER:$1|stjoere}}?",
 	"echo-category-title-edit-thank": "Betankjes",
 	"log-name-thanks": "Betankloch",
