@@ -29,7 +29,9 @@
 	"log-name-thanks": "Archivije de le rengraziaminde",
 	"log-description-thanks": "Sotte stè 'n'elenghe de utinde ca onne rengraziate otre utinde.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|ave ringraziate}} {{GENDER:$4|$3}}",
+	"logeventslist-thanks-log": "Archivije de le rengraziaminde",
 	"notification-link-text-view-post": "'Ndruche 'u commende",
+	"notification-link-text-view-logentry": "'Ndruche le vôsce de l'archivije",
 	"thanks-error-invalidpostid": "ID d'u messàgge jè invalide.",
 	"flow-thanks-confirmation-special": "Vuè ccu manne 'nu grazie pubblecamende pe stu commende?",
 	"notification-flow-thanks-post-link": "'u commende tune"
