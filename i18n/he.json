@@ -5,7 +5,8 @@
 			"Guycn2",
 			"Rotemliss",
 			"ערן",
-			"Macofe"
+			"Macofe",
+			"Steeve815"
 		]
 	},
 	"thanks-desc": "הוספת קישורים לאמירת \"תודה\" למשתמשים על עריכות, הערות, וכו'.",
@@ -15,7 +16,7 @@
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|אמרת תודה}}}}",
 	"thanks-button-action-queued": "שליחת {{GENDER:$2|תודה}} אל $1",
 	"thanks-button-action-cancel": "ביטול",
-	"thanks-button-action-completed": "{{GENDER:$1|שלחת}} תודה למשתמש $1",
+	"thanks-button-action-completed": "{{GENDER:$1|{{GENDER:$2|הודית}}}} למשתמש $1",
 	"thanks-error-undefined": "פעולת תודה נכשלה (קוד שגיאה: $1). נא לנסות שוב.",
 	"thanks-error-invalid-log-id": "פעולת היומן לא נמצאה",
 	"thanks-error-invalid-log-type": "סוג היומן '$1' לא נמצא ברשימה הלבנה של סוגי היומן המותרים.",
