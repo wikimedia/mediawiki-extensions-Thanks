@@ -19,7 +19,8 @@
 			"A2093064",
 			"Phenolla",
 			"Angrydog001",
-			"WQL"
+			"WQL",
+			"神樂坂秀吉"
 		]
 	},
 	"thanks-desc": "添加感谢用户进行编辑、评论等行为的链接。",
@@ -38,7 +39,7 @@
 	"thanks-error-revdeleted": "无法发送感谢，因为修订版本已删除。",
 	"thanks-error-notitle": "页面标题无法取回",
 	"thanks-error-invalidrecipient": "找不到有效的接收者",
-	"thanks-error-invalidrecipient-bot": "机器人不能被感谢",
+	"thanks-error-invalidrecipient-bot": "不能感谢机器人",
 	"thanks-error-invalidrecipient-self": "您不能感谢您自己",
 	"thanks-error-notloggedin": "匿名用户不能发送感谢",
 	"thanks-error-ratelimited": "{{GENDER:$1|您}}已超过您的速率限制。请等待一段时间再试。",
