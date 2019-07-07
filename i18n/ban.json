@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"NoiX180"
+			"NoiX180",
+			"Luh Gede Krismayanti"
 		]
 	},
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|matur suksema}}}}"
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|matur suksema}}}}",
+	"thanks-thank-tooltip": "\n{{GENDER:$1|Kirim}} atur piuning ngaturang suksma majeng ring {GENDER:$2|pangawi}}"
 }
