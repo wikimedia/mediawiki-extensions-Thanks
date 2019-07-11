@@ -383,11 +383,12 @@ class ThanksHooks {
 	) {
 		global $wgUser;
 
-		// Don't thank if anonymous or blocked
+		// Don't thank if anonymous or blocked or if user is deleted from the log entry
 		if (
 			$wgUser->isAnon()
 			|| self::isUserBlockedFromTitle( $wgUser, $entry->getTarget() )
 			|| $wgUser->isBlockedGlobally()
+			|| $entry->isDeleted( LogPage::DELETED_USER )
 		) {
 			return;
 		}
