@@ -23,6 +23,8 @@
 	"thanks-button-action-completed": "Hai {{GENDER:$1|{{GENDER:$2|ringraziato}}}} $1",
 	"thanks-error-undefined": "Errore durante ringraziamento (codice errore: $1). Riprova ancora.",
 	"thanks-error-invalidrevision": "L'ID versione non è valido.",
+	"thanks-error-invalidrecipient-bot": "I bot non possono essere ringraziati",
+	"thanks-error-invalidrecipient-self": "Non puoi ringraziare te stesso",
 	"thanks-error-ratelimited": "{{GENDER:$1|Hai superato}} il limite massimo di ringraziamenti. Aspetta un po' di tempo e riprova.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Invia}} una notifica di ringraziamento a {{GENDER:$2|questo|questa}} utente",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Annulla}} la notifica di ringraziamento",
