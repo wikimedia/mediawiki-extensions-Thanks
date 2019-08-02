@@ -6,9 +6,13 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 
 	public function canRender() {
 		$hasTitle = (bool)$this->event->getTitle();
-		if ( $this->getThankType() === 'log' ) {
+		if ( $hasTitle && $this->getThankType() === 'log' ) {
 			$logEntry = $this->getLogEntry();
-			return $hasTitle && $logEntry && !$logEntry->getDeleted();
+			return $logEntry && !(
+				// the notification renders the message on Special:Log without the comment,
+				// so check $logEntry is not deleted, or only its comment is deleted
+				$logEntry->getDeleted() & ~LogPage::DELETED_COMMENT
+			);
 		}
 		return $hasTitle;
 	}
@@ -61,18 +65,13 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 			return false;
 		}
 
-		$revId = $this->event->getExtraParam( 'revid', false );
-		if ( !$revId ) {
-			return false;
-		}
-
-		$revision = Revision::newFromId( $revId );
+		$revision = $this->event->getRevision();
 		if ( !$revision ) {
 			return false;
 		}
 
 		$summary = $revision->getComment( Revision::RAW );
-		return $summary ?: false;
+		return $summary ? $summary->text : false;
 	}
 
 	/**
@@ -144,10 +143,7 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 		if ( !$logId ) {
 			$this->logEntry = false;
 		} else {
-			$this->logEntry = DatabaseLogEntry::newFromId( $logId, wfGetDB( DB_REPLICA ) );
-			if ( !$this->logEntry ) {
-				$this->logEntry = false;
-			}
+			$this->logEntry = DatabaseLogEntry::newFromId( $logId, wfGetDB( DB_REPLICA ) ) ?: false;
 		}
 		return $this->logEntry;
 	}
