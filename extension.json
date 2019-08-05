@@ -140,13 +140,9 @@
 				"mobile"
 			]
 		},
-		"ext.thanks.jquery.findWithParent": {
-			"scripts": [
-				"jquery.findWithParent.js"
-			]
-		},
 		"ext.thanks.flowthank": {
 			"scripts": [
+				"jquery.findWithParent.js",
 				"ext.thanks.flowthank.js"
 			],
 			"messages": [
@@ -159,7 +155,6 @@
 				"oojs-ui-windows",
 				"mediawiki.jqueryMsg",
 				"mediawiki.api",
-				"ext.thanks.jquery.findWithParent",
 				"ext.thanks"
 			]
 		}
