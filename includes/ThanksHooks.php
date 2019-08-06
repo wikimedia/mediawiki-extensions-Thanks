@@ -69,7 +69,7 @@ class ThanksHooks {
 			&& !$rev->isDeleted( Revision::DELETED_TEXT )
 			&& ( !$oldRev || !$prev || $prev->getId() === $oldRev->getId() )
 		) {
-			$links[] = self::generateThankElement( $rev->getId(), $recipient );
+			$links[] = self::generateThankElement( $rev->getId(), $user, $recipient );
 		}
 	}
 
@@ -109,28 +109,30 @@ class ThanksHooks {
 	 * Helper for self::insertThankLink
 	 * Creates either a thank link or thanked span based on users session
 	 * @param int $id Revision or log ID to generate the thank element for.
+	 * @param User $sender User who sends thanks notification.
 	 * @param User $recipient User who receives thanks notification.
 	 * @param string $type Either 'revision' or 'log'.
 	 * @return string
 	 */
-	protected static function generateThankElement( $id, $recipient, $type = 'revision' ) {
-		global $wgUser;
+	protected static function generateThankElement(
+		$id, User $sender, User $recipient, $type = 'revision'
+	) {
 		// Check if the user has already thanked for this revision or log entry.
 		// Session keys are backwards-compatible, and are also used in the ApiCoreThank class.
 		$sessionKey = ( $type === 'revision' ) ? $id : $type . $id;
-		if ( $wgUser->getRequest()->getSessionData( "thanks-thanked-$sessionKey" ) ) {
+		if ( $sender->getRequest()->getSessionData( "thanks-thanked-$sessionKey" ) ) {
 			return Html::element(
 				'span',
 				[ 'class' => 'mw-thanks-thanked' ],
-				wfMessage( 'thanks-thanked', $wgUser, $recipient->getName() )->text()
+				wfMessage( 'thanks-thanked', $sender->getName(), $recipient->getName() )->text()
 			);
 		}
 
 		$genderCache = MediaWikiServices::getInstance()->getGenderCache();
 		// Add 'thank' link
 		$tooltip = wfMessage( 'thanks-thank-tooltip' )
-				->params( $wgUser->getName(), $recipient->getName() )
-				->text();
+			->params( $sender->getName(), $recipient->getName() )
+			->text();
 
 		$subpage = ( $type === 'revision' ) ? '' : 'Log/';
 		return Html::element(
@@ -142,7 +144,7 @@ class ThanksHooks {
 				'data-' . $type . '-id' => $id,
 				'data-recipient-gender' => $genderCache->getGenderOf( $recipient->getName(), __METHOD__ ),
 			],
-			wfMessage( 'thanks-thank', $wgUser, $recipient->getName() )->text()
+			wfMessage( 'thanks-thank', $sender->getName(), $recipient->getName() )->text()
 		);
 	}
 
@@ -381,14 +383,14 @@ class ThanksHooks {
 	public static function onLogEventsListLineEnding(
 		LogEventsList $page, &$ret, DatabaseLogEntry $entry, &$classes, &$attribs
 	) {
-		global $wgUser;
+		$user = $page->getUser();
 
 		// Don't thank if anonymous or blocked or if user is deleted from the log entry
 		if (
-			$wgUser->isAnon()
-			|| self::isUserBlockedFromTitle( $wgUser, $entry->getTarget() )
-			|| $wgUser->isBlockedGlobally()
+			$user->isAnon()
 			|| $entry->isDeleted( LogPage::DELETED_USER )
+			|| self::isUserBlockedFromTitle( $user, $entry->getTarget() )
+			|| $user->isBlockedGlobally()
 		) {
 			return;
 		}
@@ -406,7 +408,7 @@ class ThanksHooks {
 		// Don't check for deleted revision (this avoids extraneous queries from Special:Log).
 		$recipient = $entry->getPerformer();
 		if ( !$recipient
-			|| $recipient->getId() === $wgUser->getId()
+			|| $recipient->getId() === $user->getId()
 			|| !self::canReceiveThanks( $recipient )
 		) {
 			return;
@@ -416,7 +418,7 @@ class ThanksHooks {
 		// or the log entry.
 		$type = $entry->getAssociatedRevId() ? 'revision' : 'log';
 		$id = $entry->getAssociatedRevId() ?: $entry->getId();
-		$thankLink = self::generateThankElement( $id, $recipient, $type );
+		$thankLink = self::generateThankElement( $id, $user, $recipient, $type );
 
 		// Add parentheses to match what's done with Thanks in revision lists and diff displays.
 		$ret .= ' ' . wfMessage( 'parentheses' )->rawParams( $thankLink )->escaped();
