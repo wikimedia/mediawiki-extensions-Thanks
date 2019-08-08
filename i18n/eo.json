@@ -42,10 +42,12 @@
 	"log-description-thanks": "Sube estas listo de uzantoj al kiuj aliaj uzantoj dankis.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|dankis}} al {{GENDER:$4|$3}}",
 	"logeventslist-thanks-log": "Dankprotokolo",
+	"thanks-confirmation-special-rev": "Ĉu vi volas publike sendi dankon pro ĉi tiu redakto?",
 	"notification-link-text-view-post": "Montri komenton",
 	"notification-link-text-view-logentry": "Vidi protokoleron",
 	"flow-thanks-confirmation-special": "Ĉu vi volas publike sendi dankon pro tiu ĉi komento?",
 	"flow-thanks-thanked-notice": "$1 ricevis vian dankon pro {{GENDER:$2|sia}} komento.",
 	"notification-flow-thanks-post-link": "via komento",
-	"notification-header-flow-thank": "$1 {{GENDER:$2|dankis}} {{GENDER:$5|vin}} pro via komento en «<strong>$3</strong>»."
+	"notification-header-flow-thank": "$1 {{GENDER:$2|dankis}} {{GENDER:$5|vin}} pro via komento en «<strong>$3</strong>».",
+	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|dankis}} {{GENDER:$3|vin}}."
 }
