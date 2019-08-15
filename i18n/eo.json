@@ -18,6 +18,8 @@
 	"thanks-button-action-completed": "Vi {{GENDER:$1|{{GENDER:$2|dankis}}}} la uzanton $1",
 	"thanks-error-undefined": "Danko malsukcesis (erarkodo: $1). Reprovu poste.",
 	"thanks-error-invalid-log-id": "Protokolero ne troviĝis",
+	"thanks-error-invalid-log-type": "Protokoltipo '$1' ne estas en la listo de permesataj protokoltipoj.",
+	"thanks-error-log-deleted": "La petita protokolero estas foriĝinta, kaj vi ne povas danki pro ĝi.",
 	"thanks-error-invalidrevision": "Identigilo de revizio estas nevalida.",
 	"thanks-error-revdeleted": "Ne povas danki pro forigo de la versio.",
 	"thanks-error-notitle": "Paĝa titolo ne troviĝis",
@@ -42,10 +44,14 @@
 	"notification-header-creation-thank": "$1 {{GENDER:$2|dankis}} {{GENDER:$4|vin}} pro via kreado de <strong>$3</strong>.",
 	"notification-header-log-thank": "$1 {{GENDER:$2|dankis}} {{GENDER:$4|vin}} pro via ago pri <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|dankis}} {{GENDER:$3|vin}}.",
+	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Unu homo|$1 homoj|100=99+ homoj}} dankis {{GENDER:$3|vin}} pro via redakto de <strong>$2</strong>.",
+	"notification-bundle-header-log-thank": "{{PLURAL:$1|Unu homo|$1 homoj|100=99+ homoj}} dankis {{GENDER:$3|vin}} pro via ago pri <strong>$2</strong>.",
 	"log-name-thanks": "Protokolo de dankoj",
 	"log-description-thanks": "Sube estas listo de uzantoj al kiuj aliaj uzantoj dankis.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|dankis}} al {{GENDER:$4|$3}}",
 	"logeventslist-thanks-log": "Dankprotokolo",
+	"thanks-error-no-id-specified": "Vi devas specifi numeron de versio aŭ protokolero por danki.",
+	"thanks-confirmation-special-log": "Ĉu vi volas publike sendi dankon pro ĉi tiu protokolago?",
 	"thanks-confirmation-special-rev": "Ĉu vi volas publike sendi dankon pro ĉi tiu redakto?",
 	"notification-link-text-view-post": "Montri komenton",
 	"notification-link-text-view-logentry": "Vidi protokoleron",
@@ -54,5 +60,6 @@
 	"flow-thanks-thanked-notice": "{{GENDER:$3|Vi}} dankis la uzanton $1 pro {{GENDER:$2|lia komento|ŝia komento|komento de tiu uzanto}}.",
 	"notification-flow-thanks-post-link": "via komento",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|dankis}} {{GENDER:$5|vin}} pro via komento en «<strong>$3</strong>».",
-	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|dankis}} {{GENDER:$3|vin}}."
+	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|dankis}} {{GENDER:$3|vin}}.",
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Unu homo|$1 homoj|100=99+ homoj}} dankis {{GENDER:$3|vin}} pro via komento sur <strong>$2</strong>."
 }
