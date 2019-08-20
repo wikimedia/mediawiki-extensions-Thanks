@@ -20,6 +20,8 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|megköszönve}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Köszönet}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Megköszönve}}}}",
+	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|Köszönet küldése}}}} $1 részére...",
+	"thanks-button-action-cancel": "Mégse",
 	"thanks-error-undefined": "A megköszönés sikertelen (hibakód: $1). Kérlek, próbáld meg újra!",
 	"thanks-error-invalid-log-id": "A naplóbejegyzés nem található",
 	"thanks-error-invalid-log-type": "A(z) „$1” naplótípus nem szerepel az engedélyezett naplótípusok listáján.",
