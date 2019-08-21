@@ -2,8 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Krol111",
-			"Przem(1)s"
+			"Przem(1)s",
+			"Uostofchuodnego"
 		]
 	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|podziynkuj}}}}",
 	"thanks-thank-tooltip": "{{GENDER:$1|Poślij}} podziynkowaniy do {{GENDER:$2|tygo używŏcza}}"
 }
