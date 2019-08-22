@@ -7,5 +7,5 @@
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|podziynkuj}}}}",
-	"thanks-thank-tooltip": "{{GENDER:$1|Poślij}} podziynkowaniy do {{GENDER:$2|tygo używŏcza}}"
+	"thanks-thank-tooltip": "{{GENDER:$1|Poślij}} podziynkowanie {{GENDER:$2|tymu używŏczowi|tyj używŏczce}}"
 }
