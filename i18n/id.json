@@ -53,7 +53,7 @@
 	"logeventslist-thanks-log": "Log terima kasih",
 	"thanks-error-no-id-specified": "Anda harus menentukan ID perubahan ataulog untuk mengirimkan ucapan terima kasih.",
 	"thanks-confirmation-special-log": "Apakah Anda ingin mengirimkan ucapan terima kasih publik atas aksi log ini?",
-	"thanks-confirmation-special-rev": "Apakah Anda ingin mengirimkan ucapan terima kasih publik atas suntingan ini?",
+	"thanks-confirmation-special-rev": "Apakah Anda ingin mengirimkan ucapan terima kasih secara publik atas suntingan ini?",
 	"notification-link-text-view-post": "Tampilkan komentar",
 	"notification-link-text-view-logentry": "Tinjau entri log",
 	"thanks-error-invalidpostid": "ID posting tidak sah.",
