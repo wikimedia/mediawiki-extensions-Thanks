@@ -44,7 +44,9 @@ class ThanksHooks {
 
 	/**
 	 * Handler for HistoryRevisionTools and DiffRevisionTools hooks.
-	 * Inserts 'thank' link into revision interface
+	 *
+	 * Insert a 'thank' link into revision interface, if the user is allowed to thank.
+	 *
 	 * @param Revision $rev Revision object to add the thank link for
 	 * @param array &$links Links to add to the revision interface
 	 * @param Revision|null $oldRev Revision object of the "old" revision when viewing a diff
@@ -76,13 +78,16 @@ class ThanksHooks {
 	/**
 	 * Check whether the user is blocked from the title associated with the revision.
 	 *
+	 * This queries the replicas for a block; if 'no block' is incorrectly reported, it
+	 * will be caught by ApiThank::dieOnBlockedUser when the user attempts to thank.
+	 *
 	 * @param User $user
 	 * @param Title $title
 	 * @return bool
 	 */
 	private static function isUserBlockedFromTitle( User $user, Title $title ) {
 		return MediaWikiServices::getInstance()->getPermissionManager()
-			->isBlockedFrom( $user, $title );
+			->isBlockedFrom( $user, $title, true );
 	}
 
 	/**
@@ -370,6 +375,8 @@ class ThanksHooks {
 	}
 
 	/**
+	 * Insert a 'thank' link into the log interface, if the user is allowed to thank.
+	 *
 	 * @link https://www.mediawiki.org/wiki/Manual:Hooks/LogEventsListLineEnding
 	 * @param LogEventsList $page The log events list.
 	 * @param string &$ret The lineending HTML, to modify.
