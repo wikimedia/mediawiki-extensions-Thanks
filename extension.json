@@ -115,9 +115,6 @@
 			"scripts": [
 				"ext.thanks.mobilediff.js"
 			],
-			"styles": [
-				"ext.thanks.mobilediff.css"
-			],
 			"messages": [
 				"thanks-button-action-queued",
 				"thanks-button-action-cancel",
