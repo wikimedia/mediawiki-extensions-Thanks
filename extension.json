@@ -65,7 +65,7 @@
 	"ResourceModules": {
 		"ext.thanks.images": {
 			"class": "ResourceLoaderImageModule",
-			"selector": ".mw-ui-icon-{name}:before",
+			"selector": ".mw-ui-icon-thanks-{name}:before",
 			"defaultColor": "#fff",
 			"images": {
 				"userTalk": {
@@ -127,6 +127,7 @@
 				"thanks-thanked-notice"
 			],
 			"dependencies": [
+				"mobile.startup",
 				"ext.thanks.images",
 				"mediawiki.api",
 				"mediawiki.jqueryMsg",
