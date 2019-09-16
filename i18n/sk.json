@@ -5,7 +5,8 @@
 			"Teslaton",
 			"Mikulas1",
 			"Macofe",
-			"Robert Važan"
+			"Robert Važan",
+			"Luky001"
 		]
 	},
 	"thanks-desc": "Pridáva odkazy na poďakovanie do histórie a zobrazenia rozdielov",
@@ -28,6 +29,7 @@
 	"echo-category-title-edit-thank": "poďakovanie",
 	"notification-thanks-diff-link": "vašu úpravu",
 	"notification-header-rev-thank": "$1 {{GENDER:$4|vám}} {{GENDER:$2|poďakoval|poďakovala}} za úpravu stránky '''$3'''.",
+	"notification-header-creation-thank": "$1 {{GENDER:$4|vám}} {{GENDER:$2|poďakoval|poďakovala}} za vytvorenie stránky <strong>$3</strong>.",
 	"notification-header-log-thank": "$1 {{GENDER:$4|vám}} {{GENDER:$2|poďakoval|poďakovala}} za vašu akciu súvisiacu so stránkou <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$3|vám}} {{GENDER:$2|poďakoval|poďakovala|poďakoval(a)}}.",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Jeden človek|$1 ľudia|$1 ľudí|100=Viac než 99 ľudí}} {{GENDER:$3|vám}} {{PLURAL:$1|poďakoval|poďakovali|poďakovalo}} za vašu úpravu stránky <strong>$2</strong>.",
