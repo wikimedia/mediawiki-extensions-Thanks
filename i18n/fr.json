@@ -29,7 +29,7 @@
 		]
 	},
 	"thanks-desc": "Ajoute des liens pour remercier les utilisateurs pour des modifications, des commentaires, etc.",
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|remercier}}}}",
+	"thanks-thank": "{{GENDER:$1|}}remercier{{GENDER:$2|}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|remercié|remerciée|remercié(e)}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Remercier}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Remercié|Remerciée|Remercié(e)}}}}",
@@ -49,7 +49,7 @@
 	"thanks-error-notloggedin": "Les utilisateurs anonymes ne peuvent pas envoyer de merci",
 	"thanks-error-ratelimited": "{{GENDER:$1|Vous}} avez dépassé votre limite de débit. Veuillez attendre un peu et réessayer.",
 	"thanks-error-api-params": "Il faut fournir soit le paramètre 'revid', soit 'logid'",
-	"thanks-thank-tooltip": "{{GENDER:$1|Envoyer}} une notification de remerciement à {{GENDER:$2|cet utilisateur|cette utilisatrice}}",
+	"thanks-thank-tooltip": "{{GENDER:$1|}}Envoyer une notification de remerciement à cet{{GENDER:$2||te}} utilisat{{GENDER:$2|eur|rice}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Annuler}} les remerciements",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Envoyer}} les remerciements",
 	"thanks-confirmation2": "{{GENDER:$1|Envoyer}} publiquement des remerciements ?",
