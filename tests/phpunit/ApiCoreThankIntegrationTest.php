@@ -24,7 +24,7 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 	 */
 	protected $logId;
 
-	public function setUp() {
+	public function setUp() : void {
 		parent::setUp();
 
 		// You can't thank yourself, kind of hacky but just use this other user

@@ -34,7 +34,7 @@ class ApiFlowThankIntegrationTest extends ApiTestCase {
 	/** @var PostRevision */
 	public $postByMe;
 
-	public function setUp() {
+	public function setUp() : void {
 		parent::setUp();
 
 		if ( !ExtensionRegistry::getInstance()->isLoaded( 'Flow' ) ) {
