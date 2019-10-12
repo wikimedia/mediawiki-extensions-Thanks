@@ -40,7 +40,8 @@ class ApiCoreThankUnitTest extends MediaWikiTestCase {
 		$method->setAccessible( true );
 
 		if ( $expectedError ) {
-			$this->setExpectedException( 'ApiUsageException', $expectedError );
+			$this->expectException( ApiUsageException::class );
+			$this->expectExceptionMessage( $expectedError );
 		}
 
 		$method->invoke( $module, $user );

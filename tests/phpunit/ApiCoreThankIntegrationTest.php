@@ -57,7 +57,8 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 	}
 
 	public function testRequestWithoutToken() {
-		$this->setExpectedException( 'ApiUsageException', 'The "token" parameter must be set.' );
+		$this->expectException( ApiUsageException::class );
+		$this->expectExceptionMessage( 'The "token" parameter must be set.' );
 		$this->doApiRequest( [
 			'action' => 'thank',
 			'source' => 'someSource',
@@ -84,10 +85,9 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 	public function testLogRequestWithDisallowedLogType() {
 		// Empty the log-type whitelist.
 		$this->setMwGlobals( [ 'wgThanksLogTypeWhitelist' => [] ] );
-		$this->setExpectedException(
-			ApiUsageException::class,
-			"Log type 'delete' is not in the whitelist of permitted log types."
-		);
+		$this->expectException( ApiUsageException::class );
+		$this->expectExceptionMessage(
+			"Log type 'delete' is not in the whitelist of permitted log types." );
 		$this->doApiRequestWithToken( [
 			'action' => 'thank',
 			'log' => $this->logId,
@@ -111,10 +111,9 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 		$this->doLogin( 'sysop' );
 
 		// Then try to thank for it, and we should get an exception.
-		$this->setExpectedException(
-			ApiUsageException::class,
-			"The requested log entry has been deleted and thanks cannot be given for it."
-		);
+		$this->expectException( ApiUsageException::class );
+		$this->expectExceptionMessage(
+			"The requested log entry has been deleted and thanks cannot be given for it." );
 		$this->doApiRequestWithToken( [
 			'action' => 'thank',
 			'log' => $this->logId,
@@ -140,7 +139,7 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 	}
 
 	public function testInvalidRequest() {
-		$this->setExpectedException( 'ApiUsageException' );
+		$this->expectException( ApiUsageException::class );
 		$this->doApiRequestWithToken( [ 'action' => 'thank' ] );
 	}
 
