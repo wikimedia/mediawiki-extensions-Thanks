@@ -52,7 +52,7 @@ class ApiCoreThankUnitTest extends MediaWikiTestCase {
 	public function provideDieOnBadUser() {
 		$testCases = [];
 
-		$mockUser = $this->getMock( 'User' );
+		$mockUser = $this->createMock( 'User' );
 		$mockUser->expects( $this->once() )
 			->method( 'isAnon' )
 			->will( $this->returnValue( true ) );
@@ -63,7 +63,7 @@ class ApiCoreThankUnitTest extends MediaWikiTestCase {
 			'Anonymous users cannot send thanks'
 		];
 
-		$mockUser = $this->getMock( 'User' );
+		$mockUser = $this->createMock( 'User' );
 		$mockUser->expects( $this->once() )
 			->method( 'isAnon' )
 			->will( $this->returnValue( false ) );
@@ -77,7 +77,7 @@ class ApiCoreThankUnitTest extends MediaWikiTestCase {
 			"You've exceeded your rate limit. Please wait some time and try again"
 		];
 
-		$mockUser = $this->getMock( 'User' );
+		$mockUser = $this->createMock( 'User' );
 		$mockUser->expects( $this->once() )
 			->method( 'isAnon' )
 			->will( $this->returnValue( false ) );
@@ -99,7 +99,7 @@ class ApiCoreThankUnitTest extends MediaWikiTestCase {
 			'You have been blocked from editing'
 		];
 
-		$mockUser = $this->getMock( 'User' );
+		$mockUser = $this->createMock( 'User' );
 		$mockUser->expects( $this->once() )
 			->method( 'getBlock' )
 			->will( $this->returnValue(
@@ -112,7 +112,7 @@ class ApiCoreThankUnitTest extends MediaWikiTestCase {
 			'You have been blocked from editing'
 		];
 
-		$mockUser = $this->getMock( 'User' );
+		$mockUser = $this->createMock( 'User' );
 		$mockUser->expects( $this->once() )
 			->method( 'getBlock' )
 			->will( $this->returnValue(
