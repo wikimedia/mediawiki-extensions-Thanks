@@ -27,6 +27,7 @@
 	"log-name-thanks": "Баркаллийн тептар",
 	"log-description-thanks": "Кхечу декъашхоша баркалла аьлла болу декъашхой чохь болу тептар.",
 	"logentry-thanks-thank": "{{GENDER:$4|декъашхочуна}} $3 $1 {{GENDER:$2|баркалла аьла}}",
+	"logeventslist-thanks-log": "Баркаллийн тептар",
 	"thanks-error-no-id-specified": "Баркалла дӀадахьийта нисдаран ID билгаляккха еза.",
 	"notification-link-text-view-post": "Хьажа къамеле",
 	"thanks-error-invalidpostid": "Хааман магийна доцу ID.",

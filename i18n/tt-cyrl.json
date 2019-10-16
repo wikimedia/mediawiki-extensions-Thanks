@@ -3,14 +3,22 @@
 		"authors": [
 			"Ilnur efende",
 			"Derslek",
-			"Ильнар"
+			"Ильнар",
+			"Ерней"
 		]
 	},
+	"thanks-desc": "Кулланучыларга төзәтмәләр, шәрехләр һ.б. өчен рәхмәт әйтергә сылтамаларны өсти",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|рәхмәт әйтү}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|рәхмәт әйтелде}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Рәхмәт әйтү}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Рәхмәт әйтелде}}}}",
+	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|Рәхмәт әйтелә}}}} $1…",
+	"thanks-button-action-cancel": "Кире алу",
+	"thanks-button-action-completed": "Сез  $1 кулланучыга {{GENDER:$1|{{GENDER:$2|рәхмәт әйтегез}}}}",
 	"thanks-thank-tooltip": "{{GENDER:$2|Кулланучыга}} рәхмәт хаты {{GENDER:$1|җибәрү}}",
-	"thanks-confirmation2": "Әлеге төзәтмә өчен рәхмәт {{GENDER:$1|әйтергәме}}?",
+	"thanks-confirmation2": "Халык алдында рәхмәт {{GENDER:$1|әйтергәме}}?",
 	"thanks": "Рәхмәт әйтү",
 	"echo-category-title-edit-thank": "Рәхмәтләр",
-	"notification-header-rev-thank": "$1 {{GENDER:$4|сезгә}} <strong>$3</strong> битендә ясаган кертемегез өчен {{GENDER:$2|рәхмәт әйтте}}."
+	"notification-header-rev-thank": "$1 {{GENDER:$4|сезгә}} <strong>$3</strong> битендә ясаган кертемегез өчен {{GENDER:$2|рәхмәт әйтте}}.",
+	"log-name-thanks": "Рәхмәт әйтү көндәлеге"
 }
