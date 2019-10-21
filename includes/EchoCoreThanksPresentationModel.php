@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\Revision\RevisionRecord;
+
 class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 	/** @var LogEntry|bool|null */
 	private $logEntry;
@@ -61,7 +63,7 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 	}
 
 	private function getRevisionEditSummary() {
-		if ( !$this->userCan( Revision::DELETED_COMMENT ) ) {
+		if ( !$this->userCan( RevisionRecord::DELETED_COMMENT ) ) {
 			return false;
 		}
 
@@ -70,7 +72,7 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 			return false;
 		}
 
-		$summary = $revision->getComment( Revision::RAW );
+		$summary = $revision->getComment( RevisionRecord::RAW );
 		return $summary ? $summary->text : false;
 	}
 
@@ -98,7 +100,7 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 				return $summary;
 			}
 			// Fallback on edit excerpt.
-			if ( $this->userCan( Revision::DELETED_TEXT ) ) {
+			if ( $this->userCan( RevisionRecord::DELETED_TEXT ) ) {
 				return $this->event->getExtraParam( 'excerpt', false );
 			}
 		}
