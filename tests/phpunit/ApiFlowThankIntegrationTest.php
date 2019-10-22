@@ -3,6 +3,7 @@
 use Flow\Model\AbstractRevision;
 use Flow\Model\PostRevision;
 use Flow\Model\UUID;
+use Flow\Model\Workflow;
 
 /**
  * Integration tests for the Thanks Flow api module
@@ -89,7 +90,7 @@ class ApiFlowThankIntegrationTest extends ApiTestCase {
 				}
 			) );
 
-		$mockWorkflow = $this->getMock( '\Flow\Model\Workflow' );
+		$mockWorkflow = $this->createMock( Workflow::class );
 		$mockWorkflow->expects( $this->any() )
 			->method( 'getOwnerTitle' )
 			->will( $this->returnValue( new Title() ) );
