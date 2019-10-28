@@ -13,12 +13,16 @@
 			"Ted Masters"
 		]
 	},
+	"thanks-desc": "Добавя препратки за благодарност на потребители за редакции, коментари и т.н.",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|благодарност}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|изказана благодарност}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Благодарност}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Изказана благодарност}}}}",
 	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|Благодарност към}}}} $1…",
 	"thanks-button-action-cancel": "Отказ",
+	"thanks-button-action-completed": "{{GENDER:$1|{{GENDER:$2|Изказахте благодарност на}}}} $1",
+	"thanks-error-undefined": "Изказването на благодарност се провали (код на грешката: $1). Моля, опитайте отново.",
+	"thanks-error-invalid-log-id": "Записът в дневника не беше открит",
 	"thanks-thank-tooltip": "С препратката „благодарност“ можете да {{GENDER:$1|изкажете}} на {{GENDER:$2|този потребител|тази потребителка|този потребител}} благодарност за редакцията.",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Изпращане}} на известие за благодарност",
 	"thanks-confirmation2": "{{GENDER:$1|Ще изпратите ли}} благодарност публично?",
@@ -40,6 +44,7 @@
 	"thanks-confirmation-special-rev": "Искате ли да благодарите публично за тази редакция?",
 	"notification-link-text-view-post": "Виж коментар",
 	"flow-thanks-confirmation-special": "Искате ли публично да благодарите за този коментар?",
+	"notification-flow-thanks-post-link": "вашия коментар",
 	"notification-header-flow-thank": "$1 {{GENDER:$5|ви}} {{GENDER:$2|благодари}} за коментара в „<strong>$3</strong>“.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|Ви}} {{GENDER:$2|благодари}}."
 }
