@@ -15,10 +15,13 @@
 	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|Рәхмәт әйтелә}}}} $1…",
 	"thanks-button-action-cancel": "Кире алу",
 	"thanks-button-action-completed": "Сез  $1 кулланучыга {{GENDER:$1|{{GENDER:$2|рәхмәт әйтегез}}}}",
-	"thanks-thank-tooltip": "{{GENDER:$2|Кулланучыга}} рәхмәт хаты {{GENDER:$1|җибәрү}}",
+	"thanks-thank-tooltip": "Бу {{GENDER:$2|кулланучыга}} рәхмәт хаты {{GENDER:$1|җибәрү}}",
 	"thanks-confirmation2": "Халык алдында рәхмәт {{GENDER:$1|әйтергәме}}?",
-	"thanks": "Рәхмәт әйтү",
+	"thanks": "Рәхмәт белдерү",
+	"thanks-submit": "Рәхмәт белдерү",
 	"echo-category-title-edit-thank": "Рәхмәтләр",
+	"notification-thanks-diff-link": "төзәтмәгез",
 	"notification-header-rev-thank": "$1 {{GENDER:$4|сезгә}} <strong>$3</strong> битендә ясаган кертемегез өчен {{GENDER:$2|рәхмәт әйтте}}.",
-	"log-name-thanks": "Рәхмәт әйтү көндәлеге"
+	"log-name-thanks": "Рәхмәт әйтү көндәлеге",
+	"logeventslist-thanks-log": "Рәхмәт әйтү көндәлеге"
 }
