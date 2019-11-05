@@ -78,6 +78,7 @@ class ApiFlowThank extends ApiThank {
 	 */
 	private function getFlowData( UUID $postId ) {
 		$rootPostLoader = Container::get( 'loader.root_post' );
+		'@phan-var \Flow\Repository\RootPostLoader $rootPostLoader';
 
 		try {
 			$data = $rootPostLoader->getWithRoot( $postId );
