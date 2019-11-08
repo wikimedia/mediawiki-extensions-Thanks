@@ -56,7 +56,7 @@
 	"logentry-thanks-thank": "$1 {{GENDER:$2|изпрати благодарност на}} {{GENDER:$4|$3}}",
 	"logeventslist-thanks-log": "Дневник на благодарностите",
 	"thanks-error-no-id-specified": "Трябва да укажете версия или номер на запис в дневника, за да изпратите благодарност.",
-	"thanks-confirmation-special-log": "Искате ли публично да благодарите за това действия от дневника?",
+	"thanks-confirmation-special-log": "Искате ли публично да благодарите за това действие в дневника?",
 	"thanks-confirmation-special-rev": "Искате ли да благодарите публично за тази редакция?",
 	"notification-link-text-view-post": "Виж коментар",
 	"notification-link-text-view-logentry": "Преглед на запис от дневника",
