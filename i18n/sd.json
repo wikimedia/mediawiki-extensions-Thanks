@@ -36,7 +36,7 @@
 	"notification-thanks-diff-link": "توھانجي سنوار",
 	"notification-header-rev-thank": "$1 {{GENDER:$4|توھان کي}} <strong>$3</strong>\nتي توھان جي سنوار لاءِ {{GENDER:$2|مھرباني چئي}}.",
 	"notification-header-creation-thank": "$1 {{GENDER:$4|توھان}} کي <strong>$3</strong> کي سرجڻ لاءِ {{GENDER:$2|مھرباني چيو}}.",
-	"notification-header-log-thank": "$1 {{GENDER:$4|توھان}} کي <strong>$3</strong> سان لاڳاپيل عمل لاءِ {{GENDER:$4|مھرباني چئي}}.",
+	"notification-header-log-thank": "$1 {{GENDER:$4|توھان}} کي <strong>$3</strong> سان لاڳاپيل عمل لاءِ {{GENDER:$2|مھرباني چئي}}.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$3|توھان کي}} {{GENDER:$2|مھرباني چئي}}.",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|ھڪ شخص|$1 ماڻھن|100=99+ ماڻھن}} {{GENDER:$3|توھان}} کي <strong>$2</strong> تي سنوار لاءِ مھرباني چئي.",
 	"notification-bundle-header-log-thank": "{{PLURAL:$1|ھڪ شخص|$1 ماڻھن|100=99+ ماڻھن}} {{GENDER:$3|توھان}} کي <strong>$2</strong> سان لاڳاپيل عمل لاءِ مھرباني چئي.",
