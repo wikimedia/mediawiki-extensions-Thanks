@@ -99,7 +99,7 @@ class ThanksHooks {
 	protected static function canReceiveThanks( User $user ) {
 		global $wgThanksSendToBots;
 
-		if ( $user->isAnon() ) {
+		if ( $user->isAnon() || $user->isSystemUser() ) {
 			return false;
 		}
 
