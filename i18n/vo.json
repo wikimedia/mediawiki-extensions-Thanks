@@ -4,7 +4,7 @@
 			"Malafaya"
 		]
 	},
-	"thanks-thank": "danön",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|danön}}}}",
 	"thanks-thanked": "{{GENDER:$1|pedanon}}",
 	"thanks-button-thank": "{{GENDER:$1|Danön}}",
 	"thanks-button-thanked": "{{GENDER:$1|Pedanon}}",
