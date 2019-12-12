@@ -95,7 +95,7 @@
 		}
 
 		function queueThanks( $btn ) {
-			var $msg = $( '<div class="mw-thanks-notification">' ).text(
+			var $msg = $( '<div>' ).addClass( 'mw-thanks-notification' ).text(
 				mw.msg( 'thanks-button-action-queued', name, gender )
 			);
 			$( '<a>' ).text( mw.msg( 'thanks-button-action-cancel' ) ).appendTo( $msg );
@@ -115,6 +115,7 @@
 		return $button.on( 'click', function () {
 			var $this = $( this );
 			$this.prop( 'disabled', true );
+			// eslint-disable-next-line no-jquery/no-class-state
 			if ( !$this.hasClass( 'thanked' ) && !timeout ) {
 				queueThanks( $this );
 			}

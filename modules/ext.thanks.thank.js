@@ -26,12 +26,7 @@
 			},
 
 			contains: function ( $thankLink ) {
-				// $.inArray returns the index position or -1 if non-existant
-				if ( $.inArray( $thankLink.attr( this.attrName ), this.load() ) !== -1 ) {
-					return true;
-				} else {
-					return false;
-				}
+				return this.load().indexOf( $thankLink.attr( this.attrName ) ) !== -1;
 			}
 		},
 

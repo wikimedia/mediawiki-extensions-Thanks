@@ -1,7 +1,7 @@
 ( function () {
 	'use strict';
 
-	var $thankedLabel = $( '<span></span>' )
+	var $thankedLabel = $( '<span>' )
 		.addClass( 'mw-thanks-flow-thanked mw-ui-quiet' );
 
 	mw.thanks.thanked.cookieName = 'flow-thanked';

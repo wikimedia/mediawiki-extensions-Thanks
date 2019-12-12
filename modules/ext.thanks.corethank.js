@@ -6,7 +6,7 @@
 			var $thankLink = $( el );
 			if ( mw.thanks.thanked.contains( $thankLink ) ) {
 				$thankLink.before(
-					$( '<span class="mw-thanks-thank-confirmation">' ).text(
+					$( '<span>' ).addClass( 'mw-thanks-thank-confirmation' ).text(
 						mw.msg( 'thanks-thanked', mw.user, $thankLink.data( 'recipient-gender' ) ) )
 				);
 				$thankLink.remove();
@@ -100,7 +100,7 @@
 				} );
 			} );
 		} else {
-			$thankLinks.click( function ( e ) {
+			$thankLinks.on( 'click', function ( e ) {
 				var $thankLink = $( this );
 				e.preventDefault();
 				sendThanks( $thankLink, $thankLink );

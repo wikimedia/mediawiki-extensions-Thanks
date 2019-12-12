@@ -1,15 +1,15 @@
 {
 	"root": true,
-	"extends": "wikimedia",
-	"env": {
-		"browser": true
-	},
+	"extends": [
+		"wikimedia/client",
+		"wikimedia/jquery",
+		"wikimedia/mediawiki"
+	],
 	"globals": {
-		"mw": false,
-		"$": false,
 		"OO": false
 	},
 	"rules": {
-		"max-len": "off"
+		"max-len": "off",
+		"no-jquery/no-global-selector": "off"
 	}
 }
