@@ -44,7 +44,7 @@
 	"log-description-thanks": "Zemāk ir saraksts ar lietotājiem, kuriem citi lietotāji ir pateikušies.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|pateicās}} {{GENDER:$4|$3}}",
 	"logeventslist-thanks-log": "Pateicību žurnāls",
-	"thanks-error-no-id-specified": "Tev jānorāda versijas ID, lai nosūtītu pateicību.",
+	"thanks-error-no-id-specified": "Tev jānorāda versijas vai žurnāla ieraksta ID, lai nosūtītu pateicību.",
 	"thanks-confirmation-special-log": "Vai vēlies publiski nosūtīt pateicību par šo žurnāla darbību?",
 	"thanks-confirmation-special-rev": "Vai vēlies publiski nosūtīt pateicību par šo labojumu?",
 	"notification-link-text-view-post": "Skatīt komentāru",
