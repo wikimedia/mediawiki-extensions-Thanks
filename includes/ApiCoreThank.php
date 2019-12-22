@@ -13,6 +13,7 @@ class ApiCoreThank extends ApiThank {
 
 	/**
 	 * Perform the API request.
+	 * @suppress PhanTypeMismatchArgumentNullable T240141
 	 */
 	public function execute() {
 		// Initial setup.
@@ -135,6 +136,7 @@ class ApiCoreThank extends ApiThank {
 			$this->dieWithError( 'thanks-error-log-deleted', 'thanks-error-log-deleted' );
 		}
 
+		// @phan-suppress-next-line PhanTypeMismatchReturnNullable T240141
 		return $logEntry;
 	}
 
@@ -159,6 +161,10 @@ class ApiCoreThank extends ApiThank {
 		}
 	}
 
+	/**
+	 * @param RevisionRecord $revision
+	 * @return User
+	 */
 	private function getUserFromRevision( RevisionRecord $revision ) {
 		$recipient = $revision->getUser()->getId();
 		if ( !$recipient ) {
@@ -167,11 +173,16 @@ class ApiCoreThank extends ApiThank {
 		return User::newFromId( $recipient );
 	}
 
+	/**
+	 * @param LogEntry $logEntry
+	 * @return User
+	 */
 	private function getUserFromLog( LogEntry $logEntry ) {
 		$recipient = $logEntry->getPerformer();
 		if ( !$recipient ) {
 			$this->dieWithError( 'thanks-error-invalidrecipient', 'invalidrecipient' );
 		}
+		// @phan-suppress-next-line PhanTypeMismatchReturnNullable T240141
 		return $recipient;
 	}
 

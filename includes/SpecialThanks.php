@@ -11,7 +11,7 @@ class SpecialThanks extends FormSpecialPage {
 	/**
 	 * 'rev' for revision, 'log' for log entry, or 'flow' for Flow comment,
 	 * null if no ID is specified
-	 * @var string $type
+	 * @var string|null $type
 	 */
 	protected $type;
 

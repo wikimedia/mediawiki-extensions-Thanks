@@ -126,7 +126,7 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 	}
 
 	public function getSecondaryLinks() {
-		$pageLink = $this->getPageLink( $this->event->getTitle(), null, true );
+		$pageLink = $this->getPageLink( $this->event->getTitle(), '', true );
 		if ( $this->isBundled() ) {
 			return [ $pageLink ];
 		} else {
