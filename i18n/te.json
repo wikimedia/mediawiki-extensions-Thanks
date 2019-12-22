@@ -6,11 +6,12 @@
 			"Visdaviva",
 			"రహ్మానుద్దీన్",
 			"Kiranmayee",
-			"Naidugari Jayanna"
+			"Naidugari Jayanna",
+			"Chaduvari"
 		]
 	},
 	"thanks-desc": "చరిత్ర మరియు తేడా వీక్షణాలకు వాడుకరులకు ధన్యవాదములు తెలుపు లంకెలను జత చేస్తుంది",
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ధన్యవాదాలు}}}}",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ధన్యవాదాలు పంపండి}}}}",
 	"thanks-thanked": "{{GENDER:$1|అభినందించారు}}",
 	"thanks-error-undefined": "కృతజ్ఞతల చర్య విఫలమైంది. దయచేసి మళ్ళీ ప్రయత్నించండి.",
 	"thanks-error-invalidrevision": "కూర్పుల ID చెల్లదు",
