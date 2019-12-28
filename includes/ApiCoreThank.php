@@ -91,7 +91,7 @@ class ApiCoreThank extends ApiThank {
 	 * @param int $id The revision or log ID.
 	 * @return bool
 	 */
-	protected function 	userAlreadySentThanks( User $user, $type, $id ) {
+	protected function userAlreadySentThanks( User $user, $type, $id ) {
 		if ( $type === 'rev' ) {
 			// For b/c with old-style keys
 			$type = '';
