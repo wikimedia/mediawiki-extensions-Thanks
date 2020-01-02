@@ -8,7 +8,9 @@ use CategoryPage;
 use ConfigException;
 use DatabaseLogEntry;
 use DifferenceEngine;
+use EchoAttributeManager;
 use EchoEvent;
+use EchoUserLocator;
 use ExtensionRegistry;
 use Html;
 use ImagePage;
@@ -273,6 +275,12 @@ class Hooks {
 				'web' => true,
 				'expandable' => true,
 			],
+			EchoAttributeManager::ATTR_LOCATORS => [
+				[
+					[ EchoUserLocator::class, 'locateFromEventExtra' ],
+					[ 'thanked-user-id' ]
+				],
+			],
 		];
 
 		if ( ExtensionRegistry::getInstance()->isLoaded( 'Flow' ) ) {
@@ -285,6 +293,12 @@ class Hooks {
 					'web' => true,
 					'expandable' => true,
 				],
+				EchoAttributeManager::ATTR_LOCATORS => [
+					[
+						[ EchoUserLocator::class, 'locateFromEventExtra' ],
+						[ 'thanked-user-id' ]
+					],
+				],
 			];
 		}
 
@@ -294,26 +308,6 @@ class Hooks {
 				'rtl' => 'Thanks/modules/userTalk-constructive-rtl.svg'
 			]
 		];
-	}
-
-	/**
-	 * Add user to be notified on echo event
-	 * @param EchoEvent $event
-	 * @param User[] &$users The user list to add to.
-	 */
-	public static function onEchoGetDefaultNotifiedUsers( $event, &$users ) {
-		switch ( $event->getType() ) {
-			case 'edit-thank':
-			case 'flow-thank':
-				$extra = $event->getExtra();
-				if ( !$extra || !isset( $extra['thanked-user-id'] ) ) {
-					break;
-				}
-				$recipientId = $extra['thanked-user-id'];
-				$recipient = User::newFromId( $recipientId );
-				$users[$recipientId] = $recipient;
-				break;
-		}
 	}
 
 	/**

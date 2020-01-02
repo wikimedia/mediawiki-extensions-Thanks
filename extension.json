@@ -184,7 +184,6 @@
 		"DiffTools": "MediaWiki\\Extension\\Thanks\\Hooks::onDiffTools",
 		"DifferenceEngineViewHeader": "MediaWiki\\Extension\\Thanks\\Hooks::onDifferenceEngineViewHeader",
 		"EchoGetBundleRules": "MediaWiki\\Extension\\Thanks\\Hooks::onEchoGetBundleRules",
-		"EchoGetDefaultNotifiedUsers": "MediaWiki\\Extension\\Thanks\\Hooks::onEchoGetDefaultNotifiedUsers",
 		"GetAllBlockActions": "MediaWiki\\Extension\\Thanks\\Hooks::onGetAllBlockActions",
 		"GetLogTypesOnUser": "MediaWiki\\Extension\\Thanks\\Hooks::onGetLogTypesOnUser",
 		"HistoryTools": "MediaWiki\\Extension\\Thanks\\Hooks::onHistoryTools",
