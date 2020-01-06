@@ -21,6 +21,7 @@
 	"thanks-thanked-notice": "$1 etdiyi dəyişikliyə görə sizin təşəkkürünüzü aldı.",
 	"thanks": "Təşəkkür et",
 	"echo-pref-tooltip-edit-thank": "Etdiyim redaktəyə görə təşəkkür edildikdə mənə bildiriş göndər.",
+	"echo-category-title-edit-thank": "Təşəkkürlər",
 	"notification-thanks-diff-link": "redaktəniz",
 	"notification-header-rev-thank": "$1 '''$3''' səhifəsindəki redaktənizə görə {{GENDER:$4|sizə}} {{GENDER:$2|təşəkkür etdi}}.",
 	"notification-header-creation-thank": "$1 <strong>$3</strong> səhifəsini yaratdığınıza görə  sizə {{GENDER:$2|təşəkkür etdi}}.",

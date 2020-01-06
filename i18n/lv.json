@@ -26,6 +26,7 @@
 	"thanks-error-invalidrecipient-self": "Tu nevari pateikties sev",
 	"thanks-error-notloggedin": "Anonīmi dalībnieki nevar sūtīt pateicības",
 	"thanks-error-ratelimited": "{{GENDER:$1|Tu esi pārsniedzis|Tu esi pārsniegusi}} skaita ierobežojumu. Lūdzu, uzgaidi un mēģini vēlreiz.",
+	"thanks-error-api-params": "Jānorāda vai nu 'revid', vai arī 'logid' parametrs",
 	"thanks-thank-tooltip": "{{GENDER:$1|Nosūtīt}} pateicības ziņojumu {{GENDER:$2|šim dalībniekam|šai dalībniecei}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Atcelt}} pateicības paziņojumu",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Nosūtīt}} pateicības paziņojumu",
