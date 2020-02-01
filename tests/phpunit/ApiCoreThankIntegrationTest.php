@@ -95,21 +95,25 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 	}
 
 	public function testLogThanksForADeletedLogEntry() {
-		global $wgUser;
+		$this->mergeMwGlobalArrayValue( 'wgGroupPermissions', [
+			'logdeleter' => [
+				'read' => true,
+				'writeapi' => true,
+				'deletelogentry' => true
+			]
+		] );
 
 		// Mark our test log entry as deleted.
-		// To do this we briefly switch back to our 'uploader' test user.
-		$this->doLogin( 'uploader' );
-		// XXX: mRights[] = .. will lead to issues due __set magic in User
-		$wgUser->mRights = [ 'read', 'writeapi', 'deletelogentry' ];
+		// To do this we briefly switch to a different test user.
+		$logdeleter = $this->getTestUser( [ 'logdeleter' ] )->getUser();
 		$this->doApiRequestWithToken( [
 			'action' => 'revisiondelete',
 			'type'   => 'logging',
 			'ids'    => $this->logId,
 			'hide'   => 'content',
-		] );
-		$this->doLogin( 'sysop' );
+		], null, $logdeleter );
 
+		$sysop = $this->getTestSysop()->getUser();
 		// Then try to thank for it, and we should get an exception.
 		$this->expectException( ApiUsageException::class );
 		$this->expectExceptionMessage(
@@ -117,7 +121,7 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 		$this->doApiRequestWithToken( [
 			'action' => 'thank',
 			'log' => $this->logId,
-		] );
+		], null, $sysop );
 	}
 
 	public function testValidRequestWithSource() {
