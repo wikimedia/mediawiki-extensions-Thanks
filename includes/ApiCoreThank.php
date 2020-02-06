@@ -14,6 +14,7 @@ class ApiCoreThank extends ApiThank {
 	/**
 	 * Perform the API request.
 	 * @suppress PhanTypeMismatchArgumentNullable T240141
+	 * @suppress PhanPossiblyUndeclaredVariable Phan get's confused by the badly arranged code
 	 */
 	public function execute() {
 		// Initial setup.
@@ -33,6 +34,7 @@ class ApiCoreThank extends ApiThank {
 			$id = $params['log'];
 		} else {
 			$this->dieWithError( 'thanks-error-api-params', 'thanks-error-api-params' );
+			throw new LogicException();
 		}
 
 		// Determine thanks parameters.
