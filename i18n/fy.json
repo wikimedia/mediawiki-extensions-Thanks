@@ -13,6 +13,7 @@
 	"thanks-thank-tooltip-no": "De betankmelding {{GENDER:$1|annulearje}}",
 	"thanks-thank-tooltip-yes": "De betankmelding {{GENDER:$1|ferstjoere}}",
 	"thanks-confirmation2": "Publyklik in betankje {{GENDER:$1|stjoere}}?",
+	"echo-pref-tooltip-edit-thank": "Meld my wannear't immen my betanket foar in bewurking dy't ik dien haw.",
 	"echo-category-title-edit-thank": "Betankjes",
 	"log-name-thanks": "Betankloch",
 	"logeventslist-thanks-log": "Betankloch"

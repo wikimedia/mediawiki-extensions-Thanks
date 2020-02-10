@@ -18,7 +18,9 @@
 			"Patio",
 			"Mbch331",
 			"KlaasZ4usV",
-			"Elroy"
+			"Elroy",
+			"Klaas van Buiten",
+			"PiefPafPier"
 		]
 	},
 	"thanks-desc": "Voegt koppelingen toe voor het bedanken van gebruikers voor bewerkingen, reacties, enzovoort.",
@@ -50,7 +52,7 @@
 	"thanks": "Bedanken",
 	"thanks-submit": "Bedankje sturen",
 	"echo-pref-subscription-edit-thank": "als iemand u bedankt voor een bewerking",
-	"echo-pref-tooltip-edit-thank": "Informeer mij wanneer iemand mij bedankt voor een bewerking van mij.",
+	"echo-pref-tooltip-edit-thank": "Meld mij wanneer iemand mij bedankt voor een bewerking die ik gedaan heb.",
 	"echo-category-title-edit-thank": "Bedankjes",
 	"notification-thanks-diff-link": "uw bewerking",
 	"notification-header-rev-thank": "$1 {{GENDER:$2|heeft}} {{GENDER:$4|u}} bedankt voor uw bewerking op <strong>$3</strong>.",
