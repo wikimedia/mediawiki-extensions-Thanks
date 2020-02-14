@@ -12,7 +12,8 @@
 			"Purodha",
 			"J. 'mach' wust",
 			"Predatorix",
-			"Geitost"
+			"Geitost",
+			"Luke081515"
 		]
 	},
 	"thanks-desc": "Stellt Links zum Bedanken bei Benutzern für Bearbeitungen, Kommentare und Ähnliches zur Verfügung",
@@ -22,7 +23,7 @@
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Bedankt}}}}",
 	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|Bedanken}}}} bei $1 …",
 	"thanks-button-action-cancel": "Abbrechen",
-	"thanks-button-action-completed": "Du {{GENDER:$1|{{GENDER:$2|danktest}}}} $1",
+	"thanks-button-action-completed": "Du hast $1 {{GENDER:$1|{{GENDER:$2|gedankt}}}}",
 	"thanks-error-undefined": "Bedanken fehlgeschlagen (Fehlercode: $1). Bitte erneut versuchen.",
 	"thanks-error-invalid-log-id": "Logbucheintrag nicht gefunden",
 	"thanks-error-invalid-log-type": "Der Logbuchtyp „$1“ ist nicht in der weißen Liste der erlaubten Logbuchtypen.",
