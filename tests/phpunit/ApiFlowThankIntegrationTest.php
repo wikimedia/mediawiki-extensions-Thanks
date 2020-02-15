@@ -120,7 +120,6 @@ class ApiFlowThankIntegrationTest extends ApiTestCase {
 		$container[ 'storage' ] = $mockStorage;
 		$container[ 'templating' ] = $mockTemplating;
 
-		$this->doLogin( 'sysop' );
 		\DeferredUpdates::clearPendingUpdates();
 	}
 

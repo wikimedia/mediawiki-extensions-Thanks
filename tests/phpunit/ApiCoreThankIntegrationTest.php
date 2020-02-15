@@ -20,6 +20,11 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 	private $revId;
 
 	/**
+	 * @var User filled in setUp
+	 */
+	private $uploader;
+
+	/**
 	 * @var int The ID of a deletion log entry.
 	 */
 	protected $logId;
@@ -27,8 +32,8 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 	public function setUp() : void {
 		parent::setUp();
 
-		// You can't thank yourself, kind of hacky but just use this other user
-		$this->doLogin( 'uploader' );
+		$this->uploader = $this->getTestUser( [ 'uploader' ] )->getUser();
+		$user = $this->uploader;
 
 		$pageName = __CLASS__;
 		$content = __CLASS__;
@@ -36,9 +41,10 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 		// If the page already exists, delete it, otherwise our edit will not result in a new revision
 		if ( $pageTitle->exists() ) {
 			$wikiPage = WikiPage::factory( $pageTitle );
-			$wikiPage->doDeleteArticleReal( '' );
+			$error = ''; // passed by reference
+			$wikiPage->doDeleteArticleReal( '', false, null, null, $error, $user );
 		}
-		$result = $this->editPage( $pageName, $content );
+		$result = $this->editPage( $pageName, $content, 'Summary', NS_MAIN, $user );
 		/** @var Status $result */
 		$result = $result->getValue();
 		/** @var Revision $revision */
@@ -48,11 +54,25 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 		// Create a 2nd page and delete it, so we can thank for the log entry.
 		$pageToDeleteTitle = Title::newFromText( 'Page to delete' );
 		$pageToDelete = WikiPage::factory( $pageToDeleteTitle );
-		$pageToDelete->doEditContent( ContentHandler::makeContent( '', $pageToDeleteTitle ), '' );
-		$deleteStatus = $pageToDelete->doDeleteArticleReal( '' );
+		$pageToDelete->doEditContent(
+			ContentHandler::makeContent( '', $pageToDeleteTitle ),
+			'',
+			0,
+			false,
+			$user
+		);
+
+		$error = ''; // passed by reference
+		$deleteStatus = $pageToDelete->doDeleteArticleReal(
+			'',
+			false,
+			null,
+			null,
+			$error,
+			$user
+		);
 		$this->logId = $deleteStatus->getValue();
 
-		$this->doLogin( 'sysop' );
 		DeferredUpdates::clearPendingUpdates();
 	}
 
@@ -63,14 +83,14 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 			'action' => 'thank',
 			'source' => 'someSource',
 			'rev' => 1,
-		] );
+		], null, false, $this->getTestSysop()->getUser() );
 	}
 
 	public function testValidRevRequest() {
 		list( $result,, ) = $this->doApiRequestWithToken( [
 			'action' => 'thank',
 			'rev' => $this->revId,
-		] );
+		], null, $this->getTestSysop()->getUser() );
 		$this->assertSuccess( $result );
 	}
 
@@ -78,7 +98,7 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 		list( $result,, ) = $this->doApiRequestWithToken( [
 			'action' => 'thank',
 			'log' => $this->logId,
-		] );
+		], null, $this->getTestSysop()->getUser() );
 		$this->assertSuccess( $result );
 	}
 
@@ -91,7 +111,7 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 		$this->doApiRequestWithToken( [
 			'action' => 'thank',
 			'log' => $this->logId,
-		] );
+		], null, $this->getTestSysop()->getUser() );
 	}
 
 	public function testLogThanksForADeletedLogEntry() {
@@ -129,7 +149,7 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 			'action' => 'thank',
 			'source' => 'someSource',
 			'rev' => $this->revId,
-		] );
+		], null, $this->getTestSysop()->getUser() );
 		$this->assertSuccess( $result );
 	}
 
@@ -137,7 +157,7 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 		$this->assertEquals( [
 			'result' => [
 				'success' => 1,
-				'recipient' => self::$users['uploader']->getUser()->getName(),
+				'recipient' => $this->uploader->getName(),
 			],
 		], $result );
 	}
