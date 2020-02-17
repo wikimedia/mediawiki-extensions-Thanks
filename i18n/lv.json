@@ -18,6 +18,8 @@
 	"thanks-button-action-completed": "Tu {{GENDER:$1|{{GENDER:$2|pateicies}}}} $1",
 	"thanks-error-undefined": "Pateicības darbība neizdevās (kļūdas kods: $1). Lūdzu, mēģini vēlreiz.",
 	"thanks-error-invalid-log-id": "Žurnāla ieraksts nav atrasts",
+	"thanks-error-invalid-log-type": "Žurnāla ieraksta veids '$1' nav atļauto veidu sarakstā.",
+	"thanks-error-log-deleted": "Pieprasītais žurnāla ieraksts ir dzēsts un par to nevar pateikties.",
 	"thanks-error-invalidrevision": "Versijas ID ir nederīgs.",
 	"thanks-error-revdeleted": "Neizdevās nosūtīt pateicību, jo versija ir tikusi izdzēsta.",
 	"thanks-error-notitle": "Nevarēja iegūt lapas nosaukumu",
