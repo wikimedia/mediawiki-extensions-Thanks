@@ -11,7 +11,7 @@
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Merci soen}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Merci gesot}}}}",
 	"thanks-button-action-cancel": "Ofbriechen",
-	"thanks-error-undefined": "'Merci soen' huet net funktionéiert (Feelercode: $1). Probéiert w.e.g. nach eng Kéier.",
+	"thanks-error-undefined": "'Merci soen' huet net funktionéiert (Feelercode: $1). Probéiert wgl. nach eng Kéier.",
 	"thanks-error-invalidrevision": "Versiounsnummer (ID) ass net valabel.",
 	"thanks-error-revdeleted": "Merci konnt net geschéckt ginn, wëll d'Versioun geläscht gouf.",
 	"thanks-error-notitle": "Säitentitel konnt net ofgeruff ginn",
