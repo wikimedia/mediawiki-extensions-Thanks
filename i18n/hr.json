@@ -6,7 +6,8 @@
 			"Teoo3",
 			"Srdjan m",
 			"Macofe",
-			"Bugoslav"
+			"Bugoslav",
+			"Neptune, the Mystic"
 		]
 	},
 	"thanks-desc": "Dodaje poveznice za zahvaljivanje suradnicima na njihovim uređivanjima, komentarima itd.",
@@ -42,7 +43,7 @@
 	"echo-category-title-edit-thank": "Zahvala",
 	"notification-thanks-diff-link": "vaše uređivanje",
 	"notification-header-rev-thank": "$1 {{GENDER:$2|zahvalio|zahvalila}} je za {{GENDER:$4|Vaše}} uređivanje na stranici <strong>$3</strong>.",
-	"notification-header-creation-thank": "$1 {{GENDER:$2|zahvalio|zahvalila}} {{GENDER:$4|Vam}} je za stvaranje stranice <strong>$3</strong>.",
+	"notification-header-creation-thank": "$1 {{GENDER:$2|zahvalio|zahvalila}} {{GENDER:$4|Vam}} je na stvaranju stranice <strong>$3</strong>.",
 	"notification-header-log-thank": "$1 {{GENDER:$2|zahvalio|zahvalila}} {{GENDER:$4|Vam}} je za Vašu radnju vezanu uz stranicu <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$3|Vam}} je {{GENDER:$2|zahvalio|zahvalila}}.",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Jedna osoba poslala Vam je zahvalu|$1 osobe poslale su Vam zahvalu|$1 osoba poslale su Vam zahvalu|100=>&thinsp;Sto i više osoba Vam zahvaljuje}} za {{GENDER:$3|Vaše}} uređivanje na stranici <strong>$2</strong>.",
