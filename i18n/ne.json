@@ -5,7 +5,8 @@
 			"Nirjal stha",
 			"NehalDaveND",
 			"राम प्रसाद जोशी",
-			"सरोज कुमार ढकाल"
+			"सरोज कुमार ढकाल",
+			"हिमाल सुबेदी"
 		]
 	},
 	"thanks-desc": "प्रयोगकर्ताहरूलाई तिनीहरूको सम्पादन, टिप्पणी आदिको लागि धन्यवाद दिने लिङ्क जोड्ने।",
@@ -25,6 +26,7 @@
 	"echo-category-title-edit-thank": "धन्यवाद",
 	"notification-thanks-diff-link": "तपाईंको सम्पादन",
 	"notification-header-rev-thank": "$1 ले {{GENDER:$4|तपाईंलाई}} तपाईंको सम्पादन <strong>$3</strong> को लागि {{GENDER:$2|धन्यवाद दिएका छन्}} ।",
+	"notification-header-creation-thank": "$1 {{GENDER:$2|धन्यवाद}} {{GENDER:$4|तपाईकाे}} सृजनाका लागि <strong>$3</strong> छ।",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|एक व्यक्ति|$1 व्यक्तिहरू|100=99+ व्यक्तिहरू}}ले {{GENDER:$3|तपाईंलाई}} <strong>$2</strong>मा तपाईंले गरेको सम्पादनको लागि धन्यवाद दिएका छन् ।",
 	"log-name-thanks": "धन्यवाद लग",
 	"log-description-thanks": "अन्य प्रयोगकर्ताहरूद्वारा धन्यवाद पाउने प्रयोगकर्ताहरूको सूची निम्न रहेको छ।",
