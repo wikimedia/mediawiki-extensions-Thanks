@@ -167,11 +167,11 @@ class ThanksHooks {
 	/**
 	 * Handler for PageHistoryBeforeList hook.
 	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/PageHistoryBeforeList
-	 * @param WikiPage|Article|ImagePage|CategoryPage|Page &$page The page for which the history
-	 *   is loading.
+	 *
+	 * @param WikiPage|Article|ImagePage|CategoryPage $page Not used
 	 * @param RequestContext $context RequestContext object
 	 */
-	public static function onPageHistoryBeforeList( &$page, $context ) {
+	public static function onPageHistoryBeforeList( $page, $context ) {
 		if ( $context->getUser()->isLoggedIn() ) {
 			static::addThanksModule( $context->getOutput() );
 		}
