@@ -93,10 +93,10 @@ class ApiFlowThankIntegrationTest extends ApiTestCase {
 		$mockWorkflow = $this->createMock( Workflow::class );
 		$mockWorkflow->expects( $this->any() )
 			->method( 'getOwnerTitle' )
-			->will( $this->returnValue( new Title() ) );
+			->willReturn( $this->createMock( Title::class ) );
 		$mockWorkflow->expects( $this->any() )
 			->method( 'getArticleTitle' )
-			->will( $this->returnValue( new Title() ) );
+			->willReturn( $this->createMock( Title::class ) );
 
 		$mockStorage = $this->getMockBuilder( '\Flow\Data\ManagerGroup' )
 			->disableOriginalConstructor()
