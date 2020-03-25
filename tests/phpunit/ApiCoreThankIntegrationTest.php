@@ -41,8 +41,12 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 		// If the page already exists, delete it, otherwise our edit will not result in a new revision
 		if ( $pageTitle->exists() ) {
 			$wikiPage = WikiPage::factory( $pageTitle );
-			$error = ''; // passed by reference
-			$wikiPage->doDeleteArticleReal( '', false, null, null, $error, $user );
+			if ( version_compare( MW_VERSION, '1.35', '<' ) ) {
+				$error = ''; // passed by reference
+				$wikiPage->doDeleteArticleReal( '', false, null, null, $error, $user );
+			} else {
+				$wikiPage->doDeleteArticleReal( '', $user );
+			}
 		}
 		$result = $this->editPage( $pageName, $content, 'Summary', NS_MAIN, $user );
 		/** @var Status $result */
@@ -62,15 +66,20 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 			$user
 		);
 
-		$error = ''; // passed by reference
-		$deleteStatus = $pageToDelete->doDeleteArticleReal(
-			'',
-			false,
-			null,
-			null,
-			$error,
-			$user
-		);
+		if ( version_compare( MW_VERSION, '1.35', '<' ) ) {
+			$error = ''; // passed by reference
+			$deleteStatus = $pageToDelete->doDeleteArticleReal(
+				'',
+				false,
+				null,
+				null,
+				$error,
+				$user
+			);
+		} else {
+			$deleteStatus = $pageToDelete->doDeleteArticleReal( '', $user );
+		}
+
 		$this->logId = $deleteStatus->getValue();
 
 		DeferredUpdates::clearPendingUpdates();
