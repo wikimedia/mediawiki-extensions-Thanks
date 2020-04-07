@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"VASANTH S.N.",
-			"రహ్మానుద్దీన్",
-			"Vishwanatha Badikana",
 			"BHARATHESHA ALASANDEMAJALU",
 			"Kiranpoojary",
-			"Ravi Mundkur"
+			"Ravi Mundkur",
+			"VASANTH S.N.",
+			"Vishwanatha Badikana",
+			"రహ్మానుద్దీన్"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ಸೊಲ್ಮೆಲು}}}}",

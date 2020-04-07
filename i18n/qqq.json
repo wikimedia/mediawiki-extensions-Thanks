@@ -2,19 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
+			"Djiboun",
+			"Liuxinyu970226",
+			"Mar(c)",
+			"Nemo bis",
 			"Nike",
 			"Pxos",
 			"Raymond",
+			"Robby",
 			"Shirayuki",
 			"Siebrand",
+			"Toghrul Rahimli",
 			"Umherirrender",
-			"Liuxinyu970226",
-			"Djiboun",
-			"Nemo bis",
-			"Verdy p",
-			"Mar(c)",
-			"Robby",
-			"Toghrul Rahimli"
+			"Verdy p"
 		]
 	},
 	"thanks-desc": "{{desc|name=Thanks|url=https://www.mediawiki.org/wiki/Extension:Thanks}}",

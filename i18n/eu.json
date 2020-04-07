@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xabier Armendaritz",
-			"Subi",
-			"Sator",
 			"Macofe",
-			"Mikel Ibaiba"
+			"Mikel Ibaiba",
+			"Sator",
+			"Subi",
+			"Xabier Armendaritz"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|eskertu}}}}",

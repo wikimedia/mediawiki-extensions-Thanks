@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Marine-Blue",
-			"Afaz"
+			"Afaz",
+			"Marine-Blue"
 		]
 	},
 	"apihelp-flowthank-description": "以下のコメントに対して感謝の通知（記録は公開されます）を送信する。",

@@ -1,14 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Littledogboy",
-			"Mormegil",
-			"Matěj Suchánek",
-			"Macofe",
 			"Dvorapa",
-			"Tchoř",
 			"Ilimanaq29",
-			"Martin Urbanec"
+			"Littledogboy",
+			"Macofe",
+			"Martin Urbanec",
+			"Matěj Suchánek",
+			"Mormegil",
+			"Tchoř"
 		]
 	},
 	"thanks-desc": "Přidává odkazy pro poděkování uživatelům za editace, komentáře apod.",

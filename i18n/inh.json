@@ -2,8 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Adam-Yourist",
-			"Tusholi",
-			"ElizaMag"
+			"ElizaMag",
+			"Tusholi"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|баркал áла}}}}",

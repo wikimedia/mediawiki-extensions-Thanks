@@ -2,10 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Elisardojm",
+			"Iváns",
 			"Macofe",
-			"Navhy",
-			"Toliño",
-			"Iváns"
+			"Toliño"
 		]
 	},
 	"apihelp-flowthank-description": "Enviar unha notificación pública de agradecemento por un comentario en Flow.",

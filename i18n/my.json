@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ninjastrikers",
-			"Dr Lotus Black"
+			"Dr Lotus Black",
+			"Ninjastrikers"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ကျေးဇူးတင်}}}}",

@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Alp Er Tunqa",
 			"Amir a57",
-			"Koroğlu",
-			"Mousa",
 			"Ilğım",
-			"Alp Er Tunqa"
+			"Koroğlu",
+			"Mousa"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|تشکور}}}}",

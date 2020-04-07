@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sionnach",
 			"Akerbeltz",
-			"Caoimhin"
+			"Caoimhin",
+			"Sionnach"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|thoir taing}}}}",

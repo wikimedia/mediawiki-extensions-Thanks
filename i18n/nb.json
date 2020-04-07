@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"AnB",
+			"Chameleon222",
 			"Danmichaelo",
 			"Jeblad",
-			"Njardarlogar",
-			"Chameleon222",
-			"Macofe",
 			"Jon Harald Søby",
-			"AnB"
+			"Macofe",
+			"Njardarlogar"
 		]
 	},
 	"thanks-desc": "Legger til lenker for å takke brukere for redigeringer, kommentarer, etc.",

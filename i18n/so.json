@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abdullahi",
 			"Abshirdheere",
-			"Macofe",
-			"Abdullahi"
+			"Macofe"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|mahadsanid}}}}",

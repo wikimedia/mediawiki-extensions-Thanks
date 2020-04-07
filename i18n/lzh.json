@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"SolidBlock",
-			"Itsmine"
+			"Itsmine",
+			"SolidBlock"
 		]
 	},
 	"thanks-thank-tooltip": "{{GENDER:$1|致謝}}{{GENDER:$2|於彼}}",

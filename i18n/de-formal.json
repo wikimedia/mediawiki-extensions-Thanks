@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kghbln",
-			"Geitost"
+			"Geitost",
+			"Kghbln"
 		]
 	},
 	"thanks-error-ratelimited": "{{GENDER:$1|Sie}} haben Ihr Aktionslimit überschritten. Bitte warten Sie etwas und versuchen Sie es erneut.",

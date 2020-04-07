@@ -2,9 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Antonytse",
+			"CRCHF",
 			"William915",
-			"Yueman",
-			"CRCHF"
+			"Yueman"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|多謝}}}}",

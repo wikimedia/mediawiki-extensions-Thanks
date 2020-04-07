@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rajemian",
-			"Azniv Stepanian"
+			"Azniv Stepanian",
+			"Rajemian"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|շնորհակալութիւն}}}}",

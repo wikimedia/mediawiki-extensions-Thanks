@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Translatealcd",
-			"Hitaypayan"
+			"Hitaypayan",
+			"Translatealcd"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|gmnhway}}}}",
