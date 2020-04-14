@@ -57,7 +57,7 @@
 	"notification-compact-header-edit-thank": "$1{{GENDER:$2|已感謝}}{{GENDER:$3|您}}。",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|有$1位|100=有99+位}}對於{{GENDER:$3|您}}在 <strong>$2</strong> 所作出的編輯表示感謝。",
 	"notification-bundle-header-log-thank": "{{PLURAL:$1|有 $1 位|100=有超過 99 位}}對於{{GENDER:$3|您}}向「<strong>$2</strong>」所作出的相關操作表示感謝。",
-	"log-name-thanks": "感謝紀錄",
+	"log-name-thanks": "感謝日誌",
 	"log-description-thanks": "以下是得到其他人表示感謝的使用者清單。",
 	"logentry-thanks-thank": "$1{{GENDER:$2|已感謝}}{{GENDER:$4|$3}}",
 	"logeventslist-thanks-log": "感謝日誌",
