@@ -281,11 +281,16 @@ class ThanksHooks {
 	public static function onBeforeSpecialMobileDiffDisplay( &$output, $ctx, $revisions ) {
 		$rev = $revisions[1];
 
+		if ( $rev && $rev instanceof Revision ) {
+			$rev = $rev->getRevisionRecord();
+		}
+
 		// If the MobileFrontend extension is installed and the user is
 		// logged in or recipient is not a bot if bots cannot receive thanks, show a 'Thank' link.
 		if ( $rev
 			&& ExtensionRegistry::getInstance()->isLoaded( 'MobileFrontend' )
-			&& self::canReceiveThanks( User::newFromId( $rev->getUser() ) )
+			&& $rev->getUser()
+			&& self::canReceiveThanks( User::newFromIdentity( $rev->getUser() ) )
 			&& $output->getUser()->isLoggedIn()
 		) {
 			$output->addModules( [ 'ext.thanks.mobilediff' ] );
