@@ -1,6 +1,6 @@
 <?php
 
-class EchoFlowThanksPresentationModel extends Flow\FlowPresentationModel {
+class EchoFlowThanksPresentationModel extends Flow\Notifications\FlowPresentationModel {
 	public function canRender() {
 		return (bool)$this->event->getTitle();
 	}
