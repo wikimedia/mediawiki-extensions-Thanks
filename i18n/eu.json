@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Joseba",
 			"Macofe",
 			"Mikel Ibaiba",
 			"Sator",
@@ -12,7 +13,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|eskertuta}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Eskertu}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Eskertuta}}}}",
-	"thanks-error-undefined": "Ekertzeak akats egin du. Saiatu berriro mesedez.",
+	"thanks-error-undefined": "Ekertzeko ekintzak huts egin du (errorearen kodea: $1). Saiatu berriro mesedez.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Bidali}} eskertze mezua {{GENDER:$2|lankide}} honi",
 	"thanks-confirmation2": "Eskerrak {{GENDER:$1|bidali}} edizio honengatik?",
 	"thanks-thanked-notice": "$1 {{GENDER:$2|wikilariari}} eskerrak eman {{GENDER:$3|dizkiozu}}.",
