@@ -130,8 +130,7 @@
 				"mobile.startup",
 				"ext.thanks.images",
 				"mediawiki.api",
-				"mediawiki.jqueryMsg",
-				"mediawiki.notify"
+				"mediawiki.jqueryMsg"
 			],
 			"targets": [
 				"desktop",
