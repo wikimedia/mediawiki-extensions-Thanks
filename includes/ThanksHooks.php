@@ -398,7 +398,8 @@ class ThanksHooks {
 		$logTypeWhitelist = MediaWikiServices::getInstance()
 			->getMainConfig()
 			->get( 'ThanksLogTypeWhitelist' );
-		if ( !in_array( $entry->getType(), $logTypeWhitelist ) ) {
+		if ( !in_array( $entry->getType(), $logTypeWhitelist )
+			&& !in_array( $entry->getType() . '/' . $entry->getSubtype(), $logTypeWhitelist ) ) {
 			return;
 		}
 
