@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Giromin Cangiaxo"
+			"Giromin Cangiaxo",
+			"S4b1nuz E.656"
 		]
 	},
 	"thanks-desc": "A l'azonze un ingancio pe ringrassiâ i utenti pe de modiffiche, di commenti, ecc.",
@@ -42,10 +43,10 @@
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|o|a}{{GENDER:$3|t'}}}ha ringrassiou.",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|'Na person-a a t'ha|$1 person-e t'han|100=Ciù de 99 person-e t'han}} {{GENDER:$3|ringrassiou|ringrassiâ|ringrassiou/â}} pe-a to modiffica sciu <strong>$2</strong>.",
 	"notification-bundle-header-log-thank": "{{PLURAL:$1|'Na person-a a t'ha|$1 person-e t'han|100=Ciù de 99 person-e t'han}} {{GENDER:$3|ringrassiou|ringrassiâ|ringrassiou/â}} pe-a to assion sciu <strong>$2</strong>.",
-	"log-name-thanks": "Registro di ringrassiamenti",
+	"log-name-thanks": "Ringrassiamenti",
 	"log-description-thanks": "De sotta gh'è 'na lista d'utenti ringrassiæ da di atri utenti.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|ha ringrassiou}} {{GENDER:$4|$3}}",
-	"logeventslist-thanks-log": "Registro di ringrassiamenti",
+	"logeventslist-thanks-log": "Ringrassiamenti",
 	"thanks-error-no-id-specified": "Pe ringrassiâ ti g'hæ da specificâ 'na verscion ò 'n ID de registro.",
 	"thanks-confirmation-special-log": "Ti voeu ringrassiâ pubricamente pe questa assion do registro?",
 	"thanks-confirmation-special-rev": "Ti voeu ringrassiâ pubricamente pe questa modiffica?",
