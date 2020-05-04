@@ -1,6 +1,8 @@
 <?php
 
+use MediaWiki\Linker\LinkTarget;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Revision\RevisionRecord;
 
 /**
  * Hooks for Thanks extension
@@ -21,9 +23,21 @@ class ThanksHooks {
 	 * @param User $user The user performing the thanks.
 	 */
 	public static function insertThankLink( $rev, &$links, $oldRev, User $user ) {
-		$recipientId = $rev->getUser();
-		$recipient = User::newFromId( $recipientId );
-		$prev = $rev->getPrevious();
+		$revisionRecord = $rev->getRevisionRecord();
+		$oldRevisionRecord = $oldRev ? $oldRev->getRevisionRecord() : null;
+		// No using $rev or $oldRev below here
+
+		$recipient = $revisionRecord->getUser();
+		if ( $recipient === null ) {
+			// Cannot see the user
+			return;
+		}
+
+		$recipient = User::newFromIdentity( $recipient );
+		$previous = MediaWikiServices::getInstance()
+			->getRevisionLookup()
+			->getPreviousRevision( $revisionRecord );
+
 		// Don't let users thank themselves.
 		// Exclude anonymous users.
 		// Exclude users who are blocked.
@@ -32,14 +46,19 @@ class ThanksHooks {
 		// (It supports discontinuous history created by Import or CX but
 		// prevents thanking diff across multiple revisions)
 		if ( !$user->isAnon()
-			&& $recipientId !== $user->getId()
-			&& !self::isUserBlockedFromTitle( $user, $rev->getTitle() )
+			&& !$user->equals( $recipient )
+			&& !self::isUserBlockedFromTitle( $user, $revisionRecord->getPageAsLinkTarget() )
 			&& !$user->isBlockedGlobally()
 			&& self::canReceiveThanks( $recipient )
-			&& !$rev->isDeleted( Revision::DELETED_TEXT )
-			&& ( !$oldRev || !$prev || $prev->getId() === $oldRev->getId() )
+			&& !$revisionRecord->isDeleted( RevisionRecord::DELETED_TEXT )
+			&& ( !$oldRevisionRecord || !$previous ||
+				$previous->getId() === $oldRevisionRecord->getId() )
 		) {
-			$links[] = self::generateThankElement( $rev->getId(), $user, $recipient );
+			$links[] = self::generateThankElement(
+				$revisionRecord->getId(),
+				$user,
+				$recipient
+			);
 		}
 	}
 
@@ -50,10 +69,10 @@ class ThanksHooks {
 	 * will be caught by ApiThank::dieOnBlockedUser when the user attempts to thank.
 	 *
 	 * @param User $user
-	 * @param Title $title
+	 * @param LinkTarget $title
 	 * @return bool
 	 */
-	private static function isUserBlockedFromTitle( User $user, Title $title ) {
+	private static function isUserBlockedFromTitle( User $user, LinkTarget $title ) {
 		return MediaWikiServices::getInstance()->getPermissionManager()
 			->isBlockedFrom( $user, $title, true );
 	}
