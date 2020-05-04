@@ -22,6 +22,6 @@
 	"echo-category-title-edit-thank": "Ringrazzjamenti",
 	"notification-thanks-diff-link": "il-modifika tiegħek",
 	"log-name-thanks": "Reġistru ta' ringrazzjamenti",
-	"log-description-thanks": "Taħt hawn lista ta' utenti irringrazzjati minn utenti oħra.",
+	"log-description-thanks": "Hawn taħt hawn lista ta' utenti li ngħataw ringrazzjament minn utenti oħra.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|irringrazzja|irringrazzjat}} lil {{GENDER:$4|$3}}"
 }
