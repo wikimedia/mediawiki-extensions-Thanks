@@ -3,7 +3,7 @@
 PROJECT_NAME           = Thanks
 PROJECT_BRIEF          = "MediaWiki Thanks extension"
 
-OUTPUT_DIRECTORY       = doc
+OUTPUT_DIRECTORY       = docs
 
 JAVADOC_AUTOBRIEF      = YES
 QT_AUTOBRIEF           = YES

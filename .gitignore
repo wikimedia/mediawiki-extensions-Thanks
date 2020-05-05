@@ -1,9 +1,8 @@
-node_modules
-docs
-composer.lock
-vendor
-doc
-.eslintcache
+/node_modules
+/docs
+/composer.lock
+/vendor
+/.eslintcache
 
 # Editors
 *.kate-swp
