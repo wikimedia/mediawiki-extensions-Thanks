@@ -19,7 +19,7 @@
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|agradecer}}}}",
 	"thanks-thanked": "{{GENDER:$1|Agradecido|Agradecida|Agradecido(a)}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Agradecer}}}}",
-	"thanks-button-thanked": "{{GENDER:$1|Agradecido|Agradecida|Agradecido(a)}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Agradecido|Agradecida}}}}",
 	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|Agradecendo}}}}",
 	"thanks-button-action-cancel": "Cancelar",
 	"thanks-button-action-completed": "{{GENDER:$1|{{GENDER:$2|agradeceu|agradeceu}}}}",
