@@ -161,20 +161,20 @@
 		"remoteExtPath": "Thanks/modules"
 	},
 	"Hooks": {
-		"HistoryRevisionTools": "ThanksHooks::insertThankLink",
-		"DiffRevisionTools": "ThanksHooks::insertThankLink",
-		"PageHistoryBeforeList": "ThanksHooks::onPageHistoryBeforeList",
-		"DiffViewHeader": "ThanksHooks::onDiffViewHeader",
-		"BeforeCreateEchoEvent": "ThanksHooks::onBeforeCreateEchoEvent",
-		"EchoGetDefaultNotifiedUsers": "ThanksHooks::onEchoGetDefaultNotifiedUsers",
-		"LocalUserCreated": "ThanksHooks::onAccountCreated",
-		"BeforeSpecialMobileDiffDisplay": "ThanksHooks::onBeforeSpecialMobileDiffDisplay",
-		"GetLogTypesOnUser": "ThanksHooks::onGetLogTypesOnUser",
-		"BeforePageDisplay": "ThanksHooks::onBeforePageDisplay",
-		"ResourceLoaderTestModules": "ThanksHooks::onResourceLoaderTestModules",
 		"ApiMain::moduleManager": "ThanksHooks::onApiMainModuleManager",
+		"BeforeCreateEchoEvent": "ThanksHooks::onBeforeCreateEchoEvent",
+		"BeforePageDisplay": "ThanksHooks::onBeforePageDisplay",
+		"BeforeSpecialMobileDiffDisplay": "ThanksHooks::onBeforeSpecialMobileDiffDisplay",
+		"DiffRevisionTools": "ThanksHooks::insertThankLink",
+		"DiffViewHeader": "ThanksHooks::onDiffViewHeader",
 		"EchoGetBundleRules": "ThanksHooks::onEchoGetBundleRules",
-		"LogEventsListLineEnding": "ThanksHooks::onLogEventsListLineEnding"
+		"EchoGetDefaultNotifiedUsers": "ThanksHooks::onEchoGetDefaultNotifiedUsers",
+		"GetLogTypesOnUser": "ThanksHooks::onGetLogTypesOnUser",
+		"HistoryRevisionTools": "ThanksHooks::insertThankLink",
+		"LocalUserCreated": "ThanksHooks::onAccountCreated",
+		"LogEventsListLineEnding": "ThanksHooks::onLogEventsListLineEnding",
+		"PageHistoryBeforeList": "ThanksHooks::onPageHistoryBeforeList",
+		"ResourceLoaderTestModules": "ThanksHooks::onResourceLoaderTestModules"
 	},
 	"config": {
 		"ThanksSendToBots": false,
