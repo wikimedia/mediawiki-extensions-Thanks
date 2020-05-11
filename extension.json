@@ -161,48 +161,20 @@
 		"remoteExtPath": "Thanks/modules"
 	},
 	"Hooks": {
-		"HistoryRevisionTools": [
-			"ThanksHooks::insertThankLink"
-		],
-		"DiffRevisionTools": [
-			"ThanksHooks::insertThankLink"
-		],
-		"PageHistoryBeforeList": [
-			"ThanksHooks::onPageHistoryBeforeList"
-		],
-		"DiffViewHeader": [
-			"ThanksHooks::onDiffViewHeader"
-		],
-		"BeforeCreateEchoEvent": [
-			"ThanksHooks::onBeforeCreateEchoEvent"
-		],
-		"EchoGetDefaultNotifiedUsers": [
-			"ThanksHooks::onEchoGetDefaultNotifiedUsers"
-		],
-		"LocalUserCreated": [
-			"ThanksHooks::onAccountCreated"
-		],
-		"BeforeSpecialMobileDiffDisplay": [
-			"ThanksHooks::onBeforeSpecialMobileDiffDisplay"
-		],
-		"GetLogTypesOnUser": [
-			"ThanksHooks::onGetLogTypesOnUser"
-		],
-		"BeforePageDisplay": [
-			"ThanksHooks::onBeforePageDisplay"
-		],
-		"ResourceLoaderTestModules": [
-			"ThanksHooks::onResourceLoaderTestModules"
-		],
-		"ApiMain::moduleManager": [
-			"ThanksHooks::onApiMainModuleManager"
-		],
-		"EchoGetBundleRules": [
-			"ThanksHooks::onEchoGetBundleRules"
-		],
-		"LogEventsListLineEnding": [
-			"ThanksHooks::onLogEventsListLineEnding"
-		]
+		"HistoryRevisionTools": "ThanksHooks::insertThankLink",
+		"DiffRevisionTools": "ThanksHooks::insertThankLink",
+		"PageHistoryBeforeList": "ThanksHooks::onPageHistoryBeforeList",
+		"DiffViewHeader": "ThanksHooks::onDiffViewHeader",
+		"BeforeCreateEchoEvent": "ThanksHooks::onBeforeCreateEchoEvent",
+		"EchoGetDefaultNotifiedUsers": "ThanksHooks::onEchoGetDefaultNotifiedUsers",
+		"LocalUserCreated": "ThanksHooks::onAccountCreated",
+		"BeforeSpecialMobileDiffDisplay": "ThanksHooks::onBeforeSpecialMobileDiffDisplay",
+		"GetLogTypesOnUser": "ThanksHooks::onGetLogTypesOnUser",
+		"BeforePageDisplay": "ThanksHooks::onBeforePageDisplay",
+		"ResourceLoaderTestModules": "ThanksHooks::onResourceLoaderTestModules",
+		"ApiMain::moduleManager": "ThanksHooks::onApiMainModuleManager",
+		"EchoGetBundleRules": "ThanksHooks::onEchoGetBundleRules",
+		"LogEventsListLineEnding": "ThanksHooks::onLogEventsListLineEnding"
 	},
 	"config": {
 		"ThanksSendToBots": false,
