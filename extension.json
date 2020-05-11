@@ -160,6 +160,18 @@
 		"localBasePath": "modules",
 		"remoteExtPath": "Thanks/modules"
 	},
+	"QunitTestMobile": {
+		"localBasePath": "tests/qunit",
+		"remoteExtPath": "Thanks/tests/qunit",
+		"scripts": [
+			"test_ext.thanks.thank.js",
+			"test_ext.thanks.mobilediff.js"
+		],
+		"dependencies": [
+			"ext.thanks",
+			"ext.thanks.mobilediff"
+		]
+	},
 	"Hooks": {
 		"ApiMain::moduleManager": "ThanksHooks::onApiMainModuleManager",
 		"BeforeCreateEchoEvent": "ThanksHooks::onBeforeCreateEchoEvent",
@@ -173,8 +185,7 @@
 		"HistoryRevisionTools": "ThanksHooks::insertThankLink",
 		"LocalUserCreated": "ThanksHooks::onAccountCreated",
 		"LogEventsListLineEnding": "ThanksHooks::onLogEventsListLineEnding",
-		"PageHistoryBeforeList": "ThanksHooks::onPageHistoryBeforeList",
-		"ResourceLoaderTestModules": "ThanksHooks::onResourceLoaderTestModules"
+		"PageHistoryBeforeList": "ThanksHooks::onPageHistoryBeforeList"
 	},
 	"config": {
 		"ThanksSendToBots": false,

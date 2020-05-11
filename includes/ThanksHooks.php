@@ -11,38 +11,6 @@ use MediaWiki\MediaWikiServices;
 class ThanksHooks {
 
 	/**
-	 * ResourceLoaderTestModules hook handler
-	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/ResourceLoaderTestModules
-	 *
-	 * @param array &$testModules The modules array to add to.
-	 * @param ResourceLoader &$resourceLoader The resource loader.
-	 */
-	public static function onResourceLoaderTestModules( array &$testModules,
-		ResourceLoader &$resourceLoader
-	) {
-		if ( ExtensionRegistry::getInstance()->isLoaded( 'MobileFrontend' ) ) {
-			$testModules['qunit']['tests.ext.thanks.mobilediff'] = [
-				'localBasePath' => dirname( __DIR__ ),
-				'remoteExtPath' => 'Thanks',
-				'dependencies' => [ 'ext.thanks.mobilediff' ],
-				'scripts' => [
-					'tests/qunit/test_ext.thanks.mobilediff.js',
-				],
-				'targets' => [ 'desktop', 'mobile' ],
-			];
-		}
-		$testModules['qunit']['tests.ext.thanks.thank'] = [
-			'localBasePath' => dirname( __DIR__ ),
-			'remoteExtPath' => 'Thanks',
-			'dependencies' => [ 'ext.thanks' ],
-			'scripts' => [
-				'tests/qunit/test_ext.thanks.thank.js',
-			],
-			'targets' => [ 'desktop' ],
-		];
-	}
-
-	/**
 	 * Handler for HistoryRevisionTools and DiffRevisionTools hooks.
 	 *
 	 * Insert a 'thank' link into revision interface, if the user is allowed to thank.
