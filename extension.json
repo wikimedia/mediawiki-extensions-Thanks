@@ -188,23 +188,31 @@
 		"PageHistoryBeforeList": "ThanksHooks::onPageHistoryBeforeList"
 	},
 	"config": {
-		"ThanksSendToBots": false,
-		"ThanksLogging": true,
-		"ThanksConfirmationRequired": true,
-		"ThanksLogTypeWhitelist": [
-			"contentmodel",
-			"create",
-			"delete",
-			"import",
-			"merge",
-			"move",
-			"patrol",
-			"protect",
-			"tag",
-			"managetags",
-			"rights",
-			"lock"
-		]
+		"ThanksSendToBots": {
+			"value": false
+		},
+		"ThanksLogging": {
+			"value": true
+		},
+		"ThanksConfirmationRequired": {
+			"value": true
+		},
+		"ThanksLogTypeWhitelist": {
+			"value": [
+				"contentmodel",
+				"create",
+				"delete",
+				"import",
+				"merge",
+				"move",
+				"patrol",
+				"protect",
+				"tag",
+				"managetags",
+				"rights",
+				"lock"
+			]
+		}
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
