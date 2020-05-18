@@ -107,6 +107,11 @@ abstract class ApiThank extends ApiBase {
 		$logEntry->setTarget( $target );
 		$logId = $logEntry->insert();
 		$logEntry->publish( $logId, 'udp' );
+
+		if ( ExtensionRegistry::getInstance()->isLoaded( 'CheckUser' ) ) {
+			$recentChange = $logEntry->getRecentChange();
+			CheckUserHooks::updateCheckUserData( $recentChange );
+		}
 	}
 
 	public function needsToken() {
