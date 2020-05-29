@@ -81,7 +81,7 @@
 				"ext.thanks.thank.js"
 			],
 			"dependencies": [
-				"jquery.cookie",
+				"mediawiki.cookie",
 				"mediawiki.api"
 			]
 		},

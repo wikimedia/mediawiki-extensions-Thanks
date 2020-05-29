@@ -9,7 +9,7 @@
 			attrName: 'data-revision-id',
 
 			load: function () {
-				var cookie = $.cookie( this.cookieName );
+				var cookie = mw.cookie.get( this.cookieName );
 				if ( cookie === null ) {
 					return [];
 				}
@@ -22,7 +22,7 @@
 				if ( saved.length > this.maxHistory ) { // prevent forever growing
 					saved = saved.slice( saved.length - this.maxHistory );
 				}
-				$.cookie( this.cookieName, escape( saved.join( ',' ) ) );
+				mw.cookie.set( this.cookieName, escape( saved.join( ',' ) ) );
 			},
 
 			contains: function ( $thankLink ) {

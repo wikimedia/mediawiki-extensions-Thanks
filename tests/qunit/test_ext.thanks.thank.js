@@ -8,13 +8,13 @@ QUnit.module( 'Thanks thank', QUnit.newMwEnvironment( {
 QUnit.test( 'thanked cookie', function ( assert ) {
 	var $thankLink = $( '<a ' + mw.thanks.thanked.attrName + '="8" />' ),
 		$thankLinkNonExisting = $( '<a ' + mw.thanks.thanked.attrName + '="13" />' );
-	$.cookie( mw.thanks.thanked.cookieName, escape( '17,11' ) );
+	mw.cookie.set( mw.thanks.thanked.cookieName, escape( '17,11' ) );
 
 	assert.deepEqual( mw.thanks.thanked.load(), [ '17', '11' ], 'gets cookie with two values' );
 
 	// Makes the 0 100th element
 	// eslint-disable-next-line no-restricted-properties
-	$.cookie( mw.thanks.thanked.cookieName, escape( '9,'.repeat( mw.thanks.thanked.maxHistory - 1 ) + '0' ) );
+	mw.cookie.set( mw.thanks.thanked.cookieName, escape( '9,'.repeat( mw.thanks.thanked.maxHistory - 1 ) + '0' ) );
 
 	assert.strictEqual( mw.thanks.thanked.load()[ mw.thanks.thanked.maxHistory - 1 ], '0', 'loads ' + mw.thanks.thanked.maxHistory + ' ids from a cookie' );
 	mw.thanks.thanked.push( $thankLink );
