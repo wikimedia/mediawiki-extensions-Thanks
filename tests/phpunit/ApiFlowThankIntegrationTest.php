@@ -165,7 +165,7 @@ class ApiFlowThankIntegrationTest extends ApiTestCase {
 	}
 
 	protected function assertSuccess( $result ) {
-		$this->assertEquals( 1, $result[ 'result' ][ 'success' ] );
+		$this->assertSame( 1, $result[ 'result' ][ 'success' ] );
 	}
 
 	/**
