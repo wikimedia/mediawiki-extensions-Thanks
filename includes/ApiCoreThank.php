@@ -37,6 +37,7 @@ class ApiCoreThank extends ApiThank {
 			throw new LogicException();
 		}
 
+		$recipientUsername = null;
 		// Determine thanks parameters.
 		if ( $type === 'log' ) {
 			$logEntry = $this->getLogEntryFromId( $id );
