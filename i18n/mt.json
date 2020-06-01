@@ -23,5 +23,6 @@
 	"notification-thanks-diff-link": "il-modifika tiegħek",
 	"log-name-thanks": "Reġistru ta' ringrazzjamenti",
 	"log-description-thanks": "Hawn taħt hawn lista ta' utenti li ngħataw ringrazzjament minn utenti oħra.",
-	"logentry-thanks-thank": "$1 {{GENDER:$2|irringrazzja|irringrazzjat}} lil {{GENDER:$4|$3}}"
+	"logentry-thanks-thank": "$1 {{GENDER:$2|irringrazzja|irringrazzjat}} lil {{GENDER:$4|$3}}",
+	"logeventslist-thanks-log": "Ringrazzjamenti"
 }
