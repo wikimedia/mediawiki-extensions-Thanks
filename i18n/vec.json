@@ -6,7 +6,7 @@
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ringrasia}}}}",
-	"thanks-thanked": "{{GENDER:$1|ringrasià|ringrasiada}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|ringrasià|ringrasiada|ringrasià}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Ringrasia}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Ringrasià|Ringrasiada|Ringrasià}}}}",
 	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|Ringrasiando}}}} $1…",
