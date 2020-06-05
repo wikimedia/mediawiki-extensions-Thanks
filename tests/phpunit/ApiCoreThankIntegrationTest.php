@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\Revision\SlotRecord;
+
 /**
  * Integration tests for the Thanks API module
  *
@@ -41,12 +43,7 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 		// If the page already exists, delete it, otherwise our edit will not result in a new revision
 		if ( $pageTitle->exists() ) {
 			$wikiPage = WikiPage::factory( $pageTitle );
-			if ( version_compare( MW_VERSION, '1.35', '<' ) ) {
-				$error = ''; // passed by reference
-				$wikiPage->doDeleteArticleReal( '', false, null, null, $error, $user );
-			} else {
-				$wikiPage->doDeleteArticleReal( '', $user );
-			}
+			$wikiPage->doDeleteArticleReal( '', $user );
 		}
 		$result = $this->editPage( $pageName, $content, 'Summary', NS_MAIN, $user );
 		/** @var Status $result */
@@ -58,28 +55,15 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 		// Create a 2nd page and delete it, so we can thank for the log entry.
 		$pageToDeleteTitle = Title::newFromText( 'Page to delete' );
 		$pageToDelete = WikiPage::factory( $pageToDeleteTitle );
-		$pageToDelete->doEditContent(
-			ContentHandler::makeContent( '', $pageToDeleteTitle ),
-			'',
-			0,
-			false,
-			$user
+
+		$updater = $pageToDelete->newPageUpdater( $user );
+		$updater->setcontent(
+			SlotRecord::MAIN,
+			ContentHandler::makeContent( '', $pageToDeleteTitle )
 		);
+		$updater->saveRevision( CommentStoreComment::newUnsavedComment( '' ) );
 
-		if ( version_compare( MW_VERSION, '1.35', '<' ) ) {
-			$error = ''; // passed by reference
-			$deleteStatus = $pageToDelete->doDeleteArticleReal(
-				'',
-				false,
-				null,
-				null,
-				$error,
-				$user
-			);
-		} else {
-			$deleteStatus = $pageToDelete->doDeleteArticleReal( '', $user );
-		}
-
+		$deleteStatus = $pageToDelete->doDeleteArticleReal( '', $user );
 		$this->logId = $deleteStatus->getValue();
 
 		DeferredUpdates::clearPendingUpdates();
