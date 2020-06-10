@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\Revision\RevisionRecord;
 use MediaWiki\Revision\SlotRecord;
 
 /**
@@ -48,9 +49,9 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 		$result = $this->editPage( $pageName, $content, 'Summary', NS_MAIN, $user );
 		/** @var Status $result */
 		$result = $result->getValue();
-		/** @var Revision $revision */
-		$revision = $result['revision'];
-		$this->revId = $revision->getId();
+		/** @var RevisionRecord $revisionRecord */
+		$revisionRecord = $result['revision-record'];
+		$this->revId = $revisionRecord->getId();
 
 		// Create a 2nd page and delete it, so we can thank for the log entry.
 		$pageToDeleteTitle = Title::newFromText( 'Page to delete' );
