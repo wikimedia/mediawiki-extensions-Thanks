@@ -37,7 +37,7 @@
 	"thanks-submit": "Даслаць падзяку",
 	"echo-pref-subscription-edit-thank": "Дзякуе мне за маю праўку",
 	"echo-pref-tooltip-edit-thank": "Паведаміць мне, калі нехта дзякуе за мае праўкі.",
-	"echo-category-title-edit-thank": "Дзякуй",
+	"echo-category-title-edit-thank": "Падзякі",
 	"notification-thanks-diff-link": "вашае рэдагаваньне",
 	"notification-header-rev-thank": "$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$4|вам}} за вашую праўку на старонцы <strong>$3</strong>.",
 	"notification-header-creation-thank": "$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$4|вам}} за стварэньне старонкі <strong>$3</strong>.",
