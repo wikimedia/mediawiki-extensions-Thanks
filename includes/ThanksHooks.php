@@ -3,6 +3,7 @@
 use MediaWiki\Linker\LinkTarget;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\RevisionRecord;
+use MediaWiki\User\UserIdentity;
 
 /**
  * Hooks for Thanks extension
@@ -13,20 +14,22 @@ use MediaWiki\Revision\RevisionRecord;
 class ThanksHooks {
 
 	/**
-	 * Handler for HistoryRevisionTools and DiffRevisionTools hooks.
+	 * Handler for HistoryTools and DiffTools hooks.
 	 *
 	 * Insert a 'thank' link into revision interface, if the user is allowed to thank.
 	 *
-	 * @param Revision $rev Revision object to add the thank link for
+	 * @param RevisionRecord $revisionRecord RevisionRecord object to add the thank link for
 	 * @param array &$links Links to add to the revision interface
-	 * @param Revision|null $oldRev Revision object of the "old" revision when viewing a diff
-	 * @param User $user The user performing the thanks.
+	 * @param ?RevisionRecord $oldRevisionRecord RevisionRecord object of the "old" revision
+	 *   when viewing a diff
+	 * @param UserIdentity $userIdentity The user performing the thanks.
 	 */
-	public static function insertThankLink( $rev, &$links, $oldRev, User $user ) {
-		$revisionRecord = $rev->getRevisionRecord();
-		$oldRevisionRecord = $oldRev ? $oldRev->getRevisionRecord() : null;
-		// No using $rev or $oldRev below here
-
+	public static function insertThankLink(
+		RevisionRecord $revisionRecord,
+		array &$links,
+		?RevisionRecord $oldRevisionRecord,
+		UserIdentity $userIdentity
+	) {
 		$recipient = $revisionRecord->getUser();
 		if ( $recipient === null ) {
 			// Cannot see the user
@@ -37,6 +40,8 @@ class ThanksHooks {
 		$previous = MediaWikiServices::getInstance()
 			->getRevisionLookup()
 			->getPreviousRevision( $revisionRecord );
+
+		$user = User::newFromIdentity( $userIdentity );
 
 		// Don't let users thank themselves.
 		// Exclude anonymous users.
