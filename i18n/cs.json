@@ -8,6 +8,7 @@
 			"Martin Urbanec",
 			"Matěj Suchánek",
 			"Mormegil",
+			"Patriccck",
 			"Tchoř"
 		]
 	},
@@ -29,7 +30,7 @@
 	"thanks-error-invalidrecipient": "Nebyl nalezen platný příjemce",
 	"thanks-error-invalidrecipient-bot": "Robotům nelze děkovat",
 	"thanks-error-invalidrecipient-self": "Nemůžete děkovat {{GENDER:|sám|sama|sami}} sobě.",
-	"thanks-error-notloggedin": "Anonymní uživatelé nemohou děkovat",
+	"thanks-error-notloggedin": "Neregistrovaní uživatelé nemohou děkovat",
 	"thanks-error-ratelimited": "{{GENDER:$1|Překročil|Překročila|Překročili}} jste rychlostní limit. Počkejte prosím chvíli a zkuste to znovu.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Poslat}} {{GENDER:$2|tomuto uživateli|této uživatelce}} poděkování",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Stornovat}} oznámení o poděkování",

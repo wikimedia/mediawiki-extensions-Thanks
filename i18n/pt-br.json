@@ -17,7 +17,7 @@
 	},
 	"thanks-desc": "Adiciona ligações para agradecer usuários por suas edições, comentários, etc.",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|agradecer}}}}",
-	"thanks-thanked": "{{GENDER:$1|Agradecido|Agradecida|Agradecido(a)}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|agradecimento enviado}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Agradecer}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Agradecido|Agradecida}}}}",
 	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|Agradecendo}}}}",
