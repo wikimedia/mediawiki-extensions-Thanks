@@ -170,13 +170,11 @@ class ThanksHooks {
 	}
 
 	/**
-	 * Handler for DiffViewHeader hook.
-	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/DiffViewHeader
+	 * Handler for DifferenceEngineViewHeader hook.
+	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/DifferenceEngineViewHeader
 	 * @param DifferenceEngine $diff DifferenceEngine object that's calling.
-	 * @param Revision $oldRev Revision object of the "old" revision (may be null/invalid)
-	 * @param Revision $newRev Revision object of the "new" revision
 	 */
-	public static function onDiffViewHeader( $diff, $oldRev, $newRev ) {
+	public static function onDifferenceEngineViewHeader( $diff ) {
 		if ( $diff->getUser()->isLoggedIn() ) {
 			static::addThanksModule( $diff->getOutput() );
 		}
