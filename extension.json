@@ -178,7 +178,7 @@
 		"BeforePageDisplay": "ThanksHooks::onBeforePageDisplay",
 		"BeforeSpecialMobileDiffDisplay": "ThanksHooks::onBeforeSpecialMobileDiffDisplay",
 		"DiffTools": "ThanksHooks::insertThankLink",
-		"DiffViewHeader": "ThanksHooks::onDiffViewHeader",
+		"DifferenceEngineViewHeader": "ThanksHooks::onDifferenceEngineViewHeader",
 		"EchoGetBundleRules": "ThanksHooks::onEchoGetBundleRules",
 		"EchoGetDefaultNotifiedUsers": "ThanksHooks::onEchoGetDefaultNotifiedUsers",
 		"GetLogTypesOnUser": "ThanksHooks::onGetLogTypesOnUser",
