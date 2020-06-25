@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"BaRaN6161 TURK",
 			"Joseba",
 			"Macofe",
 			"Mikel Ibaiba",
@@ -28,6 +29,6 @@
 	"logentry-thanks-thank": "$1 {{GENDER:$2|wikilariak}} eskerrak eman dizkio {{GENDER:$4|$3}} wikilariari",
 	"notification-link-text-view-post": "Erakutsi iruzkina",
 	"flow-thanks-confirmation-special": "Iruzkin hau eskertu nahi duzu?",
-	"flow-thanks-thanked-notice": "{{GENEROA:$3|Zu}} eskerrak $1 {{GENEROA:$2|mutilarena|neskarena|haiena}}agatik oharra.",
+	"flow-thanks-thanked-notice": "{{GENDER:$3|Zu}} eskerrak $1 {{GENDER:$2|mutilarena|neskarena|haiena}}agatik oharra.",
 	"notification-flow-thanks-post-link": "Zure iruzkina"
 }
