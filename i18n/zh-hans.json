@@ -21,6 +21,7 @@
 			"Yfdyh000",
 			"Zhuyifei1999",
 			"予弦",
+			"沈澄心",
 			"王庭茂",
 			"神樂坂秀吉",
 			"飞舞回堂前"
@@ -75,7 +76,7 @@
 	"notification-link-text-view-logentry": "查看日志记录",
 	"thanks-error-invalidpostid": "帖子ID无效。",
 	"flow-thanks-confirmation-special": "您希望对此评论公开发送感谢么？",
-	"flow-thanks-thanked-notice": "$1已收到{{GENDER:$3|您}}对{{GENDER:$2|他|她|他}}的评论做出的感谢。",
+	"flow-thanks-thanked-notice": "$1已收到{{GENDER:$3|您}}对{{GENDER:$2|其}}评论做出的感谢。",
 	"notification-flow-thanks-post-link": "您的评论",
 	"notification-header-flow-thank": "$1{{GENDER:$2|感谢了}}{{GENDER:$5|您}}在“<strong>$3</strong>”发表的评论。",
 	"notification-compact-header-flow-thank": "$1{{GENDER:$2|感谢了}}{{GENDER:$3|您}}。",
