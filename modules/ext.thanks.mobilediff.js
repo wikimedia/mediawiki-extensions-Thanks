@@ -14,7 +14,7 @@
 	 * @param {string} name The username of the user who made the edit
 	 * @param {string} revision The revision the user created
 	 * @param {string} recipientGender The gender of the user who made the edit
-	 * @return {Promise} The thank operation's status.
+	 * @return {jQuery.Promise} The thank operation's status.
 	 */
 	function thankUser( name, revision, recipientGender ) {
 		return ( new mw.Api() ).postWithToken( 'csrf', {
