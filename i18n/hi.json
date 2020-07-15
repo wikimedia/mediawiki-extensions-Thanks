@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Angpradesh",
+			"BaRaN6161 TURK",
 			"Bhatakati aatma",
 			"Sachinkatiyar",
 			"Sfic",
@@ -29,7 +30,7 @@
 	"thanks-thank-tooltip-no": "धन्यवाद की सूचना {{GENDER:$1|न भेजें}}",
 	"thanks-thank-tooltip-yes": "धन्यवाद की सूचना {{GENDER:$1|भेजें}}",
 	"thanks-confirmation2": "\nसभी धन्यवाद सार्वजनिक हैं। {{GENDER:$1|धन्यवाद}} भेजें?",
-	"thanks-thanked-notice": "{{लिंग:$3|आप}} ने {{लिंग:$2|$1}} का धन्यवाद किया।",
+	"thanks-thanked-notice": "{{GENDER:$3|आप}} ने {{GENDER:$2|$1}} का धन्यवाद किया।",
 	"thanks": "धन्यवाद दें",
 	"thanks-submit": "धन्यवाद दें",
 	"echo-pref-subscription-edit-thank": "मेरे सम्पादन के लिए मुझे धन्यवाद दे।",
