@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Andrei Stroe",
+			"Carcassonne93",
 			"Minisarm"
 		]
 	},
@@ -24,6 +25,7 @@
 	"echo-pref-tooltip-edit-thank": "Notifică-mă când cineva îmi mulțumește pentru o modificare pe care am efectuat-o.",
 	"echo-category-title-edit-thank": "Mulțumiri",
 	"notification-thanks-diff-link": "modificarea dumneavoastră",
+	"notification-header-rev-thank": "$1 {{GENDER:$4|v-a}} {{GENDER:$2|mulțumit}} pentru modificarea dvs. de la pagina <strong>$3</strong>.",
 	"log-name-thanks": "Jurnal mulțumiri",
 	"log-description-thanks": "Mai jos se află o listă a utilizatorilor cărora li s-a mulțumit de către alți utilizatori.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|i-a mulțumit}} {{GENDER:$4|utilizatorului $3|utilizatoarei $3}}",
