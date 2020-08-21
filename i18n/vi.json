@@ -9,7 +9,8 @@
 			"Minh Nguyen",
 			"Nguyên Lê",
 			"Prenn",
-			"Trần Nguyễn Minh Huy"
+			"Trần Nguyễn Minh Huy",
+			"Vinhtantran"
 		]
 	},
 	"thanks-desc": "Thêm các liên kết để cảm ơn người dùng vì sửa đổi, bình luận, v.v.",
@@ -38,7 +39,7 @@
 	"thanks": "Gửi lời cảm ơn",
 	"thanks-submit": "Gửi lời cảm ơn",
 	"echo-pref-subscription-edit-thank": "Cảm ơn tôi vì một sửa đổi của tôi",
-	"echo-pref-tooltip-edit-thank": "Báo cho tôi biết khi nào người ta cảm ơn tôi vì một sửa đổi của tôi.",
+	"echo-pref-tooltip-edit-thank": "Báo cho tôi khi có người cảm ơn một sửa đổi của tôi.",
 	"echo-category-title-edit-thank": "Cảm ơn",
 	"notification-thanks-diff-link": "sửa đổi của bạn",
 	"notification-header-rev-thank": "$1 {{GENDER:$2}}đã cảm ơn {{GENDER:$4}}bạn vì sửa đổi tại <strong>$3</strong>.",
