@@ -3,7 +3,8 @@
 		"authors": [
 			"Andrei Stroe",
 			"Carcassonne93",
-			"Minisarm"
+			"Minisarm",
+			"NGC 54"
 		]
 	},
 	"thanks-desc": "Adaugă legături pentru a putea mulțumi utilizatorilor pentru modificări, comentarii etc.",
@@ -26,9 +27,11 @@
 	"echo-category-title-edit-thank": "Mulțumiri",
 	"notification-thanks-diff-link": "modificarea dumneavoastră",
 	"notification-header-rev-thank": "$1 {{GENDER:$4|v-a}} {{GENDER:$2|mulțumit}} pentru modificarea dvs. de la pagina <strong>$3</strong>.",
+	"notification-header-log-thank": "$1 {{GENDER:$4|v-}}a {{GENDER:$2|mulțumit}} pentru acțiunea dvs. privitoare la <strong>$3</strong>.",
 	"log-name-thanks": "Jurnal mulțumiri",
 	"log-description-thanks": "Mai jos se află o listă a utilizatorilor cărora li s-a mulțumit de către alți utilizatori.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|i-a mulțumit}} {{GENDER:$4|utilizatorului $3|utilizatoarei $3}}",
+	"logeventslist-thanks-log": "Jurnal mulțumiri",
 	"thanks-error-no-id-specified": "Trebuie să precizați un ID de versiune sau de înregistrare de jurnal pentru a trimite mulțumiri.",
 	"notification-link-text-view-post": "Vezi comentariul",
 	"thanks-error-invalidpostid": "ID-ul mesajului nu este valid.",
