@@ -27,6 +27,7 @@
 	"echo-category-title-edit-thank": "Mulțumiri",
 	"notification-thanks-diff-link": "modificarea dumneavoastră",
 	"notification-header-rev-thank": "$1 {{GENDER:$4|v-a}} {{GENDER:$2|mulțumit}} pentru modificarea dvs. de la pagina <strong>$3</strong>.",
+	"notification-header-creation-thank": "$1 {{GENDER:$4|v-}}{{GENDER:$2|a mulțumit}} pentru că ați creat pagina <strong>$3</strong>.",
 	"notification-header-log-thank": "$1 {{GENDER:$4|v-}}a {{GENDER:$2|mulțumit}} pentru acțiunea dvs. privitoare la <strong>$3</strong>.",
 	"log-name-thanks": "Jurnal mulțumiri",
 	"log-description-thanks": "Mai jos se află o listă a utilizatorilor cărora li s-a mulțumit de către alți utilizatori.",
