@@ -205,9 +205,11 @@
 				"import",
 				"merge",
 				"move",
+				"pagelang",
 				"patrol",
 				"protect",
 				"tag",
+				"upload",
 				"managetags",
 				"rights",
 				"lock"
