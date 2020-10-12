@@ -41,7 +41,7 @@
 	"echo-category-title-edit-thank": "Захвалнице",
 	"notification-thanks-diff-link": "вашој измени",
 	"notification-header-rev-thank": "$1 вам се {{GENDER:$2|захвалио|захвалила|захвалио/ла}} на {{GENDER:$4|вашој}} измени странице <strong>$3</strong>.",
-	"notification-header-creation-thank": "$1 {{GENDER:$4|вам}} се {{GENDER:$2|захвалио|захвалила|захвалио/ла}} на вашем прављењу странице <strong>$3</strong>.",
+	"notification-header-creation-thank": "$1 {{GENDER:$4|Вам}} се {{GENDER:$2|захвалио|захвалила|захвалио/-ла}} на прављењу странице <strong>$3</strong>.",
 	"notification-header-log-thank": "$1 вам се {{GENDER:$2|захвалио|захвалила|захвалио/ла}} на {{GENDER:$4|вашој}} радњи на страници <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$3|вам}} се {{GENDER:$2|захвалио|захвалила|захвалио/ла}}.",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Једна особа вам се захвалила|$1 особе су вам се захвалиле|$1 особа вам се захвалило|100=>&thinsp;99 особа вам се захвалило}} на {{GENDER:$3|вашој}} измени странице <strong>$2</strong>.",
