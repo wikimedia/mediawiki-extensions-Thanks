@@ -4,5 +4,6 @@
 			"Boesenbergia"
 		]
 	},
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ngoca' kaso'on}}}}"
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ngoca' kaso'on}}}}",
+	"thanks-thank-tooltip": "{{GENDER:$1|Kèrèm}} sèttong bâberta pamator sakalangkong ḍâ' {{GENDER:$2|pangangghuy}} arèya"
 }
