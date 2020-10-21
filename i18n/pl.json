@@ -24,7 +24,7 @@
 	"thanks-button-action-completed": "{{GENDER:$1|{{GENDER:$2|podziękowałeś|podziękowałaś}}}} $1",
 	"thanks-error-undefined": "Operacja podziękowania nie powiodła się (kod błędu: $1). Proszę spróbować ponownie.",
 	"thanks-error-invalid-log-id": "Nie znaleziono wpisu rejestru",
-	"thanks-error-invalid-log-type": "Rodzaj czynności z rejestru '$1' nie znajduje się na białej liście dozwolonych rodzajów akcji.",
+	"thanks-error-invalid-log-type": "Rodzaj czynności z rejestru „$1” nie znajduje się na białej liście dozwolonych rodzajów akcji.",
 	"thanks-error-log-deleted": "Wskazany wpis rejestru został usunięty, więc nie można wystawić za niego podziękowania.",
 	"thanks-error-invalidrevision": "Nieprawidłowy identyfikator wersji.",
 	"thanks-error-revdeleted": "Nie można wysłać podziękowań, ponieważ wersja została usunięta.",
@@ -34,7 +34,7 @@
 	"thanks-error-invalidrecipient-self": "Nie możesz sobie podziękować",
 	"thanks-error-notloggedin": "Niezarejestrowani użytkownicy nie mogą wysyłać podziękowań",
 	"thanks-error-ratelimited": "{{GENDER:$1|Przekroczyłeś|Przekroczyłaś}} limit podziękowań. Poczekaj jakiś czas i spróbuj ponownie.",
-	"thanks-error-api-params": "Musi być podany parametr 'revid' lub 'logid'",
+	"thanks-error-api-params": "Musi być podany parametr „revid” lub „logid”",
 	"thanks-thank-tooltip": "{{GENDER:$1|Wyślij}} podziękowanie do {{GENDER:$2|tego użytkownika|tej użytkowniczki}}",
 	"thanks-thank-tooltip-no": "Nie {{GENDER:$1|wysyłaj}} podziękowania",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Wyślij}} podziękowanie",
@@ -65,7 +65,7 @@
 	"flow-thanks-confirmation-special": "Czy chcesz wysłać publiczne podziękowanie za ten komentarz?",
 	"flow-thanks-thanked-notice": "{{GENDER:$3|Podziękowałeś|Podziękowałaś}} $1 za {{GENDER:$2|jego|jej}} komentarz.",
 	"notification-flow-thanks-post-link": "twój komentarz",
-	"notification-header-flow-thank": "$1 {{GENDER:$2|podziękował|podziękowała|podziękował(a)}} {{GENDER:$5|ci}} za komentarz w \"<strong>$3</strong>\".",
+	"notification-header-flow-thank": "$1 {{GENDER:$2|podziękował|podziękowała|podziękował(a)}} {{GENDER:$5|ci}} za komentarz w „<strong>$3</strong>”.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|podziękował|podziękowała|podziękował(a)}} {{GENDER:$3|ci}}.",
 	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Jedna osoba|$1 osoby|$1 osób|100=Co najmniej 100 osób}} podziękowało {{GENDER:$3|ci}} za twój komentarz w „<strong>$2</strong>”."
 }
