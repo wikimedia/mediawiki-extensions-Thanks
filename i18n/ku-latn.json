@@ -9,5 +9,6 @@
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|spas}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|hate spaskirin}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Spas}}}}",
+	"thanks-thank-tooltip": "Ji {{GENDER:$2|vî bikarhênerî|vê bikarhênerê}} re danezaneke sipasiyê {{GENDER:$1|bişîne}}",
 	"echo-category-title-edit-thank": "Spas"
 }
