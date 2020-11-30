@@ -21,7 +21,7 @@
 	"thanks-button-action-completed": "Jūs {{GENDER:$1|{{GENDER:$2|padėkojote}}}} $1",
 	"thanks-error-undefined": "Padėkoti nepavyko (klaidos kodas: $1). Prašome pabandyti dar kartą.",
 	"thanks-error-invalidrevision": "Netinkamas versijos ID",
-	"thanks-error-revdeleted": "Versija buvo ištrinta",
+	"thanks-error-revdeleted": "Neįmanoma padėkoti, nes ši versija buvo ištrinta.",
 	"thanks-error-notitle": "Nepavyko gauti puslapio pavadinimo",
 	"thanks-error-invalidrecipient": "Nerastas tinkamas recipientas",
 	"thanks-error-invalidrecipient-bot": "Negalima padėkoti robotams",
