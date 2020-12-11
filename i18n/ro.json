@@ -29,6 +29,8 @@
 	"notification-header-rev-thank": "$1 {{GENDER:$4|v-a}} {{GENDER:$2|mulțumit}} pentru modificarea dvs. de la pagina <strong>$3</strong>.",
 	"notification-header-creation-thank": "$1 {{GENDER:$4|v-}}{{GENDER:$2|a mulțumit}} pentru că ați creat pagina <strong>$3</strong>.",
 	"notification-header-log-thank": "$1 {{GENDER:$4|v-}}a {{GENDER:$2|mulțumit}} pentru acțiunea dvs. privitoare la <strong>$3</strong>.",
+	"notification-bundle-header-rev-thank": "{{PLURAL:$1|O persoană|$1 persoane|100=99+ de persoane}} {{GENDER:$3|v-au}} mulțumit pentru pentru modificarea dvs. de la pagina <strong>$2</strong>.",
+	"notification-bundle-header-log-thank": "{{PLURAL:$1|O persoană|$1 persoane|100=99+ de persoane}} {{GENDER:$3|v-au}} mulțumit pentru acțiunea dvs. privitoare la <strong>$2</strong>.",
 	"log-name-thanks": "Jurnal mulțumiri",
 	"log-description-thanks": "Mai jos se află o listă a utilizatorilor cărora li s-a mulțumit de către alți utilizatori.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|i-a mulțumit}} {{GENDER:$4|utilizatorului $3|utilizatoarei $3}}",
