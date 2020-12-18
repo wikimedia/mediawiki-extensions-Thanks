@@ -164,7 +164,7 @@ class ThanksHooks {
 	 * @param RequestContext $context RequestContext object
 	 */
 	public static function onPageHistoryBeforeList( $page, $context ) {
-		if ( $context->getUser()->isLoggedIn() ) {
+		if ( $context->getUser()->isRegistered() ) {
 			static::addThanksModule( $context->getOutput() );
 		}
 	}
@@ -175,7 +175,7 @@ class ThanksHooks {
 	 * @param DifferenceEngine $diff DifferenceEngine object that's calling.
 	 */
 	public static function onDifferenceEngineViewHeader( $diff ) {
-		if ( $diff->getUser()->isLoggedIn() ) {
+		if ( $diff->getUser()->isRegistered() ) {
 			static::addThanksModule( $diff->getOutput() );
 		}
 	}
@@ -278,7 +278,7 @@ class ThanksHooks {
 			&& ExtensionRegistry::getInstance()->isLoaded( 'MobileFrontend' )
 			&& $rev->getUser()
 			&& self::canReceiveThanks( User::newFromIdentity( $rev->getUser() ) )
-			&& $output->getUser()->isLoggedIn()
+			&& $output->getUser()->isRegistered()
 		) {
 			$output->addModules( [ 'ext.thanks.mobilediff' ] );
 
