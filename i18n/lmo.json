@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Salvemm el lombard"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ringrazzia}}}}",
+	"thanks-thank-tooltip": "{{GENDER:$1|Manda}} una notifica de ringrazzià {{GENDER:$2|quel utent chì}}"
+}

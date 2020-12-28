@@ -12,6 +12,7 @@
 	"thanks": "Շնորհակալութիւն յայտնել",
 	"echo-category-title-edit-thank": "Շնորհակալութիւն",
 	"notification-compact-header-edit-thank": "$1 մասնակիցը {{GENDER:$2|շնորհակալութիւն}} յայտնած է {{GENDER:$3|ձեզի}}։",
+	"logentry-thanks-thank": "$1 մասնակիցը շնորհակալութիւն յայտնած է $3 մասնակիցին",
 	"thanks-confirmation-special-rev": "Կ'ուզէ՞ք շնորհակալութիւն յայտնել այս խմբագրումին համար։",
 	"flow-thanks-confirmation-special": "Կ'ուզէ՞ք շնորհակալութիւն յայտնել այս մեկնաբանումին համար։",
 	"notification-compact-header-flow-thank": "$1 մասնակիցը {{GENDER:$2|շնորհակալութիւն}} յայտնած է {{GENDER:$3|ձեզի}}։"
