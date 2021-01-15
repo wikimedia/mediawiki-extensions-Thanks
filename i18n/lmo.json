@@ -4,6 +4,6 @@
 			"Salvemm el lombard"
 		]
 	},
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ringrazzia}}}}",
+	"thanks-thank": "{{GENDER:$1|el {{GENDER:$2|ringrazzia}}|la {{GENDER:$2|ringrazzia}}}}",
 	"thanks-thank-tooltip": "{{GENDER:$1|Manda}} una notifica de ringrazzià {{GENDER:$2|quell utent chì}}"
 }
