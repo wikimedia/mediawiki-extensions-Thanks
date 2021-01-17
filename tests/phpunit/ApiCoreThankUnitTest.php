@@ -12,10 +12,8 @@ use MediaWiki\Block\DatabaseBlock;
  */
 class ApiCoreThankUnitTest extends MediaWikiTestCase {
 
-	protected static $moduleName = 'thank';
-
 	protected function getModule() {
-		return new ApiCoreThank( new ApiMain(), self::$moduleName );
+		return new ApiCoreThank( new ApiMain(), 'thank' );
 	}
 
 	private function createBlock( $options ) {
