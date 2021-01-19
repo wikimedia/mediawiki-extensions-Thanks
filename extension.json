@@ -107,7 +107,6 @@
 				"mediawiki.jqueryMsg",
 				"mediawiki.api",
 				"jquery.confirmable",
-				"jquery.cookie",
 				"ext.thanks"
 			]
 		},
