@@ -35,6 +35,7 @@
 	"logentry-thanks-thank": "{{GENDER:$2|Ο|Η}} $1 ευχαρίστησε {{GENDER:$4|τον|την}} $3",
 	"logeventslist-thanks-log": "Καταγραφή ευχαριστηρίων",
 	"thanks-error-no-id-specified": "Πρέπει να καθορίσετε αναγνωριστικό αναθεώρησης ή αρχείου καταγραφών για να στείλετε ευχαριστίες.",
+	"thanks-confirmation-special-rev": "Θέλετε να στείλετε δημόσια ευχαριστία γι' αυτή την επεξεργασία;",
 	"notification-link-text-view-post": "Προβολή σχολίου",
 	"thanks-error-invalidpostid": "Το Post ID δεν είναι έγκυρο.",
 	"flow-thanks-confirmation-special": "Θέλετε να στείλετε δημόσια ευχαριστία για αυτό το σχόλιο;",
