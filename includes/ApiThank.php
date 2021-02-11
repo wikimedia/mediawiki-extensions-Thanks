@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\CheckUser\Hooks;
 use MediaWiki\MediaWikiServices;
 
 /**
@@ -110,7 +111,7 @@ abstract class ApiThank extends ApiBase {
 
 		if ( ExtensionRegistry::getInstance()->isLoaded( 'CheckUser' ) ) {
 			$recentChange = $logEntry->getRecentChange();
-			CheckUserHooks::updateCheckUserData( $recentChange );
+			Hooks::updateCheckUserData( $recentChange );
 		}
 	}
 
