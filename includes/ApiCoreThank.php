@@ -2,6 +2,7 @@
 
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\RevisionRecord;
+use MediaWiki\User\UserIdentity;
 
 /**
  * API module to send thanks notifications for revisions and log entries.
@@ -178,15 +179,11 @@ class ApiCoreThank extends ApiThank {
 
 	/**
 	 * @param LogEntry $logEntry
-	 * @return User
+	 * @return UserIdentity
 	 */
 	private function getUserFromLog( LogEntry $logEntry ) {
-		$recipient = $logEntry->getPerformer();
-		if ( !$recipient ) {
-			$this->dieWithError( 'thanks-error-invalidrecipient', 'invalidrecipient' );
-		}
-		// @phan-suppress-next-line PhanTypeMismatchReturnNullable T240141
-		return $recipient;
+		$recipient = $logEntry->getPerformerIdentity();
+		return MediaWikiServices::getInstance()->getUserFactory()->newFromUserIdentity( $recipient );
 	}
 
 	/**
