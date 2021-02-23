@@ -406,11 +406,11 @@ class ThanksHooks {
 		// Don't thank if no recipient,
 		// or if recipient is the current user or unable to receive thanks.
 		// Don't check for deleted revision (this avoids extraneous queries from Special:Log).
-		$recipient = $entry->getPerformer();
-		if ( !$recipient
-			|| $recipient->getId() === $user->getId()
-			|| !self::canReceiveThanks( $recipient )
-		) {
+
+		$recipient = MediaWikiServices::getInstance()
+			->getUserFactory()
+			->newFromUserIdentity( $entry->getPerformerIdentity() );
+		if ( $recipient->getId() === $user->getId() || !self::canReceiveThanks( $recipient ) ) {
 			return;
 		}
 
