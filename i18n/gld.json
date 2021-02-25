@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"RFScott"
+		]
+	},
+	"thanks-thank": "{{$1|{{$2|баниори}}}}",
+	"thanks-thank-tooltip": "{{$1|Банилайни}} {{$2ва}}"
+}
