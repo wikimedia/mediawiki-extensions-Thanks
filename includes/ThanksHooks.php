@@ -199,7 +199,7 @@ class ThanksHooks {
 			'category' => 'edit-thank',
 			'group' => 'positive',
 			'section' => 'message',
-			'presentation-model' => 'EchoCoreThanksPresentationModel',
+			'presentation-model' => EchoCoreThanksPresentationModel::class,
 			'bundle' => [
 				'web' => true,
 				'expandable' => true,
@@ -211,7 +211,7 @@ class ThanksHooks {
 				'category' => 'edit-thank',
 				'group' => 'positive',
 				'section' => 'message',
-				'presentation-model' => 'EchoFlowThanksPresentationModel',
+				'presentation-model' => EchoFlowThanksPresentationModel::class,
 				'bundle' => [
 					'web' => true,
 					'expandable' => true,
