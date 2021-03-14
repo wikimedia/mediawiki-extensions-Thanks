@@ -1,11 +1,8 @@
 #!/bin/bash
-# Enable all the git hooks by executing the following from the project root directory
-# $ make installhooks
-#
 # Code from https://gist.github.com/holysugar/1318698 , simpler than
 # http://stackoverflow.com/a/6262715/451712
 
-# Work out location of Flow/scripts/ directory
+# Work out location of Thanks/scripts/ directory
 dir=$(dirname $(php -r "echo realpath('$0'), \"\\n\";"))
 # Move to the project root
 cd $(dirname $dir)
