@@ -1,8 +1,18 @@
 <?php
 
+namespace MediaWiki\Extension\Thanks;
+
+use ApiBase;
+use DatabaseLogEntry;
+use EchoDiscussionParser;
+use EchoEvent;
+use LogEntry;
+use LogicException;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\RevisionRecord;
 use MediaWiki\User\UserIdentity;
+use Title;
+use User;
 
 /**
  * API module to send thanks notifications for revisions and log entries.

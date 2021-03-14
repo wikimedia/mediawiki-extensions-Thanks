@@ -1,7 +1,15 @@
 <?php
 
+namespace MediaWiki\Extension\Thanks;
+
+use ActorMigration;
+use ApiBase;
+use ExtensionRegistry;
+use ManualLogEntry;
 use MediaWiki\CheckUser\Hooks;
 use MediaWiki\MediaWikiServices;
+use Title;
+use User;
 
 /**
  * Base API module for Thanks

@@ -1,6 +1,17 @@
 <?php
 
+namespace MediaWiki\Extension\Thanks;
+
+use DatabaseLogEntry;
+use EchoEventPresentationModel;
+use Linker;
+use LogEntry;
+use LogFormatter;
+use LogPage;
 use MediaWiki\Revision\RevisionRecord;
+use RawMessage;
+use Sanitizer;
+use SpecialPage;
 
 class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 	/** @var LogEntry|bool|null */
@@ -91,8 +102,7 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 			$excerpt = $formatter->getPlainActionText();
 			// Turn wikitext into plaintext
 			$excerpt = Linker::formatComment( $excerpt );
-			$excerpt = Sanitizer::stripAllTags( $excerpt );
-			return $excerpt;
+			return Sanitizer::stripAllTags( $excerpt );
 		} else {
 			// Try to get edit summary.
 			$summary = $this->getRevisionEditSummary();

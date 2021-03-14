@@ -1,6 +1,12 @@
 <?php
 
-class EchoFlowThanksPresentationModel extends Flow\Notifications\FlowPresentationModel {
+namespace MediaWiki\Extension\Thanks;
+
+use Flow\Notifications\FlowPresentationModel;
+use RawMessage;
+use Title;
+
+class EchoFlowThanksPresentationModel extends FlowPresentationModel {
 	public function canRender() {
 		return (bool)$this->event->getTitle();
 	}

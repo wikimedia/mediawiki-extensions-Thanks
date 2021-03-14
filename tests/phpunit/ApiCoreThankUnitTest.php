@@ -1,6 +1,7 @@
 <?php
 
 use MediaWiki\Block\DatabaseBlock;
+use MediaWiki\Extension\Thanks\ApiCoreThank;
 
 /**
  * Unit tests for the Thanks API module
@@ -29,8 +30,8 @@ class ApiCoreThankUnitTest extends MediaWikiTestCase {
 
 	/**
 	 * @dataProvider provideDieOnBadUser
-	 * @covers ApiThank::dieOnBadUser
-	 * @covers ApiThank::dieOnSitewideBlockedUser
+	 * @covers \MediaWiki\Extension\Thanks\ApiThank::dieOnBadUser
+	 * @covers \MediaWiki\Extension\Thanks\ApiThank::dieOnSitewideBlockedUser
 	 */
 	public function testDieOnBadUser( $user, $dieMethod, $expectedError ) {
 		$module = $this->getModule();
@@ -53,7 +54,7 @@ class ApiCoreThankUnitTest extends MediaWikiTestCase {
 		$mockUser = $this->createMock( 'User' );
 		$mockUser->expects( $this->once() )
 			->method( 'isAnon' )
-			->will( $this->returnValue( true ) );
+			->willReturn( true );
 
 		$testCases[ 'anon' ] = [
 			$mockUser,
@@ -64,10 +65,10 @@ class ApiCoreThankUnitTest extends MediaWikiTestCase {
 		$mockUser = $this->createMock( 'User' );
 		$mockUser->expects( $this->once() )
 			->method( 'isAnon' )
-			->will( $this->returnValue( false ) );
+			->willReturn( false );
 		$mockUser->expects( $this->once() )
 			->method( 'pingLimiter' )
-			->will( $this->returnValue( true ) );
+			->willReturn( true );
 
 		$testCases[ 'ping' ] = [
 			$mockUser,
@@ -78,18 +79,16 @@ class ApiCoreThankUnitTest extends MediaWikiTestCase {
 		$mockUser = $this->createMock( 'User' );
 		$mockUser->expects( $this->once() )
 			->method( 'isAnon' )
-			->will( $this->returnValue( false ) );
+			->willReturn( false );
 		$mockUser->expects( $this->once() )
 			->method( 'pingLimiter' )
-			->will( $this->returnValue( false ) );
+			->willReturn( false );
 		$mockUser->expects( $this->once() )
 			->method( 'isBlockedGlobally' )
-			->will( $this->returnValue( true ) );
+			->willReturn( true );
 		$mockUser->expects( $this->once() )
 			->method( 'getGlobalBlock' )
-			->will( $this->returnValue(
-				$this->createBlock( [] )
-			) );
+			->willReturn( $this->createBlock( [] ) );
 
 		$testCases[ 'globally blocked' ] = [
 			$mockUser,
@@ -100,9 +99,7 @@ class ApiCoreThankUnitTest extends MediaWikiTestCase {
 		$mockUser = $this->createMock( 'User' );
 		$mockUser->expects( $this->once() )
 			->method( 'getBlock' )
-			->will( $this->returnValue(
-				$this->createBlock( [] )
-			) );
+			->willReturn( $this->createBlock( [] ) );
 
 		$testCases[ 'sitewide blocked' ] = [
 			$mockUser,
@@ -113,11 +110,9 @@ class ApiCoreThankUnitTest extends MediaWikiTestCase {
 		$mockUser = $this->createMock( 'User' );
 		$mockUser->expects( $this->once() )
 			->method( 'getBlock' )
-			->will( $this->returnValue(
-				$this->createBlock( [
-					'sitewide' => false
-				] )
-			) );
+			->willReturn(
+				$this->createBlock( [ 'sitewide' => false ] )
+			);
 
 		$testCases[ 'partial blocked' ] = [
 			$mockUser,

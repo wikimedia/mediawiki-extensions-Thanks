@@ -1,5 +1,16 @@
 <?php
 
+namespace MediaWiki\Extension\Thanks;
+
+use ApiMain;
+use ApiUsageException;
+use DerivativeRequest;
+use FormSpecialPage;
+use HTMLForm;
+use Linker;
+use Status;
+use User;
+
 class SpecialThanks extends FormSpecialPage {
 
 	/**
