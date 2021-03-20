@@ -98,10 +98,10 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 
 	public function testLogRequestWithDisallowedLogType() {
 		// Empty the log-type whitelist.
-		$this->setMwGlobals( [ 'wgThanksLogTypeWhitelist' => [] ] );
+		$this->setMwGlobals( [ 'wgThanksAllowedLogTypes' => [] ] );
 		$this->expectException( ApiUsageException::class );
 		$this->expectExceptionMessage(
-			"Log type 'delete' is not in the whitelist of permitted log types." );
+			"Log type 'delete' is not in the list of permitted log types." );
 		$this->doApiRequestWithToken( [
 			'action' => 'thank',
 			'log' => $this->logId,

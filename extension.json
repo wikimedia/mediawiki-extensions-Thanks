@@ -196,7 +196,7 @@
 		"ThanksConfirmationRequired": {
 			"value": true
 		},
-		"ThanksLogTypeWhitelist": {
+		"ThanksAllowedLogTypes": {
 			"value": [
 				"contentmodel",
 				"create",

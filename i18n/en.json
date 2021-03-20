@@ -14,7 +14,7 @@
 	"thanks-button-action-completed": "You {{GENDER:$1|{{GENDER:$2|thanked}}}} $1",
 	"thanks-error-undefined": "Thank action failed (error code: $1). Please try again.",
 	"thanks-error-invalid-log-id": "Log entry not found",
-	"thanks-error-invalid-log-type": "Log type '$1' is not in the whitelist of permitted log types.",
+	"thanks-error-invalid-log-type": "Log type '$1' is not in the list of permitted log types.",
 	"thanks-error-log-deleted": "The requested log entry has been deleted and thanks cannot be given for it.",
 	"thanks-error-invalidrevision": "Revision ID is not valid.",
 	"thanks-error-revdeleted": "Unable to send thanks because the revision has been deleted.",

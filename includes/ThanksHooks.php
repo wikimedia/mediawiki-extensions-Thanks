@@ -394,12 +394,12 @@ class ThanksHooks {
 			return;
 		}
 
-		// Make sure this log type is whitelisted.
-		$logTypeWhitelist = MediaWikiServices::getInstance()
+		// Make sure this log type is allowed.
+		$allowedLogTypes = MediaWikiServices::getInstance()
 			->getMainConfig()
-			->get( 'ThanksLogTypeWhitelist' );
-		if ( !in_array( $entry->getType(), $logTypeWhitelist )
-			&& !in_array( $entry->getType() . '/' . $entry->getSubtype(), $logTypeWhitelist ) ) {
+			->get( 'ThanksAllowedLogTypes' );
+		if ( !in_array( $entry->getType(), $allowedLogTypes )
+			&& !in_array( $entry->getType() . '/' . $entry->getSubtype(), $allowedLogTypes ) ) {
 			return;
 		}
 

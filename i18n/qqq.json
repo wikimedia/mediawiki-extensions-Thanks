@@ -27,7 +27,7 @@
 	"thanks-button-action-completed": "You {{GENDER:$1|{{GENDER:$2|thanked}}}} $1",
 	"thanks-error-undefined": "Error message that is displayed when the thank action fails. $1 is the error code returned by the API (an English string).",
 	"thanks-error-invalid-log-id": "Error message that is displayed when the thank action can't find the log entry it's supposed to thank for.",
-	"thanks-error-invalid-log-type": "Error message that is displayed when thanks is attempted for a log entry of a non-whitelisted type. $1 is the offending log type.",
+	"thanks-error-invalid-log-type": "Error message that is displayed when thanks is attempted for a log entry of a non-allowed type. $1 is the offending log type.",
 	"thanks-error-log-deleted": "Error message that is displayed when thanks is attempted for a deleted log entry.",
 	"thanks-error-invalidrevision": "Error message that is displayed when the revision ID is not valid",
 	"thanks-error-revdeleted": "Error message that is displayed when the revision has been deleted (RevDel)",
