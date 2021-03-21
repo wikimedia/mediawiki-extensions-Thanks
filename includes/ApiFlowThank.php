@@ -1,10 +1,17 @@
 <?php
 
+namespace MediaWiki\Extension\Thanks;
+
+use ApiBase;
+use EchoEvent;
 use Flow\Container;
 use Flow\Conversion\Utils;
 use Flow\Exception\FlowException;
 use Flow\Model\PostRevision;
 use Flow\Model\UUID;
+use MWException;
+use Title;
+use User;
 
 /**
  * API module to send Flow thanks notifications

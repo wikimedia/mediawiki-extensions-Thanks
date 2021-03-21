@@ -6,7 +6,7 @@ use MediaWiki\Revision\SlotRecord;
 /**
  * Integration tests for the Thanks API module
  *
- * @covers ApiCoreThank
+ * @covers \MediaWiki\Extension\Thanks\ApiCoreThank
  *
  * @group Thanks
  * @group Database

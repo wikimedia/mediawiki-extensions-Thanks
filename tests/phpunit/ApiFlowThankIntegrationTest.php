@@ -8,7 +8,7 @@ use Flow\Model\Workflow;
 /**
  * Integration tests for the Thanks Flow api module
  *
- * @covers ApiFlowThank
+ * @covers \MediaWiki\Extension\Thanks\ApiFlowThank
  *
  * @group Thanks
  * @group Database
@@ -67,9 +67,7 @@ class ApiFlowThankIntegrationTest extends ApiTestCase {
 		$that = $this;
 		$mockLoader->expects( $this->any() )
 			->method( 'getWithRoot' )
-			->will( $this->returnCallback(
-				// Hard to work with class variables or callbacks,
-				// using anonymous function instead.
+			->willReturnCallback(
 				function ( $postId ) use ( $that ) {
 					switch ( $postId ) {
 						case $that->postByOtherUser->getPostId():
@@ -88,7 +86,7 @@ class ApiFlowThankIntegrationTest extends ApiTestCase {
 							return [ 'post' => null ];
 					}
 				}
-			) );
+			);
 
 		$mockWorkflow = $this->createMock( Workflow::class );
 		$mockWorkflow->expects( $this->any() )
@@ -104,7 +102,7 @@ class ApiFlowThankIntegrationTest extends ApiTestCase {
 
 		$mockStorage->expects( $this->any() )
 			->method( 'get' )
-			->will( $this->returnValue( $mockWorkflow ) );
+			->willReturn( $mockWorkflow );
 
 		$mockTemplating = $this->getMockBuilder( 'Flow\Templating' )
 			->disableOriginalConstructor()
@@ -112,7 +110,7 @@ class ApiFlowThankIntegrationTest extends ApiTestCase {
 
 		$mockTemplating->expects( $this->any() )
 			->method( 'getContent' )
-			->will( $this->returnValue( 'test content' ) );
+			->willReturn( 'test content' );
 
 		Flow\Container::reset();
 		$container = Flow\Container::getContainer();
@@ -149,7 +147,7 @@ class ApiFlowThankIntegrationTest extends ApiTestCase {
 	public function testRequestWithInvalidId() {
 		$this->expectException( ApiUsageException::class );
 		$this->expectExceptionMessage( 'Post ID is not valid' );
-		list( $result,, ) = $this->doApiRequestWithToken( [
+		$this->doApiRequestWithToken( [
 			'action' => 'flowthank',
 			'postid' => UUID::create( '42' )->getAlphadecimal(),
 		] );
@@ -158,7 +156,7 @@ class ApiFlowThankIntegrationTest extends ApiTestCase {
 	public function testRequestWithOwnId() {
 		$this->expectException( ApiUsageException::class );
 		$this->expectExceptionMessage( 'You cannot thank yourself' );
-		list( $result,, ) = $this->doApiRequestWithToken( [
+		$this->doApiRequestWithToken( [
 			'action' => 'flowthank',
 			'postid' => $this->postByMe->getPostId()->getAlphadecimal(),
 		], null, $this->meUser );

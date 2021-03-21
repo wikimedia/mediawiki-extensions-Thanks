@@ -1,9 +1,31 @@
 <?php
 
+namespace MediaWiki\Extension\Thanks;
+
+use ApiModuleManager;
+use Article;
+use CategoryPage;
+use ConfigException;
+use DatabaseLogEntry;
+use DifferenceEngine;
+use EchoEvent;
+use ExtensionRegistry;
+use Html;
+use ImagePage;
+use LogEventsList;
+use LogPage;
 use MediaWiki\Linker\LinkTarget;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\RevisionRecord;
 use MediaWiki\User\UserIdentity;
+use MobileContext;
+use OutputPage;
+use RequestContext;
+use Skin;
+use SpecialPage;
+use Title;
+use User;
+use WikiPage;
 
 /**
  * Hooks for Thanks extension
@@ -11,7 +33,7 @@ use MediaWiki\User\UserIdentity;
  * @file
  * @ingroup Extensions
  */
-class ThanksHooks {
+class Hooks {
 
 	/**
 	 * Handler for HistoryTools and DiffTools hooks.
@@ -331,7 +353,7 @@ class ThanksHooks {
 			$moduleManager->addModule(
 				'flowthank',
 				'action',
-				'ApiFlowThank'
+				ApiFlowThank::class
 			);
 		}
 	}
@@ -373,7 +395,7 @@ class ThanksHooks {
 	 *
 	 * @link https://www.mediawiki.org/wiki/Manual:Hooks/LogEventsListLineEnding
 	 * @param LogEventsList $page The log events list.
-	 * @param string &$ret The lineending HTML, to modify.
+	 * @param string &$ret The line ending HTML, to modify.
 	 * @param DatabaseLogEntry $entry The log entry.
 	 * @param string[] &$classes CSS classes to add to the line.
 	 * @param string[] &$attribs HTML attributes to add to the line.

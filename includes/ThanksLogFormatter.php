@@ -1,5 +1,12 @@
 <?php
 
+namespace MediaWiki\Extension\Thanks;
+
+use LogFormatter;
+use Message;
+use Title;
+use User;
+
 /**
  * This class formats log entries for thanks
  */

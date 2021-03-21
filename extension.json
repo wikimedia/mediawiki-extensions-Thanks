@@ -29,7 +29,7 @@
 		}
 	},
 	"SpecialPages": {
-		"Thanks": "SpecialThanks"
+		"Thanks": "MediaWiki\\Extension\\Thanks\\SpecialThanks"
 	},
 	"LogTypes": [
 		"thanks"
@@ -38,10 +38,10 @@
 		"thanks": true
 	},
 	"LogActionsHandlers": {
-		"thanks/*": "ThanksLogFormatter"
+		"thanks/*": "MediaWiki\\Extension\\Thanks\\ThanksLogFormatter"
 	},
 	"APIModules": {
-		"thank": "ApiCoreThank"
+		"thank": "MediaWiki\\Extension\\Thanks\\ApiCoreThank"
 	},
 	"MessagesDirs": {
 		"Thanks": [
@@ -52,15 +52,8 @@
 	"ExtensionMessagesFiles": {
 		"ThanksAlias": "Thanks.alias.php"
 	},
-	"AutoloadClasses": {
-		"ThanksHooks": "includes/ThanksHooks.php",
-		"EchoCoreThanksPresentationModel": "includes/EchoCoreThanksPresentationModel.php",
-		"EchoFlowThanksPresentationModel": "includes/EchoFlowThanksPresentationModel.php",
-		"ApiThank": "includes/ApiThank.php",
-		"ApiCoreThank": "includes/ApiCoreThank.php",
-		"ApiFlowThank": "includes/ApiFlowThank.php",
-		"ThanksLogFormatter": "includes/ThanksLogFormatter.php",
-		"SpecialThanks": "includes/SpecialThanks.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\Thanks\\": "includes/"
 	},
 	"ResourceModules": {
 		"ext.thanks.images": {
@@ -172,19 +165,19 @@
 		]
 	},
 	"Hooks": {
-		"ApiMain::moduleManager": "ThanksHooks::onApiMainModuleManager",
-		"BeforeCreateEchoEvent": "ThanksHooks::onBeforeCreateEchoEvent",
-		"BeforePageDisplay": "ThanksHooks::onBeforePageDisplay",
-		"BeforeSpecialMobileDiffDisplay": "ThanksHooks::onBeforeSpecialMobileDiffDisplay",
-		"DiffTools": "ThanksHooks::insertThankLink",
-		"DifferenceEngineViewHeader": "ThanksHooks::onDifferenceEngineViewHeader",
-		"EchoGetBundleRules": "ThanksHooks::onEchoGetBundleRules",
-		"EchoGetDefaultNotifiedUsers": "ThanksHooks::onEchoGetDefaultNotifiedUsers",
-		"GetLogTypesOnUser": "ThanksHooks::onGetLogTypesOnUser",
-		"HistoryTools": "ThanksHooks::insertThankLink",
-		"LocalUserCreated": "ThanksHooks::onAccountCreated",
-		"LogEventsListLineEnding": "ThanksHooks::onLogEventsListLineEnding",
-		"PageHistoryBeforeList": "ThanksHooks::onPageHistoryBeforeList"
+		"ApiMain::moduleManager": "MediaWiki\\Extension\\Thanks\\Hooks::onApiMainModuleManager",
+		"BeforeCreateEchoEvent": "MediaWiki\\Extension\\Thanks\\Hooks::onBeforeCreateEchoEvent",
+		"BeforePageDisplay": "MediaWiki\\Extension\\Thanks\\Hooks::onBeforePageDisplay",
+		"BeforeSpecialMobileDiffDisplay": "MediaWiki\\Extension\\Thanks\\Hooks::onBeforeSpecialMobileDiffDisplay",
+		"DiffTools": "MediaWiki\\Extension\\Thanks\\Hooks::insertThankLink",
+		"DifferenceEngineViewHeader": "MediaWiki\\Extension\\Thanks\\Hooks::onDifferenceEngineViewHeader",
+		"EchoGetBundleRules": "MediaWiki\\Extension\\Thanks\\Hooks::onEchoGetBundleRules",
+		"EchoGetDefaultNotifiedUsers": "MediaWiki\\Extension\\Thanks\\Hooks::onEchoGetDefaultNotifiedUsers",
+		"GetLogTypesOnUser": "MediaWiki\\Extension\\Thanks\\Hooks::onGetLogTypesOnUser",
+		"HistoryTools": "MediaWiki\\Extension\\Thanks\\Hooks::insertThankLink",
+		"LocalUserCreated": "MediaWiki\\Extension\\Thanks\\Hooks::onAccountCreated",
+		"LogEventsListLineEnding": "MediaWiki\\Extension\\Thanks\\Hooks::onLogEventsListLineEnding",
+		"PageHistoryBeforeList": "MediaWiki\\Extension\\Thanks\\Hooks::onPageHistoryBeforeList"
 	},
 	"config": {
 		"ThanksSendToBots": {
