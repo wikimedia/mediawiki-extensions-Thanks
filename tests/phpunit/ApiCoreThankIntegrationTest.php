@@ -97,7 +97,6 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 	}
 
 	public function testLogRequestWithDisallowedLogType() {
-		// Empty the log-type whitelist.
 		$this->setMwGlobals( [ 'wgThanksAllowedLogTypes' => [] ] );
 		$this->expectException( ApiUsageException::class );
 		$this->expectExceptionMessage(
