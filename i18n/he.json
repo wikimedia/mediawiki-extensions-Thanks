@@ -19,7 +19,7 @@
 	"thanks-button-action-completed": "{{GENDER:$1|{{GENDER:$2|הודית}}}} למשתמש $1",
 	"thanks-error-undefined": "פעולת תודה נכשלה (קוד שגיאה: $1). נא לנסות שוב.",
 	"thanks-error-invalid-log-id": "פעולת היומן לא נמצאה",
-	"thanks-error-invalid-log-type": "סוג היומן '$1' לא נמצא ברשימה הלבנה של סוגי היומן המותרים.",
+	"thanks-error-invalid-log-type": "סוג היומן '$1' לא נמצא ברשימת סוגי היומן המותרים.",
 	"thanks-error-log-deleted": "פעולת היומן שביקשת נמחקה, ולכן לא ניתן לשלוח עבורה תודה.",
 	"thanks-error-invalidrevision": "מזהה גרסה אינו תקין.",
 	"thanks-error-revdeleted": "לא ניתן לשלוח תודה משום שהגרסה נמחקה.",

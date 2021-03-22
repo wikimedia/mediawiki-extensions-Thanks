@@ -25,7 +25,7 @@
 	"thanks-button-action-completed": "{{GENDER:$1|{{GENDER:$2|podziękowałeś|podziękowałaś}}}} $1",
 	"thanks-error-undefined": "Operacja podziękowania nie powiodła się (kod błędu: $1). Proszę spróbować ponownie.",
 	"thanks-error-invalid-log-id": "Nie znaleziono wpisu rejestru",
-	"thanks-error-invalid-log-type": "Rodzaj czynności z rejestru „$1” nie znajduje się na białej liście dozwolonych rodzajów akcji.",
+	"thanks-error-invalid-log-type": "Rodzaj czynności z rejestru „$1” nie znajduje się na liście dozwolonych rodzajów akcji.",
 	"thanks-error-log-deleted": "Wskazany wpis rejestru został usunięty, więc nie można wystawić za niego podziękowania.",
 	"thanks-error-invalidrevision": "Nieprawidłowy identyfikator wersji.",
 	"thanks-error-revdeleted": "Nie można wysłać podziękowań, ponieważ wersja została usunięta.",

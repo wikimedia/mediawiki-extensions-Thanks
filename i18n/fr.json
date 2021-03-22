@@ -38,7 +38,7 @@
 	"thanks-button-action-completed": "Vous avez {{GENDER:$1|{{GENDER:$2|remercié}}}} $1",
 	"thanks-error-undefined": "Échec de l’action de remerciement (code d'erreur : $1). Veuillez réessayer.",
 	"thanks-error-invalid-log-id": "Entrée non trouvée dans le journal",
-	"thanks-error-invalid-log-type": "Le type de journal '$1' n’est pas dans la liste blanche des types de journaux autorisés.",
+	"thanks-error-invalid-log-type": "Le type de journal « $1 » n’est pas dans la liste des types de journaux autorisés.",
 	"thanks-error-log-deleted": "L’entrée de journal demandée a été supprimée et il est impossible de remercier pour cela.",
 	"thanks-error-invalidrevision": "L’ID de révision n’est pas valide.",
 	"thanks-error-revdeleted": "Impossible d'envoyer les remerciements car la révision a été supprimée.",

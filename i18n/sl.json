@@ -15,7 +15,7 @@
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Zahvala je objavljena}}}}",
 	"thanks-error-undefined": "Dejanje zahvale je spodletelo (koda napake: $1). Prosimo, poskusite znova.",
 	"thanks-error-invalid-log-id": "Dnevniški vpis ni bil najden",
-	"thanks-error-invalid-log-type": "Vrste dnevnika '$1' ni na belem seznamu predvidenih vrst dnevnikov.",
+	"thanks-error-invalid-log-type": "Vrste dnevnika »$1« ni na seznamu dovoljenih vrst dnevnikov.",
 	"thanks-error-log-deleted": "Zahtevan dnevniški vpis je bil izbrisan, zato zanj ni mogoče dati zahvale.",
 	"thanks-error-invalidrevision": "ID-številka redakcije ni veljavna.",
 	"thanks-error-revdeleted": "Zahvale ni mogoče poslati, saj je bila redakcija izbrisana.",

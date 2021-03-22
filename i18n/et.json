@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Adeliine",
 			"Kyng",
 			"Macofe",
 			"Pikne"
@@ -16,7 +17,7 @@
 	"thanks-button-action-completed": "{{GENDER:$2|Tänasid}} kasutajat $1",
 	"thanks-error-undefined": "Tänamine ebaõnnestus (tõrkekood: $1). Palun proovi uuesti.",
 	"thanks-error-invalid-log-id": "Logisissekannet ei leidu",
-	"thanks-error-invalid-log-type": "Logitüüp \"$1\" pole lubatud logitüüpide valges nimekirjas.",
+	"thanks-error-invalid-log-type": "Logitüüp \"$1\" pole lubatud logitüüpide nimekirjas.",
 	"thanks-error-log-deleted": "Päritud logisissekanne on kustutatud ja selle eest ei saa tänu avaldada.",
 	"thanks-error-invalidrevision": "Redaktsiooni identifikaator ei sobi.",
 	"thanks-error-revdeleted": "Ei saa tänuteavitust saata, sest redaktsioon on kustutatud.",
