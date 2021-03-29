@@ -11,7 +11,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|rahmat aytildi}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Rahmat}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Rahmat aytildi}}}}",
-	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|Rahmat aytilyabdi}}}} $1…",
+	"thanks-button-action-queued": "$1ga {{GENDER:$1|{{GENDER:$2|rahmat aytilyabdi}}}}…",
 	"thanks-button-action-cancel": "Bekor qilish",
 	"thanks-button-action-completed": "Siz $1 ga {{GENDER:$1|{{GENDER:$2|rahmat aytdingiz}}}}",
 	"thanks-error-undefined": "Rahmat yetkazilmadi (xatolik kodi: $1). Iltimos qayta urining.",
