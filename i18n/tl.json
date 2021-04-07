@@ -2,19 +2,20 @@
 	"@metadata": {
 		"authors": [
 			"AnakngAraw",
+			"GinawaSaHapon",
 			"LR Guanzon",
 			"Sky Harbor"
 		]
 	},
 	"thanks-desc": "Nagdaragdag ng mga kawing ng pasasalamat sa pagtanaw ng kasaysayan at pagkakaiba",
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|pasalamatan}}}}",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|magpasalamat}}}}",
 	"thanks-thanked": "{{GENDER:$1|pinasalamatan na}}",
 	"thanks-button-thank": "Pasalamatan",
 	"thanks-button-thanked": "{{GENDER:$1|Pinasalamatan na}}",
 	"thanks-error-undefined": "Nabigo ang kilos ng pagpapasalamat.  Mangyaring subukan muli.",
 	"thanks-error-invalidrevision": "Walang saysay ang ID ng rebisyon.",
 	"thanks-error-ratelimited": "Nilampasan mo ang iyong hangganan ng antas. Mangyaring maghintay ng ilang sandali at subukan muli.",
-	"thanks-thank-tooltip": "{{GENDER:$1|Magpadala}} ng isang pabatid ng pasasalamat sa {{GENDER:$2|tagagamit}} na ito",
+	"thanks-thank-tooltip": "{{GENDER:$1|Magpadala}} ng pasasalamat sa {{GENDER:$2|tagagamit}} na ito",
 	"thanks-thanked-notice": "Sinabihan si $1 na ginusto mo ang {{GENDER:$2|kaniyang|kanilang}} pagbabago.",
 	"echo-pref-subscription-edit-thank": "Pinasalamatan ako para sa aking pagbabago",
 	"echo-pref-tooltip-edit-thank": "Ipabatid sa akin kapag may nagpasalamat sa akin para sa isang pagbabagong naigawa ko.",
