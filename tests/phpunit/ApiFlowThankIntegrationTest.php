@@ -61,7 +61,7 @@ class ApiFlowThankIntegrationTest extends ApiTestCase {
 			], [], 1 );
 
 		// Set up mock classes in Container.
-		$mockLoader = $this->getMockBuilder( '\Flow\Repository\RootPostLoader' )
+		$mockLoader = $this->getMockBuilder( \Flow\Repository\RootPostLoader::class )
 			->disableOriginalConstructor()
 			->getMock();
 		$that = $this;
@@ -96,7 +96,7 @@ class ApiFlowThankIntegrationTest extends ApiTestCase {
 			->method( 'getArticleTitle' )
 			->willReturn( $this->createMock( Title::class ) );
 
-		$mockStorage = $this->getMockBuilder( '\Flow\Data\ManagerGroup' )
+		$mockStorage = $this->getMockBuilder( \Flow\Data\ManagerGroup::class )
 			->disableOriginalConstructor()
 			->getMock();
 
@@ -104,7 +104,7 @@ class ApiFlowThankIntegrationTest extends ApiTestCase {
 			->method( 'get' )
 			->willReturn( $mockWorkflow );
 
-		$mockTemplating = $this->getMockBuilder( 'Flow\Templating' )
+		$mockTemplating = $this->getMockBuilder( \Flow\Templating::class )
 			->disableOriginalConstructor()
 			->getMock();
 
