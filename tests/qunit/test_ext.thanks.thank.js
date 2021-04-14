@@ -41,7 +41,6 @@ QUnit.test( 'gets user gender', function ( assert ) {
 		);
 	} );
 
-	// eslint-disable-next-line vars-on-top
 	var maleUser = mw.thanks.getUserGender( 'user1' ),
 		unknownGenderUser = mw.thanks.getUserGender( 'user2' ),
 		nonExistingUser = mw.thanks.getUserGender( 'user3' ),
