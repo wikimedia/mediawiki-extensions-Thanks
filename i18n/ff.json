@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ibrahima"
+			"Ibrahima",
+			"Ibrahima Malal Sarr"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|jaar}}}}",

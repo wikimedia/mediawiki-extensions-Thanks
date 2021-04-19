@@ -25,7 +25,7 @@
 	"thanks-button-action-completed": "Ви {{GENDER:$1|{{GENDER:$2|подякували}}}} $1",
 	"thanks-error-undefined": "Не вдалось подякувати (код помилки: $1). Спробуйте знову.",
 	"thanks-error-invalid-log-id": "Запис журналу не знайдено",
-	"thanks-error-invalid-log-type": "Типу журналу «$1» немає у білому списку дозволених типів журналів.",
+	"thanks-error-invalid-log-type": "Типу журналу «$1» немає у списку дозволених типів журналів.",
 	"thanks-error-log-deleted": "Запитаний запис журналу було вилучено, за нього не можна подякувати.",
 	"thanks-error-invalidrevision": "Неправильний ідентифікатор версії.",
 	"thanks-error-revdeleted": "Не вдалося надіслати подяку, бо версію вилучено.",
