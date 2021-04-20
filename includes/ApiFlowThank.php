@@ -54,7 +54,7 @@ class ApiFlowThank extends ApiThank {
 		// Truncate the title text to prevent issues with database storage.
 		$topicTitleText = $this->getLanguage()->truncateForDatabase( $rawTopicTitleText, 200 );
 		$pageTitle = $this->getPageTitleFromRootPost( $rootPost );
-		$this->dieOnBlockedUser( $user, $pageTitle );
+		$this->dieOnUserBlockedFromTitle( $user, $pageTitle );
 
 		/** @var PostRevision $post */
 		$post = $data['post'];

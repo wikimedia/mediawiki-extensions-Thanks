@@ -57,5 +57,6 @@
 	"notification-flow-thanks-post-link": "your comment",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|thanked}} {{GENDER:$5|you}} for your comment in \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|thanked}} {{GENDER:$3|you}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|One person|$1 people|100=99+ people}} thanked {{GENDER:$3|you}} for your comment in \"<strong>$2</strong>\"."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|One person|$1 people|100=99+ people}} thanked {{GENDER:$3|you}} for your comment in \"<strong>$2</strong>\".",
+	"ipb-action-thanks": "Sending thanks"
 }

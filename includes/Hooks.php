@@ -75,6 +75,7 @@ class Hooks {
 		if ( !$user->isAnon()
 			&& !$user->equals( $recipient )
 			&& !self::isUserBlockedFromTitle( $user, $revisionRecord->getPageAsLinkTarget() )
+			&& !self::isUserBlockedFromThanks( $user )
 			&& !$user->isBlockedGlobally()
 			&& self::canReceiveThanks( $recipient )
 			&& !$revisionRecord->isDeleted( RevisionRecord::DELETED_TEXT )
@@ -93,7 +94,7 @@ class Hooks {
 	 * Check whether the user is blocked from the title associated with the revision.
 	 *
 	 * This queries the replicas for a block; if 'no block' is incorrectly reported, it
-	 * will be caught by ApiThank::dieOnBlockedUser when the user attempts to thank.
+	 * will be caught by ApiThank::dieOnUserBlockedFromTitle when the user attempts to thank.
 	 *
 	 * @param User $user
 	 * @param LinkTarget $title
@@ -102,6 +103,17 @@ class Hooks {
 	private static function isUserBlockedFromTitle( User $user, LinkTarget $title ) {
 		return MediaWikiServices::getInstance()->getPermissionManager()
 			->isBlockedFrom( $user, $title, true );
+	}
+
+	/**
+	 * Check whether the user is blocked from giving thanks.
+	 *
+	 * @param User $user
+	 * @return bool
+	 */
+	private static function isUserBlockedFromThanks( User $user ) {
+		$block = $user->getBlock();
+		return $block && ( $block->isSitewide() || $block->appliesToRight( 'thanks' ) );
 	}
 
 	/**
@@ -323,6 +335,10 @@ class Hooks {
 		$types[] = 'thanks';
 	}
 
+	public static function onGetAllBlockActions( array &$actions ) {
+		$actions[ 'thanks' ] = 100;
+	}
+
 	/**
 	 * Handler for BeforePageDisplay.  Inserts javascript to enhance thank
 	 * links from static urls to in-page dialogs along with reloading
@@ -412,6 +428,7 @@ class Hooks {
 			$user->isAnon()
 			|| $entry->isDeleted( LogPage::DELETED_USER )
 			|| self::isUserBlockedFromTitle( $user, $entry->getTarget() )
+			|| self::isUserBlockedFromThanks( $user )
 			|| $user->isBlockedGlobally()
 		) {
 			return;
