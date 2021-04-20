@@ -2,7 +2,6 @@
 
 namespace MediaWiki\Extension\Thanks;
 
-use ActorMigration;
 use ApiBase;
 use ExtensionRegistry;
 use ManualLogEntry;
@@ -84,18 +83,19 @@ abstract class ApiThank extends ApiBase {
 	 */
 	protected function haveAlreadyThanked( User $thanker, $uniqueId ) {
 		$dbw = wfGetDB( DB_MASTER );
-		$logWhere = ActorMigration::newMigration()->getWhere( $dbw, 'log_user', $thanker );
+		$thankerActor = MediaWikiServices::getInstance()->getActorNormalization()
+			->acquireActorId( $thanker, $dbw );
 		return (bool)$dbw->selectRow(
-			[ 'log_search', 'logging' ] + $logWhere['tables'],
+			[ 'log_search', 'logging' ],
 			[ 'ls_value' ],
 			[
-				$logWhere['conds'],
+				'log_actor' => $thankerActor,
 				'ls_field' => 'thankid',
 				'ls_value' => $uniqueId,
 			],
 			__METHOD__,
 			[],
-			[ 'logging' => [ 'INNER JOIN', 'ls_log_id=log_id' ] ] + $logWhere['joins']
+			[ 'logging' => [ 'INNER JOIN', 'ls_log_id=log_id' ] ]
 		);
 	}
 
