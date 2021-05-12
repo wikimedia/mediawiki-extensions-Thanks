@@ -12,7 +12,7 @@
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Баркалла аьлла}}}}",
 	"thanks-error-undefined": "Баркалла ала тар цаделира. ЙухагӀорта.",
 	"thanks-error-invalidrevision": "Версин нийса йоцу номер.",
-	"thanks-error-ratelimited": "{{GENDER:$1|Ахьа}} тӀех дукха и дийна. Дехар до, сабардина юхагӀорта.",
+	"thanks-error-ratelimited": "{{GENDER:$1|Ахьа}} тӀех дукха и дийна. Дехар до, жимӀийна йухагӀорта.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Бахьийта}} {{GENDER:$2|хӀокху декъашхочунга}} баркаллин хаам",
 	"thanks-confirmation2": "ХӀара нисдар дарна баркалла {{GENDER:$1|дӀадохьуьйтий}}?",
 	"thanks-thanked-notice": "$1 {{GENDER:$2|хаам бина}}, {{GENDER:$2|цуна|цера}} нисдар хаза хетта аьлла.",
