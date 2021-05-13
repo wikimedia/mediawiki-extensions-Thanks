@@ -85,7 +85,7 @@ abstract class ApiThank extends ApiBase {
 	 * @return bool Whether thanks has already been sent
 	 */
 	protected function haveAlreadyThanked( User $thanker, $uniqueId ) {
-		$dbw = wfGetDB( DB_MASTER );
+		$dbw = wfGetDB( DB_PRIMARY );
 		$thankerActor = MediaWikiServices::getInstance()->getActorNormalization()
 			->acquireActorId( $thanker, $dbw );
 		return (bool)$dbw->selectRow(
