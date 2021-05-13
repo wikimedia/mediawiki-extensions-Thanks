@@ -37,7 +37,7 @@ abstract class ApiThank extends ApiBase {
 	 * @param User $user
 	 * @param Title $title
 	 */
-	protected function dieOnBlockedUser( User $user, Title $title ) {
+	protected function dieOnUserBlockedFromTitle( User $user, Title $title ) {
 		$permissionManager = MediaWikiServices::getInstance()->getPermissionManager();
 		if ( $permissionManager->isBlockedFrom( $user, $title ) ) {
 			$this->dieBlocked( $user->getBlock() );
@@ -47,14 +47,17 @@ abstract class ApiThank extends ApiBase {
 	/**
 	 * Check whether the user is sitewide blocked.
 	 *
-	 * This is separate from dieOnBlockedUser because we need to know if the thank
-	 * is related to a revision. (If it is, then use dieOnBlockedUser instead.)
+	 * This is separate from dieOnUserBlockedFromTitle because we need to know if the thank
+	 * is related to a revision. (If it is, then use dieOnUserBlockedFromTitle instead.)
 	 *
 	 * @param User $user
 	 */
-	protected function dieOnSitewideBlockedUser( User $user ) {
+	protected function dieOnUserBlockedFromThanks( User $user ) {
 		$block = $user->getBlock();
-		if ( $block && $block->isSitewide() ) {
+		if (
+			$block &&
+			( $block->isSitewide() || $block->appliesToRight( 'thanks' ) )
+		) {
 			$this->dieBlocked( $block );
 		}
 	}

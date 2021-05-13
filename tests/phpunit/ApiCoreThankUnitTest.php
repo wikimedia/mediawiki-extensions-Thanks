@@ -31,7 +31,7 @@ class ApiCoreThankUnitTest extends MediaWikiTestCase {
 	/**
 	 * @dataProvider provideDieOnBadUser
 	 * @covers \MediaWiki\Extension\Thanks\ApiThank::dieOnBadUser
-	 * @covers \MediaWiki\Extension\Thanks\ApiThank::dieOnSitewideBlockedUser
+	 * @covers \MediaWiki\Extension\Thanks\ApiThank::dieOnUserBlockedFromThanks
 	 */
 	public function testDieOnBadUser( $user, $dieMethod, $expectedError ) {
 		$module = $this->getModule();
@@ -103,7 +103,7 @@ class ApiCoreThankUnitTest extends MediaWikiTestCase {
 
 		$testCases[ 'sitewide blocked' ] = [
 			$mockUser,
-			'dieOnSitewideBlockedUser',
+			'dieOnUserBlockedFromThanks',
 			'You have been blocked from editing'
 		];
 
@@ -116,7 +116,7 @@ class ApiCoreThankUnitTest extends MediaWikiTestCase {
 
 		$testCases[ 'partial blocked' ] = [
 			$mockUser,
-			'dieOnSitewideBlockedUser',
+			'dieOnUserBlockedFromThanks',
 			false
 		];
 
