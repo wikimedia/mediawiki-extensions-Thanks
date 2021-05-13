@@ -31,6 +31,7 @@ class ApiCoreThank extends ApiThank {
 		// Initial setup.
 		$user = $this->getUser();
 		$this->dieOnBadUser( $user );
+		$this->dieOnUserBlockedFromThanks( $user );
 		$params = $this->extractRequestParams();
 		$revcreation = false;
 
@@ -58,7 +59,6 @@ class ApiCoreThank extends ApiThank {
 				$id = $logEntry->getAssociatedRevId();
 			} else {
 				// If there's no associated revision, die if the user is sitewide blocked
-				$this->dieOnUserBlockedFromThanks( $user );
 				$excerpt = '';
 				$title = $logEntry->getTarget();
 				$recipient = $this->getUserFromLog( $logEntry );
