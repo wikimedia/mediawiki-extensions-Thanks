@@ -64,22 +64,21 @@ class ApiFlowThankIntegrationTest extends ApiTestCase {
 		$mockLoader = $this->getMockBuilder( \Flow\Repository\RootPostLoader::class )
 			->disableOriginalConstructor()
 			->getMock();
-		$that = $this;
 		$mockLoader->expects( $this->any() )
 			->method( 'getWithRoot' )
 			->willReturnCallback(
-				function ( $postId ) use ( $that ) {
+				function ( $postId ) {
 					switch ( $postId ) {
-						case $that->postByOtherUser->getPostId():
+						case $this->postByOtherUser->getPostId():
 							return [
-								'post' => $that->postByOtherUser,
-								'root' => $that->topic
+								'post' => $this->postByOtherUser,
+								'root' => $this->topic
 							];
 
-						case $that->postByMe->getPostId():
+						case $this->postByMe->getPostId():
 							return [
-								'post' => $that->postByMe,
-								'root' => $that->topic
+								'post' => $this->postByMe,
+								'root' => $this->topic
 							];
 
 						default:
