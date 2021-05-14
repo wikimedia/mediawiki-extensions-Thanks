@@ -59,5 +59,6 @@
 	"notification-flow-thanks-post-link": "вашиот коментар",
 	"notification-header-flow-thank": "$1 {{GENDER:$5|ви}} {{GENDER:$2|благодари}} за вашиот коментар на „<strong>$3</strong>“.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|ви}} се {{GENDER:$2|заблагодари}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Едно лице ви благодари|$1 луѓе ви благодарат|100=Преку 99 луѓе ви благодарат}} за {{GENDER:$3|вашиот}} коментар на „<strong>$2</strong>“."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Едно лице ви благодари|$1 луѓе ви благодарат|100=Преку 99 луѓе ви благодарат}} за {{GENDER:$3|вашиот}} коментар на „<strong>$2</strong>“.",
+	"ipb-action-thanks": "Испраќање на благодарница"
 }

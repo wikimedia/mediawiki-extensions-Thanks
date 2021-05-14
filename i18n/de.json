@@ -69,5 +69,6 @@
 	"notification-flow-thanks-post-link": "deinen Kommentar",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|dankte}} {{GENDER:$5|dir}} für deinen Kommentar „<strong>$3</strong>“.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|dankte}} {{GENDER:$3|dir}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Eine Person dankte|$1 Personen dankten|100=Mehr als 99 Personen dankten}} {{GENDER:$3|dir}} für deinen Kommentar in „<strong>$2</strong>“."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Eine Person dankte|$1 Personen dankten|100=Mehr als 99 Personen dankten}} {{GENDER:$3|dir}} für deinen Kommentar in „<strong>$2</strong>“.",
+	"ipb-action-thanks": "Dankeschöns senden"
 }
