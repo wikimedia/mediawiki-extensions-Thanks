@@ -68,5 +68,6 @@
 	"notification-flow-thanks-post-link": "twój komentarz",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|podziękował|podziękowała|dziękuje}} {{GENDER:$5|Ci}} za komentarz w „<strong>$3</strong>”.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|podziękował|podziękowała|dziękuje}} {{GENDER:$3|Ci}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Jedna osoba|$1 osoby|$1 osób|100=Co najmniej 100 osób}} podziękowało {{GENDER:$3|ci}} za twój komentarz w „<strong>$2</strong>”."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Jedna osoba|$1 osoby|$1 osób|100=Co najmniej 100 osób}} podziękowało {{GENDER:$3|ci}} za twój komentarz w „<strong>$2</strong>”.",
+	"ipb-action-thanks": "Wysyłanie podziękowań"
 }

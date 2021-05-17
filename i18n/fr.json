@@ -81,5 +81,6 @@
 	"notification-flow-thanks-post-link": "votre commentaire",
 	"notification-header-flow-thank": "{{GENDER:$2|$1}} {{GENDER:$5|vous a remercié|vous a remerciée|vous a remercié(e)}} pour votre commentaire dans « <strong>$3</strong> ».",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|vous}} {{GENDER:$3|a remercié|a remerciée}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Une personne|$1 personnes|100=Au moins 100 personnes}} vous {{PLURAL:$1|a|ont}} {{GENDER:$3|remercié|remerciée}} pour votre commentaire sur « <strong>$2</strong> »."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Une personne|$1 personnes|100=Au moins 100 personnes}} vous {{PLURAL:$1|a|ont}} {{GENDER:$3|remercié|remerciée}} pour votre commentaire sur « <strong>$2</strong> ».",
+	"ipb-action-thanks": "Envoi des remerciements"
 }
