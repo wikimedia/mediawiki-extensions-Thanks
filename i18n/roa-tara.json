@@ -57,5 +57,6 @@
 	"notification-flow-thanks-post-link": "'u commende tune",
 	"notification-header-flow-thank": "$1 {{GENDER:$5|te}} {{GENDER:$2|ave rengraziate}} pu commende tune sus a \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|te}} {{GENDER:$2|ave ringraziate}}",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|'Nu crestiane t'ave|$1 crestiane te onne|100=Cchiù de 99 crestiane te onne}} {{GENDER:$3|ringraziate}} pu commende tune sus a \"<strong>$2</strong>\"."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|'Nu crestiane t'ave|$1 crestiane te onne|100=Cchiù de 99 crestiane te onne}} {{GENDER:$3|ringraziate}} pu commende tune sus a \"<strong>$2</strong>\".",
+	"ipb-action-thanks": "Stoche e manne le rengraziaminde"
 }
