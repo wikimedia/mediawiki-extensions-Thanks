@@ -27,6 +27,7 @@ class ApiFlowThank extends ApiThank {
 	public function execute() {
 		$user = $this->getUser();
 		$this->dieOnBadUser( $user );
+		$this->dieOnUserBlockedFromThanks( $user );
 
 		$params = $this->extractRequestParams();
 
