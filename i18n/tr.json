@@ -9,6 +9,7 @@
 			"Macofe",
 			"McAang",
 			"Meelo",
+			"Melissadilara",
 			"Rapsar",
 			"SaldırganSincap",
 			"Sayginer",
@@ -70,5 +71,6 @@
 	"notification-flow-thanks-post-link": "yorumunuz",
 	"notification-header-flow-thank": "$1, {{GENDER:$5|size}} \"<strong>$3</strong>\" yorumunuza {{GENDER:$2|teşekkür etti}}.",
 	"notification-compact-header-flow-thank": "$1, {{GENDER:$3|size}} {{GENDER:$2|teşekkür etti}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Bir kişi|$1 kişi|100=99+ kişi}} \"<strong>$2</strong>\" içindeki yorumunuz için {{GENDER:$3|size}} teşekkür etti."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Bir kişi|$1 kişi|100=99+ kişi}} \"<strong>$2</strong>\" içindeki yorumunuz için {{GENDER:$3|size}} teşekkür etti.",
+	"ipb-action-thanks": "Teşekkür gönderme"
 }

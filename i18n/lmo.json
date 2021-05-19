@@ -57,5 +57,6 @@
 	"notification-flow-thanks-post-link": "el to coment",
 	"notification-header-flow-thank": "{{GENDER:$2|El $1 el|La $1 la|El/la $1 el/la}} {{GENDER:$5|t'hà}} ringrazziad per el to coment in \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "{{GENDER:$2|El $1 el|La $1 la|El/la $1 el/la}} {{GENDER:$3|t'ha ringraziad}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Una persona la t'hà|$1 persone i t'hann|100=Pussée de 99 persone i t'hann}} {{GENDER:$3|ringraziad|ringraziada|ringraziad/a}} per el to coment in \"<strong>$2</strong>\"."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Una persona la t'hà|$1 persone i t'hann|100=Pussée de 99 persone i t'hann}} {{GENDER:$3|ringraziad|ringraziada|ringraziad/a}} per el to coment in \"<strong>$2</strong>\".",
+	"ipb-action-thanks": "Mandà i ringrazziament"
 }
