@@ -10,6 +10,7 @@
 			"Lokal Profil",
 			"Macofe",
 			"MagnusA",
+			"Sabelöga",
 			"Skalman",
 			"WikiPhoenix"
 		]
@@ -67,5 +68,6 @@
 	"notification-flow-thanks-post-link": "din kommentar",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|tackade}} {{GENDER:$5|dig}} för din kommentar på \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|tackade}} {{GENDER:$3|dig}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|En person|$1 personer|100=99+ personer}} tackade {{GENDER:$3|dig}} för din kommentar på \"<strong>$2</strong>\"."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|En person|$1 personer|100=99+ personer}} tackade {{GENDER:$3|dig}} för din kommentar på \"<strong>$2</strong>\".",
+	"ipb-action-thanks": "Skickar tack"
 }
