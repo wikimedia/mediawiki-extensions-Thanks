@@ -17,7 +17,7 @@
 	"thanks-button-action-completed": "Вы {{GENDER:$1|{{GENDER:$2|падзякавалі}}}} $1",
 	"thanks-error-undefined": "Не атрымалася падзякаваць (код памылкі: $1). Калі ласка, паспрабуйце яшчэ раз.",
 	"thanks-error-invalid-log-id": "Запіс журналу ня знойдзены",
-	"thanks-error-invalid-log-type": "Тып журналу «$1» адсутнічае ў белым сьпісе дазволеных.",
+	"thanks-error-invalid-log-type": "Тып журналу «$1» адсутнічае ў сьпісе дазволеных.",
 	"thanks-error-log-deleted": "Запытаны запіс журналу быў выдалены, і за яго немагчыма падзякаваць.",
 	"thanks-error-invalidrevision": "Няслушны ідэнтыфікатар вэрсіі",
 	"thanks-error-revdeleted": "Немагчыма адаслаць падзяку, бо вэрсія была выдаленая.",
