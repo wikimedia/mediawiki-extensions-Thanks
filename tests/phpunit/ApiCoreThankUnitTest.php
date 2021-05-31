@@ -2,6 +2,7 @@
 
 use MediaWiki\Block\DatabaseBlock;
 use MediaWiki\Extension\Thanks\ApiCoreThank;
+use MediaWiki\User\UserIdentityValue;
 
 /**
  * Unit tests for the Thanks API module
@@ -20,7 +21,7 @@ class ApiCoreThankUnitTest extends MediaWikiTestCase {
 	private function createBlock( $options ) {
 		$options = array_merge( [
 			'address' => 'Test user',
-			'by' => 1,
+			'by' => new UserIdentityValue( 1, 'TestUser' ),
 			'reason' => __METHOD__,
 			'timestamp' => wfTimestamp( TS_MW ),
 			'expiry' => 'infinity',
