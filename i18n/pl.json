@@ -47,7 +47,7 @@
 	"echo-pref-tooltip-edit-thank": "Powiadom mnie, kiedy ktoś podziękuje mi za edycję, którą wykonałem.",
 	"echo-category-title-edit-thank": "Podziękowania",
 	"notification-thanks-diff-link": "edycję",
-	"notification-header-rev-thank": "$1 {{GENDER:$2|podziękował|podziękowała|dziękuje}} {{GENDER:$4|Ci}} za edycję na stronie <strong>$3</strong>.",
+	"notification-header-rev-thank": "$1 {{GENDER:$2|podziękował|podziękowała|podziękował(a)}} {{GENDER:$4|Ci}} za edycję na stronie <strong>$3</strong>.",
 	"notification-header-creation-thank": "$1 {{GENDER:$2|podziękował|podziękowała|dziękuje}} {{GENDER:$4|Ci}} za utworzenie strony <strong>$3</strong>.",
 	"notification-header-log-thank": "$1 {{GENDER:$2|podziękował|podziękowała}} {{GENDER:$4|Ci}} za czynność związaną ze stroną <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|podziękował|podziękowała|dziękuje}} {{GENDER:$3|Ci}}.",
