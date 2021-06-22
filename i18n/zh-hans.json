@@ -16,6 +16,7 @@
 			"Northteam",
 			"Phenolla",
 			"Qiyue2001",
+			"Shizhao",
 			"WQL",
 			"Xiaomingyan",
 			"Xiplus",
@@ -81,5 +82,6 @@
 	"notification-flow-thanks-post-link": "您的评论",
 	"notification-header-flow-thank": "$1{{GENDER:$2|感谢了}}{{GENDER:$5|您}}在“<strong>$3</strong>”发表的评论。",
 	"notification-compact-header-flow-thank": "$1{{GENDER:$2|感谢了}}{{GENDER:$3|您}}。",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|$1个人|100=超过99个人}}感谢了{{GENDER:$3|您}}在“<strong>$2</strong>”发表的评论。"
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|$1个人|100=超过99个人}}感谢了{{GENDER:$3|您}}在“<strong>$2</strong>”发表的评论。",
+	"ipb-action-thanks": "发送感谢"
 }
