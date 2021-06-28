@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Misteld"
+			"Misteld",
+			"Samatics"
 		]
 	},
-	"thanks-thank": "{{SUNNU KAVI YỌNNU: $1|{{SUNNU KAVI YỌNNU:$2| awani}}}}"
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|awani}}}}"
 }
