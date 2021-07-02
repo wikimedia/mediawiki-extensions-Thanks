@@ -29,7 +29,7 @@
 	"thanks-button-action-completed": "您{{GENDER:$1|{{GENDER:$2|已感謝}}}}$1",
 	"thanks-error-undefined": "感謝操作失敗 (錯誤代碼：$1)，請再試一次。",
 	"thanks-error-invalid-log-id": "找不到日誌項目",
-	"thanks-error-invalid-log-type": "日誌類型「$1」未在允許的日誌類型白名單裡。",
+	"thanks-error-invalid-log-type": "日誌類型「$1」未在允許日誌類型的清單裡。",
 	"thanks-error-log-deleted": "請求的日誌項目已被刪除，因此不能對此表達感謝。",
 	"thanks-error-invalidrevision": "修訂 ID 無效。",
 	"thanks-error-revdeleted": "因修訂內容已被刪除，因此無法發送感謝。",
@@ -72,5 +72,6 @@
 	"notification-flow-thanks-post-link": "您的評論",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|已感謝}}{{GENDER:$5|您}}於「<strong>$3</strong>」中的評論。",
 	"notification-compact-header-flow-thank": "$1{{GENDER:$2|已感謝}}{{GENDER:$3|您}}。",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|有$1位|100=有超過99位}}對於{{GENDER:$3|您}}在「<strong>$2</strong>」所作出的評論表示感謝。"
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|有$1位|100=有超過99位}}對於{{GENDER:$3|您}}在「<strong>$2</strong>」所作出的評論表示感謝。",
+	"ipb-action-thanks": "正在傳送感謝"
 }
