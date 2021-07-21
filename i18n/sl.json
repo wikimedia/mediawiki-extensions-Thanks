@@ -48,7 +48,7 @@
 	"logentry-thanks-thank": "$1 se je {{GENDER:$2|zahvalil|zahvalila}} {{GENDER:$4|uporabniku|uporabnici}} {{GENDER:$4|$3}}",
 	"logeventslist-thanks-log": "Dnevnik zahval",
 	"thanks-error-no-id-specified": "Določiti morate ID redakcije ali dnevnika, da se lahko zahvalite.",
-	"thanks-confirmation-special-log": "Ali želite javno poslati zahvale za ta dnevniški poseg?",
+	"thanks-confirmation-special-log": "Ali želite javno poslati zahvalo za ta dnevniški poseg?",
 	"thanks-confirmation-special-rev": "Ali želite javno poslati zahvale za to urejanje?",
 	"notification-link-text-view-post": "Ogled pripombe",
 	"notification-link-text-view-logentry": "Prikaži vpis v dnevnik",
