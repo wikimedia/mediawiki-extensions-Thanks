@@ -32,7 +32,7 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 	 */
 	protected $logId;
 
-	public function setUp() : void {
+	public function setUp(): void {
 		parent::setUp();
 
 		$this->uploader = $this->getTestUser( [ 'uploader' ] )->getUser();

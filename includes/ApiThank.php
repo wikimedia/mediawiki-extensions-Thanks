@@ -40,6 +40,8 @@ abstract class ApiThank extends ApiBase {
 	protected function dieOnUserBlockedFromTitle( User $user, Title $title ) {
 		$permissionManager = MediaWikiServices::getInstance()->getPermissionManager();
 		if ( $permissionManager->isBlockedFrom( $user, $title ) ) {
+			// Block should definitely exist
+			// @phan-suppress-next-line PhanTypeMismatchArgumentNullable
 			$this->dieBlocked( $user->getBlock() );
 		}
 	}
