@@ -15,6 +15,7 @@
 	"thanks-button-action-completed": "איר האט {{GENDER:$1|{{GENDER:$2|געדאַנקט}}}}",
 	"thanks-error-undefined": "דאנק אקציע אדורכגעפאלן (פֿעלערקאד: $1). זייט אזוי גוט פרובירט נאכאמאל.",
 	"thanks-error-invalidrevision": "רעוויסיע אידענטיפיצורונג נישט גילטיק.",
+	"thanks-error-revdeleted": "נישט געקענט שיקן א דאַנק ווייַל די רעוויזיע איז געווארן אויסגעמעקט.",
 	"thanks-error-invalidrecipient-bot": "מען קען נישט דאנקען קיין באט",
 	"thanks-error-invalidrecipient-self": "מען קען נישט דאנקען זיך אליין",
 	"thanks-error-notloggedin": "אנאנימע באניצער קענען נישט שיקן דאנקען",
@@ -38,10 +39,14 @@
 	"log-name-thanks": "דאנק־לאגבוך",
 	"log-description-thanks": "אונטן איז רשימה פון באניצער געדאַנקט דורך אנדערע באניצער.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|האט געדאנקט}} {{GENDER:$4|$3}}",
+	"thanks-confirmation-special-log": "צי ווילט איר שיקן עפנטלעך א דאַנק פאר דער לאגירן־פעולה?",
+	"thanks-confirmation-special-rev": "צי ווילט איר שיקן עפֿנטלעך א דאַנק פאר דער רעדאקטירונג?",
 	"notification-link-text-view-post": "ווייזן הערה",
+	"notification-link-text-view-logentry": "באקוקן לאגבוך איינגאב",
 	"flow-thanks-confirmation-special": "צי ווילט איר שיקן עפנטלעך א דאַנק פאר דער הערה?",
 	"flow-thanks-thanked-notice": "{{GENDER:$3|איר}} האט געדאנקט $1 פאר {{GENDER:$2|זיין|איר|זייער}} הערה.",
 	"notification-flow-thanks-post-link": "אייער הערה",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|האט}} {{GENDER:$5|אייך}} געדאַנקט פֿאר אייער הערה אין <strong>$3</strong>.",
-	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|האט געדאנקט}} {{GENDER:$3|אייך}}."
+	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|האט געדאנקט}} {{GENDER:$3|אייך}}.",
+	"ipb-action-thanks": "שיקן א דאנק"
 }
