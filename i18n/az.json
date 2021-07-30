@@ -13,7 +13,7 @@
 	},
 	"thanks-desc": "İstifadəçilərin redaktələrinə, şərhlərinə və s. görə minnətdarlıq üçün keçidləri əlavə edir",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|təşəkkür}}}}",
-	"thanks-thanked": "{{GENDER:$1|{{GENDER:$1|təşəkkür edildi}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|təşəkkür edildi}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Təşəkkür}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Təşəkkür edildi}}}}",
 	"thanks-button-action-queued": "$1 adlı istifadəçiyə {{GENDER:$1|{{GENDER:$2|təşəkkür edilir}}}}…",
