@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"MinecraftAustralia"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|thaenk}}}}"
+}
