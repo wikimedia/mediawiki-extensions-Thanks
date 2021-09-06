@@ -4,11 +4,12 @@
 			"AntanO",
 			"Jayarathina",
 			"Kalyanasundar",
+			"MinecraftAustralia",
 			"Shanmugamp7"
 		]
 	},
 	"thanks-desc": "பயனர்களின் திருத்தங்கள், கருத்துகள் முதலியவற்றிற்கு நன்றி தெரிவிக்கும் இணைப்பை சேர்க்கும்.",
-	"thanks-thank": "நன்றியுரை",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|நன்றி}}}}",
 	"thanks-thanked": "{{GENDER:$1|நன்றியுரைக்கப்பட்டது}}",
 	"thanks-button-thank": "நன்றி!",
 	"thanks-button-thanked": "{{GENDER:$1|நன்றியுரைக்கப்பட்டது}}",
