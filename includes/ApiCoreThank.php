@@ -7,7 +7,6 @@ use DatabaseLogEntry;
 use EchoDiscussionParser;
 use EchoEvent;
 use LogEntry;
-use LogicException;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\RevisionRecord;
 use MediaWiki\User\UserIdentity;
@@ -46,7 +45,6 @@ class ApiCoreThank extends ApiThank {
 			$id = $params['log'];
 		} else {
 			$this->dieWithError( 'thanks-error-api-params', 'thanks-error-api-params' );
-			throw new LogicException();
 		}
 
 		$recipientUsername = null;
