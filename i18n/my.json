@@ -42,5 +42,6 @@
 	"notification-flow-thanks-post-link": "သင်၏မှတ်ချက်",
 	"notification-header-flow-thank": "$1 က \"<strong>$3</strong>\" ရှိ သင်၏မှတ်ချက်အတွက် {{GENDER:$5|သင့်ကို}} {{GENDER:$2|ကျေးဇူးတင်ခဲ့သည်}}။",
 	"notification-compact-header-flow-thank": "$1 က {{GENDER:$3|သင်}}အား {{GENDER:$2|ကျေးဇူးတင်ခဲ့}}သည်။",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|လူတစ်ယောက်|လူ $1 ယောက်|100=99+ လူပေါင်း}} က {{GENDER:$3|သင့်ကို}} <strong>$2</strong> ပေါ်ရှိသင်၏မှတ်ချက်အတွက် ကျေးဇူးတင်ခဲ့သည်။"
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|လူတစ်ယောက်|လူ $1 ယောက်|100=99+ လူပေါင်း}} က {{GENDER:$3|သင့်ကို}} <strong>$2</strong> ပေါ်ရှိသင်၏မှတ်ချက်အတွက် ကျေးဇူးတင်ခဲ့သည်။",
+	"ipb-action-thanks": "ကျေးဇူးတင်မှု ပို့ခြင်း"
 }
