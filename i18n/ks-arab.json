@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Iflaq"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|شُکرِیا}}}}"
+}
