@@ -12,7 +12,7 @@ use MediaWiki\User\UserIdentityValue;
  *
  * @author Addshore
  */
-class ApiCoreThankUnitTest extends MediaWikiTestCase {
+class ApiCoreThankUnitTest extends MediaWikiIntegrationTestCase {
 
 	protected function getModule() {
 		return new ApiCoreThank( new ApiMain(), 'thank' );
