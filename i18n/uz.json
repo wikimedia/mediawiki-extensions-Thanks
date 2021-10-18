@@ -19,7 +19,7 @@
 	"thanks-error-invalidrevision": "Versiya raqami notoʻgʻri.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Siz}} bu amallarni haddan oshiq tez bajaryapsiz. Iltimos bir oz kuting va takrorlang.",
 	"thanks-thank-tooltip": "Bu {{GENDER:$2|foydalanuvchiga}} rahmat {{GENDER:$1|ayt}}",
-	"thanks-confirmation2": "Hammaga rahmat {{GENDER:$1|aytasizmi}}?",
+	"thanks-confirmation2": "Hammaga rahmat {{GENDER:$1|aytilsinmi}}?",
 	"thanks-thanked-notice": "{{GENDER:$2|$1}}ga tahririni {{GENDER:$3|yoqtirganingiz}} haqida bildirildi.",
 	"thanks": "Rahmatni yuborish",
 	"thanks-submit": "Rahmat yuborildi",

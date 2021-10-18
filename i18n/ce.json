@@ -22,7 +22,7 @@
 	"echo-pref-tooltip-edit-thank": "Хаийта соьга, цхьам баркалла аьлча.",
 	"echo-category-title-edit-thank": "Баркалла",
 	"notification-thanks-diff-link": "нисдар",
-	"notification-header-rev-thank": "$1 {{GENDER:$2|хьуна}} {{GENDER:$4|баркалла аьлла}} $3 хӀара агӀо таярна.",
+	"notification-header-rev-thank": "$1 {{GENDER:$2|хьуна}} {{GENDER:$4|баркалла аьлла}} $3 хӀара агӀо тайарна.",
 	"notification-header-creation-thank": "$1 {{GENDER:$4|хьуна}} {{GENDER:$2|баркалла аьлла}} <strong>$3</strong> агӀо кхолларна.",
 	"log-name-thanks": "Баркаллийн тептар",
 	"log-description-thanks": "Кхечу декъашхоша баркалла аьлла болу декъашхой чохь болу тептар.",
