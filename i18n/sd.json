@@ -6,7 +6,7 @@
 			"Sindhu"
 		]
 	},
-	"thanks-desc": "واپرائيندڙن کي سنوارن، تبصرن وغيرہ لاءِ مھرباني چوڻ لاءِ ڳنڍڻا وجھي ٿو",
+	"thanks-desc": "واپرائيندڙن کي سنوارن، راين، وغيرہ لاءِ مھرباني چوڻ لاءِ ڳنڍڻا ڏي ٿو",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|مھرباني چئو}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|مھرباني چيل}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|مھرباني چئو}}}}",
@@ -46,12 +46,12 @@
 	"logeventslist-thanks-log": "مھرباني لاگ",
 	"thanks-confirmation-special-log": "ڇا توھان ھن لاگ عمل لاءِ عوامي طور مھربانيون موڪلڻ چاھيو ٿا؟",
 	"thanks-confirmation-special-rev": "چا توھان ھن سنوار لاءِ عوامي طور مھربانيون موڪلڻ چاھيو ٿا؟",
-	"notification-link-text-view-post": "تبصرو ڏسو",
+	"notification-link-text-view-post": "راءِ ڏسو",
 	"notification-link-text-view-logentry": "لاگ داخلا ڏسو",
 	"flow-thanks-confirmation-special": "ڇا توھان ھن تبصري لاءِ عوامي طور مھربانيون موڪلڻ چاھيو ٿا؟",
-	"flow-thanks-thanked-notice": "{{GENDER:$3|توھان}} $1 کي {{GENDER:$2|ھن|ھن|انھن}} کي تبصري لاءِ مھرباني چئي.",
-	"notification-flow-thanks-post-link": "توھان جو تبصرو",
-	"notification-header-flow-thank": "$1 {{GENDER:$5|توھان}} کي \"<strong>$3</strong>\" ۾ تبصري لاءِ {{GENDER:$2|مھرباني چئي}}.",
+	"flow-thanks-thanked-notice": "{{GENDER:$3|توھان}} $1 کي {{GENDER:$2|ھن|ھن|انھن}} کي راءِ لاءِ مھرباني چئي.",
+	"notification-flow-thanks-post-link": "توھان جي راءِ",
+	"notification-header-flow-thank": "$1 {{GENDER:$5|توھان}} کي \"<strong>$3</strong>\" ۾ راءِ لاءِ {{GENDER:$2|مھرباني چئي}}.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|توھان}} کي {{GENDER:$2|مھرباني چئي}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|ھڪ  شخص|$1 ماڻھن|100=99+ ماڻھن}}  {{GENDER:$3|توھان}} کي \"<strong>$2</strong>\" ۾ تبصري لاءِ مھرباني چئي."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|ھڪ  شخص|$1 ماڻھن|100=99+ ماڻھن}}  {{GENDER:$3|توھان}} کي \"<strong>$2</strong>\" ۾ راءِ لاءِ مھرباني چئي."
 }
