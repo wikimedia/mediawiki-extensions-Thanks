@@ -16,9 +16,11 @@
 	"thanks-button-action-completed": "توھان $1 کي {{GENDER:$1|{{GENDER:$2|مھرباني چئي}}}}",
 	"thanks-error-undefined": "مھرباني چوڻ جو عمل ناڪام (چڪ ڪوڊ: $1). مھرباني ڪري ٻيھر ڪوشش ڪريو.",
 	"thanks-error-invalid-log-id": "لاگ داخلا نہ لڌي",
+	"thanks-error-invalid-log-type": "لاگ جو قسم '$1' اجازت ڏنل لاگن جي قسمن جي فھرست ۾ نہ آھي.",
 	"thanks-error-log-deleted": "گھريل لاگ داخلا ڊاھي وئي آھي ۽ ان لاءِ مھرباني نٿي ڏئي سگھجي.",
 	"thanks-error-invalidrevision": "ورجاءُ آئِڊي قابلِڪار ناھي.",
 	"thanks-error-revdeleted": "مھرباني چوڻ ۾ ناڪامي ڇوتہ ورجاءُ ڊاھيو ويو آھي.",
+	"thanks-error-notitle": "صفحي جو عنوان رِٽريوِ نٿي ڪري سگهيو",
 	"thanks-error-invalidrecipient": "ڪوبہ قابلِڪار وصول ڪندڙ نہ لڌو",
 	"thanks-error-invalidrecipient-bot": "بوٽن کي مھرباني نٿي چئي سگھجي",
 	"thanks-error-invalidrecipient-self": "توھان پنھنجو پاڻ کي مھرباني نٿا چئي سگھو",
@@ -53,5 +55,6 @@
 	"notification-flow-thanks-post-link": "توھان جي راءِ",
 	"notification-header-flow-thank": "$1 {{GENDER:$5|توھان}} کي \"<strong>$3</strong>\" ۾ راءِ لاءِ {{GENDER:$2|مھرباني چئي}}.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|توھان}} کي {{GENDER:$2|مھرباني چئي}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|ھڪ  شخص|$1 ماڻھن|100=99+ ماڻھن}}  {{GENDER:$3|توھان}} کي \"<strong>$2</strong>\" ۾ راءِ لاءِ مھرباني چئي."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|ھڪ  شخص|$1 ماڻھن|100=99+ ماڻھن}}  {{GENDER:$3|توھان}} کي \"<strong>$2</strong>\" ۾ راءِ لاءِ مھرباني چئي.",
+	"ipb-action-thanks": "مھربانيون موڪلڻ"
 }
