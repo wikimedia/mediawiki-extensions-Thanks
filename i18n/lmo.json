@@ -5,7 +5,7 @@
 		]
 	},
 	"thanks-desc": "El sgionta un conligament per ringrazzià i utent per i modifiche, i coment, eccetera.",
-	"thanks-thank": "{{GENDER:$1|el {{GENDER:$2|ringrazzia}}|la {{GENDER:$2|ringrazzia}}}}",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ringrazziel}}|{{GENDER:$2|ringrazziala}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|ringraziad|ringraziada|ringraziad/da}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Ringrazzia}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Ringraziado|Ringraziada|Ringraziad/da}}}}",
