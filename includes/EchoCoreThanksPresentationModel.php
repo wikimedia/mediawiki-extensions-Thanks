@@ -66,13 +66,17 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 
 	public function getBodyMessage() {
 		$comment = $this->getRevOrLogComment();
-		if ( $comment ) {
+		if ( $comment !== '' ) {
 			$msg = new RawMessage( '$1' );
 			$msg->plaintextParams( $comment );
 			return $msg;
 		}
+		return false;
 	}
 
+	/**
+	 * @return string|bool The comment or false if it could not be retrieved.
+	 */
 	private function getRevisionEditSummary() {
 		if ( !$this->userCan( RevisionRecord::DELETED_COMMENT ) ) {
 			return false;
@@ -90,9 +94,9 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 	/**
 	 * Get the comment/summary/excerpt of the log entry or revision,
 	 * for use in the notification body.
-	 * @return string|bool The comment or false if it could not be retrieved.
+	 * @return string
 	 */
-	protected function getRevOrLogComment() {
+	protected function getRevOrLogComment(): string {
 		if ( $this->event->getExtraParam( 'logid' ) ) {
 			$logEntry = $this->getLogEntry();
 			if ( !$logEntry ) {
@@ -106,13 +110,14 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 		} else {
 			// Try to get edit summary.
 			$summary = $this->getRevisionEditSummary();
-			if ( $summary ) {
+			if ( $summary !== false && $summary !== '' ) {
 				return $summary;
 			}
 			// Fallback on edit excerpt.
 			if ( $this->userCan( RevisionRecord::DELETED_TEXT ) ) {
-				return $this->event->getExtraParam( 'excerpt', false );
+				return $this->event->getExtraParam( 'excerpt', '' );
 			}
+			return '';
 		}
 	}
 
