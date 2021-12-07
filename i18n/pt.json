@@ -28,7 +28,7 @@
 	"thanks-button-action-completed": "Você {{GENDER:$1|{{GENDER:$2|agradeceu a}}}} $1",
 	"thanks-error-undefined": "A ação de agradecimento falhou (código de erro: $1). Por favor, tente novamente.",
 	"thanks-error-invalid-log-id": "A entrada do registo não foi encontrada",
-	"thanks-error-invalid-log-type": "O tipo de registo '$1' não consta da lista branca dos tipos de registo permitidos.",
+	"thanks-error-invalid-log-type": "O tipo de registo '$1' não consta da lista dos tipos de registo permitidos.",
 	"thanks-error-log-deleted": "A entrada de registo solicitada foi eliminada e não se pode dar agradecimentos por ela.",
 	"thanks-error-invalidrevision": "O ID de revisão não é válido.",
 	"thanks-error-revdeleted": "Não é possível enviar o agradecimento, porque a revisão foi eliminada.",

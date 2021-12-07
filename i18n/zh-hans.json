@@ -24,7 +24,9 @@
 			"沈澄心",
 			"王庭茂",
 			"神樂坂秀吉",
-			"飞舞回堂前"
+			"飞舞回堂前",
+			"Lakejason0",
+			"Shizhao"
 		]
 	},
 	"thanks-desc": "添加感谢用户进行编辑、评论等行为的链接。",
@@ -37,7 +39,7 @@
 	"thanks-button-action-completed": "您已{{GENDER:$1|{{GENDER:$2|感谢}}}}$1",
 	"thanks-error-undefined": "感谢操作失败（错误代码：$1）。请重试。",
 	"thanks-error-invalid-log-id": "找不到日志记录",
-	"thanks-error-invalid-log-type": "日志类型“$1”没有在允许的日志类型白名单中。",
+	"thanks-error-invalid-log-type": "日志类型“$1”没有在允许的日志类型名单中。",
 	"thanks-error-log-deleted": "请求的日志记录已删除，且不能给它提供感谢。",
 	"thanks-error-invalidrevision": "版本ID无效。",
 	"thanks-error-revdeleted": "无法发送感谢，因为修订版本已删除。",

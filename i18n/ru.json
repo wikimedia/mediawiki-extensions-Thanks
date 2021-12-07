@@ -33,7 +33,7 @@
 	"thanks-button-action-completed": "Вы {{GENDER:$1|{{GENDER:$2|поблагодарили}}}} $1",
 	"thanks-error-undefined": "Попытка поблагодарить не удалась (код ошибки: $1). Пожалуйста, пробуйте ещё раз.",
 	"thanks-error-invalid-log-id": "Запись журнала не найдена",
-	"thanks-error-invalid-log-type": "Тип журнала «$1» не находится в белом списке разрешённых.",
+	"thanks-error-invalid-log-type": "Тип журнала '$1' не находится в списке разрешённых.",
 	"thanks-error-log-deleted": "Запрошенная запись журнала была удалена, невозможно дать за неё благодарность.",
 	"thanks-error-invalidrevision": "Некорректный номер версии.",
 	"thanks-error-revdeleted": "Не удалось отправить благодарность, поскольку эта версия была удалена.",

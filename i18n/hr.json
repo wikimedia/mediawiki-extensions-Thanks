@@ -7,7 +7,8 @@
 			"Neptune, the Mystic",
 			"Roberta F.",
 			"Srdjan m",
-			"Teoo3"
+			"Teoo3",
+			"Ponor"
 		]
 	},
 	"thanks-desc": "Dodaje poveznice za zahvaljivanje suradnicima na njihovim uređivanjima, komentarima itd.",
@@ -18,7 +19,7 @@
 	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|Zahvaljivanje}}}} $1…",
 	"thanks-button-action-cancel": "Otkaži",
 	"thanks-button-action-completed": "Zahvalili {{GENDER:$2|ste}} {{GENDER:$1|suradniku|suradnici|suradnici/suradniku}} $1",
-	"thanks-error-undefined": "Zahvaljivanje nije uspjelo (kôd pogrješke: $1). Pokušajte ponovo.",
+	"thanks-error-undefined": "Zahvaljivanje nije uspjelo (kôd pogreške: $1). Pokušajte ponovo.",
 	"thanks-error-invalid-log-id": "Evidencijska stavka nije pronađena",
 	"thanks-error-invalid-log-type": "Evidencijska vrsta »$1« nije na bijeloj listi dopuštenih vrsta evidencija.",
 	"thanks-error-log-deleted": "Zahtijevana evidencijska stavka bila je izbrisana i zahvala ne može biti dana za nju.",

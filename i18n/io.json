@@ -20,6 +20,7 @@
 	"notification-bundle-header-log-thank": "{{PLURAL:$1|Ulu|$1 personi|100= plu kam 99 personi}} dankis {{GENDER:$3|vu}} pro vua agado pri <strong>$2</strong>.",
 	"log-name-thanks": "Protokolo pri danko",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|dankis}} a {{GENDER:$4|$3}}",
+	"thanks-confirmation-special-rev": "Ka vu deziras dankar publike ca redaktero pro ilua redakto?",
 	"notification-link-text-view-post": "Videz komento",
 	"flow-thanks-confirmation-special": "Ka vu deziras dankar publike ca komento?",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|dankis}} {{GENDER:$5|vu}} pro vua komento pri «<strong>$3</strong>».",

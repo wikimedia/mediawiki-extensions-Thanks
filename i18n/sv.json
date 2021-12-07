@@ -11,7 +11,8 @@
 			"Macofe",
 			"MagnusA",
 			"Skalman",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Sabelöga"
 		]
 	},
 	"thanks-desc": "Lägger till länkar för att tacka användare för redigeringar, kommentarer, etc.",
@@ -24,7 +25,7 @@
 	"thanks-button-action-completed": "Du {{GENDER:$1|{{GENDER:$2|tackade}}}} $1",
 	"thanks-error-undefined": "Tackåtgärden misslyckades (felkod: $1). Var god försök igen.",
 	"thanks-error-invalid-log-id": "Loggpost hittades inte",
-	"thanks-error-invalid-log-type": "Loggtypen \"$1\" är inte i vitlistan över tillåtna loggtyper.",
+	"thanks-error-invalid-log-type": "Loggtypen \"$1\" är inte i listan över tillåtna loggtyper.",
 	"thanks-error-log-deleted": "Den begärda loggposten har raderats och tacket kan inte ges för den.",
 	"thanks-error-invalidrevision": "Versions-ID är inte giltigt.",
 	"thanks-error-revdeleted": "Kunde inte skicka tack eftersom sidversionen har raderats.",
