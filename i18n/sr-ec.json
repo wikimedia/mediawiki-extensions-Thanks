@@ -7,7 +7,8 @@
 			"Obsuser",
 			"Zoranzoki21",
 			"Милан Јелисавчић",
-			"Сербијана"
+			"Сербијана",
+			"Kizule"
 		]
 	},
 	"thanks-desc": "Додаје линкове за захваљивање корисницима за њихове измене, коментаре итд.",
@@ -39,15 +40,15 @@
 	"echo-pref-tooltip-edit-thank": "Обавештава вас када вам се неко захвали за измену коју сте направили.",
 	"echo-category-title-edit-thank": "Захвалнице",
 	"notification-thanks-diff-link": "вашој измени",
-	"notification-header-rev-thank": "$1 вам се {{GENDER:$2|захвалио|захвалила|захвалио/ла}} на {{GENDER:$4|вашој}} измени странице <strong>$3</strong>.",
-	"notification-header-creation-thank": "$1 {{GENDER:$4|вам}} се {{GENDER:$2|захвалио|захвалила|захвалио/ла}} на вашем прављењу странице <strong>$3</strong>.",
-	"notification-header-log-thank": "$1 вам се {{GENDER:$2|захвалио|захвалила|захвалио/ла}} на {{GENDER:$4|вашој}} радњи на страници <strong>$3</strong>.",
-	"notification-compact-header-edit-thank": "$1 {{GENDER:$3|вам}} се {{GENDER:$2|захвалио|захвалила|захвалио/ла}}.",
+	"notification-header-rev-thank": "$1 {{GENDER:$4|Вам}} се {{GENDER:$2|захваљује}} на измени странице <strong>$3</strong>.",
+	"notification-header-creation-thank": "$1 {{GENDER:$4|Вам}} се {{GENDER:$2|захваљује}} на прављењу странице <strong>$3</strong>.",
+	"notification-header-log-thank": "$1 {{GENDER:$4|Вам}} се {{GENDER:$2|захваљује}} на радњи у вези са страницом <strong>$3</strong>.",
+	"notification-compact-header-edit-thank": "$1 {{GENDER:$3|Вам}} се {{GENDER:$2|захваљује}}.",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Једна особа вам се захвалила|$1 особе су вам се захвалиле|$1 особа вам се захвалило|100=>&thinsp;99 особа вам се захвалило}} на {{GENDER:$3|вашој}} измени странице <strong>$2</strong>.",
 	"notification-bundle-header-log-thank": "{{PLURAL:$1|Једна особа вам се захвалила|$1 особе су вам се захвалиле|$1 особа вам се захвалило|100=>&thinsp;99 особа вам се захвалило}} на {{GENDER:$3|вашој}} радњи на страници <strong>$2</strong>.",
 	"log-name-thanks": "Дневник захвалница",
 	"log-description-thanks": "Испод се налази списак корисника којима су се други корисници захвалили.",
-	"logentry-thanks-thank": "$1 се {{GENDER:$2|захвалио|захвалила|захвалио/ла}} {{GENDER:$4|кориснику|корисници|кориснику/ци}} {{GENDER:$4|$3}}",
+	"logentry-thanks-thank": "$1 се {{GENDER:$2|захвалио|захвалила|захвалио/-ла}} {{GENDER:$4|кориснику|корисници}} {{GENDER:$4|$3}}",
 	"logeventslist-thanks-log": "Дневник захвалница",
 	"thanks-error-no-id-specified": "Морате навести ID измене или дневника да бисте послали захвалницу.",
 	"thanks-confirmation-special-log": "Желите ли да јавно пошаљете захваљивање за ову радњу у дневнику?",
@@ -58,7 +59,7 @@
 	"flow-thanks-confirmation-special": "Желите ли да јавно пошаљете захвалницу за овај коментар?",
 	"flow-thanks-thanked-notice": "{{GENDER:$3|Захвалили}} сте се {{GENDER:$2|кориснику|корисници}} $1 на {{GENDER:$2|његовом|њеном}} коментар.",
 	"notification-flow-thanks-post-link": "вашем коментару",
-	"notification-header-flow-thank": "$1 вам се {{GENDER:$2|захвалио|захвалила|захвалио/ла}} на {{GENDER:$5|вашем}} коментару у одељку „<strong>$3</strong>”.",
-	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|вам}} се {{GENDER:$2|захвалио|захвалила|захвалио/ла}}",
+	"notification-header-flow-thank": "$1 {{GENDER:$5|Вам}} се {{GENDER:$2|захваљује}} на коментару у одељку „<strong>$3</strong>”.",
+	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|Вам}} се {{GENDER:$2|захваљује}}.",
 	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Једна особа вам се захвалила|$1 особе су вам се захвалиле|$1 особа вам се захвалило|100=>&thinsp;99 особа вам се захвалило}} на {{GENDER:$3|вашем}} коментару у „<strong>$2</strong>”."
 }

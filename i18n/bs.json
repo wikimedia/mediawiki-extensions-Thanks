@@ -5,7 +5,8 @@
 			"Edinwiki",
 			"KWiki",
 			"Macofe",
-			"Srdjan m"
+			"Srdjan m",
+			"Srđan"
 		]
 	},
 	"thanks-desc": "Dodaje mogućnost zahvaljivanja korisnicima za izmjene, komentare, itd.",
@@ -32,6 +33,7 @@
 	"echo-category-title-edit-thank": "Zahvale",
 	"notification-thanks-diff-link": "vašoj izmjeni",
 	"notification-header-rev-thank": "$1 Vam se {{GENDER:$2|zahvalio|zahvalila}} na {{GENDER:$4|Vašoj}} izmjeni stranice <strong>$3</strong>.",
+	"notification-header-creation-thank": "$1 {{GENDER:$2|zahvalio|zahvalila|zahvalio/-la}} {{GENDER:$4|Vam}} se na stvaranju stranice <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$3|Vam}} se {{GENDER:$2|zahvalio|zahvalila}}.",
 	"log-name-thanks": "Zapisnik zahvalnica",
 	"log-description-thanks": "Ispod se nalazi spisak korisnika kojima su se drugi korisnici zahvalili.",

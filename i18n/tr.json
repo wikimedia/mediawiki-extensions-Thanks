@@ -12,7 +12,10 @@
 			"Rapsar",
 			"Sayginer",
 			"Stultiwikia",
-			"Vito Genovese"
+			"Vito Genovese",
+			"Melissadilara",
+			"SaldırganSincap",
+			"Sezgin İbiş"
 		]
 	},
 	"thanks-desc": "Tarih ve fark görünümüne teşekkür bağlantısı ekler",
@@ -47,15 +50,15 @@
 	"echo-pref-tooltip-edit-thank": "Yaptığım katkılar için yapılan teşekkürleri bana bildir.",
 	"echo-category-title-edit-thank": "Teşekkürler",
 	"notification-thanks-diff-link": "değişikliğiniz",
-	"notification-header-rev-thank": "$1 kullanıcısı <strong>$3</strong> sayfasındaki değişikliğiniz için {{GENDER:$4|size}} {{GENDER:$2|teşekkür etti}}.",
+	"notification-header-rev-thank": "$1, <strong>$3</strong> sayfasındaki değişikliğiniz için {{GENDER:$4|size}} {{GENDER:$2|teşekkür etti}}.",
 	"notification-header-creation-thank": "$1, <strong>$3</strong> sayfasını oluşturduğunuz için {{GENDER:$4|size}} {{GENDER:$2|teşekkür etti}}.",
 	"notification-header-log-thank": "$1, <strong>$3</strong> ile ilgili eyleminiz için {{GENDER:$4|size}} {{GENDER:$2|teşekkür etti}}.",
-	"notification-compact-header-edit-thank": "$1 {{GENDER:$3|size}} {{GENDER:$2|teşekkür etti}}.",
+	"notification-compact-header-edit-thank": "$1, {{GENDER:$3|size}} {{GENDER:$2|teşekkür etti}}.",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Bir kişi|$1 kişi|100=99+ kişi}} <strong>$2</strong> sayfasındaki düzenlemeniz için {{GENDER:$3|size}} teşekkür etti.",
 	"notification-bundle-header-log-thank": "{{PLURAL:$1|Bir kişi|$1 kişi|100=99+ kişi}} <strong>$2</strong> ile ilgili işleminiz için {{GENDER:$3|size}} teşekkür etti.",
 	"log-name-thanks": "Teşekkür günlüğü",
 	"log-description-thanks": "Diğer teşekkür eden kullanıcılar aşağıda listelenmektedir.",
-	"logentry-thanks-thank": "$1 {{GENDER:$2}}, {{GENDER:$4|$3}} kullanıcısına teşekkür etti.",
+	"logentry-thanks-thank": "$1, {{GENDER:$4|$3}} kullanıcısına {{GENDER:$2|teşekkür etti}}.",
 	"logeventslist-thanks-log": "Teşekkür günlüğü",
 	"thanks-error-no-id-specified": "Teşekkür göndermek için bir revizyon veya günlük kimliği belirtmelisiniz.",
 	"thanks-confirmation-special-log": "Bu günlük işlemi için herkese açık olarak teşekkür etmek ister misiniz?",
@@ -67,6 +70,6 @@
 	"flow-thanks-thanked-notice": "$1 {{GENDER:$2|kullanıcısına}} yorumuna {{GENDER:$3|teşekkür ettiniz}}.",
 	"notification-flow-thanks-post-link": "yorumunuz",
 	"notification-header-flow-thank": "$1, {{GENDER:$5|size}} \"<strong>$3</strong>\" yorumunuza {{GENDER:$2|teşekkür etti}}.",
-	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|size}} {{GENDER:$2|teşekkür etti}}.",
+	"notification-compact-header-flow-thank": "$1, {{GENDER:$3|size}} {{GENDER:$2|teşekkür etti}}.",
 	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Bir kişi|$1 kişi|100=99+ kişi}} \"<strong>$2</strong>\" içindeki yorumunuz için {{GENDER:$3|size}} teşekkür etti."
 }

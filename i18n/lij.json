@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Giromin Cangiaxo",
-			"S4b1nuz E.656"
+			"S4b1nuz E.656",
+			"N. Longo"
 		]
 	},
 	"thanks-desc": "A l'azonze un ingancio pe ringrassiâ i utenti pe de modiffiche, di commenti, ecc.",
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ringrassia}}}}",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ringràçia}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|ringrassiou|ringrassiâ|ringrassiou/â}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Ringrassia}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|ringrassiou|ringrassiâ|ringrassiou/â}}}}",

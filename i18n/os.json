@@ -4,6 +4,6 @@
 			"Amikeco"
 		]
 	},
-	"thanks-thank": "бузныг",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|бузныг зæгъ}}}}",
 	"thanks-button-thank": "Бузныг зæгъын"
 }
