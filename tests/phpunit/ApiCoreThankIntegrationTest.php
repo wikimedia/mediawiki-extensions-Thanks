@@ -41,9 +41,12 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 		$pageName = __CLASS__;
 		$content = __CLASS__;
 		$pageTitle = Title::newFromText( $pageName );
+
+		$wikiPageFactory = $this->getServiceContainer()->getWikiPageFactory();
+
 		// If the page already exists, delete it, otherwise our edit will not result in a new revision
 		if ( $pageTitle->exists() ) {
-			$wikiPage = WikiPage::factory( $pageTitle );
+			$wikiPage = $wikiPageFactory->newFromTitle( $pageTitle );
 			$wikiPage->doDeleteArticleReal( '', $user );
 		}
 		$result = $this->editPage( $pageName, $content, 'Summary', NS_MAIN, $user );
@@ -55,7 +58,7 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 
 		// Create a 2nd page and delete it, so we can thank for the log entry.
 		$pageToDeleteTitle = Title::newFromText( 'Page to delete' );
-		$pageToDelete = WikiPage::factory( $pageToDeleteTitle );
+		$pageToDelete = $wikiPageFactory->newFromTitle( $pageToDeleteTitle );
 
 		$updater = $pageToDelete->newPageUpdater( $user );
 		$updater->setcontent(
