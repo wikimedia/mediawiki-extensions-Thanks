@@ -100,17 +100,15 @@ class Hooks {
 			return;
 		}
 
-		$recipient = User::newFromIdentity( $recipient );
-
-		$user = User::newFromIdentity( $userIdentity );
+		$user = MediaWikiServices::getInstance()->getUserFactory()->newFromUserIdentity( $userIdentity );
 
 		// Don't let users thank themselves.
 		// Exclude anonymous users.
 		// Exclude users who are blocked.
 		// Check whether bots are allowed to receive thanks.
 		// Don't allow thanking for a diff that includes multiple revisions
-		if ( !$user->isAnon()
-			&& !$user->equals( $recipient )
+		if ( $userIdentity->isRegistered()
+			&& !$userIdentity->equals( $recipient )
 			&& !self::isUserBlockedFromTitle( $user, $revisionRecord->getPageAsLinkTarget() )
 			&& !self::isUserBlockedFromThanks( $user )
 			&& !$user->isBlockedGlobally()
@@ -154,17 +152,18 @@ class Hooks {
 	/**
 	 * Check whether a user is allowed to receive thanks or not
 	 *
-	 * @param User $user Recipient
+	 * @param UserIdentity $user Recipient
 	 * @return bool true if allowed, false if not
 	 */
-	protected static function canReceiveThanks( User $user ) {
+	protected static function canReceiveThanks( UserIdentity $user ) {
 		global $wgThanksSendToBots;
 
-		if ( $user->isAnon() || $user->isSystemUser() ) {
+		$legacyUser = MediaWikiServices::getInstance()->getUserFactory()->newFromUserIdentity( $user );
+		if ( !$user->isRegistered() || $legacyUser->isSystemUser() ) {
 			return false;
 		}
 
-		if ( !$wgThanksSendToBots && $user->isBot() ) {
+		if ( !$wgThanksSendToBots && $legacyUser->isBot() ) {
 			return false;
 		}
 
@@ -176,12 +175,12 @@ class Hooks {
 	 * Creates either a thank link or thanked span based on users session
 	 * @param int $id Revision or log ID to generate the thank element for.
 	 * @param User $sender User who sends thanks notification.
-	 * @param User $recipient User who receives thanks notification.
+	 * @param UserIdentity $recipient User who receives thanks notification.
 	 * @param string $type Either 'revision' or 'log'.
 	 * @return string
 	 */
 	protected static function generateThankElement(
-		$id, User $sender, User $recipient, $type = 'revision'
+		$id, User $sender, UserIdentity $recipient, $type = 'revision'
 	) {
 		// Check if the user has already thanked for this revision or log entry.
 		// Session keys are backwards-compatible, and are also used in the ApiCoreThank class.
@@ -347,7 +346,7 @@ class Hooks {
 		if ( $rev
 			&& ExtensionRegistry::getInstance()->isLoaded( 'MobileFrontend' )
 			&& $rev->getUser()
-			&& self::canReceiveThanks( User::newFromIdentity( $rev->getUser() ) )
+			&& self::canReceiveThanks( $rev->getUser() )
 			&& $output->getUser()->isRegistered()
 		) {
 			$output->addModules( [ 'ext.thanks.mobilediff' ] );
@@ -482,9 +481,7 @@ class Hooks {
 		// or if recipient is the current user or unable to receive thanks.
 		// Don't check for deleted revision (this avoids extraneous queries from Special:Log).
 
-		$recipient = MediaWikiServices::getInstance()
-			->getUserFactory()
-			->newFromUserIdentity( $entry->getPerformerIdentity() );
+		$recipient = $entry->getPerformerIdentity();
 		if ( $recipient->getId() === $user->getId() || !self::canReceiveThanks( $recipient ) ) {
 			return;
 		}
