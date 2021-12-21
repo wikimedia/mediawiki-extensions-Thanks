@@ -192,7 +192,7 @@ class ApiFlowThankIntegrationTest extends ApiTestCase {
 			'rev_type' => 'post',
 			'rev_user_id' => $userId,
 			'rev_user_ip' => $userIp,
-			'rev_user_wiki' => wfWikiID(),
+			'rev_user_wiki' => WikiMap::getCurrentWikiId(),
 			'rev_parent_id' => null,
 			'rev_flags' => 'html',
 			'rev_content' => 'test content',
@@ -215,7 +215,7 @@ class ApiFlowThankIntegrationTest extends ApiTestCase {
 			'tree_orig_create_time' => wfTimestampNow(),
 			'tree_orig_user_id' => $userId,
 			'tree_orig_user_ip' => $userIp,
-			'tree_orig_user_wiki' => wfWikiID(),
+			'tree_orig_user_wiki' => WikiMap::getCurrentWikiId(),
 			'tree_parent_id' => null,
 		];
 	}
