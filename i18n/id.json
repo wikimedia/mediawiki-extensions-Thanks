@@ -66,5 +66,6 @@
 	"notification-flow-thanks-post-link": "komentar Anda",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|mengucapkan terima kasih}} kepada {{GENDER:$5|Anda}} atas komentar di \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|mengirimkan terima kasih}} kepada {{GENDER:$3|Anda}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Satu orang|$1 orang|100=99+ orang}} berterima kasih kepada {{GENDER:$3|Anda}} atas komentar di \"<strong>$2</strong>\"."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Satu orang|$1 orang|100=99+ orang}} berterima kasih kepada {{GENDER:$3|Anda}} atas komentar di \"<strong>$2</strong>\".",
+	"ipb-action-thanks": "Mengirimkan ucapan terima kasih"
 }
