@@ -72,9 +72,6 @@
 		new Icon( {
 			name: 'userTalk',
 			glyphPrefix: 'thanks',
-			// Use 'type' instead of 'hasText'. Remove 'hasText' when the following patch is merged
-			// https://gerrit.wikimedia.org/r/c/mediawiki/skins/MinervaNeue/+/740684
-			hasText: true,
 			type: 'before',
 			label: mw.msg( 'thanks-button-thank', mw.user, gender )
 		} ).$el.appendTo( $button );
