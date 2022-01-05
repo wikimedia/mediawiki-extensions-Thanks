@@ -13,7 +13,8 @@
 			"Rodney Araujo",
 			"Savh",
 			"Sethladan",
-			"Themasterriot"
+			"Themasterriot",
+			"-sasha-"
 		]
 	},
 	"thanks-desc": "Añade enlaces para agradecer a los usuarios las ediciones, comentarios, etc.",
@@ -55,7 +56,7 @@
 	"notification-bundle-header-log-thank": "{{PLURAL:$1|Una persona|$1 personas|100=Más de 99 personas}} {{PLURAL:$1|agradeció|agradecieron}} {{GENDER:$3|tu}} acción en <strong>$2</strong>.",
 	"log-name-thanks": "Registro de agradecimientos",
 	"log-description-thanks": "A continuación se muestra una lista de usuarios agradecidos por otros usuarios.",
-	"logentry-thanks-thank": "$1 {{GENDER:$2|se lo agradeció}} a {{GENDER:$4|$3}}",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|le dio las gracias}} a {{GENDER:$4|$3}}",
 	"logeventslist-thanks-log": "Registro de agradecimientos",
 	"thanks-error-no-id-specified": "Debes especificar una revisión o un identificador de registro para enviar agradecimientos.",
 	"thanks-confirmation-special-log": "¿Quieres agradecer públicamente esta acción del registro?",
