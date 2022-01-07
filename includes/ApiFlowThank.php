@@ -176,7 +176,7 @@ class ApiFlowThank extends ApiThank {
 			'agent' => $user,
 		] );
 
-		// And mark the thank in session for a cheaper check to prevent duplicates (Bug 46690).
+		// And mark the thank in session for a cheaper check to prevent duplicates (T48690).
 		$user->getRequest()->setSessionData( "flow-thanked-{$postId->getAlphadecimal()}", true );
 		// Set success message.
 		$this->markResultSuccess( $recipient->getName() );

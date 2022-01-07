@@ -48,8 +48,8 @@
 			$elements = $(),
 			self = this;
 
-		selectors.forEach( function ( selector ) {
-			$elements = $elements.add( jQueryFindWithParent( self, selector ) );
+		selectors.forEach( function ( sel ) {
+			$elements = $elements.add( jQueryFindWithParent( self, sel ) );
 		} );
 
 		return $elements;

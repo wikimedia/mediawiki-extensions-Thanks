@@ -4,9 +4,10 @@
  * @package Thanks
  */
 
-/* eslint-env node, es6 */
+'use strict';
+
 module.exports = function ( grunt ) {
-	var conf = grunt.file.readJSON( 'extension.json' );
+	const conf = grunt.file.readJSON( 'extension.json' );
 
 	grunt.loadNpmTasks( 'grunt-banana-checker' );
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
@@ -20,7 +21,7 @@ module.exports = function ( grunt ) {
 			},
 			all: [
 				'**/*.{js,json}',
-				'!{vendor,node_modules}/**'
+				'!{vendor,node_modules,docs}/**'
 			]
 		},
 		banana: conf.MessagesDirs,
