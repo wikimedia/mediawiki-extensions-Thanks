@@ -1,10 +1,12 @@
 ( function () {
 	'use strict';
 
+	var attrName = 'data-revision-id';
+
 	function reloadThankedState() {
 		$( 'a.mw-thanks-thank-link' ).each( function ( idx, el ) {
 			var $thankLink = $( el );
-			if ( mw.thanks.thanked.contains( $thankLink ) ) {
+			if ( mw.thanks.thanked.contains( $thankLink.attr( attrName ) ) ) {
 				$thankLink.before(
 					$( '<span>' ).addClass( 'mw-thanks-thank-confirmation' ).text(
 						mw.msg( 'thanks-thanked', mw.user, $thankLink.data( 'recipient-gender' ) ) )
@@ -52,7 +54,7 @@
 				function () {
 					$thankElement.before( mw.message( 'thanks-thanked', mw.user, $thankLink.data( 'recipient-gender' ) ).escaped() );
 					$thankElement.remove();
-					mw.thanks.thanked.push( $thankLink );
+					mw.thanks.thanked.push( $thankLink.attr( attrName ) );
 				},
 				// Fail
 				function ( errorCode ) {

@@ -1,11 +1,10 @@
 ( function () {
 	'use strict';
 
-	var $thankedLabel = $( '<span>' )
-		.addClass( 'mw-thanks-flow-thanked mw-ui-quiet' );
+	var $thankedLabel = $( '<span>' ).addClass( 'mw-thanks-flow-thanked mw-ui-quiet' );
 
-	mw.thanks.thanked.cookieName = 'flow-thanked';
-	mw.thanks.thanked.attrName = 'data-flow-id';
+	var attrName = 'data-flow-id';
+	var cookieName = 'flow-thanked';
 
 	function findPostAuthorFromThankLink( $thankLink ) {
 		// We can't use 'closest' directly because .flow-author is a cousin
@@ -17,7 +16,7 @@
 		$( 'a.mw-thanks-flow-thank-link' ).each( function ( idx, el ) {
 			var $thankLink = $( el ),
 				author = findPostAuthorFromThankLink( $thankLink );
-			if ( mw.thanks.thanked.contains( $thankLink.closest( '.flow-post' ) ) ) {
+			if ( mw.thanks.thanked.contains( $thankLink.closest( '.flow-post' ).attr( attrName ), cookieName ) ) {
 				mw.thanks.getUserGender( author )
 					.done( function ( recipientGender ) {
 						$thankLink.before(
@@ -61,7 +60,7 @@
 				$thankUserLabel.append(
 					mw.msg( 'thanks-button-thanked', mw.user, recipientGender )
 				);
-				mw.thanks.thanked.push( $thankLink.closest( '.flow-post' ) );
+				mw.thanks.thanked.push( $thankLink.closest( '.flow-post' ).attr( attrName ), cookieName );
 				$thankLink.before( $thankUserLabel );
 				$thankLink.remove();
 			} );

@@ -6,8 +6,9 @@ QUnit.module( 'Thanks thank', QUnit.newMwEnvironment( {
 } ) );
 
 QUnit.test( 'thanked cookie', function ( assert ) {
-	var $thankLink = $( '<a ' + mw.thanks.thanked.attrName + '="8" />' ),
-		$thankLinkNonExisting = $( '<a ' + mw.thanks.thanked.attrName + '="13" />' );
+	var thankId = '8';
+	var thankIdNonExisting = '13';
+
 	mw.cookie.set( mw.thanks.thanked.cookieName, escape( '17,11' ) );
 
 	assert.deepEqual( mw.thanks.thanked.load(), [ '17', '11' ], 'gets cookie with two values' );
@@ -17,13 +18,14 @@ QUnit.test( 'thanked cookie', function ( assert ) {
 	mw.cookie.set( mw.thanks.thanked.cookieName, escape( '9,'.repeat( mw.thanks.thanked.maxHistory - 1 ) + '0' ) );
 
 	assert.strictEqual( mw.thanks.thanked.load()[ mw.thanks.thanked.maxHistory - 1 ], '0', 'loads ' + mw.thanks.thanked.maxHistory + ' ids from a cookie' );
-	mw.thanks.thanked.push( $thankLink );
+	mw.thanks.thanked.push( thankId );
 	assert.strictEqual( mw.thanks.thanked.load().length, mw.thanks.thanked.maxHistory, 'cuts a cookie to ' + mw.thanks.thanked.maxHistory + ' values' );
-	assert.strictEqual( mw.thanks.thanked.load()[ mw.thanks.thanked.maxHistory - 1 ], $thankLink.attr( mw.thanks.thanked.attrName ), 'adds a new value to cookie to the end' );
+	assert.strictEqual( mw.thanks.thanked.load()[ mw.thanks.thanked.maxHistory - 1 ], thankId, 'adds a new value to cookie to the end' );
 
-	assert.strictEqual( mw.thanks.thanked.contains( $thankLink ), true, 'cookie contains id and returns true' );
-	assert.strictEqual( mw.thanks.thanked.contains( $thankLinkNonExisting ), false, 'cookie does not contains id and returns false' );
+	assert.strictEqual( mw.thanks.thanked.contains( thankId ), true, 'cookie contains id and returns true' );
+	assert.strictEqual( mw.thanks.thanked.contains( thankIdNonExisting ), false, 'cookie does not contains id and returns false' );
 } );
+
 QUnit.test( 'gets user gender', function ( assert ) {
 	this.server.respond( /user1/, function ( request ) {
 		request.respond( 200, { 'Content-Type': 'application/json' },

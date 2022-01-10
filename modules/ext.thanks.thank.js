@@ -6,27 +6,45 @@
 		thanked: {
 			maxHistory: 100,
 			cookieName: 'thanks-thanked',
-			attrName: 'data-revision-id',
 
-			load: function () {
-				var cookie = mw.cookie.get( this.cookieName );
+			/**
+			 * Load thanked IDs from cookies
+			 *
+			 * @param {string} [cookieName] Cookie name to use, defaults to this.cookieName
+			 * @return {string[]} Thanks IDs
+			 */
+			load: function ( cookieName ) {
+				var cookie = mw.cookie.get( cookieName || this.cookieName );
 				if ( cookie === null ) {
 					return [];
 				}
 				return unescape( cookie ).split( ',' );
 			},
 
-			push: function ( $thankLink ) {
+			/**
+			 * Record as ID as having been thanked
+			 *
+			 * @param {string} id Thanked ID
+			 * @param {string} [cookieName] Cookie name to use, defaults to this.cookieName
+			 */
+			push: function ( id, cookieName ) {
 				var saved = this.load();
-				saved.push( $thankLink.attr( this.attrName ) );
+				saved.push( id );
 				if ( saved.length > this.maxHistory ) { // prevent forever growing
 					saved = saved.slice( saved.length - this.maxHistory );
 				}
-				mw.cookie.set( this.cookieName, escape( saved.join( ',' ) ) );
+				mw.cookie.set( cookieName || this.cookieName, escape( saved.join( ',' ) ) );
 			},
 
-			contains: function ( $thankLink ) {
-				return this.load().indexOf( $thankLink.attr( this.attrName ) ) !== -1;
+			/**
+			 * Check if an ID has already been thanked, according to the cookie
+			 *
+			 * @param {string} id Thanks ID
+			 * @param {string} [cookieName] Cookie name to use, defaults to this.cookieName
+			 * @return {boolean} ID has been thanked
+			 */
+			contains: function ( id, cookieName ) {
+				return this.load( cookieName ).indexOf( id ) !== -1;
 			}
 		},
 
