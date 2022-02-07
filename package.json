@@ -1,6 +1,7 @@
 {
 	"private": true,
 	"scripts": {
+		"minify:svg": "svgo --config=.svgo.config.js --quiet --folder modules/",
 		"test": "grunt test"
 	},
 	"devDependencies": {
@@ -8,6 +9,7 @@
 		"grunt": "1.4.0",
 		"grunt-banana-checker": "0.9.0",
 		"grunt-contrib-watch": "1.1.0",
-		"grunt-eslint": "23.0.0"
+		"grunt-eslint": "23.0.0",
+		"svgo": "2.8.0"
 	}
 }
