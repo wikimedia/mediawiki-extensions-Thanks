@@ -6,7 +6,8 @@
 			"NikosLikomitros",
 			"Nikosgranturismogt",
 			"Protnet",
-			"Αντιγόνη"
+			"Αντιγόνη",
+			"Sarri.greek"
 		]
 	},
 	"thanks-desc": "Προσθέτει συνδέσμους για να ευχαριστείτε χρήστες για επεξεργασίες, σχόλια, κλπ.",
@@ -29,6 +30,7 @@
 	"echo-category-title-edit-thank": "Ευχαριστίες",
 	"notification-thanks-diff-link": "την επεξεργασία σου",
 	"notification-header-rev-thank": "{{GENDER:$2|Ο|Η}} $1 {{GENDER:$4|σας}} ευχαρίστησε για την επεξεργασία σας στην <strong>$3</strong>.",
+	"notification-header-creation-thank": "{{GENDER:$2|Ο|Η}} $1 {{GENDER:$4|σας}} ευχαρίστησε για τη δημιουργία της σελίδας <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "{{GENDER:$2|Ο|Η}} $1 {{GENDER:$3|σας}} ευχαρίστησε.",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Ένα άτομο σας ευχαρίστησε|$1 άτομα σας ευχαρίστησαν|100=99+ άτομα σας ευχαρίστησαν}} για την επεξεργασία {{GENDER:$3|σας}} στην <strong>$2</strong>.",
 	"log-name-thanks": "Καταγραφή ευχαριστηρίων",
