@@ -20,7 +20,7 @@
 	"thanks-button-action-completed": "Du {{GENDER:$1|{{GENDER:$2|takket}}}} $1",
 	"thanks-error-undefined": "Takkehandlingen feilet (feilkode: $1). Prøv igjen.",
 	"thanks-error-invalid-log-id": "Loggpost ble ikke funnet",
-	"thanks-error-invalid-log-type": "Loggtypen '$1' er ikke i hvitelisten over tillatte loggtyper.",
+	"thanks-error-invalid-log-type": "Loggtypen «$1» er ikke i listen over tillatte loggtyper.",
 	"thanks-error-log-deleted": "Den forespurte loggposten har blitt sletta og kan ikke takkes for.",
 	"thanks-error-invalidrevision": "Revisjons-ID er ikke gyldig.",
 	"thanks-error-revdeleted": "Kunne ikke sende takk fordi revisjonen har blitt sletta.",
@@ -63,5 +63,6 @@
 	"notification-flow-thanks-post-link": "kommentaren din",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|takket}} for kommentaren {{GENDER:$5|din}} under overskriften «<strong>$3</strong>».",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|takket}} {{GENDER:$3|deg}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Én person|$1 personer|100=99+ personer}} takket for kommentaren {{GENDER:$3|din}} under «<strong>$2</strong>»."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Én person|$1 personer|100=99+ personer}} takket for kommentaren {{GENDER:$3|din}} under «<strong>$2</strong>».",
+	"ipb-action-thanks": "Sender takk"
 }
