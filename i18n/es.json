@@ -14,7 +14,8 @@
 			"Savh",
 			"Sethladan",
 			"Themasterriot",
-			"-sasha-"
+			"-sasha-",
+			"AVIADOR71"
 		]
 	},
 	"thanks-desc": "Añade enlaces para agradecer a los usuarios las ediciones, comentarios, etc.",
@@ -40,10 +41,10 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|Enviar}} una notificación de agradecimiento a {{GENDER:$2|este usuario|esta usuaria}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Cancelar}} la notificación de agradecimiento",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Enviar}} la notificación de agradecimiento",
-	"thanks-confirmation2": "¿Quieres {{GENDER:$1|enviar}} tu agradecimiento públicamente?",
+	"thanks-confirmation2": "¿Quieres {{GENDER:$1|agradecer}} públicamente?",
 	"thanks-thanked-notice": "{{GENDER:$3|Agradeciste}} a {{GENDER:$2|$1}}.",
-	"thanks": "Enviar agradecimiento",
-	"thanks-submit": "Enviar agradecimiento",
+	"thanks": "Agradecer",
+	"thanks-submit": "Agradecer",
 	"echo-pref-subscription-edit-thank": "Agradecerme mi edición",
 	"echo-pref-tooltip-edit-thank": "Notificarme cuando alguien me agradezca por una edición que haya realizado.",
 	"echo-category-title-edit-thank": "Agradecimientos",
@@ -64,7 +65,7 @@
 	"notification-link-text-view-post": "Ver comentario",
 	"notification-link-text-view-logentry": "Ver entrada de registro",
 	"thanks-error-invalidpostid": "El identificador de publicación no es válido.",
-	"flow-thanks-confirmation-special": "¿Deseas agradecer públicamente este comentario?",
+	"flow-thanks-confirmation-special": "¿Quieres agradecer públicamente este comentario?",
 	"flow-thanks-thanked-notice": "{{GENDER:$3|Agradeciste}} a $1 {{GENDER:$2|su}} comentario.",
 	"notification-flow-thanks-post-link": "tu comentario",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|agradeció}} {{GENDER:$5|tu}} comentario en \"<strong>$3</strong>\".",
