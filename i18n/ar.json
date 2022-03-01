@@ -51,7 +51,7 @@
 	"echo-pref-tooltip-edit-thank": "أخطرني عندما يشكرني أحدهم على تعديل قمت به.",
 	"echo-category-title-edit-thank": "شكر",
 	"notification-thanks-diff-link": "تعديلك",
-	"notification-header-rev-thank": "$1 شكر{{GENDER:$2||ت}}ك على {{GENDER:$4|تعديلك}} في <strong>$3</strong>.",
+	"notification-header-rev-thank": "{{GENDER:$2|شكرك|شكرتك}} $1 على {{GENDER:$4|تعديلك}} في <strong>$3</strong>.",
 	"notification-header-creation-thank": "$1 {{GENDER:$2|شكر|شكرت}}{{GENDER:$4|ك}} على إنشائك <strong>$3</strong>.",
 	"notification-header-log-thank": "$1 {{GENDER:$2|شكر|شكرت}}{{GENDER:$4|ك}} لفعلك المرتبط ب<strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|شكر}}{{GENDER:$3|ك}}.",
