@@ -68,5 +68,5 @@
 	"notification-header-flow-thank": "$1 {{GENDER:$2}}đã cảm ơn {{GENDER:$5}}bạn vì bình luận ở “<strong>$3</strong>”.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2}}đã cảm ơn {{GENDER:$3}}bạn.",
 	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Một người|$1 người|100=99+ người}} đã cảm ơn {{GENDER:$3}}bạn vì lời bình luận của bạn trong “<strong>$2</strong>”.",
-	"ipb-action-thanks": "Đang gửi lời cảm ơn"
+	"ipb-action-thanks": "Gửi thông báo cảm ơn"
 }
