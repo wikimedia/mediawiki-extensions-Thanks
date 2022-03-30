@@ -16,7 +16,7 @@
 	"thanks-button-action-completed": "Jo {{GENDER:$1|{{GENDER:$2|hawwe}}}} $1 betanke",
 	"thanks-error-undefined": "Betankjen mislearre (flaterkoade: $1). Besykje it nochris.",
 	"thanks-error-invalid-log-id": "Lochrigel net fûn",
-	"thanks-error-invalid-log-type": "Lochtype '$1' stiet net op 'e wite list fan tastiene lochtypen.",
+	"thanks-error-invalid-log-type": "Lochtype '$1' stiet net op 'e list fan tastiene lochtypen.",
 	"thanks-error-log-deleted": "De oanfrege lochrigel is wiske, dat der kin net foar betanke wurde.",
 	"thanks-error-invalidrevision": "Ferzjenûmer is ûnjildich.",
 	"thanks-error-revdeleted": "Kin it betankje net ferstjoere, om't de ferzje wiske is.",
