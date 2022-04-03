@@ -12,6 +12,7 @@ use MediaWiki\Revision\RevisionRecord;
 use MediaWiki\User\UserIdentity;
 use Title;
 use User;
+use Wikimedia\ParamValidator\TypeDef\IntegerDef;
 
 /**
  * API module to send thanks notifications for revisions and log entries.
@@ -243,12 +244,12 @@ class ApiCoreThank extends ApiThank {
 		return [
 			'rev' => [
 				ApiBase::PARAM_TYPE => 'integer',
-				ApiBase::PARAM_MIN => 1,
+				IntegerDef::PARAM_MIN => 1,
 				ApiBase::PARAM_REQUIRED => false,
 			],
 			'log' => [
 				ApiBase::PARAM_TYPE => 'integer',
-				ApiBase::PARAM_MIN => 1,
+				IntegerDef::PARAM_MIN => 1,
 				ApiBase::PARAM_REQUIRED => false,
 			],
 			'token' => [
