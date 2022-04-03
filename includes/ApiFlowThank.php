@@ -12,6 +12,7 @@ use Flow\Model\UUID;
 use MWException;
 use Title;
 use User;
+use Wikimedia\ParamValidator\ParamValidator;
 
 /**
  * API module to send Flow thanks notifications
@@ -186,12 +187,12 @@ class ApiFlowThank extends ApiThank {
 	public function getAllowedParams() {
 		return [
 			'postid' => [
-				ApiBase::PARAM_TYPE => 'string',
-				ApiBase::PARAM_REQUIRED => true,
+				ParamValidator::PARAM_TYPE => 'string',
+				ParamValidator::PARAM_REQUIRED => true,
 			],
 			'token' => [
-				ApiBase::PARAM_TYPE => 'string',
-				ApiBase::PARAM_REQUIRED => true,
+				ParamValidator::PARAM_TYPE => 'string',
+				ParamValidator::PARAM_REQUIRED => true,
 			],
 		];
 	}

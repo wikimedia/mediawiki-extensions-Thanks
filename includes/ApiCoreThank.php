@@ -12,6 +12,7 @@ use MediaWiki\Revision\RevisionRecord;
 use MediaWiki\User\UserIdentity;
 use Title;
 use User;
+use Wikimedia\ParamValidator\ParamValidator;
 use Wikimedia\ParamValidator\TypeDef\IntegerDef;
 
 /**
@@ -243,22 +244,22 @@ class ApiCoreThank extends ApiThank {
 	public function getAllowedParams() {
 		return [
 			'rev' => [
-				ApiBase::PARAM_TYPE => 'integer',
+				ParamValidator::PARAM_TYPE => 'integer',
 				IntegerDef::PARAM_MIN => 1,
-				ApiBase::PARAM_REQUIRED => false,
+				ParamValidator::PARAM_REQUIRED => false,
 			],
 			'log' => [
-				ApiBase::PARAM_TYPE => 'integer',
+				ParamValidator::PARAM_TYPE => 'integer',
 				IntegerDef::PARAM_MIN => 1,
-				ApiBase::PARAM_REQUIRED => false,
+				ParamValidator::PARAM_REQUIRED => false,
 			],
 			'token' => [
-				ApiBase::PARAM_TYPE => 'string',
-				ApiBase::PARAM_REQUIRED => true,
+				ParamValidator::PARAM_TYPE => 'string',
+				ParamValidator::PARAM_REQUIRED => true,
 			],
 			'source' => [
-				ApiBase::PARAM_TYPE => 'string',
-				ApiBase::PARAM_REQUIRED => false,
+				ParamValidator::PARAM_TYPE => 'string',
+				ParamValidator::PARAM_REQUIRED => false,
 			]
 		];
 	}
