@@ -5,7 +5,8 @@
 			"Gwenn-Ael",
 			"Pymouss",
 			"VIGNERON",
-			"Y-M D"
+			"Y-M D",
+			"Huñvreüs"
 		]
 	},
 	"thanks-desc": "Ouzhpenn trugarez liammoù en istor ha dif.",
@@ -16,9 +17,11 @@
 	"thanks-thank-tooltip": "{{GENDER:$1|Kas}} ur c'hemenn trugarekaat d'an {{GENDER:$2|implijer-mañ|implijerez-mañ}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Nullañ}} ar c'hemenn trugarekaat",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Kas}} ar c'hemenn trugarekaat",
-	"thanks-confirmation2": "{{GENDER:$1|Trugarekaat}} evit ar c'hemm-mañ ?",
+	"thanks-confirmation2": "{{GENDER:$1|Trugarekaat}} war-wel evit ar c'hemm-mañ ?",
 	"echo-category-title-edit-thank": "Trugarez",
 	"notification-thanks-diff-link": "ho kemm",
 	"notification-header-rev-thank": "$1 a drugareka ac'hanoc'h evit ho kemm war <strong>$3</strong>.",
-	"logentry-thanks-thank": "$1 {{GENDER:$2|en deus|he deus}} trugarekaet {{GENDER:$4|$3}}"
+	"log-name-thanks": "Marilh an trugarekadennoù",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|en deus|he deus}} trugarekaet {{GENDER:$4|$3}}",
+	"logeventslist-thanks-log": "Marilh an trugarekadennoù"
 }
