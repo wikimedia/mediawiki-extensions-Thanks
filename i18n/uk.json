@@ -13,7 +13,8 @@
 			"Piramidion",
 			"Viiictorrr",
 			"Vlad5250",
-			"Ата"
+			"Ата",
+			"Ice bulldog"
 		]
 	},
 	"thanks-desc": "Додає посилання для дякування користувачам за редагування, коментарі тощо.",
@@ -70,5 +71,5 @@
 	"notification-header-flow-thank": "$1 {{GENDER:$2|подякував|подякувала}} {{GENDER:$5|Вам}} за Ваш коментар у <strong>$3</strong>.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|подякував|подякувала}} {{GENDER:$3|Вам}}.",
 	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Одна людина подякувала|$1 людей подякувало|100=99+ людей подякували}} {{GENDER:$3|Вам}} за коментар на «<strong>$2</strong>».",
-	"ipb-action-thanks": "Надсилаю подяку"
+	"ipb-action-thanks": "Надсилання подяк"
 }
