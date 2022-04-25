@@ -50,6 +50,7 @@
 	"thanks-confirmation-special-rev": "چا توھان ھن سنوار لاءِ عوامي طور مھربانيون موڪلڻ چاھيو ٿا؟",
 	"notification-link-text-view-post": "راءِ ڏسو",
 	"notification-link-text-view-logentry": "لاگ داخلا ڏسو",
+	"thanks-error-invalidpostid": "پوسٽ آئڊي ڪارگر نہ آھي.",
 	"flow-thanks-confirmation-special": "ڇا توھان ھن تبصري لاءِ عوامي طور مھربانيون موڪلڻ چاھيو ٿا؟",
 	"flow-thanks-thanked-notice": "{{GENDER:$3|توھان}} $1 کي {{GENDER:$2|ھن|ھن|انھن}} کي راءِ لاءِ مھرباني چئي.",
 	"notification-flow-thanks-post-link": "توھان جي راءِ",
