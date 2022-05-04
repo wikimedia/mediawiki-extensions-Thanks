@@ -1,5 +1,5 @@
 QUnit.module( 'Thanks thank', QUnit.newMwEnvironment( {
-	setup: function () {
+	beforeEach: function () {
 		this.server = this.sandbox.useFakeServer();
 		this.server.respondImmediately = true;
 	}
@@ -10,20 +10,19 @@ QUnit.test( 'thanked cookie', function ( assert ) {
 	var thankIdNonExisting = '13';
 
 	mw.cookie.set( mw.thanks.thanked.cookieName, escape( '17,11' ) );
+	assert.deepEqual( mw.thanks.thanked.load(), [ '17', '11' ], 'cookie with two values' );
 
-	assert.deepEqual( mw.thanks.thanked.load(), [ '17', '11' ], 'gets cookie with two values' );
-
-	// Makes the 0 100th element
+	// Add a 0 the 100th element
 	// eslint-disable-next-line no-restricted-properties
 	mw.cookie.set( mw.thanks.thanked.cookieName, escape( '9,'.repeat( mw.thanks.thanked.maxHistory - 1 ) + '0' ) );
+	assert.strictEqual( mw.thanks.thanked.load()[ mw.thanks.thanked.maxHistory - 1 ], '0', 'load ids from a cookie' );
 
-	assert.strictEqual( mw.thanks.thanked.load()[ mw.thanks.thanked.maxHistory - 1 ], '0', 'loads ' + mw.thanks.thanked.maxHistory + ' ids from a cookie' );
 	mw.thanks.thanked.push( thankId );
-	assert.strictEqual( mw.thanks.thanked.load().length, mw.thanks.thanked.maxHistory, 'cuts a cookie to ' + mw.thanks.thanked.maxHistory + ' values' );
-	assert.strictEqual( mw.thanks.thanked.load()[ mw.thanks.thanked.maxHistory - 1 ], thankId, 'adds a new value to cookie to the end' );
+	assert.strictEqual( mw.thanks.thanked.load().length, mw.thanks.thanked.maxHistory, 'cut to maxHistory' );
+	assert.strictEqual( mw.thanks.thanked.load()[ mw.thanks.thanked.maxHistory - 1 ], thankId, 'add to the end' );
 
-	assert.strictEqual( mw.thanks.thanked.contains( thankId ), true, 'cookie contains id and returns true' );
-	assert.strictEqual( mw.thanks.thanked.contains( thankIdNonExisting ), false, 'cookie does not contains id and returns false' );
+	assert.strictEqual( mw.thanks.thanked.contains( thankId ), true, 'cookie contains id' );
+	assert.strictEqual( mw.thanks.thanked.contains( thankIdNonExisting ), false, 'cookie does not contain id' );
 } );
 
 QUnit.test( 'gets user gender', function ( assert ) {
@@ -43,21 +42,21 @@ QUnit.test( 'gets user gender', function ( assert ) {
 		);
 	} );
 
-	var maleUser = mw.thanks.getUserGender( 'user1' ),
-		unknownGenderUser = mw.thanks.getUserGender( 'user2' ),
-		nonExistingUser = mw.thanks.getUserGender( 'user3' ),
-		callbackDone = assert.async( 3 );
+	var maleUser = mw.thanks.getUserGender( 'user1' );
+	var unknownGenderUser = mw.thanks.getUserGender( 'user2' );
+	var nonExistingUser = mw.thanks.getUserGender( 'user3' );
+	var done = assert.async( 3 );
 
 	maleUser.then( function ( recipientGender ) {
-		assert.strictEqual( recipientGender, 'male', 'gets a proper gender for existing male user' );
-		callbackDone();
+		assert.strictEqual( recipientGender, 'male', 'gender for male user' );
+		done();
 	} );
 	unknownGenderUser.then( function ( recipientGender ) {
-		assert.strictEqual( recipientGender, 'unknown', 'gets a unknown gender for a existing unknown gender user' );
-		callbackDone();
+		assert.strictEqual( recipientGender, 'unknown', 'gender for unknown-gender user' );
+		done();
 	} );
 	nonExistingUser.then( function ( recipientGender ) {
-		assert.strictEqual( recipientGender, 'unknown', 'gets a unknown gender for non-existing user' );
-		callbackDone();
+		assert.strictEqual( recipientGender, 'unknown', 'gender for non-existing user' );
+		done();
 	} );
 } );
