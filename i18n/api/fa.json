@@ -3,11 +3,12 @@
 		"authors": [
 			"4nn1l2",
 			"Huji",
-			"Macofe"
+			"Macofe",
+			"Beginneruser"
 		]
 	},
-	"apihelp-flowthank-description": "تشکر کردن علنی در جریان از یک نظر",
-	"apihelp-flowthank-summary": "برای یک نظر در فلو، پیام تشکری ارسال کنید.",
+	"apihelp-flowthank-description": "ارسال آگاه‌سازی عمومی سپاسگزاری از شما برای یک نظر Flow",
+	"apihelp-flowthank-summary": "ارسال آگاه‌سازی عمومی سپاسگزاری از شما برای یک نظر Flow",
 	"apihelp-flowthank-param-postid": "UUIDی پست مشکور",
 	"apihelp-flowthank-example-1": "تشکر کردن از نظر با <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "فرستادن یک اعلان تشکر به یک ویرایشگر.",
