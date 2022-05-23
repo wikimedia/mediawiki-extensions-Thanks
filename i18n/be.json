@@ -9,7 +9,8 @@
 			"Дзяніс Тутэйшы",
 			"Чаховіч Уладзіслаў",
 			"ZlyiLev",
-			"Tomato Cream"
+			"Tomato Cream",
+			"No Sleep till Krupki"
 		]
 	},
 	"thanks-desc": "Дадае спасылкі для падзякаў удзельнікам за праўкі, каментары і г. д.",
@@ -36,7 +37,7 @@
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Скасаваць}} паведамленне пра падзяку",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Адаслаць}} паведамленне пра падзяку",
 	"thanks-confirmation2": "{{GENDER:$1|Даслаць}} публічную падзяку?",
-	"thanks-thanked-notice": "$1 {{GENDER:$2|быў абвешчаны|была абвешчана|былі абвешчаны}}, што Вы падзякавалі за {{GENDER:$2|яго|яе|іх}} праўка.",
+	"thanks-thanked-notice": "{{GENDER:$3|Вы}} падзякавалі {{GENDER:$2|$1}}.",
 	"thanks": "Даслаць падзяку",
 	"thanks-submit": "Даслаць падзяку",
 	"echo-pref-subscription-edit-thank": "Дзякуй мне за маю праўку",
