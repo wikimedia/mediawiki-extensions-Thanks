@@ -5,7 +5,8 @@
 			"Calak",
 			"Macofe",
 			"Épine",
-			"ئارام بکر"
+			"ئارام بکر",
+			"Roj im"
 		]
 	},
 	"thanks-desc": "ھەندێک بەستەر زیاد دەکات بۆ سپاس کردنی بەکارھێنەران بۆ دەستکارییەکان، بۆچوونەکان و ھتد.",
@@ -22,8 +23,8 @@
 	"thanks-thank-tooltip-yes": "ئاگاداریی سپاس {{GENDER:$1|بنێرە}}",
 	"thanks-confirmation2": "ئاشکرا سپاسی ئەم دەستکارییە {{GENDER:$1|دەکەیت؟}}",
 	"thanks-thanked-notice": "$1 سپاسەکەت بۆ دەستکارییەکە{{GENDER:$2|ی|ی|ی}} وەردەگرێت.",
-	"thanks": "سپاس بکە",
-	"thanks-submit": "سپاس بکە",
+	"thanks": "سپاسی بکە",
+	"thanks-submit": "سپاسی بکە",
 	"echo-pref-subscription-edit-thank": "بۆ دەستکارییەکم سپاسم بکە",
 	"echo-pref-tooltip-edit-thank": "کاتێک یەکێک بۆ دەستکارییەکی من کردوومە سپاسم دەکا، ئاگادارم بکە.",
 	"echo-category-title-edit-thank": "سپاس",
