@@ -327,7 +327,6 @@ class Hooks {
 		if ( !$autocreated ) {
 			$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
 			$userOptionsManager->setOption( $user, 'echo-subscriptions-email-edit-thank', true );
-			$userOptionsManager->saveOptions( $user );
 		}
 	}
 
