@@ -59,5 +59,6 @@
 	"notification-flow-thanks-post-link": "jo reäksje",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|hat}} {{GENDER:$5|jo}} betanke foar jo reäksje yn \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|hat}} {{GENDER:$3|jo}} betanke.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Ien persoan hat|$1 lju hawwe|100=99+ lju hawwe}} {{GENDER:$3|jo}} betanke foar jo reäksje yn \"<strong>$2</strong>\"."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Ien persoan hat|$1 lju hawwe|100=99+ lju hawwe}} {{GENDER:$3|jo}} betanke foar jo reäksje yn \"<strong>$2</strong>\".",
+	"ipb-action-thanks": "Betankjes ferstjoeren"
 }
