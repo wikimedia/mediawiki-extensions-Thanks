@@ -5,6 +5,7 @@
 			"BaRaN6161 TURK",
 			"Bhatakati aatma",
 			"Sachinkatiyar",
+			"Saurmandal",
 			"Sfic",
 			"Shubhamkanodia",
 			"Siddhartha Ghai",
@@ -13,7 +14,7 @@
 		]
 	},
 	"thanks-desc": "सदस्यों को उनके सम्पादनों, टिप्पणियों आदि के लिए धन्यवाद देने कड़ियाँ जोड़ें।",
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|धन्यवाद}}}}",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|धन्यवाद दें}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|धन्यवाद दिया}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|धन्यवाद}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|धन्यवाद दिया}}}}",
