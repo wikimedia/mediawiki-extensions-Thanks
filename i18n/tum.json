@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Tumbuka Arch"
 		]
 	},
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|Wonga}}}}"
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|wonga}}}}"
 }
