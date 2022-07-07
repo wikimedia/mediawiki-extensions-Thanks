@@ -101,7 +101,7 @@ class SpecialThanks extends FormSpecialPage {
 	 * Return the confirmation or error message.
 	 * @return string
 	 */
-	protected function preText() {
+	protected function preHtml() {
 		if ( $this->type === null ) {
 			$msgKey = 'thanks-error-no-id-specified';
 		} elseif ( $this->type === 'rev' && $this->id === '0' ) {
