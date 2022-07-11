@@ -13,7 +13,8 @@
 			"Schniggendiller",
 			"Suriyaa Kudo",
 			"TMg",
-			"Wnme"
+			"Wnme",
+			"Brettchenweber"
 		]
 	},
 	"thanks-desc": "Stellt Links zum Bedanken bei Benutzern für Bearbeitungen, Kommentare und Ähnliches zur Verfügung",
@@ -41,7 +42,7 @@
 	"thanks-thank-tooltip-no": "Die Dankeschön-Benachrichtigung {{GENDER:$1|abbrechen}}",
 	"thanks-thank-tooltip-yes": "Die Dankeschön-Benachrichtigung {{GENDER:$1|senden}}",
 	"thanks-confirmation2": "Dan­ke­schön öffentlich {{GENDER:$1|senden}}?",
-	"thanks-thanked-notice": "{{GENDER:$3|Du}} danktest {{GENDER:$2|$1}}.",
+	"thanks-thanked-notice": "{{GENDER:$3|Du}} hast {{GENDER:$2|$1}} gedankt.",
 	"thanks": "Für diese Bearbeitung danken",
 	"thanks-submit": "Dankeschön senden",
 	"echo-pref-subscription-edit-thank": "Dankeschöns für meine Bearbeitung",
