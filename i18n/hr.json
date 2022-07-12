@@ -42,7 +42,7 @@
 	"echo-pref-subscription-edit-thank": "Zahvaljivanje Vama za Vaše uređivanje",
 	"echo-pref-tooltip-edit-thank": "Obavijesti me kad mi netko zahvali za moju izmjenu.",
 	"echo-category-title-edit-thank": "Zahvala",
-	"notification-thanks-diff-link": "vaše uređivanje",
+	"notification-thanks-diff-link": "uređivanje",
 	"notification-header-rev-thank": "$1 {{GENDER:$2|zahvaljuje}} za {{GENDER:$4|Vaše}} uređivanje na stranici <strong>$3</strong>.",
 	"notification-header-creation-thank": "$1 {{GENDER:$2|zahvaljuje}} {{GENDER:$4|Vam}} za stvaranje stranice <strong>$3</strong>.",
 	"notification-header-log-thank": "$1 {{GENDER:$2|zahvaljuje}} {{GENDER:$4|Vam}} za Vašu radnju na stranici <strong>$3</strong>.",
