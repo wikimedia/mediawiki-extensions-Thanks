@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jun Misugi"
+			"Jun Misugi",
+			"F Samaritani"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ringratzià}}}}",
@@ -20,5 +21,6 @@
 	"thanks-submit": "Mandà li gratzi",
 	"echo-pref-subscription-edit-thank": "Ringratziamenti pai la mudìfigga mea",
 	"echo-category-title-edit-thank": "Ringratziamentu",
-	"notification-thanks-diff-link": "la mudìfigga tua"
+	"notification-thanks-diff-link": "la mudìfigga tua",
+	"ipb-action-thanks": "Turrà li gratzi"
 }
