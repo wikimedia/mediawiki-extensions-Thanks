@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Derbeth",
-			"Michawiki"
+			"Michawiki",
+			"Vlad5250"
 		]
 	},
 	"thanks-desc": "Pśidawa źěkowe wótkaze historiji a wersijowym rozdźělam",
-	"thanks-thank": "źěkowaś se",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|źěkowaś se}}}}",
 	"thanks-thanked": "{{GENDER:$1|jo se źěkował|jo se źěkowała}}",
 	"thanks-button-thank": "{{GENDER:$1|Źěkowaś se}}",
 	"thanks-button-thanked": "{{GENDER:$1|Jo se źěkował|Jo se źěkowała}}",
