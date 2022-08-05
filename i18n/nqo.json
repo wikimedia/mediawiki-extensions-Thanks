@@ -40,6 +40,15 @@
 	"notification-header-creation-thank": "$1 ߓߘߊ߫{{GENDER:$2|}} {{GENDER:$4|ߌ}}ߞߏߢߌߡߊߟߐ߲߫ ߌ ߟߊ߫ <strong>$3</strong> ߛߌ߲ߘߟߌ ߟߊ߫.",
 	"notification-header-log-thank": "$1 ߓߘߊ߫{{GENDER:$2|}} {{GENDER:$4|ߌ}}ߞߏߢߌߡߊߟߐ߲߫ ߌ ߟߊ߫ ߞߍߟߌ ߘߏ߫ ߟߊ߫ ߞߊ߬ ߟߐ߬ <strong>$3</strong> ߡߊ߬.",
 	"notification-compact-header-edit-thank": "$1 ߓߘߊ߫{{GENDER:$2|}}{{GENDER:$3|ߌ}}ߞߏߢߌߡߊߟߐ߲߫.",
+	"log-name-thanks": "ߕߋ߬ߟߋ߲ ߞߏߢߌߡߊߟߐ߲ ߠߎ߬",
+	"log-description-thanks": "ߟߊ߬ߓߊ߰ߙߊ߬ߟߊ ߡߍ߲ ߠߎ߬ ߞߏߢߌߡߊߟߐ߲ߣߍ߲߫ ߦߋ߫ ߟߊ߬ߓߊ߰ߙߊ߬ߟߊ ߕߐ߭ ߟߎ߬ ߓߟߴߏ߬ ߛߙߍߘߍ ߟߋ߬ ߦߋ߫ ߘߎ߰ߟߊ߫ ߣߌ߲߬.",
+	"logentry-thanks-thank": "$1 ߓߘߊ߫{{GENDER:$2|}}{{GENDER:$4|$3|ߌ}}ߞߏߢߌߡߊߟߐ߲߫.",
+	"logeventslist-thanks-log": "ߕߋ߬ߟߋ߲ ߞߏߢߌߡߊߟߐ߲ ߠߎ߬",
+	"thanks-error-no-id-specified": "ߌ ߞߊߡߊ߲߫ ߦߋ߫ ߞߊ߬ ߟߢߊ߬ߟߌ ߘߏ߫ ߞߙߍߞߙߍ߫ ߥߟߊ߫ ߕߋ߬ߟߋ߲ ߡߊ߬ߟߐ߲߬ߠߌ߲ ߞߊ߬ ߌ ߣߌ߫ ߗߋ ߗߋ߫",
+	"thanks-confirmation-special-log": "ߌ ߦߴߊ߬ ߝߍ߬ ߟߋ߬ ߓߊ߬ ߞߊ߬ ߌ ߣߌ߫ ߗߋ ߗߋ߫ ߜߍ ߘߐ߫ ߕߋ߬ߟߋ߲ ߣߌ߲߬ ߞߍߟߌ ߟߎ߬ ߢߍ߫؟",
+	"thanks-confirmation-special-rev": "ߌ ߦߴߊ߬ ߝߍ߬ ߞߊ߬ ߌ ߣߌ߫ ߗߋ ߗߋ߫ ߜߍ ߘߐ߫ ߡߊ߬ߦߟߍ߬ߡߊ߲߬ߠߌ߲ ߣߌ߲߬ ߢߍ߫ ߟߋ߬ ߓߊ߬؟",
 	"notification-link-text-view-post": "ߡߙߌߣߊ߲ ߦߌ߬ߘߊ߬",
-	"notification-link-text-view-logentry": "ߕߋ߬ߟߋ߲ ߘߏ߲߬ߠߌ߲ ߠߎ߬ ߦߋ߫"
+	"notification-link-text-view-logentry": "ߕߋ߬ߟߋ߲ ߘߏ߲߬ߠߌ߲ ߠߎ߬ ߦߋ߫",
+	"thanks-error-invalidpostid": "ߗߋߛߓߍ߫ ߗߋߣߍ߲ ߏ߬ ߡߊ߬ߟߐ߲߬ߠߌ߲ ߓߍ߲߬ߣߍ߲߫ ߕߍ߫.",
+	"flow-thanks-confirmation-special": "ߌ ߦߴߊ߬ ߝߍ߬ ߟߋ߬ ߓߊ߬ ߞߊ߬ ߌ ߣߌ߫ ߗߋ ߗߋ߫ ߜߍ ߘߐ߫ ߟߋ߬ ߡߙߌߣߊ߲ ߣߌ߲߬ ߢߍ߫؟"
 }
