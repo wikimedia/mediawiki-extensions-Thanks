@@ -7,6 +7,7 @@
 			"Lanciné.kounfantoh.fofana"
 		]
 	},
+	"thanks-desc": "ߛߘߌ߬ߜߋ߲ ߠߎ߬ ߟߊߘߏ߲߬ ߟߊ߬ߓߊ߰ߙߊ߬ߟߊ ߟߎ߬ ߞߏߢߌߡߊߟߐ߲߫ ߞߊ߲ߡߊ߬ ߊ߬ߟߎ߬ ߟߊ߫ ߡߊ߬ߦߟߍ߬ߡߊ߲߬ߠߌ߲ ߠߎ߬ ߟߊ߫߸ ߡߙߌߣߊ߲ ߠߎ߬߸ ߊ߬ ߣߌ߫.",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ߌ ߣߌ߫ ߗߋ߫}}}}",
 	"thanks-thanked": "{{GENDER:$1|}} $2 {{GENDER:|ߞߏߢߌߡߊߟߐ߲߫}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|ߌ ߣߌ߫ ߗߋ߫}}}}",
