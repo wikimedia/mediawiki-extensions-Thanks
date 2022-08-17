@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Arystanbek",
-			"Macofe"
+			"Macofe",
+			"СеніңШешең"
 		]
 	},
 	"thanks-desc": "Қатысушылардың өңдемелеріне, пікірлеріне және тағы басқаларға рахмет айту үшін сілтемелерді қосу",
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|рахмет}}}}",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|рақмет}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|рахмет айттыңыз}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Рахметіңізді білдіру}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Рахмет білдірілді}}}}",
