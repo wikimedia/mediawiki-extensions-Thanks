@@ -25,7 +25,7 @@
 	},
 	"thanks-desc": "Добавляет ссылки для благодарности участников за правки, комментарии и т.д.",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|поблагодарить}}}}",
-	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|отблагодарён|отблагодарена}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|поблагодарён|поблагодарена}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Поблагодарить}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Поблагодарён|Поблагодарена}}}}",
 	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|Отправка благодарности}}}} $1…",
