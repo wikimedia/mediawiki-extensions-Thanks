@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Via maxima"
+			"Via maxima",
+			"L2212"
 		]
 	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|torra gràtzias}}}}",
 	"thanks-error-no-id-specified": "Depis ponni su revision ID po torrai gràtzias.",
 	"flow-thanks-confirmation-special": "Bolis torrai gràtzias po custu cumentu?"
 }
