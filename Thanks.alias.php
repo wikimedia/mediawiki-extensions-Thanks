@@ -173,12 +173,12 @@ $specialPageAliases['zh'] = [
 	'Thanks' => [ '感谢', '感謝' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
+/** Simplified Chinese (中文（简体）) */
 $specialPageAliases['zh-hans'] = [
 	'Thanks' => [ '感谢' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
 	'Thanks' => [ '感謝' ],
 ];
