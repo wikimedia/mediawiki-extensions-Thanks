@@ -34,6 +34,7 @@
 	"logentry-thanks-thank": "$1ले {{GENDER:$4|$3}}लाई {{GENDER:$2|धन्यवाद दिनुभएको छ}}",
 	"logeventslist-thanks-log": "धन्यवाद अभिलेखहरू",
 	"thanks-error-no-id-specified": "धन्यवाद गर्नको लागि तपाईंलाई कुनै एक पुनरीक्षण ठेगाना निर्दिष्ट गर्नु पर्ने हो।",
+	"thanks-confirmation-special-log": "के तपाईं सार्वजनिक रूपमा धन्यवाद पठाउन चाहनुहुन्छ?",
 	"notification-link-text-view-post": "टिप्पणी हेर्ने",
 	"thanks-error-invalidpostid": "पोस्ट ठेगाना अमान्य छ।",
 	"flow-thanks-confirmation-special": "के तपाईं यस प्रतिक्रियाको लागि धन्यवाद पठाउन चाहनुहुन्छ?",
