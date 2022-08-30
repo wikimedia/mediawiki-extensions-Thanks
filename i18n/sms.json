@@ -6,6 +6,8 @@
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|späʹssbõõžž}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Späʹssbõõžž}}}}",
+	"thanks-button-action-cancel": "Jõõsk",
+	"thanks-thank-tooltip": "{{GENDER:$1|Späʹssbõõžž}} tän {{GENDER:$2|õõʹnni}}",
 	"thanks": "Späʹssbõõžž",
 	"thanks-submit": "Vuõlttâd",
 	"echo-category-title-edit-thank": "Späʹsseb",
