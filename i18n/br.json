@@ -26,7 +26,7 @@
 	"thanks-confirmation2": "{{GENDER:$1|Trugarekaat}} war-wel evit ar c'hemm-mañ ?",
 	"thanks-thanked-notice": "Trugarekaet {{GENDER:$3|ho peus}} {{GENDER:$2|$1}}.",
 	"thanks-submit": "Kas trugarekadennoù",
-	"echo-pref-tooltip-edit-thank": "Kemenn ac’hanon pa gas unan bennak trugarekadennoù evit ur c’hemm graet ganin.",
+	"echo-pref-tooltip-edit-thank": "Kemennit ac’hanon pa gas unan bennak trugarekadennoù evit ur c’hemm graet ganin.",
 	"echo-category-title-edit-thank": "Trugarez",
 	"notification-thanks-diff-link": "ho kemm",
 	"notification-header-rev-thank": "$1 {{GENDER:$2|en|he}} deus trugarekaet {{GENDER:$4|ac'hanoc'h}} evit ho kemm war <strong>$3</strong>.",
