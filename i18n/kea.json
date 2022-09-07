@@ -4,5 +4,9 @@
 			"Waldyrious"
 		]
 	},
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|agradesi}}}}"
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|agradesi}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|agradesidu}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Agradesi}}}}",
+	"thanks": "Manda agradesimentu",
+	"thanks-submit": "Manda agradesimentu"
 }
