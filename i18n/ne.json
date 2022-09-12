@@ -41,5 +41,5 @@
 	"flow-thanks-confirmation-special": "के तपाईं यस प्रतिक्रियाको लागि धन्यवाद पठाउन चाहनुहुन्छ?",
 	"flow-thanks-thanked-notice": "तपाईंलाई {{GENDER:$2|उसले|उनले|उनिहरूले}} दिएको प्रतिक्रिया मन परेको छ भन्ने सूचना $1लाई पठाइएको छ ।",
 	"notification-header-flow-thank": " \"<strong>$3</strong>\" मा तपाईँको प्रतिक्रियाको लागि $1 ले {{GENDER:$5|तपाईँलाई}} {{GENDER:$2|धन्यवाद}} दिनुभो ।",
-	"notification-compact-header-flow-thank": "$1 ले {{GENDER:$3|तपाईँ}}लाई {{GENDER:$2|धन्यवाद}} दिनुभो ।"
+	"notification-compact-header-flow-thank": "$1 ले {{GENDER:$3|तपाईं}}लाई {{GENDER:$2|धन्यवाद}} दिनुभो ।"
 }
