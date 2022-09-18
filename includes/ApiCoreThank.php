@@ -138,7 +138,8 @@ class ApiCoreThank extends ApiThank {
 
 		// Make sure this log type is allowed.
 		$allowedLogTypes = $this->getConfig()->get( 'ThanksAllowedLogTypes' );
-		if ( !in_array( $logEntry->getType(), $allowedLogTypes ) ) {
+		if ( !in_array( $logEntry->getType(), $allowedLogTypes )
+			&& !in_array( $logEntry->getType() . '/' . $logEntry->getSubtype(), $allowedLogTypes ) ) {
 			$err = $this->msg( 'thanks-error-invalid-log-type', $logEntry->getType() );
 			$this->dieWithError( $err, 'thanks-error-invalid-log-type' );
 		}
