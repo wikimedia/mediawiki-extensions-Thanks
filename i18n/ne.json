@@ -43,7 +43,7 @@
 	"notification-header-creation-thank": "$1 {{GENDER:$2|धन्यवाद}} {{GENDER:$4|तपाईकाे}} सृजनाका लागि <strong>$3</strong> छ।",
 	"notification-compact-header-edit-thank": "$1ले {{GENDER:$3|तपाईं}}लाई {{GENDER:$2|धन्यवाद}} दिनुभो।",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|एक व्यक्ति|$1 व्यक्तिहरू|100=99+ व्यक्तिहरू}}ले {{GENDER:$3|तपाईंलाई}} <strong>$2</strong>मा तपाईंले गरेको सम्पादनको लागि धन्यवाद दिएका छन् ।",
-	"log-name-thanks": "धन्यवाद लग",
+	"log-name-thanks": "धन्यवाद अभिलेखहरू",
 	"log-description-thanks": "अन्य प्रयोगकर्ताहरूद्वारा धन्यवाद पाउने प्रयोगकर्ताहरूको सूची निम्न रहेको छ।",
 	"logentry-thanks-thank": "$1ले {{GENDER:$4|$3}}लाई {{GENDER:$2|धन्यवाद दिनुभएको छ}}",
 	"logeventslist-thanks-log": "धन्यवाद अभिलेखहरू",
