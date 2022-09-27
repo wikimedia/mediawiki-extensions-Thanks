@@ -3,11 +3,12 @@
 		"authors": [
 			"AnakngAraw",
 			"GinawaSaHapon",
+			"Jojit fb",
 			"LR Guanzon",
 			"Sky Harbor"
 		]
 	},
-	"thanks-desc": "Nagdadagdag ng mga link para pasalamatan ang mga tagagamit para sa kanilang edit, komento, atbp.",
+	"thanks-desc": "Nagdadagdag ng mga link para pasalamatan ang mga tagagamit para sa kanilang binago, komento, atbp.",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|salamat}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|pinasalamatan}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Pasalamatan}}}}",
