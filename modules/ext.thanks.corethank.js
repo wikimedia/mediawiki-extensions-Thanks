@@ -60,19 +60,21 @@
 				function ( errorCode ) {
 					// If error occurred, enable attempting to thank again
 					$thankLink.data( 'clickDisabled', false );
+					var msg;
 					switch ( errorCode ) {
 						case 'invalidrevision':
-							OO.ui.alert( mw.msg( 'thanks-error-invalidrevision' ) );
+							msg = mw.msg( 'thanks-error-invalidrevision' );
 							break;
 						case 'ratelimited':
-							OO.ui.alert( mw.msg( 'thanks-error-ratelimited', mw.user ) );
+							msg = mw.msg( 'thanks-error-ratelimited', mw.user );
 							break;
 						case 'revdeleted':
-							OO.ui.alert( mw.msg( 'thanks-error-revdeleted' ) );
+							msg = mw.msg( 'thanks-error-revdeleted' );
 							break;
 						default:
-							OO.ui.alert( mw.msg( 'thanks-error-undefined', errorCode ) );
+							msg = mw.msg( 'thanks-error-undefined', errorCode );
 					}
+					OO.ui.alert( msg );
 				}
 			);
 	}

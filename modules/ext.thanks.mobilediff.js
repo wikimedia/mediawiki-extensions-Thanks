@@ -25,16 +25,18 @@
 			mw.notify( mw.msg( 'thanks-button-action-completed', name, recipientGender, mw.user ),
 				msgOptions );
 		}, function ( errorCode ) {
+			var msg;
 			switch ( errorCode ) {
 				case 'invalidrevision':
-					mw.notify( mw.msg( 'thanks-error-invalidrevision' ), msgOptions );
+					msg = mw.msg( 'thanks-error-invalidrevision' );
 					break;
 				case 'ratelimited':
-					mw.notify( mw.msg( 'thanks-error-ratelimited', recipientGender ), msgOptions );
+					msg = mw.msg( 'thanks-error-ratelimited', recipientGender );
 					break;
 				default:
-					mw.notify( mw.msg( 'thanks-error-undefined', errorCode ), msgOptions );
+					msg = mw.msg( 'thanks-error-undefined', errorCode );
 			}
+			mw.notify( msg, msgOptions );
 		} );
 	}
 
@@ -95,15 +97,14 @@
 		}
 
 		function queueThanks( $btn ) {
-			var $msg = $( '<div>' ).addClass( 'mw-thanks-notification' ).text(
-				mw.msg( 'thanks-button-action-queued', name, gender )
-			);
-			$( '<a>' ).text( mw.msg( 'thanks-button-action-cancel' ) ).appendTo( $msg );
+			var $msg = $( '<div>' ).addClass( 'mw-thanks-notification' )
+				.text( mw.msg( 'thanks-button-action-queued', name, gender ) )
+				.append( $( '<a>' ).text( mw.msg( 'thanks-button-action-cancel' ) )
+					.on( 'click', function () {
+						cancelThanks( $btn );
+					} )
+				);
 			mw.notify( $msg, msgOptions );
-			// Make it possible to cancel
-			$msg.find( 'a' ).on( 'click', function () {
-				cancelThanks( $btn );
-			} );
 			timeout = setTimeout( function () {
 				timeout = null;
 				thankUser( name, rev, gender ).then( function () {

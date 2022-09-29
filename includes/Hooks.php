@@ -298,7 +298,7 @@ class Hooks {
 
 	/**
 	 * Add user to be notified on echo event
-	 * @param EchoEvent $event The event.
+	 * @param EchoEvent $event
 	 * @param User[] &$users The user list to add to.
 	 */
 	public static function onEchoGetDefaultNotifiedUsers( $event, &$users ) {

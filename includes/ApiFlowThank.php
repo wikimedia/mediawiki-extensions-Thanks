@@ -154,7 +154,7 @@ class ApiFlowThank extends ApiThank {
 		$postTextExcerpt,
 		Title $topicTitle
 	) {
-		$uniqueId = "flow-{$postId->getAlphadecimal()}";
+		$uniqueId = 'flow-' . $postId->getAlphadecimal();
 		// Do one last check to make sure we haven't sent Thanks before
 		if ( $this->haveAlreadyThanked( $user, $uniqueId ) ) {
 			// Pretend the thanks were sent
