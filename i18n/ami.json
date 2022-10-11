@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vickylin77s"
+			"Vickylin77s",
+			"Amire80"
 		]
 	},
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2| miaray}}}}",
-	"thanks-thank-tooltip": "{{GENDER:$1| paefer\n}}to cecay sapiaray pakafana’ tonini{{GENDER:$2| micokaymasay}}"
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|miaray}}}}",
+	"thanks-thank-tooltip": "{{GENDER:$1|paefer}} to cecay sapiaray pakafana’ tonini{{GENDER:$2| micokaymasay}}"
 }
