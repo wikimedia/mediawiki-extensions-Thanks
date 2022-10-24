@@ -10,7 +10,7 @@
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Ringrazzia}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Ringraziado|Ringraziada|Ringraziad/da}}}}",
 	"thanks-button-action-queued": "Adree a ringrazzià {{GENDER:$1|{{GENDER:$2|el $1…|la $1…|el/la $1…}}}}",
-	"thanks-button-action-cancel": "Anula",
+	"thanks-button-action-cancel": "Anulla",
 	"thanks-button-action-completed": "T'hee ringrazziad {{GENDER:$1|{{GENDER:$2|el $1…|la $1…|el/la $1…}}}}",
 	"thanks-error-undefined": "Eror in del cors del rigraziament (codes eror: $1). Prova anmò.",
 	"thanks-error-invalid-log-id": "Vos de register minga trovada",
