@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rance"
+			"Rance",
+			"Wangombe"
 		]
 	},
+	"thanks-thank": "{{GENDER:$1| {{GENDER:$2| asante}}}}",
 	"logeventslist-thanks-log": "taarifa ya Ahsante"
 }
