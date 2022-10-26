@@ -21,6 +21,7 @@
 	"thanks-button-action-completed": "Захвалили {{GENDER:$2|сте}} се {{GENDER:$1|кориснику|корисници|кориснику/ци}} $1",
 	"thanks-error-undefined": "Захваљивање није успело (кôд грешке: $1). Покушајте поново.",
 	"thanks-error-invalid-log-id": "Унос у дневнику није пронађен",
+	"thanks-error-log-deleted": "Тражени унос у дневнику је обрисан и захвалница се не може упутити.",
 	"thanks-error-invalidrevision": "ID измене није важећи.",
 	"thanks-error-revdeleted": "Није могуће послати захвалницу јер је измена избрисана.",
 	"thanks-error-notitle": "Није могуће преузети наслов странице.",
@@ -61,5 +62,6 @@
 	"notification-flow-thanks-post-link": "вашем коментару",
 	"notification-header-flow-thank": "$1 {{GENDER:$5|Вам}} се {{GENDER:$2|захваљује}} на коментару у одељку „<strong>$3</strong>”.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|Вам}} се {{GENDER:$2|захваљује}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Једна особа вам се захвалила|$1 особе су вам се захвалиле|$1 особа вам се захвалило|100=>&thinsp;99 особа вам се захвалило}} на {{GENDER:$3|вашем}} коментару у „<strong>$2</strong>”."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Једна особа вам се захвалила|$1 особе су вам се захвалиле|$1 особа вам се захвалило|100=>&thinsp;99 особа вам се захвалило}} на {{GENDER:$3|вашем}} коментару у „<strong>$2</strong>”.",
+	"ipb-action-thanks": "Захваљивање"
 }
