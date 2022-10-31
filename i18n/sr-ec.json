@@ -21,6 +21,7 @@
 	"thanks-button-action-completed": "Захвалили {{GENDER:$2|сте}} се {{GENDER:$1|кориснику|корисници|кориснику/ци}} $1",
 	"thanks-error-undefined": "Захваљивање није успело (кôд грешке: $1). Покушајте поново.",
 	"thanks-error-invalid-log-id": "Унос у дневнику није пронађен",
+	"thanks-error-log-deleted": "Тражени унос у дневнику је обрисан и захвалница се не може упутити.",
 	"thanks-error-invalidrevision": "ID измене није важећи.",
 	"thanks-error-revdeleted": "Није могуће послати захвалницу јер је измена избрисана.",
 	"thanks-error-notitle": "Није могуће преузети наслов странице.",
