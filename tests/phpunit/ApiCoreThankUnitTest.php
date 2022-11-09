@@ -84,18 +84,6 @@ class ApiCoreThankUnitTest extends MediaWikiIntegrationTestCase {
 		$mockUser->expects( $this->once() )
 			->method( 'pingLimiter' )
 			->willReturn( false );
-		$mockUser->expects( $this->once() )
-			->method( 'isBlockedGlobally' )
-			->willReturn( true );
-		$mockUser->expects( $this->once() )
-			->method( 'getGlobalBlock' )
-			->willReturn( $this->createBlock( [] ) );
-
-		$testCases[ 'globally blocked' ] = [
-			$mockUser,
-			'dieOnBadUser',
-			'You have been blocked from editing'
-		];
 
 		$mockUser = $this->createMock( User::class );
 		$mockUser->expects( $this->once() )

@@ -111,7 +111,6 @@ class Hooks {
 			&& !$userIdentity->equals( $recipient )
 			&& !self::isUserBlockedFromTitle( $user, $revisionRecord->getPageAsLinkTarget() )
 			&& !self::isUserBlockedFromThanks( $user )
-			&& !$user->isBlockedGlobally()
 			&& self::canReceiveThanks( $recipient )
 			&& !$revisionRecord->isDeleted( RevisionRecord::DELETED_TEXT )
 		) {
@@ -462,7 +461,6 @@ class Hooks {
 			|| $entry->isDeleted( LogPage::DELETED_USER )
 			|| self::isUserBlockedFromTitle( $user, $entry->getTarget() )
 			|| self::isUserBlockedFromThanks( $user )
-			|| $user->isBlockedGlobally()
 		) {
 			return;
 		}

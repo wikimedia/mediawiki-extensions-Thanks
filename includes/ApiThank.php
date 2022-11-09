@@ -22,8 +22,6 @@ abstract class ApiThank extends ApiBase {
 			$this->dieWithError( 'thanks-error-notloggedin', 'notloggedin' );
 		} elseif ( $user->pingLimiter( 'thanks-notification' ) ) {
 			$this->dieWithError( [ 'thanks-error-ratelimited', $user->getName() ], 'ratelimited' );
-		} elseif ( $user->isBlockedGlobally() ) {
-			$this->dieBlocked( $user->getGlobalBlock() );
 		}
 	}
 
