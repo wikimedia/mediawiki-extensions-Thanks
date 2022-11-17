@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"BadDog",
 			"Kolega2357",
 			"OC Ripper",
 			"Vlad5250"
 		]
 	},
 	"thanks-desc": "Dodaje poveznice za zahvaljivanje ka korisnicima za njihove izmjene, komentare itd.",
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|zahvali}} se}}",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|zahvala}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|zahvaljeno}}}}",
 	"thanks-button-action-cancel": "Otkaži",
 	"thanks-error-undefined": "Zahvaljivanje nije uspjelo (kôd greške: $1). Pokušajte ponovo.",
