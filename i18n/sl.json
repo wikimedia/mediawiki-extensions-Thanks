@@ -54,7 +54,7 @@
 	"thanks-confirmation-special-log": "Ali želite javno poslati zahvalo za ta dnevniški poseg?",
 	"thanks-confirmation-special-rev": "Ali želite javno poslati zahvale za to urejanje?",
 	"notification-link-text-view-post": "Ogled pripombe",
-	"notification-link-text-view-logentry": "Prikaži vpis v dnevnik",
+	"notification-link-text-view-logentry": "Prikaži dnevniški zapis",
 	"thanks-error-invalidpostid": "ID objave ni veljaven.",
 	"flow-thanks-confirmation-special": "Se želite javno zahvaliti za to pripombo?",
 	"flow-thanks-thanked-notice": "{{GENDER:$3|Zahvalili}} ste se $1 za {{GENDER:$2|njegovo|njeno}} pripombo.",
