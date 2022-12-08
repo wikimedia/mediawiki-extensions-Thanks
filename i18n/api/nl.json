@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Mainframe98",
-			"Mar(c)"
+			"Mar(c)",
+			"HanV"
 		]
 	},
 	"apihelp-flowthank-description": "Stuur een openbaar bedankje voor een Flow-reactie.",
@@ -12,6 +13,7 @@
 	"apihelp-thank-description": "Stuur een bedankje naar een bewerker.",
 	"apihelp-thank-summary": "Stuur een bedankje naar een bewerker.",
 	"apihelp-thank-param-rev": "Versie-ID waarvoor u iemand wilt bedanken. Dit of 'log' moet worden meegegeven.",
+	"apihelp-thank-param-log": "Log-ID waar iemand voor moet worden bedankt. Dit of 'rev' moet worden opgegeven.",
 	"apihelp-thank-param-source": "Een korte tekenreeks die de bron van het verzoek beschrijft, bijvoorbeeld <kbd>diff</kbd> of <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "Stuur een bedankje voor versie-<kbd>ID 456</kbd>, waarbij de bron een diff-pagina is"
 }
