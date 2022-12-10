@@ -4,10 +4,10 @@ namespace MediaWiki\Extension\Thanks;
 
 use DatabaseLogEntry;
 use EchoEventPresentationModel;
-use Linker;
 use LogEntry;
 use LogFormatter;
 use LogPage;
+use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\RevisionRecord;
 use RawMessage;
 use Sanitizer;
@@ -105,7 +105,7 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 			$formatter = LogFormatter::newFromEntry( $logEntry );
 			$excerpt = $formatter->getPlainActionText();
 			// Turn wikitext into plaintext
-			$excerpt = Linker::formatComment( $excerpt );
+			$excerpt = MediaWikiServices::getInstance()->getCommentFormatter()->format( $excerpt );
 			return Sanitizer::stripAllTags( $excerpt );
 		} else {
 			// Try to get edit summary.
