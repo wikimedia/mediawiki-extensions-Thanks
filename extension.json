@@ -76,6 +76,10 @@
 			"dependencies": [
 				"mediawiki.cookie",
 				"mediawiki.api"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
 			]
 		},
 		"ext.thanks.corethank": {
@@ -101,6 +105,10 @@
 				"mediawiki.api",
 				"jquery.confirmable",
 				"ext.thanks"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
 			]
 		},
 		"ext.thanks.mobilediff": {
@@ -145,6 +153,10 @@
 				"mediawiki.jqueryMsg",
 				"mediawiki.api",
 				"ext.thanks"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
 			]
 		}
 	},
