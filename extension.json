@@ -192,6 +192,9 @@
 		"LogEventsListLineEnding": "MediaWiki\\Extension\\Thanks\\Hooks::onLogEventsListLineEnding",
 		"PageHistoryBeforeList": "MediaWiki\\Extension\\Thanks\\Hooks::onPageHistoryBeforeList"
 	},
+	"ServiceWiringFiles": [
+		"ServiceWiring.php"
+	],
 	"config": {
 		"ThanksSendToBots": {
 			"value": false
