@@ -385,8 +385,15 @@ class Hooks {
 		if ( $title instanceof Title && $title->hasContentModel( 'flow-board' ) ) {
 			$out->addModules( 'ext.thanks.flowthank' );
 		}
-		// Add to Special:Log.
-		if ( $title->isSpecial( 'Log' ) ) {
+		// Add to special pages where thank links appear
+		if (
+			$title->isSpecial( 'Log' ) ||
+			$title->isSpecial( 'Contributions' ) ||
+			$title->isSpecial( 'DeletedContributions' ) ||
+			$title->isSpecial( 'Recentchanges' ) ||
+			$title->isSpecial( 'Recentchangeslinked' ) ||
+			$title->isSpecial( 'Watchlist' )
+		) {
 			static::addThanksModule( $out );
 		}
 	}
