@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Afalau",
 			"Diafol",
 			"Lloffiwr",
 			"Macofe",
@@ -8,10 +9,11 @@
 		]
 	},
 	"thanks-desc": "Ychwanegu cysylltau er mwyn diolch i'r golygon",
-	"thanks-thank": "$1 yn diolch i $2",
-	"thanks-thanked": "{{GENDER:$1|diolchwyd}}",
-	"thanks-button-thank": "{{GENDER:$1|Diolcher}}",
+	"thanks-thank": "diolch",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|diolchwyd}}}}",
+	"thanks-button-thank": "{{GENDER:$1|Diolch}}",
 	"thanks-button-thanked": "{{GENDER:$1|Diolchwyd}}",
+	"thanks-button-action-cancel": "Canslo",
 	"thanks-error-undefined": "Methodd y weithred o ddiolch. Ceisiwch eto.",
 	"thanks-error-invalidrevision": "Nid yw ID y diwygiad yn ddilys.",
 	"thanks-error-ratelimited": "{{GENDER:$1|Rydych}} wedi gwneud mwy o weithredoedd y funud na'r nifer a ganiateir. Arhoswch ennyd ac yna ceisiwch eto.",
@@ -24,13 +26,13 @@
 	"echo-category-title-edit-thank": "Diolch",
 	"notification-thanks-diff-link": "eich golygiad",
 	"notification-header-rev-thank": "$1 Rhododd {{GENDER:$2|air o ddiolch}} i {{GENDER:$4|chi}} am eich golygiad ar '''$3'''.",
-	"log-name-thanks": "Lòg diolchiadau",
+	"log-name-thanks": "Log diolchiadau",
 	"log-description-thanks": "Dyma restr o ddefnyddwyr yr anfonwyd gair o ddiolch atynt gan ddefnyddwyr eraill.",
 	"logentry-thanks-thank": "{{GENDER:$2|Anfonodd}} $1 air o ddiolch i {{GENDER:$4|$3}}",
 	"thanks-error-no-id-specified": "Dylech ddewis adolygiad",
 	"notification-link-text-view-post": "Gweler y sylw",
 	"thanks-error-invalidpostid": "Dydy'r ID ddim yn ddilys.",
 	"flow-thanks-confirmation-special": "Ydych chi'n dymuno danfon gair o ddiolch am y sylw hwn?",
-	"flow-thanks-thanked-notice": "Derbyniodd $1 eich diolch am {{GENDER:$2|ei|ei|eu}} sylw.",
+	"flow-thanks-thanked-notice": "Rydych {{GENDER:$3|chi}} wedi diolch $1 am {{GENDER:$2|ei|ei|eu}} sylw.",
 	"notification-flow-thanks-post-link": "eich sylw"
 }
