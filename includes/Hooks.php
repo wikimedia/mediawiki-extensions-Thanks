@@ -107,7 +107,7 @@ class Hooks {
 		// Exclude users who are blocked.
 		// Check whether bots are allowed to receive thanks.
 		// Don't allow thanking for a diff that includes multiple revisions
-		// Check wether we have a revision id to link to
+		// Check whether we have a revision id to link to
 		if ( $userIdentity->isRegistered()
 			&& !$userIdentity->equals( $recipient )
 			&& !self::isUserBlockedFromTitle( $user, $revisionRecord->getPageAsLinkTarget() )
