@@ -63,7 +63,7 @@
 	"notification-header-rev-thank": "{{GENDER:$2|}}$1 vous a remercié{{GENDER:$4||e|(e)}} pour votre modification sur <strong>$3</strong>.",
 	"notification-header-creation-thank": "{{GENDER:$2|}}$1 vous a remercié{{GENDER:$4||e|(e)}} pour la création de <strong>$3</strong>.",
 	"notification-header-log-thank": "{{GENDER:$2|}}$1 vous a remercié{{GENDER:$4||e|(e)}} pour votre action concernant <strong>$3</strong>.",
-	"notification-compact-header-edit-thank": "{{GENDER:$2|}}$1 vous a remercié{{GENDER:$3||e|(e)}}.",
+	"notification-compact-header-edit-thank": "{{GENDER:$2|}}$1 {{GENDER:$3|}}vous a remercié{{GENDER:$3||e|(e)}}.",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Une personne|$1 personnes|100=Au moins 100 personnes}} vous {{PLURAL:$1|a|ont}} remercié{{GENDER:$3||e|(e)}} pour votre modification sur <strong>$2</strong>.",
 	"notification-bundle-header-log-thank": "{{PLURAL:$1|Une personne|$1 personnes|100=Au moins 100 personnes}} vous {{PLURAL:$1|a|ont}} remercié{{GENDER:$3||e|(e)}} pour votre action concernant <strong>$2</strong>.",
 	"log-name-thanks": "Journal des remerciements",
@@ -80,7 +80,7 @@
 	"flow-thanks-thanked-notice": "{{GENDER:$3|}}Vous avez remercié $1{{GENDER:$2|}} pour sa modification.",
 	"notification-flow-thanks-post-link": "votre commentaire",
 	"notification-header-flow-thank": "{{GENDER:$2|}}$1 vous a remercié{{GENDER:$5||e|(e)}} pour votre commentaire dans « <strong>$3</strong> ».",
-	"notification-compact-header-flow-thank": "{{GENDER:$2|}}$1 vous a remercié{{GENDER:$3||e|(e)}}.",
+	"notification-compact-header-flow-thank": "{{GENDER:$2|}}$1 {{GENDER:$3|}}vous a remercié{{GENDER:$3||e|(e)}}.",
 	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Une personne|$1 personnes|100=Au moins 100 personnes}} vous {{PLURAL:$1|a|ont}} remercié{{GENDER:$3||e|(e)}} pour votre commentaire sur « <strong>$2</strong> ».",
 	"ipb-action-thanks": "Envoi des remerciements"
 }
