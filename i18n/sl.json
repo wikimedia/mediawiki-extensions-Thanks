@@ -8,7 +8,7 @@
 			"Yerpo"
 		]
 	},
-	"thanks-desc": "Doda povezave za zahvalo uporabnikom za urejanja, pripombe idr.",
+	"thanks-desc": "Doda povezave za zahvalo uporabnikom za urejanja, komentarje idr.",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|zahvalite se}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|zahvala je objavljena}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Zahvala}}}}",
@@ -53,7 +53,7 @@
 	"thanks-error-no-id-specified": "Določiti morate ID redakcije ali dnevnika, da se lahko zahvalite.",
 	"thanks-confirmation-special-log": "Ali želite javno poslati zahvalo za ta dnevniški poseg?",
 	"thanks-confirmation-special-rev": "Ali želite javno poslati zahvale za to urejanje?",
-	"notification-link-text-view-post": "Ogled pripombe",
+	"notification-link-text-view-post": "Ogled komentarja",
 	"notification-link-text-view-logentry": "Prikaži dnevniški zapis",
 	"thanks-error-invalidpostid": "ID objave ni veljaven.",
 	"flow-thanks-confirmation-special": "Se želite javno zahvaliti za ta komentar?",
