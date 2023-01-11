@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Patriot Kur",
-			"Гусейн"
+			"Гусейн",
+			"Patriot Kor"
 		]
 	},
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|сәғби воте}}}}",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|xəşəconbi}}}}",
 	"thanks-button-action-cancel": "Ləğv karde",
 	"thanks-thank-tooltip": "{{GENDER:$1|Vığande}} {{GENDER:$2|bı iştirokəkə|bı iştirokəkə}} ve səğbi"
 }
