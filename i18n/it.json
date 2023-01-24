@@ -11,7 +11,8 @@
 			"Macofe",
 			"Mannivu",
 			"Sakretsu",
-			"Valepert"
+			"Valepert",
+			"Superpes15"
 		]
 	},
 	"thanks-desc": "Aggiunge un collegamento per ringraziare gli utenti per modifiche, commenti, ecc.",
@@ -58,5 +59,6 @@
 	"notification-flow-thanks-post-link": "il tuo commento",
 	"notification-header-flow-thank": "$1 {{GENDER:$5|ti}} {{GENDER:$2|ha ringraziato}} per il tuo commento in \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|ti}} {{GENDER:$2|ha ringraziato}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Una persona ti ha|$1 persone ti hanno|100=Più di 99 persone ti hanno}} {{GENDER:$3|ringraziato|ringraziata|ringraziato/a}} per il tuo commento in \"<strong>$2</strong>\"."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Una persona ti ha|$1 persone ti hanno|100=Più di 99 persone ti hanno}} {{GENDER:$3|ringraziato|ringraziata|ringraziato/a}} per il tuo commento in \"<strong>$2</strong>\".",
+	"ipb-action-thanks": "Invio di ringraziamenti"
 }
