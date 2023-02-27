@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"thanks-desc": "Setzt Linken dobäi fir Benotzer fir Ännerungen, Bemierkungen, asw. 'Merci' ze soen",
@@ -21,7 +22,7 @@
 	"thanks-error-notloggedin": "Anonym Benotzer kënne kee Merci schécken",
 	"thanks-thank-tooltip": "{{GENDER:$2|Dësem Benotzer|Dëser Benotzerin}} ee \"Merci\" {{GENDER:$1|schécken}}",
 	"thanks-thank-tooltip-yes": "De Merci-Message {{GENDER:$1|schécken}}",
-	"thanks-confirmation2": "Mercien ëffentlech schécken {{GENDER:$1|schécken}}?",
+	"thanks-confirmation2": "Merci ëffentlech {{GENDER:$1|schécken}}?",
 	"thanks-thanked-notice": "{{GENDER:$3|Dir}} hutt dem {{GENDER:$2|$1}} Merci gesot.",
 	"thanks": "Merci soen",
 	"thanks-submit": "Merci soen",

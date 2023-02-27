@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kimberli Mäkäräinen (WMNO)"
+			"Kimberli Mäkäräinen (WMNO)",
+			"Yupik"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|giitte}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Giitte}}}}",
+	"thanks-button-action-cancel": "Šluhtte",
 	"echo-category-title-edit-thank": "Giitu"
 }
