@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Linus Konkor"
+			"Linus Konkor",
+			"Amire80"
 		]
 	},
-	"thanks-thank": "{{Dɔgɔbo:$1|{{dɔgɔbo:$2|bareka }}}}"
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|bareka}}}}"
 }
