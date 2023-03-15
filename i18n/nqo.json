@@ -52,5 +52,9 @@
 	"notification-link-text-view-post": "ߡߙߌߣߊ߲ ߦߌ߬ߘߊ߬",
 	"notification-link-text-view-logentry": "ߕߋ߬ߟߋ߲ ߘߏ߲߬ߠߌ߲ ߠߎ߬ ߦߋ߫",
 	"thanks-error-invalidpostid": "ߗߋߛߓߍ߫ ߗߋߣߍ߲ ߏ߬ ߡߊ߬ߟߐ߲߬ߠߌ߲ ߓߍ߲߬ߣߍ߲߫ ߕߍ߫.",
-	"flow-thanks-confirmation-special": "ߌ ߦߴߊ߬ ߝߍ߬ ߟߋ߬ ߓߊ߬ ߞߊ߬ ߌ ߣߌ߫ ߗߋ ߗߋ߫ ߜߍ ߘߐ߫ ߟߋ߬ ߡߙߌߣߊ߲ ߣߌ߲߬ ߢߍ߫؟"
+	"flow-thanks-confirmation-special": "ߌ ߦߴߊ߬ ߝߍ߬ ߟߋ߬ ߓߊ߬ ߞߊ߬ ߌ ߣߌ߫ ߗߋ ߗߋ߫ ߜߍ ߘߐ߫ ߟߋ߬ ߡߙߌߣߊ߲ ߣߌ߲߬ ߢߍ߫؟",
+	"notification-flow-thanks-post-link": "ߌ ߟߊ߫ ߞߊ߲߬ߞߎߡߊ",
+	"notification-header-flow-thank": "$1 ߓߘߊ߫{{GENDER:$2|}} {{GENDER:$5|ߌ}}ߞߏߢߌߡߊߟߐ߲߫ ߌ ߟߊ߫ ߞߊ߲߬ߞߎߡߊ ߟߊ߫ <strong>$3</strong> ߞߊ߲߬.",
+	"notification-compact-header-flow-thank": "$1 ߓߘߊ߫{{GENDER:$2|}}{{GENDER:$3|ߌ}}ߞߏߢߌߡߊߟߐ߲߫.",
+	"ipb-action-thanks": "ߌ ߣߌ߫ ߗߋ ߗߋ ߦߴߌ ߘߐ߫"
 }
