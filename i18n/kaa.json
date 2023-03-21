@@ -9,5 +9,10 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|siz raxmet ayttıńız}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Raxmet aytıwdı tastıyıqlaw}}}}",
 	"thanks-thank-tooltip": "Bul {{GENDER:$2|paydalanıwshıǵa}} raxmet aytıw xabarın {{GENDER:$1|jiberiw}}",
-	"thanks-confirmation2": "Usı redaktorlaw ushın raxmet {{GENDER:$1|aytasızba?}}"
+	"thanks-confirmation2": "Usı redaktorlaw ushın raxmet {{GENDER:$1|aytasızba?}}",
+	"thanks-thanked-notice": "{{GENDER:$3|Siz}} {{GENDER:$2|$1}} atlı paydalanıwshıǵa minnetdarshılıq bildirińiz.",
+	"thanks": "Raxmet aytıw",
+	"thanks-submit": "Raxmet aytıw",
+	"thanks-confirmation-special-rev": "Usı redaktorlaw ushın járiyalı kóriniste alǵıs aytıwdı qáleysizbe?",
+	"flow-thanks-confirmation-special": "Usı kommentariy ushın járiyalı kóriniste alǵıs aytıwdı qáleysizbe?"
 }
