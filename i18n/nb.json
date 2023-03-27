@@ -7,7 +7,8 @@
 			"Jeblad",
 			"Jon Harald Søby",
 			"Macofe",
-			"Njardarlogar"
+			"Njardarlogar",
+			"EdoAug"
 		]
 	},
 	"thanks-desc": "Legger til lenker for å takke brukere for redigeringer, kommentarer, etc.",
@@ -15,7 +16,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|takket}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Takk}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Takket}}}}",
-	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|Takker}}}} $1...",
+	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|Takker}}}} $1 ...",
 	"thanks-button-action-cancel": "Avbryt",
 	"thanks-button-action-completed": "Du {{GENDER:$1|{{GENDER:$2|takket}}}} $1",
 	"thanks-error-undefined": "Takkehandlingen feilet (feilkode: $1). Prøv igjen.",
