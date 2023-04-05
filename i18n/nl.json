@@ -20,7 +20,8 @@
 			"SPQRobin",
 			"Siebrand",
 			"Sjoerddebruin",
-			"Southparkfan"
+			"Southparkfan",
+			"Bas dehaan"
 		]
 	},
 	"thanks-desc": "Voegt koppelingen toe voor het bedanken van gebruikers voor bewerkingen, reacties, enzovoort.",
@@ -77,5 +78,5 @@
 	"notification-header-flow-thank": "$1 {{GENDER:$2|heeft}} {{GENDER:$5|u}} bedankt voor uw reactie op \"<strong>$3</strong>\".",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|bedankte}} {{GENDER:$3|u}}.",
 	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Eén persoon bedankte|$1 personen bedankten|100=99+ personen bedankten}} {{GENDER:$3|u}} voor uw reactie op \"<strong>$2</strong>\".",
-	"ipb-action-thanks": "Bedankje wordt verstuurd"
+	"ipb-action-thanks": "Bedankje sturen"
 }
