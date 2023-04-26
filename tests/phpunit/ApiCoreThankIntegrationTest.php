@@ -74,8 +74,7 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 	}
 
 	public function testRequestWithoutToken() {
-		$this->expectException( ApiUsageException::class );
-		$this->expectExceptionMessage( 'The "token" parameter must be set.' );
+		$this->expectApiErrorCode( 'missingparam' );
 		$this->doApiRequest( [
 			'action' => 'thank',
 			'source' => 'someSource',
@@ -101,9 +100,7 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 
 	public function testLogRequestWithDisallowedLogType() {
 		$this->setMwGlobals( [ 'wgThanksAllowedLogTypes' => [] ] );
-		$this->expectException( ApiUsageException::class );
-		$this->expectExceptionMessage(
-			"Log type 'delete' is not in the list of permitted log types." );
+		$this->expectApiErrorCode( 'thanks-error-invalid-log-type' );
 		$this->doApiRequestWithToken( [
 			'action' => 'thank',
 			'log' => $this->logId,
@@ -131,9 +128,7 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 
 		$sysop = $this->getTestSysop()->getUser();
 		// Then try to thank for it, and we should get an exception.
-		$this->expectException( ApiUsageException::class );
-		$this->expectExceptionMessage(
-			"The requested log entry has been deleted and thanks cannot be given for it." );
+		$this->expectApiErrorCode( 'thanks-error-log-deleted' );
 		$this->doApiRequestWithToken( [
 			'action' => 'thank',
 			'log' => $this->logId,

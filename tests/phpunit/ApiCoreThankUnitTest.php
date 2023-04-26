@@ -12,7 +12,7 @@ use MediaWiki\User\UserIdentityValue;
  *
  * @author Addshore
  */
-class ApiCoreThankUnitTest extends MediaWikiIntegrationTestCase {
+class ApiCoreThankUnitTest extends ApiTestCase {
 
 	protected function getModule() {
 		return new ApiCoreThank( new ApiMain(), 'thank' );
@@ -40,8 +40,7 @@ class ApiCoreThankUnitTest extends MediaWikiIntegrationTestCase {
 		$method->setAccessible( true );
 
 		if ( $expectedError ) {
-			$this->expectException( ApiUsageException::class );
-			$this->expectExceptionMessage( $expectedError );
+			$this->expectApiErrorCode( $expectedError );
 		}
 
 		$method->invoke( $module, $user );
@@ -60,7 +59,7 @@ class ApiCoreThankUnitTest extends MediaWikiIntegrationTestCase {
 		$testCases[ 'anon' ] = [
 			$mockUser,
 			'dieOnBadUser',
-			'Anonymous users cannot send thanks'
+			'notloggedin'
 		];
 
 		$mockUser = $this->createMock( User::class );
@@ -74,7 +73,7 @@ class ApiCoreThankUnitTest extends MediaWikiIntegrationTestCase {
 		$testCases[ 'ping' ] = [
 			$mockUser,
 			'dieOnBadUser',
-			"You've exceeded your rate limit. Please wait some time and try again"
+			'ratelimited'
 		];
 
 		$mockUser = $this->createMock( User::class );
@@ -93,7 +92,7 @@ class ApiCoreThankUnitTest extends MediaWikiIntegrationTestCase {
 		$testCases[ 'sitewide blocked' ] = [
 			$mockUser,
 			'dieOnUserBlockedFromThanks',
-			'You have been blocked from editing'
+			'blocked'
 		];
 
 		$mockUser = $this->createMock( User::class );
