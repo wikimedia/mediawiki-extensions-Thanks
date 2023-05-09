@@ -33,7 +33,7 @@
 	"notification-header-log-thank": "$1 <strong>$3</strong> səhifəsi ilə əlaqəli etdiyiniz fəaliyyətə görə {{GENDER:$4|sizə}} {{GENDER:$2|təşəkkür etdi}}.",
 	"notification-bundle-header-log-thank": "{{PLURAL:$1|Bir nəfər|$1 nəfər|100=99+ nəfər}} <strong>$2</strong> səhifəsi ilə əlaqəli etdiyiniz fəaliyyətə görə {{GENDER:$3|sizə}} təşəkkür etdi.",
 	"log-name-thanks": "Təşəkkür qeydləri",
-	"logentry-thanks-thank": "$1 {{GENDER:$2}}, {{GENDER:$4|$3}} istifadəçisinə təşəkkür etdi.",
+	"logentry-thanks-thank": "$1 {{GENDER:$2}} {{GENDER:$4|$3}} istifadəçisinə təşəkkür etdi.",
 	"logeventslist-thanks-log": "Təşəkkür qeydləri",
 	"thanks-confirmation-special-log": "Bu fəaliyyət üçün təşəkkür göndərilsin?",
 	"thanks-confirmation-special-rev": "Bu redaktə üçün təşəkkür göndərilsin?",
