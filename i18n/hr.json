@@ -39,7 +39,7 @@
 	"thanks-thanked-notice": "{{GENDER:$3|Zahvalio si|Zahvalila si|Zahvalili ste}} {{GENDER:$2|suradniku $1|suradnici $1}}.",
 	"thanks": "Pošalji zahvalu",
 	"thanks-submit": "Pošalji zahvalu",
-	"echo-pref-subscription-edit-thank": "Zahvaljivanje Vama za Vaše uređivanje",
+	"echo-pref-subscription-edit-thank": "Zahvala",
 	"echo-pref-tooltip-edit-thank": "Obavijesti me kad mi netko zahvali za moju izmjenu.",
 	"echo-category-title-edit-thank": "Zahvala",
 	"notification-thanks-diff-link": "uređivanje",
