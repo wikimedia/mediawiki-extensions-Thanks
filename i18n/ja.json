@@ -31,7 +31,7 @@
 	"thanks-error-invalidrecipient": "無効な対象者",
 	"thanks-error-invalidrecipient-bot": "ボットに感謝することはできません",
 	"thanks-error-invalidrecipient-self": "自分自身を感謝することはできません",
-	"thanks-error-notloggedin": "匿名利用者に感謝することはできません",
+	"thanks-error-notloggedin": "匿名利用者には感謝できません",
 	"thanks-error-ratelimited": "{{GENDER:$1|}}速度制限を超えました。しばらくしてからもう一度やり直してください。",
 	"thanks-error-api-params": "「revid」または「logid」のいずれかを指定してください",
 	"thanks-thank-tooltip": "この{{GENDER:$2|利用者}}に感謝の通知を{{GENDER:$1|送信する}}",
