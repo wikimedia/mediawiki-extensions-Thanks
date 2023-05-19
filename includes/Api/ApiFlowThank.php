@@ -1,6 +1,6 @@
 <?php
 
-namespace MediaWiki\Extension\Thanks;
+namespace MediaWiki\Extension\Thanks\Api;
 
 use ApiBase;
 use EchoEvent;
@@ -25,6 +25,7 @@ use Wikimedia\ParamValidator\ParamValidator;
  */
 
 class ApiFlowThank extends ApiThank {
+
 	public function execute() {
 		$user = $this->getUser();
 		$this->dieOnBadUser( $user );

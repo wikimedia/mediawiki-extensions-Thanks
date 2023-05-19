@@ -41,7 +41,15 @@
 		"thanks/*": "MediaWiki\\Extension\\Thanks\\ThanksLogFormatter"
 	},
 	"APIModules": {
-		"thank": "MediaWiki\\Extension\\Thanks\\ApiCoreThank"
+		"thank": {
+			"class": "MediaWiki\\Extension\\Thanks\\Api\\ApiCoreThank",
+			"services": [
+				"PermissionManager",
+				"RevisionStore",
+				"UserFactory",
+				"LogStore"
+			]
+		}
 	},
 	"MessagesDirs": {
 		"Thanks": [

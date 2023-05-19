@@ -16,6 +16,7 @@ use Html;
 use ImagePage;
 use LogEventsList;
 use LogPage;
+use MediaWiki\Extension\Thanks\Api\ApiFlowThank;
 use MediaWiki\Linker\LinkTarget;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\RevisionRecord;
@@ -405,7 +406,13 @@ class Hooks {
 			$moduleManager->addModule(
 				'flowthank',
 				'action',
-				ApiFlowThank::class
+				[
+					"class" => ApiFlowThank::class,
+					"services" => [
+						"PermissionManager",
+						"LogStore"
+					]
+				]
 			);
 		}
 	}
