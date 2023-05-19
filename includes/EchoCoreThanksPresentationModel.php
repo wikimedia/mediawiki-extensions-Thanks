@@ -7,9 +7,9 @@ use EchoEventPresentationModel;
 use LogEntry;
 use LogFormatter;
 use LogPage;
+use MediaWiki\Language\RawMessage;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\RevisionRecord;
-use RawMessage;
 use Sanitizer;
 use SpecialPage;
 

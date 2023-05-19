@@ -3,7 +3,7 @@
 namespace MediaWiki\Extension\Thanks;
 
 use Flow\Notifications\FlowPresentationModel;
-use RawMessage;
+use MediaWiki\Language\RawMessage;
 use Title;
 
 class EchoFlowThanksPresentationModel extends FlowPresentationModel {
