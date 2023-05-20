@@ -18,7 +18,7 @@ class ApiCoreThankUnitTest extends ApiTestCase {
 		return new ApiCoreThank( new ApiMain(), 'thank' );
 	}
 
-	private function createBlock( $options ) {
+	private static function createBlock( $options ) {
 		$options = array_merge( [
 			'address' => 'Test user',
 			'by' => new UserIdentityValue( 1, 'TestUser' ),
@@ -34,7 +34,30 @@ class ApiCoreThankUnitTest extends ApiTestCase {
 	 * @covers \MediaWiki\Extension\Thanks\ApiThank::dieOnBadUser
 	 * @covers \MediaWiki\Extension\Thanks\ApiThank::dieOnUserBlockedFromThanks
 	 */
-	public function testDieOnBadUser( $user, $dieMethod, $expectedError ) {
+	public function testDieOnBadUser(
+		$mockAnon,
+		$mockPingLimited,
+		$mockBlock,
+		$dieMethod,
+		$expectedError
+	) {
+		$user = $this->createMock( User::class );
+		if ( $mockAnon !== null ) {
+			$user->expects( $this->once() )
+				->method( 'isAnon' )
+				->willReturn( $mockAnon );
+		}
+		if ( $mockPingLimited !== null ) {
+			$user->expects( $this->once() )
+				->method( 'pingLimiter' )
+				->willReturn( $mockPingLimited );
+		}
+		if ( $mockBlock !== null ) {
+			$user->expects( $this->once() )
+				->method( 'getBlock' )
+				->willReturn( $mockBlock );
+		}
+
 		$module = $this->getModule();
 		$method = new ReflectionMethod( $module, $dieMethod );
 		$method->setAccessible( true );
@@ -48,67 +71,37 @@ class ApiCoreThankUnitTest extends ApiTestCase {
 		$this->assertTrue( true );
 	}
 
-	public function provideDieOnBadUser() {
-		$testCases = [];
-
-		$mockUser = $this->createMock( User::class );
-		$mockUser->expects( $this->once() )
-			->method( 'isAnon' )
-			->willReturn( true );
-
-		$testCases[ 'anon' ] = [
-			$mockUser,
-			'dieOnBadUser',
-			'notloggedin'
+	public static function provideDieOnBadUser() {
+		return [
+			'anon' => [
+				true,
+				null,
+				null,
+				'dieOnBadUser',
+				'notloggedin'
+			],
+			'ping' => [
+				false,
+				true,
+				null,
+				'dieOnBadUser',
+				'ratelimited'
+			],
+			'sitewide blocked' => [
+				null,
+				null,
+				self::createBlock( [] ),
+				'dieOnUserBlockedFromThanks',
+				'blocked'
+			],
+			'partial blocked' => [
+				null,
+				null,
+				self::createBlock( [ 'sitewide' => false ] ),
+				'dieOnUserBlockedFromThanks',
+				false
+			],
 		];
-
-		$mockUser = $this->createMock( User::class );
-		$mockUser->expects( $this->once() )
-			->method( 'isAnon' )
-			->willReturn( false );
-		$mockUser->expects( $this->once() )
-			->method( 'pingLimiter' )
-			->willReturn( true );
-
-		$testCases[ 'ping' ] = [
-			$mockUser,
-			'dieOnBadUser',
-			'ratelimited'
-		];
-
-		$mockUser = $this->createMock( User::class );
-		$mockUser->expects( $this->once() )
-			->method( 'isAnon' )
-			->willReturn( false );
-		$mockUser->expects( $this->once() )
-			->method( 'pingLimiter' )
-			->willReturn( false );
-
-		$mockUser = $this->createMock( User::class );
-		$mockUser->expects( $this->once() )
-			->method( 'getBlock' )
-			->willReturn( $this->createBlock( [] ) );
-
-		$testCases[ 'sitewide blocked' ] = [
-			$mockUser,
-			'dieOnUserBlockedFromThanks',
-			'blocked'
-		];
-
-		$mockUser = $this->createMock( User::class );
-		$mockUser->expects( $this->once() )
-			->method( 'getBlock' )
-			->willReturn(
-				$this->createBlock( [ 'sitewide' => false ] )
-			);
-
-		$testCases[ 'partial blocked' ] = [
-			$mockUser,
-			'dieOnUserBlockedFromThanks',
-			false
-		];
-
-		return $testCases;
 	}
 
 	// @todo test userAlreadySentThanksForRevision
