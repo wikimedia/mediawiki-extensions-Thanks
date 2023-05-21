@@ -29,7 +29,10 @@
 		}
 	},
 	"SpecialPages": {
-		"Thanks": "MediaWiki\\Extension\\Thanks\\SpecialThanks"
+		"Thanks": {
+			"class": "MediaWiki\\Extension\\Thanks\\SpecialThanks",
+			"services": [ "UserFactory" ]
+		}
 	},
 	"LogTypes": [
 		"thanks"
