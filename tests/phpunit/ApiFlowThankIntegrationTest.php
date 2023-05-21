@@ -8,7 +8,7 @@ use Flow\Model\Workflow;
 /**
  * Integration tests for the Thanks Flow api module
  *
- * @covers \MediaWiki\Extension\Thanks\ApiFlowThank
+ * @covers \MediaWiki\Extension\Thanks\Api\ApiFlowThank
  *
  * @group Thanks
  * @group Database

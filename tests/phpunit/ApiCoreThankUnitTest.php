@@ -1,7 +1,7 @@
 <?php
 
 use MediaWiki\Block\DatabaseBlock;
-use MediaWiki\Extension\Thanks\ApiCoreThank;
+use MediaWiki\Extension\Thanks\Api\ApiCoreThank;
 use MediaWiki\User\UserIdentityValue;
 
 /**
@@ -15,7 +15,15 @@ use MediaWiki\User\UserIdentityValue;
 class ApiCoreThankUnitTest extends ApiTestCase {
 
 	protected function getModule() {
-		return new ApiCoreThank( new ApiMain(), 'thank' );
+		$services = $this->getServiceContainer();
+		return new ApiCoreThank(
+			new ApiMain(),
+			'thank',
+			$services->getPermissionManager(),
+			$services->getRevisionStore(),
+			$services->getUserFactory(),
+			$services->getService( 'LogStore' )
+		);
 	}
 
 	private function createBlock( $options ) {
@@ -31,8 +39,8 @@ class ApiCoreThankUnitTest extends ApiTestCase {
 
 	/**
 	 * @dataProvider provideDieOnBadUser
-	 * @covers \MediaWiki\Extension\Thanks\ApiThank::dieOnBadUser
-	 * @covers \MediaWiki\Extension\Thanks\ApiThank::dieOnUserBlockedFromThanks
+	 * @covers \MediaWiki\Extension\Thanks\Api\ApiThank::dieOnBadUser
+	 * @covers \MediaWiki\Extension\Thanks\Api\ApiThank::dieOnUserBlockedFromThanks
 	 */
 	public function testDieOnBadUser( $user, $dieMethod, $expectedError ) {
 		$module = $this->getModule();

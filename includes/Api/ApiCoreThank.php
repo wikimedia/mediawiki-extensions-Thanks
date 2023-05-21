@@ -1,14 +1,20 @@
 <?php
 
-namespace MediaWiki\Extension\Thanks;
+namespace MediaWiki\Extension\Thanks\Api;
 
 use ApiBase;
+use ApiMain;
 use DatabaseLogEntry;
 use EchoDiscussionParser;
 use EchoEvent;
 use LogEntry;
-use MediaWiki\MediaWikiServices;
+use MediaWiki\Extension\Thanks\Storage\Exceptions\InvalidLogType;
+use MediaWiki\Extension\Thanks\Storage\Exceptions\LogDeleted;
+use MediaWiki\Extension\Thanks\Storage\LogStore;
+use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\Revision\RevisionRecord;
+use MediaWiki\Revision\RevisionStore;
+use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserIdentity;
 use Title;
 use User;
@@ -22,6 +28,26 @@ use Wikimedia\ParamValidator\TypeDef\IntegerDef;
  * @ingroup Extensions
  */
 class ApiCoreThank extends ApiThank {
+	protected RevisionStore $revisionStore;
+	protected UserFactory $userFactory;
+
+	public function __construct(
+		ApiMain $main,
+		$action,
+		PermissionManager $permissionManager,
+		RevisionStore $revisionStore,
+		UserFactory $userFactory,
+		LogStore $storage
+	) {
+		parent::__construct(
+			$main,
+			$action,
+			$permissionManager,
+			$storage
+		);
+		$this->revisionStore = $revisionStore;
+		$this->userFactory = $userFactory;
+	}
 
 	/**
 	 * Perform the API request.
@@ -75,8 +101,7 @@ class ApiCoreThank extends ApiThank {
 			$recipientUsername = $revision->getUser()->getName();
 
 			// If there is no parent revid of this revision, it's a page creation.
-			$store = MediaWikiServices::getInstance()->getRevisionStore();
-			if ( !(bool)$store->getPreviousRevision( $revision ) ) {
+			if ( !$this->revisionStore->getPreviousRevision( $revision ) ) {
 				$revcreation = true;
 			}
 		}
@@ -115,8 +140,7 @@ class ApiCoreThank extends ApiThank {
 	}
 
 	private function getRevisionFromId( $revId ) {
-		$store = MediaWikiServices::getInstance()->getRevisionStore();
-		$revision = $store->getRevisionById( $revId );
+		$revision = $this->revisionStore->getRevisionById( $revId );
 		// Revision ID 1 means an invalid argument was passed in.
 		if ( !$revision || $revision->getId() === 1 ) {
 			$this->dieWithError( 'thanks-error-invalidrevision', 'invalidrevision' );
@@ -131,26 +155,20 @@ class ApiCoreThank extends ApiThank {
 	 * @param int $logId The log entry ID.
 	 * @return DatabaseLogEntry
 	 */
-	protected function getLogEntryFromId( $logId ) {
-		$logEntry = DatabaseLogEntry::newFromId( $logId, wfGetDB( DB_REPLICA ) );
+	protected function getLogEntryFromId( $logId ): DatabaseLogEntry {
+		$logEntry = null;
+		try {
+			$logEntry = $this->storage->getLogEntryFromId( $logId );
+		} catch ( InvalidLogType $e ) {
+			$err = $this->msg( 'thanks-error-invalid-log-type', $e->getLogType() );
+			$this->dieWithError( $err, 'thanks-error-invalid-log-type' );
+		} catch ( LogDeleted $e ) {
+			$this->dieWithError( 'thanks-error-log-deleted', 'thanks-error-log-deleted' );
+		}
 
 		if ( !$logEntry ) {
 			$this->dieWithError( 'thanks-error-invalid-log-id', 'thanks-error-invalid-log-id' );
 		}
-
-		// Make sure this log type is allowed.
-		$allowedLogTypes = $this->getConfig()->get( 'ThanksAllowedLogTypes' );
-		if ( !in_array( $logEntry->getType(), $allowedLogTypes )
-			&& !in_array( $logEntry->getType() . '/' . $logEntry->getSubtype(), $allowedLogTypes ) ) {
-			$err = $this->msg( 'thanks-error-invalid-log-type', $logEntry->getType() );
-			$this->dieWithError( $err, 'thanks-error-invalid-log-type' );
-		}
-
-		// Don't permit thanks if any part of the log entry is deleted.
-		if ( $logEntry->getDeleted() ) {
-			$this->dieWithError( 'thanks-error-log-deleted', 'thanks-error-log-deleted' );
-		}
-
 		// @phan-suppress-next-line PhanTypeMismatchReturnNullable T240141
 		return $logEntry;
 	}
@@ -185,7 +203,7 @@ class ApiCoreThank extends ApiThank {
 		if ( !$recipient ) {
 			$this->dieWithError( 'thanks-error-invalidrecipient', 'invalidrecipient' );
 		}
-		return User::newFromId( $recipient );
+		return $this->userFactory->newFromId( $recipient );
 	}
 
 	/**
@@ -194,7 +212,7 @@ class ApiCoreThank extends ApiThank {
 	 */
 	private function getUserFromLog( LogEntry $logEntry ) {
 		$recipient = $logEntry->getPerformerIdentity();
-		return MediaWikiServices::getInstance()->getUserFactory()->newFromUserIdentity( $recipient );
+		return $this->userFactory->newFromUserIdentity( $recipient );
 	}
 
 	/**

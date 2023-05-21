@@ -1,12 +1,11 @@
 <?php
 
-namespace MediaWiki\Extension\Thanks;
+namespace MediaWiki\Extension\Thanks\Api;
 
 use ApiBase;
-use ExtensionRegistry;
-use ManualLogEntry;
-use MediaWiki\CheckUser\Hooks;
-use MediaWiki\MediaWikiServices;
+use ApiMain;
+use MediaWiki\Extension\Thanks\Storage\LogStore;
+use MediaWiki\Permissions\PermissionManager;
 use Title;
 use User;
 
@@ -17,6 +16,21 @@ use User;
  * @ingroup Extensions
  */
 abstract class ApiThank extends ApiBase {
+
+	protected PermissionManager $permissionManager;
+	protected LogStore $storage;
+
+	public function __construct(
+		ApiMain $main,
+		$action,
+		PermissionManager $permissionManager,
+		LogStore $storage
+	) {
+		parent::__construct( $main, $action );
+		$this->permissionManager = $permissionManager;
+		$this->storage = $storage;
+	}
+
 	protected function dieOnBadUser( User $user ) {
 		if ( $user->isAnon() ) {
 			$this->dieWithError( 'thanks-error-notloggedin', 'notloggedin' );
@@ -36,8 +50,7 @@ abstract class ApiThank extends ApiBase {
 	 * @param Title $title
 	 */
 	protected function dieOnUserBlockedFromTitle( User $user, Title $title ) {
-		$permissionManager = MediaWikiServices::getInstance()->getPermissionManager();
-		if ( $permissionManager->isBlockedFrom( $user, $title ) ) {
+		if ( $this->permissionManager->isBlockedFrom( $user, $title ) ) {
 			// Block should definitely exist
 			// @phan-suppress-next-line PhanTypeMismatchArgumentNullable
 			$this->dieBlocked( $user->getBlock() );
@@ -77,53 +90,12 @@ abstract class ApiThank extends ApiBase {
 		] );
 	}
 
-	/**
-	 * This checks the log_search data.
-	 *
-	 * @param User $thanker The user sending the thanks.
-	 * @param string $uniqueId The identifier for the thanks.
-	 * @return bool Whether thanks has already been sent
-	 */
 	protected function haveAlreadyThanked( User $thanker, $uniqueId ) {
-		$dbw = wfGetDB( DB_PRIMARY );
-		$thankerActor = MediaWikiServices::getInstance()->getActorNormalization()
-			->acquireActorId( $thanker, $dbw );
-		return (bool)$dbw->selectRow(
-			[ 'log_search', 'logging' ],
-			[ 'ls_value' ],
-			[
-				'log_actor' => $thankerActor,
-				'ls_field' => 'thankid',
-				'ls_value' => $uniqueId,
-			],
-			__METHOD__,
-			[],
-			[ 'logging' => [ 'INNER JOIN', 'ls_log_id=log_id' ] ]
-		);
+		return $this->storage->haveThanked( $thanker, $uniqueId );
 	}
 
-	/**
-	 * @param User $user The user performing the thanks (and the log entry).
-	 * @param User $recipient The target of the thanks (and the log entry).
-	 * @param string $uniqueId A unique Id to identify the event being thanked for, to use
-	 *                         when checking for duplicate thanks
-	 */
 	protected function logThanks( User $user, User $recipient, $uniqueId ) {
-		if ( !$this->getConfig()->get( 'ThanksLogging' ) ) {
-			return;
-		}
-		$logEntry = new ManualLogEntry( 'thanks', 'thank' );
-		$logEntry->setPerformer( $user );
-		$logEntry->setRelations( [ 'thankid' => $uniqueId ] );
-		$target = $recipient->getUserPage();
-		$logEntry->setTarget( $target );
-		$logId = $logEntry->insert();
-		$logEntry->publish( $logId, 'udp' );
-
-		if ( ExtensionRegistry::getInstance()->isLoaded( 'CheckUser' ) ) {
-			$recentChange = $logEntry->getRecentChange();
-			Hooks::updateCheckUserData( $recentChange );
-		}
+		$this->storage->thank( $user, $recipient, $uniqueId );
 	}
 
 	public function needsToken() {
