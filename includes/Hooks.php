@@ -410,7 +410,7 @@ class Hooks {
 					"class" => ApiFlowThank::class,
 					"services" => [
 						"PermissionManager",
-						"LogStore"
+						"ThanksLogStore"
 					]
 				]
 			);

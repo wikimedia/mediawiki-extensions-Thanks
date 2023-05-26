@@ -14,7 +14,7 @@ return [
 				$services->getDBLoadBalancer()
 			);
 	},
-	'LogStore' => static function ( MediaWikiServices $services ): LogStore {
+	'ThanksLogStore' => static function ( MediaWikiServices $services ): LogStore {
 		return new LogStore(
 			$services->getDBLoadBalancerFactory(),
 			$services->getActorNormalization(),

@@ -22,7 +22,7 @@ class ApiCoreThankUnitTest extends ApiTestCase {
 			$services->getPermissionManager(),
 			$services->getRevisionStore(),
 			$services->getUserFactory(),
-			$services->getService( 'LogStore' )
+			$services->getService( 'ThanksLogStore' )
 		);
 	}
 
