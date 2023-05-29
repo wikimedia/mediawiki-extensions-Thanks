@@ -13,6 +13,8 @@
 	"thanks-thanked-notice": "{{GENDER:$3|Siz}} {{GENDER:$2|$1}} atlı paydalanıwshıǵa minnetdarshılıq bildirińiz.",
 	"thanks": "Raxmet aytıw",
 	"thanks-submit": "Raxmet aytıw",
+	"echo-pref-tooltip-edit-thank": "Meniń redaktorlawım ushın birew maǵan raxmet aytqanda meni xabarlandırıw.",
+	"echo-category-title-edit-thank": "Raxmetlew",
 	"thanks-confirmation-special-rev": "Usı redaktorlaw ushın járiyalı kóriniste alǵıs aytıwdı qáleysizbe?",
 	"flow-thanks-confirmation-special": "Usı kommentariy ushın járiyalı kóriniste alǵıs aytıwdı qáleysizbe?"
 }
