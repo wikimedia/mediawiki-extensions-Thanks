@@ -320,7 +320,7 @@ class Hooks {
 	public static function onAccountCreated( $user, $autocreated ) {
 		// New users get echo preferences set that are not the default settings for existing users.
 		// Specifically, new users are opted into email notifications for thanks.
-		if ( !$autocreated ) {
+		if ( !$user->isTemp() && !$autocreated ) {
 			$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
 			$userOptionsManager->setOption( $user, 'echo-subscriptions-email-edit-thank', true );
 		}
