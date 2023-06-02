@@ -15,6 +15,9 @@
 	"thanks-submit": "Raxmet aytıw",
 	"echo-pref-tooltip-edit-thank": "Meniń redaktorlawım ushın birew maǵan raxmet aytqanda meni xabarlandırıw.",
 	"echo-category-title-edit-thank": "Raxmetlew",
+	"notification-header-creation-thank": "$1 atlı paydalanıwshı <strong>$3</strong> betin jaratqanıńız ushın {{GENDER:$4|sizge}} {{GENDER:$2|alǵıs ayttı}}.",
+	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Bir paydalanıwshı|$1 paydalanıwshı|100=99+ paydalanıwshı}} <strong>$2</strong> betindegi ózgertiwlerińiz\nushın {{GENDER:$3|sizge}} alǵıs ayttı.",
 	"thanks-confirmation-special-rev": "Usı redaktorlaw ushın járiyalı kóriniste alǵıs aytıwdı qáleysizbe?",
-	"flow-thanks-confirmation-special": "Usı kommentariy ushın járiyalı kóriniste alǵıs aytıwdı qáleysizbe?"
+	"flow-thanks-confirmation-special": "Usı kommentariy ushın járiyalı kóriniste alǵıs aytıwdı qáleysizbe?",
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Bir paydalanıwshı|$1 paydalanıwshı|100=99+ paydalanıwshı}} <strong>$2</strong> betindegi pikirińiz\nushın {{GENDER:$3|sizge}} alǵıs ayttı."
 }
