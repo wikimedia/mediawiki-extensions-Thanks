@@ -9,7 +9,6 @@ use Flow\Conversion\Utils;
 use Flow\Exception\FlowException;
 use Flow\Model\PostRevision;
 use Flow\Model\UUID;
-use MWException;
 use Title;
 use User;
 use Wikimedia\ParamValidator\ParamValidator;
@@ -143,7 +142,6 @@ class ApiFlowThank extends ApiThank {
 	 * @param string $postTextExcerpt
 	 * @param Title $topicTitle
 	 * @throws FlowException
-	 * @throws MWException
 	 */
 	private function sendThanks(
 		User $user,
