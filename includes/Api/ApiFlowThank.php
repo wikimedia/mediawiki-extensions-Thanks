@@ -3,12 +3,12 @@
 namespace MediaWiki\Extension\Thanks\Api;
 
 use ApiBase;
-use EchoEvent;
 use Flow\Container;
 use Flow\Conversion\Utils;
 use Flow\Exception\FlowException;
 use Flow\Model\PostRevision;
 use Flow\Model\UUID;
+use MediaWiki\Extension\Notifications\Model\Event;
 use Title;
 use User;
 use Wikimedia\ParamValidator\ParamValidator;
@@ -162,7 +162,7 @@ class ApiFlowThank extends ApiThank {
 		}
 
 		// Create the notification via Echo extension
-		EchoEvent::create( [
+		Event::create( [
 			'type' => 'flow-thank',
 			'title' => $pageTitle,
 			'extra' => [

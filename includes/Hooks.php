@@ -9,13 +9,13 @@ use ConfigException;
 use DatabaseLogEntry;
 use DifferenceEngine;
 use EchoAttributeManager;
-use EchoEvent;
 use EchoUserLocator;
 use ExtensionRegistry;
 use Html;
 use ImagePage;
 use LogEventsList;
 use LogPage;
+use MediaWiki\Extension\Notifications\Model\Event;
 use MediaWiki\Extension\Thanks\Api\ApiFlowThank;
 use MediaWiki\Linker\LinkTarget;
 use MediaWiki\MediaWikiServices;
@@ -420,7 +420,7 @@ class Hooks {
 	/**
 	 * Handler for EchoGetBundleRule hook, which defines the bundle rules for each notification.
 	 *
-	 * @param EchoEvent $event The event being notified.
+	 * @param Event $event The event being notified.
 	 * @param string &$bundleString Determines how the notification should be bundled.
 	 */
 	public static function onEchoGetBundleRules( $event, &$bundleString ) {

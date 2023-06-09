@@ -6,8 +6,8 @@ use ApiBase;
 use ApiMain;
 use DatabaseLogEntry;
 use EchoDiscussionParser;
-use EchoEvent;
 use LogEntry;
+use MediaWiki\Extension\Notifications\Model\Event;
 use MediaWiki\Extension\Thanks\Storage\Exceptions\InvalidLogType;
 use MediaWiki\Extension\Thanks\Storage\Exceptions\LogDeleted;
 use MediaWiki\Extension\Thanks\Storage\LogStore;
@@ -240,7 +240,7 @@ class ApiCoreThank extends ApiThank {
 		}
 
 		// Create the notification via Echo extension
-		EchoEvent::create( [
+		Event::create( [
 			'type' => 'edit-thank',
 			'title' => $title,
 			'extra' => [

@@ -3,10 +3,10 @@
 namespace MediaWiki\Extension\Thanks;
 
 use DatabaseLogEntry;
-use EchoEventPresentationModel;
 use LogEntry;
 use LogFormatter;
 use LogPage;
+use MediaWiki\Extension\Notifications\Formatters\EchoEventPresentationModel;
 use MediaWiki\Language\RawMessage;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\RevisionRecord;
