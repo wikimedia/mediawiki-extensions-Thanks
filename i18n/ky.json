@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bosogo",
 			"Викиней"
 		]
 	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ыраазычылык билдирүү}}}}",
 	"notification-thanks-diff-link": "сиздин оңдооңуз"
 }
