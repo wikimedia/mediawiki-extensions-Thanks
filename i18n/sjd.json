@@ -5,6 +5,7 @@
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|па̄ссьпушшэ}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Па̄ссьпушшэ}}}}",
 	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|па̄ссьпужэ}} {{GENDER:$3|то̄н}}.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|па̄ссьпужэ}} {{GENDER:$3|то̄н}}."
 }
