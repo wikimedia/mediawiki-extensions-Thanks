@@ -6,5 +6,6 @@
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ыраазычылык билдирүү}}}}",
+	"thanks-button-action-cancel": "Жокко чыгаруу",
 	"notification-thanks-diff-link": "сиздин оңдооңуз"
 }
