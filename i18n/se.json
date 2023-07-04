@@ -6,6 +6,7 @@
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|giitte}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|giittii}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Giitte}}}}",
 	"thanks-button-action-cancel": "Šluhtte",
 	"thanks-button-action-completed": "Don {{GENDER:$1|{{GENDER:$2|giitet}}}} geavaheaddji $1",
