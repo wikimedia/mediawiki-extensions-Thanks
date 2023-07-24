@@ -1,11 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
-			"Antonytse",
-			"CRCHF",
-			"William915",
-			"Yueman",
-			"捍粵者"
+			"Winston Sung"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|多謝}}}}",
