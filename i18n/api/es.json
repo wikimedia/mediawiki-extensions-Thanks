@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DarkGames26",
 			"Fitoschido",
 			"Jelou",
 			"Macofe"
@@ -11,6 +12,7 @@
 	"apihelp-flowthank-example-1": "Agradecer el comentario con <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-summary": "Enviar una notificación de agradecimiento a un editor.",
 	"apihelp-thank-param-rev": "Identificador de revisión del envío de agradecimiento. Se debe proporcionar el ID o el 'log'.",
+	"apihelp-thank-param-log": "Log ID para dar las gracias a alguien. Debe indicarse éste o \"rev\".",
 	"apihelp-thank-param-source": "Una cadena corta que describa el origen de la solicitud. Por ejemplo, <kbd>diff</kbd> o <kbd>history</kbd>.",
 	"apihelp-thank-example-1": "Agradecer la revisión <kbd>ID 456</kbd, con la fuente siendo una página diff"
 }
