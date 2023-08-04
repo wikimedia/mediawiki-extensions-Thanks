@@ -69,7 +69,7 @@
 	"ResourceModules": {
 		"ext.thanks.images": {
 			"class": "ResourceLoaderImageModule",
-			"selector": ".mw-ui-icon-thanks-{name}:before",
+			"selector": ".mw-ui-icon-thanks-{name}",
 			"defaultColor": "#fff",
 			"images": {
 				"userTalk": {
