@@ -9,6 +9,7 @@ use MediaWiki\User\UserIdentityValue;
  *
  * @group Thanks
  * @group API
+ * @group Database
  *
  * @author Addshore
  */
