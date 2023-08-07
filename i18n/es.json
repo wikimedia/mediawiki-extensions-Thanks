@@ -15,7 +15,9 @@
 			"Themasterriot",
 			"Rodney Araujo",
 			"-sasha-",
-			"AVIADOR71"
+			"AVIADOR71",
+			"DarkGames26",
+			"No se"
 		]
 	},
 	"thanks-desc": "Añade enlaces para agradecer a los usuarios las ediciones, comentarios, etc.",
@@ -29,6 +31,7 @@
 	"thanks-error-undefined": "El agradecimiento falló (código de error: $1). Inténtalo de nuevo.",
 	"thanks-error-invalid-log-id": "No se ha encontrado la entrada en el registro",
 	"thanks-error-invalid-log-type": "El tipo de registro «$1» no se encuentra en la lista blanca de tipos permitidos.",
+	"thanks-error-log-deleted": "La entrada de registro solicitada se ha eliminado y no se puede dar las gracias por ello.",
 	"thanks-error-invalidrevision": "El id. de revisión no es válido.",
 	"thanks-error-revdeleted": "No se puede enviar el agradecimiento porque se eliminó la revisión.",
 	"thanks-error-notitle": "No se pudo recuperar el título de la página",
