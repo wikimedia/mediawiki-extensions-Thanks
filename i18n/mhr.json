@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lifeway"
+			"Lifeway",
+			"Венина Наталья Константиновна"
 		]
 	},
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|таушташ}}}}"
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ушнышым таушташ}}}}"
 }
