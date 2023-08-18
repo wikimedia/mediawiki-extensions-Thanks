@@ -142,6 +142,7 @@ class ApiCoreThank extends ApiThank {
 	private function getRevisionFromId( $revId ) {
 		$revision = $this->revisionStore->getRevisionById( $revId );
 		// Revision ID 1 means an invalid argument was passed in.
+		// FIXME Get rid of this limitation! T344475
 		if ( !$revision || $revision->getId() === 1 ) {
 			$this->dieWithError( 'thanks-error-invalidrevision', 'invalidrevision' );
 		} elseif ( $revision->isDeleted( RevisionRecord::DELETED_TEXT ) ) {
