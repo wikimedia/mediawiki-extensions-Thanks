@@ -4,10 +4,10 @@ namespace MediaWiki\Extension\Thanks;
 
 use ApiMain;
 use ApiUsageException;
-use DerivativeRequest;
 use FormSpecialPage;
 use HTMLForm;
 use Linker;
+use MediaWiki\Request\DerivativeRequest;
 use MediaWiki\User\UserFactory;
 use Status;
 
