@@ -20,13 +20,13 @@ use MediaWiki\Extension\Thanks\Api\ApiFlowThank;
 use MediaWiki\Linker\LinkTarget;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\RevisionRecord;
+use MediaWiki\Title\Title;
 use MediaWiki\User\UserIdentity;
 use MobileContext;
 use OutputPage;
 use RequestContext;
 use Skin;
 use SpecialPage;
-use Title;
 use User;
 use WikiPage;
 

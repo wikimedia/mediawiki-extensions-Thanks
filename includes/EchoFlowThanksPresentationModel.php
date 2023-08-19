@@ -4,7 +4,7 @@ namespace MediaWiki\Extension\Thanks;
 
 use Flow\Notifications\FlowPresentationModel;
 use MediaWiki\Language\RawMessage;
-use Title;
+use MediaWiki\Title\Title;
 
 class EchoFlowThanksPresentationModel extends FlowPresentationModel {
 	public function canRender() {

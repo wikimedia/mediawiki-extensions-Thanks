@@ -9,7 +9,7 @@ use Flow\Exception\FlowException;
 use Flow\Model\PostRevision;
 use Flow\Model\UUID;
 use MediaWiki\Extension\Notifications\Model\Event;
-use Title;
+use MediaWiki\Title\Title;
 use User;
 use Wikimedia\ParamValidator\ParamValidator;
 

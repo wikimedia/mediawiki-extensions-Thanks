@@ -6,7 +6,7 @@ use ApiBase;
 use ApiMain;
 use MediaWiki\Extension\Thanks\Storage\LogStore;
 use MediaWiki\Permissions\PermissionManager;
-use Title;
+use MediaWiki\Title\Title;
 use User;
 
 /**
