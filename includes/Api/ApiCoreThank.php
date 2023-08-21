@@ -175,7 +175,7 @@ class ApiCoreThank extends ApiThank {
 	}
 
 	private function getTitleFromRevision( RevisionRecord $revision ) {
-		$title = Title::newFromID( $revision->getPageId() );
+		$title = Title::castFromPageIdentity( $revision->getPage() );
 		if ( !$title instanceof Title ) {
 			$this->dieWithError( 'thanks-error-notitle', 'notitle' );
 		}
@@ -204,7 +204,8 @@ class ApiCoreThank extends ApiThank {
 		if ( !$recipient ) {
 			$this->dieWithError( 'thanks-error-invalidrecipient', 'invalidrecipient' );
 		}
-		return $this->userFactory->newFromId( $recipient->getId() );
+		// @phan-suppress-next-line PhanTypeMismatchArgumentNullable T240141
+		return $this->userFactory->newFromUserIdentity( $recipient );
 	}
 
 	/**
