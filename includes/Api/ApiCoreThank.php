@@ -98,7 +98,7 @@ class ApiCoreThank extends ApiThank {
 			$this->dieOnUserBlockedFromTitle( $user, $title );
 
 			$recipient = $this->getUserFromRevision( $revision );
-			$recipientUsername = $revision->getUser()->getName();
+			$recipientUsername = $recipient->getName();
 
 			// If there is no parent revid of this revision, it's a page creation.
 			if ( !$this->revisionStore->getPreviousRevision( $revision ) ) {
@@ -200,11 +200,11 @@ class ApiCoreThank extends ApiThank {
 	 * @return User
 	 */
 	private function getUserFromRevision( RevisionRecord $revision ) {
-		$recipient = $revision->getUser()->getId();
+		$recipient = $revision->getUser();
 		if ( !$recipient ) {
 			$this->dieWithError( 'thanks-error-invalidrecipient', 'invalidrecipient' );
 		}
-		return $this->userFactory->newFromId( $recipient );
+		return $this->userFactory->newFromId( $recipient->getId() );
 	}
 
 	/**
