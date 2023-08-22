@@ -6,9 +6,11 @@
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|giitte}}}}",
-	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|giittii}}}}",
+	"thanks-thanked": "Don {{GENDER:$1|{{GENDER:$2|giitet}}}} dan geavaheaddji",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Giitte}}}}",
-	"thanks-button-action-cancel": "Šluhtte",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Giitet}}}}",
+	"thanks-button-action-queued": "Don {{GENDER:$1|{{GENDER:$2|giittát}}}} geavaheaddji $1…",
+	"thanks-button-action-cancel": "Gaskkalduhte",
 	"thanks-button-action-completed": "Don {{GENDER:$1|{{GENDER:$2|giitet}}}} geavaheaddji $1",
 	"thanks-error-revdeleted": "Giitin ii lihkostuvvan, go siidoveršuvdna lii sihkkojuvvon.",
 	"thanks-error-notloggedin": "Namahis geavaheaddjit eai sáhte giitit",
