@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chuvash2014"
+			"Chuvash2014",
+			"Astahar"
 		]
 	},
-	"thanks-thank": "тав"
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|тав ту}}}}"
 }
