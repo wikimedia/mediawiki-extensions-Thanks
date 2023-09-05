@@ -11,7 +11,7 @@
 	"license-name": "MIT",
 	"type": "other",
 	"requires": {
-		"MediaWiki": ">= 1.41.0",
+		"MediaWiki": ">= 1.41",
 		"extensions": {
 			"Echo": "*"
 		}
@@ -31,7 +31,9 @@
 	"SpecialPages": {
 		"Thanks": {
 			"class": "MediaWiki\\Extension\\Thanks\\SpecialThanks",
-			"services": [ "UserFactory" ]
+			"services": [
+				"UserFactory"
+			]
 		}
 	},
 	"LogTypes": [
