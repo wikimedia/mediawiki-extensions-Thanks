@@ -32,7 +32,7 @@ abstract class ApiThank extends ApiBase {
 	}
 
 	protected function dieOnBadUser( User $user ) {
-		if ( $user->isAnon() ) {
+		if ( !$user->isNamed() ) {
 			$this->dieWithError( 'thanks-error-notloggedin', 'notloggedin' );
 		} elseif ( $user->pingLimiter( 'thanks-notification' ) ) {
 			$this->dieWithError( [ 'thanks-error-ratelimited', $user->getName() ], 'ratelimited' );

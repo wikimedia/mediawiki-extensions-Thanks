@@ -44,17 +44,17 @@ class ApiCoreThankUnitTest extends ApiTestCase {
 	 * @covers \MediaWiki\Extension\Thanks\Api\ApiThank::dieOnUserBlockedFromThanks
 	 */
 	public function testDieOnBadUser(
-		$mockAnon,
+		$mockisNamed,
 		$mockPingLimited,
 		$mockBlock,
 		$dieMethod,
 		$expectedError
 	) {
 		$user = $this->createMock( User::class );
-		if ( $mockAnon !== null ) {
+		if ( $mockisNamed !== null ) {
 			$user->expects( $this->once() )
-				->method( 'isAnon' )
-				->willReturn( $mockAnon );
+				->method( 'isNamed' )
+				->willReturn( $mockisNamed );
 		}
 		if ( $mockPingLimited !== null ) {
 			$user->expects( $this->once() )
@@ -83,14 +83,14 @@ class ApiCoreThankUnitTest extends ApiTestCase {
 	public static function provideDieOnBadUser() {
 		return [
 			'anon' => [
-				true,
+				false,
 				null,
 				null,
 				'dieOnBadUser',
 				'notloggedin'
 			],
 			'ping' => [
-				false,
+				true,
 				true,
 				null,
 				'dieOnBadUser',

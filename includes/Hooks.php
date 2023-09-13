@@ -127,11 +127,12 @@ class Hooks implements
 
 		// Don't let users thank themselves.
 		// Exclude anonymous users.
+		// Exclude temp users (T345679)
 		// Exclude users who are blocked.
 		// Check whether bots are allowed to receive thanks.
 		// Don't allow thanking for a diff that includes multiple revisions
 		// Check whether we have a revision id to link to
-		if ( $userIdentity->isRegistered()
+		if ( $user->isNamed()
 			&& !$userIdentity->equals( $recipient )
 			&& !self::isUserBlockedFromTitle( $user, $revisionRecord->getPageAsLinkTarget() )
 			&& !self::isUserBlockedFromThanks( $user )
