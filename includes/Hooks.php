@@ -35,6 +35,7 @@ use MediaWiki\Title\Title;
 use MediaWiki\User\UserIdentity;
 use MobileContext;
 use OutputPage;
+use RequestContext;
 use Skin;
 use SpecialPage;
 use User;
@@ -102,7 +103,7 @@ class Hooks implements
 		}
 
 		self::insertThankLink( $revisionRecord,
-			$links, $userIdentity );
+			$links, $userIdentity, true );
 	}
 
 	/**
@@ -111,11 +112,13 @@ class Hooks implements
 	 * @param RevisionRecord $revisionRecord RevisionRecord object to add the thank link for
 	 * @param array &$links Links to add to the revision interface
 	 * @param UserIdentity $userIdentity The user performing the thanks.
+	 * @param bool $isPrimaryButton whether the link/button should be progressive
 	 */
 	private static function insertThankLink(
 		RevisionRecord $revisionRecord,
 		array &$links,
-		UserIdentity $userIdentity
+		UserIdentity $userIdentity,
+		bool $isPrimaryButton = false
 	) {
 		$recipient = $revisionRecord->getUser();
 		if ( $recipient === null ) {
@@ -143,7 +146,9 @@ class Hooks implements
 			$links[] = self::generateThankElement(
 				$revisionRecord->getId(),
 				$user,
-				$recipient
+				$recipient,
+				'revision',
+				$isPrimaryButton
 			);
 		}
 	}
@@ -202,18 +207,27 @@ class Hooks implements
 	 * @param User $sender User who sends thanks notification.
 	 * @param UserIdentity $recipient User who receives thanks notification.
 	 * @param string $type Either 'revision' or 'log'.
+	 * @param bool $isPrimaryButton whether the link/button should be progressive
 	 * @return string
 	 */
 	protected static function generateThankElement(
-		$id, User $sender, UserIdentity $recipient, $type = 'revision'
+		$id, User $sender, UserIdentity $recipient, $type = 'revision',
+		bool $isPrimaryButton = false
 	) {
+		$useCodex = RequestContext::getMain()->getSkin()->getSkinName() === 'minerva';
 		// Check if the user has already thanked for this revision or log entry.
 		// Session keys are backwards-compatible, and are also used in the ApiCoreThank class.
 		$sessionKey = ( $type === 'revision' ) ? $id : $type . $id;
+		$class = $useCodex ? 'cdx-button cdx-button--fake-button cdx-button--fake-button--enabled' : '';
+		if ( $isPrimaryButton && $useCodex ) {
+			$class .= ' cdx-button--weight-primary cdx-button--action-progressive';
+		}
 		if ( $sender->getRequest()->getSessionData( "thanks-thanked-$sessionKey" ) ) {
+			$class .= ' mw-thanks-thanked';
+
 			return Html::element(
 				'span',
-				[ 'class' => 'mw-thanks-thanked' ],
+				[ 'class' => $class ],
 				wfMessage( 'thanks-thanked', $sender->getName(), $recipient->getName() )->text()
 			);
 		}
@@ -224,11 +238,12 @@ class Hooks implements
 			->params( $sender->getName(), $recipient->getName() )
 			->text();
 
+		$class .= ' mw-thanks-thank-link';
 		$subpage = ( $type === 'revision' ) ? '' : 'Log/';
 		return Html::element(
 			'a',
 			[
-				'class' => 'mw-thanks-thank-link',
+				'class' => $class,
 				'href' => SpecialPage::getTitleFor( 'Thanks', $subpage . $id )->getFullURL(),
 				'title' => $tooltip,
 				'data-' . $type . '-id' => $id,
