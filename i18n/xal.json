@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ukhant Erdemt"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|thank}}}}"
+}
