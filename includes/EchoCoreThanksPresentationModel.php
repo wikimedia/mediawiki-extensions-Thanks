@@ -160,7 +160,8 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 		if ( !$logId ) {
 			$this->logEntry = false;
 		} else {
-			$this->logEntry = DatabaseLogEntry::newFromId( $logId, wfGetDB( DB_REPLICA ) ) ?: false;
+			$dbr = MediaWikiServices::getInstance()->getDBLoadBalancerFactory()->getReplicaDatabase();
+			$this->logEntry = DatabaseLogEntry::newFromId( $logId, $dbr ) ?: false;
 		}
 		return $this->logEntry;
 	}
