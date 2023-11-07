@@ -11,12 +11,14 @@ use DifferenceEngine;
 use EchoAttributeManager;
 use EchoUserLocator;
 use ExtensionRegistry;
+use GenderCache;
 use IContextSource;
 use LogEventsList;
 use LogPage;
 use MediaWiki\Api\Hook\ApiMain__moduleManagerHook;
 use MediaWiki\Auth\Hook\LocalUserCreatedHook;
 use MediaWiki\Block\Hook\GetAllBlockActionsHook;
+use MediaWiki\Config\Config;
 use MediaWiki\Config\ConfigException;
 use MediaWiki\Diff\Hook\DifferenceEngineViewHeaderHook;
 use MediaWiki\Diff\Hook\DiffToolsHook;
@@ -31,12 +33,15 @@ use MediaWiki\Hook\LogEventsListLineEndingHook;
 use MediaWiki\Hook\PageHistoryBeforeListHook;
 use MediaWiki\Html\Html;
 use MediaWiki\Linker\LinkTarget;
-use MediaWiki\MediaWikiServices;
 use MediaWiki\Output\OutputPage;
+use MediaWiki\Permissions\PermissionManager;
+use MediaWiki\Revision\RevisionLookup;
 use MediaWiki\Revision\RevisionRecord;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
+use MediaWiki\User\Options\UserOptionsManager;
 use MediaWiki\User\User;
+use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserIdentity;
 use RequestContext;
 use Skin;
@@ -61,6 +66,28 @@ class Hooks implements
 	LogEventsListLineEndingHook,
 	PageHistoryBeforeListHook
 {
+	private Config $config;
+	private GenderCache $genderCache;
+	private PermissionManager $permissionManager;
+	private RevisionLookup $revisionLookup;
+	private UserFactory $userFactory;
+	private UserOptionsManager $userOptionsManager;
+
+	public function __construct(
+		Config $config,
+		GenderCache $genderCache,
+		PermissionManager $permissionManager,
+		RevisionLookup $revisionLookup,
+		UserFactory $userFactory,
+		UserOptionsManager $userOptionsManager
+	) {
+		$this->config = $config;
+		$this->genderCache = $genderCache;
+		$this->permissionManager = $permissionManager;
+		$this->revisionLookup = $revisionLookup;
+		$this->userFactory = $userFactory;
+		$this->userOptionsManager = $userOptionsManager;
+	}
 
 	/**
 	 * Handler for the HistoryTools hook
@@ -76,7 +103,7 @@ class Hooks implements
 		$oldRevisionRecord,
 		$userIdentity
 	) {
-		self::insertThankLink( $revisionRecord,
+		$this->insertThankLink( $revisionRecord,
 			$links, $userIdentity );
 	}
 
@@ -96,16 +123,14 @@ class Hooks implements
 	) {
 		// Don't allow thanking for a diff that includes multiple revisions
 		// This does a query that is too expensive for history rows (T284274)
-		$previous = MediaWikiServices::getInstance()
-			->getRevisionLookup()
-			->getPreviousRevision( $revisionRecord );
+		$previous = $this->revisionLookup->getPreviousRevision( $revisionRecord );
 		if ( $oldRevisionRecord && $previous &&
 			$previous->getId() !== $oldRevisionRecord->getId()
 		) {
 			return;
 		}
 
-		self::insertThankLink( $revisionRecord,
+		$this->insertThankLink( $revisionRecord,
 			$links, $userIdentity, true );
 	}
 
@@ -117,7 +142,7 @@ class Hooks implements
 	 * @param UserIdentity $userIdentity The user performing the thanks.
 	 * @param bool $isPrimaryButton whether the link/button should be progressive
 	 */
-	private static function insertThankLink(
+	private function insertThankLink(
 		RevisionRecord $revisionRecord,
 		array &$links,
 		UserIdentity $userIdentity,
@@ -129,7 +154,7 @@ class Hooks implements
 			return;
 		}
 
-		$user = MediaWikiServices::getInstance()->getUserFactory()->newFromUserIdentity( $userIdentity );
+		$user = $this->userFactory->newFromUserIdentity( $userIdentity );
 
 		// Don't let users thank themselves.
 		// Exclude anonymous users.
@@ -140,13 +165,13 @@ class Hooks implements
 		// Check whether we have a revision id to link to
 		if ( $user->isNamed()
 			&& !$userIdentity->equals( $recipient )
-			&& !self::isUserBlockedFromTitle( $user, $revisionRecord->getPageAsLinkTarget() )
+			&& !$this->isUserBlockedFromTitle( $user, $revisionRecord->getPageAsLinkTarget() )
 			&& !self::isUserBlockedFromThanks( $user )
-			&& self::canReceiveThanks( $recipient )
+			&& self::canReceiveThanks( $this->config, $this->userFactory, $recipient )
 			&& !$revisionRecord->isDeleted( RevisionRecord::DELETED_TEXT )
 			&& $revisionRecord->getId() !== 0
 		) {
-			$links[] = self::generateThankElement(
+			$links[] = $this->generateThankElement(
 				$revisionRecord->getId(),
 				$user,
 				$recipient,
@@ -166,9 +191,8 @@ class Hooks implements
 	 * @param LinkTarget $title
 	 * @return bool
 	 */
-	private static function isUserBlockedFromTitle( User $user, LinkTarget $title ) {
-		return MediaWikiServices::getInstance()->getPermissionManager()
-			->isBlockedFrom( $user, $title, true );
+	private function isUserBlockedFromTitle( User $user, LinkTarget $title ) {
+		return $this->permissionManager->isBlockedFrom( $user, $title, true );
 	}
 
 	/**
@@ -185,16 +209,22 @@ class Hooks implements
 	/**
 	 * Check whether a user is allowed to receive thanks or not
 	 *
+	 * @param Config $config
+	 * @param UserFactory $userFactory
 	 * @param UserIdentity $user Recipient
 	 * @return bool true if allowed, false if not
 	 */
-	public static function canReceiveThanks( UserIdentity $user ) {
-		$legacyUser = MediaWikiServices::getInstance()->getUserFactory()->newFromUserIdentity( $user );
+	public static function canReceiveThanks(
+		Config $config,
+		UserFactory $userFactory,
+		UserIdentity $user
+	) {
+		$legacyUser = $userFactory->newFromUserIdentity( $user );
 		if ( !$user->isRegistered() || $legacyUser->isSystemUser() ) {
 			return false;
 		}
 
-		if ( !MediaWikiServices::getInstance()->getMainConfig()->get( 'ThanksSendToBots' ) &&
+		if ( !$config->get( 'ThanksSendToBots' ) &&
 			$legacyUser->isBot()
 		) {
 			return false;
@@ -213,7 +243,7 @@ class Hooks implements
 	 * @param bool $isPrimaryButton whether the link/button should be progressive
 	 * @return string
 	 */
-	protected static function generateThankElement(
+	protected function generateThankElement(
 		$id, User $sender, UserIdentity $recipient, $type = 'revision',
 		bool $isPrimaryButton = false
 	) {
@@ -235,7 +265,6 @@ class Hooks implements
 			);
 		}
 
-		$genderCache = MediaWikiServices::getInstance()->getGenderCache();
 		// Add 'thank' link
 		$tooltip = wfMessage( 'thanks-thank-tooltip' )
 			->params( $sender->getName(), $recipient->getName() )
@@ -250,7 +279,7 @@ class Hooks implements
 				'href' => SpecialPage::getTitleFor( 'Thanks', $subpage . $id )->getFullURL(),
 				'title' => $tooltip,
 				'data-' . $type . '-id' => $id,
-				'data-recipient-gender' => $genderCache->getGenderOf( $recipient->getName(), __METHOD__ ),
+				'data-recipient-gender' => $this->genderCache->getGenderOf( $recipient->getName(), __METHOD__ ),
 			],
 			wfMessage( 'thanks-thank', $sender->getName(), $recipient->getName() )->text()
 		);
@@ -259,10 +288,8 @@ class Hooks implements
 	/**
 	 * @param OutputPage $outputPage The OutputPage to add the module to.
 	 */
-	protected static function addThanksModule( OutputPage $outputPage ) {
-		$confirmationRequired = MediaWikiServices::getInstance()
-			->getMainConfig()
-			->get( 'ThanksConfirmationRequired' );
+	protected function addThanksModule( OutputPage $outputPage ) {
+		$confirmationRequired = $this->config->get( 'ThanksConfirmationRequired' );
 		$outputPage->addModules( [ 'ext.thanks.corethank' ] );
 		$outputPage->addJsConfigVars( 'thanks-confirmation-required', $confirmationRequired );
 	}
@@ -276,7 +303,7 @@ class Hooks implements
 	 */
 	public function onPageHistoryBeforeList( $page, $context ) {
 		if ( $context->getUser()->isRegistered() ) {
-			static::addThanksModule( $context->getOutput() );
+			$this->addThanksModule( $context->getOutput() );
 		}
 	}
 
@@ -287,7 +314,7 @@ class Hooks implements
 	 */
 	public function onDifferenceEngineViewHeader( $diff ) {
 		if ( $diff->getUser()->isRegistered() ) {
-			static::addThanksModule( $diff->getOutput() );
+			$this->addThanksModule( $diff->getOutput() );
 		}
 	}
 
@@ -362,8 +389,7 @@ class Hooks implements
 		// New users get echo preferences set that are not the default settings for existing users.
 		// Specifically, new users are opted into email notifications for thanks.
 		if ( !$user->isTemp() && !$autocreated ) {
-			$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
-			$userOptionsManager->setOption( $user, 'echo-subscriptions-email-edit-thank', true );
+			$this->userOptionsManager->setOption( $user, 'echo-subscriptions-email-edit-thank', true );
 		}
 	}
 
@@ -404,7 +430,7 @@ class Hooks implements
 			$title->isSpecial( 'Recentchangeslinked' ) ||
 			$title->isSpecial( 'Watchlist' )
 		) {
-			static::addThanksModule( $out );
+			$this->addThanksModule( $out );
 		}
 	}
 
@@ -482,16 +508,14 @@ class Hooks implements
 		if (
 			$user->isAnon()
 			|| $entry->isDeleted( LogPage::DELETED_USER )
-			|| self::isUserBlockedFromTitle( $user, $entry->getTarget() )
+			|| $this->isUserBlockedFromTitle( $user, $entry->getTarget() )
 			|| self::isUserBlockedFromThanks( $user )
 		) {
 			return;
 		}
 
 		// Make sure this log type is allowed.
-		$allowedLogTypes = MediaWikiServices::getInstance()
-			->getMainConfig()
-			->get( 'ThanksAllowedLogTypes' );
+		$allowedLogTypes = $this->config->get( 'ThanksAllowedLogTypes' );
 		if ( !in_array( $entry->getType(), $allowedLogTypes )
 			&& !in_array( $entry->getType() . '/' . $entry->getSubtype(), $allowedLogTypes ) ) {
 			return;
@@ -502,7 +526,9 @@ class Hooks implements
 		// Don't check for deleted revision (this avoids extraneous queries from Special:Log).
 
 		$recipient = $entry->getPerformerIdentity();
-		if ( $recipient->getId() === $user->getId() || !self::canReceiveThanks( $recipient ) ) {
+		if ( $recipient->getId() === $user->getId() ||
+			!self::canReceiveThanks( $this->config, $this->userFactory, $recipient )
+		) {
 			return;
 		}
 
@@ -510,7 +536,7 @@ class Hooks implements
 		// or the log entry.
 		$type = $entry->getAssociatedRevId() ? 'revision' : 'log';
 		$id = $entry->getAssociatedRevId() ?: $entry->getId();
-		$thankLink = self::generateThankElement( $id, $user, $recipient, $type );
+		$thankLink = $this->generateThankElement( $id, $user, $recipient, $type );
 
 		// Add parentheses to match what's done with Thanks in revision lists and diff displays.
 		$ret .= ' ' . wfMessage( 'parentheses' )->rawParams( $thankLink )->escaped();
