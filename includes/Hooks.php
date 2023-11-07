@@ -186,14 +186,14 @@ class Hooks implements
 	 * @return bool true if allowed, false if not
 	 */
 	protected static function canReceiveThanks( UserIdentity $user ) {
-		global $wgThanksSendToBots;
-
 		$legacyUser = MediaWikiServices::getInstance()->getUserFactory()->newFromUserIdentity( $user );
 		if ( !$user->isRegistered() || $legacyUser->isSystemUser() ) {
 			return false;
 		}
 
-		if ( !$wgThanksSendToBots && $legacyUser->isBot() ) {
+		if ( !MediaWikiServices::getInstance()->getMainConfig()->get( 'ThanksSendToBots' ) &&
+			$legacyUser->isBot()
+		) {
 			return false;
 		}
 
