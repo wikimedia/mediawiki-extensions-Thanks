@@ -21,6 +21,8 @@ use MediaWiki\Auth\Hook\LocalUserCreatedHook;
 use MediaWiki\Block\Hook\GetAllBlockActionsHook;
 use MediaWiki\Diff\Hook\DifferenceEngineViewHeaderHook;
 use MediaWiki\Diff\Hook\DiffToolsHook;
+use MediaWiki\Extension\Notifications\Hooks\BeforeCreateEchoEventHook;
+use MediaWiki\Extension\Notifications\Hooks\EchoGetBundleRulesHook;
 use MediaWiki\Extension\Notifications\Model\Event;
 use MediaWiki\Extension\Thanks\Api\ApiFlowThank;
 use MediaWiki\Hook\BeforePageDisplayHook;
@@ -34,6 +36,7 @@ use MediaWiki\Revision\RevisionRecord;
 use MediaWiki\Title\Title;
 use MediaWiki\User\UserIdentity;
 use MobileContext;
+use MobileFrontend\Hooks\BeforeSpecialMobileDiffDisplayHook;
 use OutputPage;
 use RequestContext;
 use Skin;
@@ -48,9 +51,12 @@ use User;
  */
 class Hooks implements
 	ApiMain__moduleManagerHook,
+	BeforeCreateEchoEventHook,
 	BeforePageDisplayHook,
+	BeforeSpecialMobileDiffDisplayHook,
 	DiffToolsHook,
 	DifferenceEngineViewHeaderHook,
+	EchoGetBundleRulesHook,
 	GetAllBlockActionsHook,
 	GetLogTypesOnUserHook,
 	HistoryToolsHook,
@@ -295,8 +301,8 @@ class Hooks implements
 	 * @param array &$notificationCategories array of Echo notification categories
 	 * @param array &$icons array of icon details
 	 */
-	public static function onBeforeCreateEchoEvent(
-		&$notifications, &$notificationCategories, &$icons
+	public function onBeforeCreateEchoEvent(
+		array &$notifications, array &$notificationCategories, array &$icons
 	) {
 		$notificationCategories['edit-thank'] = [
 			'priority' => 3,
@@ -369,7 +375,11 @@ class Hooks implements
 	 * @param array $revisions Array with two elements, either nulls or RevisionRecord objects for
 	 *     the two revisions that are being compared in the diff
 	 */
-	public static function onBeforeSpecialMobileDiffDisplay( &$output, $ctx, $revisions ) {
+	public function onBeforeSpecialMobileDiffDisplay(
+		OutputPage &$output,
+		MobileContext $ctx,
+		array $revisions
+	) {
 		$rev = $revisions[1];
 
 		// If the MobileFrontend extension is installed and the user is
@@ -459,7 +469,7 @@ class Hooks implements
 	 * @param Event $event The event being notified.
 	 * @param string &$bundleString Determines how the notification should be bundled.
 	 */
-	public static function onEchoGetBundleRules( $event, &$bundleString ) {
+	public function onEchoGetBundleRules( Event $event, string &$bundleString ) {
 		switch ( $event->getType() ) {
 			case 'edit-thank':
 				$bundleString = 'edit-thank';
