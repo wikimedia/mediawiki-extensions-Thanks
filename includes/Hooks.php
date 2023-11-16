@@ -35,8 +35,6 @@ use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\RevisionRecord;
 use MediaWiki\Title\Title;
 use MediaWiki\User\UserIdentity;
-use MobileContext;
-use MobileFrontend\Hooks\BeforeSpecialMobileDiffDisplayHook;
 use OutputPage;
 use RequestContext;
 use Skin;
@@ -53,7 +51,6 @@ class Hooks implements
 	ApiMain__moduleManagerHook,
 	BeforeCreateEchoEventHook,
 	BeforePageDisplayHook,
-	BeforeSpecialMobileDiffDisplayHook,
 	DiffToolsHook,
 	DifferenceEngineViewHeaderHook,
 	EchoGetBundleRulesHook,
@@ -191,7 +188,7 @@ class Hooks implements
 	 * @param UserIdentity $user Recipient
 	 * @return bool true if allowed, false if not
 	 */
-	protected static function canReceiveThanks( UserIdentity $user ) {
+	public static function canReceiveThanks( UserIdentity $user ) {
 		$legacyUser = MediaWikiServices::getInstance()->getUserFactory()->newFromUserIdentity( $user );
 		if ( !$user->isRegistered() || $legacyUser->isSystemUser() ) {
 			return false;
@@ -365,38 +362,6 @@ class Hooks implements
 		if ( !$user->isTemp() && !$autocreated ) {
 			$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
 			$userOptionsManager->setOption( $user, 'echo-subscriptions-email-edit-thank', true );
-		}
-	}
-
-	/**
-	 * Add thanks button to SpecialMobileDiff page
-	 * @param OutputPage &$output OutputPage object
-	 * @param MobileContext $ctx MobileContext object
-	 * @param array $revisions Array with two elements, either nulls or RevisionRecord objects for
-	 *     the two revisions that are being compared in the diff
-	 */
-	public function onBeforeSpecialMobileDiffDisplay(
-		OutputPage &$output,
-		MobileContext $ctx,
-		array $revisions
-	) {
-		$rev = $revisions[1];
-
-		// If the MobileFrontend extension is installed and the user is
-		// logged in or recipient is not a bot if bots cannot receive thanks, show a 'Thank' link.
-		if ( $rev
-			&& ExtensionRegistry::getInstance()->isLoaded( 'MobileFrontend' )
-			&& $rev->getUser()
-			&& self::canReceiveThanks( $rev->getUser() )
-			&& $output->getUser()->isRegistered()
-		) {
-			$output->addModules( [ 'ext.thanks.mobilediff' ] );
-
-			if ( $output->getRequest()->getSessionData( 'thanks-thanked-' . $rev->getId() ) ) {
-				// User already sent thanks for this revision
-				$output->addJsConfigVars( 'wgThanksAlreadySent', true );
-			}
-
 		}
 	}
 
