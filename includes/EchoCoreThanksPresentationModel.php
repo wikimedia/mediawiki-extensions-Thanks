@@ -59,6 +59,8 @@ class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 	}
 
 	public function getCompactHeaderMessage() {
+		// The following message is used here:
+		// * notification-compact-header-edit-thank
 		$msg = parent::getCompactHeaderMessage();
 		$msg->params( $this->getViewingUserForGender() );
 		return $msg;
