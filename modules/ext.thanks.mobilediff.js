@@ -129,10 +129,9 @@
 	function init( $user, $container ) {
 		var username = $user.data( 'user-name' ),
 			rev = $user.data( 'revision-id' ),
-			gender = $user.data( 'user-gender' ),
-			$thankBtn;
+			gender = $user.data( 'user-gender' );
 
-		$thankBtn = createThankLink( username, rev, gender );
+		var $thankBtn = createThankLink( username, rev, gender );
 		if ( $thankBtn ) {
 			$thankBtn.prependTo( $container );
 		}
