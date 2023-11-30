@@ -25,7 +25,7 @@
 	function sendThanks( $thankLink, $thankElement ) {
 		if ( $thankLink.data( 'clickDisabled' ) ) {
 			// Prevent double clicks while we haven't received a response from API request
-			return false;
+			return;
 		}
 		$thankLink.data( 'clickDisabled', true );
 
