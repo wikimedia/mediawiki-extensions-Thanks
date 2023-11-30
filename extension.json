@@ -193,7 +193,7 @@
 		"ApiMain::moduleManager": "main",
 		"BeforeCreateEchoEvent": "main",
 		"BeforePageDisplay": "main",
-		"BeforeSpecialMobileDiffDisplay": "main",
+		"BeforeSpecialMobileDiffDisplay": "mobile-frontend",
 		"DiffTools": "main",
 		"DifferenceEngineViewHeader": "main",
 		"EchoGetBundleRules": "main",
@@ -207,6 +207,9 @@
 	"HookHandlers": {
 		"main": {
 			"class": "MediaWiki\\Extension\\Thanks\\Hooks"
+		},
+		"mobile-frontend": {
+			"class": "MediaWiki\\Extension\\Thanks\\MobileFrontendHandler"
 		}
 	},
 	"ServiceWiringFiles": [
