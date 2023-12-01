@@ -21,10 +21,8 @@
 	"echo-pref-subscription-edit-thank": "ਮੇਰੀ ਸੋਧ ਲਈ ਮੈਨੂੰ ਧੰਨਵਾਦ",
 	"echo-pref-tooltip-edit-thank": "ਜਦੋਂ ਕੋਈ ਮੇਰੀ ਸੋਧ ਦਾ ਧੰਨਵਾਦ ਕਰਦਾ ਹੈ ਤਾਂ ਮੈਨੂੰ ਇਤਲਾਹ ਦਿਓ",
 	"echo-category-title-edit-thank": "ਮਿਹਰਬਾਨੀ",
-	"notification-thanks-diff-link": "ਤੁਹਾਡੀ ਸੋਧ",
 	"log-name-thanks": "ਮਿਹਰਬਾਨੀਆਂ ਦਾ ਇੰਦਰਾਜ",
 	"log-description-thanks": "ਹੇਠਾਂ ਦੂਜੇ ਵਰਤੋਂਕਾਰਾਂ ਦੁਆਰਾ ਧੰਨਵਾਦ ਕੀਤੇ ਵਰਤੋਂਕਾਰਾਂ ਦੀ ਇੱਕ ਲਿਸਟ ਹੈ।",
 	"logentry-thanks-thank": "$1 ਨੇ {{GENDER:$4|$3}} ਦਾ {{GENDER:$2|ਧੰਨਵਾਦ}} ਕੀਤਾ ਹੈ",
-	"notification-link-text-view-post": "ਟਿੱਪਣੀ ਵੇਖੋ",
-	"notification-flow-thanks-post-link": "ਤੁਹਾਡੀ ਟਿੱਪਣੀ"
+	"notification-link-text-view-post": "ਟਿੱਪਣੀ ਵੇਖੋ"
 }

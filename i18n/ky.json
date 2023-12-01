@@ -19,12 +19,10 @@
 	"thanks-confirmation2": "{{GENDER:$1|Ыраазычылыгыңыз}} жалпыга көрүнөт.",
 	"echo-pref-subscription-edit-thank": "Түзөткөнүм үчүн ыраазычылык",
 	"echo-category-title-edit-thank": "Ыраазычылык",
-	"notification-thanks-diff-link": "сиздин оңдооңуз",
 	"log-name-thanks": "Ыраазычылык журналы",
 	"logeventslist-thanks-log": "Ыраазычылык журналы",
 	"thanks-confirmation-special-rev": "Бул түзөтүү үчүн баары көрө ала турган ыраазычылык билдиргиңиз келеби ?",
 	"notification-link-text-view-post": "Пикирди окуу",
 	"notification-link-text-view-logentry": "Журналдын жазуусун көрүү",
-	"notification-flow-thanks-post-link": "пикириңиз",
 	"ipb-action-thanks": "Ыраазычылык билдирүү"
 }
