@@ -69,19 +69,6 @@
 		"MediaWiki\\Extension\\Thanks\\": "includes/"
 	},
 	"ResourceModules": {
-		"ext.thanks.images": {
-			"class": "MediaWiki\\ResourceLoader\\ImageModule",
-			"selector": ".mw-ui-icon-thanks-{name}",
-			"defaultColor": "#fff",
-			"images": {
-				"userTalk": {
-					"file": {
-						"ltr": "userTalk-ltr.svg",
-						"rtl": "userTalk-rtl.svg"
-					}
-				}
-			}
-		},
 		"ext.thanks": {
 			"scripts": [
 				"ext.thanks.thank.js"
@@ -125,6 +112,9 @@
 			]
 		},
 		"ext.thanks.mobilediff": {
+			"styles": [
+				"ext.thanks.mobilediff.less"
+			],
 			"scripts": [
 				"ext.thanks.mobilediff.js"
 			],
@@ -141,7 +131,6 @@
 			],
 			"dependencies": [
 				"mobile.startup",
-				"ext.thanks.images",
 				"mediawiki.api",
 				"mediawiki.jqueryMsg"
 			],
