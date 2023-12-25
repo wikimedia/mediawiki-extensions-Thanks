@@ -13,7 +13,8 @@
 			"Shirayuki",
 			"Sujiniku",
 			"Suyama",
-			"Takot"
+			"Takot",
+			"春春眠眠"
 		]
 	},
 	"thanks-desc": "利用者の編集やコメントなどに感謝を示すリンクを追加する",
@@ -59,6 +60,7 @@
 	"thanks-confirmation-special-log": "この記録の操作について、公開の場で感謝を示しますか?",
 	"thanks-confirmation-special-rev": "この編集について、公開の場で感謝を示しますか?",
 	"notification-link-text-view-post": "コメントを閲覧",
+	"notification-link-text-view-logentry": "記録項目を閲覧",
 	"thanks-error-invalidpostid": "投稿 ID が無効です。",
 	"flow-thanks-confirmation-special": "このコメントに公に感謝を示しますか?",
 	"flow-thanks-thanked-notice": "{{GENDER:$3|あなた}}が $1 のコメントに感謝を示したことを{{GENDER:$2|本人}}に通知しました。",
