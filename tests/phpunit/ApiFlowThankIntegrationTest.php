@@ -4,6 +4,10 @@ use Flow\Model\AbstractRevision;
 use Flow\Model\PostRevision;
 use Flow\Model\UUID;
 use Flow\Model\Workflow;
+use MediaWiki\Deferred\DeferredUpdates;
+use MediaWiki\Title\Title;
+use MediaWiki\User\User;
+use MediaWiki\WikiMap\WikiMap;
 
 /**
  * Integration tests for the Thanks Flow api module
@@ -106,7 +110,7 @@ class ApiFlowThankIntegrationTest extends ApiTestCase {
 		$container[ 'storage' ] = $mockStorage;
 		$container[ 'templating' ] = $mockTemplating;
 
-		\DeferredUpdates::clearPendingUpdates();
+		DeferredUpdates::clearPendingUpdates();
 	}
 
 	public function testRequestWithoutToken() {

@@ -4,12 +4,12 @@ namespace MediaWiki\Extension\Thanks;
 
 use ApiMain;
 use ApiUsageException;
-use FormSpecialPage;
 use HTMLForm;
-use Linker;
+use MediaWiki\Linker\Linker;
 use MediaWiki\Request\DerivativeRequest;
+use MediaWiki\SpecialPage\FormSpecialPage;
+use MediaWiki\Status\Status;
 use MediaWiki\User\UserFactory;
-use Status;
 
 class SpecialThanks extends FormSpecialPage {
 

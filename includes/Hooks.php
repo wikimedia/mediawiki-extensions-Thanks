@@ -6,19 +6,18 @@ namespace MediaWiki\Extension\Thanks;
 
 use ApiModuleManager;
 use Article;
-use ConfigException;
 use DatabaseLogEntry;
 use DifferenceEngine;
 use EchoAttributeManager;
 use EchoUserLocator;
 use ExtensionRegistry;
-use Html;
 use IContextSource;
 use LogEventsList;
 use LogPage;
 use MediaWiki\Api\Hook\ApiMain__moduleManagerHook;
 use MediaWiki\Auth\Hook\LocalUserCreatedHook;
 use MediaWiki\Block\Hook\GetAllBlockActionsHook;
+use MediaWiki\Config\ConfigException;
 use MediaWiki\Diff\Hook\DifferenceEngineViewHeaderHook;
 use MediaWiki\Diff\Hook\DiffToolsHook;
 use MediaWiki\Extension\Notifications\Hooks\BeforeCreateEchoEventHook;
@@ -30,16 +29,17 @@ use MediaWiki\Hook\GetLogTypesOnUserHook;
 use MediaWiki\Hook\HistoryToolsHook;
 use MediaWiki\Hook\LogEventsListLineEndingHook;
 use MediaWiki\Hook\PageHistoryBeforeListHook;
+use MediaWiki\Html\Html;
 use MediaWiki\Linker\LinkTarget;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Output\OutputPage;
 use MediaWiki\Revision\RevisionRecord;
+use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
+use MediaWiki\User\User;
 use MediaWiki\User\UserIdentity;
-use OutputPage;
 use RequestContext;
 use Skin;
-use SpecialPage;
-use User;
 
 /**
  * Hooks for Thanks extension

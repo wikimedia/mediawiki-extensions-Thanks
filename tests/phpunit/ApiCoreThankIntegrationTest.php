@@ -1,5 +1,8 @@
 <?php
 
+use MediaWiki\Deferred\DeferredUpdates;
+use MediaWiki\User\User;
+
 /**
  * Integration tests for the Thanks API module
  *

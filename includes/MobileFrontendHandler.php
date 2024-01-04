@@ -3,9 +3,9 @@
 namespace MediaWiki\Extension\Thanks;
 
 use ExtensionRegistry;
+use MediaWiki\Output\OutputPage;
 use MobileContext;
 use MobileFrontend\Hooks\BeforeSpecialMobileDiffDisplayHook;
-use OutputPage;
 
 /**
  * HookHandler for extension MobileFrontend

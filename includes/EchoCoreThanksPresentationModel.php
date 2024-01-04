@@ -9,9 +9,9 @@ use LogPage;
 use MediaWiki\Extension\Notifications\Formatters\EchoEventPresentationModel;
 use MediaWiki\Language\RawMessage;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Parser\Sanitizer;
 use MediaWiki\Revision\RevisionRecord;
-use Sanitizer;
-use SpecialPage;
+use MediaWiki\SpecialPage\SpecialPage;
 
 class EchoCoreThanksPresentationModel extends EchoEventPresentationModel {
 	/** @var LogEntry|bool|null */
