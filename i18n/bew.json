@@ -50,7 +50,7 @@
 	"thanks-confirmation-special-rev": "Apa lu pèngèn terang-terangan makasi bakal ni permakan?",
 	"notification-link-text-view-post": "Deleng sautan",
 	"notification-link-text-view-logentry": "Deleng pepasupan rekeman",
-	"thanks-error-invalidpostid": "ID publikasi kaga' aci.",
+	"thanks-error-invalidpostid": "ID penyeplokan kaga' aci.",
 	"flow-thanks-confirmation-special": "Apa lu pèngèn terang-terangan makasi bakal ni sautan?",
 	"flow-thanks-thanked-notice": "{{GENDER:$3|Lu}} makasi ama $1 bakal {{GENDER:$2|dia punya|dia punya|dia pada punya}} sautan.",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|makasi}} ama {{GENDER:$5|lu}} bakal lu punya sautan di \"<strong>$3</strong>\".",
