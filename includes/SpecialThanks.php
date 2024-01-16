@@ -8,6 +8,7 @@ use MediaWiki\HTMLForm\HTMLForm;
 use MediaWiki\Linker\Linker;
 use MediaWiki\Request\DerivativeRequest;
 use MediaWiki\SpecialPage\FormSpecialPage;
+use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Status\Status;
 use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserRigorOptions;
@@ -185,18 +186,11 @@ class SpecialThanks extends FormSpecialPage {
 			return Status::wrap( $e->getStatusValue() );
 		}
 
-		$this->result = $api->getResult()->getResultData( [ 'result' ] );
-		return Status::newGood();
-	}
-
-	/**
-	 * Display a message to the user.
-	 */
-	public function onSuccess() {
+		$result = $api->getResult()->getResultData( [ 'result' ] );
 		$sender = $this->getUser();
-		$recipient = $this->userFactory->newFromName( $this->result['recipient'], UserRigorOptions::RIGOR_NONE );
+		$recipient = $this->userFactory->newFromName( $result['recipient'], UserRigorOptions::RIGOR_NONE );
 		$link = Linker::userLink( $recipient->getId(), $recipient->getName() );
-
+		// Display a message to the user.
 		if ( in_array( $this->type, [ 'rev', 'log' ] ) ) {
 			$msgKey = 'thanks-thanked-notice';
 		} else {
@@ -205,7 +199,14 @@ class SpecialThanks extends FormSpecialPage {
 		$msg = $this->msg( $msgKey )
 			->rawParams( $link )
 			->params( $recipient->getName(), $sender->getName() );
-		$this->getOutput()->addHTML( $msg->parse() );
+		$out = $this->getOutput();
+		$out->addHTML( $msg->parse() );
+		if ( in_array( $this->type, [ 'rev' ] ) ) {
+			$out->addReturnTo( SpecialPage::getTitleFor( 'Diff', $data['id'] ) );
+		} elseif ( in_array( $this->type, [ 'log' ] ) ) {
+			$out->addReturnTo( SpecialPage::getTitleFor( 'Redirect', 'logid/' . $data['id'] ) );
+		}
+		return Status::newGood();
 	}
 
 	public function isListed(): bool {
