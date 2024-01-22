@@ -6,7 +6,7 @@
 	},
 	"apihelp-flowthank-description": "Kirim ma'lumat makasi umum bakal tanggepan Flow.",
 	"apihelp-flowthank-summary": "Kirim ma'lumat makasi umum bakal sautan Flow.",
-	"apihelp-flowthank-param-postid": "UUID deri publikasi nyang pèngèn dimakasiin.",
+	"apihelp-flowthank-param-postid": "UUID deri penyeplokan nyang pèngèn dimakasiin.",
 	"apihelp-flowthank-example-1": "Kirim makasi bakal sautan dengen <kbd>UUID xyz789</kbd>",
 	"apihelp-thank-description": "Kirim ma'lumat makasi ke pemermak.",
 	"apihelp-thank-summary": "Kirim ma'lumat makasi ke pemermak.",
