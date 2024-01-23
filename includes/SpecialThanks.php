@@ -10,6 +10,7 @@ use MediaWiki\Request\DerivativeRequest;
 use MediaWiki\SpecialPage\FormSpecialPage;
 use MediaWiki\Status\Status;
 use MediaWiki\User\UserFactory;
+use MediaWiki\User\UserRigorOptions;
 
 class SpecialThanks extends FormSpecialPage {
 
@@ -189,7 +190,7 @@ class SpecialThanks extends FormSpecialPage {
 	 */
 	public function onSuccess() {
 		$sender = $this->getUser();
-		$recipient = $this->userFactory->newFromName( $this->result['recipient'] );
+		$recipient = $this->userFactory->newFromName( $this->result['recipient'], UserRigorOptions::RIGOR_NONE );
 		$link = Linker::userLink( $recipient->getId(), $recipient->getName() );
 
 		if ( in_array( $this->type, [ 'rev', 'log' ] ) ) {
