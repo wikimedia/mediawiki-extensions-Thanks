@@ -54,6 +54,7 @@ class ThanksQueryHelper {
 				'log_title' => $logTitle,
 			] )
 			->limit( $limit )
+			->caller( __METHOD__ )
 			->fetchRowCount();
 	}
 }
