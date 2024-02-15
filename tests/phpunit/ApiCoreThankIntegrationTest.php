@@ -97,13 +97,12 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 		$this->mergeMwGlobalArrayValue( 'wgGroupPermissions', [
 			'logdeleter' => [
 				'read' => true,
-				'writeapi' => true,
 				'deletelogentry' => true
 			]
 		] );
 
 		// Mark our test log entry as deleted.
-		// To do this we briefly switch to a different test user.
+		// To do this, we briefly switch to a different test user.
 		$logdeleter = $this->getTestUser( [ 'logdeleter' ] )->getUser();
 		$this->doApiRequestWithToken( [
 			'action' => 'revisiondelete',
