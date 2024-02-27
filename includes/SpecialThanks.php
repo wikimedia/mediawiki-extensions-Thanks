@@ -117,6 +117,9 @@ class SpecialThanks extends FormSpecialPage {
 		} elseif ( $this->type === 'flow' ) {
 			$msgKey = 'flow-thanks-confirmation-special';
 		} else {
+			// The following messages are used here
+			// * thanks-confirmation-special-rev
+			// * thanks-confirmation-special-log
 			$msgKey = 'thanks-confirmation-special-' . $this->type;
 		}
 		return '<p>' . $this->msg( $msgKey )->escaped() . '</p>';
