@@ -43,5 +43,5 @@
 	"notification-flow-thanks-post-link": "þín athugasemd",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|þakkaði}} {{GENDER:$5|þér}} fyrir athugasemd þína við „<strong>$3</strong>“.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|þakkaði}} {{GENDER:$3|þér}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Einn notandi þakkaði|$1 notendur þökkuðu|100=99+ notendur þökkuðu}} {{GENDER:$3|þér}} fyrir athugasemd þína við <strong>$2</strong>."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Einn notandi þakkaði|$1 notendur þökkuðu|100=99+ notendur þökkuðu}} {{GENDER:$3|þér}} fyrir athugasemdina þína við <strong>$2</strong>."
 }
