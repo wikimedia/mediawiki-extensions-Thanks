@@ -85,7 +85,7 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 	}
 
 	public function testLogRequestWithDisallowedLogType() {
-		$this->setMwGlobals( [ 'wgThanksAllowedLogTypes' => [] ] );
+		$this->overrideConfigValue( 'ThanksAllowedLogTypes', [] );
 		$this->expectApiErrorCode( 'thanks-error-invalid-log-type' );
 		$this->doApiRequestWithToken( [
 			'action' => 'thank',
