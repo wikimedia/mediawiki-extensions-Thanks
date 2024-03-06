@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"POSSUM chowg"
+			"POSSUM chowg",
+			"Amire80"
 		]
 	},
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|pałach masi}}}}"
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|paɬach masi}}}}"
 }
