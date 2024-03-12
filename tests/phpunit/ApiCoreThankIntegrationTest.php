@@ -69,7 +69,7 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 	}
 
 	public function testValidRevRequest() {
-		list( $result,, ) = $this->doApiRequestWithToken( [
+		[ $result,, ] = $this->doApiRequestWithToken( [
 			'action' => 'thank',
 			'rev' => $this->revId,
 		], null, $this->getTestSysop()->getUser() );
@@ -77,7 +77,7 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 	}
 
 	public function testValidLogRequest() {
-		list( $result,, ) = $this->doApiRequestWithToken( [
+		[ $result,, ] = $this->doApiRequestWithToken( [
 			'action' => 'thank',
 			'log' => $this->logId,
 		], null, $this->getTestSysop()->getUser() );
@@ -122,7 +122,7 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 	}
 
 	public function testValidRequestWithSource() {
-		list( $result,, ) = $this->doApiRequestWithToken( [
+		[ $result,, ] = $this->doApiRequestWithToken( [
 			'action' => 'thank',
 			'source' => 'someSource',
 			'rev' => $this->revId,

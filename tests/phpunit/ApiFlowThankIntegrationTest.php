@@ -127,7 +127,7 @@ class ApiFlowThankIntegrationTest extends ApiTestCase {
 	}
 
 	public function testValidRequest() {
-		list( $result,, ) = $this->doApiRequestWithToken( [
+		[ $result,, ] = $this->doApiRequestWithToken( [
 			'action' => 'flowthank',
 			'postid' => $this->postByOtherUser->getPostId()->getAlphadecimal(),
 		] );
