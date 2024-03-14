@@ -94,7 +94,7 @@ class ApiCoreThankIntegrationTest extends ApiTestCase {
 	}
 
 	public function testLogThanksForADeletedLogEntry() {
-		$this->mergeMwGlobalArrayValue( 'wgGroupPermissions', [
+		$this->setGroupPermissions( [
 			'logdeleter' => [
 				'read' => true,
 				'writeapi' => true,
