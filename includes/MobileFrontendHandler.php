@@ -3,7 +3,9 @@
 namespace MediaWiki\Extension\Thanks;
 
 use ExtensionRegistry;
+use MediaWiki\Config\Config;
 use MediaWiki\Output\OutputPage;
+use MediaWiki\User\UserFactory;
 use MobileContext;
 use MobileFrontend\Hooks\BeforeSpecialMobileDiffDisplayHook;
 
@@ -16,6 +18,17 @@ use MobileFrontend\Hooks\BeforeSpecialMobileDiffDisplayHook;
 class MobileFrontendHandler implements
 	BeforeSpecialMobileDiffDisplayHook
 {
+	private Config $config;
+	private UserFactory $userFactory;
+
+	public function __construct(
+		Config $config,
+		UserFactory $userFactory
+	) {
+		$this->config = $config;
+		$this->userFactory = $userFactory;
+	}
+
 	/**
 	 * Add thanks button to SpecialMobileDiff page
 	 * @param OutputPage &$output OutputPage object
@@ -35,7 +48,7 @@ class MobileFrontendHandler implements
 		if ( $rev
 			&& ExtensionRegistry::getInstance()->isLoaded( 'MobileFrontend' )
 			&& $rev->getUser()
-			&& Hooks::canReceiveThanks( $rev->getUser() )
+			&& Hooks::canReceiveThanks( $this->config, $this->userFactory, $rev->getUser() )
 			&& $output->getUser()->isRegistered()
 		) {
 			$output->addModules( [ 'ext.thanks.mobilediff' ] );

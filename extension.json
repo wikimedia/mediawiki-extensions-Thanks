@@ -179,10 +179,22 @@
 	},
 	"HookHandlers": {
 		"main": {
-			"class": "MediaWiki\\Extension\\Thanks\\Hooks"
+			"class": "MediaWiki\\Extension\\Thanks\\Hooks",
+			"services": [
+				"MainConfig",
+				"GenderCache",
+				"PermissionManager",
+				"RevisionLookup",
+				"UserFactory",
+				"UserOptionsManager"
+			]
 		},
 		"mobile-frontend": {
-			"class": "MediaWiki\\Extension\\Thanks\\MobileFrontendHandler"
+			"class": "MediaWiki\\Extension\\Thanks\\MobileFrontendHandler",
+			"services": [
+				"MainConfig",
+				"UserFactory"
+			]
 		}
 	},
 	"ServiceWiringFiles": [
