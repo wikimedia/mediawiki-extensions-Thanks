@@ -103,30 +103,6 @@
 				"ext.thanks"
 			]
 		},
-		"ext.thanks.mobilediff": {
-			"styles": [
-				"ext.thanks.mobilediff.less"
-			],
-			"scripts": [
-				"ext.thanks.mobilediff.js"
-			],
-			"messages": [
-				"thanks-button-action-queued",
-				"thanks-button-action-cancel",
-				"thanks-button-action-completed",
-				"thanks-button-thank",
-				"thanks-button-thanked",
-				"thanks-error-invalidrevision",
-				"thanks-error-ratelimited",
-				"thanks-error-undefined",
-				"thanks-thanked-notice"
-			],
-			"dependencies": [
-				"mobile.startup",
-				"mediawiki.api",
-				"mediawiki.jqueryMsg"
-			]
-		},
 		"ext.thanks.flowthank": {
 			"scripts": [
 				"jquery.findWithParent.js",
@@ -154,19 +130,16 @@
 		"localBasePath": "tests/qunit",
 		"remoteExtPath": "Thanks/tests/qunit",
 		"scripts": [
-			"test_ext.thanks.thank.js",
-			"test_ext.thanks.mobilediff.js"
+			"test_ext.thanks.thank.js"
 		],
 		"dependencies": [
-			"ext.thanks",
-			"ext.thanks.mobilediff"
+			"ext.thanks"
 		]
 	},
 	"Hooks": {
 		"ApiMain::moduleManager": "main",
 		"BeforeCreateEchoEvent": "echo",
 		"BeforePageDisplay": "main",
-		"BeforeSpecialMobileDiffDisplay": "mobile-frontend",
 		"DiffTools": "main",
 		"DifferenceEngineViewHeader": "main",
 		"EchoGetBundleRules": "echo",
@@ -187,13 +160,6 @@
 				"RevisionLookup",
 				"UserFactory",
 				"UserOptionsManager"
-			]
-		},
-		"mobile-frontend": {
-			"class": "MediaWiki\\Extension\\Thanks\\MobileFrontendHandler",
-			"services": [
-				"MainConfig",
-				"UserFactory"
 			]
 		},
 		"echo": {
