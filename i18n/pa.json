@@ -4,6 +4,7 @@
 			"Aalam",
 			"Babanwalia",
 			"Bgo eiu",
+			"Kuldeepburjbhalaike",
 			"Satdeep gill",
 			"TariButtar"
 		]
@@ -11,8 +12,8 @@
 	"thanks-desc": "ਵਰਤੋਂਕਾਰਾਂ ਦੀਆਂ ਸੋਧਾਂ, ਟਿੱਪਣੀਆਂ ਆਦਿ ਲਈ ਧੰਨਵਾਦ ਕਰਨ ਲਈ ਧੰਨਵਾਦੀ ਲਿੰਕ ਜੋੜਦਾ ਹੈ",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ਧੰਨਵਾਦ ਕਹੋ}}}}",
 	"thanks-thanked": "{{GENDER:$1|ਧੰਨਵਾਦ ਕੀਤਾ ਗਿਆ}}",
-	"thanks-button-thank": "ਧੰਨਵਾਦ",
-	"thanks-button-thanked": "{{GENDER:$1|ਧੰਨਵਾਦ ਕੀਤਾ ਗਿਆ}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|ਧੰਨਵਾਦ}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|ਧੰਨਵਾਦ ਕੀਤਾ}}}}",
 	"thanks-error-undefined": "ਧੰਨਵਾਦ ਕਾਰਜ ਫੇਲ ਹੋਇਆ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।",
 	"thanks-error-invalidrevision": "ਸੁਧਾਈ ਪਛਾਣ ਉਚਿਤ ਨਹੀਂ ਹੈ।",
 	"thanks-error-ratelimited": "ਤੁਸੀਂ ਗਤੀ ਹੱਦ ਪਾਰ ਕਰ ਗਏ ਹੋ। ਕਿਰਪਾ ਕਰਕੇ ਕੁਝ ਸਮਾਂ ਇੰਤਜ਼ਾਰ ਕਰੇ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
