@@ -17,7 +17,7 @@
 	"thanks-error-invalid-log-type": "Jenis rekeman '$1' kaga' ada di daptar jenis rekeman nyang diijinin.",
 	"thanks-error-log-deleted": "Pepasupan rekeman nyang diminta' udah diapus èn kaga' bisa dimakasiin.",
 	"thanks-error-invalidrevision": "ID perbaèkan kaga' aci.",
-	"thanks-error-revdeleted": "Kaga' bisa ngirim makasi sebab perbaèkan udah diapus.",
+	"thanks-error-revdeleted": "Kaga' bisa ngirim makasi bahna perbaèkan udah diapus.",
 	"thanks-error-notitle": "Judul halaman kaga' kena dipungut.",
 	"thanks-error-invalidrecipient": "Kaga' ketemu penerima nyang aci",
 	"thanks-error-invalidrecipient-bot": "Bot kaga' bisa dimakasiin",
