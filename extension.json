@@ -164,12 +164,12 @@
 	},
 	"Hooks": {
 		"ApiMain::moduleManager": "main",
-		"BeforeCreateEchoEvent": "main",
+		"BeforeCreateEchoEvent": "echo",
 		"BeforePageDisplay": "main",
 		"BeforeSpecialMobileDiffDisplay": "mobile-frontend",
 		"DiffTools": "main",
 		"DifferenceEngineViewHeader": "main",
-		"EchoGetBundleRules": "main",
+		"EchoGetBundleRules": "echo",
 		"GetAllBlockActions": "main",
 		"GetLogTypesOnUser": "main",
 		"HistoryTools": "main",
@@ -195,6 +195,9 @@
 				"MainConfig",
 				"UserFactory"
 			]
+		},
+		"echo": {
+			"class": "MediaWiki\\Extension\\Thanks\\EchoHooks"
 		}
 	},
 	"ServiceWiringFiles": [
