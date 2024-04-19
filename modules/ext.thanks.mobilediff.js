@@ -1,6 +1,6 @@
 ( function () {
 	// To allow users to cancel a thanks in the event of an accident, the action is delayed.
-	var THANKS_DELAY = 2000,
+	const THANKS_DELAY = 2000,
 		msgOptions = {
 			// tag ensures that only one message in workflow is shown at any time
 			tag: 'thanks'
@@ -22,7 +22,7 @@
 			mw.notify( mw.msg( 'thanks-button-action-completed', name, recipientGender, mw.user ),
 				msgOptions );
 		}, function ( errorCode ) {
-			var msg;
+			let msg;
 			switch ( errorCode ) {
 				case 'invalidrevision':
 					msg = mw.msg( 'thanks-error-invalidrevision' );
@@ -100,7 +100,7 @@
 		}
 
 		function queueThanks( $btn ) {
-			var $msg = $( '<div>' ).addClass( 'mw-thanks-notification' )
+			const $msg = $( '<div>' ).addClass( 'mw-thanks-notification' )
 				.text( mw.msg( 'thanks-button-action-queued', name, gender ) )
 				.append( $( '<a>' ).text( mw.msg( 'thanks-button-action-cancel' ) )
 					.on( 'click', function () {
@@ -117,7 +117,7 @@
 		}
 
 		return $button.on( 'click', function () {
-			var $this = $( this );
+			const $this = $( this );
 			$this.prop( 'disabled', true );
 			// eslint-disable-next-line no-jquery/no-class-state
 			if ( !$this.hasClass( 'thanked' ) && !timeout ) {
@@ -133,11 +133,11 @@
 	 * @param {jQuery} $container to render button in
 	 */
 	function init( $user, $container ) {
-		var username = $user.data( 'user-name' ),
+		const username = $user.data( 'user-name' ),
 			rev = $user.data( 'revision-id' ),
 			gender = $user.data( 'user-gender' );
 
-		var $thankBtn = createThankLink( username, rev, gender );
+		const $thankBtn = createThankLink( username, rev, gender );
 		if ( $thankBtn ) {
 			$thankBtn.prependTo( $container );
 		}

@@ -1,11 +1,11 @@
 ( function () {
 	'use strict';
 
-	var attrName = 'data-revision-id';
+	const attrName = 'data-revision-id';
 
 	function reloadThankedState() {
 		$( 'a.mw-thanks-thank-link' ).each( function ( idx, el ) {
-			var $thankLink = $( el );
+			const $thankLink = $( el );
 			if ( mw.thanks.thanked.contains( $thankLink.attr( attrName ) ) ) {
 				$thankLink.before(
 					$( '<span>' ).addClass( 'mw-thanks-thank-confirmation' ).text(
@@ -29,7 +29,7 @@
 		}
 		$thankLink.data( 'clickDisabled', true );
 
-		var source;
+		let source;
 		// Determine the thank source (history, diff, or log).
 		if ( mw.config.get( 'wgAction' ) === 'history' ) {
 			source = 'history';
@@ -40,7 +40,7 @@
 		}
 
 		// Construct the API parameters.
-		var apiParams = {
+		const apiParams = {
 			action: 'thank',
 			source: source
 		};
@@ -63,7 +63,7 @@
 				function ( errorCode ) {
 					// If error occurred, enable attempting to thank again
 					$thankLink.data( 'clickDisabled', false );
-					var msg;
+					let msg;
 					switch ( errorCode ) {
 						case 'invalidrevision':
 							msg = mw.msg( 'thanks-error-invalidrevision' );
@@ -88,10 +88,10 @@
 	 * @param {jQuery} $content
 	 */
 	function addActionToLinks( $content ) {
-		var $thankLinks = $content.find( 'a.mw-thanks-thank-link' );
+		const $thankLinks = $content.find( 'a.mw-thanks-thank-link' );
 		if ( mw.config.get( 'thanks-confirmation-required' ) ) {
 			$thankLinks.each( function () {
-				var $thankLink = $( this );
+				const $thankLink = $( this );
 				$thankLink.confirmable( {
 					i18n: {
 						confirm: mw.msg( 'thanks-confirmation2', mw.user ),
@@ -108,7 +108,7 @@
 			} );
 		} else {
 			$thankLinks.on( 'click', function ( e ) {
-				var $thankLink = $( this );
+				const $thankLink = $( this );
 				e.preventDefault();
 				sendThanks( $thankLink, $thankLink );
 			} );

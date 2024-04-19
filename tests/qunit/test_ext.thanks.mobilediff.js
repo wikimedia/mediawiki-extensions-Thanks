@@ -1,8 +1,8 @@
 QUnit.module( 'Thanks mobilediff', function () {
 
 	QUnit.test( 'render button for logged in users', function ( assert ) {
-		var $container = $( '<div>' );
-		var $user = $( '<div>' )
+		const $container = $( '<div>' );
+		const $user = $( '<div>' )
 			.data( 'user-name', 'jon' )
 			.data( 'revision-id', 1 )
 			.data( 'user-gender', 'male' );

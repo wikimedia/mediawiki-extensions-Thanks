@@ -1,8 +1,8 @@
 ( function () {
-	var $thankedLabel = $( '<span>' ).addClass( 'mw-thanks-flow-thanked mw-ui-quiet' );
+	const $thankedLabel = $( '<span>' ).addClass( 'mw-thanks-flow-thanked mw-ui-quiet' );
 
-	var attrName = 'data-flow-id';
-	var cookieName = 'flow-thanked';
+	const attrName = 'data-flow-id';
+	const cookieName = 'flow-thanked';
 
 	function findPostAuthorFromThankLink( $thankLink ) {
 		// We can't use 'closest' directly because .flow-author is a cousin
@@ -12,9 +12,9 @@
 
 	function reloadThankedState() {
 		$( 'a.mw-thanks-flow-thank-link' ).each( function ( idx, el ) {
-			var $thankLink = $( el );
+			const $thankLink = $( el );
 			if ( mw.thanks.thanked.contains( $thankLink.closest( '.flow-post' ).attr( attrName ), cookieName ) ) {
-				var author = findPostAuthorFromThankLink( $thankLink );
+				const author = findPostAuthorFromThankLink( $thankLink );
 				mw.thanks.getUserGender( author )
 					.done( function ( recipientGender ) {
 						$thankLink.before(
@@ -38,7 +38,7 @@
 			.then(
 				// Success
 				function () {
-					var author = findPostAuthorFromThankLink( $thankLink );
+					const author = findPostAuthorFromThankLink( $thankLink );
 					// Get the user who was thanked (for gender purposes)
 					return mw.thanks.getUserGender( author );
 				},
@@ -54,7 +54,7 @@
 				}
 			)
 			.then( function ( recipientGender ) {
-				var $thankUserLabel = $thankedLabel.clone();
+				const $thankUserLabel = $thankedLabel.clone();
 				$thankUserLabel.append(
 					mw.msg( 'thanks-button-thanked', mw.user, recipientGender )
 				);
@@ -74,7 +74,7 @@
 
 	// .on() is needed to make the button work for dynamically loaded posts
 	$( '.flow-board' ).on( 'click', 'a.mw-thanks-flow-thank-link', function ( e ) {
-		var $thankLink = $( this );
+		const $thankLink = $( this );
 		e.preventDefault();
 		sendFlowThanks( $thankLink );
 	} );
