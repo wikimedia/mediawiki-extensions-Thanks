@@ -411,7 +411,8 @@ class Hooks implements
 					"class" => ApiFlowThank::class,
 					"services" => [
 						"PermissionManager",
-						"ThanksLogStore"
+						"ThanksLogStore",
+						"UserFactory",
 					]
 				]
 			);
