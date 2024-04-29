@@ -7,7 +7,6 @@
 	"thanks-desc": "Dodaje poveznice za zahvaljivanje ka korisnicima za njihove izmjene, komentare itd.",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|zahvala}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|zahvaljeno}}}}",
-	"thanks-button-action-cancel": "Otkaži",
 	"thanks-error-undefined": "Zahvaljivanje nije uspjelo (kôd greške: $1). Pokušajte ponovo.",
 	"thanks-error-invalid-log-type": "Nema evidencije vrste »$1« na bijeloj listi dozvoljenih vrsta evidencija.",
 	"thanks-error-log-deleted": "Zahtijevani evidencijski unos bio je izbrisan i zato ne može da se zahvali za nju.",

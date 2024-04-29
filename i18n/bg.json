@@ -18,9 +18,6 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|изказана благодарност}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Благодарност}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Изказана благодарност}}}}",
-	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|Благодарност към}}}} $1…",
-	"thanks-button-action-cancel": "Отказ",
-	"thanks-button-action-completed": "{{GENDER:$1|{{GENDER:$2|Изказахте благодарност на}}}} $1",
 	"thanks-error-undefined": "Изказването на благодарност се провали (код на грешката: $1). Моля, опитайте отново.",
 	"thanks-error-invalid-log-id": "Записът в дневника не беше открит",
 	"thanks-error-invalid-log-type": "Вид на дневника „$1 не е в списъка на позволените дневници.",
@@ -64,5 +61,6 @@
 	"flow-thanks-thanked-notice": "{{GENDER:$3|Вие}} благодарихте на $1 за коментара {{GENDER:$2|му|ѝ|им}}.",
 	"notification-header-flow-thank": "$1 {{GENDER:$5|ви}} {{GENDER:$2|благодари}} за коментара в „<strong>$3</strong>“.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|Ви}} {{GENDER:$2|благодари}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Един участник Ви благодари|$1 участника Ви благодариха|100=99+ участника Ви благодариха}} за {{GENDER:$3|}} коментара в „<strong>$2</strong>“."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Един участник Ви благодари|$1 участника Ви благодариха|100=99+ участника Ви благодариха}} за {{GENDER:$3|}} коментара в „<strong>$2</strong>“.",
+	"ipb-action-thanks": "Изпращане на благодарности"
 }
