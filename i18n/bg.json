@@ -66,5 +66,6 @@
 	"notification-flow-thanks-post-link": "вашия коментар",
 	"notification-header-flow-thank": "$1 {{GENDER:$5|ви}} {{GENDER:$2|благодари}} за коментара в „<strong>$3</strong>“.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|Ви}} {{GENDER:$2|благодари}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Един участник Ви благодари|$1 участника Ви благодариха|100=99+ участника Ви благодариха}} за {{GENDER:$3|}} коментара в „<strong>$2</strong>“."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Един участник Ви благодари|$1 участника Ви благодариха|100=99+ участника Ви благодариха}} за {{GENDER:$3|}} коментара в „<strong>$2</strong>“.",
+	"ipb-action-thanks": "Изпращане на благодарности"
 }
