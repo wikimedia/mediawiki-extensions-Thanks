@@ -9,15 +9,16 @@ use Article;
 use DatabaseLogEntry;
 use DifferenceEngine;
 use ExtensionRegistry;
-use GenderCache;
-use IContextSource;
 use LogEventsList;
 use LogPage;
 use MediaWiki\Api\Hook\ApiMain__moduleManagerHook;
 use MediaWiki\Auth\Hook\LocalUserCreatedHook;
 use MediaWiki\Block\Hook\GetAllBlockActionsHook;
+use MediaWiki\Cache\GenderCache;
 use MediaWiki\Config\Config;
 use MediaWiki\Config\ConfigException;
+use MediaWiki\Context\IContextSource;
+use MediaWiki\Context\RequestContext;
 use MediaWiki\Diff\Hook\DifferenceEngineViewHeaderHook;
 use MediaWiki\Diff\Hook\DiffToolsHook;
 use MediaWiki\Extension\Thanks\Api\ApiFlowThank;
@@ -38,7 +39,6 @@ use MediaWiki\User\Options\UserOptionsManager;
 use MediaWiki\User\User;
 use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserIdentity;
-use RequestContext;
 use Skin;
 
 /**

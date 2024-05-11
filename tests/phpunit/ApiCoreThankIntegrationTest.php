@@ -1,6 +1,7 @@
 <?php
 
 use MediaWiki\Deferred\DeferredUpdates;
+use MediaWiki\Tests\Api\ApiTestCase;
 use MediaWiki\User\User;
 
 /**

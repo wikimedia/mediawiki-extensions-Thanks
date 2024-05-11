@@ -4,7 +4,7 @@ namespace MediaWiki\Extension\Thanks;
 
 use ApiMain;
 use ApiUsageException;
-use HTMLForm;
+use MediaWiki\HTMLForm\HTMLForm;
 use MediaWiki\Linker\Linker;
 use MediaWiki\Request\DerivativeRequest;
 use MediaWiki\SpecialPage\FormSpecialPage;
