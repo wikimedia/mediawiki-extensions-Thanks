@@ -54,7 +54,7 @@
 	"thanks-error-no-id-specified": "יש לציין מזהה גרסה או פעולת יומן כדי לשלוח תודה.",
 	"thanks-confirmation-special-log": "האם ברצונך לשלוח תודה על פעולת היומן הזאת באופן ציבורי?",
 	"thanks-confirmation-special-rev": "האם ברצונך לשלוח תודה על העריכה הזאת באופן ציבורי?",
-	"notification-link-text-view-post": "הצגת תגובה",
+	"notification-link-text-view-post": "צפייה בתגובה",
 	"notification-link-text-view-logentry": "הצגת רשומת יומן",
 	"thanks-error-invalidpostid": "מזהה הרשומה אינו תקין.",
 	"flow-thanks-confirmation-special": "האם ברצונך לשלוח תודה באופן ציבורי על ההערה הזאת?",
