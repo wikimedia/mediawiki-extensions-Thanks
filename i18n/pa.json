@@ -6,7 +6,8 @@
 			"Bgo eiu",
 			"Kuldeepburjbhalaike",
 			"Satdeep gill",
-			"TariButtar"
+			"TariButtar",
+			"Cabal"
 		]
 	},
 	"thanks-desc": "ਵਰਤੋਂਕਾਰਾਂ ਦੀਆਂ ਸੋਧਾਂ, ਟਿੱਪਣੀਆਂ ਆਦਿ ਲਈ ਧੰਨਵਾਦ ਕਰਨ ਲਈ ਧੰਨਵਾਦੀ ਲਿੰਕ ਜੋੜਦਾ ਹੈ",
@@ -17,7 +18,7 @@
 	"thanks-button-action-queued": "$1 ਦਾ {{GENDER:$1| {{GENDER:$2|ਧੰਨਵਾਦ}}}} ਕੀਤਾ ਜਾ ਰਿਹਾ…",
 	"thanks-button-action-cancel": "ਰੱਦ ਕਰੋ",
 	"thanks-button-action-completed": "ਤੁਸੀਂ $1 ਦਾ {{GENDER:$1|{{GENDER:$2|ਧੰਨਵਾਦ}}}} ਕੀਤਾ",
-	"thanks-error-undefined": "ਧੰਨਵਾਦ ਕਾਰਵਾਈ ਅਸਫਲ ਹੋਈ (ਗਲਤੀ ਕੋਡ: $1)। ਮੁੜ ਕੋਸ਼ਿਸ ਕਰੋ ਜੀ।",
+	"thanks-error-undefined": "ਧੰਨਵਾਦ ਕਾਰਵਾਈ ਅਸਫਲ ਹੋਈ (ਅਣਪਛਾਤੀ ਕੋਡ: $1)। ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।",
 	"thanks-error-invalid-log-id": "ਲੌਗ ਐਂਟਰੀ ਨਹੀਂ ਮਿਲੀ",
 	"thanks-error-invalidrevision": "ਸੁਧਾਈ ਪਛਾਣ ਉਚਿਤ ਨਹੀਂ ਹੈ।",
 	"thanks-error-ratelimited": "{{GENDER:$1|ਤੁਸੀਂ}} ਨੇ ਆਪਣੀ ਦਰ ਸੀਮਾ ਨੂੰ ਪਾਰ ਕਰ ਲਿਆ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਕੁਝ ਸਮਾਂ ਉਡੀਕ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
