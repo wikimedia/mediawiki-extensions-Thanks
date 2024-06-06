@@ -8,11 +8,12 @@
 			"NMW03",
 			"Serkanland",
 			"Toghrul Rahimli",
-			"Wertuose"
+			"Wertuose",
+			"Nemoralis"
 		]
 	},
 	"thanks-desc": "İstifadəçilərin redaktələrinə, şərhlərinə və s. görə minnətdarlıq üçün keçidləri əlavə edir",
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|təşəkkür}}}}",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|təşəkkür et}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|təşəkkür edildi}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Təşəkkür}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Təşəkkür edildi}}}}",
