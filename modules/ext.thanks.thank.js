@@ -60,15 +60,11 @@
 				usprop: 'gender'
 			} )
 				.then(
-					function ( result ) {
-						return (
-							result.query.users[ 0 ] &&
+					( result ) => (
+						result.query.users[ 0 ] &&
 							result.query.users[ 0 ].gender
-						) || 'unknown';
-					},
-					function () {
-						return 'unknown';
-					}
+					) || 'unknown',
+					() => 'unknown'
 				);
 		}
 	};

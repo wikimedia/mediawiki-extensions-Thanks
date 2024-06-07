@@ -11,12 +11,12 @@
 	}
 
 	function reloadThankedState() {
-		$( 'a.mw-thanks-flow-thank-link' ).each( function ( idx, el ) {
+		$( 'a.mw-thanks-flow-thank-link' ).each( ( idx, el ) => {
 			const $thankLink = $( el );
 			if ( mw.thanks.thanked.contains( $thankLink.closest( '.flow-post' ).attr( attrName ), cookieName ) ) {
 				const author = findPostAuthorFromThankLink( $thankLink );
 				mw.thanks.getUserGender( author )
-					.done( function ( recipientGender ) {
+					.done( ( recipientGender ) => {
 						$thankLink.before(
 							$thankedLabel
 								.clone()
@@ -37,13 +37,13 @@
 		} )
 			.then(
 				// Success
-				function () {
+				() => {
 					const author = findPostAuthorFromThankLink( $thankLink );
 					// Get the user who was thanked (for gender purposes)
 					return mw.thanks.getUserGender( author );
 				},
 				// Failure
-				function ( errorCode ) {
+				( errorCode ) => {
 					switch ( errorCode ) {
 						case 'ratelimited':
 							OO.ui.alert( mw.msg( 'thanks-error-ratelimited', mw.user ) );
@@ -53,7 +53,7 @@
 					}
 				}
 			)
-			.then( function ( recipientGender ) {
+			.then( ( recipientGender ) => {
 				const $thankUserLabel = $thankedLabel.clone();
 				$thankUserLabel.append(
 					mw.msg( 'thanks-button-thanked', mw.user, recipientGender )

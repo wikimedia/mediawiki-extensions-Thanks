@@ -5,7 +5,7 @@ QUnit.module( 'Thanks thank', QUnit.newMwEnvironment( {
 	}
 } ) );
 
-QUnit.test( 'thanked cookie', function ( assert ) {
+QUnit.test( 'thanked cookie', ( assert ) => {
 	const thankId = '8';
 	const thankIdNonExisting = '13';
 
@@ -26,17 +26,17 @@ QUnit.test( 'thanked cookie', function ( assert ) {
 } );
 
 QUnit.test( 'gets user gender', function ( assert ) {
-	this.server.respond( /user1/, function ( request ) {
+	this.server.respond( /user1/, ( request ) => {
 		request.respond( 200, { 'Content-Type': 'application/json' },
 			'{"batchcomplete":"","query":{"users":[{"userid":1,"name":"user1","gender":"male"}]}}'
 		);
 	} );
-	this.server.respond( /user2/, function ( request ) {
+	this.server.respond( /user2/, ( request ) => {
 		request.respond( 200, { 'Content-Type': 'application/json' },
 			'{"batchcomplete":"","query":{"users":[{"userid":2,"name":"user2","gender":"unknown"}]}}'
 		);
 	} );
-	this.server.respond( /user3/, function ( request ) {
+	this.server.respond( /user3/, ( request ) => {
 		request.respond( 200, { 'Content-Type': 'application/json' },
 			'{"batchcomplete":"","query":{"users":[{"name":"user3","missing":""}]}}'
 		);
@@ -47,15 +47,15 @@ QUnit.test( 'gets user gender', function ( assert ) {
 	const nonExistingUser = mw.thanks.getUserGender( 'user3' );
 	const done = assert.async( 3 );
 
-	maleUser.then( function ( recipientGender ) {
+	maleUser.then( ( recipientGender ) => {
 		assert.strictEqual( recipientGender, 'male', 'gender for male user' );
 		done();
 	} );
-	unknownGenderUser.then( function ( recipientGender ) {
+	unknownGenderUser.then( ( recipientGender ) => {
 		assert.strictEqual( recipientGender, 'unknown', 'gender for unknown-gender user' );
 		done();
 	} );
-	nonExistingUser.then( function ( recipientGender ) {
+	nonExistingUser.then( ( recipientGender ) => {
 		assert.strictEqual( recipientGender, 'unknown', 'gender for non-existing user' );
 		done();
 	} );

@@ -4,7 +4,7 @@
 	const attrName = 'data-revision-id';
 
 	function reloadThankedState() {
-		$( 'a.mw-thanks-thank-link' ).each( function ( idx, el ) {
+		$( 'a.mw-thanks-thank-link' ).each( ( idx, el ) => {
 			const $thankLink = $( el );
 			if ( mw.thanks.thanked.contains( $thankLink.attr( attrName ) ) ) {
 				$thankLink.before(
@@ -54,13 +54,13 @@
 		( new mw.Api() ).postWithToken( 'csrf', apiParams )
 			.then(
 				// Success
-				function () {
+				() => {
 					$thankElement.before( mw.message( 'thanks-thanked', mw.user, $thankLink.data( 'recipient-gender' ) ).escaped() );
 					$thankElement.remove();
 					mw.thanks.thanked.push( $thankLink.attr( attrName ) );
 				},
 				// Fail
-				function ( errorCode ) {
+				( errorCode ) => {
 					// If error occurred, enable attempting to thank again
 					$thankLink.data( 'clickDisabled', false );
 					let msg;
@@ -123,11 +123,11 @@
 		$( reloadThankedState );
 	}
 
-	$( function () {
+	$( () => {
 		addActionToLinks( $( 'body' ) );
 	} );
 
-	mw.hook( 'wikipage.diff' ).add( function ( $content ) {
+	mw.hook( 'wikipage.diff' ).add( ( $content ) => {
 		addActionToLinks( $content );
 	} );
 }() );

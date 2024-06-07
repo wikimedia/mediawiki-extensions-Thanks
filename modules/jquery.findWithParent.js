@@ -47,7 +47,7 @@
 			$elements = $(),
 			self = this;
 
-		selectors.forEach( function ( sel ) {
+		selectors.forEach( ( sel ) => {
 			$elements = $elements.add( jQueryFindWithParent( self, sel ) );
 		} );
 
