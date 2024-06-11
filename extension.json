@@ -148,7 +148,9 @@
 		"HistoryTools": "main",
 		"LocalUserCreated": "main",
 		"LogEventsListLineEnding": "main",
-		"PageHistoryBeforeList": "main"
+		"PageHistoryBeforeList": "main",
+		"PageHistoryPager::doBatchLookups": "main",
+		"ChangesListInitRows": "main"
 	},
 	"HookHandlers": {
 		"main": {

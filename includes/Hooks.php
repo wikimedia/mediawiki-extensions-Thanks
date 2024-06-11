@@ -22,10 +22,12 @@ use MediaWiki\Context\RequestContext;
 use MediaWiki\Diff\Hook\DifferenceEngineViewHeaderHook;
 use MediaWiki\Diff\Hook\DiffToolsHook;
 use MediaWiki\Extension\Thanks\Api\ApiFlowThank;
+use MediaWiki\Hook\ChangesListInitRowsHook;
 use MediaWiki\Hook\GetLogTypesOnUserHook;
 use MediaWiki\Hook\HistoryToolsHook;
 use MediaWiki\Hook\LogEventsListLineEndingHook;
 use MediaWiki\Hook\PageHistoryBeforeListHook;
+use MediaWiki\Hook\PageHistoryPager__doBatchLookupsHook;
 use MediaWiki\Html\Html;
 use MediaWiki\Linker\LinkTarget;
 use MediaWiki\Output\Hook\BeforePageDisplayHook;
@@ -57,7 +59,9 @@ class Hooks implements
 	HistoryToolsHook,
 	LocalUserCreatedHook,
 	LogEventsListLineEndingHook,
-	PageHistoryBeforeListHook
+	PageHistoryBeforeListHook,
+	PageHistoryPager__doBatchLookupsHook,
+	ChangesListInitRowsHook
 {
 	private Config $config;
 	private GenderCache $genderCache;
@@ -297,6 +301,32 @@ class Hooks implements
 	public function onPageHistoryBeforeList( $page, $context ) {
 		if ( $context->getUser()->isRegistered() ) {
 			$this->addThanksModule( $context->getOutput() );
+		}
+	}
+
+	public function onPageHistoryPager__doBatchLookups( $pager, $result ) {
+		$userNames = [];
+		foreach ( $result as $row ) {
+			if ( $row->user_name !== null ) {
+				$userNames[] = $row->user_name;
+			}
+		}
+		if ( $userNames ) {
+			// Batch lookup for the use of GenderCache::getGenderOf in self::generateThankElement
+			$this->genderCache->doQuery( $userNames, __METHOD__ );
+		}
+	}
+
+	public function onChangesListInitRows( $changesList, $rows ) {
+		$userNames = [];
+		foreach ( $rows as $row ) {
+			if ( $row->rc_user_text !== null ) {
+				$userNames[] = $row->rc_user_text;
+			}
+		}
+		if ( $userNames ) {
+			// Batch lookup for the use of GenderCache::getGenderOf in self::generateThankElement
+			$this->genderCache->doQuery( $userNames, __METHOD__ );
 		}
 	}
 
