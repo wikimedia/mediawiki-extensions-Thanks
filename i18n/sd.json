@@ -10,7 +10,7 @@
 	"thanks-desc": "واپرائيندڙن کي سنوارن، تبصرن، وغيرہ لاءِ <strong>توھان جي مھرباني</strong> چوڻ لاءِ ڳنڍڻا ڏي ٿو.",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|توھان جي مھرباني چئو}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|توھان جي مھرباني چيل}}}}",
-	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|مھربان}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|چئو}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|توھان جي مھرباني چيل}}}}",
 	"thanks-error-undefined": "توھان جي مھرباني چوڻ جو عمل ناڪام ٿي ويو (چُڪَ ڪوڊ: $1). مھرباني ڪري ٻيھر ڪوشش ڪريو.",
 	"thanks-error-invalid-log-id": "لاگ داخلا نہ لڌي",
