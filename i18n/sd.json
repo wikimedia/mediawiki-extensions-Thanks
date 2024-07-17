@@ -38,12 +38,12 @@
 	"notification-header-rev-thank": "$1 {{GENDER:$4|توھان کي}} <strong>$3</strong>\nتي توھان جي سنوار لاءِ {{GENDER:$2|<strong>توھان جي مھرباني</strong> چيو}}.",
 	"notification-header-creation-thank": "$1 {{GENDER:$4|توھان}} کي <strong>$3</strong> کي سرجڻ لاءِ {{GENDER:$2|<strong>توھان جي مھرباني</strong> چيو}}.",
 	"notification-header-log-thank": "$1 {{GENDER:$4|توھان}} کي <strong>$3</strong> سان لاڳاپيل عمل لاءِ {{GENDER:$2|<strong>توھان جي مھرباني</strong> چيو}}.",
-	"notification-compact-header-edit-thank": "$1 {{GENDER:$3|توھان کي}} {{GENDER:$2|<strong>توھان جي مھرباني</strong> چيو}}.",
+	"notification-compact-header-edit-thank": "$1 {{GENDER:$3|توھان}} کي {{GENDER:$2|توھان جي مھرباني چيو}}.",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|ھڪ شخص|$1 ماڻهن|100=99+ ماڻهن}} {{GENDER:$3|توھان}} کي <strong>$2</strong> تي سنوار لاءِ <strong>توھان جي مھرباني</strong> چيو.",
 	"notification-bundle-header-log-thank": "{{PLURAL:$1|ھڪ شخص|$1 ماڻهن|100=99+ ماڻهن}} {{GENDER:$3|توھان}} کي <strong>$2</strong> سان لاڳاپيل عمل لاءِ <strong>توھان جي مھرباني</strong> چيو.",
 	"log-name-thanks": "مھربانيون لاگ",
 	"log-description-thanks": "ھيٺ انهن واپرائيندڙن جي فھرست آھي جنکي ٻين واپرائيندڙن <strong>توھان جي مھرباني</strong> چيو آھي.",
-	"logentry-thanks-thank": "$1 {{GENDER:$4|$3}} کي {{GENDER:$2|<strong>توھان جي مھرباني</strong> چيو}}",
+	"logentry-thanks-thank": "$1 {{GENDER:$4|$3}} کي {{GENDER:$2|توھان جي مھرباني چيو}}",
 	"logeventslist-thanks-log": "مھربانيون لاگ",
 	"thanks-error-no-id-specified": "توھان کي <strong>توھان جي مھرباني</strong> چوڻ لاءِ ورجاءُ يا لاگ آئڊي بيان ڪرڻي پوندي.",
 	"thanks-confirmation-special-log": "ڇا توھان ھن لاگ عمل لاءِ عوامي طور توھان جي مھرباني چوڻ چاھيو ٿا؟",
@@ -54,7 +54,7 @@
 	"flow-thanks-confirmation-special": "ڇا توھان ھن تبصري لاءِ عوامي طور توھان جي مھرباني چوڻ چاھيو ٿا؟",
 	"flow-thanks-thanked-notice": "{{GENDER:$3|توھان}} $1 کي {{GENDER:$2|سندن}} جي تبصري لاءِ <strong>توھان جي مھرباني</strong> چيو.",
 	"notification-header-flow-thank": "$1 {{GENDER:$5|توھان}} کي \"<strong>$3</strong>\" ۾ تبصري لاءِ {{GENDER:$2|<strong>توھان جي مھرباني</strong> چيو}}.",
-	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|توھان}} کي {{GENDER:$2|<strong>توھان جي مھرباني</strong> چيو}}.",
+	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|توھان}} کي {{GENDER:$2|توھان جي مھرباني چيو}}.",
 	"notification-bundle-header-flow-thank": "{{PLURAL:$1|ھڪ  شخص|$1 ماڻهن|100=99+ ماڻهن}}  {{GENDER:$3|توھان}} کي \"<strong>$2</strong>\" ۾ تبصري لاءِ <strong>توھان جي مھرباني</strong> چيو.",
 	"ipb-action-thanks": "توھان جي مھرباني چوڻ"
 }
