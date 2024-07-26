@@ -43,7 +43,12 @@
 		"thanks": true
 	},
 	"LogActionsHandlers": {
-		"thanks/*": "MediaWiki\\Extension\\Thanks\\ThanksLogFormatter"
+		"thanks/*": {
+			"class": "MediaWiki\\Extension\\Thanks\\ThanksLogFormatter",
+			"services": [
+				"NamespaceInfo"
+			]
+		}
 	},
 	"APIModules": {
 		"thank": {
