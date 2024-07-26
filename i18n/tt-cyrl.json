@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Derslek",
+			"Don Alessandro",
 			"Ilnur efende",
 			"Ерней",
 			"З. ӘЙЛЕ",
@@ -9,7 +10,7 @@
 		]
 	},
 	"thanks-desc": "Кулланучыларга төзәтмәләр, шәрехләр һ.б. өчен рәхмәт әйтергә сылтамаларны өсти",
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|рәхмәт әйтергә}}}}",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|рәхмәт әйтү}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|рәхмәт әйтелде}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Рәхмәт әйтү}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Рәхмәт әйтелде}}}}",
