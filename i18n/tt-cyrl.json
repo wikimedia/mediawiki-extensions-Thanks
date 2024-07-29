@@ -15,7 +15,7 @@
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Рәхмәт әйтү}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Рәхмәт әйтелде}}}}",
 	"thanks-thank-tooltip": "Бу {{GENDER:$2|кулланучыга}} рәхмәт хаты {{GENDER:$1|җибәрү}}",
-	"thanks-confirmation2": "Халык алдында рәхмәт {{GENDER:$1|әйтергәме}}?",
+	"thanks-confirmation2": "Халык алдында рәхмәт {{GENDER:$1|әйтергә}} телисезме?",
 	"thanks": "Рәхмәт белдерү",
 	"thanks-submit": "Рәхмәт белдерү",
 	"echo-category-title-edit-thank": "Рәхмәтләр",
