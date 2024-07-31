@@ -38,7 +38,7 @@
 	"thanks": "Lähetä kiitokset",
 	"thanks-submit": "Lähetä kiitokset",
 	"echo-pref-subscription-edit-thank": "Minulle annetut kiitokset tekemistäni muokkauksista",
-	"echo-pref-tooltip-edit-thank": "Ilmoita minulle, kun joku kiittää minua tekemästäni muokkauksesta.",
+	"echo-pref-tooltip-edit-thank": "Ilmoita, kun joku kiittää minua tekemästäni muokkauksesta.",
 	"echo-category-title-edit-thank": "Kiitokset",
 	"notification-header-rev-thank": "$1 {{GENDER:$2|kiitti}} {{GENDER:$4|sinua}} muokkauksestasi kohteessa <strong>$3</strong>.",
 	"notification-header-creation-thank": "$1 {{GENDER:$2|kiitti}} {{GENDER:$4|sinua}} sivun <strong>$3</strong> luonnista.",
