@@ -4,6 +4,7 @@
 			"Aefgh39622",
 			"Ans",
 			"B20180",
+			"Ekminarin",
 			"Geonuch",
 			"Horus",
 			"Octahedron80",
@@ -12,7 +13,7 @@
 			"RidJasper"
 		]
 	},
-	"thanks-desc": "เพิ่มลิงก์ขอบคุณผู้ใช้สำหรับการแก้ไข ความคิดเห็น ฯลฯ",
+	"thanks-desc": "เพิ่มลิงก์ขอบคุณผู้ใช้สำหรับการแก้ไข ความเห็น ฯลฯ",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ขอบคุณ}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|กล่าวขอบคุณแล้ว}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|ขอบคุณ}}}}",
