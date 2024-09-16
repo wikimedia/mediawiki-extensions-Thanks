@@ -43,12 +43,11 @@
 	 * @see jQuery#findWithParent
 	 */
 	$.fn.findWithParent = function ( selector ) {
-		let selectors = selector.split( ',' ),
-			$elements = $(),
-			self = this;
+		const selectors = selector.split( ',' );
+		let $elements = $();
 
 		selectors.forEach( ( sel ) => {
-			$elements = $elements.add( jQueryFindWithParent( self, sel ) );
+			$elements = $elements.add( jQueryFindWithParent( this, sel ) );
 		} );
 
 		return $elements;
