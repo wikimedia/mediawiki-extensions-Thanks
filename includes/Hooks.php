@@ -435,9 +435,9 @@ class Hooks implements
 	) {
 		$user = $page->getUser();
 
-		// Don't thank if anonymous or blocked or if user is deleted from the log entry
+		// Don't provide thanks link if not named, blocked or if user is deleted from the log entry
 		if (
-			$user->isAnon()
+			!$user->isNamed()
 			|| $entry->isDeleted( LogPage::DELETED_USER )
 			|| $this->isUserBlockedFromTitle( $user, $entry->getTarget() )
 			|| self::isUserBlockedFromThanks( $user )
