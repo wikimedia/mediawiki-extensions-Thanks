@@ -36,8 +36,8 @@
 	"notification-header-creation-thank": "$1 poblagodaril{{GENDER:$2||a}} {{GENDER:$4|vas}} za stvorjenje stranice <strong>$3</strong>.",
 	"notification-header-log-thank": "$1 poblagodaril{{GENDER:$2||a}} {{GENDER:$4|vas}} za vaše dějanje v svezi s straniceju <strong>$3</strong>.",
 	"notification-compact-header-edit-thank": "$1 poblagodaril{{GENDER:$2||a}} {{GENDER:$3|vas}}.",
-	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Jedna osoba poblagodarila|$1 osob poblagodarilo|100=Sto ili veče osob poblagodarilo}} {{GENDER:$3|vas}} za vašu pravku na stranici <strong>$2</strong>.",
-	"notification-bundle-header-log-thank": "{{PLURAL:$1|Jedna osoba poblagodarila|$1 osob poblagodarilo|100=Sto ili veče osob poblagodarilo}} {{GENDER:$3|vas}} za vaše dějanje v svezi s straniceju <strong>$2</strong>.",
+	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Jedna osoba poblagodarila|$1 osoby poblagodarili|$1 osob poblagodarilo|100=Sto ili veče osob poblagodarilo}} {{GENDER:$3|vas}} za vašu pravku na stranici <strong>$2</strong>.",
+	"notification-bundle-header-log-thank": "{{PLURAL:$1|Jedna osoba poblagodarila|$1 osoby poblagodarili|$1 osob poblagodarilo|100=Sto ili veče osob poblagodarilo}} {{GENDER:$3|vas}} za vaše dějanje v svezi s straniceju <strong>$2</strong>.",
 	"log-name-thanks": "Dnevnik blagodarnosti",
 	"log-description-thanks": "Niže prědstavjeny jest spisok koristnikov poblagodarjenyh drugymi koristnikami.",
 	"logentry-thanks-thank": "$1 poblagodaril{{GENDER:$2||a}} {{GENDER:$4|$3}}.",
@@ -52,6 +52,6 @@
 	"flow-thanks-thanked-notice": "{{GENDER:$3|Vy}} poblagodarili jeste $1 za {{GENDER:$2|jegov|jejin}} komentar.",
 	"notification-header-flow-thank": "$1 poblagodaril{{GENDER:$2||a}} {{GENDER:$5|vas}} za vaš komentar k temě <strong>$3</strong>.",
 	"notification-compact-header-flow-thank": "$1 poblagodaril{{GENDER:$2||a}} {{GENDER:$3|vas}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Jedna osoba poblagodarila|$1 osob poblagodarilo|100=Sto ili veče osob poblagodarilo}} {{GENDER:$3|vas}} za vaš komentar k temě <strong>$2</strong>.",
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Jedna osoba poblagodarila|$1 osoby poblagodarili|$1 osob poblagodarilo|100=Sto ili veče osob poblagodarilo}} {{GENDER:$3|vas}} za vaš komentar k temě <strong>$2</strong>.",
 	"ipb-action-thanks": "Odpravjenje blagodarnosti"
 }
