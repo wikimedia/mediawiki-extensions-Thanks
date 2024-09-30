@@ -275,6 +275,7 @@ class Hooks implements
 				'class' => $class,
 				'href' => SpecialPage::getTitleFor( 'Thanks', $subpage . $id )->getFullURL(),
 				'title' => $tooltip,
+				'role' => 'button',
 				'data-' . $type . '-id' => $id,
 				'data-recipient-gender' => $this->genderCache->getGenderOf( $recipient->getName(), __METHOD__ ),
 			],
