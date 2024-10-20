@@ -2,8 +2,8 @@
 
 namespace MediaWiki\Extension\Thanks;
 
-use ApiMain;
-use ApiUsageException;
+use MediaWiki\Api\ApiMain;
+use MediaWiki\Api\ApiUsageException;
 use MediaWiki\HTMLForm\HTMLForm;
 use MediaWiki\Linker\Linker;
 use MediaWiki\Request\DerivativeRequest;

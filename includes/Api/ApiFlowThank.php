@@ -2,13 +2,13 @@
 
 namespace MediaWiki\Extension\Thanks\Api;
 
-use ApiBase;
-use ApiMain;
 use Flow\Container;
 use Flow\Conversion\Utils;
 use Flow\Exception\FlowException;
 use Flow\Model\PostRevision;
 use Flow\Model\UUID;
+use MediaWiki\Api\ApiBase;
+use MediaWiki\Api\ApiMain;
 use MediaWiki\Extension\Notifications\Model\Event;
 use MediaWiki\Extension\Thanks\Storage\LogStore;
 use MediaWiki\Permissions\PermissionManager;

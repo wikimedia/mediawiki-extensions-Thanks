@@ -4,13 +4,12 @@
 
 namespace MediaWiki\Extension\Thanks;
 
-use ApiModuleManager;
 use Article;
 use DatabaseLogEntry;
 use DifferenceEngine;
-use ExtensionRegistry;
 use LogEventsList;
 use LogPage;
+use MediaWiki\Api\ApiModuleManager;
 use MediaWiki\Api\Hook\ApiMain__moduleManagerHook;
 use MediaWiki\Auth\Hook\LocalUserCreatedHook;
 use MediaWiki\Block\Hook\GetAllBlockActionsHook;
@@ -33,6 +32,7 @@ use MediaWiki\Linker\LinkTarget;
 use MediaWiki\Output\Hook\BeforePageDisplayHook;
 use MediaWiki\Output\OutputPage;
 use MediaWiki\Permissions\PermissionManager;
+use MediaWiki\Registration\ExtensionRegistry;
 use MediaWiki\Revision\RevisionLookup;
 use MediaWiki\Revision\RevisionRecord;
 use MediaWiki\SpecialPage\SpecialPage;

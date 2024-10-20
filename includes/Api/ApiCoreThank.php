@@ -2,10 +2,10 @@
 
 namespace MediaWiki\Extension\Thanks\Api;
 
-use ApiBase;
-use ApiMain;
 use DatabaseLogEntry;
 use LogEntry;
+use MediaWiki\Api\ApiBase;
+use MediaWiki\Api\ApiMain;
 use MediaWiki\Extension\Notifications\DiscussionParser;
 use MediaWiki\Extension\Notifications\Model\Event;
 use MediaWiki\Extension\Thanks\Storage\Exceptions\InvalidLogType;

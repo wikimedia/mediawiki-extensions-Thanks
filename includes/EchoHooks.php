@@ -2,12 +2,12 @@
 
 namespace MediaWiki\Extension\Thanks;
 
-use ExtensionRegistry;
 use MediaWiki\Extension\Notifications\AttributeManager;
 use MediaWiki\Extension\Notifications\Hooks\BeforeCreateEchoEventHook;
 use MediaWiki\Extension\Notifications\Hooks\EchoGetBundleRulesHook;
 use MediaWiki\Extension\Notifications\Model\Event;
 use MediaWiki\Extension\Notifications\UserLocator;
+use MediaWiki\Registration\ExtensionRegistry;
 
 /**
  * Hooks for Thanks extension

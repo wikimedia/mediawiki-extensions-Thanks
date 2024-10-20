@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\Api\ApiMain;
 use MediaWiki\Block\DatabaseBlock;
 use MediaWiki\Extension\Thanks\Api\ApiCoreThank;
 use MediaWiki\Tests\Api\ApiTestCase;
