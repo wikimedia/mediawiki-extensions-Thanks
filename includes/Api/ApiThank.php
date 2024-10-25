@@ -22,7 +22,7 @@ abstract class ApiThank extends ApiBase {
 
 	public function __construct(
 		ApiMain $main,
-		$action,
+		string $action,
 		PermissionManager $permissionManager,
 		LogStore $storage
 	) {

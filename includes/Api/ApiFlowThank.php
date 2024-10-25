@@ -33,7 +33,7 @@ class ApiFlowThank extends ApiThank {
 
 	public function __construct(
 		ApiMain $main,
-		$action,
+		string $action,
 		PermissionManager $permissionManager,
 		LogStore $storage,
 		UserFactory $userFactory
