@@ -205,6 +205,7 @@ class ApiFlowThank extends ApiThank {
 		$this->logThanks( $user, $recipient, $uniqueId );
 	}
 
+	/** @inheritDoc */
 	public function getAllowedParams() {
 		return [
 			'postid' => [

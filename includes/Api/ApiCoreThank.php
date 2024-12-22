@@ -264,6 +264,7 @@ class ApiCoreThank extends ApiThank {
 		$this->logThanks( $user, $recipient, $uniqueId );
 	}
 
+	/** @inheritDoc */
 	public function getAllowedParams() {
 		return [
 			'rev' => [
@@ -287,6 +288,7 @@ class ApiCoreThank extends ApiThank {
 		];
 	}
 
+	/** @inheritDoc */
 	public function getHelpUrls() {
 		return [
 			'https://www.mediawiki.org/wiki/Extension:Thanks#API_Documentation',
