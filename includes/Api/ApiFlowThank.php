@@ -94,6 +94,11 @@ class ApiFlowThank extends ApiThank {
 		);
 	}
 
+	/**
+	 * @param User $user
+	 * @param UUID $id
+	 * @return mixed
+	 */
 	private function userAlreadySentThanksForId( User $user, UUID $id ) {
 		return $user->getRequest()->getSessionData( "flow-thanked-{$id->getAlphadecimal()}" );
 	}
