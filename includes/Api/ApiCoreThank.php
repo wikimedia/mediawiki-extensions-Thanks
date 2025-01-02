@@ -139,7 +139,7 @@ class ApiCoreThank extends ApiThank {
 		return (bool)$user->getRequest()->getSessionData( "thanks-thanked-$type$id" );
 	}
 
-	private function getRevisionFromId( $revId ) {
+	private function getRevisionFromId( int $revId ): RevisionRecord {
 		$revision = $this->revisionStore->getRevisionById( $revId );
 		// Revision ID 1 means an invalid argument was passed in.
 		// FIXME Get rid of this limitation! T344475
@@ -148,6 +148,7 @@ class ApiCoreThank extends ApiThank {
 		} elseif ( $revision->isDeleted( RevisionRecord::DELETED_TEXT ) ) {
 			$this->dieWithError( 'thanks-error-revdeleted', 'revdeleted' );
 		}
+		// @phan-suppress-next-line PhanTypeMismatchReturnNullable T240141
 		return $revision;
 	}
 
@@ -174,11 +175,12 @@ class ApiCoreThank extends ApiThank {
 		return $logEntry;
 	}
 
-	private function getTitleFromRevision( RevisionRecord $revision ) {
+	private function getTitleFromRevision( RevisionRecord $revision ): Title {
 		$title = Title::castFromPageIdentity( $revision->getPage() );
 		if ( !$title instanceof Title ) {
 			$this->dieWithError( 'thanks-error-notitle', 'notitle' );
 		}
+		// @phan-suppress-next-line PhanTypeMismatchReturnNullable T240141
 		return $title;
 	}
 
