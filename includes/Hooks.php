@@ -305,6 +305,7 @@ class Hooks implements
 		}
 	}
 
+	/** @inheritDoc */
 	public function onPageHistoryPager__doBatchLookups( $pager, $result ) {
 		$userNames = [];
 		foreach ( $result as $row ) {
@@ -318,6 +319,7 @@ class Hooks implements
 		}
 	}
 
+	/** @inheritDoc */
 	public function onChangesListInitRows( $changesList, $rows ) {
 		$userNames = [];
 		foreach ( $rows as $row ) {
@@ -366,6 +368,7 @@ class Hooks implements
 		$types[] = 'thanks';
 	}
 
+	/** @inheritDoc */
 	public function onGetAllBlockActions( &$actions ) {
 		$actions[ 'thanks' ] = 100;
 	}

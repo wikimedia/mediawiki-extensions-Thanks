@@ -98,10 +98,12 @@ abstract class ApiThank extends ApiBase {
 		$this->storage->thank( $user, $recipient, $uniqueId );
 	}
 
+	/** @inheritDoc */
 	public function needsToken() {
 		return 'csrf';
 	}
 
+	/** @inheritDoc */
 	public function isWriteMode() {
 		// Writes to the Echo database and sometimes log tables.
 		return true;

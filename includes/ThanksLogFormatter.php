@@ -35,6 +35,7 @@ class ThanksLogFormatter extends LogFormatter {
 		return $params;
 	}
 
+	/** @inheritDoc */
 	public function getPreloadTitles() {
 		// Add the recipient's user talk page to LinkBatch
 		return [ $this->namespaceInfo->getTalkPage( $this->entry->getTarget() ) ];
