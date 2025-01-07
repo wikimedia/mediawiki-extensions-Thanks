@@ -9,8 +9,10 @@ use Flow\Model\PostRevision;
 use Flow\Model\UUID;
 use MediaWiki\Api\ApiBase;
 use MediaWiki\Api\ApiMain;
-use MediaWiki\Extension\Notifications\Model\Event;
 use MediaWiki\Extension\Thanks\Storage\LogStore;
+use MediaWiki\Notification\NotificationService;
+use MediaWiki\Notification\RecipientSet;
+use MediaWiki\Notification\Types\WikiNotification;
 use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\Title\Title;
 use MediaWiki\User\User;
@@ -29,6 +31,7 @@ use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiFlowThank extends ApiThank {
 
+	private NotificationService $notifications;
 	private UserFactory $userFactory;
 
 	public function __construct(
@@ -36,9 +39,11 @@ class ApiFlowThank extends ApiThank {
 		string $action,
 		PermissionManager $permissionManager,
 		LogStore $storage,
+		NotificationService $notifications,
 		UserFactory $userFactory
 	) {
 		parent::__construct( $main, $action, $permissionManager, $storage );
+		$this->notifications = $notifications;
 		$this->userFactory = $userFactory;
 	}
 
@@ -183,20 +188,17 @@ class ApiFlowThank extends ApiThank {
 			return;
 		}
 
-		// Create the notification via Echo extension
-		Event::create( [
-			'type' => 'flow-thank',
-			'title' => $pageTitle,
-			'extra' => [
+		// Create the notification
+		$this->notifications->notify(
+			new WikiNotification( 'flow-thank', $pageTitle, $user, [
 				'post-id' => $postId->getAlphadecimal(),
 				'workflow' => $workflowId->getAlphadecimal(),
 				'topic-title' => $topicTitleText,
 				'excerpt' => $postTextExcerpt,
 				'target-page' => $topicTitle->getArticleID(),
-				Event::RECIPIENTS_IDX => [ $recipient->getId() ],
-			],
-			'agent' => $user,
-		] );
+			] ),
+			new RecipientSet( $recipient )
+		);
 
 		// And mark the thank in session for a cheaper check to prevent duplicates (T48690).
 		$user->getRequest()->setSessionData( "flow-thanked-{$postId->getAlphadecimal()}", true );

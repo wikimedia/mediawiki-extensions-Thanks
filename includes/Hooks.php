@@ -416,6 +416,7 @@ class Hooks implements
 					"services" => [
 						"PermissionManager",
 						"ThanksLogStore",
+						"NotificationService",
 						"UserFactory",
 					]
 				]

@@ -7,10 +7,12 @@ use LogEntry;
 use MediaWiki\Api\ApiBase;
 use MediaWiki\Api\ApiMain;
 use MediaWiki\Extension\Notifications\DiscussionParser;
-use MediaWiki\Extension\Notifications\Model\Event;
 use MediaWiki\Extension\Thanks\Storage\Exceptions\InvalidLogType;
 use MediaWiki\Extension\Thanks\Storage\Exceptions\LogDeleted;
 use MediaWiki\Extension\Thanks\Storage\LogStore;
+use MediaWiki\Notification\NotificationService;
+use MediaWiki\Notification\RecipientSet;
+use MediaWiki\Notification\Types\WikiNotification;
 use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\Revision\RevisionRecord;
 use MediaWiki\Revision\RevisionStore;
@@ -28,6 +30,8 @@ use Wikimedia\ParamValidator\TypeDef\IntegerDef;
  * @ingroup Extensions
  */
 class ApiCoreThank extends ApiThank {
+
+	private NotificationService $notifications;
 	protected RevisionStore $revisionStore;
 	protected UserFactory $userFactory;
 
@@ -35,9 +39,10 @@ class ApiCoreThank extends ApiThank {
 		ApiMain $main,
 		string $action,
 		PermissionManager $permissionManager,
+		LogStore $storage,
+		NotificationService $notifications,
 		RevisionStore $revisionStore,
-		UserFactory $userFactory,
-		LogStore $storage
+		UserFactory $userFactory
 	) {
 		parent::__construct(
 			$main,
@@ -45,6 +50,7 @@ class ApiCoreThank extends ApiThank {
 			$permissionManager,
 			$storage
 		);
+		$this->notifications = $notifications;
 		$this->revisionStore = $revisionStore;
 		$this->userFactory = $userFactory;
 	}
@@ -243,19 +249,16 @@ class ApiCoreThank extends ApiThank {
 			return;
 		}
 
-		// Create the notification via Echo extension
-		Event::create( [
-			'type' => 'edit-thank',
-			'title' => $title,
-			'extra' => [
+		// Create the notification
+		$this->notifications->notify(
+			new WikiNotification( 'edit-thank', $title, $user, [
 				$type . 'id' => $id,
 				'source' => $source,
 				'excerpt' => $excerpt,
 				'revcreation' => $revcreation,
-				Event::RECIPIENTS_IDX => [ $recipient->getId() ],
-			],
-			'agent' => $user,
-		] );
+			] ),
+			new RecipientSet( $recipient )
+		);
 
 		// And mark the thank in session for a cheaper check to prevent duplicates (Phab:T48690).
 		$user->getRequest()->setSessionData( "thanks-thanked-$type$id", true );

@@ -55,9 +55,10 @@
 			"class": "MediaWiki\\Extension\\Thanks\\Api\\ApiCoreThank",
 			"services": [
 				"PermissionManager",
+				"ThanksLogStore",
+				"NotificationService",
 				"RevisionStore",
-				"UserFactory",
-				"ThanksLogStore"
+				"UserFactory"
 			]
 		}
 	},
