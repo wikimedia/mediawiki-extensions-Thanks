@@ -194,6 +194,7 @@ class ApiFlowThank extends ApiThank {
 				'topic-title' => $topicTitleText,
 				'excerpt' => $postTextExcerpt,
 				'target-page' => $topicTitle->getArticleID(),
+				Event::RECIPIENTS_IDX => [ $recipient->getId() ],
 			],
 			'agent' => $user,
 		] );

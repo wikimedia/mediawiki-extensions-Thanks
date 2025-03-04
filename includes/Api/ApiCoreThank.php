@@ -253,6 +253,7 @@ class ApiCoreThank extends ApiThank {
 				'source' => $source,
 				'excerpt' => $excerpt,
 				'revcreation' => $revcreation,
+				Event::RECIPIENTS_IDX => [ $recipient->getId() ],
 			],
 			'agent' => $user,
 		] );
