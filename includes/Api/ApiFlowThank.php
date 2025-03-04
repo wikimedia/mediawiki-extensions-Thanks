@@ -190,7 +190,6 @@ class ApiFlowThank extends ApiThank {
 			'extra' => [
 				'post-id' => $postId->getAlphadecimal(),
 				'workflow' => $workflowId->getAlphadecimal(),
-				'thanked-user-id' => $recipient->getId(),
 				'topic-title' => $topicTitleText,
 				'excerpt' => $postTextExcerpt,
 				'target-page' => $topicTitle->getArticleID(),

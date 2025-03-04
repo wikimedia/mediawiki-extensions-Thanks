@@ -249,7 +249,6 @@ class ApiCoreThank extends ApiThank {
 			'title' => $title,
 			'extra' => [
 				$type . 'id' => $id,
-				'thanked-user-id' => $recipient->getId(),
 				'source' => $source,
 				'excerpt' => $excerpt,
 				'revcreation' => $revcreation,
