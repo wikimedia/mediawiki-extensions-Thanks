@@ -41,7 +41,7 @@ mw.thanks = {
 		 * @return {boolean} ID has been thanked
 		 */
 		contains: function ( id, cookieName ) {
-			return this.load( cookieName ).indexOf( id ) !== -1;
+			return this.load( cookieName ).includes( id );
 		}
 	},
 
