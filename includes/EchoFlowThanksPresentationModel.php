@@ -7,6 +7,7 @@ use MediaWiki\Language\RawMessage;
 use MediaWiki\Title\Title;
 
 class EchoFlowThanksPresentationModel extends FlowPresentationModel {
+	/** @inheritDoc */
 	public function canRender() {
 		return (bool)$this->event->getTitle();
 	}
