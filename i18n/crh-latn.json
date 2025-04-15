@@ -9,7 +9,12 @@
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|teşekkür et}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Teşekkür et}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Teşekkür etildi}}}}",
+	"thanks-confirmation2": "Er keske açıq teşekkür {{GENDER:$1|yiberilsinmi}}?",
+	"echo-category-title-edit-thank": "Teşekkürler",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Bir kişi|$1 kişi|100=99+ kişi}} <strong>$2</strong> saifesini tüzettiñiz  içün {{GENDER:$3|sizge}} teşekkür etti.",
 	"logeventslist-thanks-log": "Teşekkür jurnalı",
-	"notification-link-text-view-logentry": "Jurnal qaydını köster"
+	"thanks-confirmation-special-log": "Bu areket içün er keske açıq olaraq teşekkür etmek isteysiñizmi?",
+	"thanks-confirmation-special-rev": "Bu deñiştirme içün er keske açıq olaraq teşekkür etmek isteysiñizmi?",
+	"notification-link-text-view-logentry": "Jurnal qaydını köster",
+	"flow-thanks-confirmation-special": "Bu tefsir içün er keske açıq olaraq teşekkür etmek isteysiñizmi?"
 }
