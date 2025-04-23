@@ -2,14 +2,14 @@
 
 namespace MediaWiki\Extension\Thanks\Api;
 
-use DatabaseLogEntry;
-use LogEntry;
 use MediaWiki\Api\ApiBase;
 use MediaWiki\Api\ApiMain;
 use MediaWiki\Extension\Notifications\DiscussionParser;
 use MediaWiki\Extension\Thanks\Storage\Exceptions\InvalidLogType;
 use MediaWiki\Extension\Thanks\Storage\Exceptions\LogDeleted;
 use MediaWiki\Extension\Thanks\Storage\LogStore;
+use MediaWiki\Logging\DatabaseLogEntry;
+use MediaWiki\Logging\LogEntry;
 use MediaWiki\Notification\NotificationService;
 use MediaWiki\Notification\RecipientSet;
 use MediaWiki\Notification\Types\WikiNotification;

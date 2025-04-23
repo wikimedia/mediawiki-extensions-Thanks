@@ -2,11 +2,11 @@
 
 namespace MediaWiki\Extension\Thanks;
 
-use DatabaseLogEntry;
-use LogEntry;
-use LogPage;
 use MediaWiki\Extension\Notifications\Formatters\EchoEventPresentationModel;
 use MediaWiki\Language\RawMessage;
+use MediaWiki\Logging\DatabaseLogEntry;
+use MediaWiki\Logging\LogEntry;
+use MediaWiki\Logging\LogPage;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Parser\Sanitizer;
 use MediaWiki\Revision\RevisionRecord;
