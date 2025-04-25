@@ -10,6 +10,7 @@
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Teşekkür et}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Teşekkür etildi}}}}",
 	"thanks-confirmation2": "Er keske açıq teşekkür {{GENDER:$1|yiberilsinmi}}?",
+	"echo-pref-tooltip-edit-thank": "Birisi deñiştirgenlerim içün meni teşekkür etse maña bildir.",
 	"echo-category-title-edit-thank": "Teşekkürler",
 	"notification-header-rev-thank": "$1, <strong>$3</strong> saifesindeki deñiştirmeñiz içün {{GENDER:$4|sizge}} {{GENDER:$2|teşekkür bildirdi}}.",
 	"notification-header-creation-thank": "$1, <strong>$3</strong> saifesini yaratqanıñız içün {{GENDER:$4|sizge}} teşekkür {{GENDER:$2|bildirdi}}.",
