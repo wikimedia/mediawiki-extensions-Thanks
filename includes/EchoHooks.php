@@ -2,8 +2,10 @@
 
 namespace MediaWiki\Extension\Thanks;
 
+use MediaWiki\Extension\Notifications\Hooks\BeforeCreateEchoEventHook;
 use MediaWiki\Extension\Notifications\Hooks\EchoGetBundleRulesHook;
 use MediaWiki\Extension\Notifications\Model\Event;
+use MediaWiki\Registration\ExtensionRegistry;
 
 /**
  * Hooks for Thanks extension
@@ -11,7 +13,21 @@ use MediaWiki\Extension\Notifications\Model\Event;
  * @file
  * @ingroup Extensions
  */
-class EchoHooks implements EchoGetBundleRulesHook {
+class EchoHooks implements BeforeCreateEchoEventHook, EchoGetBundleRulesHook {
+
+	/**
+	 * @param array &$notifications array of Echo notifications
+	 * @param array &$notificationCategories array of Echo notification categories
+	 * @param array &$icons array of icon details
+	 */
+	public function onBeforeCreateEchoEvent(
+		array &$notifications, array &$notificationCategories, array &$icons
+	) {
+		// Only allow Flow thanks notifications when enabled
+		if ( !ExtensionRegistry::getInstance()->isLoaded( 'Flow' ) ) {
+			unset( $notifications['flow-thank'] );
+		}
+	}
 
 	/**
 	 * Handler for EchoGetBundleRule hook, which defines the bundle rules for each notification.

@@ -144,6 +144,7 @@
 	},
 	"Hooks": {
 		"ApiMain::moduleManager": "main",
+		"BeforeCreateEchoEvent": "echo",
 		"BeforePageDisplay": "main",
 		"DiffTools": "main",
 		"DifferenceEngineViewHeader": "main",
