@@ -4,6 +4,7 @@ namespace MediaWiki\Extension\Thanks;
 use MediaWiki\Title\TitleFactory;
 use MediaWiki\User\ActorNormalization;
 use MediaWiki\User\UserIdentity;
+use MediaWiki\User\UserNameUtils;
 use Wikimedia\Rdbms\DBAccessObjectUtils;
 use Wikimedia\Rdbms\IConnectionProvider;
 use Wikimedia\Rdbms\IDBAccessObject;
@@ -15,15 +16,18 @@ class ThanksQueryHelper {
 	private TitleFactory $titleFactory;
 	private IConnectionProvider $dbProvider;
 	private ActorNormalization $actorNormalization;
+	private UserNameUtils $usernameUtils;
 
 	public function __construct(
 		TitleFactory $titleFactory,
 		IConnectionProvider $dbProvider,
-		ActorNormalization $actorNormalization
+		ActorNormalization $actorNormalization,
+		UserNameUtils $usernameUtils
 	) {
 		$this->titleFactory = $titleFactory;
 		$this->dbProvider = $dbProvider;
 		$this->actorNormalization = $actorNormalization;
+		$this->usernameUtils = $usernameUtils;
 	}
 
 	/**
@@ -76,6 +80,9 @@ class ThanksQueryHelper {
 		int $limit = 1000,
 		int $flags = IDBAccessObject::READ_NORMAL
 	): int {
+		if ( $this->usernameUtils->isTemp( $userIdentity->getName() ) ) {
+			return 0;
+		}
 		$db = DBAccessObjectUtils::getDBFromRecency( $this->dbProvider, $flags );
 		$actorId = $this->actorNormalization->findActorId( $userIdentity, $db );
 		if ( !$actorId ) {
