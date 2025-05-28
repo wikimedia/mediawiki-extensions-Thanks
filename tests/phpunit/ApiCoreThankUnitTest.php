@@ -78,12 +78,14 @@ class ApiCoreThankUnitTest extends ApiTestCase {
 		$method->setAccessible( true );
 
 		if ( $expectedError ) {
-			$this->expectApiErrorCode( $expectedError );
+			$this->expectApiErrorCodeFromCallback( $expectedError, static function () use ( $method, $module, $user ) {
+				$method->invoke( $module, $user );
+			} );
+		} else {
+			$method->invoke( $module, $user );
+			// perhaps the method should return true.. For now we must do this
+			$this->assertTrue( true );
 		}
-
-		$method->invoke( $module, $user );
-		// perhaps the method should return true.. For now we must do this
-		$this->assertTrue( true );
 	}
 
 	public static function provideDieOnBadUser() {
