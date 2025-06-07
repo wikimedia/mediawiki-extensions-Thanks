@@ -6,20 +6,24 @@ use MediaWiki\Logging\LogEntry;
 use MediaWiki\Logging\LogFormatter;
 use MediaWiki\Message\Message;
 use MediaWiki\Title\NamespaceInfo;
-use MediaWiki\User\User;
+use MediaWiki\User\UserFactory;
+use MediaWiki\User\UserRigorOptions;
 
 /**
  * This class formats log entries for thanks
  */
 class ThanksLogFormatter extends LogFormatter {
 	private NamespaceInfo $namespaceInfo;
+	private UserFactory $userFactory;
 
 	public function __construct(
 		LogEntry $entry,
-		NamespaceInfo $namespaceInfo
+		NamespaceInfo $namespaceInfo,
+		UserFactory $userFactory
 	) {
 		parent::__construct( $entry );
 		$this->namespaceInfo = $namespaceInfo;
+		$this->userFactory = $userFactory;
 	}
 
 	/**
@@ -29,7 +33,11 @@ class ThanksLogFormatter extends LogFormatter {
 		$params = parent::getMessageParameters();
 		// Convert target from a pageLink to a userLink since the target is
 		// actually a user, not a page.
-		$recipient = User::newFromName( $this->entry->getTarget()->getText(), false );
+		$recipient = $this->userFactory->newFromName(
+			$this->entry->getTarget()->getText(),
+			UserRigorOptions::RIGOR_NONE
+		);
+		// @phan-suppress-next-line PhanTypeMismatchArgumentNullable
 		$params[2] = Message::rawParam( $this->makeUserLink( $recipient ) );
 		$params[3] = $recipient->getName();
 		return $params;

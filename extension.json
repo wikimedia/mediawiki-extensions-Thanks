@@ -46,7 +46,8 @@
 		"thanks/*": {
 			"class": "MediaWiki\\Extension\\Thanks\\ThanksLogFormatter",
 			"services": [
-				"NamespaceInfo"
+				"NamespaceInfo",
+				"UserFactory"
 			]
 		}
 	},
