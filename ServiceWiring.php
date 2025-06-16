@@ -23,7 +23,8 @@ return [
 			return new ThanksQueryHelper(
 				$services->getTitleFactory(),
 				$services->getConnectionProvider(),
-				$services->getActorNormalization()
+				$services->getActorNormalization(),
+				$services->getUserNameUtils()
 			);
 	},
 ];

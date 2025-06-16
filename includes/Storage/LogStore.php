@@ -2,6 +2,7 @@
 
 namespace MediaWiki\Extension\Thanks\Storage;
 
+use InvalidArgumentException;
 use MediaWiki\CheckUser\Hooks;
 use MediaWiki\Config\ServiceOptions;
 use MediaWiki\Extension\Thanks\Storage\Exceptions\InvalidLogType;
@@ -43,6 +44,11 @@ class LogStore {
 	 *                         when checking for duplicate thanks
 	 */
 	public function thank( User $user, User $recipient, string $uniqueId ): void {
+		if ( $user->isTemp() ) {
+			throw new InvalidArgumentException(
+				'Temporary accounts may not thank other users.'
+			);
+		}
 		if ( !$this->serviceOptions->get( 'ThanksLogging' ) ) {
 			return;
 		}
