@@ -95,28 +95,28 @@ class ApiCoreThankUnitTest extends ApiTestCase {
 				null,
 				null,
 				'dieOnBadUser',
-				'notloggedin'
+				'notloggedin',
 			],
 			'ping' => [
 				true,
 				true,
 				null,
 				'dieOnBadUser',
-				'ratelimited'
+				'ratelimited',
 			],
 			'sitewide blocked' => [
 				null,
 				null,
 				self::makeBlockParams( [] ),
 				'dieOnUserBlockedFromThanks',
-				'blocked'
+				'blocked',
 			],
 			'partial blocked' => [
 				null,
 				null,
 				self::makeBlockParams( [ 'sitewide' => false ] ),
 				'dieOnUserBlockedFromThanks',
-				false
+				false,
 			],
 		];
 	}

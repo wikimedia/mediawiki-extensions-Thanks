@@ -94,7 +94,7 @@ class SpecialThanks extends FormSpecialPage {
 				'id' => 'mw-thanks-form-id',
 				'name' => 'id',
 				'type' => 'hidden',
-				'default' => $this->id ?? ''
+				'default' => $this->id ?? '',
 			],
 			'type' => [
 				'id' => 'mw-thanks-form-type',
@@ -132,7 +132,7 @@ class SpecialThanks extends FormSpecialPage {
 	 */
 	protected function alterForm( HTMLForm $form ) {
 		if ( $this->type === null
-			|| ( in_array( $this->type, [ 'rev', 'log', ] ) && $this->id === '0' )
+			|| ( in_array( $this->type, [ 'rev', 'log' ] ) && $this->id === '0' )
 		) {
 			$form->suppressDefaultSubmit( true );
 		} else {

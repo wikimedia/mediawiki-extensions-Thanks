@@ -287,7 +287,7 @@ class ApiCoreThank extends ApiThank {
 			'source' => [
 				ParamValidator::PARAM_TYPE => 'string',
 				ParamValidator::PARAM_REQUIRED => false,
-			]
+			],
 		];
 	}
 

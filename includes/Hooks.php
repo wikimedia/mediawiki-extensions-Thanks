@@ -418,7 +418,7 @@ class Hooks implements
 						"ThanksLogStore",
 						"NotificationService",
 						"UserFactory",
-					]
+					],
 				]
 			);
 		}
