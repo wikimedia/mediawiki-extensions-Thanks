@@ -22,12 +22,12 @@ module.exports = {
 					// consequently, MediaWiki's CSSMin CSS minifier. libmagic's default database
 					// currently requires that SVGs contain an XML declaration:
 					// https://github.com/threatstack/libmagic/blob/master/magic/Magdir/sgml#L5
-					removeXMLProcInst: false
-				}
-			}
+					removeXMLProcInst: false,
+				},
+			},
 		},
 		'removeRasterImages',
-		'sortAttrs'
+		'sortAttrs',
 	],
 	// Set whitespace according to Wikimedia Coding Conventions.
 	// @see https://github.com/svg/svgo/blob/main/lib/stringifier.js#L39 for more config options
@@ -36,7 +36,7 @@ module.exports = {
 		finalNewline: true,
 		// Configure the indent to tabs (default 4 spaces) used by `--pretty` here.
 		indent: '\t',
-		pretty: true
+		pretty: true,
 	},
-	multipass: true
+	multipass: true,
 };
