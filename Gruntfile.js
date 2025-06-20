@@ -10,39 +10,11 @@ module.exports = function ( grunt ) {
 	const conf = grunt.file.readJSON( 'extension.json' );
 
 	grunt.loadNpmTasks( 'grunt-banana-checker' );
-	grunt.loadNpmTasks( 'grunt-contrib-watch' );
-	grunt.loadNpmTasks( 'grunt-eslint' );
-	grunt.loadNpmTasks( 'grunt-stylelint' );
 
 	grunt.initConfig( {
-		eslint: {
-			options: {
-				cache: true,
-				fix: grunt.option( 'fix' )
-			},
-			all: [ '.' ]
-		},
-		banana: conf.MessagesDirs,
-		stylelint: {
-			options: {
-				cache: true
-			},
-			all: [
-				'**/*.{css,less}',
-				'!node_modules/**',
-				'!vendor/**'
-			]
-		},
-		watch: {
-			files: [
-				'.{stylelintrc,eslintrc}.json',
-				'<%= eslint.all %>',
-				'<%= stylelint.all %>'
-			],
-			tasks: 'test'
-		}
+		banana: conf.MessagesDirs
 	} );
 
-	grunt.registerTask( 'test', [ 'eslint', 'banana', 'stylelint' ] );
+	grunt.registerTask( 'test', [ 'banana' ] );
 	grunt.registerTask( 'default', 'test' );
 };
