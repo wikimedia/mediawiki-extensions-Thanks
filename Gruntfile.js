@@ -12,7 +12,7 @@ module.exports = function ( grunt ) {
 	grunt.loadNpmTasks( 'grunt-banana-checker' );
 
 	grunt.initConfig( {
-		banana: conf.MessagesDirs
+		banana: conf.MessagesDirs,
 	} );
 
 	grunt.registerTask( 'test', [ 'banana' ] );
