@@ -56,7 +56,7 @@ class ApiFlowThank extends ApiThank {
 
 		try {
 			$postId = UUID::create( $params['postid'] );
-		} catch ( FlowException $e ) {
+		} catch ( FlowException ) {
 			$this->dieWithError( 'thanks-error-invalidpostid', 'invalidpostid' );
 		}
 
@@ -118,7 +118,7 @@ class ApiFlowThank extends ApiThank {
 
 		try {
 			$data = $rootPostLoader->getWithRoot( $postId );
-		} catch ( FlowException $e ) {
+		} catch ( FlowException ) {
 			$this->dieWithError( 'thanks-error-invalidpostid', 'invalidpostid' );
 		}
 

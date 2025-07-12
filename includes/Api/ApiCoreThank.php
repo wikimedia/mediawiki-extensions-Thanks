@@ -170,7 +170,7 @@ class ApiCoreThank extends ApiThank {
 		} catch ( InvalidLogType $e ) {
 			$err = $this->msg( 'thanks-error-invalid-log-type', $e->getLogType() );
 			$this->dieWithError( $err, 'thanks-error-invalid-log-type' );
-		} catch ( LogDeleted $e ) {
+		} catch ( LogDeleted ) {
 			$this->dieWithError( 'thanks-error-log-deleted', 'thanks-error-log-deleted' );
 		}
 
