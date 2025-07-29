@@ -50,6 +50,7 @@ class ThanksQueryHelper {
 				'log_action' => 'thank',
 				'log_namespace' => NS_USER,
 				'log_title' => $logTitle,
+				'log_deleted' => 0,
 			] )
 			->limit( $limit )
 			->caller( __METHOD__ )
@@ -88,6 +89,7 @@ class ThanksQueryHelper {
 				// ('thank') and namespace (NS_USER) involved; this speeds up the query
 				// because we can use the `log_actor_type_time` index
 				'log_actor' => $actorId,
+				'log_deleted' => 0,
 			] )
 			->limit( $limit )
 			->caller( __METHOD__ )
