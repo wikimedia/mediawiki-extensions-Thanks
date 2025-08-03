@@ -63,27 +63,14 @@ class Hooks implements
 	PageHistoryPager__doBatchLookupsHook,
 	ChangesListInitRowsHook
 {
-	private Config $config;
-	private GenderCache $genderCache;
-	private PermissionManager $permissionManager;
-	private RevisionLookup $revisionLookup;
-	private UserFactory $userFactory;
-	private UserOptionsManager $userOptionsManager;
-
 	public function __construct(
-		Config $config,
-		GenderCache $genderCache,
-		PermissionManager $permissionManager,
-		RevisionLookup $revisionLookup,
-		UserFactory $userFactory,
-		UserOptionsManager $userOptionsManager
+		private readonly Config $config,
+		private readonly GenderCache $genderCache,
+		private readonly PermissionManager $permissionManager,
+		private readonly RevisionLookup $revisionLookup,
+		private readonly UserFactory $userFactory,
+		private readonly UserOptionsManager $userOptionsManager,
 	) {
-		$this->config = $config;
-		$this->genderCache = $genderCache;
-		$this->permissionManager = $permissionManager;
-		$this->revisionLookup = $revisionLookup;
-		$this->userFactory = $userFactory;
-		$this->userOptionsManager = $userOptionsManager;
 	}
 
 	/**

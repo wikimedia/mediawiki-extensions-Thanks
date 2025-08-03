@@ -21,20 +21,14 @@ use Wikimedia\Rdbms\IConnectionProvider;
  */
 class LogStore {
 
-	protected IConnectionProvider $conn;
-	protected ActorNormalization $actorNormalization;
 	public const CONSTRUCTOR_OPTIONS = [ 'ThanksLogging', 'ThanksAllowedLogTypes' ];
-	protected ServiceOptions $serviceOptions;
 
 	public function __construct(
-		IConnectionProvider $conn,
-		ActorNormalization $actorNormalization,
-		ServiceOptions $serviceOptions
+		protected readonly IConnectionProvider $conn,
+		protected readonly ActorNormalization $actorNormalization,
+		protected readonly ServiceOptions $serviceOptions,
 	) {
-		$this->conn = $conn;
-		$this->actorNormalization = $actorNormalization;
 		$serviceOptions->assertRequiredOptions( self::CONSTRUCTOR_OPTIONS );
-		$this->serviceOptions = $serviceOptions;
 	}
 
 	/**

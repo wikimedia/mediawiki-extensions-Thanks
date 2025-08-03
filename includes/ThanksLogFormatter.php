@@ -13,17 +13,12 @@ use MediaWiki\User\UserRigorOptions;
  * This class formats log entries for thanks
  */
 class ThanksLogFormatter extends LogFormatter {
-	private NamespaceInfo $namespaceInfo;
-	private UserFactory $userFactory;
-
 	public function __construct(
 		LogEntry $entry,
-		NamespaceInfo $namespaceInfo,
-		UserFactory $userFactory
+		private readonly NamespaceInfo $namespaceInfo,
+		private readonly UserFactory $userFactory,
 	) {
 		parent::__construct( $entry );
-		$this->namespaceInfo = $namespaceInfo;
-		$this->userFactory = $userFactory;
 	}
 
 	/**

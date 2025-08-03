@@ -31,11 +31,10 @@ class SpecialThanks extends FormSpecialPage {
 	 */
 	protected ?string $id;
 
-	private UserFactory $userFactory;
-
-	public function __construct( UserFactory $userFactory ) {
+	public function __construct(
+		private readonly UserFactory $userFactory,
+	) {
 		parent::__construct( 'Thanks' );
-		$this->userFactory = $userFactory;
 		$this->id = null;
 	}
 

@@ -31,20 +31,15 @@ use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiFlowThank extends ApiThank {
 
-	private NotificationService $notifications;
-	private UserFactory $userFactory;
-
 	public function __construct(
 		ApiMain $main,
 		string $action,
 		PermissionManager $permissionManager,
 		LogStore $storage,
-		NotificationService $notifications,
-		UserFactory $userFactory
+		private readonly NotificationService $notifications,
+		private readonly UserFactory $userFactory,
 	) {
 		parent::__construct( $main, $action, $permissionManager, $storage );
-		$this->notifications = $notifications;
-		$this->userFactory = $userFactory;
 	}
 
 	public function execute() {

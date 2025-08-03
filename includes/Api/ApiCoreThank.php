@@ -31,18 +31,14 @@ use Wikimedia\ParamValidator\TypeDef\IntegerDef;
  */
 class ApiCoreThank extends ApiThank {
 
-	private NotificationService $notifications;
-	protected RevisionStore $revisionStore;
-	protected UserFactory $userFactory;
-
 	public function __construct(
 		ApiMain $main,
 		string $action,
 		PermissionManager $permissionManager,
 		LogStore $storage,
-		NotificationService $notifications,
-		RevisionStore $revisionStore,
-		UserFactory $userFactory
+		private readonly NotificationService $notifications,
+		protected readonly RevisionStore $revisionStore,
+		protected readonly UserFactory $userFactory,
 	) {
 		parent::__construct(
 			$main,
@@ -50,9 +46,6 @@ class ApiCoreThank extends ApiThank {
 			$permissionManager,
 			$storage
 		);
-		$this->notifications = $notifications;
-		$this->revisionStore = $revisionStore;
-		$this->userFactory = $userFactory;
 	}
 
 	/**

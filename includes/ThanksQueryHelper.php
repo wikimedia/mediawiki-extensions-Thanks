@@ -13,21 +13,12 @@ use Wikimedia\Rdbms\IDBAccessObject;
  * Query module
  */
 class ThanksQueryHelper {
-	private TitleFactory $titleFactory;
-	private IConnectionProvider $dbProvider;
-	private ActorNormalization $actorNormalization;
-	private UserNameUtils $usernameUtils;
-
 	public function __construct(
-		TitleFactory $titleFactory,
-		IConnectionProvider $dbProvider,
-		ActorNormalization $actorNormalization,
-		UserNameUtils $usernameUtils
+		private readonly TitleFactory $titleFactory,
+		private readonly IConnectionProvider $dbProvider,
+		private readonly ActorNormalization $actorNormalization,
+		private readonly UserNameUtils $usernameUtils,
 	) {
-		$this->titleFactory = $titleFactory;
-		$this->dbProvider = $dbProvider;
-		$this->actorNormalization = $actorNormalization;
-		$this->usernameUtils = $usernameUtils;
 	}
 
 	/**
