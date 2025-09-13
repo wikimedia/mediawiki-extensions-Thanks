@@ -1,5 +1,15 @@
 <?php
 
+/**
+ * API module to send Flow thanks notifications
+ *
+ * This API does not prevent sending thanks using post IDs that refer to topic
+ * titles, though Thank buttons are only shown for comments in the UI.
+ *
+ * @ingroup API
+ * @ingroup Extensions
+ */
+
 namespace MediaWiki\Extension\Thanks\Api;
 
 use Flow\Container;
@@ -18,16 +28,6 @@ use MediaWiki\Title\Title;
 use MediaWiki\User\User;
 use MediaWiki\User\UserFactory;
 use Wikimedia\ParamValidator\ParamValidator;
-
-/**
- * API module to send Flow thanks notifications
- *
- * This API does not prevent sending thanks using post IDs that refer to topic
- * titles, though Thank buttons are only shown for comments in the UI.
- *
- * @ingroup API
- * @ingroup Extensions
- */
 
 class ApiFlowThank extends ApiThank {
 

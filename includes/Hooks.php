@@ -1,6 +1,11 @@
 <?php
 
-// phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
+/**
+ * Hooks for Thanks extension
+ *
+ * @file
+ * @ingroup Extensions
+ */
 
 namespace MediaWiki\Extension\Thanks;
 
@@ -43,12 +48,6 @@ use MediaWiki\User\User;
 use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserIdentity;
 
-/**
- * Hooks for Thanks extension
- *
- * @file
- * @ingroup Extensions
- */
 class Hooks implements
 	ApiMain__moduleManagerHook,
 	BeforePageDisplayHook,

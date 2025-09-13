@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * Hooks for Thanks extension
+ *
+ * @file
+ * @ingroup Extensions
+ */
+
 namespace MediaWiki\Extension\Thanks;
 
 use MediaWiki\Extension\Notifications\Hooks\BeforeCreateEchoEventHook;
@@ -7,12 +14,6 @@ use MediaWiki\Extension\Notifications\Hooks\EchoGetBundleRulesHook;
 use MediaWiki\Extension\Notifications\Model\Event;
 use MediaWiki\Registration\ExtensionRegistry;
 
-/**
- * Hooks for Thanks extension
- *
- * @file
- * @ingroup Extensions
- */
 class EchoHooks implements BeforeCreateEchoEventHook, EchoGetBundleRulesHook {
 
 	/**
