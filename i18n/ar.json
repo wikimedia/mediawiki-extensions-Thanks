@@ -19,14 +19,15 @@
 			"مشعل الحربي",
 			"FShbib",
 			"Karim185.3",
-			"XIDME"
+			"XIDME",
+			"Mohammed Qays"
 		]
 	},
 	"thanks-desc": "تضيف وصلات لشكر المستخدمين على التعديلات والتعليقات، إلخ.",
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|شكر}}}}",
-	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|تم الشكر}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|شَكَرتَ|شَكَرتِ}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|شكر}}}}",
-	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|تم الشكر}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|شَكَرتَ|شَكَرتِ}}}}",
 	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|يشكر|تشكر}}}}",
 	"thanks-button-action-cancel": "إلغاء",
 	"thanks-button-action-completed": "أنت {{GENDER:$1|{{GENDER:$2|شكرت}}}} $1",
