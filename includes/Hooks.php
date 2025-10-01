@@ -114,7 +114,7 @@ class Hooks implements
 		}
 
 		$this->insertThankLink( $revisionRecord,
-			$links, $userIdentity, true );
+			$links, $userIdentity, false );
 	}
 
 	/**
@@ -234,9 +234,11 @@ class Hooks implements
 		// Check if the user has already thanked for this revision or log entry.
 		// Session keys are backwards-compatible, and are also used in the ApiCoreThank class.
 		$sessionKey = ( $type === 'revision' ) ? $id : $type . $id;
-		$class = $useCodex ? 'cdx-button cdx-button--fake-button cdx-button--fake-button--enabled' : '';
+		$class = $useCodex ?
+			'cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--action-progressive' :
+			'';
 		if ( $isPrimaryButton && $useCodex ) {
-			$class .= ' cdx-button--weight-primary cdx-button--action-progressive';
+			$class .= ' cdx-button--weight-primary';
 		}
 		if ( $sender->getRequest()->getSessionData( "thanks-thanked-$sessionKey" ) ) {
 			$class .= ' mw-thanks-thanked';
