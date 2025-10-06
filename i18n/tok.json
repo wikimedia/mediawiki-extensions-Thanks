@@ -1,8 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"20kdc"
+			"20kdc",
+			"Ne"
 		]
 	},
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|o toki e pona}}}}"
+	"thanks-thank": "o toki e pona pali",
+	"thanks-thanked": "sina toki e pona pali",
+	"thanks-button-thank": "o toki e pona pali",
+	"thanks-button-thanked": "sina toki e pona pali",
+	"thanks-error-invalidrecipient-bot": "sina ken ala pana e toki pi pali pona tawa ilo",
+	"thanks-error-invalidrecipient-self": "sina ken ala pana e toki pi pali pona tawa sina.",
+	"thanks-error-notloggedin": "jan pi nimi ilo ala li ken ala pana e toki pi pali pona.",
+	"thanks-thank-tooltip": "o pana e toki pi pali pona tawa jan ni",
+	"thanks-thank-tooltip-no": "o pana ala e toki pi pali pona",
+	"thanks-thank-tooltip-yes": "o pana e toki pi pali pona",
+	"thanks-confirmation2": "jan ale li ken lukin e ni. sina wile ala wile toki e pona pali?",
+	"thanks-thanked-notice": "sina pana e pona tawa jan {{GENDER:$2|$1}}."
 }
