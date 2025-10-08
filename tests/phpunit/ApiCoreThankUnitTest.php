@@ -72,7 +72,6 @@ class ApiCoreThankUnitTest extends ApiTestCase {
 
 		$module = $this->getModule();
 		$method = new ReflectionMethod( $module, $dieMethod );
-		$method->setAccessible( true );
 
 		if ( $expectedError ) {
 			$this->expectApiErrorCode( $expectedError );
