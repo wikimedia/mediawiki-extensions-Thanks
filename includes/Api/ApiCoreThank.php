@@ -5,6 +5,7 @@ namespace MediaWiki\Extension\Thanks\Api;
 use MediaWiki\Api\ApiBase;
 use MediaWiki\Api\ApiMain;
 use MediaWiki\Extension\Notifications\DiscussionParser;
+use MediaWiki\Extension\Thanks\Hooks;
 use MediaWiki\Extension\Thanks\Storage\Exceptions\InvalidLogType;
 use MediaWiki\Extension\Thanks\Storage\Exceptions\LogDeleted;
 use MediaWiki\Extension\Thanks\Storage\LogStore;
@@ -131,11 +132,7 @@ class ApiCoreThank extends ApiThank {
 	 * @return bool
 	 */
 	protected function userAlreadySentThanks( User $user, $type, $id ) {
-		if ( $type === 'rev' ) {
-			// For b/c with old-style keys
-			$type = '';
-		}
-		return (bool)$user->getRequest()->getSessionData( "thanks-thanked-$type$id" );
+		return (bool)$user->getRequest()->getSessionData( Hooks::getSessionKey( $type, $id ) );
 	}
 
 	private function getRevisionFromId( int $revId ): RevisionRecord {
@@ -253,8 +250,8 @@ class ApiCoreThank extends ApiThank {
 			new RecipientSet( $recipient )
 		);
 
-		// And mark the thank in session for a cheaper check to prevent duplicates (Phab:T48690).
-		$user->getRequest()->setSessionData( "thanks-thanked-$type$id", true );
+		// And mark the thank in session for a cheaper check to prevent duplicates (T48690).
+		$user->getRequest()->setSessionData( Hooks::getSessionKey( $type, $id ), true );
 		// Set success message
 		$this->markResultSuccess( $recipient->getName() );
 		$this->logThanks( $user, $recipient, $uniqueId );

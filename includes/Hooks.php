@@ -217,6 +217,22 @@ class Hooks implements
 	}
 
 	/**
+	 * Get session key for client-side duplicate thanks prevention
+	 *
+	 * @param string $type What kind of event is being thanked for.
+	 * Currently accepted values are 'rev' / 'revision' (equivalent) and 'log'.
+	 * @param string|int $id Identifier of the event (should be unique within its kind).
+	 */
+	public static function getSessionKey( string $type, $id ): string {
+		// ApiCoreThank and ::generateThankElement disagree
+		// on the correct type for revisions, accept both.
+		if ( $type === 'revision' ) {
+			$type = 'rev';
+		}
+		return "thanks-thanked-$type$id";
+	}
+
+	/**
 	 * Helper for self::insertThankLink
 	 * Creates either a thank link or thanked span based on users session
 	 * @param int $id Revision or log ID to generate the thank element for.
@@ -231,16 +247,15 @@ class Hooks implements
 		bool $isPrimaryButton = false
 	) {
 		$useCodex = RequestContext::getMain()->getSkin()->getSkinName() === 'minerva';
-		// Check if the user has already thanked for this revision or log entry.
-		// Session keys are backwards-compatible, and are also used in the ApiCoreThank class.
-		$sessionKey = ( $type === 'revision' ) ? $id : $type . $id;
 		$class = $useCodex ?
 			'cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--action-progressive' :
 			'';
 		if ( $isPrimaryButton && $useCodex ) {
 			$class .= ' cdx-button--weight-primary';
 		}
-		if ( $sender->getRequest()->getSessionData( "thanks-thanked-$sessionKey" ) ) {
+		// Check if the user has already thanked for this revision or log entry.
+		// Session keys are also used in the ApiCoreThank class.
+		if ( $sender->getRequest()->getSessionData( self::getSessionKey( $type, $id ) ) ) {
 			$class .= ' mw-thanks-thanked';
 
 			return Html::element(
