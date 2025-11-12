@@ -11,11 +11,15 @@
 			"Nguyên Lê",
 			"Prenn",
 			"Trần Nguyễn Minh Huy",
-			"Vinhtantran"
+			"Vinhtantran",
+			"Doraemonluonbentoi",
+			"Flyplanevn27",
+			"Nghiemtrongdai VN",
+			"Nvdtn19"
 		]
 	},
 	"thanks-desc": "Thêm các liên kết để cảm ơn người dùng vì sửa đổi, bình luận, v.v.",
-	"thanks-thank": "{{GENDER:$1}}{{GENDER:$2}}cảm ơn",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|cảm ơn}}}}",
 	"thanks-thanked": "{{GENDER:$1}}{{GENDER:$2}}đã cảm ơn",
 	"thanks-button-thank": "{{GENDER:$1}}{{GENDER:$2}}Cảm ơn",
 	"thanks-button-thanked": "{{GENDER:$1}}{{GENDER:$2}}Đã cảm ơn",
