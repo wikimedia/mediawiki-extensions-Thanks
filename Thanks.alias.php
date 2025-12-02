@@ -173,6 +173,11 @@ $specialPageAliases['vi'] = [
 	'Thanks' => [ 'Cảm_ơn', 'Cám_ơn' ],
 ];
 
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'Thanks' => [ 'Thanks' ],
+];
+
 /** Simplified Chinese (中文（简体）) */
 $specialPageAliases['zh-hans'] = [
 	'Thanks' => [ '感谢' ],
