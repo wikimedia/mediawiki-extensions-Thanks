@@ -127,6 +127,7 @@ $( () => {
 mw.hook( 'wikipage.diff' ).add( ( $content ) => {
 	addActionToLinks( $content );
 } );
+mw.hook( 'wikipage.diff' ).add( reloadThankedState );
 
 mw.hook( 'wikipage.content' ).add( ( $content ) => {
 	addActionToLinks( $content );
