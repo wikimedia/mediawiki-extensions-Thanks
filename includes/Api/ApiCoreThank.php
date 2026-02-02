@@ -75,7 +75,7 @@ class ApiCoreThank extends ApiThank {
 			$this->dieWithError( 'thanks-error-api-params', 'thanks-error-api-params' );
 		}
 
-		$recipientUsername = null;
+		$recipient = null;
 		// Determine thanks parameters.
 		if ( $type === 'log' ) {
 			$logEntry = $this->getLogEntryFromId( $id );
@@ -88,7 +88,6 @@ class ApiCoreThank extends ApiThank {
 				$excerpt = '';
 				$title = $logEntry->getTarget();
 				$recipient = $this->getUserFromLog( $logEntry );
-				$recipientUsername = $recipient->getName();
 			}
 		}
 		if ( $type === 'rev' ) {
@@ -98,7 +97,6 @@ class ApiCoreThank extends ApiThank {
 			$this->dieOnUserBlockedFromTitle( $user, $title );
 
 			$recipient = $this->getUserFromRevision( $revision );
-			$recipientUsername = $recipient->getName();
 
 			// If there is no parent revid of this revision, it's a page creation.
 			if ( !$this->revisionStore->getPreviousRevision( $revision ) ) {
@@ -108,7 +106,7 @@ class ApiCoreThank extends ApiThank {
 
 		// Send thanks.
 		if ( $this->userAlreadySentThanks( $user, $type, $id ) ) {
-			$this->markResultSuccess( $recipientUsername );
+			$this->markResultSuccess( $recipient->getName() );
 		} else {
 			$this->dieOnBadRecipient( $user, $recipient );
 			$this->sendThanks(
