@@ -29,7 +29,6 @@
 	"thanks-error-log-deleted": "Error message that is displayed when thanks is attempted for a deleted log entry.",
 	"thanks-error-invalidrevision": "Error message that is displayed when the revision ID is not valid",
 	"thanks-error-revdeleted": "Error message that is displayed when the revision has been deleted (RevDel)",
-	"thanks-error-notitle": "Error message that is displayed when the title of the page cannot be determined",
 	"thanks-error-invalidrecipient": "Error message that is displayed when no recipient is found",
 	"thanks-error-invalidrecipient-bot": "Error message that is displayed when the recipient is a bot",
 	"thanks-error-invalidrecipient-self": "Error message that is displayed when the recipient is the user doing the thanking",

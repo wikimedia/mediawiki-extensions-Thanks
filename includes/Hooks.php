@@ -29,13 +29,13 @@ use MediaWiki\Hook\LogEventsListLineEndingHook;
 use MediaWiki\Hook\PageHistoryBeforeListHook;
 use MediaWiki\Hook\PageHistoryPager__doBatchLookupsHook;
 use MediaWiki\Html\Html;
-use MediaWiki\Linker\LinkTarget;
 use MediaWiki\Logging\DatabaseLogEntry;
 use MediaWiki\Logging\LogEventsList;
 use MediaWiki\Logging\LogPage;
 use MediaWiki\Output\Hook\BeforePageDisplayHook;
 use MediaWiki\Output\OutputPage;
 use MediaWiki\Page\Article;
+use MediaWiki\Page\PageIdentity;
 use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\Registration\ExtensionRegistry;
 use MediaWiki\Revision\RevisionLookup;
@@ -148,7 +148,7 @@ class Hooks implements
 		// Check whether we have a revision id to link to
 		if ( $user->isNamed()
 			&& !$userIdentity->equals( $recipient )
-			&& !$this->isUserBlockedFromTitle( $user, $revisionRecord->getPageAsLinkTarget() )
+			&& !$this->isUserBlockedFromPage( $user, $revisionRecord->getPage() )
 			&& !self::isUserBlockedFromThanks( $user )
 			&& self::canReceiveThanks( $this->config, $this->userFactory, $recipient )
 			&& !$revisionRecord->isDeleted( RevisionRecord::DELETED_TEXT )
@@ -168,14 +168,14 @@ class Hooks implements
 	 * Check whether the user is blocked from the title associated with the revision.
 	 *
 	 * This queries the replicas for a block; if 'no block' is incorrectly reported, it
-	 * will be caught by ApiThank::dieOnUserBlockedFromTitle when the user attempts to thank.
+	 * will be caught by ApiThank::dieOnUserBlockedFromPage when the user attempts to thank.
 	 *
 	 * @param User $user
-	 * @param LinkTarget $title
+	 * @param PageIdentity $page
 	 * @return bool
 	 */
-	private function isUserBlockedFromTitle( User $user, LinkTarget $title ) {
-		return $this->permissionManager->isBlockedFrom( $user, $title, true );
+	private function isUserBlockedFromPage( User $user, PageIdentity $page ): bool {
+		return $this->permissionManager->isBlockedFrom( $user, $page, fromReplica: true );
 	}
 
 	/**
@@ -447,7 +447,7 @@ class Hooks implements
 		if (
 			!$user->isNamed()
 			|| $entry->isDeleted( LogPage::DELETED_USER )
-			|| $this->isUserBlockedFromTitle( $user, $entry->getTarget() )
+			|| $this->isUserBlockedFromPage( $user, $entry->getTarget() )
 			|| self::isUserBlockedFromThanks( $user )
 		) {
 			return;

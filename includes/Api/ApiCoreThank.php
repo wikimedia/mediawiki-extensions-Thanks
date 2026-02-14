@@ -14,10 +14,10 @@ use MediaWiki\Logging\LogEntry;
 use MediaWiki\Notification\NotificationService;
 use MediaWiki\Notification\RecipientSet;
 use MediaWiki\Notification\Types\WikiNotification;
+use MediaWiki\Page\PageIdentity;
 use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\Revision\RevisionRecord;
 use MediaWiki\Revision\RevisionStore;
-use MediaWiki\Title\Title;
 use MediaWiki\User\User;
 use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserIdentity;
@@ -86,15 +86,15 @@ class ApiCoreThank extends ApiThank {
 			} else {
 				// If there's no associated revision, die if the user is sitewide blocked
 				$excerpt = '';
-				$title = $logEntry->getTarget();
+				$page = $logEntry->getTarget();
 				$recipient = $this->getUserFromLog( $logEntry );
 			}
 		}
 		if ( $type === 'rev' ) {
 			$revision = $this->getRevisionFromId( $id );
 			$excerpt = DiscussionParser::getEditExcerpt( $revision, $this->getLanguage() );
-			$title = $this->getTitleFromRevision( $revision );
-			$this->dieOnUserBlockedFromTitle( $user, $title );
+			$page = $revision->getPage();
+			$this->dieOnUserBlockedFromPage( $user, $page );
 
 			$recipient = $this->getUserFromRevision( $revision );
 
@@ -116,7 +116,7 @@ class ApiCoreThank extends ApiThank {
 				$excerpt,
 				$recipient,
 				$this->getSourceFromParams( $params ),
-				$title,
+				$page,
 				$revcreation
 			);
 		}
@@ -169,15 +169,6 @@ class ApiCoreThank extends ApiThank {
 		return $logEntry;
 	}
 
-	private function getTitleFromRevision( RevisionRecord $revision ): Title {
-		$title = Title::castFromPageIdentity( $revision->getPage() );
-		if ( !$title instanceof Title ) {
-			$this->dieWithError( 'thanks-error-notitle', 'notitle' );
-		}
-		// @phan-suppress-next-line PhanTypeMismatchReturnNullable T240141
-		return $title;
-	}
-
 	/**
 	 * Set the source of the thanks, e.g. 'diff' or 'history'
 	 * @param string[] $params Incoming API parameters, with a 'source' key.
@@ -223,11 +214,11 @@ class ApiCoreThank extends ApiThank {
 	 * notification is displayed (in order to account for changing visibility in the meantime).
 	 * @param User $recipient The recipient of the thanks.
 	 * @param string $source Where the thanks was given.
-	 * @param Title $title The title of the page for which thanks is given.
+	 * @param PageIdentity $page The page for which thanks is given.
 	 * @param bool $revcreation True if the linked revision is a page creation.
 	 */
 	protected function sendThanks(
-		User $user, $type, $id, $excerpt, User $recipient, $source, Title $title, $revcreation
+		User $user, $type, $id, $excerpt, User $recipient, $source, PageIdentity $page, $revcreation
 	) {
 		$uniqueId = $type . '-' . $id;
 		// Do one last check to make sure we haven't sent Thanks before
@@ -239,7 +230,7 @@ class ApiCoreThank extends ApiThank {
 
 		// Create the notification
 		$this->notifications->notify(
-			new WikiNotification( 'edit-thank', $title, $user, [
+			new WikiNotification( 'edit-thank', $page, $user, [
 				$type . 'id' => $id,
 				'source' => $source,
 				'excerpt' => $excerpt,
