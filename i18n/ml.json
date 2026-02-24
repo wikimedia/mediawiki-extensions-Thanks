@@ -16,7 +16,6 @@
 	"thanks-error-log-deleted": "ആവശ്യപ്പെട്ട രേഖാ ഉൾപ്പെടുത്തൽ മായക്കപ്പെട്ടിരിക്കുന്നു, അതിന് നന്ദി നൽകാൻ കഴിയില്ല.",
 	"thanks-error-invalidrevision": "നാൾപ്പതിപ്പിന്റെ ഐ.ഡി. അസാധുവാണ്.",
 	"thanks-error-revdeleted": "നാൾപ്പതിപ്പ് മായ്ക്കപ്പെട്ടിരിക്കുന്നതിനാൽ നന്ദി രേഖപ്പെടുത്താൻ കഴിയില്ല.",
-	"thanks-error-notitle": "താളിന്റെ തലക്കെട്ട് എടുക്കാനായില്ല",
 	"thanks-error-invalidrecipient": "സ്വീകർത്താവിന് സാധുതയില്ല",
 	"thanks-error-invalidrecipient-bot": "യന്ത്രങ്ങൾക്ക് നന്ദി രേഖപ്പെടുത്താനാവില്ല",
 	"thanks-error-invalidrecipient-self": "താങ്കൾക്ക് സ്വയം നന്ദി രേഖപ്പെടുത്താനാവില്ല",

@@ -22,7 +22,6 @@
 	"thanks-error-log-deleted": "Zahtijevana evidencijska stavka bila je izbrisana i zahvala ne može biti dana za nju.",
 	"thanks-error-invalidrevision": "Identifikator inačice (ID) nije valjan.",
 	"thanks-error-revdeleted": "Nije moguće poslati zahvalu jer je inačica pobrisana.",
-	"thanks-error-notitle": "Naslov stranice nije bilo moguće dobaviti",
 	"thanks-error-invalidrecipient": "Nije pronađen vrijedeći primatelj",
 	"thanks-error-invalidrecipient-bot": "Ne možete zahvaliti botovima",
 	"thanks-error-invalidrecipient-self": "Ne možete zahvaliti sami sebi",

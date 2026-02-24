@@ -18,7 +18,6 @@
 	"thanks-error-log-deleted": "Päritud logisissekanne on kustutatud ja selle eest ei saa tänu avaldada.",
 	"thanks-error-invalidrevision": "Redaktsiooni identifikaator ei sobi.",
 	"thanks-error-revdeleted": "Ei saa tänuteavitust saata, sest redaktsioon on kustutatud.",
-	"thanks-error-notitle": "Lehekülje pealkirja ei õnnestu välja otsida",
 	"thanks-error-invalidrecipient": "Sobivat adressaati ei leidu",
 	"thanks-error-invalidrecipient-bot": "Roboteid ei saa tänada",
 	"thanks-error-invalidrecipient-self": "Ennast ei saa tänada",

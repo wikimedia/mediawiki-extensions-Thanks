@@ -23,7 +23,6 @@
 	"thanks-error-log-deleted": "Tələb olunan jurnal qeydi silindi və bunun üçün təşəkkür etmək mümkün deyil.",
 	"thanks-error-invalidrevision": "Versiya ID etibarlı deyil.",
 	"thanks-error-revdeleted": "Redaktə silindiyi üçün təşəkkür göndərmək mümkün deyil.",
-	"thanks-error-notitle": "Səhifənin başlığını əldə etmək mümkün olmadı",
 	"thanks-error-invalidrecipient": "Etibarlı alıcı tapılmadı",
 	"thanks-error-invalidrecipient-bot": "Botlara təşəkkür etmək mümkün deyil",
 	"thanks-error-invalidrecipient-self": "Özünüzə təşəkkür edə bilməzsiniz",

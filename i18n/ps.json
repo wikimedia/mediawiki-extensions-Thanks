@@ -16,7 +16,6 @@
 	"thanks-error-log-deleted": "غوښتل شوې يادښت ننوتنه ړنگه شوې او د هغې مننه نشي کېدای.",
 	"thanks-error-invalidrevision": "د بياليدنه پېژند سم نه دی.",
 	"thanks-error-revdeleted": "مننه نشي لېږل کېدای، ځکه چې بياليدنه ړنگه شوې ده.",
-	"thanks-error-notitle": "مخ سرليک بېرته ترلاسه نشو",
 	"thanks-error-invalidrecipient": "هېڅ باوري ترلاسه کوونکی ونه موندل شو",
 	"thanks-error-invalidrecipient-bot": "له روباټونو مننه نشي کېدای",
 	"thanks-error-invalidrecipient-self": "له ځان مننه نشئ کولای",

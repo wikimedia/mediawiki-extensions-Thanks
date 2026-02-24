@@ -37,7 +37,6 @@
 	"thanks-error-log-deleted": "مورد سیاههٔ درخواست شده، حذف شده است و امکان تشکر برای آن وجود ندارد.",
 	"thanks-error-invalidrevision": "شناسهٔ نسخه معتبر نیست.",
 	"thanks-error-revdeleted": "تشکر کردن ممکن نیست، چون ویرایش حذف شده است.",
-	"thanks-error-notitle": "امکان دریافت عنوان صفحه وجود نداشت",
 	"thanks-error-invalidrecipient": "گیرندهٔ معتبری پیدا نشد",
 	"thanks-error-invalidrecipient-bot": "از ربات‌ها نمی‌توان تشکر کرد",
 	"thanks-error-invalidrecipient-self": "از خودتان نمی‌توانید تشکر کنید",

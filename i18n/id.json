@@ -24,7 +24,6 @@
 	"thanks-error-log-deleted": "Entri log yang diminta telah dihapus dan tidak dapat diberi terima kasih.",
 	"thanks-error-invalidrevision": "ID revisi tidak sah.",
 	"thanks-error-revdeleted": "Tidak dapat mengirim terima kasih karena revisi telah dihapus.",
-	"thanks-error-notitle": "Judul halaman tidak dapat ditampilkan",
 	"thanks-error-invalidrecipient": "Tidak dapat menemukan penerima sah",
 	"thanks-error-invalidrecipient-bot": "Bot tidak dapat menerima terima kasih",
 	"thanks-error-invalidrecipient-self": "Anda tidak dapat mengirimkan terima kasih untuk diri sendiri",

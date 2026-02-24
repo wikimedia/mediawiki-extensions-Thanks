@@ -19,7 +19,6 @@
 	"thanks-error-log-deleted": "Запытаны запіс журналу быў выдалены, і за яго немагчыма падзякаваць.",
 	"thanks-error-invalidrevision": "Няслушны ідэнтыфікатар вэрсіі",
 	"thanks-error-revdeleted": "Немагчыма адаслаць падзяку, бо вэрсія была выдаленая.",
-	"thanks-error-notitle": "Немагчыма атрымаць назву старонкі",
 	"thanks-error-invalidrecipient": "Ня знойдзены дзейны атрымальнік",
 	"thanks-error-invalidrecipient-bot": "Робатам падзякаць немагчыма",
 	"thanks-error-invalidrecipient-self": "Самім сабе дзякаваць нельга",

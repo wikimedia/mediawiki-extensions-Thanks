@@ -26,7 +26,6 @@
 	"thanks-error-log-deleted": "Wskazany wpis rejestru został usunięty, więc nie można wystawić za niego podziękowania.",
 	"thanks-error-invalidrevision": "Nieprawidłowy identyfikator wersji.",
 	"thanks-error-revdeleted": "Nie można wysłać podziękowań, ponieważ wersja została usunięta.",
-	"thanks-error-notitle": "Nie udało się pobrać tytułu strony",
 	"thanks-error-invalidrecipient": "Nie znaleziono odbiorcy",
 	"thanks-error-invalidrecipient-bot": "Botom nie można dziękować",
 	"thanks-error-invalidrecipient-self": "Nie możesz sobie podziękować",

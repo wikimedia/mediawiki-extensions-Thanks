@@ -23,7 +23,6 @@
 	"thanks-error-log-deleted": "Η ζητούμενη καταχώριση αρχείου καταγραφής έχει διαγραφεί και δεν μπορούμε να σας ευχαριστήσουμε.",
 	"thanks-error-invalidrevision": "Το ID αναθεώρησης δεν είναι έγκυρο.",
 	"thanks-error-revdeleted": "Δεν είναι δυνατή η αποστολή ευχαριστιών επειδή η αναθεώρηση έχει διαγραφεί.",
-	"thanks-error-notitle": "Δεν ήταν δυνατή η ανάκτηση του τίτλου της σελίδας",
 	"thanks-error-invalidrecipient": "Δεν βρέθηκε έγκυρος παραλήπτης",
 	"thanks-error-invalidrecipient-bot": "Τα bots, δεν μπορούν να δεχθούν ευχαριστίες",
 	"thanks-error-invalidrecipient-self": "Δεν μπορείτε να ευχαριστήσετε τον εαυτό σας",

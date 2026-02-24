@@ -29,7 +29,6 @@
 	"thanks-error-log-deleted": "İstenen günlük girişi silindi ve giriş için teşekkür edilemiyor.",
 	"thanks-error-invalidrevision": "Revizyon kimliği geçerli değil.",
 	"thanks-error-revdeleted": "Revizyon silindiği için teşekkür gönderilemiyor.",
-	"thanks-error-notitle": "Sayfa başlığı alınamadı",
 	"thanks-error-invalidrecipient": "Geçerli alıcı bulunamadı",
 	"thanks-error-invalidrecipient-bot": "Botlara teşekkür edilemez",
 	"thanks-error-invalidrecipient-self": "Kendine teşekkür edemezsin",

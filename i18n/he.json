@@ -20,7 +20,6 @@
 	"thanks-error-log-deleted": "פעולת היומן שביקשת נמחקה, ולכן לא ניתן לשלוח עבורה תודה.",
 	"thanks-error-invalidrevision": "מזהה גרסה אינו תקין.",
 	"thanks-error-revdeleted": "לא ניתן לשלוח תודה משום שהגרסה נמחקה.",
-	"thanks-error-notitle": "לא ניתן לאחזר את כותרת הדף",
 	"thanks-error-invalidrecipient": "לא נמצא נמען תקין",
 	"thanks-error-invalidrecipient-bot": "לא ניתן לשלוח הודעות תודה לבוטים",
 	"thanks-error-invalidrecipient-self": "לא ניתן לשלוח הודעות תודה לעצמך",

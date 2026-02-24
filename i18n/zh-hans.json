@@ -41,7 +41,6 @@
 	"thanks-error-log-deleted": "请求的日志记录已删除，且不能给它提供感谢。",
 	"thanks-error-invalidrevision": "版本ID无效。",
 	"thanks-error-revdeleted": "无法发送感谢，因为修订版本已删除。",
-	"thanks-error-notitle": "无法检索页面标题",
 	"thanks-error-invalidrecipient": "找不到有效的接收者",
 	"thanks-error-invalidrecipient-bot": "不能感谢机器人",
 	"thanks-error-invalidrecipient-self": "您不能感谢您自己",

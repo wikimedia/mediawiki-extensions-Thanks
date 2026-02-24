@@ -36,7 +36,6 @@
 	"thanks-error-log-deleted": "Запрошенная запись журнала была удалена, невозможно дать за неё благодарность.",
 	"thanks-error-invalidrevision": "Некорректный номер версии.",
 	"thanks-error-revdeleted": "Не удалось отправить благодарность, поскольку эта версия была удалена.",
-	"thanks-error-notitle": "Заголовок страницы не может быть получен",
 	"thanks-error-invalidrecipient": "Не найдено корректного получателя",
 	"thanks-error-invalidrecipient-bot": "Нельзя поблагодарить ботов",
 	"thanks-error-invalidrecipient-self": "Вы не можете поблагодарить сами себя",

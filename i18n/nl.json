@@ -36,7 +36,6 @@
 	"thanks-error-log-deleted": "De opgevraagde logboekregel is verwijderd en er kan daarom geen bedankje verstuurd worden.",
 	"thanks-error-invalidrevision": "Versie-ID is niet geldig.",
 	"thanks-error-revdeleted": "Bedankje niet verstuurd, omdat de versie gewist is",
-	"thanks-error-notitle": "Paginatitel kan niet worden bepaald",
 	"thanks-error-invalidrecipient": "Geen geldige ontvanger gevonden",
 	"thanks-error-invalidrecipient-bot": "Bots kunnen geen bedankjes ontvangen",
 	"thanks-error-invalidrecipient-self": "U kunt niet uzelf bedanken",

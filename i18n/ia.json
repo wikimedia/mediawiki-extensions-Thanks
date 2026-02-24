@@ -15,7 +15,6 @@
 	"thanks-error-log-deleted": "Le entrata de registro requestate ha essite delite e non es possibile regratiar pro illo.",
 	"thanks-error-invalidrevision": "Le ID de version es invalide.",
 	"thanks-error-revdeleted": "Impossibile inviar regratiamento perque le version ha essite delite.",
-	"thanks-error-notitle": "Le titulo del pagina non poteva esser recuperate.",
 	"thanks-error-invalidrecipient": "Nulle destinatario valide trovate.",
 	"thanks-error-invalidrecipient-bot": "Non es possibile regratiar robots.",
 	"thanks-error-invalidrecipient-self": "Tu non pote regratiar te mesme.",

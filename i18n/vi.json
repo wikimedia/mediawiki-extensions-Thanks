@@ -29,7 +29,6 @@
 	"thanks-error-log-deleted": "Mục nhật trình được yêu cầu đã bị xóa, nên không thể gửi lời cảm ơn về nó.",
 	"thanks-error-invalidrevision": "Số phiên bản không hợp lệ.",
 	"thanks-error-revdeleted": "Không thể gửi lời cảm ơn vì phiên bản đã bị xóa.",
-	"thanks-error-notitle": "Không thể lấy tên trang",
 	"thanks-error-invalidrecipient": "Không tìm thấy người nhận hợp lệ",
 	"thanks-error-invalidrecipient-bot": "Không thể cảm ơn bot",
 	"thanks-error-invalidrecipient-self": "Bạn không thể cảm ơn chính mình",

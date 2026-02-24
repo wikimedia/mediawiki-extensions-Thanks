@@ -20,7 +20,6 @@
 	"thanks-error-log-deleted": "Ni ellir dweud diolch oherwydd bod y cofnod log a gofynnwyd amdano wedi cael ei ddileu.",
 	"thanks-error-invalidrevision": "Nid yw ID y diwygiad yn ddilys.",
 	"thanks-error-revdeleted": "Ni ellir dweud diolch oherwydd bod y golygiad wedi cael ei ddileu.",
-	"thanks-error-notitle": "Ni chanfuwyd teitl y dudalen",
 	"thanks-error-invalidrecipient": "Ni chanfuwyd defnyddiwr dilys",
 	"thanks-error-invalidrecipient-bot": "Ni ellir diolch botiau",
 	"thanks-error-invalidrecipient-self": "Ni ellir dweud diolch i'ch hun",

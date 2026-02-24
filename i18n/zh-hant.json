@@ -31,7 +31,6 @@
 	"thanks-error-log-deleted": "請求的日誌項目已被刪除，因此不能對此表達感謝。",
 	"thanks-error-invalidrevision": "修訂 ID 無效。",
 	"thanks-error-revdeleted": "因修訂內容已被刪除，因此無法發送感謝。",
-	"thanks-error-notitle": "無法取得頁面標題",
 	"thanks-error-invalidrecipient": "找不到有效的接受者",
 	"thanks-error-invalidrecipient-bot": "不能對機器人表達感謝",
 	"thanks-error-invalidrecipient-self": "您不能對自己表達感謝。",

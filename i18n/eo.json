@@ -19,7 +19,6 @@
 	"thanks-error-log-deleted": "La petita protokolero estas foriĝinta, kaj vi ne povas danki pro ĝi.",
 	"thanks-error-invalidrevision": "Identigilo de revizio estas nevalida.",
 	"thanks-error-revdeleted": "Ne povas danki pro forigo de la versio.",
-	"thanks-error-notitle": "Paĝa titolo ne troviĝis",
 	"thanks-error-invalidrecipient": "Neniu valida ricevanto troviĝis",
 	"thanks-error-invalidrecipient-bot": "Oni ne povas danki roboton",
 	"thanks-error-invalidrecipient-self": "Vi ne povas danki sin",

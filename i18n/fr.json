@@ -39,7 +39,6 @@
 	"thanks-error-log-deleted": "L’entrée de journal demandée a été supprimée et il est impossible de remercier pour cela.",
 	"thanks-error-invalidrevision": "L’identifiant de révision n’est pas valide.",
 	"thanks-error-revdeleted": "Impossible d’envoyer les remerciements car la révision a été supprimée.",
-	"thanks-error-notitle": "Le titre de la page n’a pas pu être récupéré",
 	"thanks-error-invalidrecipient": "Aucun destinataire valide trouvé",
 	"thanks-error-invalidrecipient-bot": "Les robots ne peuvent pas être remerciés",
 	"thanks-error-invalidrecipient-self": "Vous ne pouvez pas vous remercier vous-même.",

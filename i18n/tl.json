@@ -19,7 +19,6 @@
 	"thanks-error-log-deleted": "Binura na ang hiniling na entry ng tala kaya di na mabibigay ang pasasalamat.",
 	"thanks-error-invalidrevision": "Di valid ang ID ng pagbabago.",
 	"thanks-error-revdeleted": "Di magawang mapadala ang pasasalamat dahil binura na ang pagbabago.",
-	"thanks-error-notitle": "Di makuha ang pamagat ng pahina",
 	"thanks-error-invalidrecipient": "Walang nakitang valid na tatanggap",
 	"thanks-error-invalidrecipient-bot": "Di mapapasalamatan ang mga bot",
 	"thanks-error-invalidrecipient-self": "Bawal mong pasalamatan ang sarili mo",

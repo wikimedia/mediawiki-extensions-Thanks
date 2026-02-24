@@ -34,7 +34,6 @@
 	"thanks-error-log-deleted": "مدخلة السجل المطلوبة تم حذفها ولا يمكن إعطاء شكر عليها.",
 	"thanks-error-invalidrevision": "مُعرِّف المراجعة غير صحيح.",
 	"thanks-error-revdeleted": "غير قادر على إرسال شكرا لأنه قد تم حذف المراجعة.",
-	"thanks-error-notitle": "تعذّر جلب عنوان الصفحة",
 	"thanks-error-invalidrecipient": "لم يتم العثور على مستقبل صحيح",
 	"thanks-error-invalidrecipient-bot": "البوتات لا يمكن شكرها",
 	"thanks-error-invalidrecipient-self": "لا يمكنك شكر نفسك",

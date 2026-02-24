@@ -20,7 +20,6 @@
 	"thanks-error-undefined": "धन्यवाद कार्य असफल भयो (त्रुटि: $1)। फेरि प्रयास गर्नुहोस।",
 	"thanks-error-invalid-log-id": "अभिलेख प्रविष्टि फेला परेन",
 	"thanks-error-invalidrevision": "अवतरण आइडी मान्य छैन।",
-	"thanks-error-notitle": "पृष्ठ शीर्षक पुन: प्राप्त गर्न सकिएन",
 	"thanks-error-invalidrecipient": "कुनै मान्य प्रयोगकर्ता फेला परेन",
 	"thanks-error-invalidrecipient-bot": "बटहरूलाई धन्यवाद दिन सकिँदैन",
 	"thanks-error-invalidrecipient-self": "तपाईं आफैलाई धन्यवाद दिन सक्नुहुन्न",

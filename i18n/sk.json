@@ -20,7 +20,6 @@
 	"thanks-error-log-deleted": "Požadovaný protokolovací záznam bol odstránený a nedá sa zaňho poďakovať.",
 	"thanks-error-invalidrevision": "ID revízie je neplatné.",
 	"thanks-error-revdeleted": "Nepodarilo sa odoslať poďakovanie, pretože revízia bola odstránená.",
-	"thanks-error-notitle": "Nepodarilo sa zistiť názov stránky",
 	"thanks-error-invalidrecipient": "Nebol nájdený platný príjemca",
 	"thanks-error-invalidrecipient-bot": "Botom sa nedá poďakovať",
 	"thanks-error-invalidrecipient-self": "Nemôžete poďakovať sami sebe.",

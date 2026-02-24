@@ -19,7 +19,6 @@
 	"thanks-error-log-deleted": "Pieprasītais žurnāla ieraksts ir dzēsts un par to nevar pateikties.",
 	"thanks-error-invalidrevision": "Versijas ID ir nederīgs.",
 	"thanks-error-revdeleted": "Neizdevās nosūtīt pateicību, jo versija ir tikusi izdzēsta.",
-	"thanks-error-notitle": "Nevarēja iegūt lapas nosaukumu",
 	"thanks-error-invalidrecipient": "Nav atrasts derīgs saņēmējs",
 	"thanks-error-invalidrecipient-bot": "Botiem nevar pateikties",
 	"thanks-error-invalidrecipient-self": "Tu nevari pateikties sev",

@@ -17,7 +17,6 @@
 	"thanks-error-log-deleted": "Ne mogu da pošaljem zahvalnicu jer je tražena dnevnička stavka izbrisana.",
 	"thanks-error-invalidrevision": "ID izmjene nije ispravan.",
 	"thanks-error-revdeleted": "Ne mogu da pošaljem zahvalnicu jer je izmjena izbrisana.",
-	"thanks-error-notitle": "Ne mogu da dobavim naslov stranice",
 	"thanks-error-invalidrecipient": "Ne mogu da nađem ispravnog primaoca",
 	"thanks-error-invalidrecipient-bot": "Ne možete zahvaljivati botovima",
 	"thanks-error-invalidrecipient-self": "Ne možete zahvaliti sami sebi",

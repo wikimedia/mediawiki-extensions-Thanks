@@ -24,7 +24,6 @@
 	"thanks-error-log-deleted": "अनुरोधित लॉग प्रविष्टि हटा दी गई है और उसके लिए धन्यवाद नहीं दिया जा सकता।",
 	"thanks-error-invalidrevision": "अवतरण ID मान्य नहीं है।",
 	"thanks-error-revdeleted": "धन्यवाद नहीं भेजा जा सका क्योंकि अवतरण हटा दिया गया है।",
-	"thanks-error-notitle": "पृष्ठ शीर्षक प्राप्त नहीं किया जा सका",
 	"thanks-error-invalidrecipient": "कोई मान्य प्रापक नहीं मिला",
 	"thanks-error-invalidrecipient-bot": "बॉट्स को धन्यवाद नहीं दिया जा सकता",
 	"thanks-error-invalidrecipient-self": "आप अपने आप को धन्यवाद नहीं दे सकते",

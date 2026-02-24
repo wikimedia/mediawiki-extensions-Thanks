@@ -26,7 +26,6 @@
 	"thanks-error-log-deleted": "A kért naplóbejegyzés törölve lett, így nem lehet megköszönni.",
 	"thanks-error-invalidrevision": "A lapváltozat azonosítója érvénytelen.",
 	"thanks-error-revdeleted": "A lapváltozatot törölték, így nem lehet megköszönni.",
-	"thanks-error-notitle": "A lap címének lekérése sikertelen",
 	"thanks-error-invalidrecipient": "Nem található érvényes címzett",
 	"thanks-error-invalidrecipient-bot": "Botoknak nem lehet köszönetet küldeni",
 	"thanks-error-invalidrecipient-self": "Nem küldhetsz köszönetet saját magadnak",

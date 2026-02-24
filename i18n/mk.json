@@ -17,7 +17,6 @@
 	"thanks-error-log-deleted": "Побараната дневничка ставка е избришана и затоа не може да се благодари за неа.",
 	"thanks-error-invalidrevision": "Преработката има неважечка назнака.",
 	"thanks-error-revdeleted": "Не можам да благодарам бидејќи преработката е избришана.",
-	"thanks-error-notitle": "Не можев да го добијам насловот на страницата",
 	"thanks-error-invalidrecipient": "Не пронајдов важечки примач",
 	"thanks-error-invalidrecipient-bot": "Не можете да им се заблагодарувате на ботови",
 	"thanks-error-invalidrecipient-self": "Не можете да си се заблагодарувате себеси",

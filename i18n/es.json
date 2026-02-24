@@ -31,7 +31,6 @@
 	"thanks-error-log-deleted": "La entrada de registro solicitada se ha eliminado y no se puede dar las gracias por ello.",
 	"thanks-error-invalidrevision": "El id. de revisión no es válido.",
 	"thanks-error-revdeleted": "No se puede enviar el agradecimiento porque se eliminó la revisión.",
-	"thanks-error-notitle": "No se pudo recuperar el título de la página",
 	"thanks-error-invalidrecipient": "No se encontró un destinatario válido",
 	"thanks-error-invalidrecipient-bot": "No se pueden enviar agradecimientos a bots",
 	"thanks-error-invalidrecipient-self": "No puedes enviarte agradecimientos a ti mismo",

@@ -23,7 +23,6 @@
 	"thanks-error-log-deleted": "Тражени унос у дневнику је обрисан и захвалница се не може упутити.",
 	"thanks-error-invalidrevision": "ID измене није важећи.",
 	"thanks-error-revdeleted": "Није могуће послати захвалницу јер је измена избрисана.",
-	"thanks-error-notitle": "Није могуће преузети наслов странице.",
 	"thanks-error-invalidrecipient": "Није пронађен важећи прималац",
 	"thanks-error-invalidrecipient-bot": "Не можете да се захвалите ботовима",
 	"thanks-error-invalidrecipient-self": "Не можете да се захвалите сами себи",

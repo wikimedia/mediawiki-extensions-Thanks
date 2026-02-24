@@ -26,7 +26,6 @@
 	"thanks-error-log-deleted": "Den begärda loggposten har raderats och tacket kan inte ges för den.",
 	"thanks-error-invalidrevision": "Versions-ID är inte giltigt.",
 	"thanks-error-revdeleted": "Kunde inte skicka tack eftersom sidversionen har raderats.",
-	"thanks-error-notitle": "Sidans titel kunde inte hämtas",
 	"thanks-error-invalidrecipient": "Ingen giltig mottagare hittades",
 	"thanks-error-invalidrecipient-bot": "Robotar kan inte tackas",
 	"thanks-error-invalidrecipient-self": "Du kan inte tacka dig själv",

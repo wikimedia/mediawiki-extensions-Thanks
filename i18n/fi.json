@@ -26,7 +26,6 @@
 	"thanks-error-log-deleted": "Pyydetty lokitapahtuma on poistettu, eikä siitä voida antaa kiitosta.",
 	"thanks-error-invalidrevision": "Sivuversion tunniste ei kelpaa.",
 	"thanks-error-revdeleted": "Ei voitu kiittää, koska sivuversio on poistettu.",
-	"thanks-error-notitle": "Sivun otsikkoa ei voitu hakea",
 	"thanks-error-invalidrecipient": "Vastaanottajaa ei löytynyt",
 	"thanks-error-invalidrecipient-bot": "Botteja ei voi kiittää",
 	"thanks-error-invalidrecipient-self": "Et voi kiittää itseäsi",

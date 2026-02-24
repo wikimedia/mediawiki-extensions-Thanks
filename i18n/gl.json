@@ -20,7 +20,6 @@
 	"thanks-error-log-deleted": "Alguén borrou a entrada do rexistro solicitada, así que non se pode enviar un agradecemento por ela.",
 	"thanks-error-invalidrevision": "O identificador da revisión non é válido.",
 	"thanks-error-revdeleted": "Non se pode enviar o agradecemento porque se borrou a revisión.",
-	"thanks-error-notitle": "Non se puido recuperar o título da páxina",
 	"thanks-error-invalidrecipient": "Non se atopou un destinatario válido",
 	"thanks-error-invalidrecipient-bot": "Non se pode agradecer a bots",
 	"thanks-error-invalidrecipient-self": "Non te podes agradecer a ti {{GENDER:|mesmo|mesma}}",

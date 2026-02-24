@@ -15,7 +15,6 @@
 	"thanks-error-log-deleted": "La vos de register l'è stada scancelada e per quella reson chì a se po fa minga el ringrazziament.",
 	"thanks-error-invalidrevision": "L'Id de la version l'è minga valid.",
 	"thanks-error-revdeleted": "Impossibel mandà i ringrazziament perchè la revision l'è stada scacelada.",
-	"thanks-error-notitle": "A l'è stad minga possibil recuperà el titol de la pagina",
 	"thanks-error-invalidrecipient": "A l'è stad trovad nissun destinatari valid",
 	"thanks-error-invalidrecipient-bot": "A se po minga ringrazzià i bot",
 	"thanks-error-invalidrecipient-self": "Te podet minga ringrazziass",

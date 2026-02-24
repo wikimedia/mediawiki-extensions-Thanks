@@ -15,7 +15,6 @@
 	"thanks-error-log-deleted": "Zapytany zapis v dnevniku byl odstranjeny i blagodarjenje za njego jest nemožno.",
 	"thanks-error-invalidrevision": "Nepravilny identifikator versije.",
 	"thanks-error-revdeleted": "Blagodarjenje ne udalo se, ibo versija jest odstranjena.",
-	"thanks-error-notitle": "Včitanje nazvy stranice ne udalo se",
 	"thanks-error-invalidrecipient": "Ne najden nijedin pravilny prijmatelj",
 	"thanks-error-invalidrecipient-bot": "Poblagodarjenje botov jest nemožno",
 	"thanks-error-invalidrecipient-self": "Sami sebe ne možete poblagodariti",

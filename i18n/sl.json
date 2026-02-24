@@ -20,7 +20,6 @@
 	"thanks-error-log-deleted": "Zahtevan dnevniški vpis je bil izbrisan, zato zanj ni mogoče dati zahvale.",
 	"thanks-error-invalidrevision": "ID-številka redakcije ni veljavna.",
 	"thanks-error-revdeleted": "Zahvale ni mogoče poslati, saj je bila redakcija izbrisana.",
-	"thanks-error-notitle": "Naslova strani ni bilo mogoče pridobiti",
 	"thanks-error-invalidrecipient": "Prejemnik ni bil najden",
 	"thanks-error-invalidrecipient-bot": "Botom se ni mogoče zahvaliti",
 	"thanks-error-invalidrecipient-self": "Sami sebi se ne morete poslati zahvale",

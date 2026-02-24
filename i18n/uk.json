@@ -28,7 +28,6 @@
 	"thanks-error-log-deleted": "Запитаний запис журналу було вилучено, за нього не можна подякувати.",
 	"thanks-error-invalidrevision": "Неправильний ідентифікатор версії.",
 	"thanks-error-revdeleted": "Не вдалося надіслати подяку, бо версію вилучено.",
-	"thanks-error-notitle": "Не вдалося отримати назву сторінки",
 	"thanks-error-invalidrecipient": "Не знайдено дійсного одержувача",
 	"thanks-error-invalidrecipient-bot": "Не можна дякувати ботам",
 	"thanks-error-invalidrecipient-self": "Ви не можете подякувати собі",
