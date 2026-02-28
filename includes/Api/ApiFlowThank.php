@@ -120,7 +120,6 @@ class ApiFlowThank extends ApiThank {
 		if ( $data['post'] === null ) {
 			$this->dieWithError( 'thanks-error-invalidpostid', 'invalidpostid' );
 		}
-		// @phan-suppress-next-line PhanTypeMismatchReturnNullable T240141
 		return $data;
 	}
 

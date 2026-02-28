@@ -142,7 +142,6 @@ class ApiCoreThank extends ApiThank {
 		} elseif ( $revision->isDeleted( RevisionRecord::DELETED_TEXT ) ) {
 			$this->dieWithError( 'thanks-error-revdeleted', 'revdeleted' );
 		}
-		// @phan-suppress-next-line PhanTypeMismatchReturnNullable T240141
 		return $revision;
 	}
 
@@ -165,7 +164,6 @@ class ApiCoreThank extends ApiThank {
 		if ( !$logEntry ) {
 			$this->dieWithError( 'thanks-error-invalid-log-id', 'thanks-error-invalid-log-id' );
 		}
-		// @phan-suppress-next-line PhanTypeMismatchReturnNullable T240141
 		return $logEntry;
 	}
 
@@ -191,7 +189,6 @@ class ApiCoreThank extends ApiThank {
 		if ( !$recipient ) {
 			$this->dieWithError( 'thanks-error-invalidrecipient', 'invalidrecipient' );
 		}
-		// @phan-suppress-next-line PhanTypeMismatchArgumentNullable T240141
 		return $this->userFactory->newFromUserIdentity( $recipient );
 	}
 
