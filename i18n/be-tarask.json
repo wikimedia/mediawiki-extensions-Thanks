@@ -45,7 +45,7 @@
 	"log-description-thanks": "Ніжэй знаходзіцца сьпіс удзельнікаў, якія атрымалі падзякі.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|падзякаваў|падзякавала}} {{GENDER:$4|удзельніку|удзельніцы}} $3",
 	"logeventslist-thanks-log": "Журнал падзякаў",
-	"thanks-error-no-id-specified": "Дзеля адсылкі падзякі неабходна пазначыць ID вэрсіі ці журналу.",
+	"thanks-error-no-id-specified": "Дзеля адсылкі падзякі патрэбна пазначыць ID вэрсіі ці журналу.",
 	"thanks-confirmation-special-log": "Вы хочаце даслаць публічную падзяку за гэтае дзеяньне?",
 	"thanks-confirmation-special-rev": "Вы хочаце даслаць публічную падзяку за гэтую праўку?",
 	"notification-link-text-view-post": "Пабачыць камэнтар",
