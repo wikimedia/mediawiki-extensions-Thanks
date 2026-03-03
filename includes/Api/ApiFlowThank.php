@@ -25,6 +25,7 @@ use MediaWiki\Notification\RecipientSet;
 use MediaWiki\Notification\Types\WikiNotification;
 use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\Title\Title;
+use MediaWiki\User\TempUser\TempUserDetailsLookup;
 use MediaWiki\User\User;
 use MediaWiki\User\UserFactory;
 use Wikimedia\ParamValidator\ParamValidator;
@@ -38,8 +39,9 @@ class ApiFlowThank extends ApiThank {
 		LogStore $storage,
 		private readonly NotificationService $notifications,
 		private readonly UserFactory $userFactory,
+		TempUserDetailsLookup $tempUserDetailsLookup,
 	) {
-		parent::__construct( $main, $action, $permissionManager, $storage );
+		parent::__construct( $main, $action, $permissionManager, $storage, $tempUserDetailsLookup );
 	}
 
 	public function execute() {

@@ -31,6 +31,7 @@
 	"thanks-error-revdeleted": "Error message that is displayed when the revision has been deleted (RevDel)",
 	"thanks-error-invalidrecipient": "Error message that is displayed when no recipient is found",
 	"thanks-error-invalidrecipient-bot": "Error message that is displayed when the recipient is a bot",
+	"thanks-error-invalidrecipient-expired": "Error message that is displayed when the recipient is an expired temporary user",
 	"thanks-error-invalidrecipient-self": "Error message that is displayed when the recipient is the user doing the thanking",
 	"thanks-error-notloggedin": "Error message that is displayed when the user is not logged in",
 	"thanks-error-ratelimited": "Error message that is displayed when user exceeds rate limit.\n\nParameters:\n* $1 - The user sending the thanks. Can be used for GENDER support.",

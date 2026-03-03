@@ -60,7 +60,8 @@
 				"ThanksLogStore",
 				"NotificationService",
 				"RevisionStore",
-				"UserFactory"
+				"UserFactory",
+				"TempUserDetailsLookup"
 			]
 		}
 	},
@@ -169,7 +170,8 @@
 				"PermissionManager",
 				"RevisionLookup",
 				"UserFactory",
-				"UserOptionsManager"
+				"UserOptionsManager",
+				"TempUserDetailsLookup"
 			]
 		},
 		"echo": {

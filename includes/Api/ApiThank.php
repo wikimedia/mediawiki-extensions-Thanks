@@ -7,6 +7,7 @@ use MediaWiki\Api\ApiMain;
 use MediaWiki\Extension\Thanks\Storage\LogStore;
 use MediaWiki\Page\PageIdentity;
 use MediaWiki\Permissions\PermissionManager;
+use MediaWiki\User\TempUser\TempUserDetailsLookup;
 use MediaWiki\User\User;
 
 /**
@@ -22,6 +23,7 @@ abstract class ApiThank extends ApiBase {
 		string $action,
 		protected readonly PermissionManager $permissionManager,
 		protected readonly LogStore $storage,
+		protected readonly TempUserDetailsLookup $tempUserDetailsLookup,
 	) {
 		parent::__construct( $main, $action );
 	}
@@ -73,6 +75,8 @@ abstract class ApiThank extends ApiBase {
 	protected function dieOnBadRecipient( User $user, User $recipient ) {
 		if ( $user->getId() === $recipient->getId() ) {
 			$this->dieWithError( 'thanks-error-invalidrecipient-self', 'invalidrecipient' );
+		} elseif ( $this->tempUserDetailsLookup->isExpired( $recipient ) ) {
+			$this->dieWithError( 'thanks-error-invalidrecipient-expired', 'invalidrecipient' );
 		} elseif ( !$this->getConfig()->get( 'ThanksSendToBots' ) && $recipient->isBot() ) {
 			$this->dieWithError( 'thanks-error-invalidrecipient-bot', 'invalidrecipient' );
 		}

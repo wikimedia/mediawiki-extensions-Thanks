@@ -44,6 +44,7 @@ use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Specials\Hook\GetLogTypesOnUserHook;
 use MediaWiki\Title\Title;
 use MediaWiki\User\Options\UserOptionsManager;
+use MediaWiki\User\TempUser\TempUserDetailsLookup;
 use MediaWiki\User\User;
 use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserIdentity;
@@ -69,6 +70,7 @@ class Hooks implements
 		private readonly RevisionLookup $revisionLookup,
 		private readonly UserFactory $userFactory,
 		private readonly UserOptionsManager $userOptionsManager,
+		private readonly TempUserDetailsLookup $tempUserDetailsLookup,
 	) {
 	}
 
@@ -148,7 +150,7 @@ class Hooks implements
 			&& !$userIdentity->equals( $recipient )
 			&& !$this->isUserBlockedFromPage( $user, $revisionRecord->getPage() )
 			&& !self::isUserBlockedFromThanks( $user )
-			&& self::canReceiveThanks( $this->config, $this->userFactory, $recipient )
+			&& self::canReceiveThanks( $this->config, $this->userFactory, $this->tempUserDetailsLookup, $recipient )
 			&& !$revisionRecord->isDeleted( RevisionRecord::DELETED_TEXT )
 		) {
 			$links[] = $this->generateThankElement(
@@ -191,16 +193,22 @@ class Hooks implements
 	 *
 	 * @param Config $config
 	 * @param UserFactory $userFactory
+	 * @param TempUserDetailsLookup $tempUserDetailsLookup
 	 * @param UserIdentity $user Recipient
 	 * @return bool true if allowed, false if not
 	 */
 	public static function canReceiveThanks(
 		Config $config,
 		UserFactory $userFactory,
+		TempUserDetailsLookup $tempUserDetailsLookup,
 		UserIdentity $user
 	) {
 		$legacyUser = $userFactory->newFromUserIdentity( $user );
 		if ( !$user->isRegistered() || $legacyUser->isSystemUser() ) {
+			return false;
+		}
+
+		if ( $tempUserDetailsLookup->isExpired( $user ) ) {
 			return false;
 		}
 
@@ -418,6 +426,7 @@ class Hooks implements
 						"ThanksLogStore",
 						"NotificationService",
 						"UserFactory",
+						"TempUserDetailsLookup",
 					],
 				]
 			);
@@ -463,7 +472,7 @@ class Hooks implements
 
 		$recipient = $entry->getPerformerIdentity();
 		if ( $recipient->getId() === $user->getId() ||
-			!self::canReceiveThanks( $this->config, $this->userFactory, $recipient )
+			!self::canReceiveThanks( $this->config, $this->userFactory, $this->tempUserDetailsLookup, $recipient )
 		) {
 			return;
 		}

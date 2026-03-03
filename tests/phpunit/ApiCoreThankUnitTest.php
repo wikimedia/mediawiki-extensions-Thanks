@@ -1,10 +1,12 @@
 <?php
 
 use MediaWiki\Api\ApiMain;
+use MediaWiki\Api\ApiUsageException;
 use MediaWiki\Block\DatabaseBlock;
 use MediaWiki\Block\UserBlockTarget;
 use MediaWiki\Extension\Thanks\Api\ApiCoreThank;
 use MediaWiki\Tests\Api\ApiTestCase;
+use MediaWiki\User\TempUser\TempUserDetailsLookup;
 use MediaWiki\User\User;
 use MediaWiki\User\UserIdentityValue;
 
@@ -28,7 +30,8 @@ class ApiCoreThankUnitTest extends ApiTestCase {
 			$services->getService( 'ThanksLogStore' ),
 			$services->getNotificationService(),
 			$services->getRevisionStore(),
-			$services->getUserFactory()
+			$services->getUserFactory(),
+			$services->getTempUserDetailsLookup()
 		);
 	}
 
@@ -118,6 +121,45 @@ class ApiCoreThankUnitTest extends ApiTestCase {
 				false,
 			],
 		];
+	}
+
+	/**
+	 * @covers \MediaWiki\Extension\Thanks\Api\ApiThank::dieOnBadRecipient
+	 */
+	public function testDieOnBadRecipientExpiredTempUser() {
+		$tempUserDetailsLookup = $this->createMock( TempUserDetailsLookup::class );
+		$tempUserDetailsLookup->method( 'isExpired' )
+			->willReturn( true );
+
+		$services = $this->getServiceContainer();
+		$module = new ApiCoreThank(
+			new ApiMain(),
+			'thank',
+			$services->getPermissionManager(),
+			$services->getService( 'ThanksLogStore' ),
+			$services->getNotificationService(),
+			$services->getRevisionStore(),
+			$services->getUserFactory(),
+			$tempUserDetailsLookup
+		);
+
+		$user = $this->createMock( User::class );
+		$user->method( 'getId' )->willReturn( 1 );
+		$recipient = $this->createMock( User::class );
+		$recipient->method( 'getId' )->willReturn( 2 );
+
+		$method = new ReflectionMethod( $module, 'dieOnBadRecipient' );
+
+		try {
+			$method->invoke( $module, $user, $recipient );
+			$this->fail( 'Expected ApiUsageException for an expired temporary recipient' );
+		} catch ( ApiUsageException $exception ) {
+			$this->assertApiErrorCode( 'invalidrecipient', $exception );
+			$this->assertStatusMessage(
+				'thanks-error-invalidrecipient-expired',
+				$exception->getStatusValue()
+			);
+		}
 	}
 
 	// @todo test userAlreadySentThanksForRevision

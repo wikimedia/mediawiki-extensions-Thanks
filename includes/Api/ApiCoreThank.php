@@ -18,6 +18,7 @@ use MediaWiki\Page\PageIdentity;
 use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\Revision\RevisionRecord;
 use MediaWiki\Revision\RevisionStore;
+use MediaWiki\User\TempUser\TempUserDetailsLookup;
 use MediaWiki\User\User;
 use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserIdentity;
@@ -40,12 +41,14 @@ class ApiCoreThank extends ApiThank {
 		private readonly NotificationService $notifications,
 		protected readonly RevisionStore $revisionStore,
 		protected readonly UserFactory $userFactory,
+		TempUserDetailsLookup $tempUserDetailsLookup,
 	) {
 		parent::__construct(
 			$main,
 			$action,
 			$permissionManager,
-			$storage
+			$storage,
+			$tempUserDetailsLookup
 		);
 	}
 

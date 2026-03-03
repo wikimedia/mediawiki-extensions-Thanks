@@ -17,6 +17,7 @@
 	"thanks-error-revdeleted": "Unable to send thanks because the revision has been deleted.",
 	"thanks-error-invalidrecipient": "No valid recipient found",
 	"thanks-error-invalidrecipient-bot": "Bots cannot be thanked",
+	"thanks-error-invalidrecipient-expired": "Expired temporary users cannot be thanked",
 	"thanks-error-invalidrecipient-self": "You cannot thank yourself",
 	"thanks-error-notloggedin": "Anonymous users cannot send thanks",
 	"thanks-error-ratelimited": "{{GENDER:$1|You}}'ve exceeded your rate limit. Please wait some time and try again.",
