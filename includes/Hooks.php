@@ -300,7 +300,7 @@ class Hooks implements
 	 * @param IContextSource $context RequestContext object
 	 */
 	public function onPageHistoryBeforeList( $page, $context ) {
-		if ( $context->getUser()->isRegistered() ) {
+		if ( $context->getUser()->isNamed() ) {
 			$this->addThanksModule( $context->getOutput() );
 		}
 	}
@@ -339,7 +339,7 @@ class Hooks implements
 	 * @param DifferenceEngine $diff DifferenceEngine object that's calling.
 	 */
 	public function onDifferenceEngineViewHeader( $diff ) {
-		if ( $diff->getUser()->isRegistered() ) {
+		if ( $diff->getUser()->isNamed() ) {
 			$this->addThanksModule( $diff->getOutput() );
 		}
 	}
