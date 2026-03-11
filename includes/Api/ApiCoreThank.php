@@ -51,7 +51,6 @@ class ApiCoreThank extends ApiThank {
 
 	/**
 	 * Perform the API request.
-	 * @suppress PhanTypeMismatchArgumentNullable T240141
 	 * @suppress PhanPossiblyUndeclaredVariable Phan get's confused by the badly arranged code
 	 */
 	public function execute() {
@@ -65,17 +64,16 @@ class ApiCoreThank extends ApiThank {
 		$this->requireOnlyOneParameter( $params, 'rev', 'log' );
 
 		// Extract type and ID from the parameters.
-		if ( isset( $params['rev'] ) && !isset( $params['log'] ) ) {
+		if ( $params['rev'] !== null ) {
 			$type = 'rev';
 			$id = $params['rev'];
-		} elseif ( !isset( $params['rev'] ) && isset( $params['log'] ) ) {
+		} elseif ( $params['log'] !== null ) {
 			$type = 'log';
 			$id = $params['log'];
 		} else {
-			$this->dieWithError( 'thanks-error-api-params', 'thanks-error-api-params' );
+			ApiBase::dieDebug( __METHOD__, 'Unhandled parameter' );
 		}
 
-		$recipient = null;
 		// Determine thanks parameters.
 		if ( $type === 'log' ) {
 			$logEntry = $this->getLogEntryFromId( $id );
@@ -90,6 +88,7 @@ class ApiCoreThank extends ApiThank {
 				$recipient = $this->getUserFromLog( $logEntry );
 			}
 		}
+		// Type may change from log to rev when associated revision exists
 		if ( $type === 'rev' ) {
 			$revision = $this->getRevisionFromId( $id );
 			$excerpt = DiscussionParser::getEditExcerpt( $revision, $this->getLanguage() );
