@@ -25,7 +25,6 @@
 	"thanks-error-invalidrecipient-self": "Ni ellir dweud diolch i'ch hun",
 	"thanks-error-notloggedin": "Ni all defnyddwyr dienw dweud diolch",
 	"thanks-error-ratelimited": "{{GENDER:$1|Rydych}} wedi gwneud mwy o weithredoedd y funud na'r nifer a ganiateir. Arhoswch ennyd ac yna ceisiwch eto.",
-	"thanks-error-api-params": "Rhaid gosod naill ai'r paramedr 'revid' neu 'logid'",
 	"thanks-thank-tooltip": "{{GENDER:$1|Anfon}} gair o ddiolch i'r {{GENDER:$2|defnyddiwr}} hwn",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Canslo}} yr hysbysiad diolch",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Anfon}} yr hysbysiad diolch",

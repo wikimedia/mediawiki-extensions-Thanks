@@ -31,7 +31,6 @@
 	"thanks-error-invalidrecipient-self": "Nem küldhetsz köszönetet saját magadnak",
 	"thanks-error-notloggedin": "Anonim szerkesztők nem küldhetnek köszönetet",
 	"thanks-error-ratelimited": "{{GENDER:$1|Túllépted}} a meghatározott limitet. Kérlek várj egy kicsit, és próbáld újra.",
-	"thanks-error-api-params": "A „revid” és „logid” paraméterek közül egyet meg kell adni",
 	"thanks-thank-tooltip": "{{GENDER:$1|Küldj}} köszönetet ennek a {{GENDER:$2|szerkesztőnek}}",
 	"thanks-thank-tooltip-no": "A köszönet {{GENDER:$1|visszavonása}}",
 	"thanks-thank-tooltip-yes": "A köszönet {{GENDER:$1|elküldése}}",

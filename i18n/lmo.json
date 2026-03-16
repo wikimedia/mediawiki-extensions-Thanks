@@ -20,7 +20,6 @@
 	"thanks-error-invalidrecipient-self": "Te podet minga ringrazziass",
 	"thanks-error-notloggedin": "I utent anonim i poden minga mandà di ringrzziament",
 	"thanks-error-ratelimited": "{{GENDER:$1|t'hee sorpassad}} el numer massim de ringrazziament. Speta un poo de temp e prova anmò.",
-	"thanks-error-api-params": "I gh'hann de vesser fornid tant el parametro 'revid', quant el parametro 'logid'",
 	"thanks-thank-tooltip": "{{GENDER:$1|Manda}} una notifica de ringrazzià {{GENDER:$2|quell utent chì}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Anula}} la notifica de ringrazziament",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Spediss}} la notifica de ringrazziament",

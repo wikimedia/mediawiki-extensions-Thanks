@@ -29,7 +29,6 @@
 	"thanks-error-invalidrecipient-self": "Anda tidak dapat mengirimkan terima kasih untuk diri sendiri",
 	"thanks-error-notloggedin": "Pengguna anonim tidak dapat mengirimkan terima kasih",
 	"thanks-error-ratelimited": "{{GENDER:$1|Anda}} telah melampaui batas Anda. Silakan tunggu beberapa saat dan coba lagi.",
-	"thanks-error-api-params": "Parameter 'revid' atau 'logid' harus diberikan",
 	"thanks-thank-tooltip": "{{GENDER:$1|Kirim}} sebuah pemberitahuan terima kasih kepada {{GENDER:$2|pengguna}} ini",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Batalkan}} notifikasi terima kasih",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Kirim}} notifikasi terima kasih",

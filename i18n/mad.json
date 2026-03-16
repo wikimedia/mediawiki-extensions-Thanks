@@ -21,7 +21,6 @@
 	"thanks-error-invalidrecipient-self": "Dhika ta' kèngèng mator kaso'on ḍâ' abâ' dhibi'",
 	"thanks-error-notloggedin": "Pangangghuy sèloman ta' kèngèng ator-mator kaso'on",
 	"thanks-error-ratelimited": "{{GENDER:$1|Dhika}} ampon alampaè bâtas odhil. Ngèrèng, antos rèkenan sa'at lajhu oddhi agghi'.",
-	"thanks-error-api-params": "Parameter 'revid' otabâ 'logid' kodhu èbâghi",
 	"thanks-thank-tooltip": "{{GENDER:$1|Kèrèm}} sèttong partèla pamator kaso'on ḍâ' {{GENDER:$2|pangangghuy}} arèya",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Paburung}} notifikasi kaso'on",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Kèrèm}} notifikasi kaso'on",

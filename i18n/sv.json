@@ -31,7 +31,6 @@
 	"thanks-error-invalidrecipient-self": "Du kan inte tacka dig själv",
 	"thanks-error-notloggedin": "Anonyma användare kan inte skicka tack",
 	"thanks-error-ratelimited": "{{GENDER:$1|Du}} har överskridit din frekvensgräns. Var god vänta en stund och försök igen.",
-	"thanks-error-api-params": "Antingen parametern \"revid\" eller \"logid\" måste anges",
 	"thanks-thank-tooltip": "{{GENDER:$1|Skicka}} ett tackmeddelande till denna {{GENDER:$2|användare}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Avbryt}} tackmeddelandet",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Skicka}} tackmeddelandet",

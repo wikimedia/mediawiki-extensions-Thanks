@@ -33,7 +33,6 @@
 	"thanks-error-invalidrecipient-self": "Du kannst dir nicht selbst danken",
 	"thanks-error-notloggedin": "Anonyme Benutzer können keine Dankeschöns senden",
 	"thanks-error-ratelimited": "{{#FORMAL:{{GENDER:$1|Du}} hast dein|Sie haben Ihr}} Aktionslimit überschritten. Bitte {{#FORMAL:warte|warten Sie}} etwas und {{#FORMAL:versuche|versuchen Sie}} es erneut.",
-	"thanks-error-api-params": "Es muss entweder der Parameter „revid“ oder „logid“ angegeben werden",
 	"thanks-thank-tooltip": "{{GENDER:$2|Diesem Benutzer|Dieser Benutzerin}} ein Dankeschön {{GENDER:$1|senden}}",
 	"thanks-thank-tooltip-no": "Die Dankeschön-Benachrichtigung {{GENDER:$1|abbrechen}}",
 	"thanks-thank-tooltip-yes": "Die Dankeschön-Benachrichtigung {{GENDER:$1|senden}}",

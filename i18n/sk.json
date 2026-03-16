@@ -25,7 +25,6 @@
 	"thanks-error-invalidrecipient-self": "Nemôžete poďakovať sami sebe.",
 	"thanks-error-notloggedin": "Anonymní používatelia nemôžu poďakovať",
 	"thanks-error-ratelimited": "{{GENDER:$1|Prekročili}} ste množstvový limit. Počkajte chvíľu, prosím, a skúste to znovu.",
-	"thanks-error-api-params": "Musíte zadať buď parameter „revid“ alebo „logid“",
 	"thanks-thank-tooltip": "{{GENDER:$1|Poslať}} {{GENDER:$2|tomuto redaktorovi|tejto redaktorke}} poďakovanie",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Zrušiť}} poslanie poďakovania",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Poslať}} poďakovanie",

@@ -31,7 +31,6 @@
 	"thanks-error-invalidrecipient-self": "Et voi kiittää itseäsi",
 	"thanks-error-notloggedin": "Anonyymit käyttäjät eivät voi lähettää kiitoksia",
 	"thanks-error-ratelimited": "{{GENDER:$1|Olet}} ylittänyt toimintorajasi. Odota hetki ja yritä uudelleen.",
-	"thanks-error-api-params": "Joko ”revid”- tai ”logid”-parametri tulee antaa.",
 	"thanks-thank-tooltip": "{{GENDER:$1|Lähetä}} kiitoksesi tälle {{GENDER:$2|käyttäjälle}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Älä lähetä}} kiitoksia",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Lähetä}} kiitokset käyttäjälle",

@@ -22,7 +22,6 @@
 	"thanks-error-invalidrecipient-self": "Ne možete zahvaliti sami sebi",
 	"thanks-error-notloggedin": "Neprijavljeni korisnici ne mogu slati zahvalnice",
 	"thanks-error-ratelimited": "{{GENDER:$1|Prekoračili ste}} ograničenje za slanje zahvalnica. Pričekajte neko vrijeme pa pokušajte ponovo.",
-	"thanks-error-api-params": "Mora se navesti parametar \"revid\" ili \"logid\"",
 	"thanks-thank-tooltip": "{{GENDER:$1|Pošaljite}} zahvalnicu {{GENDER:$2|ovom korisniku|оvoj korisnici}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Otkažite}} slanje zahvalnice",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Potvrdite}} slanje zahvalnice",

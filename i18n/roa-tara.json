@@ -20,7 +20,6 @@
 	"thanks-error-invalidrecipient-self": "Non ge te puè rengrazià da sule",
 	"thanks-error-notloggedin": "Le utinde anonime no ponne mannà rengraziaminde",
 	"thanks-error-ratelimited": "{{GENDER:$1|Tu}} è sbunnate le limite de valutazione tune. Pe piacere aspitte 'nu picche e pruève arrete.",
-	"thanks-error-api-params": "Tutte e doje le parametre 'revid' o 'logid' onna essere mise",
 	"thanks-thank-tooltip": "{{GENDER:$1|Manne}} 'na notifiche de rengraziamende a stu {{GENDER:$2|utende}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Annulle}} 'a notifeche de rengraziamende",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Manne}} 'na notifeche de rengraziamende",

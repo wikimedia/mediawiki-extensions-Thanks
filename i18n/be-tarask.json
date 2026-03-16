@@ -24,7 +24,6 @@
 	"thanks-error-invalidrecipient-self": "Самім сабе дзякаваць нельга",
 	"thanks-error-notloggedin": "Ананімныя ўдзельнікі ня могуць адсылаць падзякі",
 	"thanks-error-ratelimited": "{{GENDER:$1|Вы}} перавысілі абмежаваньне хуткасьці выкананьня. Калі ласка, пачакайце крыху і паўтарыце спробу.",
-	"thanks-error-api-params": "Мусіць быць пададзены адзін з парамэтраў «revid» ці «logid»",
 	"thanks-thank-tooltip": "{{GENDER:$1|Адаслаць}} {{GENDER:$2|гэтаму карыстальніку|гэтай карыстальніцы}} падзяку",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Скасаваць}} абвестку пра падзяку",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Адаслаць}} абвестку пра падзяку",

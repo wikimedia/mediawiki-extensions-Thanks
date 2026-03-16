@@ -21,7 +21,6 @@
 	"thanks-error-invalidrecipient-self": "ߌ ߕߴߛߋ߫ ߌ ߖߘߍ߬ ߞߏߢߌߡߊߟߐ߲߫ ߠߊ߫",
 	"thanks-error-notloggedin": "ߟߊ߬ߓߊ߰ߙߊ߬ߟߊ߫ ߕߐ߯ߒߕߊ߲ ߕߴߛߋ߫ ߌ ߣߌ߫ ߗߋ ߗߋ߫ ߟߊ߫",
 	"thanks-error-ratelimited": "{{GENDER:$1|ߌ}} ߓߘߊ߫ ߛߴߌ ߟߊ߫ ߝߙߊ ߘߊ߲߭ ߠߊ߫. ߥߊ߯ߕߌ ߘߏ߫ ߘߐߞߐ߬ߣߐ߲߫ ߖߊ߰ߣߌ߲߫ ߞߵߊ߬ ߡߊߝߍߣߍ߲߫ ߞߎߘߊ߫ ߘߌ߫.",
-	"thanks-error-api-params": "ߕߎ߬ߡߊ߬ߘߐ߫ 'revid' ߥߟߊ߫ 'logid' ߟߊ߬ߓߍ߲߬ߢߐ߲߰ߡߦߊ߬ߘߊ ߟߋ߬ ߞߊ߫ ߞߊ߲߫ ߦߋ߫ ߞߊ߬ ߡߊߛߐ߫.",
 	"thanks-thank-tooltip": "{{GENDER:$1|ߗߋ߫}} ߞߎ߲ߟߎ߲ߖߋߟߌ߫ ߗߋߛߓߍ ߗߋ߫ {{GENDER:$2|ߟߊ߬ߓߊ߰ߙߊ߬ߟߊ}} ߡߊ߬",
 	"thanks-thank-tooltip-no": "$1 ߓߘߊ߫ ߌ ߣߌ߫ ߗߋ ߖߊ߲߬ߓߌ߬ߟߊ߬ߟߌ {{GENDER:|ߘߐߛߊ߬}}",
 	"thanks-thank-tooltip-yes": "$1 ߓߘߊ߫ ߌ ߣߌ߫ ߗߋ ߖߊ߲߬ߓߌ߬ߟߊ߬ߟߌ {{GENDER:|ߗߋ߫}}",

@@ -22,7 +22,6 @@
 	"thanks-error-invalidrecipient-self": "Ida tan prasida ngaturang suksema antuk ngaraga",
 	"thanks-error-notloggedin": "Anganggé anonim tan prasida ngaturang suksma",
 	"thanks-error-ratelimited": "{{GENDER:$1|Ida}} sampun ngaliwatin wates Ida. Durus jantos ajebos miwah coba malih.",
-	"thanks-error-api-params": "Paraméter 'revid' utawi 'logid' patut kaicain",
 	"thanks-thank-tooltip": "{{GENDER:$1|Kirim}} atur piuning ngaturang suksma majeng ring {{GENDER:$2|pangawi}}",
 	"thanks-thank-tooltip-no": "{{GENDER:$1|Wangdé}} panginget matur suksema",
 	"thanks-thank-tooltip-yes": "{{GENDER:$1|Kirim}} panginget matur suksma",
