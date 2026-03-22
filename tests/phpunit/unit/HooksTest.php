@@ -10,7 +10,7 @@ use MediaWikiUnitTestCase;
  */
 class HooksTest extends MediaWikiUnitTestCase {
 
-	public function provideGetSessionKey() {
+	public static function provideGetSessionKey() {
 		return [
 			[ 'rev', 123, 'thanks-thanked-rev123' ],
 			[ 'revision', 456, 'thanks-thanked-rev456' ],
