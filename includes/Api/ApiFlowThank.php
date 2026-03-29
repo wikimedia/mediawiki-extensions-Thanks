@@ -68,7 +68,8 @@ class ApiFlowThank extends ApiThank {
 		$rootPost = $data['root'];
 		$workflowId = $rootPost->getPostId();
 		$rawTopicTitleText = Utils::htmlToPlaintext(
-			Container::get( 'templating' )->getContent( $rootPost, 'topic-title-html' )
+			Container::get( 'templating' )->getContent( $rootPost, 'topic-title-html' ),
+			$this->getLanguage()
 		);
 		// Truncate the title text to prevent issues with database storage.
 		$topicTitleText = $this->getLanguage()->truncateForDatabase( $rawTopicTitleText, 200 );
@@ -77,7 +78,7 @@ class ApiFlowThank extends ApiThank {
 
 		/** @var PostRevision $post */
 		$post = $data['post'];
-		$postText = Utils::htmlToPlaintext( $post->getContent() );
+		$postText = Utils::htmlToPlaintext( $post->getContent(), $this->getLanguage() );
 		$postText = $this->getLanguage()->truncateForDatabase( $postText, 200 );
 
 		$topicTitle = $this->getTopicTitleFromRootPost( $rootPost );
