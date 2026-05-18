@@ -12,5 +12,6 @@
 	"notification-header-rev-thank": "$1 {{GENDER:$2|waan}} {{GENDER:$4|kaaga}} mahad celinayaa bedelka aad ku samaysay '''$3'''.",
 	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Hal qof|$1 qof|100=99+ qof}} ayaa uga mahadceliyay {{GENDER:$3|adiga}} tafatirkaaga ee <strong>$2</strong>.",
 	"notification-bundle-header-log-thank": "{{PLURAL:$1|Hal qof|$1 qof|100=99+ qof}} ayaa uga mahadceliyay {{GENDER:$3|adiga}} falkaaga la xiriira <strong>$2</strong>.",
+	"log-description-thanks": "Hoos waxaa ku qoran liiska isticmaalayaasha ay isticmaalayaal kale u mahadceliyeen.",
 	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Hal qof|$1 qof|100=99+ qof}} ayaa uga mahadceliyay {{GENDER:$3|adiga}} faalladaada ee \"<strong>$2</strong>\"."
 }
