@@ -13,7 +13,7 @@
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|падзякаваў}}|{{GENDER:$2|падзякавала}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Дзякуй}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Падзякаваў}}|{{GENDER:$2|Падзякавала}}}}",
-	"thanks-error-undefined": "Не атрымалася падзякаваць (код памылкі: $1). Калі ласка, паспрабуйце яшчэ раз.",
+	"thanks-error-undefined": "Не ўдалося падзякаваць (код памылкі: $1). Калі ласка, паспрабуйце яшчэ раз.",
 	"thanks-error-invalid-log-id": "Запіс журналу ня знойдзены",
 	"thanks-error-invalid-log-type": "Тып журналу «$1» не ў сьпісе дазволеных тыпаў.",
 	"thanks-error-log-deleted": "Запытаны запіс журналу быў выдалены, і за яго немагчыма падзякаваць.",
