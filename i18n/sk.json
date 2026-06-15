@@ -56,5 +56,6 @@
 	"flow-thanks-thanked-notice": "{{GENDER:$2|Používateľ|Používateľka|Používateľ(ka)}} $1 {{GENDER:$2|obdržal|obdržala|obdržal(a)}} {{GENDER:$3|vaše}} poďakovanie za svoj komentár.",
 	"notification-header-flow-thank": "$1 {{GENDER:$5|vám}} {{GENDER:$2|poďakoval|poďakovala}} za komentár k téme „<strong>$3</strong>“.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|vám}} {{GENDER:$2|poďakoval|poďakovala|poďakoval(a)}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Jeden človek|$1 ľudia|$1 ľudí|100=Viac ako 99 ľudí}} {{GENDER:$3|vám}} {{PLURAL:$1|poďakoval|poďakovali|poďakovalo}} za váš komentár k téme „<strong>$2</strong>“."
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Jeden človek|$1 ľudia|$1 ľudí|100=Viac ako 99 ľudí}} {{GENDER:$3|vám}} {{PLURAL:$1|poďakoval|poďakovali|poďakovalo}} za váš komentár k téme „<strong>$2</strong>“.",
+	"ipb-action-thanks": "Odoslanie poďakovania"
 }
