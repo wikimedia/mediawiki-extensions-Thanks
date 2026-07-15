@@ -4,6 +4,7 @@
 			"Chrumps",
 			"Macofe",
 			"Matma Rex",
+			"PanWor",
 			"Rail",
 			"Railfail536",
 			"Sethakill",
@@ -61,6 +62,6 @@
 	"flow-thanks-thanked-notice": "{{GENDER:$3|Podziękowałeś|Podziękowałaś|Podziękowano}} $1 za {{GENDER:$2|jego|jej}} komentarz.",
 	"notification-header-flow-thank": "$1 {{GENDER:$2|podziękował|podziękowała|dziękuje}} {{GENDER:$5|Ci}} za komentarz w „<strong>$3</strong>”.",
 	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|podziękował|podziękowała|dziękuje}} {{GENDER:$3|Ci}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Jedna osoba podziękowała|$1 osoby podziękowały|$1 osób podziękowało|100=Co najmniej 100 osób podziękowało}} {{GENDER:$3|ci}} za twój komentarz w „<strong>$2</strong>”.",
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Jedna osoba podziękowała|$1 osoby podziękowały|$1 osób podziękowało|100=Co najmniej 100 osób podziękowało}} {{GENDER:$3|Ci}} za Twój komentarz w „<strong>$2</strong>”.",
 	"ipb-action-thanks": "Wysyłanie podziękowań"
 }
