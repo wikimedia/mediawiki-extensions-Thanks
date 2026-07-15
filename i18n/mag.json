@@ -5,7 +5,7 @@
 		]
 	},
 	"thanks-desc": "सदस्सके सम्पादन, टिप्पणी आदि के धन्यबाद लागि कड़ी जोड़ी ।",
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|धन्यबाद दी}}}}",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|धन्यवाद देथिन}}}}",
 	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|धन्यबाद देलन}}}}",
 	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|धन्यबाद}}}}",
 	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|धन्यबाद देलन}}}}",
