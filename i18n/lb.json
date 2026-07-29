@@ -40,7 +40,7 @@
 	"log-description-thanks": "Hei drënner ass eng Lëscht vu Benotzer déi anere Benotzer 'Merci' gesot hunn.",
 	"logentry-thanks-thank": "{{GENDER:$2|De(n) $1|D'$1}} huet dem {{GENDER:$4|$3}} Merci gesot",
 	"logeventslist-thanks-log": "Logbuch vum Merci-soen",
-	"thanks-error-no-id-specified": "Dir musst eng Versioun oder Log-ID ugi fir e Merci ze schécken.",
+	"thanks-error-no-id-specified": "Dir musst eng Versiouns- oder Logbuch-ID uginn, fir e Merci ze schécken.",
 	"thanks-confirmation-special-log": "Wëllt Dir ëffentlech ee „Merci“ schécke fir dës Log-Aktioun?",
 	"thanks-confirmation-special-rev": "Wëllt Dir ëffentlech ee „Merci“ schécke fir dës Ännerung?",
 	"notification-link-text-view-post": "Bemierkung weisen",
