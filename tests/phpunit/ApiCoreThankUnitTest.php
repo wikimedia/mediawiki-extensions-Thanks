@@ -9,6 +9,7 @@ use MediaWiki\Tests\Api\ApiTestCase;
 use MediaWiki\User\TempUser\TempUserDetailsLookup;
 use MediaWiki\User\User;
 use MediaWiki\User\UserIdentityValue;
+use Wikimedia\TestingAccessWrapper;
 
 /**
  * Unit tests for the Thanks API module
@@ -76,15 +77,15 @@ class ApiCoreThankUnitTest extends ApiTestCase {
 				->willReturn( $mockBlock );
 		}
 
-		$module = $this->getModule();
-		$method = new ReflectionMethod( $module, $dieMethod );
+		$module = TestingAccessWrapper::newFromObject( $this->getModule() );
 
 		if ( $expectedError ) {
-			$this->expectApiErrorCodeFromCallback( $expectedError, static function () use ( $method, $module, $user ) {
-				$method->invoke( $module, $user );
-			} );
+			$this->expectApiErrorCodeFromCallback( $expectedError,
+				static function () use ( $dieMethod, $module, $user ) {
+					$module->$dieMethod( $user );
+				} );
 		} else {
-			$method->invoke( $module, $user );
+			$module->$dieMethod( $user );
 			// perhaps the method should return true.. For now we must do this
 			$this->assertTrue( true );
 		}
@@ -132,7 +133,7 @@ class ApiCoreThankUnitTest extends ApiTestCase {
 			->willReturn( true );
 
 		$services = $this->getServiceContainer();
-		$module = new ApiCoreThank(
+		$module = TestingAccessWrapper::newFromObject( new ApiCoreThank(
 			new ApiMain(),
 			'thank',
 			$services->getPermissionManager(),
@@ -141,17 +142,15 @@ class ApiCoreThankUnitTest extends ApiTestCase {
 			$services->getRevisionStore(),
 			$services->getUserFactory(),
 			$tempUserDetailsLookup
-		);
+		) );
 
 		$user = $this->createMock( User::class );
 		$user->method( 'getId' )->willReturn( 1 );
 		$recipient = $this->createMock( User::class );
 		$recipient->method( 'getId' )->willReturn( 2 );
 
-		$method = new ReflectionMethod( $module, 'dieOnBadRecipient' );
-
 		try {
-			$method->invoke( $module, $user, $recipient );
+			$module->dieOnBadRecipient( $user, $recipient );
 			$this->fail( 'Expected ApiUsageException for an expired temporary recipient' );
 		} catch ( ApiUsageException $exception ) {
 			$this->assertApiErrorCode( 'invalidrecipient', $exception );
