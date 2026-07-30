@@ -20,6 +20,7 @@
 	"thanks-error-revdeleted": "Lama diri karo mahadcelin sababtoo ah dib u eegista waa la tirtiray.",
 	"thanks-error-invalidrecipient": "Lama helin qaate sax ah",
 	"thanks-error-invalidrecipient-bot": "Bots lama mahadcelin karo",
+	"thanks-error-invalidrecipient-expired": "Isticmaaleyaasha ku meelgaarka ah ee dhacay lama mahadin celin karo",
 	"thanks-error-invalidrecipient-self": "Naftaada lama mahadcelin karo",
 	"thanks-error-notloggedin": "Isticmaalayaasha aan la aqoonsan ma diri karaan mahadcelin",
 	"thanks-error-ratelimited": "{{GENDER:$1|Adiga}} waxaad dhaaftay xadka waqtiga la oggol yahay. Fadlan sug wakhti ka dibna mar kale isku day.",
