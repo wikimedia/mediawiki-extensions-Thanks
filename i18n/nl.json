@@ -38,6 +38,7 @@
 	"thanks-error-revdeleted": "Bedankje niet verstuurd, omdat de versie gewist is",
 	"thanks-error-invalidrecipient": "Geen geldige ontvanger gevonden",
 	"thanks-error-invalidrecipient-bot": "Bots kunnen geen bedankjes ontvangen",
+	"thanks-error-invalidrecipient-expired": "Tijdelijke gebruikers waarvan de gebruiksdatum is verlopen, kunnen niet bedankt worden",
 	"thanks-error-invalidrecipient-self": "U kunt niet uzelf bedanken",
 	"thanks-error-notloggedin": "Anonieme gebruikers kunnen geen bedankjes versturen",
 	"thanks-error-ratelimited": "{{GENDER:$1|U}} hebt uw tempobeperking overschreden. Wacht een tijdje en probeer het dan nog eens.",

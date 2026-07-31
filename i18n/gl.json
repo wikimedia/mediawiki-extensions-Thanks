@@ -22,6 +22,7 @@
 	"thanks-error-revdeleted": "Non se pode enviar o agradecemento porque se borrou a revisión.",
 	"thanks-error-invalidrecipient": "Non se atopou un destinatario válido",
 	"thanks-error-invalidrecipient-bot": "Non se pode agradecer a bots",
+	"thanks-error-invalidrecipient-expired": "Os usuarios temporais caducados non poden recibir agradecementos",
 	"thanks-error-invalidrecipient-self": "Non te podes agradecer a ti {{GENDER:|mesmo|mesma}}",
 	"thanks-error-notloggedin": "Os usuarios anónimos non poden enviar agradecementos",
 	"thanks-error-ratelimited": "{{GENDER:$1|Superaches}} o teu límite. Agarda uns minutos e inténtao de novo.",

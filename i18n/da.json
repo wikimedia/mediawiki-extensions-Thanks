@@ -28,6 +28,7 @@
 	"thanks-error-revdeleted": "Kan ikke sende tak, da sideversionen er blevet slettet.",
 	"thanks-error-invalidrecipient": "Ingen gyldig modtager fundet",
 	"thanks-error-invalidrecipient-bot": "Botter kan ikke takkes",
+	"thanks-error-invalidrecipient-expired": "Udløbne midlertidige brugere kan ikke takkes",
 	"thanks-error-invalidrecipient-self": "Du kan ikke takke dig selv",
 	"thanks-error-notloggedin": "Anonyme brugere kan ikke sende tak",
 	"thanks-error-ratelimited": "{{GENDER:$1|Du}} har overskredet din hyppighedsgrænse. Vent et stykke tid og prøv igen.",

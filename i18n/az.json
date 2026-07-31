@@ -25,6 +25,7 @@
 	"thanks-error-revdeleted": "Redaktə silindiyi üçün təşəkkür göndərmək mümkün deyil.",
 	"thanks-error-invalidrecipient": "Etibarlı alıcı tapılmadı",
 	"thanks-error-invalidrecipient-bot": "Botlara təşəkkür etmək mümkün deyil",
+	"thanks-error-invalidrecipient-expired": "Müddəti bitmiş müvəqqəti istifadəçilərə təşəkkür etmək mümkün deyil",
 	"thanks-error-invalidrecipient-self": "Özünüzə təşəkkür edə bilməzsiniz",
 	"thanks-error-notloggedin": "Anonim istifadəçilər təşəkkür göndərə bilməz",
 	"thanks-error-ratelimited": "{{GENDER:$1|Siz}} limiti aşmısınız. Bir az gözləyin və yenidən cəhd edin.",
