@@ -28,6 +28,7 @@
 	"thanks-error-revdeleted": "Ei voitu kiittää, koska sivuversio on poistettu.",
 	"thanks-error-invalidrecipient": "Vastaanottajaa ei löytynyt",
 	"thanks-error-invalidrecipient-bot": "Botteja ei voi kiittää",
+	"thanks-error-invalidrecipient-expired": "Vanhentuneita tilapäisiä käyttäjiä ei voida kiittää",
 	"thanks-error-invalidrecipient-self": "Et voi kiittää itseäsi",
 	"thanks-error-notloggedin": "Anonyymit käyttäjät eivät voi lähettää kiitoksia",
 	"thanks-error-ratelimited": "{{GENDER:$1|Olet}} ylittänyt toimintorajasi. Odota hetki ja yritä uudelleen.",

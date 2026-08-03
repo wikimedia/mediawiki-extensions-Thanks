@@ -36,6 +36,7 @@
 	"thanks-error-revdeleted": "غير قادر على إرسال شكرا لأنه قد تم حذف المراجعة.",
 	"thanks-error-invalidrecipient": "لم يتم العثور على مستقبل صحيح",
 	"thanks-error-invalidrecipient-bot": "البوتات لا يمكن شكرها",
+	"thanks-error-invalidrecipient-expired": "لا يمكن شكر المستخدمين المؤقتين الذين انتهت صلاحية حساباتهم.",
 	"thanks-error-invalidrecipient-self": "لا يمكنك شكر نفسك",
 	"thanks-error-notloggedin": "المستخدمون المجهولون لا يمكنهم إرسال شكر",
 	"thanks-error-ratelimited": "لقد {{GENDER:$1|تجاوزت}} حد التقييم، انتظر لبعض الوقت ثم حاول مجددًا.",

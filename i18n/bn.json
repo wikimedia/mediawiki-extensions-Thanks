@@ -25,6 +25,7 @@
 	"thanks-error-revdeleted": "সংশোধনটি মুছে ফেলার কারণে ধন্যবাদ জানানো যাচ্ছে না।",
 	"thanks-error-invalidrecipient": "কোনো বৈধ প্রাপক পাওয়া যায়নি",
 	"thanks-error-invalidrecipient-bot": "বটকে ধন্যবাদ দেয়া যাবে না",
+	"thanks-error-invalidrecipient-expired": "মেয়াদ উত্তীর্ণ অস্থায়ী ব্যবহারকারীদের ধন্যবাদ জানানো যাবে না",
 	"thanks-error-invalidrecipient-self": "আপনি নিজেকে নিজে ধন্যবাদ দিতে পারবেন না",
 	"thanks-error-notloggedin": "বেনামী ব্যবহারকারীগণ ধন্যবাদ পাঠাতে পারবে না",
 	"thanks-error-ratelimited": "{{GENDER:$1|আপনি}} নির্ধারিত অনুরোধের সীমা অতিক্রম করেছেন। অনুগ্রহ করে অপেক্ষা করুন এবং পুনরায় চেষ্টা করুন।",

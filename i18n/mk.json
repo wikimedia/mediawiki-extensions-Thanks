@@ -19,6 +19,7 @@
 	"thanks-error-revdeleted": "Не можам да благодарам бидејќи преработката е избришана.",
 	"thanks-error-invalidrecipient": "Не пронајдов важечки примач",
 	"thanks-error-invalidrecipient-bot": "Не можете да им се заблагодарувате на ботови",
+	"thanks-error-invalidrecipient-expired": "Не можете да им благодарите на истечени привремени корисници",
 	"thanks-error-invalidrecipient-self": "Не можете да си се заблагодарувате себеси",
 	"thanks-error-notloggedin": "Анонимните корисници не можат да испраќаат благодарници",
 	"thanks-error-ratelimited": "{{GENDER:$1|Ја надминавте}} границата на благодарници. Почекајте некое време, па обидете се подоцна",
