@@ -9,7 +9,6 @@
 		"test:i18n": "grunt test"
 	},
 	"devDependencies": {
-		"eslint": "^8.57.1",
 		"eslint-config-wikimedia": "0.32.4",
 		"grunt": "1.6.2",
 		"grunt-banana-checker": "0.13.0",
