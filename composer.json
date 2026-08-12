@@ -1,4 +1,14 @@
 {
+	"name": "mediawiki/thanks",
+	"type": "mediawiki-extension",
+	"description": "Adds links for thanking users for edits, comments, etc.",
+	"keywords": [
+		"wiki",
+		"MediaWiki",
+		"extension"
+	],
+	"homepage": "https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Thanks",
+	"license": "MIT",
 	"require-dev": {
 		"mediawiki/mediawiki-codesniffer": "52.0.0",
 		"mediawiki/mediawiki-phan-config": "0.20.0",
