@@ -22,7 +22,8 @@
 			"SPQRobin",
 			"Siebrand",
 			"Sjoerddebruin",
-			"Southparkfan"
+			"Southparkfan",
+			"Sumurai8"
 		]
 	},
 	"thanks-desc": "Voegt koppelingen toe voor het bedanken van gebruikers voor bewerkingen, reacties, enzovoort.",
@@ -53,11 +54,11 @@
 	"echo-pref-tooltip-edit-thank": "Meld mij wanneer iemand mij bedankt voor een bewerking die ik gedaan heb.",
 	"echo-category-title-edit-thank": "Bedankjes",
 	"notification-header-rev-thank": "$1 {{GENDER:$2|heeft}} {{GENDER:$4|u}} bedankt voor uw bewerking op <strong>$3</strong>.",
-	"notification-header-creation-thank": "$1 {{GENDER:$2|heeft}} {{GENDER:$4|u}} bedankt voor het aanmaken van <strong>$3</strong>.",
-	"notification-header-log-thank": "$1 {{GENDER:$2|heeft}} {{GENDER:$4|u}} bedankt voor uw bewerking op <strong>$3</strong>.",
-	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|bedankte}} {{GENDER:$3|u}}.",
-	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Eén persoon bedankte|$1 personen bedankten|100=99+ personen bedankten}} {{GENDER:$3|u}} voor uw bewerking op <strong>$2</strong>.",
-	"notification-bundle-header-log-thank": "{{PLURAL:$1|Eén persoon bedankte|$1 personen bedankten|100=99+ personen bedankten}} {{GENDER:$3|u}} voor uw bewerking op <strong>$2</strong>.",
+	"notification-header-creation-thank": "$1 {{GENDER:$2|heeft}} {{GENDER:$4|u}} bedankt voor het aanmaken van <strong>$3</strong>",
+	"notification-header-log-thank": "$1 {{GENDER:$2|heeft}} {{GENDER:$4|u}} bedankt voor uw handeling op <strong>$3</strong>",
+	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|heeft}} {{GENDER:$3|u}} bedankt",
+	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Eén persoon heeft u bedankt|$1 personen hebben u bedankt|100=99+ personen hebben u bedankt}} {{GENDER:$3|u}} voor uw bewerking op <strong>$2</strong>",
+	"notification-bundle-header-log-thank": "{{PLURAL:$1|Eén persoon heeft u bedankt|$1 personen hebben u bedankt|100=99+ personen hebben u bedankt}} {{GENDER:$3|u}} voor uw handeling op <strong>$2</strong>",
 	"log-name-thanks": "Bedankjeslogboek",
 	"log-description-thanks": "Hieronder staat een lijst van gebruikers die door andere gebruikers zijn bedankt.",
 	"logentry-thanks-thank": "$1 {{GENDER:$2|heeft}} {{GENDER:$4|$3}} bedankt",
@@ -70,8 +71,8 @@
 	"thanks-error-invalidpostid": "Bericht-ID is niet geldig.",
 	"flow-thanks-confirmation-special": "Wilt u een openbaar bedankje sturen voor deze reactie?",
 	"flow-thanks-thanked-notice": "{{GENDER:$3|U}} hebt $1 bedankt voor {{GENDER:$2|zijn|haar|zijn/haar}} reactie.",
-	"notification-header-flow-thank": "$1 {{GENDER:$2|heeft}} {{GENDER:$5|u}} bedankt voor uw reactie op \"<strong>$3</strong>\".",
-	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|bedankte}} {{GENDER:$3|u}}.",
-	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Eén persoon bedankte|$1 personen bedankten|100=99+ personen bedankten}} {{GENDER:$3|u}} voor uw reactie op \"<strong>$2</strong>\".",
+	"notification-header-flow-thank": "$1 {{GENDER:$2|heeft}} {{GENDER:$5|u}} bedankt voor uw reactie op \"<strong>$3</strong>\"",
+	"notification-compact-header-flow-thank": "$1 {{GENDER:$2|heeft}} {{GENDER:$3|u}} bedankt",
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Eén persoon heeft u bedankt|$1 personen hebben u bedankt|100=99+ personen hebben u bedankt}} {{GENDER:$3|u}} voor uw reactie op \"<strong>$2</strong>\"",
 	"ipb-action-thanks": "Bedankje sturen"
 }
