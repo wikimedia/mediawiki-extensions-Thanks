@@ -5,8 +5,10 @@ namespace MediaWiki\Extension\Thanks\Storage;
 use InvalidArgumentException;
 use MediaWiki\CheckUser\Services\CheckUserInsert;
 use MediaWiki\Config\ServiceOptions;
+use MediaWiki\DomainEvent\DomainEventDispatcher;
 use MediaWiki\Extension\Thanks\Storage\Exceptions\InvalidLogType;
 use MediaWiki\Extension\Thanks\Storage\Exceptions\LogDeleted;
+use MediaWiki\Extension\Thanks\UserThankEvent;
 use MediaWiki\Logging\DatabaseLogEntry;
 use MediaWiki\Logging\ManualLogEntry;
 use MediaWiki\MediaWikiServices;
@@ -14,6 +16,7 @@ use MediaWiki\Registration\ExtensionRegistry;
 use MediaWiki\User\ActorNormalization;
 use MediaWiki\User\User;
 use Wikimedia\Rdbms\IConnectionProvider;
+use Wikimedia\Timestamp\ConvertibleTimestamp;
 
 /**
  * Manages the storage for Thank events.
@@ -28,6 +31,7 @@ class LogStore {
 		protected readonly IConnectionProvider $conn,
 		protected readonly ActorNormalization $actorNormalization,
 		protected readonly ExtensionRegistry $extensionRegistry,
+		private readonly DomainEventDispatcher $eventDispatcher,
 		protected readonly ServiceOptions $serviceOptions,
 	) {
 		$serviceOptions->assertRequiredOptions( self::CONSTRUCTOR_OPTIONS );
@@ -45,18 +49,33 @@ class LogStore {
 				'Temporary accounts may not thank other users.'
 			);
 		}
-		if ( !$this->serviceOptions->get( 'ThanksLogging' ) ) {
-			return;
-		}
-		$logEntry = new ManualLogEntry( 'thanks', 'thank' );
-		$logEntry->setPerformer( $user );
-		$logEntry->setRelations( [ 'thankid' => $uniqueId ] );
-		$target = $recipient->getUserPage();
-		$logEntry->setTarget( $target );
-		$logId = $logEntry->insert();
-		$logEntry->publish( $logId, 'udp' );
 
-		if ( $this->extensionRegistry->isLoaded( 'CheckUser' ) ) {
+		// XXX: this class should really do nothing when logging is disabled, but this is currently the closest we have
+		// to a behaviour layer for thanks, with a good chunk of the logic residing in API handlers. The event
+		// dispatching logic should be moved to the behaviour layer, once one exists.
+		if ( $this->serviceOptions->get( 'ThanksLogging' ) ) {
+			$logEntry = new ManualLogEntry( 'thanks', 'thank' );
+			$logEntry->setPerformer( $user );
+			$logEntry->setRelations( [ 'thankid' => $uniqueId ] );
+			$target = $recipient->getUserPage();
+			$logEntry->setTarget( $target );
+			$logId = $logEntry->insert();
+			$logEntry->publish( $logId, 'udp' );
+		} else {
+			$logEntry = $logId = null;
+		}
+
+		// TODO: Pass a LogRecord too, once that becomes stable (T427815)
+		$this->eventDispatcher->dispatch(
+			new UserThankEvent(
+				$user,
+				$recipient,
+				new ConvertibleTimestamp( $logEntry?->getTimestamp() ?? wfTimestampNow() )
+			),
+			$this->conn
+		);
+
+		if ( $logEntry && $logId && $this->extensionRegistry->isLoaded( 'CheckUser' ) ) {
 			// TODO: This should be done in a separate hook handler
 			/** @var CheckUserInsert $checkUserInsert */
 			$checkUserInsert = MediaWikiServices::getInstance()->get( 'CheckUserInsert' );

@@ -12,6 +12,7 @@ return [
 			$services->getConnectionProvider(),
 			$services->getActorNormalization(),
 			$services->getExtensionRegistry(),
+			$services->getDomainEventDispatcher(),
 			new ServiceOptions(
 				LogStore::CONSTRUCTOR_OPTIONS,
 				$services->getMainConfig()

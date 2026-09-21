@@ -6,11 +6,15 @@ use InvalidArgumentException;
 use MediaWiki\CheckUser\Services\CheckUserInsert;
 use MediaWiki\Config\ServiceOptions;
 use MediaWiki\Extension\Thanks\Storage\LogStore;
+use MediaWiki\Extension\Thanks\UserThankEvent;
 use MediaWiki\RecentChanges\RecentChange;
 use MediaWiki\Registration\ExtensionRegistry;
+use MediaWiki\Tests\ExpectCallbackTrait;
 use MediaWiki\Tests\User\TempUser\TempUserTestTrait;
+use MediaWiki\Utils\MWTimestamp;
 use MediaWikiIntegrationTestCase;
 use TestUser;
+use Wikimedia\Timestamp\ConvertibleTimestamp;
 
 /**
  * @covers \MediaWiki\Extension\Thanks\Storage\LogStore
@@ -18,6 +22,7 @@ use TestUser;
  */
 class LogStoreTest extends MediaWikiIntegrationTestCase {
 	use TempUserTestTrait;
+	use ExpectCallbackTrait;
 
 	public function testThankWhenPerformerIsTemporaryAccount() {
 		$this->enableAutoCreateTempUser();
@@ -85,11 +90,24 @@ class LogStoreTest extends MediaWikiIntegrationTestCase {
 
 		$performer = $this->getTestSysop()->getUser();
 		$recipient = $this->getTestUser()->getUser();
+		$fakeTime = new ConvertibleTimestamp( '20260921120000' );
+		MWTimestamp::setFakeTime( $fakeTime );
+
+		$this->expectDomainEvent(
+			UserThankEvent::TYPE,
+			1,
+			function ( UserThankEvent $event ) use ( $performer, $recipient, $fakeTime ): void {
+				$this->assertSame( $performer, $event->getPerformer(), 'Performer' );
+				$this->assertSame( $recipient, $event->getRecipient(), 'Recipient' );
+				$this->assertEquals( $fakeTime, $event->getEventTimestamp(), 'Timestamp' );
+			}
+		);
 
 		$thanksLogStore = new LogStore(
 			$this->getServiceContainer()->getConnectionProvider(),
 			$this->getServiceContainer()->getActorNormalization(),
 			$mockExtensionRegistry ?? $this->getServiceContainer()->getExtensionRegistry(),
+			$this->getServiceContainer()->getDomainEventDispatcher(),
 			new ServiceOptions(
 				LogStore::CONSTRUCTOR_OPTIONS,
 				$this->getServiceContainer()->getMainConfig()
