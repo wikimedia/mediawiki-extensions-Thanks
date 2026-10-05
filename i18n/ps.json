@@ -18,6 +18,7 @@
 	"thanks-error-revdeleted": "مننه نشي لېږل کېدای، ځکه چې بياليدنه ړنگه شوې ده.",
 	"thanks-error-invalidrecipient": "هېڅ باوري ترلاسه کوونکی ونه موندل شو",
 	"thanks-error-invalidrecipient-bot": "له روباټونو مننه نشي کېدای",
+	"thanks-error-invalidrecipient-expired": "وخت تېر شوي لنډمهاله کارنانو څخه مننه نشي کېدای",
 	"thanks-error-invalidrecipient-self": "له ځان مننه نشئ کولای",
 	"thanks-error-notloggedin": "بې‌نومه کارنان مننې نشي لېږلای",
 	"thanks-error-ratelimited": "{{GENDER:$1|تاسې}} د خپل ټاکلي بريد نه واوښتلئ. مهرباني وکړئ لږ څه تم شئ او بيا يې وآزمويئ.",
