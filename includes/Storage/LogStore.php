@@ -8,7 +8,7 @@ use MediaWiki\Config\ServiceOptions;
 use MediaWiki\DomainEvent\DomainEventDispatcher;
 use MediaWiki\Extension\Thanks\Storage\Exceptions\InvalidLogType;
 use MediaWiki\Extension\Thanks\Storage\Exceptions\LogDeleted;
-use MediaWiki\Extension\Thanks\UserThankEvent;
+use MediaWiki\Extension\Thanks\UserThankedEvent;
 use MediaWiki\Logging\DatabaseLogEntry;
 use MediaWiki\Logging\ManualLogEntry;
 use MediaWiki\MediaWikiServices;
@@ -67,7 +67,7 @@ class LogStore {
 
 		// TODO: Pass a LogRecord too, once that becomes stable (T427815)
 		$this->eventDispatcher->dispatch(
-			new UserThankEvent(
+			new UserThankedEvent(
 				$user,
 				$recipient,
 				new ConvertibleTimestamp( $logEntry?->getTimestamp() ?? wfTimestampNow() )

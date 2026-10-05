@@ -6,7 +6,7 @@ use InvalidArgumentException;
 use MediaWiki\CheckUser\Services\CheckUserInsert;
 use MediaWiki\Config\ServiceOptions;
 use MediaWiki\Extension\Thanks\Storage\LogStore;
-use MediaWiki\Extension\Thanks\UserThankEvent;
+use MediaWiki\Extension\Thanks\UserThankedEvent;
 use MediaWiki\RecentChanges\RecentChange;
 use MediaWiki\Registration\ExtensionRegistry;
 use MediaWiki\Tests\ExpectCallbackTrait;
@@ -94,9 +94,9 @@ class LogStoreTest extends MediaWikiIntegrationTestCase {
 		MWTimestamp::setFakeTime( $fakeTime );
 
 		$this->expectDomainEvent(
-			UserThankEvent::TYPE,
+			UserThankedEvent::TYPE,
 			1,
-			function ( UserThankEvent $event ) use ( $performer, $recipient, $fakeTime ): void {
+			function ( UserThankedEvent $event ) use ( $performer, $recipient, $fakeTime ): void {
 				$this->assertSame( $performer, $event->getPerformer(), 'Performer' );
 				$this->assertSame( $recipient, $event->getRecipient(), 'Recipient' );
 				$this->assertEquals( $fakeTime, $event->getEventTimestamp(), 'Timestamp' );

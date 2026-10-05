@@ -8,8 +8,8 @@ use MediaWiki\DomainEvent\DomainEvent;
 use MediaWiki\User\UserIdentity;
 use Wikimedia\Timestamp\ConvertibleTimestamp;
 
-class UserThankEvent extends DomainEvent {
-	public const TYPE = 'UserThank';
+class UserThankedEvent extends DomainEvent {
+	public const TYPE = 'UserThanked';
 
 	public function __construct(
 		private readonly UserIdentity $performer,
