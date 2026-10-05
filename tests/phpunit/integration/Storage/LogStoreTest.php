@@ -11,7 +11,6 @@ use MediaWiki\RecentChanges\RecentChange;
 use MediaWiki\Registration\ExtensionRegistry;
 use MediaWiki\Tests\ExpectCallbackTrait;
 use MediaWiki\Tests\User\TempUser\TempUserTestTrait;
-use MediaWiki\Utils\MWTimestamp;
 use MediaWikiIntegrationTestCase;
 use TestUser;
 use Wikimedia\Timestamp\ConvertibleTimestamp;
@@ -91,7 +90,7 @@ class LogStoreTest extends MediaWikiIntegrationTestCase {
 		$performer = $this->getTestSysop()->getUser();
 		$recipient = $this->getTestUser()->getUser();
 		$fakeTime = new ConvertibleTimestamp( '20260921120000' );
-		MWTimestamp::setFakeTime( $fakeTime );
+		ConvertibleTimestamp::setFakeTime( $fakeTime );
 
 		$this->expectDomainEvent(
 			UserThankedEvent::TYPE,
