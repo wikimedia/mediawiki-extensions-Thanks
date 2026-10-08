@@ -153,7 +153,7 @@ class Hooks implements
 		// Exclude temp users (T345679)
 		// Exclude users who are blocked.
 		// Check whether bots are allowed to receive thanks.
-		if ( $user->isNamed()
+		if ( $this->userIdentityUtils->isNamed( $user )
 			&& !$userIdentity->equals( $recipient )
 			&& !$this->isUserBlockedFromPage( $user, $revisionRecord->getPage() )
 			&& !self::isUserBlockedFromThanks( $user )
@@ -315,7 +315,7 @@ class Hooks implements
 	 * @param IContextSource $context RequestContext object
 	 */
 	public function onPageHistoryBeforeList( $page, $context ) {
-		if ( $context->getUser()->isNamed() ) {
+		if ( $this->userIdentityUtils->isNamed( $context->getUser() ) ) {
 			$this->addThanksModule( $context->getOutput() );
 		}
 	}
@@ -354,7 +354,7 @@ class Hooks implements
 	 * @param DifferenceEngine $diff DifferenceEngine object that's calling.
 	 */
 	public function onDifferenceEngineViewHeader( $diff ) {
-		if ( $diff->getUser()->isNamed() ) {
+		if ( $this->userIdentityUtils->isNamed( $diff->getUser() ) ) {
 			$this->addThanksModule( $diff->getOutput() );
 		}
 	}
@@ -458,7 +458,7 @@ class Hooks implements
 
 		// Don't provide thanks link if not named, blocked or if user is deleted from the log entry
 		if (
-			!$user->isNamed()
+			!$this->userIdentityUtils->isNamed( $user )
 			|| $entry->isDeleted( LogPage::DELETED_USER )
 			|| $this->isUserBlockedFromPage( $user, $entry->getTarget() )
 			|| self::isUserBlockedFromThanks( $user )
