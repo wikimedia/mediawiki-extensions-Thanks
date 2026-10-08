@@ -48,6 +48,7 @@ use MediaWiki\User\TempUser\TempUserDetailsLookup;
 use MediaWiki\User\User;
 use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserIdentity;
+use MediaWiki\User\UserIdentityUtils;
 
 class Hooks implements
 	ApiMain__moduleManagerHook,
@@ -71,6 +72,7 @@ class Hooks implements
 		private readonly UserFactory $userFactory,
 		private readonly UserOptionsManager $userOptionsManager,
 		private readonly TempUserDetailsLookup $tempUserDetailsLookup,
+		private readonly UserIdentityUtils $userIdentityUtils,
 	) {
 	}
 
@@ -106,6 +108,11 @@ class Hooks implements
 		$oldRevisionRecord,
 		$userIdentity
 	) {
+		if ( !$this->userIdentityUtils->isNamed( $userIdentity ) ) {
+			// Optimization: Avoid SQL queries below if we won't display the thank link anyway
+			return;
+		}
+
 		// Don't allow thanking for a diff that includes multiple revisions
 		// This does a query that is too expensive for history rows (T284274)
 		$previous = $this->revisionLookup->getPreviousRevision( $revisionRecord );
