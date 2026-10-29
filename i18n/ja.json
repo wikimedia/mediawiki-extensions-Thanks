@@ -32,6 +32,7 @@
 	"thanks-error-revdeleted": "指定した版が削除されたため感謝を送れません",
 	"thanks-error-invalidrecipient": "無効な対象者",
 	"thanks-error-invalidrecipient-bot": "ボットに感謝することはできません",
+	"thanks-error-invalidrecipient-expired": "期限切れの仮利用者は感謝を送れません",
 	"thanks-error-invalidrecipient-self": "自分自身を感謝することはできません",
 	"thanks-error-notloggedin": "匿名利用者には感謝できません",
 	"thanks-error-ratelimited": "{{GENDER:$1|}}速度制限を超えました。しばらくしてからもう一度やり直してください。",
