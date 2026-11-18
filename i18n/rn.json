@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gilbert Ndihokubwayo"
+			"Gilbert Ndihokubwayo",
+			"Afrib"
 		]
 	},
 	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|shima}}}}"
