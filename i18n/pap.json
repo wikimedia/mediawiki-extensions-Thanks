@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"ObaTango"
+			"ObaTango",
+			"Kallmemel"
 		]
 	},
-	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|yama danki}}}}"
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|yama danki}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|usuario a wòrdu gradisí}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Yama danki}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Usuario a wòrdu gradisí}}}}"
 }
